@@ -80,6 +80,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Gen I \& II](#gen-i--ii)
       - [Gen III](#gen-iii)
     - [Genius Sonority](#genius-sonority)
+    - [Genki](#genki)
     - [Grezzo](#grezzo)
     - [Guerrilla Games](#guerrilla-games)
     - [Gust (Koei Tecmo)](#gust-koei-tecmo)
@@ -704,8 +705,10 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Metal Gear Solid
 
-- [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
 - [Rex](https://github.com/Jayveer/Rex) - A tool to extract the Stage Dir and Dar files from the game Metal Gear Solid on PS1
+- [MGS-KMD-Noesis](https://github.com/Jayveer/MGS-KMD-Noesis) - Noesis Plugin for Metal Gear Solid PS1 Model (KMD) and Animation (OAR) files
+- [MGS2 HZX Format](https://github.com/GirianSeed/mgs2/blob/trunk/source/include/fmt_hzx.h) - Documentation for Metal Gear Solid 2 HZX (Hazard) map navigation format including patrol routes, navmesh, triggers, cameras, and spatial zones.
+- [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
 
 #### Silent Hill
 
@@ -714,7 +717,6 @@ This list is for developers and modders working with such formats. It provides t
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
 - [laura-a-n-n/silent-hill-museum](https://github.com/laura-a-n-n/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
-- [MGS-KMD-Noesis](https://github.com/Jayveer/MGS-KMD-Noesis) - Noesis Plugin for Metal Gear Solid PS1 Model (KMD) and Animation (OAR) files
 
 ### Kuju London
 
