@@ -577,6 +577,14 @@ This list is for developers and modders working with such formats. It provides t
 - [pokemon_fsys_tool](https://github.com/gamemasterplc/pokemon_fsys_tool) - Tool for FSYS archive format used in Pokémon Colosseum/XD.
 - [PokemonFSYSConverter](https://github.com/vgmoose/PokemonFSYSConverter) - Converter for FSYS archive format.
 
+### Genki
+
+*Jade Cocoon: Story of the Tamamayu, Jade Cocoon 2.*
+
+- [Jade-Cocoon-Unpacker-Repacker](https://github.com/Meos4/Jade-Cocoon-Unpacker-Repacker) - Tool to unpack and repack DATA.001 archive files from Jade Cocoon (PS1).
+- [Jade-Cocoon-2-Unpacker-Repacker](https://github.com/Meos4/Jade-Cocoon-2-Unpacker-Repacker) - Tool to unpack and repack archive files from Jade Cocoon 2 (PS2).
+- [Tamamayu-Monogatari-Dennou-Bijutsukan-Unpacker](https://github.com/Meos4/Tamamayu-Monogatari-Dennou-Bijutsukan-Unpacker) - Unpacker for DATA.001 archives from Tamamayu Monogatari Dennou Bijutsukan demo (PS1).
+
 ### Grezzo
 
 *Ocarina of Time 3D, Majora's Mask 3D, Luigi's Mansion remake.*
@@ -1111,6 +1119,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Sony (First Party)
 
+- [mkpsxiso](https://github.com/Lameguy64/mkpsxiso) - Tool to build and extract PlayStation 1 CD images from XML. Modern cross-platform replacement for BUILDCD from PsyQ SDK. Supports mixed-mode CD-XA with audio/video streams.
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - C# library for working with PlayStation PSARC archive format.
 
 ### Square Enix
