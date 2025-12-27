@@ -179,11 +179,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Discord Servers
 
-- [REGames](https://discord.gg/regames-760531247704702996) - Community for game reverse engineering and file format research.
-- [The VG Resource](https://discord.gg/tsr) - Community for The VG Resource asset databases (models, textures, sprites, sounds).
-- [The Cutting Room Floor (TCRF)](https://discord.gg/SGeE8dcWR6) - Community for discovering and documenting unused and debug game content.
-- [Reverse Engineering](https://discord.gg/reverse-engineering-391398885819547652) - General reverse engineering community and resources.
-- [noclip.website](https://discord.gg/bkJmKKv) - Community for the noclip.website in-browser game viewer project.
+- [REGames](https://discord.com/invite/regames-760531247704702996) - Community for game reverse engineering and file format research.
+- [The VG Resource](https://discord.com/invite/tsr) - Community for The VG Resource asset databases (models, textures, sprites, sounds).
+- [The Cutting Room Floor (TCRF)](https://discord.com/invite/SGeE8dcWR6) - Community for discovering and documenting unused and debug game content.
+- [Reverse Engineering](https://discord.com/invite/reverse-engineering-391398885819547652) - General reverse engineering community and resources.
+- [noclip.website](https://discord.com/invite/bkJmKKv) - Community for the noclip.website in-browser game viewer project.
 
 *Note: Many game-specific and studio-specific Discord servers exist for individual games and franchises. This list includes only general-purpose reverse engineering communities.*
 
@@ -937,7 +937,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Pokemon Snap)](https://github.com/magcius/noclip.website/tree/main/src/PokemonSnap) - In-browser Pokemon Snap viewer.
 - [noclip.website (Pokemon Platinum)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon Platinum viewer.
 - [noclip.website (Pokemon HeartGold/SoulSilver)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon HeartGold/SoulSilver viewer.
-- [amnoid.de/gc](http://amnoid.de/gc) - GameCube file format documentation and tools.
+- [amnoid.de/gc](http://amnoid.de/gc/) - GameCube file format documentation and tools.
 - [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) - Nintendo Wii/Gamecube BMS to MIDI converter
 - [CaveGenerator](https://github.com/Fizz14/CaveGenerator) - A tool to generate caves for Pikmin 2.
 - [NintyFont](https://github.com/hadashisora/NintyFont) - Nintendo binary font editor
@@ -1037,7 +1037,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
 - [noclip.website (Diddy Kong Racing)](https://github.com/magcius/noclip.website/tree/main/src/DiddyKongRacing) - In-browser Diddy Kong Racing viewer.
 - [noclip.website (Donkey Kong 64)](https://github.com/magcius/noclip.website/tree/main/src/DonkeyKong64) - In-browser Donkey Kong 64 viewer.
-- [noclip.website (GoldenEye 007)](https://github.com/magcios/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
+- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
 - [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
 - [DK64MapGenerator](https://github.com/GloriousLiar/DK64MapGenerator) - Tool for generating Donkey Kong 64 map and floor files from 3D meshes.
 - [Banjo-Kazooie-Floor-Tool](https://github.com/oohnahleevay/Banjo-Kazooie-Floor-Tool) - Tool to modify floor collision properties in Banjo-Kazooie.
