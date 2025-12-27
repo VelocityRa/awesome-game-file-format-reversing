@@ -56,6 +56,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
+    - [Ape, Inc](#ape-inc)
     - [Argonaut Games](#argonaut-games)
     - [Arkane Studios](#arkane-studios)
     - [Atlus](#atlus)
@@ -92,6 +93,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Glover](#glover)
     - [iNiS](#inis)
     - [Jupiter](#jupiter)
+    - [Jagex](#jagex)
     - [Konami](#konami)
       - [Metal Gear Solid](#metal-gear-solid)
       - [Silent Hill](#silent-hill)
@@ -398,6 +400,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [gba-mus-ripper](https://github.com/berg8793/gba-mus-ripper) - GBA music ripper.
 - [SapPy](https://github.com/hfmkwi/SapPy) - Python-based GBA sound tool.
+- [agbplay](https://github.com/ipatix/agbplay) - Music player and music ripper for GBA.
 - [sappy](https://github.com/maddievision/sappy) - GBA sound tool.
 - [Sappy (Touched)](https://github.com/Touched/Sappy) - Fork with additional features.
 
@@ -423,6 +426,14 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Grand Theft Auto III)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto III viewer.
 - [noclip.website (Grand Theft Auto: Vice City)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: Vice City viewer.
 - [noclip.website (Grand Theft Auto: San Andreas)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: San Andreas viewer.
+- [MidtownExtractor](https://github.com/0x1F9F1/MidtownExtractor) - Midtown Madness 1/2 and Midnight Club 2 File Extractor
+- [MeltyTool](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/AngelStudios) - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games en-masse.
+
+### Ape, Inc
+
+- [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) - Script dumper for EarthBound.
+- [ebtexted](https://github.com/PKHackers/ebtexted) - Text editor for EarthBound.
+- [EBME](https://github.com/Supremekirb/EBME) - EarthBound Map Editor.
 
 ### Argonaut Games
 
@@ -523,6 +534,8 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (DarkSouls)](https://github.com/magcius/noclip.website/tree/main/src/DarkSouls) - In-browser Dark Souls map viewer.
 - [DSAnimStudio](https://github.com/Meowmaritus/DSAnimStudio) - Animation and cutscene editor for Souls games.
 - [ESDLang](https://github.com/thefifthmatt/ESDLang) - Decompiler for ESD event script format.
+- [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
+- [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
 
 ### Game Freak
 
@@ -541,6 +554,9 @@ This list is for developers and modders working with such formats. It provides t
 - [porymap](https://github.com/huderlem/porymap) - Modern map editor for Gen III Pokémon games.
 - [MEH](https://github.com/shinyquagsire23/MEH) - Map editor for Gen III.
 - [AwesomeMapEditor](https://github.com/Sierraffinity/AwesomeMapEditor) - Alternative map editor for Gen III.
+- [Bulbapedia (Gen I)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_I)) - Save data structure documentation for Generation I.
+- [Bulbapedia (Gen II)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_II)) - Save data structure documentation for Generation II.
+- [Bulbapedia (Gen III)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_III)) - Save data structure documentation for Generation III.
 
 ### Genius Sonority
 
@@ -559,6 +575,7 @@ This list is for developers and modders working with such formats. It provides t
 - [N3DSCmbViewer](https://github.com/xdanieldzd/N3DSCmbViewer) - Viewer for 3DS CMB models.
 - [Scarlet](https://github.com/xdanieldzd/Scarlet) - General purpose 3DS/Vita game tool.
 - [Gar/Zar UnPacker](https://gbatemp.net/threads/release-gar-zar-unpacker-v0-1.385264/) - Archive unpacker for Ocarina of Time 3D and Majora's Mask 3D.
+- [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/tree/master/File_Format_Library/FileFormats/Grezzo) - A tool to edit many video game file formats
 
 ### Guerrilla Games
 
@@ -583,6 +600,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Kirby's Return to Dream Land)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Kirby's Return to Dream Land viewer.
 - [MeltyTool (Sysdolphin)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Sysdolphin) - Sysdolphin format viewer/exporter.
 - [Melee DAT format](https://smashboards.com/threads/melee-dat-format.292603/) - Documentation for Melee's DAT format.
+- [DATReaderC](https://github.com/EstevanBR/DATReaderC) - A C program that reads a .dat file (Super Smash Bros. Melee)
 
 ### Heavy Iron Studios
 
@@ -630,6 +648,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MeltyTool (TTYD)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/PaperMarioTheThousandYearDoor) - Model viewer/exporter.
 - [PistonMiner/ttyd-tools](https://github.com/PistonMiner/ttyd-tools) - Development tools including Blender exporter, disassembler, and REL linker.
 - [PaperMarioModelViewer](https://github.com/uyjulian/PaperMarioModelViewer) - Model viewer for Paper Mario games.
+- [CollisionSceneBinary](https://github.com/KillzXGaming/CollisionSceneBinary) - A library and tool for handling csb and ctb collision files found in paper mario games.
 
 ### Interactive Studios
 
@@ -652,11 +671,20 @@ This list is for developers and modders working with such formats. It provides t
 - [MarioPicrossLoader3000](https://github.com/T0biasCZe/MarioPicrossLoader3000) - Asset loader and viewer for Mario's Picross.
 - [Picross Level Data](https://www.zophar.net/fileuploads/3/21546xutra/picrossleveldata.txt) - Technical documentation for Mario's Picross level data format.
 
+### Jagex
+
+*Old School RuneScape / RuneScape.*
+
+- [CacheModelTools](https://github.com/Bloodspawns/CacheModelTools) - Tools for extracting and viewing OSRS cache models.
+- [OSRS-Environment-Exporter](https://github.com/ConnorDY/OSRS-Environment-Exporter) - Environment and map exporter for Old School RuneScape.
+- [modelviewer](https://github.com/waleedyaseen/modelviewer) - Model viewer for RuneScape cache files.
+
 ### Konami
 
 #### Metal Gear Solid
 
 - [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
+- [Rex](https://github.com/Jayveer/Rex) - A tool to extract the Stage Dir and Dar files from the game Metal Gear Solid on PS1
 
 #### Silent Hill
 
@@ -665,6 +693,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
 - [laura-a-n-n/silent-hill-museum](https://github.com/laura-a-n-n/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
+- [MGS-KMD-Noesis](https://github.com/Jayveer/MGS-KMD-Noesis) - Noesis Plugin for Metal Gear Solid PS1 Model (KMD) and Animation (OAR) files
 
 ### Kuju London
 
@@ -693,6 +722,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Metanoia](https://github.com/Ploaj/Metanoia) - Model viewer and research tool for Level-5 games.
 - [MeltyTool (Level5)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Level5) - Level-5 format viewer/exporter for games like Dark Cloud and Professor Layton.
+- [CfgBinEditor](https://github.com/Tiniifan/CfgBinEditor) - Level 5 Bin Editor
+- [Fougere](https://github.com/Tiniifan/Fougere) - Level-5 games tool.
+- [GetNPCPos](https://github.com/Tiniifan/GetNPCPos) - Converting minimap coordinates to real NPC positions in Level-5 games
+- [level5_material](https://github.com/Tiniifan/level5_material) - Convert .mtr to .json and back
+- [Level5ResourceEditor](https://github.com/Tiniifan/Level5ResourceEditor) - Level-5 Resource Editor (RES.bin)
+- [Nyanko](https://github.com/Tiniifan/Nyanko) - Level 5 Text Editor
+- [Pingouin](https://github.com/Tiniifan/Pingouin) - Level 5 Archive File Manager
+- [StudioElevenLib](https://github.com/Tiniifan/StudioElevenLib) - Additional C# library for files supported by the Studio Eleven Blender Addon
 
 ### Mario Artist
 
@@ -702,6 +739,7 @@ This list is for developers and modders working with such formats. It provides t
 - [leo64dd_python](https://github.com/LuigiBlood/leo64dd_python) - Python-based tools for 64DD disk manipulation.
 - [mfs_manager](https://github.com/LuigiBlood/mfs_manager) - Manager for MFS (Multi File System) used on 64DD disks.
 - [MeltyTool (MarioArtist)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/MarioArtist) - Format viewer and exporter for Mario Artist series.
+- [ma3d1toOBJ](https://github.com/LuigiBlood/ma3d1toOBJ) - Mario Artist Polygon Studio Model File to OBJ
 
 ### Microsoft Studios / Bungie / Turn 10
 
@@ -899,6 +937,31 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Pokemon Snap)](https://github.com/magcius/noclip.website/tree/main/src/PokemonSnap) - In-browser Pokemon Snap viewer.
 - [noclip.website (Pokemon Platinum)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon Platinum viewer.
 - [noclip.website (Pokemon HeartGold/SoulSilver)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon HeartGold/SoulSilver viewer.
+- [amnoid.de/gc](http://amnoid.de/gc) - GameCube file format documentation and tools.
+- [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) - Nintendo Wii/Gamecube BMS to MIDI converter
+- [CaveGenerator](https://github.com/Fizz14/CaveGenerator) - A tool to generate caves for Pikmin 2.
+- [NintyFont](https://github.com/hadashisora/NintyFont) - Nintendo binary font editor
+- [MarioKartToolbox](https://github.com/HaroohiePals/MarioKartToolbox) - New version of Mario Kart Toolbox, a fully fledged Mario Kart DS editor.
+- [picori](https://github.com/Julgodis/picori) - Picori (ピッコル) is a library for decompilation, modding, and rom-hacking with focus on GameCube and Wii games.
+- [MasterOcarina](https://github.com/mzxrules/MasterOcarina) - Collection of Zelda 64 programs
+- [zelda-internal-file-extractor](https://github.com/politerust/zelda-internal-file-extractor) - A command-line utility that extracts the internal files of Zelda 64 ROMs.
+- [Zelda64Loader](https://github.com/Random06457/Zelda64Loader) - Ghidra loader for Zelda 64 ROMs
+- [zcamedit](https://github.com/sauraen/zcamedit) - Zelda 64 (OoT/MM) cutscene camera editor Blender plugin
+- [OoT-Anim-Copy](https://github.com/skawo/OoT-Anim-Copy) - Copies a Zelda OoT animation between ZOBJ files
+- [OoT-NPC-Maker](https://github.com/skawo/OoT-NPC-Maker) - An NPC creation tool for The Legend of Zelda: Ocarina of Time.
+- [PyZelda64-Text-Editor](https://github.com/skawo/PyZelda64-Text-Editor) - Cross-platform Zelda 64 Text Editor
+- [pycgfx](https://github.com/skyfloogle/pycgfx) - A program for converting glTF models into the Nintendo 3DS's CGFX format.
+- [zev](https://github.com/wareya/zev) - ZEV, a ZElda 64 level Viewer
+- [ozmav](https://github.com/xdanieldzd/ozmav) - Legacy N64 emulation and game modding tools (unmaintained).
+- [SceneNavi](https://github.com/xdanieldzd/SceneNavi) - Level editor for The Legend of Zelda: Ocarina of Time (N64)
+- [sharpocarina](https://github.com/xdanieldzd/sharpocarina) - Automatically exported from code.google.com/p/sharpocarina - UNMAINTAINED.
+- [z64font](https://github.com/z64dev/z64font) - The first font editor for Zelda games on the Nintendo 64
+- [z64viewer](https://github.com/z64dev/z64viewer) - HLE Zelda 64 model rendering in modern OpenGL
+- [zzrtl](https://github.com/z64dev/zzrtl) - the lightweight Zelda 64 filesystem management utility
+- [z64audio](https://github.com/z64tools/z64audio) - Somewhat flexible audio converter.
+- [Z64Utils](https://github.com/zeldaret/Z64Utils) - Asset viewer for the Zelda64 Engine
+- [NSMBHD Wiki (BCRES)](https://nsmbhd.net/wiki/BCRES/) - BCRES format documentation for 3DS games.
+- [CloudModding Wiki (OoT Animation)](https://wiki.cloudmodding.com/oot/Animation_Format) - Animation format documentation for Ocarina of Time.
 
 ### Nintendo SDKs & Hardware
 
@@ -908,6 +971,20 @@ This list is for developers and modders working with such formats. It provides t
 - [Nitro Files](https://wiki.vg-resource.com/Nitro_Files) - Documentation for Nintendo DS file formats.
 - [narchive](https://github.com/nickworonekin/narchive) - Tool for extracting and creating NARC archives used in DS games.
 - [apicula](https://github.com/scurest/apicula) - Converter for Nintendo DS .nsbmd 3D model format.
+- [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) - Documentation for Nintendo DS file types.
+- [nitro-fs](https://github.com/DanielPXL/nitro-fs) - Nintendo DS filesystem tools.
+- [nitro-g3d-tools](https://github.com/Ermelber/nitro-g3d-tools) - Tools for Nintendo DS 3D graphics.
+- [nitroefx](https://github.com/Fexty12573/nitroefx) - Nintendo DS effect tools.
+- [NitroEffectMaker](https://github.com/HaroohiePals/NitroEffectMaker) - Effect editor for Nintendo DS.
+- [narc](https://github.com/lhearachel/narc) - NARC archive tool for Nintendo DS.
+- [NitroSDK](https://github.com/ntrtwl/NitroSDK) - Official Nintendo DS SDK.
+- [NitroSystem](https://github.com/ntrtwl/NitroSystem) - Nintendo DS system library.
+- [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) - Ghidra plugin for Nintendo DS.
+- [NitroSharp](https://github.com/PlatinumMaster/NitroSharp) - Nintendo DS file format library.
+- [nitrog3d](https://github.com/red031000/nitrog3d) - Nintendo DS 3D tools.
+- [nitrogfx](https://github.com/red031000/nitrogfx) - Nintendo DS graphics tools.
+- [Ekona](https://github.com/SceneGate/Ekona) - Nintendo DS file format library.
+- [Nds4j](https://github.com/turtleisaac/Nds4j) - Java library for Nintendo DS formats.
 - [Cafe-Shader-Studio](https://github.com/KillzXGaming/Cafe-Shader-Studio) - Shader editor and viewer for Wii U games.
 - [REGames Editor](https://www.reddit.com/r/REGames/comments/12o004k/a_friend_and_i_made_a_full_editor_for_a_nintendo/) - Full-featured editor for Nintendo DS games.
 
@@ -960,7 +1037,15 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
 - [noclip.website (Diddy Kong Racing)](https://github.com/magcius/noclip.website/tree/main/src/DiddyKongRacing) - In-browser Diddy Kong Racing viewer.
 - [noclip.website (Donkey Kong 64)](https://github.com/magcius/noclip.website/tree/main/src/DonkeyKong64) - In-browser Donkey Kong 64 viewer.
-- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
+- [noclip.website (GoldenEye 007)](https://github.com/magcios/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
+- [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
+- [DK64MapGenerator](https://github.com/GloriousLiar/DK64MapGenerator) - Tool for generating Donkey Kong 64 map and floor files from 3D meshes.
+- [Banjo-Kazooie-Floor-Tool](https://github.com/oohnahleevay/Banjo-Kazooie-Floor-Tool) - Tool to modify floor collision properties in Banjo-Kazooie.
+- [Banjo-s-Backpack](https://github.com/RareExports/Banjo-s-Backpack) - Level editor for Banjo-Kazooie (map and object editing).
+- [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
+- [DK64-Viewer](https://github.com/RareExports/DK64-Viewer) - Model and map viewer for Donkey Kong 64.
+- [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
+- [dk64_lib](https://github.com/ThomasJRyan/dk64_lib) - Library for extracting data from Donkey Kong 64 ROMs.
 
 ### Radical Entertainment
 
@@ -1007,6 +1092,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Sonic-1-2-2013-Decompilation](https://github.com/RSDKModding/RSDKv4-Decompilation) - Complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4).
 - [UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) - Unofficial PC port of the Xbox 360 version of Sonic Unleashed created through static recompilation.
 - [noclip.website (Sonic Colors)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Sonic Colors viewer.
+- [Sonic Retro (SA2 Hacking Guide)](https://info.sonicretro.org/SCHG:Sonic_Adventure_2) - Sonic Hacking Guide for Sonic Adventure 2.
 
 ### Sony (First Party)
 
@@ -1024,6 +1110,10 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Kingdom Hearts)](https://github.com/magcius/noclip.website/tree/main/src/KingdomHearts) - In-browser Kingdom Hearts viewer.
 - [noclip.website (Kingdom Hearts II Final Mix)](https://github.com/magcius/noclip.website/tree/main/src/KingdomHearts2FinalMix) - In-browser Kingdom Hearts II Final Mix viewer.
 - [noclip.website (Dragon Quest VIII)](https://github.com/magcius/noclip.website/tree/main/src/DragonQuest8) - In-browser Dragon Quest VIII viewer.
+- [kh2mdlx](https://github.com/GovanifY/kh2mdlx) - Tool for importing and exporting Kingdom Hearts 2 3D models.
+- [kh2vif](https://github.com/GovanifY/kh2vif) - Model importer for Kingdom Hearts 2 (OBJ to VIF format converter).
+- [KH2-Anm-Generator](https://github.com/Kite2810/KH2-Anm-Generator) - Automated animation cutscene generator for Kingdom Hearts 2 custom character models.
+- [Hypercrown](https://github.com/Some1fromthedark/Hypercrown) - Model converter for Kingdom Hearts 1 (converts models to common formats and back).
 
 ### Sucker Punch
 
@@ -1046,6 +1136,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Noesis-Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community Noesis plugins collection including Visceral Games support.
 - [MeltyTool (Visceral)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/VisceralGames) - Format viewer/exporter for Visceral Games titles.
 - [ZenHAX Thread](https://zenhax.com/viewtopic.php?t=15376) - Forum discussion and research on Visceral Games file formats. *(Link archived/dead)*
+- [VisceralToolkit](https://github.com/Greavesy1899/VisceralToolkit) - Toolkit for editing games by EA Redwood Shores/Visceral Games (The Godfather, Dead Space, Dante's Inferno).
 
 ### Wargaming
 
