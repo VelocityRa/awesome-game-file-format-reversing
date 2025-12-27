@@ -191,14 +191,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Just Solve the File Format Problem](http://fileformats.archiveteam.org/wiki/Game_data_files) - ArchiveTeam's wiki for file formats.
 - [XeNTaX Wiki (defunct)](https://web.archive.org/web/20230822181840/https://wiki.xentax.com/index.php/Game_File_Format_Central) - Massive database of file format specifications.
-- [AVSYS Wiki](http://ww38.avsys.xyz/wiki/Category:File_Formats) - Audio/visual formats wiki (site currently parked).
 
 ### Game-Specific Wikis
 
 - [The Cutting Room Floor](https://tcrf.net/Help:Contents/Finding_Content) - Community for discovering and documenting unused and debug game content.
 - [Nintendo File Formats](https://nintendo-formats.com/) - Documentation for Wii U and Switch games.
 - [Custom Mario Kart Wiiki](https://wiki.tockdom.com/wiki/List_of_File_Formats) - Formats used in Mario Kart Wii and related games.
+- [Mario Kart 8 Wiki](https://mk8.tockdom.com/wiki/Main_Page) - Documentation for Mario Kart 8 formats and modding.
 - [Luma's Workshop](https://www.lumasworkshop.com/wiki/Category:File_formats) - Nintendo modding wiki.
+- [Splatoon Technical Wiki](https://wiki.oatmealdome.me/index.php/Special:AllPages) - Technical documentation for Splatoon game formats.
 - [Souls Modding Wiki](http://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
 
 ### 📚 Learning Resources & Tutorials
