@@ -238,11 +238,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Noesis](http://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91) - Popular all-in-one tool for previewing and converting 500+ model, texture, and animation formats. Supports batch conversion, has a rich plugin ecosystem, and can handle most common game formats out of the box.
   - [Noesis Plugins (Rich Whitehouse)](http://richwhitehouse.com/index.php?content=inc_projects.php#prjmp91) - Official plugin collection by the creator of Noesis.
-  - [Noesis Plugins (HimeWorks)](https://himeworks.com/noesis-plugins/) - Community plugin collection including Tales series and Midnight Club 2 support.
-  - [Noesis Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community plugins for various game formats.
+  - [Noesis Plugins (HimeWorks)](https://himeworks.com/noesis-plugins/) - Community plugin collection for 100+ games, primarily MMORPGs and action games.
+    Games include Tales series, Midnight Club 2, Dragon Nest, Dark Souls, League of Legends, C9, Cabal Online, Monster Hunter 3, Hyperdimension Neptunia, Ys series, and many more.
+  - [Noesis Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community collection with 150+ plugins for various games including Final Fantasy series, Dark Souls 2, Dead Rising 4, Ridge Racer, NHL 21, and many others.
   - [Noesis Plugins (mrpostiga)](https://github.com/mrpostiga/noesis-plugins-official) - Additional community-maintained plugin collection.
-  - [Noesis Plugins (RoadTrain)](https://github.com/RoadTrain/noesis-plugins) - Community plugins for additional game formats.
-  - [Noesis Plugins (Zheneq)](https://github.com/Zheneq/Noesis-Plugins) - Community plugin collection with various format support.
+  - [Noesis Plugins (RoadTrain)](https://github.com/RoadTrain/noesis-plugins) - LS3D engine plugin (.4ds format) supporting Mafia: The City of Lost Heaven, Chameleon, Hidden & Dangerous 2, War of Wings.
+  - [Noesis Plugins (Zheneq)](https://github.com/Zheneq/Noesis-Plugins) - Community plugins for Megaman X8 (PC), Fatal Frame 4 (Wii), Star Wars: The Force Unleashed (Wii), Planet 51 (Wii), Silent Hill: Shattered Memories (Wii), Fire Emblem (Wii), MT Framework (3DS).
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures. Supports RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16), platform-specific unswizzling (PSP, PS2, PS3, PS4, Xbox), and decompression (RLE, PackBits, ZLIB). Exports as DDS, PNG, or BMP.
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
@@ -254,7 +255,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
 - [AssetRipper](https://github.com/AssetRipper) - Tool for extracting assets from Unity and other engines.
-- [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) - Tool to edit many video game file formats (Nintendo focus).
+- [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) - Multi-format editor for Nintendo Switch, Wii U, and 3DS games. Supports Mario Kart 8 Deluxe, Sonic Forces, Team Sonic Racing, Zelda (OoT 3D, MM 3D, Twilight Princess HD, Hyrule Warriors), Luigi's Mansion (3DS, Dark Moon), Crash Bandicoot N. Sane Trilogy, Crash Team Racing, and many more.
 - [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
 - [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
 - [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
@@ -277,7 +278,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Kaitai Struct](https://kaitai.io/) - Declarative language for describing binary data structures with code generation for multiple programming languages.
 - [Veles](https://codisec.com/veles/) - Binary analysis and visualization tool for reverse engineering (open-source).
 - [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) - Templates for binary analysis.
-- [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games.
+- [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
 - [JSC-PyDecrypt-Tool](https://github.com/bartlomiejduda/JSC-PyDecrypt-Tool) - Decrypts JSC (JavaScript Compiled) files from Cocos2d games. Requires valid encryption key extracted via Frida from running game instances.
 
 ### 💻 Libraries & Development Tools
@@ -449,7 +450,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Angel Studios / Rockstar San Diego
 
-- [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender addon for importing models from Angel Studios games (~1999-2006).
+- [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender addon for importing models from Angel Studios/Rockstar San Diego games. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and likely other Angel Studios titles from ~1999-2006.
 - [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
 - [Sollumz](https://docs.sollumz.org) - GTA V modding suite for Blender (RAGE engine formats).
 - [pyrpfiv](https://github.com/gmroder/pyrpfiv) - Python library for parsing and manipulating GTA IV's RPF (Resource Package Format) archives.
@@ -556,8 +557,8 @@ This list is for developers and modders working with such formats. It provides t
 - [FLVER_Editor](https://github.com/asasasasasbc/FLVER_Editor) - Editor for FLVER 3D model format.
 - [BinderTool](https://github.com/Atvaark/BinderTool) - Tool for extracting and repacking BND/BHD archives.
 - [dark-souls-map-viewer](https://github.com/colevk/dark-souls-map-viewer) - Web-based Dark Souls map viewer.
-- [blender-flver](https://github.com/elizagamedev/blender-flver) - Blender addon for importing/exporting FLVER models.
-- [FromSoftware-Blender-Importer](https://github.com/FelixBenter/FromSoftware-Blender-Importer) - Blender importer for FromSoftware formats.
+- [blender-flver](https://github.com/elizagamedev/blender-flver) - Blender addon for importing/exporting FLVER models from FromSoftware games. Supports Dark Souls, Dark Souls: Remastered, Bloodborne, and Sekiro.
+- [FromSoftware-Blender-Importer](https://github.com/FelixBenter/FromSoftware-Blender-Importer) - Blender importer for FromSoftware FLVER formats. Supports Dark Souls 1, 2, 3, and Sekiro: Shadows Die Twice (characters, partsbnds, and maps for DS1/DS3).
 - [soulstruct](https://github.com/Grimrukh/soulstruct) - Python library for Dark Souls file formats and modding.
 - [soulstruct-blender](https://github.com/Grimrukh/soulstruct-blender) - Blender plugin for soulstruct.
 - [SoulsTemplates](https://github.com/JKAnderson/SoulsTemplates) - 010 Editor templates for Souls formats.
@@ -629,7 +630,7 @@ This list is for developers and modders working with such formats. It provides t
 *Rock Band, Guitar Hero, Amplitude, Dance Dance Revolution Universe, Frequency, Karaoke Revolution.*
 
 - [LibForge](https://github.com/maxton/LibForge) - Library for reading, writing, and converting Forge engine formats (Rock Band 4, Rock Band VR, FUSER). Handles MIDI, textures (PNG, BMP), models (FBX, OBJ), DTA/DTB, RBmid, RBsong, lipsync, and package files (CON, GP4, PKG). See also [PikminGuts92's fork](https://github.com/PikminGuts92/LibForge) with v2 RB MIDI support, MAGMA v1 milos support, and AMP/RBVR .mid_* file support.
-- [pikaxe](https://github.com/PikminGuts92/pikaxe) - Milo engine modding tool for Harmonix games (Rock Band, Guitar Hero). Handles DTA, GLTF, and ARK formats across Xbox, Wii, and PS3. Evolution of Mackiloha.
+- [pikaxe](https://github.com/PikminGuts92/pikaxe) - Milo engine modding tool for Harmonix games. Supports Guitar Hero 1-2, Guitar Hero Encore: Rocks the 80s, Rock Band series, Dance Central, and other Milo engine titles. Handles DTA, GLTF, and ARK formats across Xbox, Wii, and PS3. Evolution of Mackiloha.
 - [DtxCS](https://github.com/maxton/DtxCS) - C# library for parsing and interpreting DTA/DTB scripting format used in Rock Band and Guitar Hero games.
 - [CON-Tools](https://github.com/PikminGuts92/CON-Tools) - Create, modify, and combine Rock Band CON files. Convert to Phase Shift, Wii, and PS3 formats.
 - [PyMilo](https://github.com/PikminGuts92/PyMilo) - Python library for managing milo files from Harmonix games. Includes GUI and archive extraction utilities. (Archived)
@@ -1066,8 +1067,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Bayonetta
 
 - [bayonetta_patch](https://github.com/Kerilk/bayonetta_patch) - Patching system for modifying Bayonetta executable.
-- [noesis_bayonetta_pc](https://github.com/Kerilk/noesis_bayonetta_pc) - Noesis plugin for PlatinumGames models/animations (Bayonetta, Nier, MGR).
-- [bayonetta_tools](https://github.com/Kerilk/bayonetta_tools) - Ruby toolkit for extracting/converting Bayonetta assets (models, textures, animations).
+- [noesis_bayonetta_pc](https://github.com/Kerilk/noesis_bayonetta_pc) - Noesis plugin for PlatinumGames models/animations.
+  - Games: Bayonetta series (1-3, Origins), Nier Automata, Metal Gear Rising Revengeance, MadWorld, The Legend of Korra, TMNT Mutants in Manhattan, Transformers Devastation, Starfox Zero, Astral Chain, The Wonderful 101, Vanquish, Anarchy Reigns, Babylon's Fall.
+- [bayonetta_tools](https://github.com/Kerilk/bayonetta_tools) - Ruby toolkit for extracting/converting PlatinumGames assets (models, textures, animations). Supports Bayonetta 1-3, NieR: Automata, Astral Chain.
 
 #### Nier: Automata / Replicant
 
@@ -1143,7 +1145,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [SCHG:Sonic_Adventure](https://info.sonicretro.org/SCHG:Sonic_Adventure) - Sonic Community Hacking Guide documentation for Sonic Adventure.
 - [sadtools](https://github.com/FraGag/sadtools) - Command-line tools for Sonic Adventure file formats.
-- [sa_tools](https://github.com/X-Hax/sa_tools) - Modding toolkit for Sonic Adventure games.
+- [sa_tools](https://github.com/X-Hax/sa_tools) - Modding toolkit for Sonic Adventure series. Supports Sonic Adventure DX (SADX) and Sonic Adventure 2 PC (SA2PC).
 
 #### Sonic Heroes / Shadow
 
