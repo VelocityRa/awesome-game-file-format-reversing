@@ -43,7 +43,6 @@ This list is for developers and modders working with such formats. It provides t
     - [💻 Libraries \& Development Tools](#-libraries--development-tools)
     - [Decompilation Tools](#decompilation-tools)
     - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
-    - [Blender Addons](#blender-addons)
   - [⚙️ Engines](#️-engines)
     - [GameMaker](#gamemaker)
     - [Source (Valve)](#source-valve)
@@ -327,12 +326,6 @@ This list is for developers and modders working with such formats. It provides t
   - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
 - [TTG-Tools](https://github.com/zenderovpaulo95/TTG-Tools) - Translation utility for Telltale Games titles ([original version here](https://github.com/bartlomiejduda/TTG_Tools)). Supports texture conversion (d3dtx to dds/pvr), bitmap font editing/export to ttf, archive building/unpacking (ttarch/ttarch2), lua/lenc decryption/encryption, and extended game support including Sam & Max remasters and The Walking Dead: Definitive Series.
   - Games: Telltale Texas Hold'em, Bone (Out from Boneville, The Great Cow Race), Sam & Max (Save the World, Beyond Time and Space, The Devil's Playhouse), Strong Bad's Cool Game for Attractive People, Wallace & Gromit's Grand Adventures, Tales of Monkey Island, Hector: Badge of Carnage, Nelson Tethers: Puzzle Agent, Poker Night at the Inventory, Back to the Future: The Game, Puzzle Agent 2, Jurassic Park: The Game, Law & Order: Legacies, The Walking Dead (Season One, Season Two, Michonne, A New Frontier), Poker Night 2, The Wolf Among Us, Tales from the Borderlands, Game of Thrones, Minecraft: Story Mode, Batman: The Telltale Series.
-
-### Blender Addons
-
-- [NifTools Blender Addon](https://github.com/niftools/blender_niftools_addon) - Blender addon for NetImmerse File Formats (.nif, .kf, .egm).
-- [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib files.
-- [PyNifly](https://github.com/BadDogSkyrim/PyNifly) - Blender addon to import/export NIF files with support for Skyrim LE, Skyrim SE, Fallout 4, Fallout New Vegas, Fallout 76, and Fallout 3.
 
 ## ⚙️ Engines
 
@@ -1139,6 +1132,8 @@ This list is for developers and modders working with such formats. It provides t
 ### Sega
 
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
+- [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
+- [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
 - [PCSX2 Patches](https://github.com/PCSX2/pcsx2_patches) - Game patches for PCSX2 emulator including widescreen and interlacing fixes.
 - [noclip.website (Jet Set Radio)](https://github.com/magcius/noclip.website/tree/main/src/JetSetRadio) - In-browser Jet Set Radio viewer.
 
@@ -1242,6 +1237,8 @@ This list is for developers and modders working with such formats. It provides t
 - [hkxPoser](https://www.nexusmods.com/skyrimspecialedition/mods/11783) - .hkx animation file editor.
 - [DDS Texture Converter](https://www.nexusmods.com/skyrimspecialedition/mods/111378) - Application for bulk conversion and resizing of DDS textures.
 - [DDS Texture Scanner](https://github.com/niston/TextureScan) - Application scanning for DDS textures with abnormal dimensions.
+- [NifTools Blender Addon](https://github.com/niftools/blender_niftools_addon) - Blender addon for NetImmerse/Gamebryo File Formats (.nif, .kf, .egm) used in Elder Scrolls and Fallout games.
+- [PyNifly](https://github.com/BadDogSkyrim/PyNifly) - Blender addon to import/export NIF files with support for Skyrim LE, Skyrim SE, Fallout 4, Fallout New Vegas, Fallout 76, and Fallout 3.
 - [noclip.website (Morrowind)](https://github.com/magcius/noclip.website/tree/main/src/Morrowind) - In-browser Morrowind viewer.
 
 ### Blizzard Entertainment
