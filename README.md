@@ -923,6 +923,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for Wind Waker and Twilight Princess.*
 
+- [CloudModding OoT Wiki](https://wiki.cloudmodding.com/oot/Main_Page) - Comprehensive technical wiki for Ocarina of Time with 331+ articles covering actors, objects, scenes, file formats, animations, cutscenes, audio, textures, collision, decompilation project, and modding guides.
 - [WindEditor](https://github.com/Sage-of-Mirrors/WindEditor) - Map viewer/editor for The Legend of Zelda: The Wind Waker.
 - [noclip.website (Ocarina of Time)](https://github.com/magcius/noclip.website/tree/main/src/zelview) - In-browser Ocarina of Time viewer.
 - [noclip.website (Ocarina of Time Beta)](https://github.com/magcius/noclip.website/tree/main/src/zelview) - In-browser Ocarina of Time Beta viewer.
