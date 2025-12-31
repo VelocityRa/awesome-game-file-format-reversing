@@ -157,6 +157,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Square Enix](#square-enix)
     - [Sucker Punch](#sucker-punch)
       - [Sly Cooper](#sly-cooper)
+    - [THQ / Rainbow Studios](#thq--rainbow-studios)
+      - [Cars](#cars)
     - [Thekla Inc](#thekla-inc)
     - [Visceral Games](#visceral-games)
     - [Wargaming](#wargaming)
@@ -244,6 +246,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Noesis Plugins (mrpostiga)](https://github.com/mrpostiga/noesis-plugins-official) - Additional community-maintained plugin collection.
   - [Noesis Plugins (RoadTrain)](https://github.com/RoadTrain/noesis-plugins) - LS3D engine plugin (.4ds format) supporting Mafia: The City of Lost Heaven, Chameleon, Hidden & Dangerous 2, War of Wings.
   - [Noesis Plugins (Zheneq)](https://github.com/Zheneq/Noesis-Plugins) - Community plugins for Megaman X8 (PC), Fatal Frame 4 (Wii), Star Wars: The Force Unleashed (Wii), Planet 51 (Wii), Silent Hill: Shattered Memories (Wii), Fire Emblem (Wii), MT Framework (3DS).
+  - [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for importing/exporting Havok physics engine formats used in many games.
+  - [noesis_dukemdx](https://github.com/DaZombieKiller/noesis_dukemdx) - Noesis plugin for Duke Nukem Extended Model (MDX) format.
+  - [noesis_iqe](https://github.com/viciious/noesis_iqe) - Noesis plugin for exporting models to Inter-Quake Export (IQE) format.
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures. Supports RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16), platform-specific unswizzling (PSP, PS2, PS3, PS4, Xbox), and decompression (RLE, PackBits, ZLIB). Exports as DDS, PNG, or BMP.
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
@@ -287,6 +292,7 @@ This list is for developers and modders working with such formats. It provides t
 - [DragonLib](https://github.com/neptuwunium/DragonLib) - Common library for file format research.
 - [GL Editor Framework](https://github.com/jupahe64/GL_EditorFramework) - OpenGL-based framework for creating 3D game editors.
 - [SFGraphics](https://github.com/ScanMountGoat/SFGraphics) - OpenGL graphics library for rendering game formats, used in various format viewers.
+- [ooz](https://github.com/powzix/ooz) - Open-source decompressor for Oodle compression formats (Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit) used in many modern games including Warframe and other titles using RAD Game Tools compression.
 - [Syroot.BinaryData](https://gitlab.com/Syroot/BinaryData) - .NET library for easy binary data reading/writing with support for various endianness and encodings.
 - [XeNTaXTools-Legacy](https://github.com/XeNTaXTools/XeNTaXTools-Legacy) - Legacy tools scraped from the XeNTaX forums.
 
@@ -564,6 +570,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SoulsTemplates](https://github.com/JKAnderson/SoulsTemplates) - 010 Editor templates for Souls formats.
 - [noclip.website (DarkSouls)](https://github.com/magcius/noclip.website/tree/main/src/DarkSouls) - In-browser Dark Souls map viewer.
 - [DSAnimStudio](https://github.com/Meowmaritus/DSAnimStudio) - Animation and cutscene editor for Souls games.
+- [dark_souls_hkx](https://github.com/Danilodum/dark_souls_hkx) - Noesis plugins for Dark Souls HKX (Havok animation) format with extra root bone and root motion support.
 - [ESDLang](https://github.com/thefifthmatt/ESDLang) - Decompiler for ESD event script format.
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
@@ -1030,6 +1037,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Nintendo-File-Formats](https://github.com/kinnay/Nintendo-File-Formats) - Documentation for Wii U and Switch file formats.
 - [hactool](https://github.com/SciresM/hactool) - Tool to view information about, decrypt, and extract Nintendo Switch file formats including NCA, XCI, PFS0, HFS0, RomFS, ExeFS, save data, and more.
+- [WiiUTools](https://github.com/NWPlayer123/WiiUTools) - Collection of Python utilities for working with Wii U file formats including IPK packages, RPX executables, SARC archives, and texture editing (TexHaxU/TexHaxU2).
 - [Syroot.NintenTools.Bfres](https://gitlab.com/Syroot/NintenTools) - Library for reading/writing Nintendo BFRES model format (Wii U).
 - [Nitro Files](https://wiki.vg-resource.com/Nitro_Files) - Documentation for Nintendo DS file formats.
 - [narchive](https://github.com/nickworonekin/narchive) - Tool for extracting and creating NARC archives used in DS games.
@@ -1064,6 +1072,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### PlatinumGames
 
+- [platinumgames_stuff](https://github.com/Timo654/platinumgames_stuff) - Collection of Python scripts for PlatinumGames titles including Bayonetta 3 and Metal Gear Rising: Revengeance.
+
 #### Bayonetta
 
 - [bayonetta_patch](https://github.com/Kerilk/bayonetta_patch) - Patching system for modifying Bayonetta executable.
@@ -1074,8 +1084,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Nier: Automata / Replicant
 
 - [kaine](https://github.com/neptuwunium/kaine) - C# library for working with Nier Replicant 1.22 file formats.
+- [replicant_templates](https://github.com/WoefulWolf/replicant_templates) - 010 Editor binary templates for NieR Replicant ver.1.22474487139 file formats including ARC archives, PACK containers, BXON files, and various model/material/texture formats.
+- [replicant_toolkit](https://github.com/WoefulWolf/replicant_toolkit) - Toolkit for working with NieR Replicant file formats.
 - [Blender2NieR](https://github.com/WoefulWolf/NieR2Blender2NieR) - Blender addon for exporting WMB/WTP/WTA/DAT/DTT formats to NieR games.
 - [NieR2Blender](https://github.com/WoefulWolf/NieR2Blender_2_8) - Blender addon for importing NieR Automata and Replicant models.
+- [Replicant2Blender](https://github.com/WoefulWolf/Replicant2Blender) - Blender addon for importing NieR Replicant ver.1.22 mesh packs and textures into Blender (alpha).
 
 ### Polytron
 
@@ -1169,6 +1182,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Square Enix
 
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
+- [BBSPluginNoesis](https://github.com/Truthkey/BBSPluginNoesis) - Updated Noesis plugin for Kingdom Hearts Birth by Sleep working with modern versions of Visual Studio.
 - [WOFFington](https://github.com/neptuwunium/WOFFington) - File format research and tools for World of Final Fantasy.
 - [heretic](https://github.com/adamrt/heretic) - Modding toolkit for Final Fantasy Tactics.
 - [KH-ReCOM-Tools](https://github.com/Murugo/KH-ReCOM-Tools) - Set of experimental tools for Kingdom Hearts Re:Chain of Memories (PS2).
@@ -1194,6 +1208,12 @@ This list is for developers and modders working with such formats. It provides t
 - [PS23DFormat (Sly 2)](https://web.archive.org/web/20160205080914/http://ps23dformat.wikispaces.com/Sly+2+Band+of+Thieves) - Archived documentation for Sly 2 3D format.
 - [PS23DFormat Wiki Archive](https://archive.org/details/wiki-ps23dformat.wikispaces.com) - Complete archive of PS23DFormat wiki covering PS2 3D formats.
 - [SlyCineTrainer](https://github.com/slynders/SlyCineTrainer) - Trainer for creating camera animations in Sly Cooper games.
+
+### THQ / Rainbow Studios
+
+#### Cars
+
+- [carsraceorama](https://github.com/leeao/carsraceorama) - Noesis plugin for Cars Mater-National and Cars Race-O-Rama. Model importer/exporter supporting multiple platform formats: XNG (Xbox 360/PC), P3G (PS3), GCG (Wii/GameCube), DXG (PC/Xbox), PSG (PS2), SLT (text).
 
 ### Thekla Inc
 
