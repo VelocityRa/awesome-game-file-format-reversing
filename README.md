@@ -270,6 +270,11 @@ This list is for developers and modders working with such formats. It provides t
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
 - [VGAudio](https://github.com/Thealexbarney/VGAudio) - .NET library for encoding, decoding, and manipulating audio files from video games. Supports many Nintendo formats (BRSTM, BCSTM, BFSTM, IDSP, HPS, DSP, etc.).
 - [vgm_ripping](https://github.com/hcs64/vgm_ripping) - Sources for game music ripping tools.
+- [wwiseutil](https://github.com/hpxro7/wwiseutil) - Tool for manipulating Wwise SoundBank (.bnk, .nbnk) and File Package (.pck, .npck) files. Supports unpacking WEM audio files, replacing audio with automatic metadata updates, and editing loop points. Works with any game using Wwise audio middleware.
+- [soundbank-editor](https://github.com/t1f7/soundbank-editor) - Python-based editor for Wwise soundbank files (.bnk). List, extract, and replace WEM sounds while preserving headers, events, and metadata. Works with any game using Wwise audio middleware.
+- [Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) - Windows tool for extracting audio from Wwise PCK and BNK containers to OGG or MP3 format. Works with any game using Wwise audio middleware.
+- [Wwise-BNKExtract](https://github.com/rickvg/Wwise-BNKExtract) - Extraction utility for Wwise soundbank files (BNK format, file version 113 and earlier). Extracts WEM audio files for conversion to OGG Vorbis format.
+- [ww2ogg](https://github.com/hcs64/ww2ogg) - Converts Wwise RIFF/RIFX Vorbis audio (.wem files) to standard Ogg Vorbis format. Command-line tool with packed codebook support for various encoding variants. Note: vgmstream is recommended for playback, but ww2ogg is useful when Ogg Vorbis output is specifically required.
 
 ### 🌐 Translation & Localization
 
@@ -503,6 +508,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Monster Hunter
 
 - [Mod3-MHW-Importer](https://github.com/AsteriskAmpersand/Mod3-MHW-Importer) - Blender Import-Exporter for Monster Hunter World Mod3 model format.
+- [RingingBloom](https://github.com/Silvris/RingingBloom) - WWise audio editing toolkit for Monster Hunter: World and other Capcom titles.
+  - Features: BNK Editor (soundbanks), PCK Editor (packages), Loop Calculator, WEM Creator, WWCT/WWBK/WWPK/EPVSP editors.
+  - Formats: .nbnk/.bnk, .npck/.pck, .wwct, .wwbk/.wwpk, .epvsp, .wem.
 
 #### Devil May Cry
 
@@ -682,6 +690,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Insomniac Games
 
+- [ALERT](https://github.com/Tkachov/ALERT) - Amazing Luna Engine Research Tools. Python toolkit for researching and modifying Insomniac Games assets with dat1lib library and web-based Assets Browser.
+  - Games: Sunset Overdrive, Marvel's Spider-Man (Remastered, Miles Morales, 2), Marvel's Wolverine, Ratchet & Clank: Rift Apart.
+  - Features: Model conversions (.model/.ascii/.gltf), animation application, soundbank audio injection, DSAR archive compression, asset extraction.
 - [rivet](https://github.com/neptuwunium/rivet) - File format research project for Ratchet & Clank: Rift Apart.
 - [ripped_apart](https://github.com/chaoticgd/ripped_apart) - Modding toolkit for Ratchet & Clank: Rift Apart.
 - [insomniac-model](https://github.com/sleepyzay/insomniac-model) - Research and tools for Insomniac Games model formats.
@@ -817,6 +828,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Forza
 
 - [ForzaTech-extraction-tools](https://github.com/Doliman100/ForzaTech-extraction-tools) - Documentation and tools for ForzaTech .carbin and .modelbin file structures.
+
+#### Age of Empires
+
+- [Audio Modding Guide (AoE2DE)](https://steamcommunity.com/sharedfiles/filedetails/?id=1915891079) - Comprehensive tutorial for audio modding in Age of Empires II: Definitive Edition.
+  - Topics: Scenario triggers, SFX replacement, music, voice-overs, taunts, data file editing with Wwise audio system.
+  - Tools: Ravioli Tools, vgmstream, Advanced Genie Editor.
 
 ### Mobius Digital
 
