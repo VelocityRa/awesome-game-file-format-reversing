@@ -359,9 +359,9 @@ This list is for developers and modders working with such formats. It provides t
   - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
 - [TTG-Tools](https://github.com/zenderovpaulo95/TTG-Tools) - Translation utility for Telltale Games titles ([original version here](https://github.com/bartlomiejduda/TTG_Tools)). Supports texture conversion (d3dtx to dds/pvr), bitmap font editing/export to ttf, archive building/unpacking (ttarch/ttarch2), lua/lenc decryption/encryption, and extended game support including Sam & Max remasters and The Walking Dead: Definitive Series.
   - Games: Telltale Texas Hold'em, Bone (Out from Boneville, The Great Cow Race), Sam & Max (Save the World, Beyond Time and Space, The Devil's Playhouse), Strong Bad's Cool Game for Attractive People, Wallace & Gromit's Grand Adventures, Tales of Monkey Island, Hector: Badge of Carnage, Nelson Tethers: Puzzle Agent, Poker Night at the Inventory, Back to the Future: The Game, Puzzle Agent 2, Jurassic Park: The Game, Law & Order: Legacies, The Walking Dead (Season One, Season Two, Michonne, A New Frontier), Poker Night 2, The Wolf Among Us, Tales from the Borderlands, Game of Thrones, Minecraft: Story Mode, Batman: The Telltale Series.
-- [RTB-3DSMax-Scripts](https://github.com/RandomTBush/RTB-3DSMax-Scripts) - Collection of 3ds Max scripts for dozens of games covering formats like ISM2, IGZ, MDL, and D3DMesh.
-  - Games: Hyperdimension Neptunia, Crash Bandicoot, Pokémon, Sonic, Telltale Games, and many others.
-  - Highlights: `CompileHeart_ISM2`, `CrashNSane_IGZ`, `PokemonSwitch_GFBMDL-TRMDL`, `TelltaleGames_D3DMesh`, and wide platform coverage from PS1 to Switch.
+- [RTB-3DSMax-Scripts](https://github.com/RandomTBush/RTB-3DSMax-Scripts) - Comprehensive collection of 3ds Max scripts for importing models from dozens of games and engines.
+  - Games: Pokémon (Switch/3DS), Zelda (BOTW/TOTK/Wind Waker HD), Mario (Odyssey/Kart 8/3D World), Splatoon (1-3), Hyperdimension Neptunia series, Crash Bandicoot N. Sane Trilogy, Sonic (Unleashed/Riders), Telltale Games (Walking Dead/Batman), and many more.
+  - Highlights: Support for ISM2, IGZ, MDL, D3DMesh, and Nintendo BFRES/BCH formats across PS1, PS3, Wii, Wii U, and Switch.
 
 ## ⚙️ Engines
 
@@ -1333,7 +1333,13 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Telltale Games
 
-- [TelltaleGames D3DMesh Importer](https://github.com/TelltaleGames/TelltaleGames_D3DMesh_Importer) - Blender add-on for importing `D3DMesh` assets from various Telltale titles.
+- [Telltale-Texture-Tool](https://github.com/Telltale-Modding-Group/Telltale-Texture-Tool) - GUI application for converting `.d3dtx` files to PNG, DDS, TGA, and vice versa.
+- [Telltale-Script-Editor](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor) - Unofficial script editor for Telltale Tool games.
+- [D3DMESH-Converter](https://github.com/Telltale-Modding-Group/D3DMESH-Converter) - Tool for converting `.d3dmesh` models to standard formats and back.
+- [ttarch-docs](https://github.com/Telltale-Modding-Group/ttarch-docs) - Documentation and guide for reading Telltale Archive files programmatically.
+- [IMAP-Editor](https://github.com/Telltale-Modding-Group/IMAP-Editor) - Editor for `.imap` files used in Telltale games.
+- [Unity_WBOX_Editor](https://github.com/Telltale-Modding-Group/Unity_WBOX_Editor) - Unity-based tool for importing and generating `.wbox` navigation mesh files.
+- [TelltaleGames_D3DMesh_Importer](https://github.com/WeaselOnaStick/TelltaleGames_D3DMesh_Importer) - Blender add-on for importing `D3DMesh` models from Telltale titles.
 
 ### Terminal Reality
 
