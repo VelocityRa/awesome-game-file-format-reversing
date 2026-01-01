@@ -48,13 +48,20 @@ This list is for developers and modders working with such formats. It provides t
     - [Source (Valve)](#source-valve)
     - [Unity](#unity)
     - [Unreal Engine](#unreal-engine)
+    - [Hedgehog Engine](#hedgehog-engine)
+    - [Northlight Engine](#northlight-engine)
+    - [Build Engine](#build-engine)
   - [🔧 Middleware \& SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
+    - [Havok](#havok)
     - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
+    - [MikuMikuDance](#mikumikudance)
+    - [RenderWare](#renderware)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [Formats by Studio / Game](#formats-by-studio--game)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
+    - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Ape, Inc](#ape-inc)
     - [Argonaut Games](#argonaut-games)
@@ -65,12 +72,16 @@ This list is for developers and modders working with such formats. It provides t
     - [Capcom](#capcom)
       - [Monster Hunter](#monster-hunter)
       - [Devil May Cry](#devil-may-cry)
+      - [Gregory Horror Show](#gregory-horror-show)
+    - [CCR](#ccr)
     - [CCP Games](#ccp-games)
     - [CD Projekt Red](#cd-projekt-red)
       - [The Witcher 3 / REDEngine 3](#the-witcher-3--redengine-3)
       - [Cyberpunk 2077 / REDEngine 4](#cyberpunk-2077--redengine-4)
-    - [Cygames](#cygames)
     - [Clover Studio](#clover-studio)
+    - [Cygames](#cygames)
+    - [Disney Interactive](#disney-interactive)
+      - [Toontown Online](#toontown-online)
     - [Double Fine](#double-fine)
     - [EA Black Box](#ea-black-box)
       - [Need for Speed Series](#need-for-speed-series)
@@ -93,6 +104,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Paper Mario: TTYD / Super Paper Mario](#paper-mario-ttyd--super-paper-mario)
     - [Interactive Studios](#interactive-studios)
       - [Glover](#glover)
+    - [Illusion](#illusion)
     - [iNiS](#inis)
     - [Jupiter](#jupiter)
     - [Jagex](#jagex)
@@ -108,6 +120,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
       - [Halo](#halo)
       - [Forza](#forza)
+      - [Age of Empires](#age-of-empires)
     - [Mobius Digital](#mobius-digital)
     - [Midway](#midway)
       - [Gauntlet](#gauntlet)
@@ -135,6 +148,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Pokemon](#pokemon)
     - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
+    - [Obsidian Entertainment](#obsidian-entertainment)
+      - [Neverwinter Nights 2](#neverwinter-nights-2)
     - [Panic](#panic)
     - [PlatinumGames](#platinumgames)
       - [Bayonetta](#bayonetta)
@@ -157,6 +172,11 @@ This list is for developers and modders working with such formats. It provides t
     - [Square Enix](#square-enix)
     - [Sucker Punch](#sucker-punch)
       - [Sly Cooper](#sly-cooper)
+    - [Supercell](#supercell)
+    - [SuperTuxKart](#supertuxkart)
+    - [Telltale Games](#telltale-games)
+    - [Terminal Reality](#terminal-reality)
+      - [BloodRayne](#bloodrayne)
     - [THQ / Rainbow Studios](#thq--rainbow-studios)
       - [Cars](#cars)
     - [Thekla Inc](#thekla-inc)
@@ -164,7 +184,6 @@ This list is for developers and modders working with such formats. It provides t
     - [Wargaming](#wargaming)
     - [Ubisoft](#ubisoft)
       - [Anno 1800](#anno-1800)
-    - [Angel Matrix](#angel-matrix)
     - [Bethesda](#bethesda)
     - [Blizzard Entertainment](#blizzard-entertainment)
   - [🔗 Related Lists](#-related-lists)
@@ -246,7 +265,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Noesis Plugins (mrpostiga)](https://github.com/mrpostiga/noesis-plugins-official) - Additional community-maintained plugin collection.
   - [Noesis Plugins (RoadTrain)](https://github.com/RoadTrain/noesis-plugins) - LS3D engine plugin (.4ds format) supporting Mafia: The City of Lost Heaven, Chameleon, Hidden & Dangerous 2, War of Wings.
   - [Noesis Plugins (Zheneq)](https://github.com/Zheneq/Noesis-Plugins) - Community plugins for Megaman X8 (PC), Fatal Frame 4 (Wii), Star Wars: The Force Unleashed (Wii), Planet 51 (Wii), Silent Hill: Shattered Memories (Wii), Fire Emblem (Wii), MT Framework (3DS).
-  - [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for importing/exporting Havok physics engine formats used in many games.
   - [noesis_dukemdx](https://github.com/DaZombieKiller/noesis_dukemdx) - Noesis plugin for Duke Nukem Extended Model (MDX) format.
   - [noesis_iqe](https://github.com/viciious/noesis_iqe) - Noesis plugin for exporting models to Inter-Quake Export (IQE) format.
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
@@ -255,6 +273,9 @@ This list is for developers and modders working with such formats. It provides t
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Command line bulk PNG to DDS (and vice versa) conversion tool with duplicate detection.
 - [BodySlide and Outfit Studio](https://github.com/ousnius/BodySlide-and-Outfit-Studio) - Tool to convert, create, and customize outfits and bodies for The Elder Scrolls and Fallout games.
 - [Cathedral Assets Optimizer](https://www.nexusmods.com/skyrimspecialedition/mods/23316) - Tool to automatically optimize BSAs, meshes, textures and animations for Bethesda games.
+- [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
+  - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
+  - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
 
 ### 📦 Archive & Asset Extraction
 
@@ -338,6 +359,9 @@ This list is for developers and modders working with such formats. It provides t
   - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
 - [TTG-Tools](https://github.com/zenderovpaulo95/TTG-Tools) - Translation utility for Telltale Games titles ([original version here](https://github.com/bartlomiejduda/TTG_Tools)). Supports texture conversion (d3dtx to dds/pvr), bitmap font editing/export to ttf, archive building/unpacking (ttarch/ttarch2), lua/lenc decryption/encryption, and extended game support including Sam & Max remasters and The Walking Dead: Definitive Series.
   - Games: Telltale Texas Hold'em, Bone (Out from Boneville, The Great Cow Race), Sam & Max (Save the World, Beyond Time and Space, The Devil's Playhouse), Strong Bad's Cool Game for Attractive People, Wallace & Gromit's Grand Adventures, Tales of Monkey Island, Hector: Badge of Carnage, Nelson Tethers: Puzzle Agent, Poker Night at the Inventory, Back to the Future: The Game, Puzzle Agent 2, Jurassic Park: The Game, Law & Order: Legacies, The Walking Dead (Season One, Season Two, Michonne, A New Frontier), Poker Night 2, The Wolf Among Us, Tales from the Borderlands, Game of Thrones, Minecraft: Story Mode, Batman: The Telltale Series.
+- [RTB-3DSMax-Scripts](https://github.com/RandomTBush/RTB-3DSMax-Scripts) - Collection of 3ds Max scripts for dozens of games covering formats like ISM2, IGZ, MDL, and D3DMesh.
+  - Games: Hyperdimension Neptunia, Crash Bandicoot, Pokémon, Sonic, Telltale Games, and many others.
+  - Highlights: `CompileHeart_ISM2`, `CrashNSane_IGZ`, `PokemonSwitch_GFBMDL-TRMDL`, `TelltaleGames_D3DMesh`, and wide platform coverage from PS1 to Switch.
 
 ## ⚙️ Engines
 
@@ -350,6 +374,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Source (Valve)
 
+- [Blender Source Tools](https://github.com/Artfunkel/BlenderSourceTools) - Blender addon for importing and exporting Source Engine model and animation formats. Enables 3D asset creation and modification for all Source Engine games in Blender.
 - [noclip.website (Source Engine)](https://github.com/magcius/noclip.website/tree/main/src/SourceEngine) - In-browser Source engine map viewer supporting Counter-Strike: Source, Half-Life 2, Half-Life 2: Deathmatch, Half-Life 2: Lost Coast, Half-Life 2: Episode 1, Half-Life 2: Episode 2, Team Fortress 2, Portal, Portal 2, Counter-Strike: Global Offensive, Left 4 Dead 2, The Stanley Parable, Infra, Neo Tokyo, and Estranged: Act I.
 - [noclip.website (GoldSrc)](https://github.com/magcius/noclip.website/tree/main/src/GoldSrc) - In-browser Half-Life (GoldSrc) viewer.
 - [studiomodel](https://github.com/Galaco/studiomodel) - Go library for loading Valve studiomodel formats (.mdl, .vtx, .vvd).
@@ -360,6 +385,8 @@ This list is for developers and modders working with such formats. It provides t
 - [valve-vrm](https://github.com/UnBeatWaterGH/valve-vrm) - Documentation and converter for Valve's experimental VRM model format.
 - [sledge-formats](https://github.com/LogicAndTrick/sledge-formats) - C# parsers and formats for Half-Life 1 and related engines.
 - [corvid](https://github.com/KILLTUBE/corvid) - Source Engine level converter for Call of Duty.
+- [Plumber](https://github.com/lasa01/Plumber) - Blender add-on for importing Source 1 engine maps, models, materials and textures from CS:GO, TF2, CS:S, and other titles.
+  - Features: full map import (brushes, overlays, lights, props, skyboxes), MDL/material/texture import with color options, and embedded file browser.
 
 ### Unity
 
@@ -371,6 +398,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Unreal Engine
 
+- [io_scene_psk_psa](https://github.com/DarklightGames/io_scene_psk_psa) - Blender addon for importing and exporting PSK (skeletal mesh) and PSA (animation) formats used in Unreal Engine. Supports PSK/PSKX mesh import with vertex normals, extra UV channels, vertex colors, and shape keys.
+- [io_scene_ase](https://github.com/DarklightGames/io_scene_ase) - Blender exporter for the legacy ASE (ASCII Scene Export) format used by Unreal Engine 1 & 2 games (e.g., Unreal Tournament 2004).
 - [UEViewer (UModel)](https://github.com/gildor2/UEViewer) - Viewer and exporter for Unreal Engine 1-4 assets.
   - [Compatibility Table](https://www.gildor.org/projects/umodel/compat) - Official compatibility list.
 - [FModel](https://fmodel.app/) - Open-source software for data-mining UE4-5 games.
@@ -378,6 +407,20 @@ This list is for developers and modders working with such formats. It provides t
 - [UnrealExporter](https://github.com/luk-gg/UnrealExporter) - Batch file exporter.
 - [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) - Databank of generic UE modding tools.
 - [Snooper](https://github.com/FModel/Snooper/tree/opengl) - OpenGL based 3D viewer for cooked UE packages.
+
+### Hedgehog Engine
+
+- [HedgeLib](https://github.com/Radfordhound/HedgeLib) - C++ library and collection of tools for modding Hedgehog Engine games (Sonic series).
+- [Hedgehog Engine Blender I/O](https://github.com/hedge-dev/HedgehogEngineBlenderIO) - WIP Blender add-on for Hedgehog Engine assets including import/export and animation editing.
+
+### Northlight Engine
+
+- [BlenderNorthlight](https://github.com/OpenAWE-Project/BlenderNorthlight) - Blender plugin for loading `binmsh` and `binfbx` files from Northlight Engine games (Control, Alan Wake 2, Quantum Break).
+
+### Build Engine
+
+- [BUILD Map Importer](https://github.com/jensnt/io_import_build_map) - Blender add-on for BUILD-format maps (Blood, Duke Nukem 3D, etc.) that can auto-extract textures from `.ART`, `.GRP`, and `.RFF` files.
+  - Import options: split sectors/walls/sky, preserve sprite offsets, reuse materials, shade to vertex colors, and store original map data in custom properties.
 
 ## 🔧 Middleware & SDKs
 
@@ -394,6 +437,14 @@ This list is for developers and modders working with such formats. It provides t
 - [F3D2F3DEX](https://github.com/Trenavix/F3D2F3DEX) - Converter between F3D variants.
 - [Hack64 Fast3D Commands](https://hack64.net/wiki/doku.php?id=super_mario_64:fast3d_display_list_commands) - Documentation for Fast3D display list commands.
 - [CloudModding F3DZEX2](https://wiki.cloudmodding.com/oot/F3DZEX2) - Documentation for F3DZEX2 format.
+
+### Havok
+
+*Physics and animation middleware used in hundreds of games across all platforms.*
+
+- [Havok IO (Blender)](https://github.com/NewSkyLine-dev/havokmax-blender) - Blender add-on that imports `.hkx`, `.hkt`, `.hka`, `.igz`, and `.pak` files from Havok XML and binary archives. Replaces the legacy HavokMax 3ds Max plugin.
+  - Capabilities: builds armatures and keyframed actions from animation data, constructs static meshes from geometry blocks, and unwraps PAK/IGZ containers.
+- [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for importing/exporting Havok physics engine formats.
 
 ### JSYSTEM (GameCube/Wii)
 
@@ -436,6 +487,19 @@ This list is for developers and modders working with such formats. It provides t
 - [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) - Wii filesystem explorer.
 - [ARCTool](https://github.com/tpwrules/ARCTool) - Tool for ARC/RARC archives.
 
+### MikuMikuDance
+
+*Freeware animation program and its associated model and motion formats (.pmx, .pmd, .vmd).*
+
+- [MMD Tools](https://github.com/MMD-Blender/blender_mmd_tools) - Blender add-on for importing/exporting MikuMikuDance assets. Supports physics, bone constraints, and motion/pose data.
+- [MMD Tools Append](https://github.com/MMD-Blender/blender_mmd_tools_append) - Companion extension for MMD Tools that provides material/scene controls, lighting presets, and Rigify helpers.
+
+### RenderWare
+
+*Cross-platform 3D engine and middleware developed by Criterion Games. Powering the Grand Theft Auto trilogy (III, Vice City, San San Andreas), Burnout series, and many other titles.*
+
+- [DragonFF](https://github.com/Parik27/DragonFF) - Blender add-on for RenderWare `.dff` models, `.txd` textures, `.col` collisions, and `.ipl` map data.
+
 ### Sappy (GBA Audio)
 
 *SDK-provided formats for the Game Boy Advance sound engine. Used in [Pokémon Gen III](#gen-iii) and many other GBA titles.*
@@ -459,11 +523,15 @@ This list is for developers and modders working with such formats. It provides t
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
 
+### Angel Matrix
+
+- [noclip.website (Neon White)](https://github.com/magcius/noclip.website/tree/main/src/NeonWhite) - In-browser Neon White viewer.
+
 ### Angel Studios / Rockstar San Diego
 
 - [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender addon for importing models from Angel Studios/Rockstar San Diego games. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and likely other Angel Studios titles from ~1999-2006.
 - [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
-- [Sollumz](https://docs.sollumz.org) - GTA V modding suite for Blender (RAGE engine formats).
+- [Sollumz](https://github.com/Hancapo/Sollumz) - GTA V modding suite for Blender (RAGE engine formats). [Documentation here](https://docs.sollumz.org).
 - [pyrpfiv](https://github.com/gmroder/pyrpfiv) - Python library for parsing and manipulating GTA IV's RPF (Resource Package Format) archives.
 - [noclip.website (Grand Theft Auto III)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto III viewer.
 - [noclip.website (Grand Theft Auto: Vice City)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: Vice City viewer.
@@ -516,6 +584,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [dmc_hd_tools](https://github.com/Kerilk/dmc_hd_tools) - Toolkit for Devil May Cry HD Collection including Noesis plugins and binary templates.
 
+#### Gregory Horror Show
+
+- [GregoryHorrorShow-Blender-IO](https://github.com/boringhexi/GregoryHorrorShow-Blender-IO) - Imports PS2 Gregory Horror Show assets (`.ghs`, `.map-pm2`, `.pm2`) into Blender.
+
+### CCR
+
+- [RF Online Addon](https://github.com/Cardboard-box-a/cbb-rf-online-addon) - Blender 4.3 importer/exporter for RF Online `.msh`, `.bn`, `.ani`, and `.bsp` formats.
+
 ### CCP Games
 
 - [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) - Research project for Carbon Engine file formats used in EVE Online.
@@ -531,14 +607,20 @@ This list is for developers and modders working with such formats. It provides t
 - [WolvenKit](https://github.com/WolvenKit/WolvenKit) - REDEngine 4 file editor designed to simplify and accelerate modding workflow for Cyberpunk 2077.
 - [Cyber Engine Tweaks](https://github.com/maximegmd/CyberEngineTweaks) - Framework to script mods using Lua with access to all the internal scripting features.
 
+### Clover Studio
+
+- [noclip.website (Okami)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Okami viewer.
+
 ### Cygames
 
 - [GBFRBlenderTools](https://github.com/WistfulHopes/GBFRBlenderTools) - Blender addon for importing Granblue Fantasy Relink mesh models.
 - [GBFR2Blender2GBFR](https://github.com/WistfulHopes/GBFR2Blender2GBFR) - Tools for importing/exporting animations and collision data for Granblue Fantasy Relink.
 
-### Clover Studio
+### Disney Interactive
 
-- [noclip.website (Okami)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Okami viewer.
+#### Toontown Online
+
+- [omUlette](https://github.com/lifelandman/omUlette) - Lightweight exporter for Panda3D `.egg` files (used in Toontown) that works without Panda3D installed.
 
 ### Double Fine
 
@@ -732,6 +814,10 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Glover)](https://github.com/magcius/noclip.website/tree/main/src/Glover) - In-browser Glover level viewer.
 - [libgarib](https://github.com/naclomi/libgarib) - Library for Glover asset formats.
 
+### Illusion
+
+- [KK-Blender-Porter-Pack](https://github.com/AnalogKnight/KK-Blender-Porter-Pack) - Collection of Koikatsu exporter/importer plugins for Blender covering meshes, armatures, and character data.
+
 ### iNiS
 
 - [Murugo/Misc-Game-Research (Gitaroo Man)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Gitaroo%20Man) - Reverse engineering notes for Gitaroo Man (PS2).
@@ -789,6 +875,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Norbyte's Baldur's Gate 3 Script Extender](https://github.com/Norbyte/bg3se) - Baldur's Gate 3 Script Extender.
 - [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944) - Native DLL plugin loader for Baldur's Gate 3.
+- [BG3-DialogsBinary-Node-Editor](https://github.com/kitmods/BG3-DialogsBinary-Node-Editor) - Node-based editor for Baldur's Gate 3 dialog binary files.
 
 #### Divinity: Original Sin 2
 
@@ -822,6 +909,8 @@ This list is for developers and modders working with such formats. It provides t
 #### Halo
 
 - [KSoft](https://github.com/KornnerStudios/KSoft) - Toolkit for working with Halo engine file formats.
+- [ekur](https://github.com/TheHaloArchive/ekur) - Blam! engine (Halo) format library and research tools.
+- [Reclaimer](https://github.com/Gravemind2401/Reclaimer) - Halo asset extraction and analysis tool supporting Halo 1, 2, 3, 4, Reach, and Online.
 - [HaloWarsDocs](https://github.com/HaloMods/HaloWarsDocs) - Documentation and 010 Editor templates for modding Halo Wars 1 and 2.
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
 
@@ -1082,6 +1171,12 @@ This list is for developers and modders working with such formats. It provides t
 - [Pangya .iff formats](https://pixelde.su/blog/reverse-engineering-pangya-file-formats-2-iff/) - Blog post detailing the IFF file format used in Pangya.
 - [Pangya .dat formats](https://desu.blog/reverse-engineering-pangya-file-formats-1-dat) - Blog post explaining the DAT file format used in Pangya.
 
+### Obsidian Entertainment
+
+#### Neverwinter Nights 2
+
+- [NWN2MDK](https://github.com/Arbos/nwn2mdk) - Neverwinter Nights 2 Modding & Development Kit. Includes a Blender add-on for meshes/animations and command-line converters.
+
 ### Panic
 
 - [playdate-reverse-engineering](https://github.com/cranksters/playdate-reverse-engineering) - Reverse engineering notes and tools for Playdate handheld console.
@@ -1163,6 +1258,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Sega
 
+- [PSO2 Tools](https://github.com/dummycount/blender_pso2_tools) - Blender add-on for Phantasy Star Online 2 assets (`.aqp`, `.aqn`, ICE archives). Features model search, archive browsing, and automatic texture assignment.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
 - [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
@@ -1176,6 +1272,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SCHG:Sonic_Adventure](https://info.sonicretro.org/SCHG:Sonic_Adventure) - Sonic Community Hacking Guide documentation for Sonic Adventure.
 - [sadtools](https://github.com/FraGag/sadtools) - Command-line tools for Sonic Adventure file formats.
 - [sa_tools](https://github.com/X-Hax/sa_tools) - Modding toolkit for Sonic Adventure series. Supports Sonic Adventure DX (SADX) and Sonic Adventure 2 PC (SA2PC).
+- [SonicAdventureBlenderIO](https://github.com/X-Hax/SonicAdventureBlenderIO) - Blender 4.0+ add-on for exporting Sonic Adventure 1 & 2 3D formats (`.nj`, `.gj`, `.njm`, `.nja`).
 
 #### Sonic Heroes / Shadow
 
@@ -1226,6 +1323,24 @@ This list is for developers and modders working with such formats. It provides t
 - [PS23DFormat Wiki Archive](https://archive.org/details/wiki-ps23dformat.wikispaces.com) - Complete archive of PS23DFormat wiki covering PS2 3D formats.
 - [SlyCineTrainer](https://github.com/slynders/SlyCineTrainer) - Trainer for creating camera animations in Sly Cooper games.
 
+### Supercell
+
+- [gltf-Supercell-IO](https://github.com/Daniil-SV/gltf-Supercell-IO) - Custom Supercell glTF 2.0 importer/exporter for Blender 5.0+ supporting Android/iOS games.
+
+### SuperTuxKart
+
+- [STK Blender Addons](https://github.com/supertuxkart/stk-blender) - Exporter/importer suite for SuperTuxKart `SPM` meshes and `Antarctica` engine assets.
+
+### Telltale Games
+
+- [TelltaleGames D3DMesh Importer](https://github.com/TelltaleGames/TelltaleGames_D3DMesh_Importer) - Blender add-on for importing `D3DMesh` assets from various Telltale titles.
+
+### Terminal Reality
+
+#### BloodRayne
+
+- [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
+
 ### THQ / Rainbow Studios
 
 #### Cars
@@ -1257,10 +1372,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Anno 1800 Mod Loader](https://github.com/magicalcookie/anno1800-mod-loader) - Mod loader for Anno 1800 that supports loading of unpacked RDA files, XML auto merging and DLL based mods.
 - [Modding Tools for Anno](https://marketplace.visualstudio.com/items?itemName=JakobHarder.anno-modding-tools) - Visual Studio Code extension with utilities to build Anno 1800 mods.
-
-### Angel Matrix
-
-- [noclip.website (Neon White)](https://github.com/magcius/noclip.website/tree/main/src/NeonWhite) - In-browser Neon White viewer.
 
 ### Bethesda
 
