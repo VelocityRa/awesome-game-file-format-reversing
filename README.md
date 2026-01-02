@@ -329,12 +329,15 @@ This list is for developers and modders working with such formats. It provides t
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Command line bulk PNG to DDS (and vice versa) conversion tool with duplicate detection.
 - [Sprite Sheet Addon for Blender](https://www.moddb.com/engines/blender-game-engine/downloads/sprite-sheet-addon-for-blender) - Blender addon for working with sprite sheets.
+- [Sprite Sheet Addon for Blender VSE](https://www.moddb.com/groups/blender-game-engine/downloads/sprite-sheet-addon-for-blender-vse) - Blender VSE (Video Sequence Editor) addon for working with sprite sheets.
 - [BodySlide and Outfit Studio](https://github.com/ousnius/BodySlide-and-Outfit-Studio) - Tool to convert, create, and customize outfits and bodies for The Elder Scrolls and Fallout games.
 - [Cathedral Assets Optimizer](https://www.nexusmods.com/skyrimspecialedition/mods/23316) - Tool to automatically optimize BSAs, meshes, textures and animations for Bethesda games.
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
 - [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - Blender script for importing and exporting MD3 model format used in Quake III Arena and other id Tech 3 games. Supports animation frame export and shader path configuration.
+- [Blender - MD3 Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-md3-import-and-export-download) - Blender addon for importing and exporting MD3 model format.
+- [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converter tool for 3DS Max 5 and 6 file formats (3DSTATE engine).
 
 ### 📦 Archive & Asset Extraction
 
@@ -860,6 +863,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Tutorial files for importing models into Doom 3.
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
+- [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
 
 ### Grezzo
 
