@@ -492,6 +492,9 @@ This list is for developers and modders working with such formats. It provides t
 - [UEd Style Tools for Maya (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ued-style-tools-for-maya) - Maya tools for working with Unreal Tournament assets in UEd style.
 - [Unreal Unit Converter (Source Code)](https://www.moddb.com/downloads/unreal-unit-converter-source-code) - Unit converter for Unreal Engine (source code).
 - [UShock - Unreal level viewer (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ushock-unreal-level-viewer) - Level viewer for Unreal Tournament maps.
+- [Unreal Unit Converter](https://www.moddb.com/downloads/unreal-unit-converter1) - Unit converter tool for Unreal Engine.
+- [PS3 Mod Tools version 2.1 (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/ps3-mod-tools-version-21) - PlayStation 3 modding tools for Unreal Tournament 3 (v2.1).
+- [WOTgreal Package Exporter (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/wotgreal-package-exporter) - Package exporter for Unreal Tournament using WOTgreal.
 
 ### CryEngine
 
@@ -1707,6 +1710,10 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 3D Realms
 
+#### Duke Nukem 3D
+
+- [Landscaping Tools (Duke Nukem 3D)](https://www.moddb.com/games/duke-nukem-3d/downloads/landscaping-tools) - Landscaping tools for Duke Nukem 3D level editing.
+
 #### Duke Nukem: Manhattan Project
 
 - [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Tool for editing mesh and bone data from Duke Nukem: Manhattan Project.
@@ -1714,6 +1721,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Duke Nukem Forever (2001)
 
 - [Blender to CPJ Plugin for DNF2001](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/blender-to-cpj-plugin-for-dnf2001) - Blender plugin for converting models to CPJ format for Duke Nukem Forever (2001).
+- [Updated Blender to CPJ Plugin (Duke Nukem Forever 2001)](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/updated-blender-to-cpj-plugin) - Updated Blender plugin for converting models to CPJ format for Duke Nukem Forever (2001).
 
 #### The Outforce
 
