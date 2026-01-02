@@ -488,6 +488,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BSP Decompiler by 005 (Half-Life)](https://www.moddb.com/games/half-life/downloads/bsp-decompiler-by-005) - BSP decompiler for Half-Life maps.
 - [Bloody Knife + Addon DB Skin Tutorial (Counter-Strike: Source)](https://www.moddb.com/games/counter-strike-source/downloads/bloody-knife-addon-db-skin-tutorial) - Tutorial and tools for creating custom knife skins in Counter-Strike: Source.
 - [Bloodlines Character Search Tool v1.0 (Vampire: The Masquerade – Bloodlines)](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/bloodlines-character-search-tool-v10) - Character search tool for Vampire: The Masquerade – Bloodlines (v1.0).
+- [Detail Tool v1.0 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/detail-tool-v10) - Detail tool for Half-Life modding (v1.0).
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -526,6 +527,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Advanced Model Support SDK (Unreal Tournament)](https://www.moddb.com/mods/ut-skins-voices-mods-fixes/downloads/advanced-model-support-sdk) - Advanced model support SDK for Unreal Tournament.
 - [Web Admin Tools (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/web-admin-tools) - Web-based administration tools for Unreal Tournament 3.
 - [Blender 2.49 Scripts for UT2004](https://www.moddb.com/games/unreal-tournament-2004/downloads/blender-249-scripts-for-ut2004) - Blender 2.49 scripts for Unreal Tournament 2004.
+- [Defend Unreal Territories Launcher (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/defend-unreal-territories-launcher) - Launcher for Defend Unreal Territories mod for Unreal Tournament 3.
 
 ### CryEngine
 
@@ -768,6 +770,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Comprehensive modification toolkit for Star Wars: Battlefront.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - 3D object format converter for Star Wars: Battlefront II.
 - [Caleb1117's Model Pack 2 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/caleb1117-s-model-pack-2) - Model pack for Star Wars: Battlefront II.
+- [Darth Vader No Suit Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/darth-vader-no-suit-asset) - Darth Vader model asset without suit for Star Wars: Battlefront II.
+- [Revised JKA Luminara Textures by DarthSiths (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/darthsiths-revised-jka-luminara-textures1) - Revised Luminara textures for Star Wars: Battlefront II.
+- [D'Qar XSI and FBX source files (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/dqar-xsi-and-fbx-source-files-for-modders) - XSI and FBX source files for D'Qar map in Star Wars: Battlefront II.
+- [Dual Wield Animations by Needo62 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/dual-wield-animations-by-needo62) - Dual wield animations for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -965,6 +971,10 @@ This list is for developers and modders working with such formats. It provides t
 ### id Software
 
 - [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Tutorial files for importing models into Doom 3.
+- [Doom 3 Compatibility Tool Mod](https://www.moddb.com/games/doom-iii/downloads/doom-3-compatibility-tool-mod) - Compatibility tool mod for Doom 3.
+- [Doom 3 - Quake 3 Map Converter](https://www.moddb.com/games/doom-iii/downloads/doom-3-quake-3-map-converter) - Tool for converting Quake 3 maps to Doom 3 format.
+- [Doom 3: ROE (XBOX) .gfc extract](https://www.moddb.com/games/doom-iii/downloads/doom-3-roe-xbox-gfc-extract) - Tool for extracting GFC archive files from Doom 3: Resurrection of Evil (Xbox).
+- [Doom maps Converter 1.4](https://www.moddb.com/games/doom-iii/downloads/doom-maps-converter-14) - Map converter for Doom 3 (v1.4).
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
@@ -1815,6 +1825,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Duke Nukem 3D
 
 - [Landscaping Tools (Duke Nukem 3D)](https://www.moddb.com/games/duke-nukem-3d/downloads/landscaping-tools) - Landscaping tools for Duke Nukem 3D level editing.
+- [Duke Nukem 3D source code](https://www.moddb.com/games/duke-nukem-3d/downloads/duke-nukem-3d-source-code) - Source code for Duke Nukem 3D.
 
 #### Duke Nukem: Manhattan Project
 
@@ -1887,6 +1898,7 @@ This list is for developers and modders working with such formats. It provides t
 - [NifTools Blender Addon](https://github.com/niftools/blender_niftools_addon) - Blender addon for NetImmerse/Gamebryo File Formats (.nif, .kf, .egm) used in Elder Scrolls and Fallout games.
 - [PyNifly](https://github.com/BadDogSkyrim/PyNifly) - Blender addon to import/export NIF files with support for Skyrim LE, Skyrim SE, Fallout 4, Fallout New Vegas, Fallout 76, and Fallout 3.
 - [noclip.website (Morrowind)](https://github.com/magcius/noclip.website/tree/main/src/Morrowind) - In-browser Morrowind viewer.
+- [Daggerfall utilities](https://www.moddb.com/games/daggerfall/downloads/daggerfall-utilities) - Utilities for working with Daggerfall game files.
 
 ### 2K Games / Firaxis Games
 
