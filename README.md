@@ -52,6 +52,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Hedgehog Engine](#hedgehog-engine)
     - [Northlight Engine](#northlight-engine)
     - [Build Engine](#build-engine)
+    - [Raven Software](#raven-software)
+      - [Heretic II](#heretic-ii)
   - [🔧 Middleware \& SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
@@ -118,6 +120,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Level-5](#level-5)
     - [Mario Artist](#mario-artist)
+    - [Metropolis Software](#metropolis-software)
+      - [Gorky 17](#gorky-17)
     - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
       - [Halo](#halo)
       - [Forza](#forza)
@@ -169,6 +173,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Rare](#rare)
     - [Runic Games](#runic-games)
       - [Torchlight II](#torchlight-ii)
+    - [1C Company / Best Way](#1c-company--best-way)
+      - [Men of War](#men-of-war)
     - [Radical Entertainment](#radical-entertainment)
     - [Reflections Interactive](#reflections-interactive)
     - [Riot Games](#riot-games)
@@ -1314,6 +1320,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Men of War
 
 - [Men of War 3DS Max Exporter Tools](https://www.moddb.com/games/men-of-war/downloads/men-of-war-3ds-max-exporter-tools) - 3DS Max exporter for Men of War model formats.
+
+### Ironclad Games / Stardock
+
+#### Sins of a Solar Empire
+
+- [Sins 3D Max Import export](https://www.moddb.com/games/sins-of-a-solar-empire-rebellion/downloads/sins-3d-max-impotrt-export) - 3DS Max import/export plugin for Sins of a Solar Empire model formats.
 
 ### Radical Entertainment
 
