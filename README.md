@@ -508,6 +508,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Unreal Unit Converter](https://www.moddb.com/downloads/unreal-unit-converter1) - Unit converter tool for Unreal Engine.
 - [PS3 Mod Tools version 2.1 (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/ps3-mod-tools-version-21) - PlayStation 3 modding tools for Unreal Tournament 3 (v2.1).
 - [WOTgreal Package Exporter (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/wotgreal-package-exporter) - Package exporter for Unreal Tournament using WOTgreal.
+- [Advanced Model Support SDK (Unreal Tournament)](https://www.moddb.com/mods/ut-skins-voices-mods-fixes/downloads/advanced-model-support-sdk) - Advanced model support SDK for Unreal Tournament.
 
 ### CryEngine
 
@@ -646,6 +647,10 @@ This list is for developers and modders working with such formats. It provides t
 - [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140) - Fast converter for IWI and DDS texture formats used in Call of Duty 2 (v1.40).
 - [x to xmodel_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for X model format to xmodel_export format for Call of Duty: World at War (v1.6).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
+
+#### Tony Hawk's Pro Skater
+
+- [WAD Tool v1.0 (Tony Hawk's Pro Skater)](https://www.moddb.com/games/tony-hawks-pro-skater/downloads/wad-tool-v10) - WAD archive tool for Tony Hawk's Pro Skater (v1.0).
 - [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
 - [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Tool for converting OBJ files to Call of Duty Xmodel format.
 - [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5) - Converter for DDS and IWI texture formats used in Call of Duty 2.
