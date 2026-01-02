@@ -593,6 +593,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Arkane Studios
 
+- [Arx Fatalis .PAK unpacker](https://www.moddb.com/games/arx-fatalis/downloads/arx-fatalis-pak-unpacker-v13) - Tool for unpacking PAK archive files from Arx Fatalis (v1.3).
 - [disrev](https://github.com/chipolux/disrev) - Python tools for extracting and modifying Dishonored 2 assets.
 - [dishonored2_scripts](https://github.com/usernametoolo/dishonored2_scripts/blob/master/tools/scripts/unpack_resources.py) - Resource extraction script for unpacking .pak archives.
 - [Obscura](https://github.com/Mikompilation/Obscura) - Modding toolkit for Dishonored games.
