@@ -459,6 +459,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds) - 3DS Max plugin for importing Half-Life 2 MDL models (v37 format, v0.9 Beta).
 - [Jed's Half-Life Model Viewer 1.36](https://www.moddb.com/games/half-life/downloads/jeds-half-life-model-viewer-136) - Model viewer for Half-Life MDL format (v1.36).
 - [Source Model Viewer [Build: 2019-04-23] (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/source-model-viewer-build-2019-04-23) - Model viewer for Source Engine models (build 2019-04-23).
+- [VTF-2-TGA Convertor Utility (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/vtf-2-tga-convertor-utility) - Converter for VTF (Valve Texture Format) to TGA format used in Half-Life 2.
+- [Texture Tool v1.2.1 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/texture-tool) - Texture tool for Half-Life (v1.2.1).
 
 ### Unity
 
@@ -485,6 +487,7 @@ This list is for developers and modders working with such formats. It provides t
 - [DUT TOOL-2.0.2.0 (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/dut-tool-2020) - Tool for Defend Unreal Territories mod for Unreal Tournament 3.
 - [UEd Style Tools for Maya (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ued-style-tools-for-maya) - Maya tools for working with Unreal Tournament assets in UEd style.
 - [Unreal Unit Converter (Source Code)](https://www.moddb.com/downloads/unreal-unit-converter-source-code) - Unit converter for Unreal Engine (source code).
+- [UShock - Unreal level viewer (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ushock-unreal-level-viewer) - Level viewer for Unreal Tournament maps.
 
 ### CryEngine
 
@@ -882,6 +885,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
 - [Q3-Games Model Tool v1.6.0 (Quake III Arena)](https://www.moddb.com/games/quake-iii-arena/downloads/q3-games-model-tool-v160) - Model tool for Quake III Arena (v1.6.0).
+- [RtCW – SDK Editing Tools v1.1 (Return to Castle Wolfenstein)](https://www.moddb.com/mods/rtcw-classic-cooperative-campaign/downloads/rtcw-sdk-editing-tools-v11) - SDK editing tools for Return to Castle Wolfenstein (v1.1).
+- [RTCW .bsp to .map Converter (Return to Castle Wolfenstein)](https://www.moddb.com/games/return-to-castle-wolfenstein/downloads/rtcw-bsp-to-map-converter) - BSP to MAP format converter for Return to Castle Wolfenstein.
+- [Wolfenstein SPK & MPK Extractor v0.2](https://www.moddb.com/games/wolfenstein/downloads/wolfenstein-spk-mpk-extractor-v02) - Archive extractor for Wolfenstein SPK and MPK formats (v0.2).
 
 ### Grezzo
 
