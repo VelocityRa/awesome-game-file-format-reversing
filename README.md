@@ -488,6 +488,7 @@ This list is for developers and modders working with such formats. It provides t
 - [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) - Databank of generic UE modding tools.
 - [Snooper](https://github.com/FModel/Snooper/tree/opengl) - OpenGL based 3D viewer for cooked UE packages.
 - [ActorX Tools](https://www.moddb.com/groups/unreal-tournament-3-mod-developers/downloads/actorx-tools-for-maya-85-3dsmax-9) - Plugin for Maya 8.5 and 3DS Max 9 for importing skeletal meshes and animations in Unreal Engine games.
+- [ActorX Softimage Exporter](https://www.moddb.com/downloads/actorx-softimage-exporter) - Softimage exporter for ActorX format used in Unreal Engine games.
 - [U3D](https://www.moddb.com/games/unreal-tournament/downloads/u3d-v10-unreal-model-conversion-tool) - Unreal model conversion tool for converting 3DS files to Unreal .3D format. Supports uniform/XYZ scaling, clipping bounds, and animation frame conversion.
 - [Unreal to Deus Ex mesh converter](https://www.moddb.com/games/deus-ex/downloads/unreal-to-deus-ex-mesh-converter) - Tool for converting Unreal Engine mesh formats to Deus Ex format.
 - [DUT TOOL-2.0.2.0 (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/dut-tool-2020) - Tool for Defend Unreal Territories mod for Unreal Tournament 3.
