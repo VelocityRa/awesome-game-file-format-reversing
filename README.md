@@ -77,6 +77,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Bandai Namco](#bandai-namco)
     - [EA DICE](#ea-dice)
       - [Battlefield Series](#battlefield-series)
+      - [Star Wars: Battlefront](#star-wars-battlefront)
     - [Capcom](#capcom)
       - [Resident Evil](#resident-evil)
       - [Monster Hunter](#monster-hunter)
@@ -206,6 +207,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Sega](#sega)
       - [Creative Assembly](#creative-assembly)
         - [Alien: Isolation](#alien-isolation)
+        - [Total War Series](#total-war-series)
     - [Sonic Team](#sonic-team)
       - [Sonic Adventure](#sonic-adventure)
       - [Sonic Heroes / Shadow](#sonic-heroes--shadow)
@@ -227,6 +229,7 @@ This list is for developers and modders working with such formats. It provides t
     - [3D Realms](#3d-realms)
       - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
       - [Duke Nukem Forever (2001)](#duke-nukem-forever-2001)
+      - [The Outforce](#the-outforce)
     - [Techland](#techland)
     - [Thekla Inc](#thekla-inc)
     - [Slitherine / Proxy Studios](#slitherine--proxy-studios)
@@ -446,6 +449,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
+- [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Model viewer for GoldSrc engine (Half-Life) models (v0.3a Beta2).
+- [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
+- [Half-Life Model Viewer 2.10](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-210) - Model viewer for Half-Life MDL format (v2.10).
+- [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds) - 3DS Max plugin for importing Half-Life 2 MDL models (v37 format, v0.9 Beta).
 
 ### Unity
 
@@ -846,6 +853,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Tutorial files for importing models into Doom 3.
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
+- [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 
 ### Grezzo
 
@@ -1656,6 +1664,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Jormungandr](https://github.com/neptuwunium/Jormungandr) - File format research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting SPK audio files found in Ubisoft game .dat files.
+- [Hawx Model Tool 1.04 (Tom Clancy's H.A.W.X.)](https://www.moddb.com/games/tom-clancys-hawx/downloads/hawx-model-tool-104) - Model tool for Tom Clancy's H.A.W.X. (v1.04).
 
 #### Anno 1800
 
@@ -1667,6 +1676,8 @@ This list is for developers and modders working with such formats. It provides t
 *The Elder Scrolls, Fallout series, and Starfield.*
 
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
+- [F2 TOOLS PAK BY LEONARDO (Fallout 2)](https://www.moddb.com/games/fallout-2/downloads/f2-tools-pak-by-leonardo) - Collection of tools for working with Fallout 2 file formats.
+- [Fallout2 FRM converter v 2.0](https://www.moddb.com/games/fallout-2/downloads/fallout2-frm-converter-v-20) - Converter for Fallout 2 FRM (frame) format files (v2.0).
 - [Wrye Bash](https://wrye-bash.github.io) - Swiss army knife for modding Bethesda games with features including mod installation, conflict manager, load order manager and automatic merging.
 - [Synthesis](https://github.com/Mutagen-Modding/Synthesis) - Framework and GUI to empower people to create mods via code instead of by hand, mainly used to create patches.
 - [Spriggit](https://github.com/Mutagen-Modding/Spriggit) - Tool to facilitate converting Bethesda plugin files to a text based format that can be stored in Git.
