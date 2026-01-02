@@ -477,6 +477,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Autodesk Softimage Mod Tool 7.5 (Source Developers)](https://www.moddb.com/groups/source-developers/downloads/autodesk-softimage-mod-tool-75) - Softimage mod tool for Source Engine development (v7.5).
 - [Blender3D SMD Exporter (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/blender3d-smd-exporter) - Blender3D SMD exporter for Half-Life 2.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
+- [Hammer Units Converter 2.2](https://www.moddb.com/groups/level-design-group/downloads/hammer-units-converter-22) - Hammer units converter for Source Engine (v2.2).
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Model viewer for GoldSrc engine (Half-Life) models (v0.3a Beta2).
 - [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
 - [Half-Life Model Viewer 2.10](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-210) - Model viewer for Half-Life MDL format (v2.10).
@@ -494,6 +495,12 @@ This list is for developers and modders working with such formats. It provides t
 - [Game Server Browser & Admin Tool 1.2.1 (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/game-server-browser-admin-tool-1-2-1) - Server browser and admin tool for Half-Life 2 (v1.2.1).
 - [GMad Extractor (Garry's Mod)](https://www.moddb.com/mods/garrys-mod-11-half-life-rebuilt/downloads/gmad-extractor) - Extractor for GMad archive files used in Garry's Mod.
 - [Half Life 1 Modding Kit Addon 2](https://www.moddb.com/games/half-life/downloads/half-life-1-modding-kit-addon-2) - Modding kit addon for Half-Life (addon 2).
+- [Half-Life Asset Manager V3.0.0](https://www.moddb.com/games/half-life/downloads/half-life-asset-manager-v300) - Asset manager for Half-Life (v3.0.0).
+- [Half-Life DLL Decompiler](https://www.moddb.com/games/half-life/downloads/half-life-dll-decompiler) - DLL decompiler for Half-Life.
+- [Half-Life: Insecure - Mapping Tools and Source Code v1.3](https://www.moddb.com/mods/half-life-insecure/downloads/half-life-insecure-mapping-tools-and-source-code-version-13) - Mapping tools and source code for Half-Life: Insecure mod (v1.3).
+- [Half-Life Quick Mod Creation tool](https://www.moddb.com/games/half-life/downloads/half-life-quick-mod-creation-tool) - Quick mod creation tool for Half-Life.
+- [Half-Life to Quake 3 .MAP converter](https://www.moddb.com/games/half-life/downloads/half-life-to-quake-3-map-converter) - Tool for converting Half-Life maps to Quake 3 MAP format.
+- [Half-Life Unified SDK Map Decompiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/half-life-unified-sdk-map-decompiler) - Unified SDK map decompiler for Half-Life and Counter-Strike.
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -794,6 +801,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Galak Fyarr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/galak-fyarr-asset) - Galak Fyarr model asset for Star Wars: Battlefront II.
 - [General Bedamyr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/general-bedamyr-asset) - General Bedamyr model asset for Star Wars: Battlefront II.
 - [Grand Moff Tarkin Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/grand-moff-tarkin-asset) - Grand Moff Tarkin model asset for Star Wars: Battlefront II.
+- [Han Solo model replacement (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/han-solo-model-replacement-for-modders) - Han Solo model replacement for Star Wars: Battlefront II.
+- [Heavy Mandalorian Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/heavy-mandalorian-asset) - Heavy Mandalorian model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
