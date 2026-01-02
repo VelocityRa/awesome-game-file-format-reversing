@@ -1564,6 +1564,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [AvP Editing Tools](https://www.moddb.com/games/aliens-vs-predator/downloads/avp-editing-tools) - Editing tools for Aliens versus Predator (Classic).
 
+#### Aliens vs. Predator (2010)
+
+- [Asura Engine Extractor (Aliens vs. Predator 2010)](https://www.moddb.com/games/avp2010/downloads/asura-engine-extractor) - Archive extractor for Asura Engine used in Aliens vs. Predator (2010).
+
 ### Rare
 
 *Banjo-Kazooie, Donkey Kong, GoldenEye 007.*
