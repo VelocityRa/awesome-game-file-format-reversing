@@ -463,6 +463,7 @@ This list is for developers and modders working with such formats. It provides t
 ### CryEngine
 
 - [Far Cry 1 Noesis import plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-noesis-import-plugin) - Noesis plugin for importing Far Cry 1 (CryEngine 1) models. Supports model import but not export.
+- [Far Cry 1 3dsmax 9 plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-3dsmax-9-plugin) - 3DS Max 9 plugin for Far Cry 1.
 - [CryEngine 2 3d archive](https://www.moddb.com/games/crysis/downloads/cryengine-2-3d-archive) - Tool for working with CryEngine 2 3D archive files from Crysis.
 
 ### Hedgehog Engine
@@ -714,9 +715,17 @@ This list is for developers and modders working with such formats. It provides t
 
 - [noclip.website (Psychonauts)](https://github.com/magcius/noclip.website/tree/main/src/psychonauts) - In-browser Psychonauts viewer.
 
+### 8monkey Labs
+
+- [Translation Tool (Darkest of Days)](https://www.moddb.com/games/darkest-of-days/downloads/darkest-of-days-translation-tool) - Translation tool for Darkest of Days.
+
 ### Crystal Dynamics / Eidos Interactive
 
 - [Blood Omen 2 3D Rip Tools](https://www.moddb.com/games/blood-omen-2/downloads/blood-omen-2-3d-rip-tools) - Tools for extracting 3D models from Blood Omen 2.
+
+### Surreal Software
+
+- [Drakan Editing Tools v1.2](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/drakan-editing-tools-v12) - Editing tools for Drakan: Order of the Flame (v1.2).
 
 ### EA Black Box
 
@@ -800,6 +809,13 @@ This list is for developers and modders working with such formats. It provides t
 ### Grezzo
 
 *Ocarina of Time 3D, Majora's Mask 3D, Luigi's Mansion remake.*
+
+### id Software
+
+- [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Tutorial files for importing models into Doom 3.
+- [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
+
+### Grezzo
 
 - [io_scene_cmb](https://github.com/M-1-RLG/io_scene_cmb) - Blender add-on for Grezzo's "Ctr Model Binary" (CMB) format.
 - [noclip.website (OoT3D)](https://github.com/magcius/noclip.website/tree/main/src/OcarinaOfTime3D) - In-browser Ocarina of Time 3D viewer.
@@ -1057,6 +1073,7 @@ This list is for developers and modders working with such formats. It provides t
 #### F.E.A.R.
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
+- [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial extraction tools for F.E.A.R. 2.
 
 #### Trespasser
 
@@ -1417,6 +1434,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [driver-tools](https://github.com/Fireboyd78/driver-tools) - Modding tools for DRIV3R, Driver: Parallel Lines, and Driver: San Francisco.
 - [REDRIVER2](https://github.com/OpenDriver2/REDRIVER2) - Driver 2 Playstation game reverse engineering effort.
+- [Driver model tools](https://www.moddb.com/games/driver-you-are-the-wheelman/downloads/driver-model-tools) - Model tools for Driver: You Are the Wheelman.
 
 ### Riot Games
 
