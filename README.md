@@ -602,6 +602,8 @@ This list is for developers and modders working with such formats. It provides t
 - [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Asset extraction tool.
 - [Cordycep](https://github.com/Scobalula/Cordycep) - Tool to load and parse Call of Duty fast files.
 - [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile Generator for IW4 (Modern Warfare 2).
+- [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140) - Fast converter for IWI and DDS texture formats used in Call of Duty 2 (v1.40).
+- [x to xmodel_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for X model format to xmodel_export format for Call of Duty: World at War (v1.6).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
 - [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Tool for converting OBJ files to Call of Duty Xmodel format.
@@ -1384,6 +1386,9 @@ This list is for developers and modders working with such formats. It provides t
 - [alo/ala max importer exporter (Star Wars: Empire at War)](https://www.moddb.com/groups/starwars-empire-at-war-fan-mod-group/downloads/aloala-max-importer-exporter) - 3DS Max importer/exporter for ALO/ALA formats used in Star Wars: Empire at War.
 - [Blender-ALAMAO-Plugin for 4.2LTS (Star Wars: Empire at War: Forces of Corruption)](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/blender-alamao-plugin-for-42lts) - Blender plugin for ALAMAO format in Star Wars: Empire at War: Forces of Corruption.
 - [Grey Goo Official Asset Adding Tools](https://www.moddb.com/games/grey-goo/downloads/grey-goo-asset-adding-tools) - Official asset adding tools for Grey Goo.
+- [3DS Max 7 and 8 Plugin for Map Editor (Star Wars: Empire At War)](https://www.moddb.com/games/star-wars-empire-at-war/downloads/3ds-max-7-and-8-plugin-for-map-editor) - 3DS Max plugin for map editor in Star Wars: Empire At War.
+- [Star Wars Empire At War FOC DDS Tool](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/star-wars-empire-at-war-foc-dds-tool) - DDS texture tool for Star Wars: Empire at War: Forces of Corruption.
+- [Star Wars Empire At War FOC DDS Viewer & Thumbplug _tga1.10](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/star-wars-empire-at-war-foc-dds-viewer-thumbplug-tga110) - DDS viewer and thumbnail plugin for Star Wars: Empire at War: Forces of Corruption (v1.10).
 
 ### PlatinumGames
 
