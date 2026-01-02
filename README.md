@@ -48,6 +48,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Source (Valve)](#source-valve)
     - [Unity](#unity)
     - [Unreal Engine](#unreal-engine)
+    - [CryEngine](#cryengine)
     - [Hedgehog Engine](#hedgehog-engine)
     - [Northlight Engine](#northlight-engine)
     - [Build Engine](#build-engine)
@@ -155,6 +156,8 @@ This list is for developers and modders working with such formats. It provides t
     - [PlatinumGames](#platinumgames)
       - [Bayonetta](#bayonetta)
       - [Nier: Automata / Replicant](#nier-automata--replicant)
+    - [Primal Software](#primal-software)
+      - [The I of the Dragon](#the-i-of-the-dragon)
     - [Polytron](#polytron)
     - [Punchline](#punchline)
     - [Polyphony Digital](#polyphony-digital)
@@ -176,6 +179,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Supercell](#supercell)
     - [SuperTuxKart](#supertuxkart)
     - [Telltale Games](#telltale-games)
+    - [GSC Game World](#gsc-game-world)
+      - [S.T.A.L.K.E.R.](#stalker)
     - [Terminal Reality](#terminal-reality)
       - [BloodRayne](#bloodrayne)
     - [THQ / Rainbow Studios](#thq--rainbow-studios)
@@ -277,6 +282,8 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
+- [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - Blender script for importing and exporting MD3 model format used in Quake III Arena and other id Tech 3 games. Supports animation frame export and shader path configuration.
+- [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
 
 ### 📦 Archive & Asset Extraction
 
@@ -388,6 +395,7 @@ This list is for developers and modders working with such formats. It provides t
 - [corvid](https://github.com/KILLTUBE/corvid) - Source Engine level converter for Call of Duty.
 - [Plumber](https://github.com/lasa01/Plumber) - Blender add-on for importing Source 1 engine maps, models, materials and textures from CS:GO, TF2, CS:S, and other titles.
   - Features: full map import (brushes, overlays, lights, props, skyboxes), MDL/material/texture import with color options, and embedded file browser.
+- [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - 3DS Max plugin for importing SMD (Studiomodel) format files from Half-Life and other Source Engine games.
 
 ### Unity
 
@@ -408,6 +416,14 @@ This list is for developers and modders working with such formats. It provides t
 - [UnrealExporter](https://github.com/luk-gg/UnrealExporter) - Batch file exporter.
 - [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) - Databank of generic UE modding tools.
 - [Snooper](https://github.com/FModel/Snooper/tree/opengl) - OpenGL based 3D viewer for cooked UE packages.
+- [ActorX Tools](https://www.moddb.com/groups/unreal-tournament-3-mod-developers/downloads/actorx-tools-for-maya-85-3dsmax-9) - Plugin for Maya 8.5 and 3DS Max 9 for importing skeletal meshes and animations in Unreal Engine games.
+- [U3D](https://www.moddb.com/games/unreal-tournament/downloads/u3d-v10-unreal-model-conversion-tool) - Unreal model conversion tool for converting 3DS files to Unreal .3D format. Supports uniform/XYZ scaling, clipping bounds, and animation frame conversion.
+- [Unreal to Deus Ex mesh converter](https://www.moddb.com/games/deus-ex/downloads/unreal-to-deus-ex-mesh-converter) - Tool for converting Unreal Engine mesh formats to Deus Ex format.
+
+### CryEngine
+
+- [Far Cry 1 Noesis import plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-noesis-import-plugin) - Noesis plugin for importing Far Cry 1 (CryEngine 1) models. Supports model import but not export.
+- [CryEngine 2 3d archive](https://www.moddb.com/games/crysis/downloads/cryengine-2-3d-archive) - Tool for working with CryEngine 2 3D archive files from Crysis.
 
 ### Hedgehog Engine
 
@@ -523,6 +539,7 @@ This list is for developers and modders working with such formats. It provides t
 - [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile Generator for IW4 (Modern Warfare 2).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
+- [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Tool for converting OBJ files to Call of Duty Xmodel format.
 
 ### Angel Matrix
 
@@ -584,6 +601,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Devil May Cry
 
 - [dmc_hd_tools](https://github.com/Kerilk/dmc_hd_tools) - Toolkit for Devil May Cry HD Collection including Noesis plugins and binary templates.
+- [ARC Unpacker & Repacker](https://www.moddb.com/games/devil-may-cry-4/downloads/arc-unpacker-repacker-v09428) - Tool for unpacking and repacking ARC archive files from Devil May Cry 4.
 
 #### Gregory Horror Show
 
@@ -913,6 +931,8 @@ This list is for developers and modders working with such formats. It provides t
 - [ekur](https://github.com/TheHaloArchive/ekur) - Blam! engine (Halo) format library and research tools.
 - [Reclaimer](https://github.com/Gravemind2401/Reclaimer) - Halo asset extraction and analysis tool supporting Halo 1, 2, 3, 4, Reach, and Online.
 - [HaloWarsDocs](https://github.com/HaloMods/HaloWarsDocs) - Documentation and 010 Editor templates for modding Halo Wars 1 and 2.
+- [XTraction - Halo 3/ODST texture extractor](https://www.moddb.com/games/halo-3/downloads/xtraction-halo-3-odst-texture-extractor-tool) - Tool for extracting textures from Halo 3 and ODST.
+- [Stream Ripping Tools - Halo 3/4/ODST/CEA/HR Game Asset Extractors Converters Kit](https://www.moddb.com/games/halo-2/downloads/stream-ripping-tools-game-asset-extractors-converters-kit) - Asset extraction and conversion toolkit for Halo 3, 4, ODST, CEA, and HR.
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
 
 #### Forza
@@ -1209,6 +1229,12 @@ This list is for developers and modders working with such formats. It provides t
 - [NieR2Blender](https://github.com/WoefulWolf/NieR2Blender_2_8) - Blender addon for importing NieR Automata and Replicant models.
 - [Replicant2Blender](https://github.com/WoefulWolf/Replicant2Blender) - Blender addon for importing NieR Replicant ver.1.22 mesh packs and textures into Blender (alpha).
 
+### Primal Software
+
+#### The I of the Dragon
+
+- [Archive files plugin for Noesis (The I of the Dragon)](https://www.moddb.com/games/the-i-of-the-dragon/downloads/archive-files-plugin-for-noesis-v001) - Noesis plugin for importing archive files from The I of the Dragon.
+
 ### Polytron
 
 - [noclip.website (Fez)](https://github.com/magcius/noclip.website/tree/main/src/Fez) - In-browser Fez viewer.
@@ -1348,6 +1374,12 @@ This list is for developers and modders working with such formats. It provides t
 - [Unity_WBOX_Editor](https://github.com/Telltale-Modding-Group/Unity_WBOX_Editor) - Unity-based tool for importing and generating `.wbox` navigation mesh files.
 - [TelltaleGames_D3DMesh_Importer](https://github.com/WeaselOnaStick/TelltaleGames_D3DMesh_Importer) - Blender add-on for importing `D3DMesh` models from Telltale titles.
 
+### GSC Game World
+
+#### S.T.A.L.K.E.R.
+
+- [Geometry Decompiler plugin for 3dsmax](https://www.moddb.com/games/stalker/downloads/geometry-decompiler-plugin-for-3dsmax) - 3DS Max plugin for decompiling geometry files from S.T.A.L.K.E.R. Shadow of Chernobyl.
+
 ### Terminal Reality
 
 #### BloodRayne
@@ -1408,6 +1440,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
+- [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
 
 ## 🔗 Related Lists
 
