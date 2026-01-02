@@ -71,8 +71,12 @@ This list is for developers and modders working with such formats. It provides t
     - [Arkane Studios](#arkane-studios)
     - [Atlus](#atlus)
     - [Asobo Studio](#asobo-studio)
+    - [Black Element Software](#black-element-software)
     - [Bandai Namco](#bandai-namco)
+    - [EA DICE](#ea-dice)
+      - [Battlefield Series](#battlefield-series)
     - [Capcom](#capcom)
+      - [Resident Evil](#resident-evil)
       - [Monster Hunter](#monster-hunter)
       - [Devil May Cry](#devil-may-cry)
       - [Gregory Horror Show](#gregory-horror-show)
@@ -132,6 +136,7 @@ This list is for developers and modders working with such formats. It provides t
       - [NFL Blitz](#nfl-blitz)
     - [Monolith Productions](#monolith-productions)
       - [F.E.A.R.](#fear)
+    - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
       - [Jak and Daxter](#jak-and-daxter)
@@ -161,6 +166,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Obsidian Entertainment](#obsidian-entertainment)
       - [Neverwinter Nights 2](#neverwinter-nights-2)
     - [Panic](#panic)
+    - [Petroglyph Games](#petroglyph-games)
     - [PlatinumGames](#platinumgames)
       - [Bayonetta](#bayonetta)
       - [Nier: Automata / Replicant](#nier-automata--replicant)
@@ -170,6 +176,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Punchline](#punchline)
     - [Polyphony Digital](#polyphony-digital)
     - [RAD Game Tools](#rad-game-tools)
+    - [Rebel Act](#rebel-act)
+    - [Rebellion Developments](#rebellion-developments)
     - [Rare](#rare)
     - [Runic Games](#runic-games)
       - [Torchlight II](#torchlight-ii)
@@ -182,6 +190,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Riot Games](#riot-games)
     - [Santa Monica Studio](#santa-monica-studio)
     - [Sega](#sega)
+      - [Creative Assembly](#creative-assembly)
+        - [Alien: Isolation](#alien-isolation)
     - [Sonic Team](#sonic-team)
       - [Sonic Adventure](#sonic-adventure)
       - [Sonic Heroes / Shadow](#sonic-heroes--shadow)
@@ -199,6 +209,7 @@ This list is for developers and modders working with such formats. It provides t
       - [BloodRayne](#bloodrayne)
     - [THQ / Rainbow Studios](#thq--rainbow-studios)
       - [Cars](#cars)
+      - [MX vs ATV](#mx-vs-atv)
     - [3D Realms](#3d-realms)
       - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
     - [Thekla Inc](#thekla-inc)
@@ -207,6 +218,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Ubisoft](#ubisoft)
       - [Anno 1800](#anno-1800)
     - [Bethesda](#bethesda)
+    - [Bohemia Interactive](#bohemia-interactive)
+    - [Bethesda](#bethesda-1)
     - [Blizzard Entertainment](#blizzard-entertainment)
   - [🔗 Related Lists](#-related-lists)
   - [📄 License](#-license)
@@ -606,6 +619,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [fmtk](https://github.com/widberg/fmtk) - FUEL Modding Toolkit.
 
+### Black Element Software
+
+- [Alpha Prime RES Unpacker](https://www.moddb.com/mods/alpha-prime-dominus-prime/downloads/alpha-prime-res-unpacker-modding-tool) - Tool for unpacking RES archive files from Alpha Prime.
+
 ### Bandai Namco
 
 - [BinarySerializer.Klonoa](https://github.com/BinarySerializer/BinarySerializer.Klonoa) - Serializer for Klonoa games.
@@ -614,7 +631,20 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Klonoa)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Klonoa viewer.
 - [noclip.website (Katamari Damacy)](https://github.com/magcius/noclip.website/tree/main/src/KatamariDamacy) - In-browser Katamari Damacy viewer.
 
+### EA DICE
+
+#### Battlefield Series
+
+- [BF1942 3dsmax 8 plugin](https://www.moddb.com/games/battlefield-1942/downloads/bf1942-3dsmax-8-plugin) - 3DS Max 8 plugin for importing Battlefield 1942 models.
+- [BF2 Maya 4-6 Tools](https://www.moddb.com/games/battlefield-2/downloads/bf2-maya-4-6-tools) - Maya 4-6 tools for working with Battlefield 2 assets.
+- [BF42 3dsMax plugins 2.762](https://www.moddb.com/mods/battlefield-2-play-for-free-mod/downloads/bf42-3dsmax-plugins-2762) - 3DS Max plugins for Battlefield 2 (v2.762).
+- [BGF Heightmap Converter](https://www.moddb.com/games/battlefield-2/downloads/bgf-heightmap-converter-utility) - Heightmap converter utility for Battlefield 2 BGF format.
+
 ### Capcom
+
+#### Resident Evil
+
+- [BioHazard File Archive Tool (Resident Evil 4)](https://www.moddb.com/games/resident-evil-4/downloads/biohazard-file-archive-tool) - File archive tool for Resident Evil 4 (2005).
 
 #### Monster Hunter
 
@@ -776,6 +806,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CON-Tools](https://github.com/PikminGuts92/CON-Tools) - Create, modify, and combine Rock Band CON files. Convert to Phase Shift, Wii, and PS3 formats.
 - [PyMilo](https://github.com/PikminGuts92/PyMilo) - Python library for managing milo files from Harmonix games. Includes GUI and archive extraction utilities. (Archived)
 - [BFForever](https://github.com/PikminGuts92/BFForever) - Library for managing and creating game files for BandFuse (PS3, Xbox 360). Handles RIFF files, CELT audio encoding/decoding.
+- [Beatles Rock Band Blender plugin](https://www.moddb.com/games/rock-band/downloads/beatles-rock-band-blender-plugin) - Blender plugin for working with Beatles Rock Band assets.
 - [amplitools](https://github.com/PikminGuts92/amplitools) - Tools for Amplitude '03.
 - [offbeat](https://github.com/PikminGuts92/offbeat) - Rust library for Dance Dance Revolution Universe. Includes DDM to glTF converter.
 - [praise-mod](https://github.com/PikminGuts92/praise-mod) - Toolkit for creating Guitar Praise custom content. Converts Clone Hero songs to GP format. Supports ogg vorbis audio.
@@ -1004,6 +1035,10 @@ This list is for developers and modders working with such formats. It provides t
 #### F.E.A.R.
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
+
+### Oddworld Inhabitants
+
+- [Asset Tool (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/asset-tool) - Tool for working with assets from Oddworld: Abe's Exoddus.
 
 ### Naughty Dog
 
@@ -1252,6 +1287,10 @@ This list is for developers and modders working with such formats. It provides t
 - [playdate-reverse-engineering](https://github.com/cranksters/playdate-reverse-engineering) - Reverse engineering notes and tools for Playdate handheld console.
 - [noclip.website (A Short Hike)](https://github.com/magcius/noclip.website/tree/main/src/AShortHike) - In-browser A Short Hike viewer.
 
+### Petroglyph Games
+
+- [alo/ala max importer exporter (Star Wars: Empire at War)](https://www.moddb.com/groups/starwars-empire-at-war-fan-mod-group/downloads/aloala-max-importer-exporter) - 3DS Max importer/exporter for ALO/ALA formats used in Star Wars: Empire at War.
+
 ### PlatinumGames
 
 - [platinumgames_stuff](https://github.com/Timo654/platinumgames_stuff) - Collection of Python scripts for PlatinumGames titles including Bayonetta 3 and Metal Gear Rising: Revengeance.
@@ -1293,6 +1332,15 @@ This list is for developers and modders working with such formats. It provides t
 ### RAD Game Tools
 
 - [Knit](https://github.com/neptuwunium/Knit) - Managed C# library for reading Granny 2 3D model files used in many games.
+
+### Rebel Act
+
+- [3D tools for Severance v2.5](https://www.moddb.com/games/severance-blade-of-darkness/downloads/3d-tools-for-severance-v25) - 3D tools for Severance: Blade of Darkness (v2.5).
+- [3D Tools & Scripts v1.2.1](https://www.moddb.com/games/severance-blade-of-darkness/downloads/3d-tools-scripts-v121) - 3D tools and scripts for Severance: Blade of Darkness (v1.2.1).
+
+### Rebellion Developments
+
+- [AvP Editing Tools](https://www.moddb.com/games/aliens-vs-predator/downloads/avp-editing-tools) - Editing tools for Aliens versus Predator (Classic).
 
 ### Rare
 
@@ -1460,6 +1508,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [carsraceorama](https://github.com/leeao/carsraceorama) - Noesis plugin for Cars Mater-National and Cars Race-O-Rama. Model importer/exporter supporting multiple platform formats: XNG (Xbox 360/PC), P3G (PS3), GCG (Wii/GameCube), DXG (PC/Xbox), PSG (PS2), SLT (text).
 
+#### MX vs ATV
+
+- [3ds Export script (MX vs ATV Reflex)](https://www.moddb.com/games/mx-vs-atv-reflex/downloads/3ds-export-script) - 3DS export script for MX vs ATV Reflex.
+
 ### 3D Realms
 
 #### Duke Nukem: Manhattan Project
@@ -1495,6 +1547,12 @@ This list is for developers and modders working with such formats. It provides t
 ### Bethesda
 
 *The Elder Scrolls, Fallout series, and Starfield.*
+
+### Bohemia Interactive
+
+- [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Editing tools for ARMA 2.
+
+### Bethesda
 
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
 - [Wrye Bash](https://wrye-bash.github.io) - Swiss army knife for modding Bethesda games with features including mod installation, conflict manager, load order manager and automatic merging.
