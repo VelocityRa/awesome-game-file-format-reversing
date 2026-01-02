@@ -689,6 +689,8 @@ This list is for developers and modders working with such formats. It provides t
 - [BGF Heightmap Converter](https://www.moddb.com/games/battlefield-2/downloads/bgf-heightmap-converter-utility) - Heightmap converter utility for Battlefield 2 BGF format.
 - [DDS Viewer Plugin (Battlefield Vietnam)](https://www.moddb.com/games/battlefield-vietnam/downloads/dds-viewer-plugin) - DDS texture viewer plugin for Battlefield Vietnam.
 - [NVIDIA DDS Utilities (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-dds-utilities) - NVIDIA DDS texture utilities for Battlefield 2.
+- [NVIDIA Texture Atlas Tool (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-texture-atlas-tool) - NVIDIA texture atlas tool for Battlefield 2.
+- [POE2 3DS Max 6-8 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-6-8-tools) - 3DS Max 6-8 tools for Battlefield 2 (POE2).
 
 #### Star Wars: Battlefront
 
@@ -1145,6 +1147,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Blood
 
 - [BLOOD ULTIMATE BUNDLE TOOLS KIT](https://www.moddb.com/mods/blood-modern-voxels-pak-for-mappers-and-moders/downloads/blood-ultimate-bundle-tools-kit) - Comprehensive tools kit for Blood game formats.
+
+#### No One Lives Forever
+
+- [Lithtech Jupiter Maya/3dsmax plugins (No One Lives Forever 2)](https://www.moddb.com/games/no-one-lives-forever-2-a-spy-in-harm/downloads/lithtech-jupiter-maya3dsmax-plugins) - Maya and 3DS Max plugins for Lithtech Jupiter engine used in No One Lives Forever 2.
+- [Lithtech 2.2 toolset (No One Lives Forever)](https://www.moddb.com/games/no-one-lives-forever/downloads/lithtech-22-toolset) - Toolset for Lithtech 2.2 engine used in No One Lives Forever.
+- [NOLF Tools (No One Lives Forever)](https://www.moddb.com/games/no-one-lives-forever/downloads/nolf-tools) - Tools for working with No One Lives Forever file formats.
 
 ### Oddworld Inhabitants
 
