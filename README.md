@@ -694,6 +694,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Call of Duty 2 Mod Tools](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools) - Mod tools for Call of Duty 2.
 - [Call of Duty 2 Mod Tools No Installer](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools-no-installer) - Mod tools for Call of Duty 2 (no installer version).
 - [Call of Duty 4 Mod Tools (SDK)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/call-of-duty-4-mod-tools-sdk) - Mod tools SDK for Call of Duty 4: Modern Warfare.
+- [Iwi Converter (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-converter) - Converter for IWI texture format used in Call of Duty 2.
 
 #### Tony Hawk's Pro Skater
 
@@ -808,6 +809,11 @@ This list is for developers and modders working with such formats. It provides t
 - [Hex Character Guide (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hex-character-guide) - Guide for hex editing characters in Star Wars: Battlefront II.
 - [HQ fightertank model (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hq-fightertank-model) - High-quality fighter tank model for Star Wars: Battlefront II.
 - [Human Mercenary Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/human-mercenary-modders-asset) - Human Mercenary model asset for Star Wars: Battlefront II.
+- [Imperial Admiral Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/imperial-admiral-asset) - Imperial Admiral model asset for Star Wars: Battlefront II.
+- [Imperial Sand Trooper Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/imperial-sand-trooper-assets) - Imperial Sand Trooper model assets for Star Wars: Battlefront II.
+- [Incendiary Grenade Asset Pack (Star Wars Battlefront II)](https://www.moddb.com/mods/reworked-sides/downloads/incendiary-grenade-asset-pack) - Incendiary grenade asset pack for Star Wars: Battlefront II.
+- [Jedi Academy posed skeleton (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/jedi-academy-posed-skeleton-for-modders) - Jedi Academy posed skeleton for modders in Star Wars: Battlefront II.
+- [Jedi Sentinel Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/jedi-sentinel-modders-asset) - Jedi Sentinel model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1045,6 +1051,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Grim Fandango model viewer](https://www.moddb.com/games/grim-fandango/downloads/grim-fandango-model-viewer) - Model viewer for Grim Fandango.
 - [Easy Saber Editing Script 2.0 (Star Wars: Jedi Academy)](https://www.moddb.com/games/star-wars-jedi-academy/downloads/easy-saber-editing-script-2-0) - Script for editing lightsaber properties in Star Wars: Jedi Academy (v2.0).
+- [JK editing manuals (Star Wars Jedi Knight: Dark Forces II)](https://www.moddb.com/games/star-wars-jedi-knight-dark-forces-ii/downloads/jk-editing-manuals) - Editing manuals for Star Wars Jedi Knight: Dark Forces II.
+- [JKVersions Tool 3.0 by The_MAZZTer (Star Wars Jedi Knight: Dark Forces II)](https://www.moddb.com/mods/todoa/downloads/jkversions-tool-by-the-mazzter) - Version management tool for Star Wars Jedi Knight: Dark Forces II (v3.0).
 
 ### Gust (Koei Tecmo)
 
