@@ -91,7 +91,9 @@ This list is for developers and modders working with such formats. It provides t
     - [Disney Interactive](#disney-interactive)
       - [Toontown Online](#toontown-online)
     - [Double Fine](#double-fine)
+    - [8monkey Labs](#8monkey-labs)
     - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
+    - [Surreal Software](#surreal-software)
     - [EA Black Box](#ea-black-box)
       - [Need for Speed Series](#need-for-speed-series)
     - [FromSoftware](#fromsoftware)
@@ -102,6 +104,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Genius Sonority](#genius-sonority)
     - [Genki](#genki)
     - [Grezzo](#grezzo)
+    - [id Software](#id-software)
+    - [Grezzo](#grezzo-1)
     - [Guerrilla Games](#guerrilla-games)
     - [Gust (Koei Tecmo)](#gust-koei-tecmo)
     - [Harmonix](#harmonix)
@@ -436,6 +440,7 @@ This list is for developers and modders working with such formats. It provides t
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - 3DS Max plugin for importing SMD (Studiomodel) format files from Half-Life and other Source Engine games.
 - [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
+- [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
 
 ### Unity
 
@@ -459,6 +464,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ActorX Tools](https://www.moddb.com/groups/unreal-tournament-3-mod-developers/downloads/actorx-tools-for-maya-85-3dsmax-9) - Plugin for Maya 8.5 and 3DS Max 9 for importing skeletal meshes and animations in Unreal Engine games.
 - [U3D](https://www.moddb.com/games/unreal-tournament/downloads/u3d-v10-unreal-model-conversion-tool) - Unreal model conversion tool for converting 3DS files to Unreal .3D format. Supports uniform/XYZ scaling, clipping bounds, and animation frame conversion.
 - [Unreal to Deus Ex mesh converter](https://www.moddb.com/games/deus-ex/downloads/unreal-to-deus-ex-mesh-converter) - Tool for converting Unreal Engine mesh formats to Deus Ex format.
+- [DUT TOOL-2.0.2.0 (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/dut-tool-2020) - Tool for Defend Unreal Territories mod for Unreal Tournament 3.
 
 ### CryEngine
 
@@ -610,6 +616,14 @@ This list is for developers and modders working with such formats. It provides t
 - [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) - Script dumper for EarthBound.
 - [ebtexted](https://github.com/PKHackers/ebtexted) - Text editor for EarthBound.
 - [EBME](https://github.com/Supremekirb/EBME) - EarthBound Map Editor.
+
+### 11 bit studios
+
+- [Frostract - Frostpunk idx and dat unpacker](https://www.moddb.com/games/frostpunk/downloads/frostract-frostpunk-idx-and-dat-unpacker) - Tool for unpacking IDX and DAT archive files from Frostpunk.
+
+### Remedy Entertainment
+
+- [Game Levels Importing plugin for Maya (Max Payne)](https://www.moddb.com/games/max-payne/downloads/game-levels-importing-plugin-for-maya) - Maya plugin for importing game levels from Max Payne.
 
 ### Argonaut Games
 
@@ -810,6 +824,12 @@ This list is for developers and modders working with such formats. It provides t
 
 *Ocarina of Time 3D, Majora's Mask 3D, Luigi's Mansion remake.*
 
+### Human Head Studios
+
+- [Gwynhala's Model Exporter (Rune)](https://www.moddb.com/games/rune/downloads/gwynhalas-model-exporter) - Model exporter for Rune.
+
+### Grezzo
+
 ### id Software
 
 - [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Tutorial files for importing models into Doom 3.
@@ -828,6 +848,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Guerrilla Games
 
 - [ProjectZeroDawn](https://github.com/neptuwunium/ProjectZeroDawn) - File format research and tools for Horizon Zero Dawn.
+
+### LucasArts
+
+- [Grim Fandango model viewer](https://www.moddb.com/games/grim-fandango/downloads/grim-fandango-model-viewer) - Model viewer for Grim Fandango.
 
 ### Gust (Koei Tecmo)
 
@@ -1033,6 +1057,7 @@ This list is for developers and modders working with such formats. It provides t
 - [HaloWarsDocs](https://github.com/HaloMods/HaloWarsDocs) - Documentation and 010 Editor templates for modding Halo Wars 1 and 2.
 - [XTraction - Halo 3/ODST texture extractor](https://www.moddb.com/games/halo-3/downloads/xtraction-halo-3-odst-texture-extractor-tool) - Tool for extracting textures from Halo 3 and ODST.
 - [Stream Ripping Tools - Halo 3/4/ODST/CEA/HR Game Asset Extractors Converters Kit](https://www.moddb.com/games/halo-2/downloads/stream-ripping-tools-game-asset-extractors-converters-kit) - Asset extraction and conversion toolkit for Halo 3, 4, ODST, CEA, and HR.
+- [Halo2 Gravemind Tool Extractor v1.6B](https://www.moddb.com/games/halo-2/downloads/halo2-gravemind-tool-extractor) - Asset extractor for Halo 2 (v1.6B).
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
 
 #### Forza
@@ -1338,6 +1363,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [alo/ala max importer exporter (Star Wars: Empire at War)](https://www.moddb.com/groups/starwars-empire-at-war-fan-mod-group/downloads/aloala-max-importer-exporter) - 3DS Max importer/exporter for ALO/ALA formats used in Star Wars: Empire at War.
 - [Blender-ALAMAO-Plugin for 4.2LTS (Star Wars: Empire at War: Forces of Corruption)](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/blender-alamao-plugin-for-42lts) - Blender plugin for ALAMAO format in Star Wars: Empire at War: Forces of Corruption.
+- [Grey Goo Official Asset Adding Tools](https://www.moddb.com/games/grey-goo/downloads/grey-goo-asset-adding-tools) - Official asset adding tools for Grey Goo.
 
 ### PlatinumGames
 
@@ -1413,6 +1439,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Torchlight II
 
 - [Modified PAK Extractor Tool](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting PAK archive files from Torchlight II.
+- [GUTS Tools and Assets](https://www.moddb.com/games/torchlight-ii/downloads/guts-tools-and-assets) - GUTS (Torchlight II editor) tools and assets.
 
 ### 1C Company / Best Way
 
@@ -1502,6 +1529,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Murugo/Misc-Game-Research (Musashi: Samurai Legend)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Musashi%20Samurai%20Legend) - Reverse engineering notes for Musashi: Samurai Legend (PS2).
 - [kh1](https://github.com/ethteck/kh1) - WIP Decompilation of Kingdom Hearts (PS2, JP).
 - [noclip.website (Final Fantasy X)](https://github.com/magcius/noclip.website/tree/main/src/FinalFantasyX) - In-browser Final Fantasy X viewer.
+- [Final Fantasy X HD translation tools](https://www.moddb.com/games/final-fantasy-x/downloads/final-fantasy-x-hd-translation-tools) - Translation tools for Final Fantasy X HD.
 - [noclip.website (Kingdom Hearts)](https://github.com/magcius/noclip.website/tree/main/src/KingdomHearts) - In-browser Kingdom Hearts viewer.
 - [noclip.website (Kingdom Hearts II Final Mix)](https://github.com/magcius/noclip.website/tree/main/src/KingdomHearts2FinalMix) - In-browser Kingdom Hearts II Final Mix viewer.
 - [noclip.website (Dragon Quest VIII)](https://github.com/magcius/noclip.website/tree/main/src/DragonQuest8) - In-browser Dragon Quest VIII viewer.
