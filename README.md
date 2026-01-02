@@ -452,6 +452,7 @@ This list is for developers and modders working with such formats. It provides t
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - 3DS Max plugin for importing SMD (Studiomodel) format files from Half-Life and other Source Engine games.
 - [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
+- [Dvondrake's SMD exporter for Blender](https://www.moddb.com/groups/source-developers/downloads/dvondrake-smd-blender) - Blender SMD exporter for Source Engine models.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Model viewer for GoldSrc engine (Half-Life) models (v0.3a Beta2).
 - [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
@@ -461,6 +462,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Source Model Viewer [Build: 2019-04-23] (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/source-model-viewer-build-2019-04-23) - Model viewer for Source Engine models (build 2019-04-23).
 - [VTF-2-TGA Convertor Utility (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/vtf-2-tga-convertor-utility) - Converter for VTF (Valve Texture Format) to TGA format used in Half-Life 2.
 - [Texture Tool v1.2.1 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/texture-tool) - Texture tool for Half-Life (v1.2.1).
+- [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
+- [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 
 ### Unity
 
