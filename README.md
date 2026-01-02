@@ -962,6 +962,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Borderlands 2 Texture Modding Tool for PC](https://www.moddb.com/games/borderlands-2/downloads/borderlands-2-texture-modding-tool-for-pc) - Texture modding tool for Borderlands 2 on PC.
 
+#### MechWarrior 4
+
+- [MW4 Sound Extractor (MechWarrior 4: Mercenaries)](https://www.moddb.com/games/mechwarrior-4-mercenaries/downloads/mw4-sound-extractor) - Sound extraction tool for MechWarrior 4: Mercenaries.
+
 ### Game Freak
 
 *Pokémon games across various generations.*
