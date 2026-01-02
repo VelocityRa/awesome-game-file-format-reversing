@@ -532,6 +532,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Far Cry 1 Noesis import plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-noesis-import-plugin) - Noesis plugin for importing Far Cry 1 (CryEngine 1) models. Supports model import but not export.
 - [Far Cry 1 3dsmax 9 plugin](https://www.moddb.com/games/far-cry/downloads/far-cry-1-3dsmax-9-plugin) - 3DS Max 9 plugin for Far Cry 1.
 - [CryEngine 2 3d archive](https://www.moddb.com/games/crysis/downloads/cryengine-2-3d-archive) - Tool for working with CryEngine 2 3D archive files from Crysis.
+- [CryENGINE 2 Resources (Crysis)](https://www.moddb.com/games/crysis/downloads/cryengine-2-resources1) - Resources for CryENGINE 2 used in Crysis.
+- [CryEngine2 Archive (Crysis)](https://www.moddb.com/games/crysis/downloads/cryengine2-archive) - Archive tool for CryEngine2 used in Crysis.
+- [Crysis Benchmarking Tool 1.05](https://www.moddb.com/games/crysis/downloads/crysis-benchmarking-tool-1-05) - Benchmarking tool for Crysis (v1.05).
+- [Cryengine Mod SDK 1.4 (Far Cry)](https://www.moddb.com/games/far-cry/downloads/cryengine-mod-sdk-14) - Mod SDK for CryEngine used in Far Cry (v1.4).
 
 ### Hedgehog Engine
 
@@ -693,6 +697,9 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Grand Theft Auto: San Andreas)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: San Andreas viewer.
 - [MidtownExtractor](https://github.com/0x1F9F1/MidtownExtractor) - Midtown Madness 1/2 and Midnight Club 2 File Extractor
 - [MeltyTool](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/AngelStudios) - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games en-masse.
+- [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto III)](https://www.moddb.com/games/grand-theft-auto-3/downloads/cleo-library-by-seemann-for-gta-iii) - CLEO library for Grand Theft Auto III (v2.0.0.5).
+- [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto: Vice City)](https://www.moddb.com/games/grand-theft-auto-vice-city/downloads/cleo-library-v2005-by-seemann-for-gta-vc) - CLEO library for Grand Theft Auto: Vice City (v2.0.0.5).
+- [CLEO library v4.3.22 by Seemann (Grand Theft Auto: San Andreas)](https://www.moddb.com/games/grand-theft-auto-san-andreas/downloads/cleo-library-v4322-by-seemann-for-gta-sa) - CLEO library for Grand Theft Auto: San Andreas (v4.3.22).
 
 ### Ape, Inc
 
@@ -1118,6 +1125,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MGS-KMD-Noesis](https://github.com/Jayveer/MGS-KMD-Noesis) - Noesis Plugin for Metal Gear Solid PS1 Model (KMD) and Animation (OAR) files
 - [MGS2 HZX Format](https://github.com/GirianSeed/mgs2/blob/trunk/source/include/fmt_hzx.h) - Documentation for Metal Gear Solid 2 HZX (Hazard) map navigation format including patrol routes, navmesh, triggers, cameras, and spatial zones.
 - [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
+- [DAR Archive Editor (Metal Gear Solid 2: Sons of Liberty)](https://www.moddb.com/games/metal-gear-solid-2-sons-of-liberty/downloads/dar-archive-editor) - Archive editor for DAR format used in Metal Gear Solid 2: Sons of Liberty.
 
 #### Silent Hill
 
@@ -1626,6 +1634,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Torchlight
 
 - [Nimet - Ogre3D Mesh Viewer (Torchlight)](https://www.moddb.com/games/torchlight/downloads/nimet-ogre3d-mesh-viewer) - Ogre3D mesh viewer for Torchlight models.
+- [Cliffside tile set build 1.0.00 (Torchlight)](https://www.moddb.com/games/torchlight/downloads/cliffside-tile-set-build-1000) - Tile set for Torchlight level creation (build 1.0.00).
 
 #### Torchlight II
 
@@ -1851,6 +1860,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Jormungandr](https://github.com/neptuwunium/Jormungandr) - File format research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting SPK audio files found in Ubisoft game .dat files.
 - [Hawx Model Tool 1.04 (Tom Clancy's H.A.W.X.)](https://www.moddb.com/games/tom-clancys-hawx/downloads/hawx-model-tool-104) - Model tool for Tom Clancy's H.A.W.X. (v1.04).
+- [Complete UMP40 Source Code and Assets (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/mods/raven-shield-software-development-kit/downloads/complete-ump40-source-code-and-assets) - Complete source code and assets for UMP40 weapon in Rainbow Six 3: Raven Shield.
+- [Damage Triggers - mapping tool (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/damage-triggers-mapping-tool) - Mapping tool for damage triggers in Rainbow Six 3: Raven Shield.
 
 #### Anno 1800
 
