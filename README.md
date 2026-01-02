@@ -676,6 +676,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [WolvenKit (legacy)](https://github.com/WolvenKit/WolvenKit-7) - REDEngine 3 file editor designed to simplify and accelerate modding workflow for The Witcher 3.
 
+#### The Witcher
+
+- [Blender 2.49 exporter for The Witcher](https://www.moddb.com/games/the-witcher/downloads/blender-exporter-for-the-witcher) - Blender 2.49 exporter for The Witcher.
+
 #### Cyberpunk 2077 / REDEngine 4
 
 - [WolvenKit](https://github.com/WolvenKit/WolvenKit) - REDEngine 4 file editor designed to simplify and accelerate modding workflow for Cyberpunk 2077.
@@ -699,6 +703,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Double Fine
 
 - [noclip.website (Psychonauts)](https://github.com/magcius/noclip.website/tree/main/src/psychonauts) - In-browser Psychonauts viewer.
+
+### Crystal Dynamics / Eidos Interactive
+
+- [Blood Omen 2 3D Rip Tools](https://www.moddb.com/games/blood-omen-2/downloads/blood-omen-2-3d-rip-tools) - Tools for extracting 3D models from Blood Omen 2.
 
 ### EA Black Box
 
@@ -738,6 +746,10 @@ This list is for developers and modders working with such formats. It provides t
 - [ESDLang](https://github.com/thefifthmatt/ESDLang) - Decompiler for ESD event script format.
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
+
+### Gearbox Software
+
+- [Borderlands 2 Texture Modding Tool for PC](https://www.moddb.com/games/borderlands-2/downloads/borderlands-2-texture-modding-tool-for-pc) - Texture modding tool for Borderlands 2 on PC.
 
 ### Game Freak
 
@@ -1035,6 +1047,14 @@ This list is for developers and modders working with such formats. It provides t
 #### F.E.A.R.
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
+
+#### Trespasser
+
+- [Blender 2.6 Trespasser Exporter](https://www.moddb.com/games/trespasser/downloads/blender-26-trespasser-exporter-10) - Blender 2.6 exporter for Trespasser (v1.0).
+
+#### Blood
+
+- [BLOOD ULTIMATE BUNDLE TOOLS KIT](https://www.moddb.com/mods/blood-modern-voxels-pak-for-mappers-and-moders/downloads/blood-ultimate-bundle-tools-kit) - Comprehensive tools kit for Blood game formats.
 
 ### Oddworld Inhabitants
 
@@ -1518,6 +1538,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Tool for editing mesh and bone data from Duke Nukem: Manhattan Project.
 
+#### Duke Nukem Forever (2001)
+
+- [Blender to CPJ Plugin for DNF2001](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/blender-to-cpj-plugin-for-dnf2001) - Blender plugin for converting models to CPJ format for Duke Nukem Forever (2001).
+
 ### Thekla Inc
 
 - [noclip.website (The Witness)](https://github.com/magcius/noclip.website/tree/main/src/TheWitness) - In-browser The Witness viewer.
@@ -1551,8 +1575,6 @@ This list is for developers and modders working with such formats. It provides t
 ### Bohemia Interactive
 
 - [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Editing tools for ARMA 2.
-
-### Bethesda
 
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
 - [Wrye Bash](https://wrye-bash.github.io) - Swiss army knife for modding Bethesda games with features including mod installation, conflict manager, load order manager and automatic merging.
