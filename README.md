@@ -746,7 +746,12 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Remedy Entertainment
 
+#### Max Payne
+
 - [Game Levels Importing plugin for Maya (Max Payne)](https://www.moddb.com/games/max-payne/downloads/game-levels-importing-plugin-for-maya) - Maya plugin for importing game levels from Max Payne.
+- [MAX-FX Tools (Max Payne)](https://www.moddb.com/games/max-payne/downloads/max-fx-tools) - Tools for working with MAX-FX engine formats in Max Payne.
+- [Max Payne 1-2 Packer](https://www.moddb.com/games/max-payne-2/downloads/max-payne-1-2-packer) - Archive packer for Max Payne 1 and 2.
+- [MaxPayne Toolset](https://www.moddb.com/games/max-payne/downloads/maxpayne-toolset) - Toolset for working with Max Payne file formats.
 
 ### Argonaut Games
 
