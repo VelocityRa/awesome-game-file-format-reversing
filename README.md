@@ -67,6 +67,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Ape, Inc](#ape-inc)
+    - [11 bit studios](#11-bit-studios)
+    - [Remedy Entertainment](#remedy-entertainment)
     - [Argonaut Games](#argonaut-games)
     - [Arkane Studios](#arkane-studios)
     - [Atlus](#atlus)
@@ -104,9 +106,12 @@ This list is for developers and modders working with such formats. It provides t
     - [Genius Sonority](#genius-sonority)
     - [Genki](#genki)
     - [Grezzo](#grezzo)
-    - [id Software](#id-software)
+    - [Human Head Studios](#human-head-studios)
     - [Grezzo](#grezzo-1)
+    - [id Software](#id-software)
+    - [Grezzo](#grezzo-2)
     - [Guerrilla Games](#guerrilla-games)
+    - [LucasArts](#lucasarts)
     - [Gust (Koei Tecmo)](#gust-koei-tecmo)
     - [Harmonix](#harmonix)
     - [HAL Laboratory](#hal-laboratory)
@@ -664,6 +669,13 @@ This list is for developers and modders working with such formats. It provides t
 - [BF2 Maya 4-6 Tools](https://www.moddb.com/games/battlefield-2/downloads/bf2-maya-4-6-tools) - Maya 4-6 tools for working with Battlefield 2 assets.
 - [BF42 3dsMax plugins 2.762](https://www.moddb.com/mods/battlefield-2-play-for-free-mod/downloads/bf42-3dsmax-plugins-2762) - 3DS Max plugins for Battlefield 2 (v2.762).
 - [BGF Heightmap Converter](https://www.moddb.com/games/battlefield-2/downloads/bgf-heightmap-converter-utility) - Heightmap converter utility for Battlefield 2 BGF format.
+- [DDS Viewer Plugin (Battlefield Vietnam)](https://www.moddb.com/games/battlefield-vietnam/downloads/dds-viewer-plugin) - DDS texture viewer plugin for Battlefield Vietnam.
+
+#### Star Wars: Battlefront
+
+- [StarWars Battlefront unpacker / decoder](https://www.moddb.com/games/star-wars-battlefront/downloads/starwars-battlefront-unpacker-decoder) - Archive unpacker and decoder for Star Wars: Battlefront.
+- [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Comprehensive modification toolkit for Star Wars: Battlefront.
+- [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - 3D object format converter for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1484,6 +1496,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Alien Isolation Animation Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-animation-exporter) - Tool for exporting animations from Alien: Isolation.
 - [Alien Isolation Model Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-model-exporter) - Tool for exporting models from Alien: Isolation.
+
+##### Total War Series
+
+- [Texture 2 DDS Converter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/texture-2-dds-converter) - Texture converter for Medieval II: Total War DDS format.
+- [Vercengetorix's CAS Import/Export (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/vercengetorix-s-cas-import-export) - CAS (model) format import/export tool for Medieval II: Total War.
+- [CAS Exporter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/cas-exporter) - CAS model exporter for Medieval II: Total War.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
 - [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
@@ -1572,6 +1590,12 @@ This list is for developers and modders working with such formats. It provides t
 #### S.T.A.L.K.E.R.
 
 - [Geometry Decompiler plugin for 3dsmax](https://www.moddb.com/games/stalker/downloads/geometry-decompiler-plugin-for-3dsmax) - 3DS Max plugin for decompiling geometry files from S.T.A.L.K.E.R. Shadow of Chernobyl.
+- [STALKER game archives unpacker](https://www.moddb.com/mods/old-good-stalker-evolution/downloads/stalker-game-archives-unpacker) - Tool for unpacking game archive files from S.T.A.L.K.E.R. series.
+- [STALKER Extractor](https://www.moddb.com/games/stalker/downloads/stalker-extractor) - Archive extraction tool for S.T.A.L.K.E.R. Shadow of Chernobyl.
+- [X-ray game asset tools pack FINAL](https://www.moddb.com/games/stalker/downloads/x-ray-game-asset-tools-pack-final) - Comprehensive asset tools pack for S.T.A.L.K.E.R. Shadow of Chernobyl X-ray engine formats.
+- [Clear Sky: Game Database Unpacker](https://www.moddb.com/games/stalker/downloads/clear-sky-game-database-unpacker) - Database unpacker for S.T.A.L.K.E.R.: Clear Sky.
+- [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Collection of utilities for working with S.T.A.L.K.E.R. game files.
+- [Updated Milkshape plugin](https://www.moddb.com/games/stalker/downloads/updated-milkshape-plugin) - Milkshape 3D plugin for S.T.A.L.K.E.R. Shadow of Chernobyl model formats.
 
 ### Terminal Reality
 
@@ -1598,6 +1622,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Duke Nukem Forever (2001)
 
 - [Blender to CPJ Plugin for DNF2001](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/blender-to-cpj-plugin-for-dnf2001) - Blender plugin for converting models to CPJ format for Duke Nukem Forever (2001).
+
+#### The Outforce
+
+- [Outforce meshes extractor](https://www.moddb.com/games/the-outforce/downloads/outforce-meshes-extractor) - Tool for extracting mesh files from The Outforce.
+- [The Outforce Box extractor tool](https://www.moddb.com/games/the-outforce/downloads/the-outforce-box-extractor-tool) - Archive extractor for The Outforce BOX format files.
 
 ### Techland
 
