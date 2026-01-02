@@ -54,6 +54,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Build Engine](#build-engine)
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
+      - [Soldier of Fortune](#soldier-of-fortune)
   - [🔧 Middleware \& SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
@@ -97,6 +98,8 @@ This list is for developers and modders working with such formats. It provides t
     - [8monkey Labs](#8monkey-labs)
     - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
     - [Surreal Software](#surreal-software)
+    - [Dynamix / Sierra](#dynamix--sierra)
+      - [Tribes Series](#tribes-series)
     - [EA Black Box](#ea-black-box)
       - [Need for Speed Series](#need-for-speed-series)
     - [FromSoftware](#fromsoftware)
@@ -151,6 +154,8 @@ This list is for developers and modders working with such formats. It provides t
       - [F.E.A.R.](#fear)
       - [Trespasser](#trespasser)
       - [Blood](#blood)
+      - [Blood 2: The Chosen](#blood-2-the-chosen)
+      - [No One Lives Forever](#no-one-lives-forever)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
@@ -189,6 +194,8 @@ This list is for developers and modders working with such formats. It provides t
       - [The I of the Dragon](#the-i-of-the-dragon)
     - [Polytron](#polytron)
     - [Punchline](#punchline)
+    - [People Can Fly](#people-can-fly)
+      - [Painkiller](#painkiller)
     - [Polyphony Digital](#polyphony-digital)
     - [RAD Game Tools](#rad-game-tools)
     - [Rebel Act](#rebel-act)
@@ -228,6 +235,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Cars](#cars)
       - [MX vs ATV](#mx-vs-atv)
     - [3D Realms](#3d-realms)
+      - [Duke Nukem 3D](#duke-nukem-3d)
       - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
       - [Duke Nukem Forever (2001)](#duke-nukem-forever-2001)
       - [The Outforce](#the-outforce)
@@ -455,6 +463,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
 - [Dvondrake's SMD exporter for Blender](https://www.moddb.com/groups/source-developers/downloads/dvondrake-smd-blender) - Blender SMD exporter for Source Engine models.
+- [Autodesk Softimage Mod Tool 7.5 (Source Developers)](https://www.moddb.com/groups/source-developers/downloads/autodesk-softimage-mod-tool-75) - Softimage mod tool for Source Engine development (v7.5).
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Model viewer for GoldSrc engine (Half-Life) models (v0.3a Beta2).
 - [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
@@ -1462,6 +1471,8 @@ This list is for developers and modders working with such formats. It provides t
 - [3DS Max 7 and 8 Plugin for Map Editor (Star Wars: Empire At War)](https://www.moddb.com/games/star-wars-empire-at-war/downloads/3ds-max-7-and-8-plugin-for-map-editor) - 3DS Max plugin for map editor in Star Wars: Empire At War.
 - [Star Wars Empire At War FOC DDS Tool](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/star-wars-empire-at-war-foc-dds-tool) - DDS texture tool for Star Wars: Empire at War: Forces of Corruption.
 - [Star Wars Empire At War FOC DDS Viewer & Thumbplug _tga1.10](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/star-wars-empire-at-war-foc-dds-viewer-thumbplug-tga110) - DDS viewer and thumbnail plugin for Star Wars: Empire at War: Forces of Corruption (v1.10).
+- [Star Wars Empire At War FOC Alamo Object Importer 1.2](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/alamo-object-importer-12) - Alamo object importer for Star Wars: Empire at War: Forces of Corruption (v1.2).
+- [Star Wars Empire At War FOC Alamo Viewer 1.2](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/alamo-viewer-12) - Alamo format viewer for Star Wars: Empire at War: Forces of Corruption (v1.2).
 
 ### PlatinumGames
 
@@ -1492,6 +1503,13 @@ This list is for developers and modders working with such formats. It provides t
 ### Polytron
 
 - [noclip.website (Fez)](https://github.com/magcius/noclip.website/tree/main/src/Fez) - In-browser Fez viewer.
+
+### Mithis Entertainment
+
+#### Nexus: The Jupiter Incident
+
+- [Nexus Mesh Importer](https://www.moddb.com/games/nexus-the-jupiter-incident/downloads/nexus-mesh-importer) - Mesh importer for Nexus: The Jupiter Incident.
+- [Nexus Texture Converter](https://www.moddb.com/games/nexus-the-jupiter-incident/downloads/nexus-texture-converter) - Texture converter for Nexus: The Jupiter Incident.
 
 ### Punchline
 
@@ -1608,6 +1626,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Texture 2 DDS Converter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/texture-2-dds-converter) - Texture converter for Medieval II: Total War DDS format.
 - [Vercengetorix's CAS Import/Export (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/vercengetorix-s-cas-import-export) - CAS (model) format import/export tool for Medieval II: Total War.
 - [CAS Exporter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/cas-exporter) - CAS model exporter for Medieval II: Total War.
+- [Symphony Sound Packer (Empire: Total War)](https://www.moddb.com/mods/foothold-in-india/downloads/symphony-sound-packer) - Sound packing tool for Empire: Total War modders.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
 - [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
