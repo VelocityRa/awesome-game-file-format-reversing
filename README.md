@@ -513,6 +513,7 @@ This list is for developers and modders working with such formats. It provides t
 - [PS3 Mod Tools version 2.1 (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/ps3-mod-tools-version-21) - PlayStation 3 modding tools for Unreal Tournament 3 (v2.1).
 - [WOTgreal Package Exporter (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/wotgreal-package-exporter) - Package exporter for Unreal Tournament using WOTgreal.
 - [Advanced Model Support SDK (Unreal Tournament)](https://www.moddb.com/mods/ut-skins-voices-mods-fixes/downloads/advanced-model-support-sdk) - Advanced model support SDK for Unreal Tournament.
+- [Web Admin Tools (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/web-admin-tools) - Web-based administration tools for Unreal Tournament 3.
 
 ### CryEngine
 
@@ -814,6 +815,18 @@ This list is for developers and modders working with such formats. It provides t
 ### Crystal Dynamics / Eidos Interactive
 
 - [Blood Omen 2 3D Rip Tools](https://www.moddb.com/games/blood-omen-2/downloads/blood-omen-2-3d-rip-tools) - Tools for extracting 3D models from Blood Omen 2.
+
+### Ion Storm
+
+#### Anachronox
+
+- [Anachronox Modding Tools](https://www.moddb.com/games/anachronox/downloads/anachronox-modding-tools) - Modding tools for Anachronox.
+
+### Massive Entertainment
+
+#### AquaNox
+
+- [AquaNox 1-2 modding tools](https://www.moddb.com/games/aquanox/downloads/aquanox-1-2-modding-tools) - Modding tools for AquaNox 1 and 2.
 
 ### Surreal Software
 
