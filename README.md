@@ -492,6 +492,8 @@ This list is for developers and modders working with such formats. It provides t
 - [fixed bhop addon + more (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/fixed-bhop-addon-more) - Bunny hop addon and additional tools for Half-Life 2.
 - [Forsaken Assets & Source Code (Half-Life 2)](https://www.moddb.com/mods/forsaken/downloads/forsaken-assets-source-code) - Assets and source code for Forsaken mod for Half-Life 2.
 - [Game Server Browser & Admin Tool 1.2.1 (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/game-server-browser-admin-tool-1-2-1) - Server browser and admin tool for Half-Life 2 (v1.2.1).
+- [GMad Extractor (Garry's Mod)](https://www.moddb.com/mods/garrys-mod-11-half-life-rebuilt/downloads/gmad-extractor) - Extractor for GMad archive files used in Garry's Mod.
+- [Half Life 1 Modding Kit Addon 2](https://www.moddb.com/games/half-life/downloads/half-life-1-modding-kit-addon-2) - Modding kit addon for Half-Life (addon 2).
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -712,6 +714,9 @@ This list is for developers and modders working with such formats. It provides t
 - [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto: Vice City)](https://www.moddb.com/games/grand-theft-auto-vice-city/downloads/cleo-library-v2005-by-seemann-for-gta-vc) - CLEO library for Grand Theft Auto: Vice City (v2.0.0.5).
 - [CLEO library v4.3.22 by Seemann (Grand Theft Auto: San Andreas)](https://www.moddb.com/games/grand-theft-auto-san-andreas/downloads/cleo-library-v4322-by-seemann-for-gta-sa) - CLEO library for Grand Theft Auto: San Andreas (v4.3.22).
 - [Epic GTA2 Script Decompiler Source Code (Grand Theft Auto 2)](https://www.moddb.com/games/grand-theft-auto-2/downloads/epic-gta2-script-decompiler-source-code) - Source code for GTA2 script decompiler.
+- [GMP/STY file format descriptions (Grand Theft Auto 2)](https://www.moddb.com/games/grand-theft-auto-2/downloads/gmpsty-file-format-descriptions) - File format documentation for GMP and STY formats used in Grand Theft Auto 2.
+- [GTA Font compiler (Grand Theft Auto)](https://www.moddb.com/games/grand-theft-auto/downloads/gta-font-compiler) - Font compiler for Grand Theft Auto.
+- [GTA V Suspend Resume tool (Grand Theft Auto V)](https://www.moddb.com/games/grand-theft-auto-v/downloads/gta-v-suspend-resume-tool) - Tool for suspending and resuming Grand Theft Auto V.
 
 ### Ape, Inc
 
@@ -787,6 +792,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Dual Wield Animations by Needo62 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/dual-wield-animations-by-needo62) - Dual wield animations for Star Wars: Battlefront II.
 - [Fixed Tauntaun Model (Star Wars Battlefront II)](https://www.moddb.com/mods/swag-swag-senates-standalone-files-and-addons/downloads/for-modders-fixed-tauntaun-model) - Fixed Tauntaun model asset for Star Wars: Battlefront II.
 - [Galak Fyarr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/galak-fyarr-asset) - Galak Fyarr model asset for Star Wars: Battlefront II.
+- [General Bedamyr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/general-bedamyr-asset) - General Bedamyr model asset for Star Wars: Battlefront II.
+- [Grand Moff Tarkin Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/grand-moff-tarkin-asset) - Grand Moff Tarkin model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -867,6 +874,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Anachronox
 
 - [Anachronox Modding Tools](https://www.moddb.com/games/anachronox/downloads/anachronox-modding-tools) - Modding tools for Anachronox.
+
+#### Deus Ex
+
+- [Gibbed's Deus Ex HR tools](https://www.moddb.com/games/deus-ex-3/downloads/gibbeds-deus-ex-hr-tools) - Gibbed's tools for Deus Ex: Human Revolution.
 
 ### Massive Entertainment
 
@@ -990,6 +1001,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Doom 3: ROE (XBOX) .gfc extract](https://www.moddb.com/games/doom-iii/downloads/doom-3-roe-xbox-gfc-extract) - Tool for extracting GFC archive files from Doom 3: Resurrection of Evil (Xbox).
 - [Doom maps Converter 1.4](https://www.moddb.com/games/doom-iii/downloads/doom-maps-converter-14) - Map converter for Doom 3 (v1.4).
 - [Export Font To Doom 3 v1.02](https://www.moddb.com/games/doom-iii/downloads/export-font-to-doom-3-v102) - Tool for exporting fonts to Doom 3 format (v1.02).
+- [.GOB & global.d3tfull unpacker (Doom III)](https://www.moddb.com/games/doom-iii/downloads/gob-globald3tfull-unpacker) - Tool for unpacking GOB and global.d3tfull archive files from Doom III.
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
@@ -1827,6 +1839,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Updated Milkshape plugin](https://www.moddb.com/games/stalker/downloads/updated-milkshape-plugin) - Milkshape 3D plugin for S.T.A.L.K.E.R. Shadow of Chernobyl model formats.
 - [Database converter (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/mods/call-of-chernobyl/downloads/cop-coc-db-converter) - Database converter for S.T.A.L.K.E.R.: Call of Pripyat modding (v1.4+).
 - [Extractor de archivos para S.T.A.L.K.E.R.: Shadow of Chernobyl](https://www.moddb.com/games/stalker/downloads/extractor-de-archivos-para-stalker-shadow-of-chernobyl) - Archive extractor for S.T.A.L.K.E.R.: Shadow of Chernobyl.
+- [General X Ray SDK CS-CoP Tools (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/general-x-ray-sdk-tools) - X-Ray SDK tools for S.T.A.L.K.E.R.: Call of Pripyat.
 
 ### Terminal Reality
 
@@ -1952,6 +1965,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - Tools for Command & Conquer: Renegade.
 - [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - BIG archive tool for Command & Conquer: Generals.
 - [Final Big 3 (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big-3) - BIG archive tool for Command & Conquer: Generals (v3).
+- [Gmax+RenX+Renegade Public Tools (C&C: Generals Zero Hour)](https://www.moddb.com/games/cc-generals-zero-hour/downloads/gmaxrenxrenegade-public-tools) - Public tools for Gmax, RenX, and Renegade formats used in Command & Conquer: Generals Zero Hour.
 
 ## 🔗 Related Lists
 
