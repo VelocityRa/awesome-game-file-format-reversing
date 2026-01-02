@@ -798,6 +798,14 @@ This list is for developers and modders working with such formats. It provides t
 - [Drakan Editing Tools v1.2](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/drakan-editing-tools-v12) - Editing tools for Drakan: Order of the Flame (v1.2).
 - [reo converter to obj (Drakan: Order of the Flame)](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/reo-converter-to-obj) - Converter for REO model format to OBJ format used in Drakan: Order of the Flame.
 
+### Dynamix / Sierra
+
+#### Tribes Series
+
+- [Tribes 2 3D Studio MAX Export Plug-in](https://www.moddb.com/games/tribes-2/downloads/tribes-2-3d-studio-max-export-plug-in) - 3DS Max export plugin for Tribes 2 model formats.
+- [Tribes: Vengeance Editing Tools](https://www.moddb.com/games/tribes-vengeance/downloads/tribes-vengeance-editing-tools) - Editing tools for Tribes: Vengeance.
+- [Tribes 1.40 LoDFix plugin](https://www.moddb.com/games/tribes/downloads/tribes-140-lodfix-plugin) - Level of Detail fix plugin for Tribes (v1.40).
+
 ### EA Black Box
 
 #### Need for Speed Series
