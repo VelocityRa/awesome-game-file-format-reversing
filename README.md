@@ -518,6 +518,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Wedge MDL Compiler (QC Generator) 1.0.1](https://www.moddb.com/company/wedge/downloads/wedge-mdl-compiler-qc-generator-1-0-1) - MDL compiler with QC generator for Source Engine (v1.0.1).
 - [Windows Vista/7 Phoneme Extractor 1.2](https://www.moddb.com/groups/source-developers/downloads/windows-vista7-phoneme-extractor-11) - Phoneme extraction tool for Source Engine (v1.2).
 - [Windows Vista/7 Phoneme Extractor 1.3](https://www.moddb.com/groups/source-developers/downloads/windows-vista7-phoneme-extractor-13) - Phoneme extraction tool for Source Engine (v1.3).
+- [XSI Mod Tool 6.01](https://www.moddb.com/groups/source-developers/downloads/xsi-mod-tool-601) - XSI modding tool for Source Engine (v6.01).
 
 ### Unity
 
@@ -1888,6 +1889,8 @@ This list is for developers and modders working with such formats. It provides t
 - [STALKER Extractor](https://www.moddb.com/games/stalker/downloads/stalker-extractor) - Archive extraction tool for S.T.A.L.K.E.R. Shadow of Chernobyl.
 - [S.T.A.L.K.E.R Mod Tool](https://www.moddb.com/games/stalker/downloads/stalker-mod-tool) - Modding tool for S.T.A.L.K.E.R. Shadow of Chernobyl.
 - [Unpack Pack xr files Stalker (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/unpack-pack-xr-files-stalker) - Tool for unpacking and packing XR archive files in S.T.A.L.K.E.R.: Call of Pripyat.
+- [XRay Exporter v2.03 (S.T.A.L.K.E.R. Shadow of Chernobyl)](https://www.moddb.com/games/stalker/downloads/xray-exporter-v203) - XRay engine exporter for S.T.A.L.K.E.R. Shadow of Chernobyl (v2.03).
+- [XRay Exporter v2.03 (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/xray-exporter-v2031) - XRay engine exporter for S.T.A.L.K.E.R.: Call of Pripyat (v2.03).
 - [X-ray game asset tools pack FINAL](https://www.moddb.com/games/stalker/downloads/x-ray-game-asset-tools-pack-final) - Comprehensive asset tools pack for S.T.A.L.K.E.R. Shadow of Chernobyl X-ray engine formats.
 - [Clear Sky: Game Database Unpacker](https://www.moddb.com/games/stalker/downloads/clear-sky-game-database-unpacker) - Database unpacker for S.T.A.L.K.E.R.: Clear Sky.
 - [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Collection of utilities for working with S.T.A.L.K.E.R. game files.
