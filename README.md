@@ -357,6 +357,7 @@ This list is for developers and modders working with such formats. It provides t
 - [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converter tool for 3DS Max 5 and 6 file formats (3DSTATE engine).
 - [Vampire the Masquerade Bloodlines Blender 2.42 plugin](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/vampire-the-masquerade-bloodlines-blender-242-plugin) - Blender 2.42 plugin for Vampire: The Masquerade - Bloodlines.
 - [NOD Noesis Plugin (Vampire: The Masquerade – Redemption)](https://www.moddb.com/games/vampire-the-masquerade-redemption/downloads/nod-noesis-plugin) - Noesis plugin for NOD model format used in Vampire: The Masquerade – Redemption.
+- [Blender samples (Vampire: The Masquerade – Redemption)](https://www.moddb.com/games/vampire-the-masquerade-redemption/downloads/blender-samples) - Blender sample files for Vampire: The Masquerade – Redemption.
 - [Dreamkiller Mapping Tools for 3ds Max](https://www.moddb.com/games/dreamkiller/downloads/dreamkiller-mapping-tools) - Mapping tools for Dreamkiller in 3DS Max.
 
 ### 📦 Archive & Asset Extraction
@@ -484,6 +485,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Source Model Viewer [Build: 2019-04-23] (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/source-model-viewer-build-2019-04-23) - Model viewer for Source Engine models (build 2019-04-23).
 - [VTF-2-TGA Convertor Utility (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/vtf-2-tga-convertor-utility) - Converter for VTF (Valve Texture Format) to TGA format used in Half-Life 2.
 - [Texture Tool v1.2.1 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/texture-tool) - Texture tool for Half-Life (v1.2.1).
+- [BSP Decompiler by 005 (Half-Life)](https://www.moddb.com/games/half-life/downloads/bsp-decompiler-by-005) - BSP decompiler for Half-Life maps.
+- [Bloody Knife + Addon DB Skin Tutorial (Counter-Strike: Source)](https://www.moddb.com/games/counter-strike-source/downloads/bloody-knife-addon-db-skin-tutorial) - Tutorial and tools for creating custom knife skins in Counter-Strike: Source.
+- [Bloodlines Character Search Tool v1.0 (Vampire: The Masquerade – Bloodlines)](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/bloodlines-character-search-tool-v10) - Character search tool for Vampire: The Masquerade – Bloodlines (v1.0).
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -521,6 +525,7 @@ This list is for developers and modders working with such formats. It provides t
 - [WOTgreal Package Exporter (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/wotgreal-package-exporter) - Package exporter for Unreal Tournament using WOTgreal.
 - [Advanced Model Support SDK (Unreal Tournament)](https://www.moddb.com/mods/ut-skins-voices-mods-fixes/downloads/advanced-model-support-sdk) - Advanced model support SDK for Unreal Tournament.
 - [Web Admin Tools (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/web-admin-tools) - Web-based administration tools for Unreal Tournament 3.
+- [Blender 2.49 Scripts for UT2004](https://www.moddb.com/games/unreal-tournament-2004/downloads/blender-249-scripts-for-ut2004) - Blender 2.49 scripts for Unreal Tournament 2004.
 
 ### CryEngine
 
@@ -659,6 +664,12 @@ This list is for developers and modders working with such formats. It provides t
 - [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140) - Fast converter for IWI and DDS texture formats used in Call of Duty 2 (v1.40).
 - [x to xmodel_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for X model format to xmodel_export format for Call of Duty: World at War (v1.6).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
+- [BSP Decompiler (Call of Duty)](https://www.moddb.com/games/call-of-duty/downloads/bsp-decompiler) - BSP decompiler for Call of Duty maps.
+- [Call of Duty 1 Milkshape plugins](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-milkshape-plugins) - Milkshape 3D plugins for Call of Duty.
+- [Call of Duty 1 Mod Tools No Installer Version](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-mod-tools-no-installer-version) - Mod tools for Call of Duty (no installer version).
+- [Call of Duty 2 Mod Tools](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools) - Mod tools for Call of Duty 2.
+- [Call of Duty 2 Mod Tools No Installer](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools-no-installer) - Mod tools for Call of Duty 2 (no installer version).
+- [Call of Duty 4 Mod Tools (SDK)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/call-of-duty-4-mod-tools-sdk) - Mod tools SDK for Call of Duty 4: Modern Warfare.
 
 #### Tony Hawk's Pro Skater
 
@@ -749,6 +760,7 @@ This list is for developers and modders working with such formats. It provides t
 - [StarWars Battlefront unpacker / decoder](https://www.moddb.com/games/star-wars-battlefront/downloads/starwars-battlefront-unpacker-decoder) - Archive unpacker and decoder for Star Wars: Battlefront.
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Comprehensive modification toolkit for Star Wars: Battlefront.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - 3D object format converter for Star Wars: Battlefront II.
+- [Caleb1117's Model Pack 2 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/caleb1117-s-model-pack-2) - Model pack for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -834,6 +846,12 @@ This list is for developers and modders working with such formats. It provides t
 #### AquaNox
 
 - [AquaNox 1-2 modding tools](https://www.moddb.com/games/aquanox/downloads/aquanox-1-2-modding-tools) - Modding tools for AquaNox 1 and 2.
+
+#### World in Conflict
+
+- [Broadcast Tool v6 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v6) - Broadcast tool for World in Conflict (v6).
+- [Broadcast Tool v7 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v7) - Broadcast tool for World in Conflict (v7).
+- [Broadcast Tool v8 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v8) - Broadcast tool for World in Conflict (v8).
 
 ### Surreal Software
 
@@ -947,6 +965,8 @@ This list is for developers and modders working with such formats. It provides t
 - [RtCW – SDK Editing Tools v1.1 (Return to Castle Wolfenstein)](https://www.moddb.com/mods/rtcw-classic-cooperative-campaign/downloads/rtcw-sdk-editing-tools-v11) - SDK editing tools for Return to Castle Wolfenstein (v1.1).
 - [RTCW .bsp to .map Converter (Return to Castle Wolfenstein)](https://www.moddb.com/games/return-to-castle-wolfenstein/downloads/rtcw-bsp-to-map-converter) - BSP to MAP format converter for Return to Castle Wolfenstein.
 - [Wolfenstein SPK & MPK Extractor v0.2](https://www.moddb.com/games/wolfenstein/downloads/wolfenstein-spk-mpk-extractor-v02) - Archive extractor for Wolfenstein SPK and MPK formats (v0.2).
+- [Blender Terrain scripts (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/blender-terrain-scripts) - Blender terrain scripts for Project RDX mod for Quake III Arena.
+- [Blocks II v0.2 Editing Package (Doom II)](https://www.moddb.com/mods/blocks-of-doom-ii/downloads/blocks-ii-v02-editing-package) - Editing package for Blocks of Doom II mod (v0.2).
 
 ### Grezzo
 
@@ -1763,6 +1783,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Clear Sky: Game Database Unpacker](https://www.moddb.com/games/stalker/downloads/clear-sky-game-database-unpacker) - Database unpacker for S.T.A.L.K.E.R.: Clear Sky.
 - [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Collection of utilities for working with S.T.A.L.K.E.R. game files.
 - [Updated Milkshape plugin](https://www.moddb.com/games/stalker/downloads/updated-milkshape-plugin) - Milkshape 3D plugin for S.T.A.L.K.E.R. Shadow of Chernobyl model formats.
+- [Database converter (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/mods/call-of-chernobyl/downloads/cop-coc-db-converter) - Database converter for S.T.A.L.K.E.R.: Call of Pripyat modding (v1.4+).
 
 ### Terminal Reality
 
@@ -1807,6 +1828,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Thekla Inc
 
 - [noclip.website (The Witness)](https://github.com/magcius/noclip.website/tree/main/src/TheWitness) - In-browser The Witness viewer.
+- [Braid Editor Universe Tools](https://www.moddb.com/games/braid/downloads/braid-editor-universe-tools) - Editor tools for Braid.
 
 ### Slitherine / Proxy Studios
 
@@ -1870,11 +1892,14 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
 - [WoW Model Viewer 5.0.7 (World of Warcraft)](https://www.moddb.com/games/world-of-warcraft/downloads/wow-model-viewer-5-0-7) - Model viewer for World of Warcraft (v5.0.7).
+- [Blizzard DATA unpacker (Warcraft: Orcs & Humans)](https://www.moddb.com/games/warcraft-orcs-humans/downloads/blizzard-data-unpacker) - Archive unpacker for Warcraft: Orcs & Humans DATA format.
 
 ### Westwood Studios / EA Los Angeles
 
 - [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Extractor for Command & Conquer BIG archive files.
 - [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - Asset extraction tool for Command & Conquer 3.
+- [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official modding tools for Command & Conquer: Renegade.
+- [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - Tools for Command & Conquer: Renegade.
 
 ## 🔗 Related Lists
 
