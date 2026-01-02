@@ -577,6 +577,7 @@ This list is for developers and modders working with such formats. It provides t
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
 - [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Tool for converting OBJ files to Call of Duty Xmodel format.
+- [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5) - Converter for DDS and IWI texture formats used in Call of Duty 2.
 
 ### Angel Matrix
 
@@ -1310,6 +1311,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Petroglyph Games
 
 - [alo/ala max importer exporter (Star Wars: Empire at War)](https://www.moddb.com/groups/starwars-empire-at-war-fan-mod-group/downloads/aloala-max-importer-exporter) - 3DS Max importer/exporter for ALO/ALA formats used in Star Wars: Empire at War.
+- [Blender-ALAMAO-Plugin for 4.2LTS (Star Wars: Empire at War: Forces of Corruption)](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/blender-alamao-plugin-for-42lts) - Blender plugin for ALAMAO format in Star Wars: Empire at War: Forces of Corruption.
 
 ### PlatinumGames
 
@@ -1542,9 +1544,17 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Blender to CPJ Plugin for DNF2001](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/blender-to-cpj-plugin-for-dnf2001) - Blender plugin for converting models to CPJ format for Duke Nukem Forever (2001).
 
+### Techland
+
+- [Call of Juarez: Bound In Blood - Map Pak Tool](https://www.moddb.com/mods/cojbib-map-pak-tool/downloads/call-of-juarez-bound-in-blood-map-pak-tool) - Tool for working with map PAK files from Call of Juarez: Bound In Blood.
+
 ### Thekla Inc
 
 - [noclip.website (The Witness)](https://github.com/magcius/noclip.website/tree/main/src/TheWitness) - In-browser The Witness viewer.
+
+### Slitherine / Proxy Studios
+
+- [Blender Gladius Addon v1.1 (Warhammer 40,000: Gladius - Relics of War)](https://www.moddb.com/mods/blender-gladius-addon/downloads/blender-gladius-addon-v11) - Blender addon for Warhammer 40,000: Gladius - Relics of War.
 
 ### Visceral Games
 
@@ -1572,6 +1582,11 @@ This list is for developers and modders working with such formats. It provides t
 
 *The Elder Scrolls, Fallout series, and Starfield.*
 
+### 2K Games / Firaxis Games
+
+- [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - 3DS Max 6 plugins for Civilization IV.
+- [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - 3DS Max 7+ plugins for Civilization IV.
+
 ### Bohemia Interactive
 
 - [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Editing tools for ARMA 2.
@@ -1593,6 +1608,13 @@ This list is for developers and modders working with such formats. It provides t
 ### Blizzard Entertainment
 
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
+
+### Westwood Studios / EA Los Angeles
+
+- [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Extractor for Command & Conquer BIG archive files.
+- [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - Asset extraction tool for Command & Conquer 3.
+
+### Blizzard Entertainment
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
 
