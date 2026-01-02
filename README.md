@@ -724,6 +724,8 @@ This list is for developers and modders working with such formats. It provides t
 - [GMP/STY file format descriptions (Grand Theft Auto 2)](https://www.moddb.com/games/grand-theft-auto-2/downloads/gmpsty-file-format-descriptions) - File format documentation for GMP and STY formats used in Grand Theft Auto 2.
 - [GTA Font compiler (Grand Theft Auto)](https://www.moddb.com/games/grand-theft-auto/downloads/gta-font-compiler) - Font compiler for Grand Theft Auto.
 - [GTA V Suspend Resume tool (Grand Theft Auto V)](https://www.moddb.com/games/grand-theft-auto-v/downloads/gta-v-suspend-resume-tool) - Tool for suspending and resuming Grand Theft Auto V.
+- [IMG Tool v1.3 (Grand Theft Auto III)](https://www.moddb.com/games/grand-theft-auto-3/downloads/iii-img-tool-v13) - IMG archive tool for Grand Theft Auto III (v1.3).
+- [IMG Tool 2.0 (Grand Theft Auto: San Andreas)](https://www.moddb.com/games/grand-theft-auto-san-andreas/downloads/img-tool-20) - IMG archive tool for Grand Theft Auto: San Andreas (v2.0).
 
 ### Ape, Inc
 
@@ -803,6 +805,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Grand Moff Tarkin Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/grand-moff-tarkin-asset) - Grand Moff Tarkin model asset for Star Wars: Battlefront II.
 - [Han Solo model replacement (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/han-solo-model-replacement-for-modders) - Han Solo model replacement for Star Wars: Battlefront II.
 - [Heavy Mandalorian Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/heavy-mandalorian-asset) - Heavy Mandalorian model asset for Star Wars: Battlefront II.
+- [Hex Character Guide (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hex-character-guide) - Guide for hex editing characters in Star Wars: Battlefront II.
+- [HQ fightertank model (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hq-fightertank-model) - High-quality fighter tank model for Star Wars: Battlefront II.
+- [Human Mercenary Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/human-mercenary-modders-asset) - Human Mercenary model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1011,6 +1016,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Doom maps Converter 1.4](https://www.moddb.com/games/doom-iii/downloads/doom-maps-converter-14) - Map converter for Doom 3 (v1.4).
 - [Export Font To Doom 3 v1.02](https://www.moddb.com/games/doom-iii/downloads/export-font-to-doom-3-v102) - Tool for exporting fonts to Doom 3 format (v1.02).
 - [.GOB & global.d3tfull unpacker (Doom III)](https://www.moddb.com/games/doom-iii/downloads/gob-globald3tfull-unpacker) - Tool for unpacking GOB and global.d3tfull archive files from Doom III.
+- [IdTech4 File Unpacker 1.5 (Doom III)](https://www.moddb.com/games/doom-iii/downloads/idtech4-file-unpacker-15) - File unpacker for id Tech 4 engine used in Doom III (v1.5).
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
@@ -1250,6 +1256,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Composer Halo 4 Audio Extractor](https://www.moddb.com/games/halo-4/downloads/composer-halo-4-audio-extractor) - Audio extraction tool for Halo 4.
 - [3ds Max GBX Importer (Halo CE)](https://www.moddb.com/downloads/3ds-max-gbx-importer-halo-ce) - 3DS Max plugin for importing Halo: Combat Evolved GBX model formats.
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
+- [Halo 2 Xbox Modding Tools](https://www.moddb.com/games/halo-2/downloads/halo-2-xbox-modding-tools) - Modding tools for Halo 2 on Xbox.
+- [Halo CE Batch Bitmap Extractor](https://www.moddb.com/downloads/halo-ce-batch-bitmap-extractor) - Batch bitmap extraction tool for Halo: Combat Evolved.
 
 #### Gears of War
 
