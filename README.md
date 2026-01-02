@@ -150,6 +150,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Pokemon](#pokemon)
     - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
+    - [BioWare](#bioware)
+      - [Dragon Age: Origins](#dragon-age-origins)
     - [Obsidian Entertainment](#obsidian-entertainment)
       - [Neverwinter Nights 2](#neverwinter-nights-2)
     - [Panic](#panic)
@@ -277,6 +279,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures. Supports RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16), platform-specific unswizzling (PSP, PS2, PS3, PS4, Xbox), and decompression (RLE, PackBits, ZLIB). Exports as DDS, PNG, or BMP.
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Command line bulk PNG to DDS (and vice versa) conversion tool with duplicate detection.
+- [Sprite Sheet Addon for Blender](https://www.moddb.com/engines/blender-game-engine/downloads/sprite-sheet-addon-for-blender) - Blender addon for working with sprite sheets.
 - [BodySlide and Outfit Studio](https://github.com/ousnius/BodySlide-and-Outfit-Studio) - Tool to convert, create, and customize outfits and bodies for The Elder Scrolls and Fallout games.
 - [Cathedral Assets Optimizer](https://www.nexusmods.com/skyrimspecialedition/mods/23316) - Tool to automatically optimize BSAs, meshes, textures and animations for Bethesda games.
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
@@ -284,6 +287,7 @@ This list is for developers and modders working with such formats. It provides t
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
 - [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - Blender script for importing and exporting MD3 model format used in Quake III Arena and other id Tech 3 games. Supports animation frame export and shader path configuration.
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
+- [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Tool for editing mesh and bone data from Duke Nukem: Manhattan Project.
 
 ### 📦 Archive & Asset Extraction
 
@@ -293,6 +297,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
 - [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
 - [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
+- [Modified PAK Extractor Tool (Torchlight II)](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting PAK archive files from Torchlight II.
 
 ### 🔊 Audio Tools
 
@@ -396,6 +401,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Plumber](https://github.com/lasa01/Plumber) - Blender add-on for importing Source 1 engine maps, models, materials and textures from CS:GO, TF2, CS:S, and other titles.
   - Features: full map import (brushes, overlays, lights, props, skyboxes), MDL/material/texture import with color options, and embedded file browser.
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - 3DS Max plugin for importing SMD (Studiomodel) format files from Half-Life and other Source Engine games.
+- [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
 
 ### Unity
 
@@ -1197,6 +1203,12 @@ This list is for developers and modders working with such formats. It provides t
 - [PangLib](https://github.com/retreev/PangLib) - Series of tools to interact with Pangya PC MMO game files.
 - [Pangya .iff formats](https://pixelde.su/blog/reverse-engineering-pangya-file-formats-2-iff/) - Blog post detailing the IFF file format used in Pangya.
 - [Pangya .dat formats](https://desu.blog/reverse-engineering-pangya-file-formats-1-dat) - Blog post explaining the DAT file format used in Pangya.
+
+### BioWare
+
+#### Dragon Age: Origins
+
+- [Dragon Age Origins 3dsmax Import Export script](https://www.moddb.com/games/dragon-age-origins/downloads/dragon-age-origins-3dsmax-import-export-script) - 3DS Max script (v5.38) for importing and exporting models from Dragon Age: Origins.
 
 ### Obsidian Entertainment
 
