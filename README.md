@@ -71,6 +71,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Ape, Inc](#ape-inc)
     - [11 bit studios](#11-bit-studios)
     - [Remedy Entertainment](#remedy-entertainment)
+      - [Max Payne](#max-payne)
     - [Argonaut Games](#argonaut-games)
     - [Arkane Studios](#arkane-studios)
     - [Atlus](#atlus)
@@ -111,6 +112,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Need for Speed Series](#need-for-speed-series)
     - [FromSoftware](#fromsoftware)
     - [Gearbox Software](#gearbox-software)
+      - [MechWarrior 4](#mechwarrior-4)
     - [Game Freak](#game-freak)
       - [Gen I \& II](#gen-i--ii)
       - [Gen III](#gen-iii)
@@ -164,6 +166,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Blood](#blood)
       - [Blood 2: The Chosen](#blood-2-the-chosen)
       - [No One Lives Forever](#no-one-lives-forever)
+      - [Shogo: Mobile Armor Division](#shogo-mobile-armor-division)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
@@ -235,6 +238,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Other Sonic Games](#other-sonic-games)
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
+      - [Hitman](#hitman)
     - [Sucker Punch](#sucker-punch)
       - [Sly Cooper](#sly-cooper)
     - [Supercell](#supercell)
@@ -509,6 +513,11 @@ This list is for developers and modders working with such formats. It provides t
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
+- [Valve Batch Compile Tool](https://www.moddb.com/engines/source/downloads/valve-batch-compile-tool) - Batch compilation tool for Source Engine.
+- [XSI Valve Source Tools](https://www.moddb.com/downloads/valve-source-tools) - XSI tools for working with Source Engine formats.
+- [Wedge MDL Compiler (QC Generator) 1.0.1](https://www.moddb.com/company/wedge/downloads/wedge-mdl-compiler-qc-generator-1-0-1) - MDL compiler with QC generator for Source Engine (v1.0.1).
+- [Windows Vista/7 Phoneme Extractor 1.2](https://www.moddb.com/groups/source-developers/downloads/windows-vista7-phoneme-extractor-11) - Phoneme extraction tool for Source Engine (v1.2).
+- [Windows Vista/7 Phoneme Extractor 1.3](https://www.moddb.com/groups/source-developers/downloads/windows-vista7-phoneme-extractor-13) - Phoneme extraction tool for Source Engine (v1.3).
 
 ### Unity
 
@@ -1877,6 +1886,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Geometry Decompiler plugin for 3dsmax](https://www.moddb.com/games/stalker/downloads/geometry-decompiler-plugin-for-3dsmax) - 3DS Max plugin for decompiling geometry files from S.T.A.L.K.E.R. Shadow of Chernobyl.
 - [STALKER game archives unpacker](https://www.moddb.com/mods/old-good-stalker-evolution/downloads/stalker-game-archives-unpacker) - Tool for unpacking game archive files from S.T.A.L.K.E.R. series.
 - [STALKER Extractor](https://www.moddb.com/games/stalker/downloads/stalker-extractor) - Archive extraction tool for S.T.A.L.K.E.R. Shadow of Chernobyl.
+- [S.T.A.L.K.E.R Mod Tool](https://www.moddb.com/games/stalker/downloads/stalker-mod-tool) - Modding tool for S.T.A.L.K.E.R. Shadow of Chernobyl.
+- [Unpack Pack xr files Stalker (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/unpack-pack-xr-files-stalker) - Tool for unpacking and packing XR archive files in S.T.A.L.K.E.R.: Call of Pripyat.
 - [X-ray game asset tools pack FINAL](https://www.moddb.com/games/stalker/downloads/x-ray-game-asset-tools-pack-final) - Comprehensive asset tools pack for S.T.A.L.K.E.R. Shadow of Chernobyl X-ray engine formats.
 - [Clear Sky: Game Database Unpacker](https://www.moddb.com/games/stalker/downloads/clear-sky-game-database-unpacker) - Database unpacker for S.T.A.L.K.E.R.: Clear Sky.
 - [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Collection of utilities for working with S.T.A.L.K.E.R. game files.
@@ -1998,6 +2009,7 @@ This list is for developers and modders working with such formats. It provides t
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
+- [Starcraft Modding Tools](https://www.moddb.com/games/starcraft/downloads/starcraft-modding-tools) - Modding tools for StarCraft.
 - [WoW Model Viewer 5.0.7 (World of Warcraft)](https://www.moddb.com/games/world-of-warcraft/downloads/wow-model-viewer-5-0-7) - Model viewer for World of Warcraft (v5.0.7).
 - [Blizzard DATA unpacker (Warcraft: Orcs & Humans)](https://www.moddb.com/games/warcraft-orcs-humans/downloads/blizzard-data-unpacker) - Archive unpacker for Warcraft: Orcs & Humans DATA format.
 
