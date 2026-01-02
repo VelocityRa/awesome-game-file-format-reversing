@@ -457,6 +457,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
 - [Half-Life Model Viewer 2.10](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-210) - Model viewer for Half-Life MDL format (v2.10).
 - [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds) - 3DS Max plugin for importing Half-Life 2 MDL models (v37 format, v0.9 Beta).
+- [Jed's Half-Life Model Viewer 1.36](https://www.moddb.com/games/half-life/downloads/jeds-half-life-model-viewer-136) - Model viewer for Half-Life MDL format (v1.36).
 
 ### Unity
 
@@ -502,6 +503,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [BUILD Map Importer](https://github.com/jensnt/io_import_build_map) - Blender add-on for BUILD-format maps (Blood, Duke Nukem 3D, etc.) that can auto-extract textures from `.ART`, `.GRP`, and `.RFF` files.
   - Import options: split sectors/walls/sky, preserve sprite offsets, reuse materials, shade to vertex colors, and store original map data in custom properties.
+- [Build palette editing tools (Duke Nukem 3D)](https://www.moddb.com/mods/black-shadow/downloads/build-palette-editing-tools) - Palette editing tools for BUILD Engine games like Duke Nukem 3D.
 
 ### Raven Software
 
