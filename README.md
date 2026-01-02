@@ -195,6 +195,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Rebellion Developments](#rebellion-developments)
     - [Rare](#rare)
     - [Runic Games](#runic-games)
+      - [Torchlight](#torchlight)
       - [Torchlight II](#torchlight-ii)
     - [1C Company / Best Way](#1c-company--best-way)
       - [Men of War](#men-of-war)
@@ -477,6 +478,7 @@ This list is for developers and modders working with such formats. It provides t
 - [U3D](https://www.moddb.com/games/unreal-tournament/downloads/u3d-v10-unreal-model-conversion-tool) - Unreal model conversion tool for converting 3DS files to Unreal .3D format. Supports uniform/XYZ scaling, clipping bounds, and animation frame conversion.
 - [Unreal to Deus Ex mesh converter](https://www.moddb.com/games/deus-ex/downloads/unreal-to-deus-ex-mesh-converter) - Tool for converting Unreal Engine mesh formats to Deus Ex format.
 - [DUT TOOL-2.0.2.0 (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/dut-tool-2020) - Tool for Defend Unreal Territories mod for Unreal Tournament 3.
+- [UEd Style Tools for Maya (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ued-style-tools-for-maya) - Maya tools for working with Unreal Tournament assets in UEd style.
 
 ### CryEngine
 
@@ -503,6 +505,8 @@ This list is for developers and modders working with such formats. It provides t
 #### Heretic II
 
 - [Quake Model to FlexModel Converter](https://www.moddb.com/games/heretic-ii/downloads/quake-model-to-flexmodel-converter-aka-convert) - Tool for converting Quake model formats to FlexModel format used in Heretic II.
+- [FlexModel to Wavefront Object Converter (FM2OBJ)](https://www.moddb.com/games/heretic-ii/downloads/flexmodel-to-wavefront-object-converter-aka-fm2obj) - Converter for FlexModel format to Wavefront OBJ format used in Heretic II.
+- [Heretic II Toolkit v1.06](https://www.moddb.com/games/heretic-ii/downloads/heretic-ii-toolkit-v106) - Comprehensive toolkit for working with Heretic II file formats (v1.06).
 
 ## 🔧 Middleware & SDKs
 
@@ -1080,6 +1084,9 @@ This list is for developers and modders working with such formats. It provides t
 - [XTraction - Halo 3/ODST texture extractor](https://www.moddb.com/games/halo-3/downloads/xtraction-halo-3-odst-texture-extractor-tool) - Tool for extracting textures from Halo 3 and ODST.
 - [Stream Ripping Tools - Halo 3/4/ODST/CEA/HR Game Asset Extractors Converters Kit](https://www.moddb.com/games/halo-2/downloads/stream-ripping-tools-game-asset-extractors-converters-kit) - Asset extraction and conversion toolkit for Halo 3, 4, ODST, CEA, and HR.
 - [Halo2 Gravemind Tool Extractor v1.6B](https://www.moddb.com/games/halo-2/downloads/halo2-gravemind-tool-extractor) - Asset extractor for Halo 2 (v1.6B).
+- [Bonobo [Version 1.0.0.3] Halo2/3/ODST/Reach Animation Extractor](https://www.moddb.com/games/halo-2/downloads/bonobo-version-1003) - Animation extractor for Halo 2, 3, ODST, and Reach (v1.0.0.3).
+- [Composer Halo 4 Audio Extractor](https://www.moddb.com/games/halo-4/downloads/composer-halo-4-audio-extractor) - Audio extraction tool for Halo 4.
+- [3ds Max GBX Importer (Halo CE)](https://www.moddb.com/downloads/3ds-max-gbx-importer-halo-ce) - 3DS Max plugin for importing Halo: Combat Evolved GBX model formats.
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
 
 #### Forza
@@ -1460,6 +1467,10 @@ This list is for developers and modders working with such formats. It provides t
 - [dk64_lib](https://github.com/ThomasJRyan/dk64_lib) - Library for extracting data from Donkey Kong 64 ROMs.
 
 ### Runic Games
+
+#### Torchlight
+
+- [Nimet - Ogre3D Mesh Viewer (Torchlight)](https://www.moddb.com/games/torchlight/downloads/nimet-ogre3d-mesh-viewer) - Ogre3D mesh viewer for Torchlight models.
 
 #### Torchlight II
 
