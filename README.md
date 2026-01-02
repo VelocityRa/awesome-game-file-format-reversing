@@ -501,6 +501,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Half-Life Quick Mod Creation tool](https://www.moddb.com/games/half-life/downloads/half-life-quick-mod-creation-tool) - Quick mod creation tool for Half-Life.
 - [Half-Life to Quake 3 .MAP converter](https://www.moddb.com/games/half-life/downloads/half-life-to-quake-3-map-converter) - Tool for converting Half-Life maps to Quake 3 MAP format.
 - [Half-Life Unified SDK Map Decompiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/half-life-unified-sdk-map-decompiler) - Unified SDK map decompiler for Half-Life and Counter-Strike.
+- [Keybinder Source Tool (Counter-Strike: Source)](https://www.moddb.com/games/counter-strike-source/downloads/keybinder-source-tool) - Key binding tool for Source Engine games.
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -695,6 +696,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Call of Duty 2 Mod Tools No Installer](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools-no-installer) - Mod tools for Call of Duty 2 (no installer version).
 - [Call of Duty 4 Mod Tools (SDK)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/call-of-duty-4-mod-tools-sdk) - Mod tools SDK for Call of Duty 4: Modern Warfare.
 - [Iwi Converter (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-converter) - Converter for IWI texture format used in Call of Duty 2.
+- [KV Map Converter v2 Beta2 (Call of Duty 4: Modern Warfare)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/kv-map-converter-v2-beta2) - Map converter for Call of Duty 4: Modern Warfare (v2 Beta2).
 
 #### Tony Hawk's Pro Skater
 
@@ -814,6 +816,12 @@ This list is for developers and modders working with such formats. It provides t
 - [Incendiary Grenade Asset Pack (Star Wars Battlefront II)](https://www.moddb.com/mods/reworked-sides/downloads/incendiary-grenade-asset-pack) - Incendiary grenade asset pack for Star Wars: Battlefront II.
 - [Jedi Academy posed skeleton (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/jedi-academy-posed-skeleton-for-modders) - Jedi Academy posed skeleton for modders in Star Wars: Battlefront II.
 - [Jedi Sentinel Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/jedi-sentinel-modders-asset) - Jedi Sentinel model asset for Star Wars: Battlefront II.
+- [Kao Cen Durach Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kao-cen-durach-asset) - Kao Cen Durach model asset for Star Wars: Battlefront II.
+- [Kit Fisto & Asajj Ventress unmunged animations (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/kit-fisto-asajj-ventress-unmunged-animations-for-modders) - Unmunged animations for Kit Fisto and Asajj Ventress in Star Wars: Battlefront II.
+- [Koobis Nu Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/koobis-nu-asset) - Koobis Nu model asset for Star Wars: Battlefront II.
+- [Koska Reeves Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/koska-reeves-asset) - Koska Reeves model asset for Star Wars: Battlefront II.
+- [Kotor Sith Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/kotor-sith-assets) - Knights of the Old Republic Sith model assets for Star Wars: Battlefront II.
+- [KOTOR Sith Officer Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kotor-sith-officer-asset) - Knights of the Old Republic Sith Officer model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1023,6 +1031,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Export Font To Doom 3 v1.02](https://www.moddb.com/games/doom-iii/downloads/export-font-to-doom-3-v102) - Tool for exporting fonts to Doom 3 format (v1.02).
 - [.GOB & global.d3tfull unpacker (Doom III)](https://www.moddb.com/games/doom-iii/downloads/gob-globald3tfull-unpacker) - Tool for unpacking GOB and global.d3tfull archive files from Doom III.
 - [IdTech4 File Unpacker 1.5 (Doom III)](https://www.moddb.com/games/doom-iii/downloads/idtech4-file-unpacker-15) - File unpacker for id Tech 4 engine used in Doom III (v1.5).
+- [Lightwave to MD5 converter (Doom III)](https://www.moddb.com/games/doom-iii/downloads/lightwave-to-md5-converter) - Tool for converting Lightwave models to MD5 format used in Doom III.
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
