@@ -704,6 +704,8 @@ This list is for developers and modders working with such formats. It provides t
 - [NVIDIA Texture Atlas Tool (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-texture-atlas-tool) - NVIDIA texture atlas tool for Battlefield 2.
 - [POE2 3DS Max 6-8 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-6-8-tools) - 3DS Max 6-8 tools for Battlefield 2 (POE2).
 - [POE2 3DS Max 9 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-9-bf2-tools) - 3DS Max 9 tools for Battlefield 2 (POE2).
+- [Windows Texture Viewer v089b (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/windows-texture-viewer-v089b) - Texture viewer for Battlefield 2 (v0.89b).
+- [Texture Tool 0.2 (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/texture-tool-0-2) - Texture editing tool for Battlefield 2 (v0.2).
 
 #### Star Wars: Battlefront
 
