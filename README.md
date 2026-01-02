@@ -458,6 +458,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Half-Life Model Viewer 2.10](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-210) - Model viewer for Half-Life MDL format (v2.10).
 - [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds) - 3DS Max plugin for importing Half-Life 2 MDL models (v37 format, v0.9 Beta).
 - [Jed's Half-Life Model Viewer 1.36](https://www.moddb.com/games/half-life/downloads/jeds-half-life-model-viewer-136) - Model viewer for Half-Life MDL format (v1.36).
+- [Source Model Viewer [Build: 2019-04-23] (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/source-model-viewer-build-2019-04-23) - Model viewer for Source Engine models (build 2019-04-23).
 
 ### Unity
 
@@ -781,6 +782,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Surreal Software
 
 - [Drakan Editing Tools v1.2](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/drakan-editing-tools-v12) - Editing tools for Drakan: Order of the Flame (v1.2).
+- [reo converter to obj (Drakan: Order of the Flame)](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/reo-converter-to-obj) - Converter for REO model format to OBJ format used in Drakan: Order of the Flame.
 
 ### EA Black Box
 
@@ -1166,6 +1168,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Oddworld Inhabitants
 
 - [Asset Tool (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/asset-tool) - Tool for working with assets from Oddworld: Abe's Exoddus.
+- [Sprite / CAM Extractor (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/sprite-cam-extractor) - Extractor for sprite and CAM files from Oddworld: Abe's Exoddus.
 
 ### Naughty Dog
 
