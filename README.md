@@ -139,6 +139,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Super Mario 64](#super-mario-64)
       - [Super Mario 64 DS](#super-mario-64-ds)
       - [Super Mario (Other)](#super-mario-other)
+      - [New Super Mario Bros Wii](#new-super-mario-bros-wii)
       - [Zelda](#zelda)
       - [Wii Sports](#wii-sports)
       - [Star Fox Adventures](#star-fox-adventures)
@@ -1067,6 +1068,12 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Mario Kart DS)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Mario Kart DS viewer.
 - [noclip.website (Mario Kart Wii)](https://github.com/magcius/noclip.website/tree/main/src/MarioKartWii) - In-browser Mario Kart Wii viewer.
 - [noclip.website (Mario Kart 8 Deluxe)](https://github.com/magcius/noclip.website/tree/main/src/MarioKart8Deluxe) - In-browser Mario Kart 8 Deluxe viewer.
+
+#### New Super Mario Bros Wii
+
+- [BerryBush](https://github.com/hayden0729/berrybush) - Blender addon focused on importing and exporting BRRES models.
+  - Games: New Super Mario Bros. Wii (BRRES assets including characters, levels, props).
+  - Features: BRRES importer/exporter, render engine, material editing interface, and verifier to catch malformed model data before export.
 
 #### Zelda
 
