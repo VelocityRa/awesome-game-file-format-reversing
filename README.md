@@ -791,6 +791,7 @@ This list is for developers and modders working with such formats. It provides t
 - [POE2 3DS Max 9 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-9-bf2-tools) - 3DS Max 9 tools for Battlefield 2 (POE2).
 - [Windows Texture Viewer v089b (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/windows-texture-viewer-v089b) - Texture viewer for Battlefield 2 (v0.89b).
 - [Texture Tool 0.2 (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/texture-tool-0-2) - Texture editing tool for Battlefield 2 (v0.2).
+- [Clan Tool (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/clan-tool) - Clan management tool for Battlefield 2.
 
 #### Star Wars: Battlefront
 
@@ -822,6 +823,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Koska Reeves Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/koska-reeves-asset) - Koska Reeves model asset for Star Wars: Battlefront II.
 - [Kotor Sith Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/kotor-sith-assets) - Knights of the Old Republic Sith model assets for Star Wars: Battlefront II.
 - [KOTOR Sith Officer Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kotor-sith-officer-asset) - Knights of the Old Republic Sith Officer model asset for Star Wars: Battlefront II.
+- [Cold Weather Jedi Knight Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/cold-weather-jedi-knight-asset) - Cold weather Jedi Knight model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1589,6 +1591,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Dragon Age Origins 3dsmax Import Export script](https://www.moddb.com/games/dragon-age-origins/downloads/dragon-age-origins-3dsmax-import-export-script) - 3DS Max script (v5.38) for importing and exporting models from Dragon Age: Origins.
 
+#### Knights of the Old Republic
+
+- [Kotor Tool 1](https://www.moddb.com/games/star-wars-knights-of-the-old-republic/downloads/kotor-tool-1) - Tool for working with Star Wars: Knights of the Old Republic file formats.
+
 ### Obsidian Entertainment
 
 #### Neverwinter Nights 2
@@ -1776,6 +1782,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Texture 2 DDS Converter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/texture-2-dds-converter) - Texture converter for Medieval II: Total War DDS format.
 - [Vercengetorix's CAS Import/Export (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/vercengetorix-s-cas-import-export) - CAS (model) format import/export tool for Medieval II: Total War.
 - [CAS Exporter (Medieval II: Total War)](https://www.moddb.com/games/medieval-2-total-war/downloads/cas-exporter) - CAS model exporter for Medieval II: Total War.
+- [Community Modding Framework (Total War: Warhammer II)](https://www.moddb.com/games/total-war-warhammer-ii/downloads/community-modding-framework-1104) - Modding framework for Total War: Warhammer II (v1.10.4).
 - [Symphony Sound Packer (Empire: Total War)](https://www.moddb.com/mods/foothold-in-india/downloads/symphony-sound-packer) - Sound packing tool for Empire: Total War modders.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
 - [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
