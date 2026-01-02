@@ -825,6 +825,13 @@ This list is for developers and modders working with such formats. It provides t
 - [Kotor Sith Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/kotor-sith-assets) - Knights of the Old Republic Sith model assets for Star Wars: Battlefront II.
 - [KOTOR Sith Officer Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kotor-sith-officer-asset) - Knights of the Old Republic Sith Officer model asset for Star Wars: Battlefront II.
 - [Cold Weather Jedi Knight Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/cold-weather-jedi-knight-asset) - Cold weather Jedi Knight model asset for Star Wars: Battlefront II.
+- [Han Solo model replacement (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/han-solo-model-replacement-for-modders) - Han Solo model replacement for modders in Star Wars: Battlefront II.
+- [Quarren Rebel Pilot Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/quarren-rebel-pilot-asset) - Quarren Rebel Pilot model asset for Star Wars: Battlefront II.
+- [Rax Joris Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/rax-joris-asset) - Rax Joris model asset for Star Wars: Battlefront II.
+- [Starkiller - Jedi Hunter official model (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/starkiller-jedi-hunter-official-model-for-modders) - Starkiller Jedi Hunter official model for modders in Star Wars: Battlefront II.
+- [Storm Commando Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/storm-commando-assets-1) - Storm Commando model assets for Star Wars: Battlefront II.
+- [White Clone Commando texture recreation (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/white-clone-commando-texture-recreation) - White Clone Commando texture recreation for Star Wars: Battlefront II.
+- [WideBoy's Model Pack (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/wideboy-s-model-pack) - WideBoy's model pack for Star Wars: Battlefront II.
 
 ### Capcom
 
