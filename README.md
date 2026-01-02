@@ -175,6 +175,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Torchlight II](#torchlight-ii)
     - [1C Company / Best Way](#1c-company--best-way)
       - [Men of War](#men-of-war)
+    - [Ironclad Games / Stardock](#ironclad-games--stardock)
+      - [Sins of a Solar Empire](#sins-of-a-solar-empire)
     - [Radical Entertainment](#radical-entertainment)
     - [Reflections Interactive](#reflections-interactive)
     - [Riot Games](#riot-games)
@@ -1350,6 +1352,13 @@ This list is for developers and modders working with such formats. It provides t
 ### Sega
 
 - [PSO2 Tools](https://github.com/dummycount/blender_pso2_tools) - Blender add-on for Phantasy Star Online 2 assets (`.aqp`, `.aqn`, ICE archives). Features model search, archive browsing, and automatic texture assignment.
+
+#### Creative Assembly
+
+##### Alien: Isolation
+
+- [Alien Isolation Animation Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-animation-exporter) - Tool for exporting animations from Alien: Isolation.
+- [Alien Isolation Model Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-model-exporter) - Tool for exporting models from Alien: Isolation.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
 - [NaomiMod/games-ExtractTools](https://github.com/NaomiMod/games-ExtractTools) - QuickBMS scripts to extract NaomiLib models from Dreamcast/Naomi arcade games. Supports Dead or Alive 2, Initial D3, Mortal Kombat 4, Super Monkey Ball, Virtua Tennis, Castlevania Resurrection, Rent-A-Hero, and more.
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
