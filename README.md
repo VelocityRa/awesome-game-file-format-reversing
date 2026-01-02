@@ -1774,6 +1774,7 @@ This list is for developers and modders working with such formats. It provides t
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
+- [WoW Model Viewer 5.0.7 (World of Warcraft)](https://www.moddb.com/games/world-of-warcraft/downloads/wow-model-viewer-5-0-7) - Model viewer for World of Warcraft (v5.0.7).
 
 ### Westwood Studios / EA Los Angeles
 
