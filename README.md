@@ -528,6 +528,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Web Admin Tools (Unreal Tournament 3)](https://www.moddb.com/games/unreal-tournament-3/downloads/web-admin-tools) - Web-based administration tools for Unreal Tournament 3.
 - [Blender 2.49 Scripts for UT2004](https://www.moddb.com/games/unreal-tournament-2004/downloads/blender-249-scripts-for-ut2004) - Blender 2.49 scripts for Unreal Tournament 2004.
 - [Defend Unreal Territories Launcher (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/defend-unreal-territories-launcher) - Launcher for Defend Unreal Territories mod for Unreal Tournament 3.
+- [February 2015 Unreal Development Kit (UDK)](https://www.moddb.com/engines/unreal-development-kit/downloads/february-2015-unreal-development-kit-udk) - Unreal Development Kit release from February 2015.
 
 ### CryEngine
 
@@ -539,6 +540,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Crysis Benchmarking Tool 1.05](https://www.moddb.com/games/crysis/downloads/crysis-benchmarking-tool-1-05) - Benchmarking tool for Crysis (v1.05).
 - [Cryengine Mod SDK 1.4 (Far Cry)](https://www.moddb.com/games/far-cry/downloads/cryengine-mod-sdk-14) - Mod SDK for CryEngine used in Far Cry (v1.4).
 - [Enhanced Gibbed Tools with Hash Decoder (Far Cry 2)](https://www.moddb.com/games/far-cry-2/downloads/enhanced-gibbed-tools-with-hash-decoder) - Enhanced Gibbed tools with hash decoder for Far Cry 2.
+- [Far Cry 2 Mod Tools](https://www.moddb.com/mods/far-cry-2-redux/downloads/far-cry-2-mod-tools) - Mod tools for Far Cry 2.
+- [Far Cry 3 Mod Tools](https://www.moddb.com/mods/far-cry-3-redux/downloads/far-cry-3-mod-tools) - Mod tools for Far Cry 3.
+- [FCMAP Tool v0.3B-0.5B (Far Cry)](https://www.moddb.com/mods/fcmap-tool/downloads/fcmap-tool-v03b-05b) - Map tool for Far Cry (v0.3B-0.5B).
+- [FCMAP Tool v1.0 (Far Cry)](https://www.moddb.com/mods/fcmap-tool/downloads/fcmap-tool-v05-10) - Map tool for Far Cry (v1.0).
 
 ### Hedgehog Engine
 
@@ -729,6 +734,7 @@ This list is for developers and modders working with such formats. It provides t
 - [disrev](https://github.com/chipolux/disrev) - Python tools for extracting and modifying Dishonored 2 assets.
 - [dishonored2_scripts](https://github.com/usernametoolo/dishonored2_scripts/blob/master/tools/scripts/unpack_resources.py) - Resource extraction script for unpacking .pak archives.
 - [Obscura](https://github.com/Mikompilation/Obscura) - Modding toolkit for Dishonored games.
+- [Field Editor 0.5.1 \"Tautologist tool\" (Dishonored)](https://www.moddb.com/games/dishonored/downloads/field-editor-051-tautologist-tool) - Field editor for Dishonored (v0.5.1).
 
 ### Atlus
 
@@ -817,6 +823,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Blender 2.49 exporter for The Witcher](https://www.moddb.com/games/the-witcher/downloads/blender-exporter-for-the-witcher) - Blender 2.49 exporter for The Witcher.
 - [twMax v1.2.3.2 -- mdb Importer for 3DSMax (The Witcher)](https://www.moddb.com/games/the-witcher/downloads/twmax-v1232-mdb-importer-for-3dsmax) - 3DS Max importer for The Witcher MDB model format (v1.2.3.2).
+- [Extra tools (The Witcher)](https://www.moddb.com/games/the-witcher/downloads/extra-tools) - Additional tools for The Witcher.
 
 #### Cyberpunk 2077 / REDEngine 4
 
@@ -977,6 +984,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Doom 3 - Quake 3 Map Converter](https://www.moddb.com/games/doom-iii/downloads/doom-3-quake-3-map-converter) - Tool for converting Quake 3 maps to Doom 3 format.
 - [Doom 3: ROE (XBOX) .gfc extract](https://www.moddb.com/games/doom-iii/downloads/doom-3-roe-xbox-gfc-extract) - Tool for extracting GFC archive files from Doom 3: Resurrection of Evil (Xbox).
 - [Doom maps Converter 1.4](https://www.moddb.com/games/doom-iii/downloads/doom-maps-converter-14) - Map converter for Doom 3 (v1.4).
+- [Export Font To Doom 3 v1.02](https://www.moddb.com/games/doom-iii/downloads/export-font-to-doom-3-v102) - Tool for exporting fonts to Doom 3 format (v1.02).
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
@@ -1257,6 +1265,9 @@ This list is for developers and modders working with such formats. It provides t
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial extraction tools for F.E.A.R. 2.
 - [Video Tutorial: 3DSMax Plugin (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/video-tutorial-3dsmax-plugin) - Video tutorial for using 3DS Max plugin with F.E.A.R.
+- [FEAR Database Extractor](https://www.moddb.com/games/fear/downloads/fear-database-extractor) - Database extraction tool for F.E.A.R.
+- [FEAR Public Tools v2](https://www.moddb.com/games/fear/downloads/fear-public-tools-v2) - Public modding tools for F.E.A.R. (v2).
+- [FEAR Tweaking Tool and Guide](https://www.moddb.com/games/fear/downloads/fear-tweaking-tool-and-guide) - Tweaking tool and guide for F.E.A.R.
 
 #### Trespasser
 
@@ -1806,6 +1817,7 @@ This list is for developers and modders working with such formats. It provides t
 - [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Collection of utilities for working with S.T.A.L.K.E.R. game files.
 - [Updated Milkshape plugin](https://www.moddb.com/games/stalker/downloads/updated-milkshape-plugin) - Milkshape 3D plugin for S.T.A.L.K.E.R. Shadow of Chernobyl model formats.
 - [Database converter (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/mods/call-of-chernobyl/downloads/cop-coc-db-converter) - Database converter for S.T.A.L.K.E.R.: Call of Pripyat modding (v1.4+).
+- [Extractor de archivos para S.T.A.L.K.E.R.: Shadow of Chernobyl](https://www.moddb.com/games/stalker/downloads/extractor-de-archivos-para-stalker-shadow-of-chernobyl) - Archive extractor for S.T.A.L.K.E.R.: Shadow of Chernobyl.
 
 ### Terminal Reality
 
@@ -1927,6 +1939,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - Asset extraction tool for Command & Conquer 3.
 - [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official modding tools for Command & Conquer: Renegade.
 - [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - Tools for Command & Conquer: Renegade.
+- [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - BIG archive tool for Command & Conquer: Generals.
 
 ## 🔗 Related Lists
 
