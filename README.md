@@ -752,6 +752,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MAX-FX Tools (Max Payne)](https://www.moddb.com/games/max-payne/downloads/max-fx-tools) - Tools for working with MAX-FX engine formats in Max Payne.
 - [Max Payne 1-2 Packer](https://www.moddb.com/games/max-payne-2/downloads/max-payne-1-2-packer) - Archive packer for Max Payne 1 and 2.
 - [MaxPayne Toolset](https://www.moddb.com/games/max-payne/downloads/maxpayne-toolset) - Toolset for working with Max Payne file formats.
+- [Mod Tools (Max Payne 2)](https://www.moddb.com/games/max-payne-2/downloads/mod-tools) - Modding tools for Max Payne 2.
 
 ### Argonaut Games
 
@@ -1336,6 +1337,11 @@ This list is for developers and modders working with such formats. It provides t
 - [Lithtech Jupiter Maya/3dsmax plugins (No One Lives Forever 2)](https://www.moddb.com/games/no-one-lives-forever-2-a-spy-in-harm/downloads/lithtech-jupiter-maya3dsmax-plugins) - Maya and 3DS Max plugins for Lithtech Jupiter engine used in No One Lives Forever 2.
 - [Lithtech 2.2 toolset (No One Lives Forever)](https://www.moddb.com/games/no-one-lives-forever/downloads/lithtech-22-toolset) - Toolset for Lithtech 2.2 engine used in No One Lives Forever.
 - [NOLF Tools (No One Lives Forever)](https://www.moddb.com/games/no-one-lives-forever/downloads/nolf-tools) - Tools for working with No One Lives Forever file formats.
+
+#### Shogo: Mobile Armor Division
+
+- [Shogo Mobile Armor Division Modding Tools](https://www.moddb.com/games/shogo-mobile-armor-division/downloads/shogo-mobile-armor-division-modding-tools) - Modding tools for Shogo: Mobile Armor Division.
+- [Shogo tools 64 bit](https://www.moddb.com/games/shogo-mobile-armor-division/downloads/shogo-tools-64-bit) - 64-bit tools for Shogo: Mobile Armor Division.
 
 ### Oddworld Inhabitants
 
