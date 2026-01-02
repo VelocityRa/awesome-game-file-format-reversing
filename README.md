@@ -126,6 +126,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Midway](#midway)
       - [Gauntlet](#gauntlet)
       - [NFL Blitz](#nfl-blitz)
+    - [Monolith Productions](#monolith-productions)
+      - [F.E.A.R.](#fear)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
       - [Jak and Daxter](#jak-and-daxter)
@@ -167,6 +169,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Rare](#rare)
     - [Radical Entertainment](#radical-entertainment)
     - [Reflections Interactive](#reflections-interactive)
+    - [Runic Games](#runic-games)
+      - [Torchlight II](#torchlight-ii)
     - [Riot Games](#riot-games)
     - [Santa Monica Studio](#santa-monica-studio)
     - [Sega](#sega)
@@ -187,6 +191,8 @@ This list is for developers and modders working with such formats. It provides t
       - [BloodRayne](#bloodrayne)
     - [THQ / Rainbow Studios](#thq--rainbow-studios)
       - [Cars](#cars)
+    - [3D Realms](#3d-realms)
+      - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
     - [Thekla Inc](#thekla-inc)
     - [Visceral Games](#visceral-games)
     - [Wargaming](#wargaming)
@@ -286,8 +292,6 @@ This list is for developers and modders working with such formats. It provides t
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
 - [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - Blender script for importing and exporting MD3 model format used in Quake III Arena and other id Tech 3 games. Supports animation frame export and shader path configuration.
-- [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
-- [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Tool for editing mesh and bone data from Duke Nukem: Manhattan Project.
 
 ### 📦 Archive & Asset Extraction
 
@@ -297,7 +301,6 @@ This list is for developers and modders working with such formats. It provides t
 - [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
 - [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
 - [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
-- [Modified PAK Extractor Tool (Torchlight II)](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting PAK archive files from Torchlight II.
 
 ### 🔊 Audio Tools
 
@@ -974,6 +977,12 @@ This list is for developers and modders working with such formats. It provides t
 - [NFL_Blitz_Roster_Manager](https://github.com/thompjake/NFL_Blitz_Roster_Manager) - Roster management tool for NFL Blitz.
 - [NFLBlitzDataEditor.Core](https://github.com/thompjake/NFLBlitzDataEditor.Core) - Core library for editing NFL Blitz data files.
 
+### Monolith Productions
+
+#### F.E.A.R.
+
+- [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
+
 ### Naughty Dog
 
 #### Crash Bandicoot 1-3 & CTR
@@ -1281,6 +1290,12 @@ This list is for developers and modders working with such formats. It provides t
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
 - [dk64_lib](https://github.com/ThomasJRyan/dk64_lib) - Library for extracting data from Donkey Kong 64 ROMs.
 
+### Runic Games
+
+#### Torchlight II
+
+- [Modified PAK Extractor Tool](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting PAK archive files from Torchlight II.
+
 ### Radical Entertainment
 
 - [scarface-p3d](https://github.com/aap/scarface-p3d) - P3D format tools for "Scarface: The World is Yours".
@@ -1403,6 +1418,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Cars
 
 - [carsraceorama](https://github.com/leeao/carsraceorama) - Noesis plugin for Cars Mater-National and Cars Race-O-Rama. Model importer/exporter supporting multiple platform formats: XNG (Xbox 360/PC), P3G (PS3), GCG (Wii/GameCube), DXG (PC/Xbox), PSG (PS2), SLT (text).
+
+### 3D Realms
+
+#### Duke Nukem: Manhattan Project
+
+- [Duke Nukem Manhattan Project Mesh & Bones Editing Tool](https://www.moddb.com/games/duke-nukem-manhattan-project/downloads/duke-nukem-manhattan-project-mesh-bones-editing-tool) - Tool for editing mesh and bone data from Duke Nukem: Manhattan Project.
 
 ### Thekla Inc
 
