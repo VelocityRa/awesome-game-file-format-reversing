@@ -513,6 +513,13 @@ This list is for developers and modders working with such formats. It provides t
 - [FlexModel to Wavefront Object Converter (FM2OBJ)](https://www.moddb.com/games/heretic-ii/downloads/flexmodel-to-wavefront-object-converter-aka-fm2obj) - Converter for FlexModel format to Wavefront OBJ format used in Heretic II.
 - [Heretic II Toolkit v1.06](https://www.moddb.com/games/heretic-ii/downloads/heretic-ii-toolkit-v106) - Comprehensive toolkit for working with Heretic II file formats (v1.06).
 
+#### Soldier of Fortune
+
+- [Official 3dsmax 3x plugin (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/official-3dsmax-3x-plugin) - Official 3DS Max 3.x plugin for Soldier of Fortune.
+- [.m32 to .tga/.adp to .wav file converters (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-to-tga-file-converter) - File format converters for Soldier of Fortune (.m32 to .tga, .adp to .wav).
+- [.m32 tool (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-tool) - Tool for working with .m32 texture files from Soldier of Fortune.
+- [.os script decompiler v2.0 (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/os-script-decompiler-v20) - Script decompiler for Soldier of Fortune .os files (v2.0).
+
 ## 🔧 Middleware & SDKs
 
 *Game development middleware, libraries, and SDK-provided formats used across multiple titles and platforms.*
@@ -691,6 +698,7 @@ This list is for developers and modders working with such formats. It provides t
 - [NVIDIA DDS Utilities (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-dds-utilities) - NVIDIA DDS texture utilities for Battlefield 2.
 - [NVIDIA Texture Atlas Tool (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-texture-atlas-tool) - NVIDIA texture atlas tool for Battlefield 2.
 - [POE2 3DS Max 6-8 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-6-8-tools) - 3DS Max 6-8 tools for Battlefield 2 (POE2).
+- [POE2 3DS Max 9 BF2 Tools (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/poe2-3ds-max-9-bf2-tools) - 3DS Max 9 tools for Battlefield 2 (POE2).
 
 #### Star Wars: Battlefront
 
@@ -869,6 +877,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Daikatana to Quake 2 model converter](https://www.moddb.com/games/daikatana/downloads/daikatana-to-quake-2-model-converter) - Tool for converting Daikatana models to Quake 2 format.
 - [Quake 1 Model Viewer v0.50 alpha](https://www.moddb.com/games/quake/downloads/quake-1-model-viewer-v050-alpha) - Model viewer for Quake 1 MDL format (v0.50 alpha).
 - [Adjusted MD5 blender exporter (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/adjusted-md5-blender-exporter) - Blender exporter for MD5 model format used in Quake III Arena.
+- [Q3-Games Model Tool v1.6.0 (Quake III Arena)](https://www.moddb.com/games/quake-iii-arena/downloads/q3-games-model-tool-v160) - Model tool for Quake III Arena (v1.6.0).
 
 ### Grezzo
 
