@@ -98,6 +98,10 @@ This list is for developers and modders working with such formats. It provides t
     - [Double Fine](#double-fine)
     - [8monkey Labs](#8monkey-labs)
     - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
+    - [Ion Storm](#ion-storm)
+      - [Anachronox](#anachronox)
+    - [Massive Entertainment](#massive-entertainment)
+      - [AquaNox](#aquanox)
     - [Surreal Software](#surreal-software)
     - [Dynamix / Sierra](#dynamix--sierra)
       - [Tribes Series](#tribes-series)
@@ -203,6 +207,8 @@ This list is for developers and modders working with such formats. It provides t
     - [RAD Game Tools](#rad-game-tools)
     - [Rebel Act](#rebel-act)
     - [Rebellion Developments](#rebellion-developments)
+      - [Aliens vs. Predator 2](#aliens-vs-predator-2)
+      - [Aliens vs. Predator (2010)](#aliens-vs-predator-2010)
     - [Rare](#rare)
     - [Runic Games](#runic-games)
       - [Torchlight](#torchlight)
@@ -1559,6 +1565,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [3D tools for Severance v2.5](https://www.moddb.com/games/severance-blade-of-darkness/downloads/3d-tools-for-severance-v25) - 3D tools for Severance: Blade of Darkness (v2.5).
 - [3D Tools & Scripts v1.2.1](https://www.moddb.com/games/severance-blade-of-darkness/downloads/3d-tools-scripts-v121) - 3D tools and scripts for Severance: Blade of Darkness (v1.2.1).
+- [Blade of Darkness Mod Tools & Tutorials](https://www.moddb.com/games/severance-blade-of-darkness/downloads/blade-of-darkness-mod-tools-tutorials) - Mod tools and tutorials for Severance: Blade of Darkness.
+- [Blade Tools English. Severance - SDK](https://www.moddb.com/games/severance-blade-of-darkness/downloads/blade-tools-english-severance-sdk) - English SDK tools for Severance: Blade of Darkness.
+- [Blade Tools Spanish. Blade SDK](https://www.moddb.com/games/severance-blade-of-darkness/downloads/blade-tools-spanish-blade-sdk) - Spanish SDK tools for Severance: Blade of Darkness.
 
 ### Rebellion Developments
 
