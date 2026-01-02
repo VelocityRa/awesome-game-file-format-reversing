@@ -480,6 +480,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Unity
 
 - [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Explorer/exporter for Unity assets and assetbundles (original version).
+- [Unity Asset Editor v0.2 (7 Days To Die)](https://www.moddb.com/games/7-days-to-die/downloads/unity-asset-editor) - Unity asset editor for 7 Days To Die (v0.2).
 - [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudio) - Actively maintained fork with UI optimization and enhancements.
 - [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
 - [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) - Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
