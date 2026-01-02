@@ -100,8 +100,10 @@ This list is for developers and modders working with such formats. It provides t
     - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
     - [Ion Storm](#ion-storm)
       - [Anachronox](#anachronox)
+      - [Deus Ex](#deus-ex)
     - [Massive Entertainment](#massive-entertainment)
       - [AquaNox](#aquanox)
+      - [World in Conflict](#world-in-conflict)
     - [Surreal Software](#surreal-software)
     - [Dynamix / Sierra](#dynamix--sierra)
       - [Tribes Series](#tribes-series)
@@ -149,6 +151,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Gorky 17](#gorky-17)
     - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
       - [Halo](#halo)
+      - [Gears of War](#gears-of-war)
       - [Forza](#forza)
       - [Age of Empires](#age-of-empires)
     - [Mobius Digital](#mobius-digital)
@@ -188,6 +191,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Ntreev Soft](#ntreev-soft)
     - [BioWare](#bioware)
       - [Dragon Age: Origins](#dragon-age-origins)
+      - [Knights of the Old Republic](#knights-of-the-old-republic)
     - [Obsidian Entertainment](#obsidian-entertainment)
       - [Neverwinter Nights 2](#neverwinter-nights-2)
     - [Panic](#panic)
@@ -799,39 +803,6 @@ This list is for developers and modders working with such formats. It provides t
 - [StarWars Battlefront unpacker / decoder](https://www.moddb.com/games/star-wars-battlefront/downloads/starwars-battlefront-unpacker-decoder) - Archive unpacker and decoder for Star Wars: Battlefront.
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Comprehensive modification toolkit for Star Wars: Battlefront.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - 3D object format converter for Star Wars: Battlefront II.
-- [Caleb1117's Model Pack 2 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/caleb1117-s-model-pack-2) - Model pack for Star Wars: Battlefront II.
-- [Darth Vader No Suit Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/darth-vader-no-suit-asset) - Darth Vader model asset without suit for Star Wars: Battlefront II.
-- [Revised JKA Luminara Textures by DarthSiths (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/darthsiths-revised-jka-luminara-textures1) - Revised Luminara textures for Star Wars: Battlefront II.
-- [D'Qar XSI and FBX source files (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/dqar-xsi-and-fbx-source-files-for-modders) - XSI and FBX source files for D'Qar map in Star Wars: Battlefront II.
-- [Dual Wield Animations by Needo62 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/dual-wield-animations-by-needo62) - Dual wield animations for Star Wars: Battlefront II.
-- [Fixed Tauntaun Model (Star Wars Battlefront II)](https://www.moddb.com/mods/swag-swag-senates-standalone-files-and-addons/downloads/for-modders-fixed-tauntaun-model) - Fixed Tauntaun model asset for Star Wars: Battlefront II.
-- [Galak Fyarr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/galak-fyarr-asset) - Galak Fyarr model asset for Star Wars: Battlefront II.
-- [General Bedamyr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/general-bedamyr-asset) - General Bedamyr model asset for Star Wars: Battlefront II.
-- [Grand Moff Tarkin Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/grand-moff-tarkin-asset) - Grand Moff Tarkin model asset for Star Wars: Battlefront II.
-- [Han Solo model replacement (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/han-solo-model-replacement-for-modders) - Han Solo model replacement for Star Wars: Battlefront II.
-- [Heavy Mandalorian Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/heavy-mandalorian-asset) - Heavy Mandalorian model asset for Star Wars: Battlefront II.
-- [Hex Character Guide (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hex-character-guide) - Guide for hex editing characters in Star Wars: Battlefront II.
-- [HQ fightertank model (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/hq-fightertank-model) - High-quality fighter tank model for Star Wars: Battlefront II.
-- [Human Mercenary Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/human-mercenary-modders-asset) - Human Mercenary model asset for Star Wars: Battlefront II.
-- [Imperial Admiral Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/imperial-admiral-asset) - Imperial Admiral model asset for Star Wars: Battlefront II.
-- [Imperial Sand Trooper Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/imperial-sand-trooper-assets) - Imperial Sand Trooper model assets for Star Wars: Battlefront II.
-- [Incendiary Grenade Asset Pack (Star Wars Battlefront II)](https://www.moddb.com/mods/reworked-sides/downloads/incendiary-grenade-asset-pack) - Incendiary grenade asset pack for Star Wars: Battlefront II.
-- [Jedi Academy posed skeleton (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/jedi-academy-posed-skeleton-for-modders) - Jedi Academy posed skeleton for modders in Star Wars: Battlefront II.
-- [Jedi Sentinel Modders Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/jedi-sentinel-modders-asset) - Jedi Sentinel model asset for Star Wars: Battlefront II.
-- [Kao Cen Durach Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kao-cen-durach-asset) - Kao Cen Durach model asset for Star Wars: Battlefront II.
-- [Kit Fisto & Asajj Ventress unmunged animations (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/kit-fisto-asajj-ventress-unmunged-animations-for-modders) - Unmunged animations for Kit Fisto and Asajj Ventress in Star Wars: Battlefront II.
-- [Koobis Nu Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/koobis-nu-asset) - Koobis Nu model asset for Star Wars: Battlefront II.
-- [Koska Reeves Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/koska-reeves-asset) - Koska Reeves model asset for Star Wars: Battlefront II.
-- [Kotor Sith Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/kotor-sith-assets) - Knights of the Old Republic Sith model assets for Star Wars: Battlefront II.
-- [KOTOR Sith Officer Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/kotor-sith-officer-asset) - Knights of the Old Republic Sith Officer model asset for Star Wars: Battlefront II.
-- [Cold Weather Jedi Knight Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/cold-weather-jedi-knight-asset) - Cold weather Jedi Knight model asset for Star Wars: Battlefront II.
-- [Han Solo model replacement (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/han-solo-model-replacement-for-modders) - Han Solo model replacement for modders in Star Wars: Battlefront II.
-- [Quarren Rebel Pilot Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/quarren-rebel-pilot-asset) - Quarren Rebel Pilot model asset for Star Wars: Battlefront II.
-- [Rax Joris Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/rax-joris-asset) - Rax Joris model asset for Star Wars: Battlefront II.
-- [Starkiller - Jedi Hunter official model (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/starkiller-jedi-hunter-official-model-for-modders) - Starkiller Jedi Hunter official model for modders in Star Wars: Battlefront II.
-- [Storm Commando Assets (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/storm-commando-assets-1) - Storm Commando model assets for Star Wars: Battlefront II.
-- [White Clone Commando texture recreation (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/white-clone-commando-texture-recreation) - White Clone Commando texture recreation for Star Wars: Battlefront II.
-- [WideBoy's Model Pack (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/wideboy-s-model-pack) - WideBoy's model pack for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1335,6 +1306,7 @@ This list is for developers and modders working with such formats. It provides t
 - [FEAR Database Extractor](https://www.moddb.com/games/fear/downloads/fear-database-extractor) - Database extraction tool for F.E.A.R.
 - [FEAR Public Tools v2](https://www.moddb.com/games/fear/downloads/fear-public-tools-v2) - Public modding tools for F.E.A.R. (v2).
 - [FEAR Tweaking Tool and Guide](https://www.moddb.com/games/fear/downloads/fear-tweaking-tool-and-guide) - Tweaking tool and guide for F.E.A.R.
+- [Lithtech Jupiter Ex FX Decompiler (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/lithtech-jupiter-ex-fx-decompiler) - Decompiler for Lithtech Jupiter Ex FX effects in F.E.A.R.
 
 #### Trespasser
 
@@ -1829,6 +1801,10 @@ This list is for developers and modders working with such formats. It provides t
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - C# library for working with PlayStation PSARC archive format.
 
 ### Square Enix
+
+#### Hitman
+
+- [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Archive manager for HiTMAN game files.
 
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
 - [BBSPluginNoesis](https://github.com/Truthkey/BBSPluginNoesis) - Updated Noesis plugin for Kingdom Hearts Birth by Sleep working with modern versions of Visual Studio.
