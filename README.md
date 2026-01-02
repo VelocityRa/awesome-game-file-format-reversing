@@ -1460,6 +1460,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Murugo/Misc-Game-Research (Rule of Rose)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Rule%20of%20Rose) - Reverse engineering notes for Rule of Rose (PS2).
 
+### People Can Fly
+
+#### Painkiller
+
+- [Painkiller 3ds Max Plugins (Upd270522)](https://www.moddb.com/games/painkiller/downloads/painkiller-3ds-max-plugins) - 3DS Max plugins for Painkiller (updated 270522).
+- [HavokXML2HKE converter for Ragdoll physics 3ds Max (Painkiller)](https://www.moddb.com/games/painkiller/downloads/havokxml2hke-converter-for-ragdoll-physics) - Havok XML to HKE converter for ragdoll physics in 3DS Max (updated 260117).
+- [PainFull Extractor v1.3.2 (Painkiller)](https://www.moddb.com/games/painkiller/downloads/painfull-extractor-v132) - Archive extractor for Painkiller (v1.3.2).
+- [Painkiller converters mpk/dat to ASE and ASE to mpk/dat](https://www.moddb.com/games/painkiller/downloads/painkiller-converters-mpk-to-ase-and-ase-to-mpk) - Converters for Painkiller MPK/DAT and ASE model formats.
+
 ### Polyphony Digital
 
 - [PDTools](https://github.com/Nenkai/PDTools) - Utilities for extracting and modifying Gran Turismo game files.
@@ -1517,6 +1526,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Sins of a Solar Empire
 
 - [Sins 3D Max Import export](https://www.moddb.com/games/sins-of-a-solar-empire-rebellion/downloads/sins-3d-max-impotrt-export) - 3DS Max import/export plugin for Sins of a Solar Empire model formats.
+- [sins TXT Tools with export (Sins of a Solar Empire: Rebellion)](https://www.moddb.com/games/sins-of-a-solar-empire-rebellion/downloads/sins-txt-tools-with-export) - TXT file tools with export functionality for Sins of a Solar Empire: Rebellion.
+- [Forge Tools (Sins of a Solar Empire)](https://www.moddb.com/games/sins-of-a-solar-empire/downloads/forge-tools) - Forge tools for Sins of a Solar Empire.
+- [Map Conversion (Sins of a Solar Empire)](https://www.moddb.com/games/sins-of-a-solar-empire/downloads/map-conversion) - Map conversion tool for Sins of a Solar Empire.
 
 ### Radical Entertainment
 
