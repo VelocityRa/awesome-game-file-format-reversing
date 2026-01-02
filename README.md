@@ -538,6 +538,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CryEngine2 Archive (Crysis)](https://www.moddb.com/games/crysis/downloads/cryengine2-archive) - Archive tool for CryEngine2 used in Crysis.
 - [Crysis Benchmarking Tool 1.05](https://www.moddb.com/games/crysis/downloads/crysis-benchmarking-tool-1-05) - Benchmarking tool for Crysis (v1.05).
 - [Cryengine Mod SDK 1.4 (Far Cry)](https://www.moddb.com/games/far-cry/downloads/cryengine-mod-sdk-14) - Mod SDK for CryEngine used in Far Cry (v1.4).
+- [Enhanced Gibbed Tools with Hash Decoder (Far Cry 2)](https://www.moddb.com/games/far-cry-2/downloads/enhanced-gibbed-tools-with-hash-decoder) - Enhanced Gibbed tools with hash decoder for Far Cry 2.
 
 ### Hedgehog Engine
 
@@ -702,6 +703,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto III)](https://www.moddb.com/games/grand-theft-auto-3/downloads/cleo-library-by-seemann-for-gta-iii) - CLEO library for Grand Theft Auto III (v2.0.0.5).
 - [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto: Vice City)](https://www.moddb.com/games/grand-theft-auto-vice-city/downloads/cleo-library-v2005-by-seemann-for-gta-vc) - CLEO library for Grand Theft Auto: Vice City (v2.0.0.5).
 - [CLEO library v4.3.22 by Seemann (Grand Theft Auto: San Andreas)](https://www.moddb.com/games/grand-theft-auto-san-andreas/downloads/cleo-library-v4322-by-seemann-for-gta-sa) - CLEO library for Grand Theft Auto: San Andreas (v4.3.22).
+- [Epic GTA2 Script Decompiler Source Code (Grand Theft Auto 2)](https://www.moddb.com/games/grand-theft-auto-2/downloads/epic-gta2-script-decompiler-source-code) - Source code for GTA2 script decompiler.
 
 ### Ape, Inc
 
@@ -1002,6 +1004,7 @@ This list is for developers and modders working with such formats. It provides t
 ### LucasArts
 
 - [Grim Fandango model viewer](https://www.moddb.com/games/grim-fandango/downloads/grim-fandango-model-viewer) - Model viewer for Grim Fandango.
+- [Easy Saber Editing Script 2.0 (Star Wars: Jedi Academy)](https://www.moddb.com/games/star-wars-jedi-academy/downloads/easy-saber-editing-script-2-0) - Script for editing lightsaber properties in Star Wars: Jedi Academy (v2.0).
 
 ### Gust (Koei Tecmo)
 
@@ -1899,6 +1902,7 @@ This list is for developers and modders working with such formats. It provides t
 - [PyNifly](https://github.com/BadDogSkyrim/PyNifly) - Blender addon to import/export NIF files with support for Skyrim LE, Skyrim SE, Fallout 4, Fallout New Vegas, Fallout 76, and Fallout 3.
 - [noclip.website (Morrowind)](https://github.com/magcius/noclip.website/tree/main/src/Morrowind) - In-browser Morrowind viewer.
 - [Daggerfall utilities](https://www.moddb.com/games/daggerfall/downloads/daggerfall-utilities) - Utilities for working with Daggerfall game files.
+- [ES Plugin Cracker 0.001b (Elder Scrolls IV: Oblivion)](https://www.moddb.com/games/oblivion/downloads/es-plugin-cracker-0-001b) - Plugin cracker for Elder Scrolls IV: Oblivion (v0.001b).
 
 ### 2K Games / Firaxis Games
 
