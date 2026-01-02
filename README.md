@@ -84,15 +84,18 @@ This list is for developers and modders working with such formats. It provides t
     - [CCP Games](#ccp-games)
     - [CD Projekt Red](#cd-projekt-red)
       - [The Witcher 3 / REDEngine 3](#the-witcher-3--redengine-3)
+      - [The Witcher](#the-witcher)
       - [Cyberpunk 2077 / REDEngine 4](#cyberpunk-2077--redengine-4)
     - [Clover Studio](#clover-studio)
     - [Cygames](#cygames)
     - [Disney Interactive](#disney-interactive)
       - [Toontown Online](#toontown-online)
     - [Double Fine](#double-fine)
+    - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
     - [EA Black Box](#ea-black-box)
       - [Need for Speed Series](#need-for-speed-series)
     - [FromSoftware](#fromsoftware)
+    - [Gearbox Software](#gearbox-software)
     - [Game Freak](#game-freak)
       - [Gen I \& II](#gen-i--ii)
       - [Gen III](#gen-iii)
@@ -136,6 +139,8 @@ This list is for developers and modders working with such formats. It provides t
       - [NFL Blitz](#nfl-blitz)
     - [Monolith Productions](#monolith-productions)
       - [F.E.A.R.](#fear)
+      - [Trespasser](#trespasser)
+      - [Blood](#blood)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
@@ -212,15 +217,19 @@ This list is for developers and modders working with such formats. It provides t
       - [MX vs ATV](#mx-vs-atv)
     - [3D Realms](#3d-realms)
       - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
+      - [Duke Nukem Forever (2001)](#duke-nukem-forever-2001)
+    - [Techland](#techland)
     - [Thekla Inc](#thekla-inc)
+    - [Slitherine / Proxy Studios](#slitherine--proxy-studios)
     - [Visceral Games](#visceral-games)
     - [Wargaming](#wargaming)
     - [Ubisoft](#ubisoft)
       - [Anno 1800](#anno-1800)
     - [Bethesda](#bethesda)
+    - [2K Games / Firaxis Games](#2k-games--firaxis-games)
     - [Bohemia Interactive](#bohemia-interactive)
-    - [Bethesda](#bethesda-1)
     - [Blizzard Entertainment](#blizzard-entertainment)
+    - [Westwood Studios / EA Los Angeles](#westwood-studios--ea-los-angeles)
   - [🔗 Related Lists](#-related-lists)
   - [📄 License](#-license)
   - [🙏 Acknowledgments](#-acknowledgments)
@@ -1582,15 +1591,6 @@ This list is for developers and modders working with such formats. It provides t
 
 *The Elder Scrolls, Fallout series, and Starfield.*
 
-### 2K Games / Firaxis Games
-
-- [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - 3DS Max 6 plugins for Civilization IV.
-- [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - 3DS Max 7+ plugins for Civilization IV.
-
-### Bohemia Interactive
-
-- [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Editing tools for ARMA 2.
-
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
 - [Wrye Bash](https://wrye-bash.github.io) - Swiss army knife for modding Bethesda games with features including mod installation, conflict manager, load order manager and automatic merging.
 - [Synthesis](https://github.com/Mutagen-Modding/Synthesis) - Framework and GUI to empower people to create mods via code instead of by hand, mainly used to create patches.
@@ -1605,18 +1605,25 @@ This list is for developers and modders working with such formats. It provides t
 - [PyNifly](https://github.com/BadDogSkyrim/PyNifly) - Blender addon to import/export NIF files with support for Skyrim LE, Skyrim SE, Fallout 4, Fallout New Vegas, Fallout 76, and Fallout 3.
 - [noclip.website (Morrowind)](https://github.com/magcius/noclip.website/tree/main/src/Morrowind) - In-browser Morrowind viewer.
 
+### 2K Games / Firaxis Games
+
+- [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - 3DS Max 6 plugins for Civilization IV.
+- [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - 3DS Max 7+ plugins for Civilization IV.
+
+### Bohemia Interactive
+
+- [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Editing tools for ARMA 2.
+
 ### Blizzard Entertainment
 
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
+- [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
+- [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
 
 ### Westwood Studios / EA Los Angeles
 
 - [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Extractor for Command & Conquer BIG archive files.
 - [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - Asset extraction tool for Command & Conquer 3.
-
-### Blizzard Entertainment
-- [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
-- [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter) - Converter for Warcraft III model format (MDX) to/from 3DS and OBJ formats.
 
 ## 🔗 Related Lists
 
