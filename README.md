@@ -1563,6 +1563,11 @@ This list is for developers and modders working with such formats. It provides t
 ### Rebellion Developments
 
 - [AvP Editing Tools](https://www.moddb.com/games/aliens-vs-predator/downloads/avp-editing-tools) - Editing tools for Aliens versus Predator (Classic).
+- [AVP Gold Tools and Source Code (Aliens versus Predator - Classic)](https://www.moddb.com/games/aliens-vs-predator/downloads/avp-gold-tools-and-source-code) - Gold edition tools and source code for Aliens versus Predator (Classic).
+
+#### Aliens vs. Predator 2
+
+- [AVP2 official tools](https://www.moddb.com/games/aliens-vs-predator-2/downloads/avp2-official-tools) - Official modding tools for Aliens vs. Predator 2.
 
 #### Aliens vs. Predator (2010)
 
