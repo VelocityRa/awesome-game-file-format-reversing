@@ -489,6 +489,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Bloody Knife + Addon DB Skin Tutorial (Counter-Strike: Source)](https://www.moddb.com/games/counter-strike-source/downloads/bloody-knife-addon-db-skin-tutorial) - Tutorial and tools for creating custom knife skins in Counter-Strike: Source.
 - [Bloodlines Character Search Tool v1.0 (Vampire: The Masquerade – Bloodlines)](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/bloodlines-character-search-tool-v10) - Character search tool for Vampire: The Masquerade – Bloodlines (v1.0).
 - [Detail Tool v1.0 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/detail-tool-v10) - Detail tool for Half-Life modding (v1.0).
+- [fixed bhop addon + more (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/fixed-bhop-addon-more) - Bunny hop addon and additional tools for Half-Life 2.
+- [Forsaken Assets & Source Code (Half-Life 2)](https://www.moddb.com/mods/forsaken/downloads/forsaken-assets-source-code) - Assets and source code for Forsaken mod for Half-Life 2.
+- [Game Server Browser & Admin Tool 1.2.1 (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/game-server-browser-admin-tool-1-2-1) - Server browser and admin tool for Half-Life 2 (v1.2.1).
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
 - [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
@@ -782,6 +785,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Revised JKA Luminara Textures by DarthSiths (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/darthsiths-revised-jka-luminara-textures1) - Revised Luminara textures for Star Wars: Battlefront II.
 - [D'Qar XSI and FBX source files (Star Wars Battlefront II)](https://www.moddb.com/mods/star-wars-conversions/downloads/dqar-xsi-and-fbx-source-files-for-modders) - XSI and FBX source files for D'Qar map in Star Wars: Battlefront II.
 - [Dual Wield Animations by Needo62 (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/dual-wield-animations-by-needo62) - Dual wield animations for Star Wars: Battlefront II.
+- [Fixed Tauntaun Model (Star Wars Battlefront II)](https://www.moddb.com/mods/swag-swag-senates-standalone-files-and-addons/downloads/for-modders-fixed-tauntaun-model) - Fixed Tauntaun model asset for Star Wars: Battlefront II.
+- [Galak Fyarr Asset (Star Wars Battlefront II)](https://www.moddb.com/mods/jacker1112s-jedi-academy-conversions/downloads/galak-fyarr-asset) - Galak Fyarr model asset for Star Wars: Battlefront II.
 
 ### Capcom
 
@@ -1224,6 +1229,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Composer Halo 4 Audio Extractor](https://www.moddb.com/games/halo-4/downloads/composer-halo-4-audio-extractor) - Audio extraction tool for Halo 4.
 - [3ds Max GBX Importer (Halo CE)](https://www.moddb.com/downloads/3ds-max-gbx-importer-halo-ce) - 3DS Max plugin for importing Halo: Combat Evolved GBX model formats.
 - [noclip.website (Halo: Combat Evolved)](https://github.com/magcius/noclip.website/tree/main/src/Halo1) - In-browser Halo: Combat Evolved viewer.
+
+#### Gears of War
+
+- [Gears of War Map Cooker Tool for Newbies](https://www.moddb.com/mods/gears-multiplayer-enhancement-mod/downloads/gears-of-war-map-cooker-tool-for-newbies) - Map cooker tool for Gears of War modding.
 
 #### Forza
 
@@ -1888,6 +1897,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Hawx Model Tool 1.04 (Tom Clancy's H.A.W.X.)](https://www.moddb.com/games/tom-clancys-hawx/downloads/hawx-model-tool-104) - Model tool for Tom Clancy's H.A.W.X. (v1.04).
 - [Complete UMP40 Source Code and Assets (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/mods/raven-shield-software-development-kit/downloads/complete-ump40-source-code-and-assets) - Complete source code and assets for UMP40 weapon in Rainbow Six 3: Raven Shield.
 - [Damage Triggers - mapping tool (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/damage-triggers-mapping-tool) - Mapping tool for damage triggers in Rainbow Six 3: Raven Shield.
+- [Flashlights for enemies - mapping tool (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/flashlights-for-enemies-mapping-tool) - Mapping tool for adding flashlights to enemies in Rainbow Six 3: Raven Shield.
+- [.forge extractor/replacer by Turfster (Assassin's Creed)](https://www.moddb.com/mods/aci-texmod-clothes-mod/downloads/forge-extractorreplacer-by-turfster) - Tool for extracting and replacing files in .forge archives used in Assassin's Creed.
 
 #### Anno 1800
 
@@ -1940,6 +1951,7 @@ This list is for developers and modders working with such formats. It provides t
 - [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official modding tools for Command & Conquer: Renegade.
 - [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - Tools for Command & Conquer: Renegade.
 - [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - BIG archive tool for Command & Conquer: Generals.
+- [Final Big 3 (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big-3) - BIG archive tool for Command & Conquer: Generals (v3).
 
 ## 🔗 Related Lists
 
