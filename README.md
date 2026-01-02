@@ -167,10 +167,10 @@ This list is for developers and modders working with such formats. It provides t
     - [Polyphony Digital](#polyphony-digital)
     - [RAD Game Tools](#rad-game-tools)
     - [Rare](#rare)
-    - [Radical Entertainment](#radical-entertainment)
-    - [Reflections Interactive](#reflections-interactive)
     - [Runic Games](#runic-games)
       - [Torchlight II](#torchlight-ii)
+    - [Radical Entertainment](#radical-entertainment)
+    - [Reflections Interactive](#reflections-interactive)
     - [Riot Games](#riot-games)
     - [Santa Monica Studio](#santa-monica-studio)
     - [Sega](#sega)
@@ -405,6 +405,7 @@ This list is for developers and modders working with such formats. It provides t
   - Features: full map import (brushes, overlays, lights, props, skyboxes), MDL/material/texture import with color options, and embedded file browser.
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - 3DS Max plugin for importing SMD (Studiomodel) format files from Half-Life and other Source Engine games.
 - [Blender SMD Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-smd-import-and-export-download) - Blender addon for importing and exporting SMD (Studiomodel) format files used in Source Engine games.
+- [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
 
 ### Unity
 
@@ -447,6 +448,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [BUILD Map Importer](https://github.com/jensnt/io_import_build_map) - Blender add-on for BUILD-format maps (Blood, Duke Nukem 3D, etc.) that can auto-extract textures from `.ART`, `.GRP`, and `.RFF` files.
   - Import options: split sectors/walls/sky, preserve sprite offsets, reuse materials, shade to vertex colors, and store original map data in custom properties.
+
+### Raven Software
+
+#### Heretic II
+
+- [Quake Model to FlexModel Converter](https://www.moddb.com/games/heretic-ii/downloads/quake-model-to-flexmodel-converter-aka-convert) - Tool for converting Quake model formats to FlexModel format used in Heretic II.
 
 ## 🔧 Middleware & SDKs
 
@@ -932,6 +939,12 @@ This list is for developers and modders working with such formats. It provides t
 - [MeltyTool (MarioArtist)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/MarioArtist) - Format viewer and exporter for Mario Artist series.
 - [ma3d1toOBJ](https://github.com/LuigiBlood/ma3d1toOBJ) - Mario Artist Polygon Studio Model File to OBJ
 
+### Metropolis Software
+
+#### Gorky 17
+
+- [Gorky 17 *.dat and *.kdt extractor tool](https://www.moddb.com/games/gorky-17/downloads/gorky-17-dat-and-kdt-extractor-tool) - Tool for extracting DAT and KDT archive files from Gorky 17.
+
 ### Microsoft Studios / Bungie / Turn 10
 
 #### Halo
@@ -1295,6 +1308,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Torchlight II
 
 - [Modified PAK Extractor Tool](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting PAK archive files from Torchlight II.
+
+### 1C Company / Best Way
+
+#### Men of War
+
+- [Men of War 3DS Max Exporter Tools](https://www.moddb.com/games/men-of-war/downloads/men-of-war-3ds-max-exporter-tools) - 3DS Max exporter for Men of War model formats.
 
 ### Radical Entertainment
 
