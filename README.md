@@ -65,6 +65,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Formats by Studio / Game](#formats-by-studio--game)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
+      - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Ape, Inc](#ape-inc)
@@ -193,6 +194,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Primal Software](#primal-software)
       - [The I of the Dragon](#the-i-of-the-dragon)
     - [Polytron](#polytron)
+    - [Mithis Entertainment](#mithis-entertainment)
+      - [Nexus: The Jupiter Incident](#nexus-the-jupiter-incident)
     - [Punchline](#punchline)
     - [People Can Fly](#people-can-fly)
       - [Painkiller](#painkiller)
@@ -348,6 +351,7 @@ This list is for developers and modders working with such formats. It provides t
 - [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converter tool for 3DS Max 5 and 6 file formats (3DSTATE engine).
 - [Vampire the Masquerade Bloodlines Blender 2.42 plugin](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/vampire-the-masquerade-bloodlines-blender-242-plugin) - Blender 2.42 plugin for Vampire: The Masquerade - Bloodlines.
 - [NOD Noesis Plugin (Vampire: The Masquerade – Redemption)](https://www.moddb.com/games/vampire-the-masquerade-redemption/downloads/nod-noesis-plugin) - Noesis plugin for NOD model format used in Vampire: The Masquerade – Redemption.
+- [Dreamkiller Mapping Tools for 3ds Max](https://www.moddb.com/games/dreamkiller/downloads/dreamkiller-mapping-tools) - Mapping tools for Dreamkiller in 3DS Max.
 
 ### 📦 Archive & Asset Extraction
 
