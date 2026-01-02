@@ -792,6 +792,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Windows Texture Viewer v089b (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/windows-texture-viewer-v089b) - Texture viewer for Battlefield 2 (v0.89b).
 - [Texture Tool 0.2 (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/texture-tool-0-2) - Texture editing tool for Battlefield 2 (v0.2).
 - [Clan Tool (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/clan-tool) - Clan management tool for Battlefield 2.
+- [Dragon UnPACKer (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/dragon-unpacker) - Archive unpacker tool for Battlefield 2.
 
 #### Star Wars: Battlefront
 
@@ -1030,6 +1031,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Doom 3 - Quake 3 Map Converter](https://www.moddb.com/games/doom-iii/downloads/doom-3-quake-3-map-converter) - Tool for converting Quake 3 maps to Doom 3 format.
 - [Doom 3: ROE (XBOX) .gfc extract](https://www.moddb.com/games/doom-iii/downloads/doom-3-roe-xbox-gfc-extract) - Tool for extracting GFC archive files from Doom 3: Resurrection of Evil (Xbox).
 - [Doom maps Converter 1.4](https://www.moddb.com/games/doom-iii/downloads/doom-maps-converter-14) - Map converter for Doom 3 (v1.4).
+- [DOOM Audio Tools](https://www.moddb.com/games/doom-4/downloads/doom-audio-tools) - Audio tools for DOOM (2016).
 - [Export Font To Doom 3 v1.02](https://www.moddb.com/games/doom-iii/downloads/export-font-to-doom-3-v102) - Tool for exporting fonts to Doom 3 format (v1.02).
 - [.GOB & global.d3tfull unpacker (Doom III)](https://www.moddb.com/games/doom-iii/downloads/gob-globald3tfull-unpacker) - Tool for unpacking GOB and global.d3tfull archive files from Doom III.
 - [IdTech4 File Unpacker 1.5 (Doom III)](https://www.moddb.com/games/doom-iii/downloads/idtech4-file-unpacker-15) - File unpacker for id Tech 4 engine used in Doom III (v1.5).
