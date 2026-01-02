@@ -474,6 +474,7 @@ This list is for developers and modders working with such formats. It provides t
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - 3DS Max plugin for exporting SMD (Studiomodel) format files for Half-Life and other Source Engine games.
 - [Dvondrake's SMD exporter for Blender](https://www.moddb.com/groups/source-developers/downloads/dvondrake-smd-blender) - Blender SMD exporter for Source Engine models.
 - [Autodesk Softimage Mod Tool 7.5 (Source Developers)](https://www.moddb.com/groups/source-developers/downloads/autodesk-softimage-mod-tool-75) - Softimage mod tool for Source Engine development (v7.5).
+- [Blender3D SMD Exporter (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/blender3d-smd-exporter) - Blender3D SMD exporter for Half-Life 2.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool for converting Hammer units in Source Engine.
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Model viewer for GoldSrc engine (Half-Life) models (v0.3a Beta2).
 - [Half-Life Model Viewer 1.25](https://www.moddb.com/games/half-life/downloads/half-life-model-viewer-125) - Model viewer for Half-Life MDL format (v1.25).
