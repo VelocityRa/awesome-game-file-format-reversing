@@ -1323,6 +1323,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial extraction tools for F.E.A.R. 2.
+- [FEAR Online 3dsmax script (F.E.A.R. 2)](https://www.moddb.com/games/fear-2/downloads/fear-online-3dsmax-script) - 3DS Max script for F.E.A.R. 2.
 - [Video Tutorial: 3DSMax Plugin (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/video-tutorial-3dsmax-plugin) - Video tutorial for using 3DS Max plugin with F.E.A.R.
 - [FEAR Database Extractor](https://www.moddb.com/games/fear/downloads/fear-database-extractor) - Database extraction tool for F.E.A.R.
 - [FEAR Public Tools v2](https://www.moddb.com/games/fear/downloads/fear-public-tools-v2) - Public modding tools for F.E.A.R. (v2).
