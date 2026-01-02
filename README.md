@@ -484,6 +484,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Unreal to Deus Ex mesh converter](https://www.moddb.com/games/deus-ex/downloads/unreal-to-deus-ex-mesh-converter) - Tool for converting Unreal Engine mesh formats to Deus Ex format.
 - [DUT TOOL-2.0.2.0 (Unreal Tournament 3)](https://www.moddb.com/mods/defend-unreal-territories/downloads/dut-tool-2020) - Tool for Defend Unreal Territories mod for Unreal Tournament 3.
 - [UEd Style Tools for Maya (Unreal Tournament)](https://www.moddb.com/games/unreal-tournament/downloads/ued-style-tools-for-maya) - Maya tools for working with Unreal Tournament assets in UEd style.
+- [Unreal Unit Converter (Source Code)](https://www.moddb.com/downloads/unreal-unit-converter-source-code) - Unit converter for Unreal Engine (source code).
 
 ### CryEngine
 
@@ -746,6 +747,7 @@ This list is for developers and modders working with such formats. It provides t
 #### The Witcher
 
 - [Blender 2.49 exporter for The Witcher](https://www.moddb.com/games/the-witcher/downloads/blender-exporter-for-the-witcher) - Blender 2.49 exporter for The Witcher.
+- [twMax v1.2.3.2 -- mdb Importer for 3DSMax (The Witcher)](https://www.moddb.com/games/the-witcher/downloads/twmax-v1232-mdb-importer-for-3dsmax) - 3DS Max importer for The Witcher MDB model format (v1.2.3.2).
 
 #### Cyberpunk 2077 / REDEngine 4
 
@@ -1561,6 +1563,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Alien Isolation Animation Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-animation-exporter) - Tool for exporting animations from Alien: Isolation.
 - [Alien Isolation Model Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-model-exporter) - Tool for exporting models from Alien: Isolation.
+- [Alien Isolation Texture Exporter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/texture-extractor) - Texture extraction tool for Alien: Isolation.
+- [Alien Isolation Audio Converter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-audio-converter) - Audio conversion tool for Alien: Isolation.
+- [Alien Isolation BML Converter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-bml-converter) - BML format converter for Alien: Isolation.
+- [Alien Isolation UI Mod Tool](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-ui-mod-tool) - UI modification tool for Alien: Isolation.
 
 ##### Total War Series
 
