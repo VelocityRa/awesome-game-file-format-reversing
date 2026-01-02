@@ -464,6 +464,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Texture Tool v1.2.1 (Half-Life)](https://www.moddb.com/mods/half-life-episode-two/downloads/texture-tool) - Texture tool for Half-Life (v1.2.1).
 - [Jed's Half-Life Model Viewer 1.36 (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/jeds-half-life-model-viewer-1361) - Model viewer for Counter-Strike MDL format (v1.36).
 - [Xash studioMDL Goldsrc Large Model Compiler (Counter-Strike)](https://www.moddb.com/games/counter-strike/downloads/xash-studiomdl-goldsrc-large-model-compiler) - Large model compiler for GoldSrc engine used in Counter-Strike.
+- [Half-Life Studio Model Decompiler v1.2.1 (Win32, Linux, Mac)](https://www.moddb.com/games/half-life/downloads/half-life-studio-model-decompilerwin32-linux-mac) - Studio model decompiler for Half-Life supporting multiple platforms (v1.2.1).
 
 ### Unity
 
@@ -1171,6 +1172,8 @@ This list is for developers and modders working with such formats. It provides t
 #### Blood
 
 - [BLOOD ULTIMATE BUNDLE TOOLS KIT](https://www.moddb.com/mods/blood-modern-voxels-pak-for-mappers-and-moders/downloads/blood-ultimate-bundle-tools-kit) - Comprehensive tools kit for Blood game formats.
+- [BLOOD UNOFFICIAL TOOLS](https://www.moddb.com/games/blood/downloads/blood-unofficial-tools) - Unofficial tools collection for Blood.
+- [Spill Some: The Blood Tool](https://www.moddb.com/games/blood/downloads/spill-some-the-blood-tool) - Tool for working with Blood game files.
 
 #### No One Lives Forever
 
