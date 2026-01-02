@@ -338,6 +338,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - Blender script for importing and exporting MD3 model format used in Quake III Arena and other id Tech 3 games. Supports animation frame export and shader path configuration.
 - [Blender - MD3 Import and Export](https://www.moddb.com/groups/blender-artist/downloads/blender-md3-import-and-export-download) - Blender addon for importing and exporting MD3 model format.
 - [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converter tool for 3DS Max 5 and 6 file formats (3DSTATE engine).
+- [Vampire the Masquerade Bloodlines Blender 2.42 plugin](https://www.moddb.com/games/vampire-the-masquerade-bloodlines/downloads/vampire-the-masquerade-bloodlines-blender-242-plugin) - Blender 2.42 plugin for Vampire: The Masquerade - Bloodlines.
+- [NOD Noesis Plugin (Vampire: The Masquerade – Redemption)](https://www.moddb.com/games/vampire-the-masquerade-redemption/downloads/nod-noesis-plugin) - Noesis plugin for NOD model format used in Vampire: The Masquerade – Redemption.
 
 ### 📦 Archive & Asset Extraction
 
