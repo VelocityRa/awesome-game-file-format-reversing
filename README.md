@@ -688,6 +688,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BF42 3dsMax plugins 2.762](https://www.moddb.com/mods/battlefield-2-play-for-free-mod/downloads/bf42-3dsmax-plugins-2762) - 3DS Max plugins for Battlefield 2 (v2.762).
 - [BGF Heightmap Converter](https://www.moddb.com/games/battlefield-2/downloads/bgf-heightmap-converter-utility) - Heightmap converter utility for Battlefield 2 BGF format.
 - [DDS Viewer Plugin (Battlefield Vietnam)](https://www.moddb.com/games/battlefield-vietnam/downloads/dds-viewer-plugin) - DDS texture viewer plugin for Battlefield Vietnam.
+- [NVIDIA DDS Utilities (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/nvidia-dds-utilities) - NVIDIA DDS texture utilities for Battlefield 2.
 
 #### Star Wars: Battlefront
 
@@ -1134,10 +1135,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin) - 3DS Max 7 plugin for importing F.E.A.R. model formats.
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial extraction tools for F.E.A.R. 2.
+- [Video Tutorial: 3DSMax Plugin (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/video-tutorial-3dsmax-plugin) - Video tutorial for using 3DS Max plugin with F.E.A.R.
 
 #### Trespasser
 
 - [Blender 2.6 Trespasser Exporter](https://www.moddb.com/games/trespasser/downloads/blender-26-trespasser-exporter-10) - Blender 2.6 exporter for Trespasser (v1.0).
+- [Blender3D Trespasser Exporter 1.0](https://www.moddb.com/games/trespasser/downloads/blender3d-trespasser-exporter-10) - Blender3D exporter for Trespasser models (v1.0).
 
 #### Blood
 
