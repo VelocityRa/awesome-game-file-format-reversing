@@ -371,6 +371,14 @@ This list is for developers and modders working with such formats. It provides t
 - [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
 - [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
 - [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
+- [mcaselector](https://github.com/Querz/mcaselector) - Tool to select chunks from Minecraft worlds for deletion or export.
+- [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced memory card manager for PlayStation 1 and 2 save files with support for multiple formats.
+- [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
+- [CriPakTools](https://github.com/esperknight/CriPakTools) - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
+- [VisualGGPK2](https://github.com/aianlinb/VisualGGPK2) - Visual GGPK2 editor for Path of Exile content.ggpk files.
+- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
+- [UXM](https://github.com/JKAnderson/UXM) - Unpacker for Dark Souls III and Sekiro archives.
+- [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
 
 ### 🔊 Audio Tools
 
