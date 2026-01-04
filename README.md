@@ -601,6 +601,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [HedgeLib](https://github.com/Radfordhound/HedgeLib) - C++ library and collection of tools for modding Hedgehog Engine games (Sonic series).
 - [Hedgehog Engine Blender I/O](https://github.com/hedge-dev/HedgehogEngineBlenderIO) - WIP Blender add-on for Hedgehog Engine assets including import/export and animation editing.
+- [RflTemplates](https://github.com/blueskythlikesclouds/RflTemplates) - 010 Editor binary templates for Hedgehog Engine 2 RFL files.
+- [surfboard-templates](https://github.com/DeaTh-G/surfboard-templates) - Templates for various versions of the SWIF file format used primarily in Hedgehog Engine games.
+- [HedgehogEngineReversing](https://github.com/WistfulHopes/HedgehogEngineReversing) - BinSync project for Hedgehog Engine reversing.
+- [Shadow-the-Hedgehog-.BON-MTN-import-export-tool](https://github.com/Shadowth117/Shadow-the-Hedgehog-.BON-MTN-import-export-tool) - Script for applying external properties from Shadow the Hedgehog .BON files to their respective bones in .DFF model files after importing with AAP's RWIO plugin for 3ds Max.
+- [SonicHeroesUTXEditor](https://github.com/Heroes-Hacking-Central/SonicHeroesUTXEditor) - UTX editor for Sonic Heroes.
 
 ### Northlight Engine
 
