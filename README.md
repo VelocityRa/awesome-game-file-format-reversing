@@ -647,6 +647,12 @@ This list is for developers and modders working with such formats. It provides t
 - [Havok IO (Blender)](https://github.com/NewSkyLine-dev/havokmax-blender) - Blender add-on that imports `.hkx`, `.hkt`, `.hka`, `.igz`, and `.pak` files from Havok XML and binary archives. Replaces the legacy HavokMax 3ds Max plugin.
   - Capabilities: builds armatures and keyframed actions from animation data, constructs static meshes from geometry blocks, and unwraps PAK/IGZ containers.
 - [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for importing/exporting Havok physics engine formats.
+- [MapEditor](https://github.com/BF3RM/MapEditor) - Realtime map editor mod for Venice Unleashed (Battlefield 3).
+- [HavokPreviewToolsBatch2018](https://github.com/asasasasasbc/HavokPreviewToolsBatch2018) - Batch conversion script for Havok Preview Tool 2018 that can automatically convert Havok HKX/HKT files' format.
+- [hkxlib](https://github.com/aerisarn/hkxlib) - JAXB parser for editing TAGXML formatted Havok files.
+- [hkxEdit](https://github.com/aerisarn/hkxEdit) - Visual editor for Havok 2010.2 files based on hkxlib, written in Java.
+- [FF16-Model-Importer](https://github.com/Nenkai/FF16-Model-Importer) - Tool to export and import Final Fantasy XVI .mdl file binaries as .gltf or .dae.
+- [SSE-Fallout-4-Animation-Converter](https://github.com/Backporter/SSE-Fallout-4-Animation-Converter) - Tool to convert animations to PS4 format for Skyrim Special Edition and Fallout 4.
 
 ### JSYSTEM (GameCube/Wii)
 
@@ -700,7 +706,14 @@ This list is for developers and modders working with such formats. It provides t
 
 *Cross-platform 3D engine and middleware developed by Criterion Games. Powering the Grand Theft Auto trilogy (III, Vice City, San San Andreas), Burnout series, and many other titles.*
 
+- [librw](https://github.com/aap/librw) - Re-implementation of the RenderWare Graphics engine.
 - [DragonFF](https://github.com/Parik27/DragonFF) - Blender add-on for RenderWare `.dff` models, `.txd` textures, `.col` collisions, and `.ipl` map data.
+- [Blender-3D-RW-Anm-plugin](https://github.com/Psycrow101/Blender-3D-RW-Anm-plugin) - Import and export RenderWare animations (.anm) into Blender 3D.
+- [rwio](https://github.com/aap/rwio) - RenderWare import/export plugin for 3ds Max.
+- [rwd3d9](https://github.com/aap/rwd3d9) - D3D9 extension of RenderWare for GTA III and Vice City.
+- [RenderWareFile](https://github.com/igorseabra4/RenderWareFile) - Library for working with RenderWare binary files.
+- [RenderWareNET](https://github.com/Venomalia/RenderWareNET) - Library to work with RenderWare 3 formats.
+- [RWIDE2YTYP](https://github.com/Hancapo/RWIDE2YTYP) - RenderWare .IDE to Five .YTYP and NY .IDE converter.
 
 ### Sappy (GBA Audio)
 
