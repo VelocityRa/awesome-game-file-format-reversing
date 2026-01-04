@@ -238,6 +238,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Sonic Adventure](#sonic-adventure)
       - [Sonic Heroes / Shadow](#sonic-heroes--shadow)
       - [Other Sonic Games](#other-sonic-games)
+      - [Other Sonic Games](#other-sonic-games-1)
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
       - [Hitman](#hitman)
