@@ -694,6 +694,9 @@ This list is for developers and modders working with such formats. It provides t
 - [pyjkernel](https://github.com/SunakazeKun/pyjkernel) - Python library for JKernel formats.
 - [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) - Wii filesystem explorer.
 - [ARCTool](https://github.com/tpwrules/ARCTool) - Tool for ARC/RARC archives.
+- [atirut.bdl](https://github.com/atirut-w/atirut.bdl) - JSYSTEM BMD/BDL model importer for Godot Engine.
+- [wsystool](https://github.com/XAYRGA/wsystool) - WAVESYSTEM modification toolkit for JSYSTEM games.
+- [jampacked](https://github.com/XAYRGA/jampacked) - BAA unpacker for JSYSTEM games.
 
 ### MikuMikuDance
 
