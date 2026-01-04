@@ -481,6 +481,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) - Tool for modding/decompiling GameMaker games.
 - [GMS-Explorer](https://github.com/puggsoy/GMS-Explorer) - Game Maker Studio `data.win` explorer.
+- [GMSD](https://github.com/lynn/GMSD) - GameMaker Studio decompiler in F#.
+- [UndertaleTools](https://github.com/fjay69/UndertaleTools) - GameMaker data.win unpacker/packer.
+- [pugIFF](https://github.com/nkrapivin/pugIFF) - GameMaker IFF gamefile reader in GML.
+- [YYTextureView](https://github.com/YAL-GameMaker-Tools/YYTextureView) - Tool for exploring textures in GameMaker games.
+- [libaltar](https://github.com/Prashant-Jonny/libaltar) - Library for processing GameMaker: Studio binary file formats (decompiler).
+- [gamemaker2-data-research](https://github.com/jam1garner/gamemaker2-data-research) - Tools/Documentation for GameMaker 2 data files.
 
 ### Source (Valve)
 
