@@ -381,6 +381,15 @@ This list is for developers and modders working with such formats. It provides t
 - [Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) - Windows tool for extracting audio from Wwise PCK and BNK containers to OGG or MP3 format. Works with any game using Wwise audio middleware.
 - [Wwise-BNKExtract](https://github.com/rickvg/Wwise-BNKExtract) - Extraction utility for Wwise soundbank files (BNK format, file version 113 and earlier). Extracts WEM audio files for conversion to OGG Vorbis format.
 - [ww2ogg](https://github.com/hcs64/ww2ogg) - Converts Wwise RIFF/RIFX Vorbis audio (.wem files) to standard Ogg Vorbis format. Command-line tool with packed codebook support for various encoding variants. Note: vgmstream is recommended for playback, but ww2ogg is useful when Ogg Vorbis output is specifically required.
+- [BassoonTracker](https://github.com/steffest/BassoonTracker) - Web-based old-school Amiga music tracker in plain JavaScript. Plays and edits Amiga Mod files and FastTracker XM files.
+- [DSP2BRSTM](https://github.com/onepiecefreak3/DSP2BRSTM) - Converter and multichannel creator for DSP to BRSTM. Merges multiple DSP files into one multichannel BRSTM. Also supports DSP to WAV conversion.
+- [fsb5_split](https://github.com/CyberBotX/fsb5_split) - Tool to split a multi-stream FSB5 into multiple single-stream FSB5s.
+- [MCAConverter](https://github.com/onepiecefreak3/MCAConverter) - Converter for Capcom's MCA format. Converts MCA to WAVs and vice versa.
+- [HIRCDump](https://github.com/neptuwunium/HIRCDump) - Dump soundbank samples via event IDs.
+- [vgmstream-funkify](https://github.com/gheskett/vgmstream-funkify) - vgmstream library for playback of various streamed audio formats used in video games.
+- [ray2get](https://github.com/Synthesis/ray2get) - Convert the .apm music files from Rayman 2 (PC) to .wav.
+- [libnus3audio](https://github.com/jam1garner/libnus3audio) - Rust library for working with nus3audio files.
+- [ntrWavTool](https://github.com/turtleisaac/ntrWavTool) - Converts WAV to IMA ADPCM SWAV for use in DS games.
 
 ### 🌐 Translation & Localization
 
@@ -405,6 +414,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SFGraphics](https://github.com/ScanMountGoat/SFGraphics) - OpenGL graphics library for rendering game formats, used in various format viewers.
 - [ooz](https://github.com/powzix/ooz) - Open-source decompressor for Oodle compression formats (Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit) used in many modern games including Warframe and other titles using RAD Game Tools compression.
 - [Syroot.BinaryData](https://gitlab.com/Syroot/BinaryData) - .NET library for easy binary data reading/writing with support for various endianness and encodings.
+- [SharpRiff](https://github.com/gigaherz/SharpRiff) - .NET library for reading and writing RIFF format files, such as .wav, .avi, or WebP.
 - [XeNTaXTools-Legacy](https://github.com/XeNTaXTools/XeNTaXTools-Legacy) - Legacy tools scraped from the XeNTaX forums.
 
 ### Decompilation Tools
@@ -1093,6 +1103,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [BrawlLib](https://github.com/libertyernie/brawltools) - Library for reading/writing file formats from Super Smash Bros. Brawl and other Wii games.
 - [Smash-Forge](https://github.com/jam1garner/Smash-Forge) - Editor for Super Smash Bros 4 file formats.
+- [smash-fnv](https://github.com/jam1garner/smash-fnv) - Rust library for reading and writing sound_volume_fighter_num_table.fnv files from Super Smash Bros. for Nintendo 3DS and Wii U and Super Smash Bros. Ultimate.
+- [smash-sli](https://github.com/jam1garner/smash-sli) - Rust library for reading and writing soundlabelinfo.sli files from Super Smash Bros. Ultimate.
+- [smash-csb](https://github.com/jam1garner/smash-csb) - Rust library for reading and writing commonsoundtable.csb files from Super Smash Bros. Ultimate.
+- [BrawlStageManager](https://github.com/libertyernie/BrawlStageManager) - Stage (.pac/.rel) and song (.brstm) managers for Brawl mods.
+- [BrawlStageManager](https://github.com/libertyernie/BrawlStageManager) - Stage (.pac/.rel) and song (.brstm) managers for Brawl mods.
+- [smash-fnv](https://github.com/jam1garner/smash-fnv) - Rust library for reading and writing sound_volume_fighter_num_table.fnv files from Super Smash Bros. for Nintendo 3DS and Wii U and Super Smash Bros. Ultimate.
+- [smash-sli](https://github.com/jam1garner/smash-sli) - Rust library for reading and writing soundlabelinfo.sli files from Super Smash Bros. Ultimate.
+- [smash-csb](https://github.com/jam1garner/smash-csb) - Rust library for reading and writing commonsoundtable.csb files from Super Smash Bros. Ultimate.
 - [HSDLib](https://github.com/Ploaj/HSDLib) - Library for HAL's HSD format (used in Super Smash Bros Melee).
 - [MeleeMedia](https://github.com/Ploaj/MeleeMedia) - Media extractor for Super Smash Bros Melee.
 - [noclip.website (Melee)](https://github.com/magcius/noclip.website/tree/main/src/SuperSmashBrosMelee) - In-browser Melee stage viewer.
@@ -1681,6 +1699,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Polyphony Digital
 
 - [PDTools](https://github.com/Nenkai/PDTools) - Utilities for extracting and modifying Gran Turismo game files.
+- [GT4SaveEditor](https://github.com/Nenkai/GT4SaveEditor) - Save editor for Gran Turismo 4.
 
 ### RAD Game Tools
 
