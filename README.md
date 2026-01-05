@@ -372,7 +372,6 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing BSP (Binary Space Partition) map files.
 - [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for John Wick Hex game file formats.
 - [Amicitia](https://github.com/tge-was-taken/Amicitia) - Tool for working with Persona 3/4/5 file formats.
-- [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for John Wick Hex game file formats.
 
 ### 📦 Archive & Asset Extraction
 
