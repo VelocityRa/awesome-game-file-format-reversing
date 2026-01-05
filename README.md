@@ -503,6 +503,25 @@ This list is for developers and modders working with such formats. It provides t
 - [JSRGraffitiTool](https://github.com/chrisderwahre/JSRGraffitiTool) - Tool for Jet Set Radio graffiti files.
 - [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for game file formats.
 - [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File loader for XCNX format files.
+- [mafia-formats](https://github.com/RoadTrain/mafia-formats) - Documentation and tools for Mafia game file formats.
+- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
+- [GUTArchiveTools](https://github.com/igorciz777/GUTArchiveTools) - Archive tools for GUT (Game Update Tool) format.
+- [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
+- [Gibbed.Fallout4](https://github.com/gibbed/Gibbed.Fallout4) - Tools for Fallout 4 file formats.
+- [ShibaInu](https://github.com/Scobalula/ShibaInu) - Tool for Call of Duty file formats.
+- [smash-arc](https://github.com/jam1garner/smash-arc) - Tool for Super Smash Bros. ARC archive files.
+- [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Editor for game map data files.
+- [libansnd](https://github.com/Oaisus/libansnd) - Library for ANSND audio format files.
+- [AudiobankToC](https://github.com/sauraen/AudiobankToC) - Converter for audio bank files to C code.
+- [gc-gcm](https://github.com/jam1garner/gc-gcm) - Tool for GameCube GCM file format.
+- [shinen-gax-python](https://github.com/beanieaxolotl/shinen-gax-python) - Python tools for Shinen GAX format.
+- [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
+- [Zamboni](https://github.com/Shadowth117/Zamboni) - Archive extraction tool.
+- [NLG-File-Editor-Tool](https://github.com/KillzXGaming/NLG-File-Editor-Tool) - File editor tool for NLG format.
+- [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
+- [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
+- [ReBandicoot](https://github.com/kohtep/ReBandicoot) - Reverse engineering tools for Crash Bandicoot.
+- [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 
 ### 🔊 Audio Tools
 
