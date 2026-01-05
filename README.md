@@ -604,6 +604,16 @@ This list is for developers and modders working with such formats. It provides t
 - [io_scene_ase](https://github.com/DarklightGames/io_scene_ase) - Blender exporter for the legacy ASE (ASCII Scene Export) format used by Unreal Engine 1 & 2 games (e.g., Unreal Tournament 2004).
 - [UEViewer (UModel)](https://github.com/gildor2/UEViewer) - Viewer and exporter for Unreal Engine 1-4 assets.
   - [Compatibility Table](https://www.gildor.org/projects/umodel/compat) - Official compatibility list.
+- [UE4Dumper](https://github.com/kp7742/UE4Dumper) - Tool for dumping Unreal Engine 4 assets and structures.
+- [UAssetGUI](https://github.com/atenfyr/UAssetGUI) - GUI tool for viewing and editing Unreal Engine UAsset files.
+- [blender3d_import_psk_psa](https://github.com/Befzz/blender3d_import_psk_psa) - Blender addon for importing PSK (skeletal mesh) and PSA (animation) formats from Unreal Engine.
+- [repak](https://github.com/trumank/repak) - Rust library and CLI tool for packing and unpacking Unreal Engine PAK archives.
+- [Unreal-Library](https://github.com/EliotVU/Unreal-Library) - Library for reading and writing Unreal Engine file formats.
+- [UE4-AES-Key-Extracting-Guide](https://github.com/Cracko298/UE4-AES-Key-Extracting-Guide) - Guide for extracting AES encryption keys from Unreal Engine 4 games.
+- [uesave-rs](https://github.com/trumank/uesave-rs) - Rust library for reading and writing Unreal Engine save files.
+- [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - .NET library for parsing Unreal Engine UAsset files.
+- [UEFormat](https://github.com/h4lfheart/UEFormat) - Library for working with Unreal Engine file formats.
+- [UEAssetToolkit](https://github.com/Archengius/UEAssetToolkit) - Toolkit for extracting and modifying Unreal Engine assets.
 - [FModel](https://fmodel.app/) - Open-source software for data-mining UE4-5 games.
 - [CUE4Parse](https://github.com/FabianFG/CUE4Parse) - C# Parser for UE archives.
 - [UnrealExporter](https://github.com/luk-gg/UnrealExporter) - Batch file exporter.
