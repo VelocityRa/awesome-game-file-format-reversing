@@ -395,6 +395,16 @@ This list is for developers and modders working with such formats. It provides t
 - [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
 - [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
 - [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
+- [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
+- [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
+- [KH2Suite](https://github.com/Truthkey/KH2Suite) - Suite of programs for Kingdom Hearts 2 or 2 Final Mix modding.
+- [KHBBS_EXA_Editor](https://github.com/Truthkey/KHBBS_EXA_Editor) - Editor for EXA events in Kingdom Hearts: Birth by Sleep.
+- [steam2-extract](https://github.com/NicknineTheEagle/steam2-extract) - Very fast Steam 2 archive extractor.
+- [scummtools](https://github.com/UnBeatWaterGH/scummtools) - Tools for SCUMM (Script Creation Utility For Maniac Mansion).
+- [G7Reader](https://github.com/Surasia/G7Reader) - Utility to read Rawthrills G7 Engine archive files.
+- [resPack](https://github.com/XAYRGA/resPack) - Extractor for XBOX A Series of Unfortunate Events.
+- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
+- [bm642romtool](https://github.com/gamemasterplc/bm642romtool) - Bomberman 64 The Second Attack ROM compression tool.
 
 ### 🔊 Audio Tools
 
