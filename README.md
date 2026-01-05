@@ -53,6 +53,9 @@ This list is for developers and modders working with such formats. It provides t
     - [Northlight Engine](#northlight-engine)
     - [Build Engine](#build-engine)
     - [3DSTATE](#3dstate)
+    - [Genie Engine](#genie-engine)
+    - [RPG Maker](#rpg-maker)
+    - [Rawthrills G7 Engine](#rawthrills-g7-engine)
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
       - [Soldier of Fortune](#soldier-of-fortune)
@@ -62,6 +65,7 @@ This list is for developers and modders working with such formats. It provides t
     - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
     - [MikuMikuDance](#mikumikudance)
     - [RenderWare](#renderware)
+    - [CRI](#cri)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [Formats by Studio / Game](#formats-by-studio--game)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
@@ -83,9 +87,11 @@ This list is for developers and modders working with such formats. It provides t
       - [Battlefield Series](#battlefield-series)
       - [Star Wars: Battlefront](#star-wars-battlefront)
     - [Capcom](#capcom)
+      - [RE Engine](#re-engine)
       - [Resident Evil](#resident-evil)
       - [Monster Hunter](#monster-hunter)
       - [Devil May Cry](#devil-may-cry)
+      - [Mega Man](#mega-man)
       - [Gregory Horror Show](#gregory-horror-show)
     - [CCR](#ccr)
     - [CCP Games](#ccp-games)
@@ -162,6 +168,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Gauntlet](#gauntlet)
       - [NFL Blitz](#nfl-blitz)
     - [Monolith Productions](#monolith-productions)
+      - [Xenoblade Chronicles](#xenoblade-chronicles)
       - [F.E.A.R.](#fear)
       - [Trespasser](#trespasser)
       - [Blood](#blood)
@@ -187,6 +194,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Zelda](#zelda)
       - [Wii Sports](#wii-sports)
       - [Star Fox Adventures](#star-fox-adventures)
+      - [Star Fox 64](#star-fox-64)
+      - [Star Fox 64 3D](#star-fox-64-3d)
       - [Super Monkey Ball](#super-monkey-ball)
       - [New Super Mario Bros DS](#new-super-mario-bros-ds)
       - [Metroid Prime](#metroid-prime)
@@ -199,6 +208,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Obsidian Entertainment](#obsidian-entertainment)
       - [Neverwinter Nights 2](#neverwinter-nights-2)
     - [Panic](#panic)
+    - [Paradox Interactive](#paradox-interactive)
     - [Petroglyph Games](#petroglyph-games)
     - [PlatinumGames](#platinumgames)
       - [Bayonetta](#bayonetta)
@@ -212,6 +222,7 @@ This list is for developers and modders working with such formats. It provides t
     - [People Can Fly](#people-can-fly)
       - [Painkiller](#painkiller)
       - [Dreamkiller](#dreamkiller)
+    - [Piranha Bytes](#piranha-bytes)
     - [Polyphony Digital](#polyphony-digital)
     - [RAD Game Tools](#rad-game-tools)
     - [Rebel Act](#rebel-act)
@@ -241,6 +252,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Other Sonic Games](#other-sonic-games-1)
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
+      - [Final Fantasy](#final-fantasy)
+      - [Babylon's Fall](#babylons-fall)
       - [Hitman](#hitman)
     - [Sucker Punch](#sucker-punch)
       - [Sly Cooper](#sly-cooper)
@@ -339,7 +352,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ## 🛠️ General Tools
 
-*Multi-format tools that support a wide variety of games.*
+*Multi-format tools that support a wide variety of unrelated games.*
 
 ### 🎨 Model, Texture & Animation
 
@@ -362,115 +375,49 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
-- [wow.export](https://github.com/Kruithne/wow.export) - World of Warcraft model and texture exporter.
 - [mviewer](https://github.com/majimboo/mviewer) - Reverse engineering tool for viewing and analyzing 3D models.
-- [MikuMikuLibrary](https://github.com/blueskythlikesclouds/MikuMikuLibrary) - Library for working with MikuMikuDance formats.
 - [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain) - Toolchain for PlayStation 1 modding including model and texture tools.
 - [detex](https://github.com/hglm/detex) - Low-level library for texture extraction and conversion.
-- [wadext](https://github.com/ZDoom/wadext) - Simple tool for extracting WAD archive contents.
-- [io_pdx_mesh](https://github.com/ross-g/io_pdx_mesh) - Blender addon for importing Paradox Interactive mesh formats.
-- [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing BSP (Binary Space Partition) map files.
-- [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for John Wick Hex game file formats.
-- [Amicitia](https://github.com/tge-was-taken/Amicitia) - Tool for working with Persona 3/4/5 file formats.
 
 ### 📦 Archive & Asset Extraction
 
+- [wadext](https://github.com/ZDoom/wadext) - Simple tool for extracting WAD archive contents.
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
-- [AssetRipper](https://github.com/AssetRipper) - Tool for extracting assets from Unity and other engines.
-- [Switch Toolbox](https://github.com/KillzXGaming/Switch-Toolbox) - Multi-format editor for Nintendo Switch, Wii U, and 3DS games. Supports Mario Kart 8 Deluxe, Sonic Forces, Team Sonic Racing, Zelda (OoT 3D, MM 3D, Twilight Princess HD, Hyrule Warriors), Luigi's Mansion (3DS, Dark Moon), Crash Bandicoot N. Sane Trilogy, Crash Team Racing, and many more.
-- [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
-- [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
-- [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
-- [mcaselector](https://github.com/Querz/mcaselector) - Tool to select chunks from Minecraft worlds for deletion or export.
 - [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced memory card manager for PlayStation 1 and 2 save files with support for multiple formats.
 - [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
-- [CriPakTools](https://github.com/esperknight/CriPakTools) - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
-- [VisualGGPK2](https://github.com/aianlinb/VisualGGPK2) - Visual GGPK2 editor for Path of Exile content.ggpk files.
 - [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
-- [UXM](https://github.com/JKAnderson/UXM) - Unpacker for Dark Souls III and Sekiro archives.
 - [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
-- [REE.PAK.Tool](https://github.com/Ekey/REE.PAK.Tool) - Tools for extracting and repacking PAK archives from games based on RE ENGINE.
-- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
-- [Chisels-and-Bits](https://github.com/ChiselsAndBits/Chisels-and-Bits) - Minecraft mod for detailed block manipulation and extraction.
-- [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
-- [Legacy-Minecraft](https://github.com/Wilyicaro/Legacy-Minecraft) - Tools for working with legacy Minecraft file formats.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
-- [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
-- [slippi-ssbm-asm](https://github.com/project-slippi/slippi-ssbm-asm) - Assembly tools for Super Smash Bros. Melee Slippi format.
-- [DoS-2-Savegame-Editor](https://github.com/NovFR/DoS-2-Savegame-Editor) - Save game editor for Divinity: Original Sin 2.
 - [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
-- [valve-bsp-parser](https://github.com/ReactiioN1337/valve-bsp-parser) - Parser for Valve BSP (Binary Space Partition) map files.
-- [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
-- [ParManager](https://github.com/Kaplas80/ParManager) - Tools for Yakuza series PAR archive files.
 - [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
 - [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
-- [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
 - [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
 - [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
-- [KH2Suite](https://github.com/Truthkey/KH2Suite) - Suite of programs for Kingdom Hearts 2 or 2 Final Mix modding.
-- [KHBBS_EXA_Editor](https://github.com/Truthkey/KHBBS_EXA_Editor) - Editor for EXA events in Kingdom Hearts: Birth by Sleep.
 - [steam2-extract](https://github.com/NicknineTheEagle/steam2-extract) - Very fast Steam 2 archive extractor.
-- [scummtools](https://github.com/UnBeatWaterGH/scummtools) - Tools for SCUMM (Script Creation Utility For Maniac Mansion).
-- [G7Reader](https://github.com/Surasia/G7Reader) - Utility to read Rawthrills G7 Engine archive files.
 - [resPack](https://github.com/XAYRGA/resPack) - Extractor for XBOX A Series of Unfortunate Events.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
-- [bm642romtool](https://github.com/gamemasterplc/bm642romtool) - Bomberman 64 The Second Attack ROM compression tool.
 - [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
 - [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
-- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
-- [Chisels-and-Bits](https://github.com/ChiselsAndBits/Chisels-and-Bits) - Minecraft mod for detailed block manipulation and extraction.
-- [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
-- [Legacy-Minecraft](https://github.com/Wilyicaro/Legacy-Minecraft) - Tools for working with legacy Minecraft file formats.
-- [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
-- [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
 - [gotcha-afs-tool](https://github.com/RenolY2/gotcha-afs-tool) - Unpacker and repacker for Gotcha Force's AFS format (tested on GameCube version).
-- [DoomRPG-RE-3DS](https://github.com/efimandreev0/DoomRPG-RE-3DS) - Nintendo 3DS port of the reverse engineered Doom RPG.
-- [Sm4shExplorer](https://github.com/jam1garner/Sm4shExplorer) - Tool for managing the file-system of Super Smash Bros. for Wii U.
-- [BabylonsFallTools](https://github.com/Nenkai/BabylonsFallTools) - Extraction tools for BABYLON'S FALL PKZL/.pkz & DAT files.
-- [SF643D_Tools](https://github.com/thtrandomlurker/SF643D_Tools) - Collection of tools for viewing and modifying data from SF643D.
-- [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
 - [cgrr-megapede](https://github.com/sopoforic/cgrr-megapede) - Tools for reading score files and resources for Megapede game.
 - [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats (FBX, STL, PLY).
-- [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
-- [MBTL.BIN.Tool](https://github.com/Ekey/MBTL.BIN.Tool) - Tool for extracting BIN archives from MELTY BLOOD: TYPE LUMINA.
-- [GTAllPaintEditor](https://github.com/Nenkai/GTAllPaintEditor) - Tool to edit Gran Turismo 6's allpaint.bin file for assigning custom paints to cars through GT Auto.
 - [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
 - [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
 - [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
 - [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
-- [DarkSoulsIII.FileFormats](https://github.com/Atvaark/DarkSoulsIII.FileFormats) - Library for reading Dark Souls III file formats.
-- [Tyrant](https://github.com/Scobalula/Tyrant) - Tyrant tool for Call of Duty file formats.
-- [XenoLib](https://github.com/PredatorCZ/XenoLib) - Xenoblade Chronicles file format library.
-- [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
-- [PSO2-Aqua-Library](https://github.com/Shadowth117/PSO2-Aqua-Library) - Library for Phantasy Star Online 2 file formats.
 - [IndexV2](https://github.com/Wildenhaus/IndexV2) - Tool for working with game index files.
-- [rtcw-wet-blender-model-tools](https://github.com/mino-git/rtcw-wet-blender-model-tools) - Blender model tools for Return to Castle Wolfenstein: Enemy Territory.
-- [SCEditor](https://github.com/ToxicLand/SCEditor) - Editor for Supercell game formats.
 - [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) - .NET wrapper for Assimp library for importing 3D models.
 - [nifxml](https://github.com/niftools/nifxml) - XML schemas for NetImmerse/Gamebryo NIF model format.
 - [MagicaVoxel-Importer](https://github.com/scayze/MagicaVoxel-Importer) - Blender addon for importing MagicaVoxel .vox files.
 - [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Godot plugin for importing GoldSrc MDL models.
-- [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - Python library for parsing Unreal Engine 4 file formats.
 - [Material-Editor](https://github.com/ousnius/Material-Editor) - Editor for game material files.
-- [yk_gmd_io](https://github.com/theturboturnip/yk_gmd_io) - Blender addon for importing/exporting Yakuza GMD model format.
-- [puyotools](https://github.com/nickworonekin/puyotools) - Tools for Puyo Puyo game file formats.
-- [Warframe-Exporter](https://github.com/Puxtril/Warframe-Exporter) - Exporter for Warframe game assets.
-- [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
-- [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
-- [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
-- [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
-- [ds3-open-re](https://github.com/garyttierney/ds3-open-re) - Open reverse engineering resources for Dark Souls 3.
-- [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for Gothic game engine formats.
 - [XbTool](https://github.com/Thealexbarney/XbTool) - Tool for working with Xbox file formats.
 - [AudioMog](https://github.com/Yoraiz0r/AudioMog) - Audio extraction tool for various game formats.
 - [isodump](https://github.com/Lameguy64/isodump) - ISO image dumper and extractor.
 - [ArcExplorer](https://github.com/ScanMountGoat/ArcExplorer) - Archive explorer for various game formats.
-- [rgssad](https://github.com/luxrck/rgssad) - Tool for extracting RGSSAD archives from RPG Maker games.
-- [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
 - [X-coder](https://github.com/lilmuff2/X-coder) - File format encoder/decoder tool.
 - [Fmod-Bank-Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools) - Tools for working with FMOD bank files.
-- [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
 - [BnkExtractor](https://github.com/AssetRipper/BnkExtractor) - Extractor for Wwise BNK soundbank files.
 - [Guidebook](https://github.com/gigaherz/Guidebook) - Tool for extracting and viewing game guidebook files.
 - [nod](https://github.com/encounter/nod) - Node-based file format library.
@@ -482,34 +429,21 @@ This list is for developers and modders working with such formats. It provides t
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
 - [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool) - File archive tool for Hunex games.
 - [lui-tool](https://github.com/xensik/lui-tool) - Tool for working with LUI (Localized User Interface) files.
-- [PSO2-Salon-Tool](https://github.com/Shadowth117/PSO2-Salon-Tool) - Tool for Phantasy Star Online 2 salon files.
-- [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
-- [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Tool for working with Call of Duty IWD archive files.
 - [unneko](https://github.com/lico-n/unneko) - Archive extraction tool for various formats.
-- [SCP-Unpacker](https://github.com/baraklevy20/SCP-Unpacker) - Unpacker for Supercell game archives.
-- [geniedoc](https://github.com/aap/geniedoc) - Documentation and tools for Genie Engine formats.
-- [P5X_vFileContentExtract](https://github.com/DeathChaos25/P5X_vFileContentExtract) - Content extractor for Persona 5 X vFile archives.
 - [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Multi-purpose tool for various game file formats.
 - [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for working with BDAT (Binary Data) files.
 - [Gibbed.Rebirth](https://github.com/gibbed/Gibbed.Rebirth) - Tools for The Binding of Isaac: Rebirth file formats.
-- [Inazuma-Eleven-Toolbox](https://github.com/SwareJonge/Inazuma-Eleven-Toolbox) - Toolbox for Inazuma Eleven game files.
 - [XtractQuery](https://github.com/onepiecefreak3/XtractQuery) - Query tool for extracting game file formats.
 - [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) - Java tool for assessing PlayStation 4 package files.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Archive extraction tool.
-- [Gibbed.Borderlands3.Datamining](https://github.com/gibbed/Gibbed.Borderlands3.Datamining) - Datamining tools for Borderlands 3.
-- [StarForge](https://github.com/Astral-C/StarForge) - Tool for Star Wars: Knights of the Old Republic file formats.
 - [RRUnpacker](https://github.com/Nenkai/RRUnpacker) - Unpacker for RR archive format.
 - [XbxDeTool](https://github.com/Nenkai/XbxDeTool) - Xbox file format tool.
-- [JSRGraffitiTool](https://github.com/chrisderwahre/JSRGraffitiTool) - Tool for Jet Set Radio graffiti files.
 - [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for game file formats.
 - [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File loader for XCNX format files.
 - [mafia-formats](https://github.com/RoadTrain/mafia-formats) - Documentation and tools for Mafia game file formats.
 - [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
 - [GUTArchiveTools](https://github.com/igorciz777/GUTArchiveTools) - Archive tools for GUT (Game Update Tool) format.
 - [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
-- [Gibbed.Fallout4](https://github.com/gibbed/Gibbed.Fallout4) - Tools for Fallout 4 file formats.
-- [ShibaInu](https://github.com/Scobalula/ShibaInu) - Tool for Call of Duty file formats.
-- [smash-arc](https://github.com/jam1garner/smash-arc) - Tool for Super Smash Bros. ARC archive files.
 - [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Editor for game map data files.
 - [libansnd](https://github.com/Oaisus/libansnd) - Library for ANSND audio format files.
 - [AudiobankToC](https://github.com/sauraen/AudiobankToC) - Converter for audio bank files to C code.
@@ -518,27 +452,16 @@ This list is for developers and modders working with such formats. It provides t
 - [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
 - [Zamboni](https://github.com/Shadowth117/Zamboni) - Archive extraction tool.
 - [NLG-File-Editor-Tool](https://github.com/KillzXGaming/NLG-File-Editor-Tool) - File editor tool for NLG format.
-- [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
-- [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
-- [ReBandicoot](https://github.com/kohtep/ReBandicoot) - Reverse engineering tools for Crash Bandicoot.
 - [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
-- [DOOMP](https://github.com/Ret-HZ/DOOMP) - Doom file format parser and extractor.
 - [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [RDLMINT](https://github.com/firubii/RDLMINT) - Tool for RDLMINT format files.
-- [KirbyAirRideTools](https://github.com/LuigiBlood/KirbyAirRideTools) - Tools for Kirby Air Ride file formats.
-- [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Tool for Rayman 2 file formats.
-- [SaveStadium](https://github.com/Ploaj/SaveStadium) - Save file editor for Pokémon Stadium games.
 - [sarc](https://github.com/jam1garner/sarc) - Rust library for Nintendo SARC archive format.
-- [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Editor for Grand Theft Auto V handling files.
 - [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
-- [SonicMania-SaveEditor](https://github.com/Erik-JS/SonicMania-SaveEditor) - Save editor for Sonic Mania.
 - [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
 - [tspak](https://github.com/OpenRadical/tspak) - Tool for TSPAK archive format.
-- [Strikers2013Editor](https://github.com/obluda3/Strikers2013Editor) - Editor for Mario Strikers 2013 files.
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Library for AFS archive format.
 - [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
-- [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
 - [WiiExplorer](https://github.com/Aristotura/WiiExplorer) - Wii filesystem explorer tool.
 - [tdmextractor](https://github.com/NerduMiner/tdmextractor) - Extractor for TDM format files.
 - [libbndl](https://github.com/Bo98/libbndl) - Library for BNDL archive format.
@@ -546,52 +469,38 @@ This list is for developers and modders working with such formats. It provides t
 - [ard-tools](https://github.com/roccodev/ard-tools) - Tools for ARD format files.
 - [Gibbed.EFX](https://github.com/gibbed/Gibbed.EFX) - Tools for EFX format files.
 - [Personal-Editor](https://github.com/SciresM/Personal-Editor) - Editor for personal save files.
-- [SoulCalibur2-game-unpacker](https://github.com/PS2Homebrew-arcade/SoulCalibur2-game-unpacker) - Unpacker for Soul Calibur 2 game files.
 - [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Editor for Crystal file formats.
 - [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for RSBR PAK archive files.
-- [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
 - [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
 - [ggst_collision_editor_rs](https://github.com/WistfulHopes/ggst_collision_editor_rs) - Collision editor for Guilty Gear Strive.
-- [Wargrave-Pokemon-Gen2-Editors](https://github.com/sandbPublic/Wargrave-Pokemon-Gen2-Editors) - Editors for Pokémon Gen 2 games.
 - [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
 - [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
-- [KH1FM_Toolkit](https://github.com/GovanifY/KH1FM_Toolkit) - Toolkit for Kingdom Hearts 1 Final Mix.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
 - [AVFExt](https://github.com/puggsoy/AVFExt) - Extractor for AVF format files.
 - [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for Euro Truck Simulator 2 SCS files.
 - [bland2digtool](https://github.com/gamemasterplc/bland2digtool) - Tool for BLAND2DIG format files.
-- [RatchetLevelEditor](https://github.com/badger41/RatchetLevelEditor) - Level editor for Ratchet & Clank games.
 - [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
 - [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
-- [puyo-pac](https://github.com/nickworonekin/puyo-pac) - Tool for Puyo Puyo PAC archive format.
 - [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
-- [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for Star Fox 64 file formats.
-- [Pokemon-Shuffle-Unpacker](https://github.com/SciresM/Pokemon-Shuffle-Unpacker) - Unpacker for Pokémon Shuffle archive files.
 - [yafe](https://github.com/tge-was-taken/yafe) - Yet Another File Extractor for various game formats.
 - [Rezun](https://github.com/XAYRGA/Rezun) - Archive extraction tool.
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for GRF archive format.
 - [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Tool for Camelot GameCube data files.
 - [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Extractor for Mega Package archive format.
 - [BBFSUnpacker](https://github.com/Nenkai/BBFSUnpacker) - Unpacker for BBFS archive format.
-- [SMG2-Byaml](https://github.com/shibbo/SMG2-Byaml) - BYAML tool for Super Mario Galaxy 2.
-- [mhst2-arc-tool](https://github.com/Fexty12573/mhst2-arc-tool) - Archive tool for Monster Hunter Stories 2.
 - [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
 - [No-More-RSL](https://github.com/Timo654/No-More-RSL) - Tool for RSL format files.
 - [EventWaker](https://github.com/Sage-of-Mirrors/EventWaker) - Tool for Event Waker file formats.
 - [MbsEditor](https://github.com/Monkeytron/MbsEditor) - Editor for MBS format files.
-- [Sonic-Colors-Set-Editor](https://github.com/thesupersonic16/Sonic-Colors-Set-Editor) - Set editor for Sonic Colors.
 - [GSTExtract](https://github.com/shibbo/GSTExtract) - Extractor for GST format files.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for PKG package format.
-- [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
 - [ToadsTool](https://github.com/huderlem/ToadsTool) - Tool for Toad's file formats.
-- [vpk2](https://github.com/Galaco/vpk2) - Tool for Valve VPK2 archive format.
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Tool for FEIF ARC archive format.
 - [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Data builder for SGX format files.
 - [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
 - [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
 - [bea-extract](https://github.com/shibbo/bea-extract) - Extractor for BEA archive format.
-- [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
 - [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
 - [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
 - [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
@@ -599,12 +508,8 @@ This list is for developers and modders working with such formats. It provides t
 - [rpga](https://github.com/elizagamedev/rpga) - RPG Archive extractor and packer.
 - [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
-- [PP20thDataExtractor](https://github.com/nickworonekin/PP20thDataExtractor) - Data extractor for Puyo Puyo 20th Anniversary.
 - [LoAHF.PAK.Tool](https://github.com/Ekey/LoAHF.PAK.Tool) - Tool for Legend of Ace Heroes PAK archive files.
 - [ltar](https://github.com/cmbasnett/ltar) - Python library for LTAR archive format.
-- [MK8-Parts-Bin-Converter](https://github.com/KillzXGaming/MK8-Parts-Bin-Converter) - Converter for Mario Kart 8 parts bin files.
-- [ExtractDoomDisk](https://github.com/gibbed/ExtractDoomDisk) - Extractor for Doom disk image files.
-- [Track-Studio](https://github.com/KillzXGaming/Track-Studio) - Track editor for Mario Kart games.
 - [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Serializer for NBT (Named Binary Tag) format.
 - [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) - Universal installer for CPK mod files.
 - [SlimeMoriMori](https://github.com/onepiecefreak3/SlimeMoriMori) - Tool for Slime MoriMori file formats.
@@ -612,7 +517,6 @@ This list is for developers and modders working with such formats. It provides t
 - [mpdsarchivetool](https://github.com/gamemasterplc/mpdsarchivetool) - Archive tool for MPDS format files.
 - [fptTool](https://github.com/LinkOFF7/fptTool) - Tool for FPT format files.
 - [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - Binary serializer for OpenSpace format.
-- [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
 - [CyArchiveTool](https://github.com/Surihix/CyArchiveTool) - Archive tool for Cy format files.
 - [mpromtool](https://github.com/gamemasterplc/mpromtool) - Tool for MPROM format files.
 - [blender3d_xeios](https://github.com/boringhexi/blender3d_xeios) - Blender addon for XEIOS format files.
@@ -622,42 +526,25 @@ This list is for developers and modders working with such formats. It provides t
 - [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
 - [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for ER DATA format files.
 - [libgcl](https://github.com/Jayveer/libgcl) - Library for GCL format files.
-- [JPoke-Export](https://github.com/vgmoose/JPoke-Export) - Pokémon save file exporter.
 - [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
 - [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
 - [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
 - [irarc_unpacker](https://github.com/efimandreev0/irarc_unpacker) - Unpacker for IRARC archive format.
-- [HeroesCollisionTool](https://github.com/igorseabra4/HeroesCollisionTool) - Collision tool for Sonic Heroes.
-- [RECOM_Toolkit](https://github.com/GovanifY/RECOM_Toolkit) - Toolkit for Kingdom Hearts Re:Chain of Memories.
 - [ImZouna](https://github.com/widberg/ImZouna) - Tool for Zouna format files.
 - [binunpack](https://github.com/shibbo/binunpack) - Binary unpacker tool.
-- [sms-tools](https://github.com/JoshuaMKW/sms-tools) - Tools for Super Mario Sunshine.
 - [YomawariMidnightArchiveTool](https://github.com/efimandreev0/YomawariMidnightArchiveTool) - Archive tool for Yomawari: Midnight Shadows.
 - [Event_List_Editor](https://github.com/Sage-of-Mirrors/Event_List_Editor) - Editor for event list files.
-- [ff7tool](https://github.com/jkbenaim/ff7tool) - Tool for Final Fantasy 7 file formats.
 - [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for FCI FAT format files.
 - [GARTool](https://github.com/efimandreev0/GARTool) - Tool for GAR archive format.
-- [BFBBJSPTool](https://github.com/igorseabra4/BFBBJSPTool) - JSP tool for SpongeBob SquarePants: Battle for Bikini Bottom.
 - [CB.KAR.Tool](https://github.com/Ekey/CB.KAR.Tool) - Tool for CB KAR format files.
 - [WOGWiiTools](https://github.com/Nenkai/WOGWiiTools) - Tools for World of Goo Wii version.
 - [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
-- [blue-sphere](https://github.com/scurest/blue-sphere) - Tool for Sonic 3 & Knuckles special stage files.
-- [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
-- [MegaManPoweredUpTool](https://github.com/efimandreev0/MegaManPoweredUpTool) - Tool for Mega Man Powered Up files.
-- [MegaManLINKExtract](https://github.com/efimandreev0/MegaManLINKExtract) - Extractor for Mega Man Battle Network LINK files.
 - [M-LTool](https://github.com/efimandreev0/M-LTool) - Tool for M-L format files.
 - [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for RQ TOC format files.
-- [HeroesVisibilityEditor](https://github.com/igorseabra4/HeroesVisibilityEditor) - Visibility editor for Sonic Heroes.
 - [game-asset-loader](https://github.com/macton/game-asset-loader) - Generic game asset loader library.
-- [SpyroETDChunkTool](https://github.com/igorseabra4/SpyroETDChunkTool) - Chunk tool for Spyro: Enter the Dragonfly.
-- [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
 - [SabTool](https://github.com/BoBoBaSs84/SabTool) - Tool for SAB format files.
 - [grf-python](https://github.com/cmbasnett/grf-python) - Python library for GRF format files.
 - [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
-- [WolvenManager](https://github.com/rfuzzo/WolvenManager) - Manager for Witcher game file formats.
-- [BBSonicDSTool](https://github.com/efimandreev0/BBSonicDSTool) - Tool for Sonic DS file formats.
-- [MK64AudioFiles](https://github.com/sauraen/MK64AudioFiles) - Audio file tool for Mario Kart 64.
-- [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Worldpoint editor for Kingdom Hearts 2.
 - [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
 - [heightmap-viewer](https://github.com/impiaaa/heightmap-viewer) - Viewer for heightmap files.
 
@@ -789,6 +676,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Source (Valve)
 
+- [valve-bsp-parser](https://github.com/ReactiioN1337/valve-bsp-parser) - Parser for Valve BSP (Binary Space Partition) map files.
 - [Blender Source Tools](https://github.com/Artfunkel/BlenderSourceTools) - Blender addon for importing and exporting Source Engine model and animation formats. Enables 3D asset creation and modification for all Source Engine games in Blender.
 - [noclip.website (Source Engine)](https://github.com/magcius/noclip.website/tree/main/src/SourceEngine) - In-browser Source engine map viewer supporting Counter-Strike: Source, Half-Life 2, Half-Life 2: Deathmatch, Half-Life 2: Lost Coast, Half-Life 2: Episode 1, Half-Life 2: Episode 2, Team Fortress 2, Portal, Portal 2, Counter-Strike: Global Offensive, Left 4 Dead 2, The Stanley Parable, Infra, Neo Tokyo, and Estranged: Act I.
 - [noclip.website (GoldSrc)](https://github.com/magcius/noclip.website/tree/main/src/GoldSrc) - In-browser Half-Life (GoldSrc) viewer.
@@ -852,6 +740,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Unity
 
+- [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
 - [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Explorer/exporter for Unity assets and assetbundles (original version).
 - [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudio) - Actively maintained fork with UI optimization and enhancements.
 - [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
@@ -864,6 +753,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Unreal Engine
 
+- [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - Python library for parsing Unreal Engine 4 file formats.
+- [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
 - [io_scene_psk_psa](https://github.com/DarklightGames/io_scene_psk_psa) - Blender addon for importing and exporting PSK (skeletal mesh) and PSA (animation) formats used in Unreal Engine. Supports PSK/PSKX mesh import with vertex normals, extra UV channels, vertex colors, and shape keys.
 - [io_scene_ase](https://github.com/DarklightGames/io_scene_ase) - Blender exporter for the legacy ASE (ASCII Scene Export) format used by Unreal Engine 1 & 2 games (e.g., Unreal Tournament 2004).
 - [UEViewer (UModel)](https://github.com/gildor2/UEViewer) - Viewer and exporter for Unreal Engine 1-4 assets.
@@ -938,6 +829,18 @@ This list is for developers and modders working with such formats. It provides t
 ### 3DSTATE
 
 - [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converts 3DS Max scenes to 3DSTATE WLD format, preserving lighting, shadows, and effects. Includes script for rendering to texture and converting to binary 3dstate format.
+
+### Genie Engine
+
+- [geniedoc](https://github.com/aap/geniedoc) - Documentation and tools for Genie Engine formats.
+
+### RPG Maker
+
+- [rgssad](https://github.com/luxrck/rgssad) - Tool for extracting RGSSAD archives from RPG Maker games.
+
+### Rawthrills G7 Engine
+
+- [G7Reader](https://github.com/Surasia/G7Reader) - Utility to read Rawthrills G7 Engine archive files.
 
 ### Raven Software
 
@@ -1032,6 +935,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Freeware animation program and its associated model and motion formats (.pmx, .pmd, .vmd).*
 
+- [MikuMikuLibrary](https://github.com/blueskythlikesclouds/MikuMikuLibrary) - Library for working with MikuMikuDance formats.
 - [MMD Tools](https://github.com/MMD-Blender/blender_mmd_tools) - Blender add-on for importing/exporting MikuMikuDance assets. Supports physics, bone constraints, and motion/pose data.
 - [MMD Tools Append](https://github.com/MMD-Blender/blender_mmd_tools_append) - Companion extension for MMD Tools that provides material/scene controls, lighting presets, and Rigify helpers.
 
@@ -1047,6 +951,14 @@ This list is for developers and modders working with such formats. It provides t
 - [RenderWareFile](https://github.com/igorseabra4/RenderWareFile) - Library for working with RenderWare binary files.
 - [RenderWareNET](https://github.com/Venomalia/RenderWareNET) - Library to work with RenderWare 3 formats.
 - [RWIDE2YTYP](https://github.com/Hancapo/RWIDE2YTYP) - RenderWare .IDE to Five .YTYP and NY .IDE converter.
+
+### CRI
+
+*CRI Middleware formats (CPK archives, ADX audio, etc.) used in many Japanese games across multiple platforms.*
+
+- [CriPakTools](https://github.com/esperknight/CriPakTools) - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
+- [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
+- [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
 
 ### Sappy (GBA Audio)
 
@@ -1064,6 +976,9 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Call of Duty
 
+- [Tyrant](https://github.com/Scobalula/Tyrant) - Tyrant tool for Call of Duty file formats.
+- [ShibaInu](https://github.com/Scobalula/ShibaInu) - Tool for Call of Duty file formats.
+- [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Tool for working with Call of Duty IWD archive files.
 - [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender Add-On for Call of Duty modding.
 - [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Asset extraction tool.
 - [Cordycep](https://github.com/Scobalula/Cordycep) - Tool to load and parse Call of Duty fast files.
@@ -1094,6 +1009,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Angel Studios / Rockstar San Diego
 
+- [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Editor for Grand Theft Auto V handling files.
+- [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
 - [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender addon for importing models from Angel Studios/Rockstar San Diego games. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and likely other Angel Studios titles from ~1999-2006.
 - [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
 - [Sollumz](https://github.com/Hancapo/Sollumz) - GTA V modding suite for Blender (RAGE engine formats). [Documentation here](https://docs.sollumz.org).
@@ -1148,6 +1065,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Atlus
 
+- [Amicitia](https://github.com/tge-was-taken/Amicitia) - Tool for working with Persona 3/4/5 file formats.
+- [P5X_vFileContentExtract](https://github.com/DeathChaos25/P5X_vFileContentExtract) - Content extractor for Persona 5 X vFile archives.
 - [DDS3-Model-Studio](https://github.com/tge-was-taken/DDS3-Model-Studio) - WIP Model editing tools for DDS3 engine based SMT games (SMT: Nocturne, DDS 1 & 2, Raidou 1 & 2).
 - [AtlusFileSystemLibrary](https://github.com/tge-was-taken/AtlusFileSystemLibrary) - Library containing utilities for working with file systems used in Atlus games.
 
@@ -1161,13 +1080,17 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Bandai Namco
 
+- [SoulCalibur2-game-unpacker](https://github.com/PS2Homebrew-arcade/SoulCalibur2-game-unpacker) - Unpacker for Soul Calibur 2 game files.
 - [BinarySerializer.Klonoa](https://github.com/BinarySerializer/BinarySerializer.Klonoa) - Serializer for Klonoa games.
 - [TalesOfFantasy (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugins for Tales series.
 - [ARC](https://github.com/Bigchillghost/ARC) - Animation Recipe Cracker for Bandai Namco games.
+- [MBTL.BIN.Tool](https://github.com/Ekey/MBTL.BIN.Tool) - Tool for extracting BIN archives from MELTY BLOOD: TYPE LUMINA.
 - [noclip.website (Klonoa)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Klonoa viewer.
 - [noclip.website (Katamari Damacy)](https://github.com/magcius/noclip.website/tree/main/src/KatamariDamacy) - In-browser Katamari Damacy viewer.
 
 ### EA DICE
+
+- [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
 
 #### Battlefield Series
 
@@ -1193,12 +1116,20 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Capcom
 
+#### RE Engine
+
+- [REE.PAK.Tool](https://github.com/Ekey/REE.PAK.Tool) - Tools for extracting and repacking PAK archives from games based on RE ENGINE.
+- [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
+
 #### Resident Evil
 
 - [BioHazard File Archive Tool (Resident Evil 4)](https://www.moddb.com/games/resident-evil-4/downloads/biohazard-file-archive-tool) - File archive tool for Resident Evil 4. Two versions available: one designed for Windows XP, another ported for Windows 7. Both are 32-bit but work on 64-bit systems. Windows 7 version is backwards compatible with XP.
 
 #### Monster Hunter
 
+- [mhst2-arc-tool](https://github.com/Fexty12573/mhst2-arc-tool) - Archive tool for Monster Hunter Stories 2.
+- [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
+- [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
 - [Mod3-MHW-Importer](https://github.com/AsteriskAmpersand/Mod3-MHW-Importer) - Blender Import-Exporter for Monster Hunter World Mod3 model format.
 - [RingingBloom](https://github.com/Silvris/RingingBloom) - WWise audio editing toolkit for Monster Hunter: World and other Capcom titles.
 - [GFDConverter](https://github.com/onepiecefreak3/GFDConverter) - Converts GFD (v1) to GFD (v2) from Capcom's MT Framework.
@@ -1209,6 +1140,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Devil May Cry
 
 - [dmc_hd_tools](https://github.com/Kerilk/dmc_hd_tools) - Toolkit for Devil May Cry HD Collection including Noesis plugins and binary templates.
+
+#### Mega Man
+
+- [MegaManPoweredUpTool](https://github.com/efimandreev0/MegaManPoweredUpTool) - Tool for Mega Man Powered Up files.
+- [MegaManLINKExtract](https://github.com/efimandreev0/MegaManLINKExtract) - Extractor for Mega Man Battle Network LINK files.
 - [ARC Unpacker & Repacker](https://www.moddb.com/games/devil-may-cry-4/downloads/arc-unpacker-repacker-v09428) - Modding tool letting you extract and repack ARC file containers in MT Framework games (Resident Evil 5, Resident Evil 6, Dragon’s Dogma, Devil May Cry 4, and other Capcom titles) which can also convert many of the file formats in the archives.
 
 #### Gregory Horror Show
@@ -1227,6 +1163,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### The Witcher 3 / REDEngine 3
 
+- [WolvenManager](https://github.com/rfuzzo/WolvenManager) - Manager for Witcher game file formats.
 - [WolvenKit (legacy)](https://github.com/WolvenKit/WolvenKit-7) - REDEngine 3 file editor designed to simplify and accelerate modding workflow for The Witcher 3.
 
 #### The Witcher
@@ -1323,6 +1260,11 @@ This list is for developers and modders working with such formats. It provides t
 
 *Demon's Souls, Dark Souls, Bloodborne, Sekiro, Elden Ring.*
 
+- [UXM](https://github.com/JKAnderson/UXM) - Unpacker for Dark Souls III and Sekiro archives.
+- [DarkSoulsIII.FileFormats](https://github.com/Atvaark/DarkSoulsIII.FileFormats) - Library for reading Dark Souls III file formats.
+- [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
+- [ds3-open-re](https://github.com/garyttierney/ds3-open-re) - Open reverse engineering resources for Dark Souls 3.
+- [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
 - [Souls Modding Wiki](http://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
 - [Awesome Elden Ring](https://github.com/sovietspaceship/awesome-elden-ring) - Curated list of resources and tools for Elden Ring.
 - [Sekiro Modding Wiki](https://github.com/SekiroResurrection/modding-wiki) - Documentation for Sekiro modding.
@@ -1348,6 +1290,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Gearbox Software
 
+- [Gibbed.Borderlands3.Datamining](https://github.com/gibbed/Gibbed.Borderlands3.Datamining) - Datamining tools for Borderlands 3.
 - [Borderlands 2 Texture Modding Tool for PC](https://www.moddb.com/games/borderlands-2/downloads/borderlands-2-texture-modding-tool-for-pc) - PC-only guide and tool (TexMod) for extracting, editing, and using textures in Borderlands 2. TexMod is a popular texture tool also used for Arkham City, Tomb Raider, and other games.
 
 #### MechWarrior 4
@@ -1367,6 +1310,10 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [Sappy (GBA Audio)](#sappy-gba-audio) for audio tools used in these games.*
 
+- [SaveStadium](https://github.com/Ploaj/SaveStadium) - Save file editor for Pokémon Stadium games.
+- [Wargrave-Pokemon-Gen2-Editors](https://github.com/sandbPublic/Wargrave-Pokemon-Gen2-Editors) - Editors for Pokémon Gen 2 games.
+- [Pokemon-Shuffle-Unpacker](https://github.com/SciresM/Pokemon-Shuffle-Unpacker) - Unpacker for Pokémon Shuffle archive files.
+- [JPoke-Export](https://github.com/vgmoose/JPoke-Export) - Pokémon save file exporter.
 - [blue-spider](https://github.com/cosarara/blue-spider) - Map editor for Pokémon Ruby/Sapphire/Emerald.
 - [porymap](https://github.com/huderlem/porymap) - Modern map editor for Gen III Pokémon games.
 - [MEH](https://github.com/shinyquagsire23/MEH) - Map editor for Gen III.
@@ -1403,6 +1350,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### id Software
 
+- [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing Quake BSP (Binary Space Partition) map files.
+- [DOOMP](https://github.com/Ret-HZ/DOOMP) - Doom file format parser and extractor.
+- [DoomRPG-RE-3DS](https://github.com/efimandreev0/DoomRPG-RE-3DS) - Nintendo 3DS port of the reverse engineered Doom RPG.
+- [rtcw-wet-blender-model-tools](https://github.com/mino-git/rtcw-wet-blender-model-tools) - Blender model tools for Return to Castle Wolfenstein: Enemy Territory.
+- [ExtractDoomDisk](https://github.com/gibbed/ExtractDoomDisk) - Extractor for Doom disk image files.
 - [Doom 3 model import tutorial files](https://www.moddb.com/games/doom-iii/downloads/doom-3-model-import-tutorial-files) - Sample files for use with the Doom 3 model import tutorial on ModDB.
 - [Doom 3 Compatibility Tool Mod](https://www.moddb.com/games/doom-iii/downloads/doom-3-compatibility-tool-mod) - Compatibility tool for Doom 3. Tool by Dafama.
 - [Doom 3 - Quake 3 Map Converter](https://www.moddb.com/games/doom-iii/downloads/doom-3-quake-3-map-converter) - Use this tool to convert your favorite Quake 3 maps to Doom 3's (Quake 4 also) new format. The tool can also convert textures to the new format.
@@ -1441,6 +1393,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### LucasArts
 
+- [scummtools](https://github.com/UnBeatWaterGH/scummtools) - Tools for SCUMM (Script Creation Utility For Maniac Mansion).
 - [Grim Fandango model viewer](https://www.moddb.com/games/grim-fandango/downloads/grim-fandango-model-viewer)
 - [Easy Saber Editing Script 2.0 (Star Wars: Jedi Academy)](https://www.moddb.com/games/star-wars-jedi-academy/downloads/easy-saber-editing-script-2-0) - Script for skipping the saber menu and receiving a default saber in Star Wars: Jedi Academy (v2.0).
 - [JK editing manuals (Star Wars Jedi Knight: Dark Forces II)](https://www.moddb.com/games/star-wars-jedi-knight-dark-forces-ii/downloads/jk-editing-manuals) - Offline archive of notable JED level editor tutorials for Star Wars Jedi Knight: Dark Forces II.
@@ -1473,6 +1426,10 @@ This list is for developers and modders working with such formats. It provides t
 
 *Kirby, Super Smash Bros series.*
 
+- [slippi-ssbm-asm](https://github.com/project-slippi/slippi-ssbm-asm) - Assembly tools for Super Smash Bros. Melee Slippi format.
+- [KirbyAirRideTools](https://github.com/LuigiBlood/KirbyAirRideTools) - Tools for Kirby Air Ride file formats.
+- [Sm4shExplorer](https://github.com/jam1garner/Sm4shExplorer) - Tool for managing the file-system of Super Smash Bros. for Wii U.
+- [smash-arc](https://github.com/jam1garner/smash-arc) - Tool for Super Smash Bros. ARC archive files.
 - [BrawlLib](https://github.com/libertyernie/brawltools) - Library for reading/writing file formats from Super Smash Bros. Brawl and other Wii games.
 - [Smash-Forge](https://github.com/jam1garner/Smash-Forge) - Editor for Super Smash Bros 4 file formats.
 - [smash-fnv](https://github.com/jam1garner/smash-fnv) - Rust library for reading and writing sound_volume_fighter_num_table.fnv files from Super Smash Bros. for Nintendo 3DS and Wii U and Super Smash Bros. Ultimate.
@@ -1497,6 +1454,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Heavy Iron Studios
 
+- [BFBBJSPTool](https://github.com/igorseabra4/BFBBJSPTool) - JSP tool for SpongeBob SquarePants: Battle for Bikini Bottom.
+- [SpyroETDChunkTool](https://github.com/igorseabra4/SpyroETDChunkTool) - Chunk tool for Spyro: Enter the Dragonfly.
 - [IndustrialPark](https://github.com/igorseabra4/IndustrialPark) - Viewer and editor for SpongeBob SquarePants: Battle for Bikini Bottom and Scooby-Doo games.
 - [noclip.website (SpongeBob Battle for Bikini Bottom)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob BFBB viewer.
 - [noclip.website (SpongeBob The Movie)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob The Movie viewer.
@@ -1506,11 +1465,13 @@ This list is for developers and modders working with such formats. It provides t
 
 *Mario Party series (Nintendo 64).*
 
+- [bm642romtool](https://github.com/gamemasterplc/bm642romtool) - Bomberman 64 The Second Attack ROM compression tool.
 - [PartyPlanner64](https://github.com/PartyPlanner64/PartyPlanner64) - Full-featured board editor and modding tool for Mario Party (N64) games.
 - [symbols](https://github.com/PartyPlanner64/symbols) - Debug symbol maps for reverse engineering Mario Party games.
 
 ### Insomniac Games
 
+- [RatchetLevelEditor](https://github.com/badger41/RatchetLevelEditor) - Level editor for Ratchet & Clank games.
 - [ALERT](https://github.com/Tkachov/ALERT) - Amazing Luna Engine Research Tools. Python toolkit for researching and modifying Insomniac Games assets with dat1lib library and web-based Assets Browser.
   - Games: Sunset Overdrive, Marvel's Spider-Man (Remastered, Miles Morales, 2), Marvel's Wolverine, Ratchet & Clank: Rift Apart.
   - Features: Model conversions (.model/.ascii/.gltf), animation application, soundbank audio injection, DSAR archive compression, asset extraction.
@@ -1525,6 +1486,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Overstrike](https://github.com/Tkachov/Overstrike) - Open-source mod manager for PC ports of Insomniac Games' games.
 
 ### Intelligent Systems
+
+- [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
+- [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
 
 #### Paper Mario 64
 
@@ -1591,6 +1555,11 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Silent Hill
 
+- [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
+- [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
+- [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
+- [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
+- [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
 - [Sparagas/Silent-Hill](https://github.com/Sparagas/Silent-Hill) - Reverse engineering research and documentation for Silent Hill file formats.
 - [Murugo/Misc-Game-Research (Silent Hill 2)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Silent%20Hill%202%2B3) - Reverse engineering notes for Silent Hill 2 & 3 (PS2).
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
@@ -1620,10 +1589,13 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Divinity: Original Sin 2
 
+- [DoS-2-Savegame-Editor](https://github.com/NovFR/DoS-2-Savegame-Editor) - Save game editor for Divinity: Original Sin 2.
+- [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
 - [Norbyte's Divinity Script Extender](https://github.com/Norbyte/ositools) - Divinity: Original Sin 2 script extender toolkit adding features to the scripting language of the game.
 
 ### Level-5
 
+- [Inazuma-Eleven-Toolbox](https://github.com/SwareJonge/Inazuma-Eleven-Toolbox) - Toolbox for Inazuma Eleven game files.
 - [Metanoia](https://github.com/Ploaj/Metanoia) - Model viewer and research tool for Level-5 games.
 - [MeltyTool (Level5)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Level5) - Level-5 format viewer/exporter for games like Dark Cloud and Professor Layton.
 - [CfgBinEditor](https://github.com/Tiniifan/CfgBinEditor) - Level 5 Bin Editor
@@ -1708,6 +1680,10 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Monolith Productions
 
+#### Xenoblade Chronicles
+
+- [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
+
 #### F.E.A.R.
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin)
@@ -1758,6 +1734,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Crash Bandicoot 1-3 & CTR
 
+- [ReBandicoot](https://github.com/kohtep/ReBandicoot) - Reverse engineering tools for Crash Bandicoot.
 - [Crash-Bandicoot-Resources](https://github.com/Helias/Crash-Bandicoot-Resources) - Comprehensive collection of resources for Crash Bandicoot file formats and reverse engineering. Covers N. Sane Trilogy, Twinsanity, Crash Team Racing, Crash Bash, and original PS1 trilogy. Includes documentation for extracting/modifying PAK archives, IGZ models, NSD/NSF files, plus links to 30+ specialized tools, character mods, decompilation projects, and modding frameworks.
 - [CTR-tools](https://github.com/CTR-tools/CTR-tools) - Toolkit for Crash Team Racing (PlayStation 1) file formats.
 - [CrashEdit](https://github.com/cbhacks/CrashEdit) - Level and graphics editor for PlayStation 1 Crash Bandicoot games.
@@ -1867,6 +1844,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for Super Mario Sunshine and Galaxy.*
 
+- [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
 - [smstools](https://github.com/impiaaa/smstools) - Toolkit for decoding and working with Super Mario Sunshine data files.
 - [Track-Studio](https://github.com/MapStudioProject/Track-Studio) - Full-featured track and course editor for Mario Kart 8.
 - [CTR-Studio](https://github.com/MapStudioProject/CTR-Studio) - Editor for 3DS BCH/BCRES formats used in Mario Kart 7 and other 3DS games.
@@ -1906,6 +1884,14 @@ This list is for developers and modders working with such formats. It provides t
 #### Star Fox Adventures
 
 - [noclip.website (Star Fox Adventures)](https://github.com/magcius/noclip.website/tree/main/src/StarFoxAdventures) - In-browser Star Fox Adventures viewer.
+
+#### Star Fox 64
+
+- [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for Star Fox 64 file formats.
+
+#### Star Fox 64 3D
+
+- [SF643D_Tools](https://github.com/thtrandomlurker/SF643D_Tools) - Collection of tools for viewing and modifying data from SF643D.
 
 #### Super Monkey Ball
 
@@ -1999,6 +1985,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Knights of the Old Republic
 
+- [StarForge](https://github.com/Astral-C/StarForge) - Tool for Star Wars: Knights of the Old Republic file formats.
 - [Kotor Tool 1](https://www.moddb.com/games/star-wars-knights-of-the-old-republic/downloads/kotor-tool-1) - Tool for extracting files, changing game rules, and customizing levels in Knights of the Old Republic.
 
 ### Obsidian Entertainment
@@ -2011,6 +1998,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [playdate-reverse-engineering](https://github.com/cranksters/playdate-reverse-engineering) - Reverse engineering notes and tools for Playdate handheld console.
 - [noclip.website (A Short Hike)](https://github.com/magcius/noclip.website/tree/main/src/AShortHike) - In-browser A Short Hike viewer.
+
+### Paradox Interactive
+
+- [io_pdx_mesh](https://github.com/ross-g/io_pdx_mesh) - Blender addon for importing Paradox Interactive mesh formats.
 
 ### Petroglyph Games
 
@@ -2077,8 +2068,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Dreamkiller Mapping Tools for 3ds Max](https://www.moddb.com/games/dreamkiller/downloads/dreamkiller-mapping-tools) - DKStaticMeshImp.dli - 3dsMax static mesh import plugin. UnpackTEXT.exe - texture extractor.
 
+### Piranha Bytes
+
+- [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for Gothic game engine formats.
+
 ### Polyphony Digital
 
+- [GTAllPaintEditor](https://github.com/Nenkai/GTAllPaintEditor) - Tool to edit Gran Turismo 6's allpaint.bin file for assigning custom paints to cars through GT Auto.
+- [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
 - [PDTools](https://github.com/Nenkai/PDTools) - Utilities for extracting and modifying Gran Turismo game files.
 - [GT4SaveEditor](https://github.com/Nenkai/GT4SaveEditor) - Save editor for Gran Turismo 4.
 
@@ -2175,6 +2172,14 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Sega
 
+- [puyotools](https://github.com/nickworonekin/puyotools) - Tools for Puyo Puyo game file formats.
+- [puyo-pac](https://github.com/nickworonekin/puyo-pac) - Tool for Puyo Puyo PAC archive format.
+- [PP20thDataExtractor](https://github.com/nickworonekin/PP20thDataExtractor) - Data extractor for Puyo Puyo 20th Anniversary.
+- [JSRGraffitiTool](https://github.com/chrisderwahre/JSRGraffitiTool) - Tool for Jet Set Radio graffiti files.
+- [ParManager](https://github.com/Kaplas80/ParManager) - Tools for Yakuza series PAR archive files.
+- [yk_gmd_io](https://github.com/theturboturnip/yk_gmd_io) - Blender addon for importing/exporting Yakuza GMD model format.
+- [PSO2-Aqua-Library](https://github.com/Shadowth117/PSO2-Aqua-Library) - Library for Phantasy Star Online 2 file formats.
+- [PSO2-Salon-Tool](https://github.com/Shadowth117/PSO2-Salon-Tool) - Tool for Phantasy Star Online 2 salon files.
 - [PSO2 Tools](https://github.com/dummycount/blender_pso2_tools) - Blender add-on for Phantasy Star Online 2 assets (`.aqp`, `.aqn`, ICE archives). Features model search, archive browsing, and automatic texture assignment.
 
 #### Creative Assembly
@@ -2216,8 +2221,15 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Other Sonic Games
 
+- [SonicMania-SaveEditor](https://github.com/Erik-JS/SonicMania-SaveEditor) - Save editor for Sonic Mania.
+- [Sonic-Colors-Set-Editor](https://github.com/thesupersonic16/Sonic-Colors-Set-Editor) - Set editor for Sonic Colors.
+- [HeroesCollisionTool](https://github.com/igorseabra4/HeroesCollisionTool) - Collision tool for Sonic Heroes.
+- [HeroesVisibilityEditor](https://github.com/igorseabra4/HeroesVisibilityEditor) - Visibility editor for Sonic Heroes.
+- [BBSonicDSTool](https://github.com/efimandreev0/BBSonicDSTool) - Tool for Sonic DS file formats.
+- [blue-sphere](https://github.com/scurest/blue-sphere) - Tool for Sonic 3 & Knuckles special stage files.
 - [Glitter](https://github.com/crash5band/Glitter) - Format library and editor application to open, modify, and resave GTE/GTM particle files for Sonic Generations.
 - [SonLVL-RSDK](https://github.com/Lavesiime/SonLVL-RSDK) - Level editor for RSDK v3/v4 games (Sonic CD, Sonic 1, Sonic 2).
+- [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
 
 #### Other Sonic Games
 
@@ -2236,11 +2248,24 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Square Enix
 
+#### Final Fantasy
+
+- [ff7tool](https://github.com/jkbenaim/ff7tool) - Tool for Final Fantasy 7 file formats.
+
+#### Babylon's Fall
+
+- [BabylonsFallTools](https://github.com/Nenkai/BabylonsFallTools) - Extraction tools for BABYLON'S FALL PKZL/.pkz & DAT files.
+
 #### Hitman
 
 - [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Use this tool to install HiTMAN mods or extract the *.rpkg archives in which HiTMAN files are stored. Version 2: Now called Hitman Archive Manager
 
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
+- [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Worldpoint editor for Kingdom Hearts 2.
+- [KH2Suite](https://github.com/Truthkey/KH2Suite) - Suite of programs for Kingdom Hearts 2 or 2 Final Mix modding.
+- [KHBBS_EXA_Editor](https://github.com/Truthkey/KHBBS_EXA_Editor) - Editor for EXA events in Kingdom Hearts: Birth by Sleep.
+- [KH1FM_Toolkit](https://github.com/GovanifY/KH1FM_Toolkit) - Toolkit for Kingdom Hearts 1 Final Mix.
+- [RECOM_Toolkit](https://github.com/GovanifY/RECOM_Toolkit) - Toolkit for Kingdom Hearts Re:Chain of Memories.
 - [BBSPluginNoesis](https://github.com/Truthkey/BBSPluginNoesis) - Updated Noesis plugin for Kingdom Hearts Birth by Sleep working with modern versions of Visual Studio.
 - [WOFFington](https://github.com/neptuwunium/WOFFington) - File format research and tools for World of Final Fantasy.
 - [heretic](https://github.com/adamrt/heretic) - Modding toolkit for Final Fantasy Tactics.
@@ -2271,6 +2296,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Supercell
 
+- [SCEditor](https://github.com/ToxicLand/SCEditor) - Editor for Supercell game formats.
+- [SCP-Unpacker](https://github.com/baraklevy20/SCP-Unpacker) - Unpacker for Supercell game archives.
 - [gltf-Supercell-IO](https://github.com/Daniil-SV/gltf-Supercell-IO) - Custom Supercell glTF 2.0 importer/exporter for Blender 5.0+ supporting Android/iOS games.
 - [SupercellFlash](https://github.com/sc-workshop/SupercellFlash) - C++ library for loading and processing Supercell 2D (.sc) assets.
 
@@ -2377,6 +2404,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Ubisoft
 
+- [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
+- [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Tool for Rayman 2 file formats.
 - [Jormungandr](https://github.com/neptuwunium/Jormungandr) - File format research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting SPK audio files found in Ubisoft game .dat files.
 - [Ray1Editor](https://github.com/RayCarrot/Ray1Editor) - 2D map editor for modifying maps in Rayman 1 games. Supports Rayman 1 PS1, PC (multiple versions), Educational, Designer, by his Fans, and 60 Levels versions.
@@ -2395,6 +2424,9 @@ This list is for developers and modders working with such formats. It provides t
 
 *The Elder Scrolls, Fallout series, and Starfield.*
 
+- [BAE](https://www.nexusmods.com/starfield/mods/165) - Bethesda Archive Extractor application for BSA/BA2 archives.
+- [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
+- [Gibbed.Fallout4](https://github.com/gibbed/Gibbed.Fallout4) - Tools for Fallout 4 file formats.
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
 - [F2 TOOLS PAK BY LEONARDO (Fallout 2)](https://www.moddb.com/games/fallout-2/downloads/f2-tools-pak-by-leonardo) - Набор инструментов для создания модов на Fallout 2. Для более подробной информации см. Readme.txt в архиве. В архиве - BIS mapper, Dims mapper, SFall script editor, Notepad ++, Frame animator.
 - [Fallout2 FRM converter v 2.0](https://www.moddb.com/games/fallout-2/downloads/fallout2-frm-converter-v-20) - Convert Fallout's FRM image files to the BMP, JPG, PNG, TGA, TIF, PBM, PGM and PPM files formats, and then convert BMP, TIF and PNG files back into FRM's! Use your own art in Fallout....
@@ -2426,6 +2458,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Blizzard Entertainment
 
+- [wow.export](https://github.com/Kruithne/wow.export) - World of Warcraft model and texture exporter.
+- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
 - [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter)
