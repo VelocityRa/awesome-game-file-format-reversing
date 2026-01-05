@@ -362,6 +362,16 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
   - Material modes: ignore, vertex colors, per-color materials, palette textures, and UV-unwrapped textured models.
+- [wow.export](https://github.com/Kruithne/wow.export) - World of Warcraft model and texture exporter.
+- [mviewer](https://github.com/majimboo/mviewer) - Reverse engineering tool for viewing and analyzing 3D models.
+- [MikuMikuLibrary](https://github.com/blueskythlikesclouds/MikuMikuLibrary) - Library for working with MikuMikuDance formats.
+- [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain) - Toolchain for PlayStation 1 modding including model and texture tools.
+- [detex](https://github.com/hglm/detex) - Low-level library for texture extraction and conversion.
+- [wadext](https://github.com/ZDoom/wadext) - Simple tool for extracting WAD archive contents.
+- [io_pdx_mesh](https://github.com/ross-g/io_pdx_mesh) - Blender addon for importing Paradox Interactive mesh formats.
+- [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing BSP (Binary Space Partition) map files.
+- [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for John Wick Hex game file formats.
+- [Amicitia](https://github.com/tge-was-taken/Amicitia) - Tool for working with Persona 3/4/5 file formats.
 
 ### 📦 Archive & Asset Extraction
 
