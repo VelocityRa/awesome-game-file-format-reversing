@@ -590,6 +590,36 @@ This list is for developers and modders working with such formats. It provides t
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Data builder for SGX format files.
 - [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
 - [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
+- [bea-extract](https://github.com/shibbo/bea-extract) - Extractor for BEA archive format.
+- [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
+- [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
+- [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
+- [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
+- [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Text tool for Gangstar Vegas game files.
+- [rpga](https://github.com/elizagamedev/rpga) - RPG Archive extractor and packer.
+- [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
+- [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
+- [PP20thDataExtractor](https://github.com/nickworonekin/PP20thDataExtractor) - Data extractor for Puyo Puyo 20th Anniversary.
+- [LoAHF.PAK.Tool](https://github.com/Ekey/LoAHF.PAK.Tool) - Tool for Legend of Ace Heroes PAK archive files.
+- [ltar](https://github.com/cmbasnett/ltar) - Python library for LTAR archive format.
+- [MK8-Parts-Bin-Converter](https://github.com/KillzXGaming/MK8-Parts-Bin-Converter) - Converter for Mario Kart 8 parts bin files.
+- [ExtractDoomDisk](https://github.com/gibbed/ExtractDoomDisk) - Extractor for Doom disk image files.
+- [Track-Studio](https://github.com/KillzXGaming/Track-Studio) - Track editor for Mario Kart games.
+- [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Serializer for NBT (Named Binary Tag) format.
+- [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) - Universal installer for CPK mod files.
+- [SlimeMoriMori](https://github.com/onepiecefreak3/SlimeMoriMori) - Tool for Slime MoriMori file formats.
+- [LojRipper](https://github.com/nkrapivin/LojRipper) - Ripper for LOJ format files.
+- [mpdsarchivetool](https://github.com/gamemasterplc/mpdsarchivetool) - Archive tool for MPDS format files.
+- [fptTool](https://github.com/LinkOFF7/fptTool) - Tool for FPT format files.
+- [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - Binary serializer for OpenSpace format.
+- [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
+- [CyArchiveTool](https://github.com/Surihix/CyArchiveTool) - Archive tool for Cy format files.
+- [mpromtool](https://github.com/gamemasterplc/mpromtool) - Tool for MPROM format files.
+- [blender3d_xeios](https://github.com/boringhexi/blender3d_xeios) - Blender addon for XEIOS format files.
+- [h5_dumper](https://github.com/Surasia/h5_dumper) - Dumper for H5 format files.
+- [RORPSPTOOL](https://github.com/leeao/RORPSPTOOL) - Tool for ROR PSP format.
+- [FpkTool](https://github.com/Shadowth117/FpkTool) - Tool for FPK archive format.
+- [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
 
 ### 🔊 Audio Tools
 
