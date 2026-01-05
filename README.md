@@ -379,6 +379,14 @@ This list is for developers and modders working with such formats. It provides t
 - [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
 - [UXM](https://github.com/JKAnderson/UXM) - Unpacker for Dark Souls III and Sekiro archives.
 - [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
+- [REE.PAK.Tool](https://github.com/Ekey/REE.PAK.Tool) - Tools for extracting and repacking PAK archives from games based on RE ENGINE.
+- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
+- [Chisels-and-Bits](https://github.com/ChiselsAndBits/Chisels-and-Bits) - Minecraft mod for detailed block manipulation and extraction.
+- [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
+- [Legacy-Minecraft](https://github.com/Wilyicaro/Legacy-Minecraft) - Tools for working with legacy Minecraft file formats.
+- [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
+- [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
+- [slippi-ssbm-asm](https://github.com/project-slippi/slippi-ssbm-asm) - Assembly tools for Super Smash Bros. Melee Slippi format.
 
 ### 🔊 Audio Tools
 
