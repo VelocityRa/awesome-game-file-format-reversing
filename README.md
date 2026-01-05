@@ -461,6 +461,16 @@ This list is for developers and modders working with such formats. It provides t
 - [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
 - [ds3-open-re](https://github.com/garyttierney/ds3-open-re) - Open reverse engineering resources for Dark Souls 3.
 - [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for Gothic game engine formats.
+- [XbTool](https://github.com/Thealexbarney/XbTool) - Tool for working with Xbox file formats.
+- [AudioMog](https://github.com/Yoraiz0r/AudioMog) - Audio extraction tool for various game formats.
+- [isodump](https://github.com/Lameguy64/isodump) - ISO image dumper and extractor.
+- [ArcExplorer](https://github.com/ScanMountGoat/ArcExplorer) - Archive explorer for various game formats.
+- [rgssad](https://github.com/luxrck/rgssad) - Tool for extracting RGSSAD archives from RPG Maker games.
+- [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
+- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
+- [X-coder](https://github.com/lilmuff2/X-coder) - File format encoder/decoder tool.
+- [Fmod-Bank-Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools) - Tools for working with FMOD bank files.
+- [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
 
 ### 🔊 Audio Tools
 
