@@ -997,6 +997,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
 
+#### A Series of Unfortunate Events
+
+- [resPack](https://github.com/XAYRGA/resPack) - Extractor for XBOX A Series of Unfortunate Events.
+
 ### Angel Matrix
 
 - [noclip.website (Neon White)](https://github.com/magcius/noclip.website/tree/main/src/NeonWhite) - In-browser Neon White viewer.
