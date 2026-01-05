@@ -471,6 +471,19 @@ This list is for developers and modders working with such formats. It provides t
 - [X-coder](https://github.com/lilmuff2/X-coder) - File format encoder/decoder tool.
 - [Fmod-Bank-Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools) - Tools for working with FMOD bank files.
 - [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
+- [BnkExtractor](https://github.com/AssetRipper/BnkExtractor) - Extractor for Wwise BNK soundbank files.
+- [Guidebook](https://github.com/gigaherz/Guidebook) - Tool for extracting and viewing game guidebook files.
+- [nod](https://github.com/encounter/nod) - Node-based file format library.
+- [sfo](https://github.com/hippie68/sfo) - Tool for working with PlayStation SFO (System File Object) files.
+- [RGLExtractor](https://github.com/Disquse/RGLExtractor) - Extractor for RGL archive files.
+- [M1TE2](https://github.com/nesdoug/M1TE2) - Tool for working with M1TE format files.
+- [otptool](https://github.com/SciresM/otptool) - Tool for Nintendo OTP (One-Time Programmable) files.
+- [ArcCross](https://github.com/Ploaj/ArcCross) - Archive cross-converter tool.
+- [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
+- [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool) - File archive tool for Hunex games.
+- [lui-tool](https://github.com/xensik/lui-tool) - Tool for working with LUI (Localized User Interface) files.
+- [PSO2-Salon-Tool](https://github.com/Shadowth117/PSO2-Salon-Tool) - Tool for Phantasy Star Online 2 salon files.
+- [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
 
 ### 🔊 Audio Tools
 
