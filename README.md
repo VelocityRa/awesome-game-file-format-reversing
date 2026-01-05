@@ -484,6 +484,25 @@ This list is for developers and modders working with such formats. It provides t
 - [lui-tool](https://github.com/xensik/lui-tool) - Tool for working with LUI (Localized User Interface) files.
 - [PSO2-Salon-Tool](https://github.com/Shadowth117/PSO2-Salon-Tool) - Tool for Phantasy Star Online 2 salon files.
 - [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
+- [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Tool for working with Call of Duty IWD archive files.
+- [unneko](https://github.com/lico-n/unneko) - Archive extraction tool for various formats.
+- [SCP-Unpacker](https://github.com/baraklevy20/SCP-Unpacker) - Unpacker for Supercell game archives.
+- [geniedoc](https://github.com/aap/geniedoc) - Documentation and tools for Genie Engine formats.
+- [P5X_vFileContentExtract](https://github.com/DeathChaos25/P5X_vFileContentExtract) - Content extractor for Persona 5 X vFile archives.
+- [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Multi-purpose tool for various game file formats.
+- [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for working with BDAT (Binary Data) files.
+- [Gibbed.Rebirth](https://github.com/gibbed/Gibbed.Rebirth) - Tools for The Binding of Isaac: Rebirth file formats.
+- [Inazuma-Eleven-Toolbox](https://github.com/SwareJonge/Inazuma-Eleven-Toolbox) - Toolbox for Inazuma Eleven game files.
+- [XtractQuery](https://github.com/onepiecefreak3/XtractQuery) - Query tool for extracting game file formats.
+- [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) - Java tool for assessing PlayStation 4 package files.
+- [ebbinex](https://github.com/Herringway/ebbinex) - Archive extraction tool.
+- [Gibbed.Borderlands3.Datamining](https://github.com/gibbed/Gibbed.Borderlands3.Datamining) - Datamining tools for Borderlands 3.
+- [StarForge](https://github.com/Astral-C/StarForge) - Tool for Star Wars: Knights of the Old Republic file formats.
+- [RRUnpacker](https://github.com/Nenkai/RRUnpacker) - Unpacker for RR archive format.
+- [XbxDeTool](https://github.com/Nenkai/XbxDeTool) - Xbox file format tool.
+- [JSRGraffitiTool](https://github.com/chrisderwahre/JSRGraffitiTool) - Tool for Jet Set Radio graffiti files.
+- [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for game file formats.
+- [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File loader for XCNX format files.
 
 ### 🔊 Audio Tools
 
