@@ -566,6 +566,30 @@ This list is for developers and modders working with such formats. It provides t
 - [puyo-pac](https://github.com/nickworonekin/puyo-pac) - Tool for Puyo Puyo PAC archive format.
 - [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
 - [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for Star Fox 64 file formats.
+- [Pokemon-Shuffle-Unpacker](https://github.com/SciresM/Pokemon-Shuffle-Unpacker) - Unpacker for Pokémon Shuffle archive files.
+- [yafe](https://github.com/tge-was-taken/yafe) - Yet Another File Extractor for various game formats.
+- [Rezun](https://github.com/XAYRGA/Rezun) - Archive extraction tool.
+- [libgrf](https://github.com/cmbasnett/libgrf) - Library for GRF archive format.
+- [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Tool for Camelot GameCube data files.
+- [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Extractor for Mega Package archive format.
+- [BBFSUnpacker](https://github.com/Nenkai/BBFSUnpacker) - Unpacker for BBFS archive format.
+- [SMG2-Byaml](https://github.com/shibbo/SMG2-Byaml) - BYAML tool for Super Mario Galaxy 2.
+- [mhst2-arc-tool](https://github.com/Fexty12573/mhst2-arc-tool) - Archive tool for Monster Hunter Stories 2.
+- [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
+- [No-More-RSL](https://github.com/Timo654/No-More-RSL) - Tool for RSL format files.
+- [EventWaker](https://github.com/Sage-of-Mirrors/EventWaker) - Tool for Event Waker file formats.
+- [MbsEditor](https://github.com/Monkeytron/MbsEditor) - Editor for MBS format files.
+- [Sonic-Colors-Set-Editor](https://github.com/thesupersonic16/Sonic-Colors-Set-Editor) - Set editor for Sonic Colors.
+- [GSTExtract](https://github.com/shibbo/GSTExtract) - Extractor for GST format files.
+- [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for PKG package format.
+- [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
+- [ToadsTool](https://github.com/huderlem/ToadsTool) - Tool for Toad's file formats.
+- [vpk2](https://github.com/Galaco/vpk2) - Tool for Valve VPK2 archive format.
+- [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Tool for FEIF ARC archive format.
+- [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
+- [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Data builder for SGX format files.
+- [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
+- [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
 
 ### 🔊 Audio Tools
 
