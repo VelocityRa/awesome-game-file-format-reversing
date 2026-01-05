@@ -71,6 +71,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
+      - [Ghostbusters](#ghostbusters)
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Ape, Inc](#ape-inc)
@@ -175,6 +176,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Blood 2: The Chosen](#blood-2-the-chosen)
       - [No One Lives Forever](#no-one-lives-forever)
       - [Shogo: Mobile Armor Division](#shogo-mobile-armor-division)
+      - [Serious Sam](#serious-sam)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
@@ -241,6 +243,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Reflections Interactive](#reflections-interactive)
     - [Riot Games](#riot-games)
     - [Santa Monica Studio](#santa-monica-studio)
+    - [SCS Software](#scs-software)
     - [Sega](#sega)
       - [Creative Assembly](#creative-assembly)
         - [Alien: Isolation](#alien-isolation)
@@ -282,7 +285,9 @@ This list is for developers and modders working with such formats. It provides t
       - [Anno 1800](#anno-1800)
     - [Bethesda](#bethesda)
     - [2K Games / Firaxis Games](#2k-games--firaxis-games)
+    - [2K Czech / Illusion Softworks](#2k-czech--illusion-softworks)
     - [Bohemia Interactive](#bohemia-interactive)
+    - [Bugbear Entertainment](#bugbear-entertainment)
     - [Blizzard Entertainment](#blizzard-entertainment)
     - [Westwood Studios / EA Los Angeles](#westwood-studios--ea-los-angeles)
   - [🔗 Related Lists](#-related-lists)
@@ -432,7 +437,6 @@ This list is for developers and modders working with such formats. It provides t
 - [unneko](https://github.com/lico-n/unneko) - Archive extraction tool for various formats.
 - [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Multi-purpose tool for various game file formats.
 - [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for working with BDAT (Binary Data) files.
-- [Gibbed.Rebirth](https://github.com/gibbed/Gibbed.Rebirth) - Tools for The Binding of Isaac: Rebirth file formats.
 - [XtractQuery](https://github.com/onepiecefreak3/XtractQuery) - Query tool for extracting game file formats.
 - [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) - Java tool for assessing PlayStation 4 package files.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Archive extraction tool.
@@ -454,7 +458,6 @@ This list is for developers and modders working with such formats. It provides t
 - [NLG-File-Editor-Tool](https://github.com/KillzXGaming/NLG-File-Editor-Tool) - File editor tool for NLG format.
 - [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 - [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
-- [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [RDLMINT](https://github.com/firubii/RDLMINT) - Tool for RDLMINT format files.
 - [sarc](https://github.com/jam1garner/sarc) - Rust library for Nintendo SARC archive format.
 - [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
@@ -471,7 +474,6 @@ This list is for developers and modders working with such formats. It provides t
 - [Personal-Editor](https://github.com/SciresM/Personal-Editor) - Editor for personal save files.
 - [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Editor for Crystal file formats.
 - [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for RSBR PAK archive files.
-- [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
 - [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
 - [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
@@ -1048,6 +1050,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [PS1-BRender-Reverse](https://github.com/OverSurge/PS1-Argonaut-Reverse) - Reverse engineering tools for PlayStation 1 BRender engine games like Harry Potter and Croc 2.
 - [Stratigise](https://github.com/Argonaut-PS1-Reverse/Stratigise) - WIP tool for disassembling and (re)assembling ASL binaries for Croc 1.
+- [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
 
 ### Arkane Studios
 
@@ -1602,6 +1605,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Nyanko](https://github.com/Tiniifan/Nyanko) - Level 5 Text Editor
 - [Pingouin](https://github.com/Tiniifan/Pingouin) - Level 5 Archive File Manager
 - [StudioElevenLib](https://github.com/Tiniifan/StudioElevenLib) - Additional C# library for files supported by the Studio Eleven Blender Addon
+
+### Lionhead Studios
+
+- [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 
 ### Mario Artist
 
