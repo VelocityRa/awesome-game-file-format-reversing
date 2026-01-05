@@ -430,6 +430,8 @@ This list is for developers and modders working with such formats. It provides t
 - [SF643D_Tools](https://github.com/thtrandomlurker/SF643D_Tools) - Collection of tools for viewing and modifying data from SF643D.
 - [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
 - [cgrr-megapede](https://github.com/sopoforic/cgrr-megapede) - Tools for reading score files and resources for Megapede game.
+- [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats (FBX, STL, PLY).
+- [SuperLM](https://github.com/Sage-of-Mirrors/SuperLM) - Library for working with BIN and MP formats found in Luigi's Mansion.
 
 ### 🔊 Audio Tools
 
