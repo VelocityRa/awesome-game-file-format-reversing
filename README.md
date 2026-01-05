@@ -2468,6 +2468,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Complete editing tool suite for Bohemia Interactive's game engine used in ARMA II. This installer will overwrite previously released BI Editing Tools for Arma I (user made data are intact) and it can not be possible to pack and finalize content for Arma I using the newer tools. Despite it may be ...
 
+### Bugbear Entertainment
+
+- [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
+
 ### Blizzard Entertainment
 
 - [wow.export](https://github.com/Kruithne/wow.export) - World of Warcraft model and texture exporter.
