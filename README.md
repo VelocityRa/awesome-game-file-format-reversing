@@ -442,6 +442,15 @@ This list is for developers and modders working with such formats. It provides t
 - [Tyrant](https://github.com/Scobalula/Tyrant) - Tyrant tool for Call of Duty file formats.
 - [XenoLib](https://github.com/PredatorCZ/XenoLib) - Xenoblade Chronicles file format library.
 - [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
+- [PSO2-Aqua-Library](https://github.com/Shadowth117/PSO2-Aqua-Library) - Library for Phantasy Star Online 2 file formats.
+- [IndexV2](https://github.com/Wildenhaus/IndexV2) - Tool for working with game index files.
+- [rtcw-wet-blender-model-tools](https://github.com/mino-git/rtcw-wet-blender-model-tools) - Blender model tools for Return to Castle Wolfenstein: Enemy Territory.
+- [SCEditor](https://github.com/ToxicLand/SCEditor) - Editor for Supercell game formats.
+- [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) - .NET wrapper for Assimp library for importing 3D models.
+- [nifxml](https://github.com/niftools/nifxml) - XML schemas for NetImmerse/Gamebryo NIF model format.
+- [MagicaVoxel-Importer](https://github.com/scayze/MagicaVoxel-Importer) - Blender addon for importing MagicaVoxel .vox files.
+- [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Godot plugin for importing GoldSrc MDL models.
+- [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - Python library for parsing Unreal Engine 4 file formats.
 
 ### 🔊 Audio Tools
 
