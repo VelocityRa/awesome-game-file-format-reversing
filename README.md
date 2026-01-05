@@ -620,6 +620,31 @@ This list is for developers and modders working with such formats. It provides t
 - [RORPSPTOOL](https://github.com/leeao/RORPSPTOOL) - Tool for ROR PSP format.
 - [FpkTool](https://github.com/Shadowth117/FpkTool) - Tool for FPK archive format.
 - [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
+- [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for ER DATA format files.
+- [libgcl](https://github.com/Jayveer/libgcl) - Library for GCL format files.
+- [JPoke-Export](https://github.com/vgmoose/JPoke-Export) - Pokémon save file exporter.
+- [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
+- [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
+- [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
+- [irarc_unpacker](https://github.com/efimandreev0/irarc_unpacker) - Unpacker for IRARC archive format.
+- [HeroesCollisionTool](https://github.com/igorseabra4/HeroesCollisionTool) - Collision tool for Sonic Heroes.
+- [RECOM_Toolkit](https://github.com/GovanifY/RECOM_Toolkit) - Toolkit for Kingdom Hearts Re:Chain of Memories.
+- [ImZouna](https://github.com/widberg/ImZouna) - Tool for Zouna format files.
+- [binunpack](https://github.com/shibbo/binunpack) - Binary unpacker tool.
+- [sms-tools](https://github.com/JoshuaMKW/sms-tools) - Tools for Super Mario Sunshine.
+- [YomawariMidnightArchiveTool](https://github.com/efimandreev0/YomawariMidnightArchiveTool) - Archive tool for Yomawari: Midnight Shadows.
+- [Event_List_Editor](https://github.com/Sage-of-Mirrors/Event_List_Editor) - Editor for event list files.
+- [ff7tool](https://github.com/jkbenaim/ff7tool) - Tool for Final Fantasy 7 file formats.
+- [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for FCI FAT format files.
+- [GARTool](https://github.com/efimandreev0/GARTool) - Tool for GAR archive format.
+- [BFBBJSPTool](https://github.com/igorseabra4/BFBBJSPTool) - JSP tool for SpongeBob SquarePants: Battle for Bikini Bottom.
+- [CB.KAR.Tool](https://github.com/Ekey/CB.KAR.Tool) - Tool for CB KAR format files.
+- [WOGWiiTools](https://github.com/Nenkai/WOGWiiTools) - Tools for World of Goo Wii version.
+- [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
+- [blue-sphere](https://github.com/scurest/blue-sphere) - Tool for Sonic 3 & Knuckles special stage files.
+- [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
+- [MegaManPoweredUpTool](https://github.com/efimandreev0/MegaManPoweredUpTool) - Tool for Mega Man Powered Up files.
+- [MegaManLINKExtract](https://github.com/efimandreev0/MegaManLINKExtract) - Extractor for Mega Man Battle Network LINK files.
 
 ### 🔊 Audio Tools
 
