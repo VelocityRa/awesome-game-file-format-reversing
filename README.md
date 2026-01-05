@@ -522,6 +522,25 @@ This list is for developers and modders working with such formats. It provides t
 - [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
 - [ReBandicoot](https://github.com/kohtep/ReBandicoot) - Reverse engineering tools for Crash Bandicoot.
 - [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
+- [DOOMP](https://github.com/Ret-HZ/DOOMP) - Doom file format parser and extractor.
+- [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
+- [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
+- [RDLMINT](https://github.com/firubii/RDLMINT) - Tool for RDLMINT format files.
+- [KirbyAirRideTools](https://github.com/LuigiBlood/KirbyAirRideTools) - Tools for Kirby Air Ride file formats.
+- [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Tool for Rayman 2 file formats.
+- [SaveStadium](https://github.com/Ploaj/SaveStadium) - Save file editor for Pokémon Stadium games.
+- [sarc](https://github.com/jam1garner/sarc) - Rust library for Nintendo SARC archive format.
+- [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Editor for Grand Theft Auto V handling files.
+- [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
+- [SonicMania-SaveEditor](https://github.com/Erik-JS/SonicMania-SaveEditor) - Save editor for Sonic Mania.
+- [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
+- [tspak](https://github.com/OpenRadical/tspak) - Tool for TSPAK archive format.
+- [Strikers2013Editor](https://github.com/obluda3/Strikers2013Editor) - Editor for Mario Strikers 2013 files.
+- [AfsLib](https://github.com/Sewer56/AfsLib) - Library for AFS archive format.
+- [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
+- [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
+- [WiiExplorer](https://github.com/Aristotura/WiiExplorer) - Wii filesystem explorer tool.
+- [tdmextractor](https://github.com/NerduMiner/tdmextractor) - Extractor for TDM format files.
 
 ### 🔊 Audio Tools
 
