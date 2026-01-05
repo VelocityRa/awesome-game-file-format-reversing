@@ -520,6 +520,15 @@ This list is for developers and modders working with such formats. It provides t
     NHL series, Def Jam: Fight for NY, Harry Potter and the Chamber of Secrets, The Sims, and more.
 - [EA-Loc-Manager](https://github.com/bartlomiejduda/EA-Loc-Manager) - Extract and import localization files (LOC format) from EA games. Supports UTF-8, UTF-16, and Latin-1 encodings.
   - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
+- [game-extraction-toolbox](https://github.com/shawngmc/game-extraction-toolbox) - Collection of tools for extracting assets from various games.
+- [save-decrypters](https://github.com/bucanero/save-decrypters) - Collection of save file decrypters for multiple games and platforms.
+- [HyoutaTools](https://github.com/AdmiralCurtiss/HyoutaTools) - Multi-game tools for various Japanese game formats.
+- [Gibbed.MassEffectAndromeda](https://github.com/gibbed/Gibbed.MassEffectAndromeda) - Tools for Mass Effect: Andromeda file formats.
+- [Gibbed.RED4](https://github.com/gibbed/Gibbed.RED4) - Tools for Cyberpunk 2077 file formats.
+- [Supercell-Extractor](https://github.com/baraklevy20/Supercell-Extractor) - Extractor for Supercell game formats (Clash of Clans, Clash Royale, etc.).
+- [RSDK-Reverse](https://github.com/Rubberduckycooly/RSDK-Reverse) - Reverse engineering tools for Retro Engine games (Sonic CD, Sonic 1, Sonic 2).
+- [vgm-disasm](https://github.com/loveemu/vgm-disasm) - Disassembler for VGM (Video Game Music) files.
+- [sc-compression](https://github.com/jeanbmar/sc-compression) - Compression tools for Supercell game formats.
 - [TTG-Tools](https://github.com/zenderovpaulo95/TTG-Tools) - Translation utility for Telltale Games titles ([original version here](https://github.com/bartlomiejduda/TTG_Tools)). Supports texture conversion (d3dtx to dds/pvr), bitmap font editing/export to ttf, archive building/unpacking (ttarch/ttarch2), lua/lenc decryption/encryption, and extended game support including Sam & Max remasters and The Walking Dead: Definitive Series.
   - Games: Telltale Texas Hold'em, Bone (Out from Boneville, The Great Cow Race), Sam & Max (Save the World, Beyond Time and Space, The Devil's Playhouse), Strong Bad's Cool Game for Attractive People, Wallace & Gromit's Grand Adventures, Tales of Monkey Island, Hector: Badge of Carnage, Nelson Tethers: Puzzle Agent, Poker Night at the Inventory, Back to the Future: The Game, Puzzle Agent 2, Jurassic Park: The Game, Law & Order: Legacies, The Walking Dead (Season One, Season Two, Michonne, A New Frontier), Poker Night 2, The Wolf Among Us, Tales from the Borderlands, Game of Thrones, Minecraft: Story Mode, Batman: The Telltale Series.
 - [RTB-3DSMax-Scripts](https://github.com/RandomTBush/RTB-3DSMax-Scripts) - Comprehensive collection of 3ds Max scripts for importing models from dozens of games and engines.
