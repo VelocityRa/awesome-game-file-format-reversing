@@ -1378,6 +1378,7 @@ This list is for developers and modders working with such formats. It provides t
 - [bwterrain-blender](https://github.com/RenolY2/bwterrain-blender) - Blender addon for Battalion Wars terrain.
 - [bw-restool](https://github.com/RenolY2/bw-restool) - Resource tool for Battalion Wars files.
 - [bw-texture-conv](https://github.com/RenolY2/bw-texture-conv) - Texture converter for Battalion Wars.
+- [bw-restool-GUI](https://github.com/JasperZebra/bw-restool-GUI) - Battalion Wars Unified Tool combining restool and texture converter. Handles RES archive extraction and texture file conversion with automatic game version detection for both BW1 and BW2.
 
 ### Larian Studios
 
