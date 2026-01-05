@@ -451,6 +451,14 @@ This list is for developers and modders working with such formats. It provides t
 - [MagicaVoxel-Importer](https://github.com/scayze/MagicaVoxel-Importer) - Blender addon for importing MagicaVoxel .vox files.
 - [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Godot plugin for importing GoldSrc MDL models.
 - [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - Python library for parsing Unreal Engine 4 file formats.
+- [Material-Editor](https://github.com/ousnius/Material-Editor) - Editor for game material files.
+- [yk_gmd_io](https://github.com/theturboturnip/yk_gmd_io) - Blender addon for importing/exporting Yakuza GMD model format.
+- [puyotools](https://github.com/nickworonekin/puyotools) - Tools for Puyo Puyo game file formats.
+- [Warframe-Exporter](https://github.com/Puxtril/Warframe-Exporter) - Exporter for Warframe game assets.
+- [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
+- [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
+- [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
+- [save-decrypters](https://github.com/bucanero/save-decrypters) - Collection of save file decrypters for multiple games and platforms.
 
 ### 🔊 Audio Tools
 
