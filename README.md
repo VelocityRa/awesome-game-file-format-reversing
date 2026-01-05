@@ -472,7 +472,6 @@ This list is for developers and modders working with such formats. It provides t
 - [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Editor for Crystal file formats.
 - [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for RSBR PAK archive files.
 - [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
-- [ggst_collision_editor_rs](https://github.com/WistfulHopes/ggst_collision_editor_rs) - Collision editor for Guilty Gear Strive.
 - [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
 - [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
@@ -485,18 +484,14 @@ This list is for developers and modders working with such formats. It provides t
 - [yafe](https://github.com/tge-was-taken/yafe) - Yet Another File Extractor for various game formats.
 - [Rezun](https://github.com/XAYRGA/Rezun) - Archive extraction tool.
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for GRF archive format.
-- [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Tool for Camelot GameCube data files.
 - [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Extractor for Mega Package archive format.
 - [BBFSUnpacker](https://github.com/Nenkai/BBFSUnpacker) - Unpacker for BBFS archive format.
-- [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
 - [No-More-RSL](https://github.com/Timo654/No-More-RSL) - Tool for RSL format files.
-- [EventWaker](https://github.com/Sage-of-Mirrors/EventWaker) - Tool for Event Waker file formats.
 - [MbsEditor](https://github.com/Monkeytron/MbsEditor) - Editor for MBS format files.
 - [GSTExtract](https://github.com/shibbo/GSTExtract) - Extractor for GST format files.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for PKG package format.
 - [ToadsTool](https://github.com/huderlem/ToadsTool) - Tool for Toad's file formats.
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Tool for FEIF ARC archive format.
-- [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Data builder for SGX format files.
 - [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
 - [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
@@ -504,7 +499,6 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
 - [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
 - [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
-- [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Text tool for Gangstar Vegas game files.
 - [rpga](https://github.com/elizagamedev/rpga) - RPG Archive extractor and packer.
 - [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
@@ -524,7 +518,6 @@ This list is for developers and modders working with such formats. It provides t
 - [RORPSPTOOL](https://github.com/leeao/RORPSPTOOL) - Tool for ROR PSP format.
 - [FpkTool](https://github.com/Shadowth117/FpkTool) - Tool for FPK archive format.
 - [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
-- [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for ER DATA format files.
 - [libgcl](https://github.com/Jayveer/libgcl) - Library for GCL format files.
 - [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
 - [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
@@ -533,7 +526,6 @@ This list is for developers and modders working with such formats. It provides t
 - [ImZouna](https://github.com/widberg/ImZouna) - Tool for Zouna format files.
 - [binunpack](https://github.com/shibbo/binunpack) - Binary unpacker tool.
 - [YomawariMidnightArchiveTool](https://github.com/efimandreev0/YomawariMidnightArchiveTool) - Archive tool for Yomawari: Midnight Shadows.
-- [Event_List_Editor](https://github.com/Sage-of-Mirrors/Event_List_Editor) - Editor for event list files.
 - [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for FCI FAT format files.
 - [GARTool](https://github.com/efimandreev0/GARTool) - Tool for GAR archive format.
 - [CB.KAR.Tool](https://github.com/Ekey/CB.KAR.Tool) - Tool for CB KAR format files.
@@ -1003,6 +995,10 @@ This list is for developers and modders working with such formats. It provides t
 - [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Converter for OBJ files to Xmodel format. For use with Call of Duty 4 and Call of Duty: World at War mapping.
 - [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5)
 
+#### Ghostbusters
+
+- [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
+
 ### Angel Matrix
 
 - [noclip.website (Neon White)](https://github.com/magcius/noclip.website/tree/main/src/NeonWhite) - In-browser Neon White viewer.
@@ -1085,6 +1081,7 @@ This list is for developers and modders working with such formats. It provides t
 - [TalesOfFantasy (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugins for Tales series.
 - [ARC](https://github.com/Bigchillghost/ARC) - Animation Recipe Cracker for Bandai Namco games.
 - [MBTL.BIN.Tool](https://github.com/Ekey/MBTL.BIN.Tool) - Tool for extracting BIN archives from MELTY BLOOD: TYPE LUMINA.
+- [ggst_collision_editor_rs](https://github.com/WistfulHopes/ggst_collision_editor_rs) - Collision editor for Guilty Gear Strive.
 - [noclip.website (Klonoa)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Klonoa viewer.
 - [noclip.website (Katamari Damacy)](https://github.com/magcius/noclip.website/tree/main/src/KatamariDamacy) - In-browser Katamari Damacy viewer.
 
@@ -1287,6 +1284,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ESDLang](https://github.com/thefifthmatt/ESDLang) - Decompiler for ESD event script format.
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
+- [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for ER DATA format files.
 
 ### Gearbox Software
 
@@ -1725,6 +1723,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Shogo Mobile Armor Division Modding Tools](https://www.moddb.com/games/shogo-mobile-armor-division/downloads/shogo-mobile-armor-division-modding-tools) - Modding tools for Shogo Mobile Armor Division. Includes help for Shogo API:s used in the Source Code.
 - [Shogo tools 64 bit](https://www.moddb.com/games/shogo-mobile-armor-division/downloads/shogo-tools-64-bit) - 64-bit compatible SDK files for Shogo: Mobile Armor Division. The official SDK installer only works on 16-bit and 32-bit systems, so these are the extracted files for 64-bit systems.
 
+#### Serious Sam
+
+- [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
+
 ### Oddworld Inhabitants
 
 - [Asset Tool (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/asset-tool) - Tool for converting Oddworld: Abe's Exoddus cutscenes to MP4 and previewing/exporting sprites from both Abe's Oddysee and Abe's Exoddus. Requires level files from both games, the tool, and ffmpeg.exe.
@@ -1875,6 +1877,8 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Wind Waker)](https://github.com/magcius/noclip.website/tree/main/src/ZeldaWindWaker) - In-browser Wind Waker viewer.
 - [noclip.website (Twilight Princess)](https://github.com/magcius/noclip.website/tree/main/src/ZeldaTwilightPrincess) - In-browser Twilight Princess viewer.
 - [noclip.website (Skyward Sword)](https://github.com/magcius/noclip.website/tree/main/src/ZeldaSkywardSword) - In-browser Skyward Sword viewer.
+- [EventWaker](https://github.com/Sage-of-Mirrors/EventWaker) - Tool for Event Waker file formats.
+- [Event_List_Editor](https://github.com/Sage-of-Mirrors/Event_List_Editor) - Editor for event list files.
 
 #### Wii Sports
 
@@ -1914,6 +1918,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Pokemon Snap)](https://github.com/magcius/noclip.website/tree/main/src/PokemonSnap) - In-browser Pokemon Snap viewer.
 - [noclip.website (Pokemon Platinum)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon Platinum viewer.
 - [noclip.website (Pokemon HeartGold/SoulSilver)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Pokemon HeartGold/SoulSilver viewer.
+- [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Tool for Camelot GameCube data files.
 - [amnoid.de/gc](http://amnoid.de/gc/) - GameCube file format documentation and tools.
 - [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) - Nintendo Wii/Gamecube BMS to MIDI converter
 - [CaveGenerator](https://github.com/Fizz14/CaveGenerator) - A tool to generate caves for Pikmin 2.
@@ -2406,6 +2411,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
 - [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Tool for Rayman 2 file formats.
+- [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Text tool for Gangstar Vegas game files.
 - [Jormungandr](https://github.com/neptuwunium/Jormungandr) - File format research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting SPK audio files found in Ubisoft game .dat files.
 - [Ray1Editor](https://github.com/RayCarrot/Ray1Editor) - 2D map editor for modifying maps in Rayman 1 games. Supports Rayman 1 PS1, PC (multiple versions), Educational, Designer, by his Fans, and 60 Levels versions.
