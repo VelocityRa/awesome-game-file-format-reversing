@@ -426,6 +426,10 @@ This list is for developers and modders working with such formats. It provides t
 - [gotcha-afs-tool](https://github.com/RenolY2/gotcha-afs-tool) - Unpacker and repacker for Gotcha Force's AFS format (tested on GameCube version).
 - [DoomRPG-RE-3DS](https://github.com/efimandreev0/DoomRPG-RE-3DS) - Nintendo 3DS port of the reverse engineered Doom RPG.
 - [Sm4shExplorer](https://github.com/jam1garner/Sm4shExplorer) - Tool for managing the file-system of Super Smash Bros. for Wii U.
+- [BabylonsFallTools](https://github.com/Nenkai/BabylonsFallTools) - Extraction tools for BABYLON'S FALL PKZL/.pkz & DAT files.
+- [SF643D_Tools](https://github.com/thtrandomlurker/SF643D_Tools) - Collection of tools for viewing and modifying data from SF643D.
+- [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
+- [cgrr-megapede](https://github.com/sopoforic/cgrr-megapede) - Tools for reading score files and resources for Megapede game.
 
 ### 🔊 Audio Tools
 
