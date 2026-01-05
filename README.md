@@ -541,6 +541,31 @@ This list is for developers and modders working with such formats. It provides t
 - [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
 - [WiiExplorer](https://github.com/Aristotura/WiiExplorer) - Wii filesystem explorer tool.
 - [tdmextractor](https://github.com/NerduMiner/tdmextractor) - Extractor for TDM format files.
+- [libbndl](https://github.com/Bo98/libbndl) - Library for BNDL archive format.
+- [LtxParser](https://github.com/JKAnderson/LtxParser) - Parser for LTX configuration files.
+- [ard-tools](https://github.com/roccodev/ard-tools) - Tools for ARD format files.
+- [Gibbed.EFX](https://github.com/gibbed/Gibbed.EFX) - Tools for EFX format files.
+- [Personal-Editor](https://github.com/SciresM/Personal-Editor) - Editor for personal save files.
+- [SoulCalibur2-game-unpacker](https://github.com/PS2Homebrew-arcade/SoulCalibur2-game-unpacker) - Unpacker for Soul Calibur 2 game files.
+- [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Editor for Crystal file formats.
+- [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for RSBR PAK archive files.
+- [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
+- [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
+- [ggst_collision_editor_rs](https://github.com/WistfulHopes/ggst_collision_editor_rs) - Collision editor for Guilty Gear Strive.
+- [Wargrave-Pokemon-Gen2-Editors](https://github.com/sandbPublic/Wargrave-Pokemon-Gen2-Editors) - Editors for Pokémon Gen 2 games.
+- [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
+- [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
+- [KH1FM_Toolkit](https://github.com/GovanifY/KH1FM_Toolkit) - Toolkit for Kingdom Hearts 1 Final Mix.
+- [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
+- [AVFExt](https://github.com/puggsoy/AVFExt) - Extractor for AVF format files.
+- [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for Euro Truck Simulator 2 SCS files.
+- [bland2digtool](https://github.com/gamemasterplc/bland2digtool) - Tool for BLAND2DIG format files.
+- [RatchetLevelEditor](https://github.com/badger41/RatchetLevelEditor) - Level editor for Ratchet & Clank games.
+- [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
+- [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
+- [puyo-pac](https://github.com/nickworonekin/puyo-pac) - Tool for Puyo Puyo PAC archive format.
+- [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
+- [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for Star Fox 64 file formats.
 
 ### 🔊 Audio Tools
 
