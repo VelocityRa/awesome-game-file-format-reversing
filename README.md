@@ -543,6 +543,13 @@ This list is for developers and modders working with such formats. It provides t
 - [Dvondrake's SMD exporter for Blender](https://www.moddb.com/groups/source-developers/downloads/dvondrake-smd-blender) - The first fully-functional Source engine SMD exporter for Blender. Supports reference, physics and animation, and has an accompanying video tutorial.
 - [Autodesk Softimage Mod Tool 7.5 (Source Developers)](https://www.moddb.com/groups/source-developers/downloads/autodesk-softimage-mod-tool-75) - (Formerly the XSI Mod Tool) A completely free version of the Autodesk Softimage modelling package. Plugins for Source, CryEngine 2, Unreal Engine 3, XNA, Unity, and more are available.
 - [Blender3D SMD Exporter (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/blender3d-smd-exporter) - Provides support for Blender3D to export models to the Half-Life 2 SMD format. Supports rigged meshes as well as animations.
+- [ValveResourceFormat](https://github.com/ValveResourceFormat/ValveResourceFormat) - C# library and tools for reading and writing Valve Source engine resource files.
+- [source-engine](https://github.com/nillerusr/source-engine) - Source engine tools and utilities.
+- [GARbro](https://github.com/morkt/GARbro) - Visual Novels archive browser and extractor supporting many formats.
+- [openrw](https://github.com/rwengine/openrw) - Open source re-implementation of Rockstar's RenderWare engine.
+- [unrpa](https://github.com/Lattyware/unrpa) - Extractor for RPA archives used in Ren'Py visual novels.
+- [GtkRadiant](https://github.com/TTimo/GtkRadiant) - Level editor for id Tech and Source engine games.
+- [jpsxdec](https://github.com/m35/jpsxdec) - PlayStation 1 disc image extractor and converter.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool that integrates into Hammer for on-the-fly conversion of Source Engine units to metric or imperial units. Converts Hammer's status bar into a real-time unit converter showing object dimensions.
 - [Hammer Units Converter 2.2](https://www.moddb.com/groups/level-design-group/downloads/hammer-units-converter-22) - Tool for converting values between imperial, metric, and Hammer (Source engine map editor) units. Useful for mappers working with mixed measurement systems (v2.2).
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Simple model viewer for GoldSrc engine (Half-Life 1) models. Supports MDL format (v0.3a Beta2, archived). Note: MDL v4 support not yet added.
