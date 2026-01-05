@@ -387,6 +387,14 @@ This list is for developers and modders working with such formats. It provides t
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
 - [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
 - [slippi-ssbm-asm](https://github.com/project-slippi/slippi-ssbm-asm) - Assembly tools for Super Smash Bros. Melee Slippi format.
+- [DoS-2-Savegame-Editor](https://github.com/NovFR/DoS-2-Savegame-Editor) - Save game editor for Divinity: Original Sin 2.
+- [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
+- [valve-bsp-parser](https://github.com/ReactiioN1337/valve-bsp-parser) - Parser for Valve BSP (Binary Space Partition) map files.
+- [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
+- [ParManager](https://github.com/Kaplas80/ParManager) - Tools for Yakuza series PAR archive files.
+- [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
+- [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
+- [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
 
 ### 🔊 Audio Tools
 
