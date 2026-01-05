@@ -405,6 +405,14 @@ This list is for developers and modders working with such formats. It provides t
 - [resPack](https://github.com/XAYRGA/resPack) - Extractor for XBOX A Series of Unfortunate Events.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
 - [bm642romtool](https://github.com/gamemasterplc/bm642romtool) - Bomberman 64 The Second Attack ROM compression tool.
+- [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
+- [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
+- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
+- [Chisels-and-Bits](https://github.com/ChiselsAndBits/Chisels-and-Bits) - Minecraft mod for detailed block manipulation and extraction.
+- [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
+- [Legacy-Minecraft](https://github.com/Wilyicaro/Legacy-Minecraft) - Tools for working with legacy Minecraft file formats.
+- [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
+- [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
 
 ### 🔊 Audio Tools
 
