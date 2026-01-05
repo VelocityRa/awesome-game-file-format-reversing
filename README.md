@@ -476,7 +476,6 @@ This list is for developers and modders working with such formats. It provides t
 - [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
 - [AVFExt](https://github.com/puggsoy/AVFExt) - Extractor for AVF format files.
-- [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for Euro Truck Simulator 2 SCS files.
 - [bland2digtool](https://github.com/gamemasterplc/bland2digtool) - Tool for BLAND2DIG format files.
 - [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
 - [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
@@ -496,7 +495,6 @@ This list is for developers and modders working with such formats. It provides t
 - [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
 - [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
 - [bea-extract](https://github.com/shibbo/bea-extract) - Extractor for BEA archive format.
-- [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
 - [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
 - [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
 - [rpga](https://github.com/elizagamedev/rpga) - RPG Archive extractor and packer.
@@ -2175,6 +2173,10 @@ This list is for developers and modders working with such formats. It provides t
 - [god_of_war_browser](https://github.com/mogaika/god_of_war_browser) - WebGL-based in-browser viewer for God of War I/II (PS2/PS3/Vita) models and textures.
 - [God of War 2018 PS4 Tools](https://forum.xentax.com/viewtopic.php?f=16&t=22897) - XeNTaX forum discussion and extraction tools for God of War (2018) on PlayStation 4. *(Link archived/dead)*
 
+### SCS Software
+
+- [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for Euro Truck Simulator 2 SCS files.
+
 ### Sega
 
 - [puyotools](https://github.com/nickworonekin/puyotools) - Tools for Puyo Puyo game file formats.
@@ -2457,6 +2459,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - Official plugin for 3DS Max 6 with support for 3D models used in Sid Meier's Civilization IV.
 - [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - Official plugin for 3DS Max 7 and newer with support for 3D models used in Sid Meier's Civilization IV.
+
+### 2K Czech / Illusion Softworks
+
+- [mafia-formats](https://github.com/RoadTrain/mafia-formats) - Documentation and tools for Mafia game file formats.
 
 ### Bohemia Interactive
 
