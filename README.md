@@ -458,8 +458,6 @@ This list is for developers and modders working with such formats. It provides t
 - [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
 - [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
 - [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
-- [save-decrypters](https://github.com/bucanero/save-decrypters) - Collection of save file decrypters for multiple games and platforms.
-
 ### 🔊 Audio Tools
 
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
