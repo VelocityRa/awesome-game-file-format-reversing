@@ -645,6 +645,21 @@ This list is for developers and modders working with such formats. It provides t
 - [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
 - [MegaManPoweredUpTool](https://github.com/efimandreev0/MegaManPoweredUpTool) - Tool for Mega Man Powered Up files.
 - [MegaManLINKExtract](https://github.com/efimandreev0/MegaManLINKExtract) - Extractor for Mega Man Battle Network LINK files.
+- [M-LTool](https://github.com/efimandreev0/M-LTool) - Tool for M-L format files.
+- [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for RQ TOC format files.
+- [HeroesVisibilityEditor](https://github.com/igorseabra4/HeroesVisibilityEditor) - Visibility editor for Sonic Heroes.
+- [game-asset-loader](https://github.com/macton/game-asset-loader) - Generic game asset loader library.
+- [SpyroETDChunkTool](https://github.com/igorseabra4/SpyroETDChunkTool) - Chunk tool for Spyro: Enter the Dragonfly.
+- [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
+- [SabTool](https://github.com/BoBoBaSs84/SabTool) - Tool for SAB format files.
+- [grf-python](https://github.com/cmbasnett/grf-python) - Python library for GRF format files.
+- [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
+- [WolvenManager](https://github.com/rfuzzo/WolvenManager) - Manager for Witcher game file formats.
+- [BBSonicDSTool](https://github.com/efimandreev0/BBSonicDSTool) - Tool for Sonic DS file formats.
+- [MK64AudioFiles](https://github.com/sauraen/MK64AudioFiles) - Audio file tool for Mario Kart 64.
+- [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Worldpoint editor for Kingdom Hearts 2.
+- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
+- [heightmap-viewer](https://github.com/impiaaa/heightmap-viewer) - Viewer for heightmap files.
 
 ### 🔊 Audio Tools
 
