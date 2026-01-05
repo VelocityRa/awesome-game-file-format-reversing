@@ -594,6 +594,9 @@ This list is for developers and modders working with such formats. It provides t
 - [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) - Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
 - [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) - In-game UI for exploring, debugging and modifying IL2CPP and Mono Unity games.
 - [Unity Asset Editor v0.2 (7 Days To Die)](https://www.moddb.com/games/7-days-to-die/downloads/unity-asset-editor) - Plugin-based asset editor, exporter, and importer for Unity Engine games. Can import and export assets in raw data format and be extended through plugins to support additional asset types (v0.2).
+- [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Tool for extracting IL2CPP metadata and converting IL2CPP binaries.
+- [UnityPy](https://github.com/K0lb3/UnityPy) - Python library for extracting and modifying Unity assets.
+- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) - .NET library for reading and writing Unity asset files.
 
 ### Unreal Engine
 
