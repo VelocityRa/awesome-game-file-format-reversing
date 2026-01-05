@@ -458,6 +458,10 @@ This list is for developers and modders working with such formats. It provides t
 - [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
 - [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
 - [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
+- [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
+- [ds3-open-re](https://github.com/garyttierney/ds3-open-re) - Open reverse engineering resources for Dark Souls 3.
+- [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for Gothic game engine formats.
+
 ### 🔊 Audio Tools
 
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
