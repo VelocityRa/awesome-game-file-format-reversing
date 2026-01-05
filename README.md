@@ -434,6 +434,14 @@ This list is for developers and modders working with such formats. It provides t
 - [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
 - [MBTL.BIN.Tool](https://github.com/Ekey/MBTL.BIN.Tool) - Tool for extracting BIN archives from MELTY BLOOD: TYPE LUMINA.
 - [GTAllPaintEditor](https://github.com/Nenkai/GTAllPaintEditor) - Tool to edit Gran Turismo 6's allpaint.bin file for assigning custom paints to cars through GT Auto.
+- [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
+- [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
+- [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
+- [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
+- [DarkSoulsIII.FileFormats](https://github.com/Atvaark/DarkSoulsIII.FileFormats) - Library for reading Dark Souls III file formats.
+- [Tyrant](https://github.com/Scobalula/Tyrant) - Tyrant tool for Call of Duty file formats.
+- [XenoLib](https://github.com/PredatorCZ/XenoLib) - Xenoblade Chronicles file format library.
+- [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
 
 ### 🔊 Audio Tools
 
