@@ -56,6 +56,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Genie Engine](#genie-engine)
     - [RPG Maker](#rpg-maker)
     - [Rawthrills G7 Engine](#rawthrills-g7-engine)
+    - [OpenSpace](#openspace)
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
       - [Soldier of Fortune](#soldier-of-fortune)
@@ -72,6 +73,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
       - [Ghostbusters](#ghostbusters)
+      - [A Series of Unfortunate Events](#a-series-of-unfortunate-events)
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Ape, Inc](#ape-inc)
@@ -94,6 +96,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Devil May Cry](#devil-may-cry)
       - [Mega Man](#mega-man)
       - [Gregory Horror Show](#gregory-horror-show)
+      - [Gotcha Force](#gotcha-force)
     - [CCR](#ccr)
     - [CCP Games](#ccp-games)
     - [CD Projekt Red](#cd-projekt-red)
@@ -156,6 +159,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Baldur's Gate 3](#baldurs-gate-3)
       - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Level-5](#level-5)
+    - [Lionhead Studios](#lionhead-studios)
     - [Mario Artist](#mario-artist)
     - [Metropolis Software](#metropolis-software)
       - [Gorky 17](#gorky-17)
@@ -388,82 +392,55 @@ This list is for developers and modders working with such formats. It provides t
 
 - [wadext](https://github.com/ZDoom/wadext) - Simple tool for extracting WAD archive contents.
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
-- [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced memory card manager for PlayStation 1 and 2 save files with support for multiple formats.
-- [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
-- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
 - [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
-- [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
 - [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
 - [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
-- [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
 - [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
 - [steam2-extract](https://github.com/NicknineTheEagle/steam2-extract) - Very fast Steam 2 archive extractor.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
-- [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
 - [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
-- [cgrr-megapede](https://github.com/sopoforic/cgrr-megapede) - Tools for reading score files and resources for Megapede game.
 - [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats (FBX, STL, PLY).
-- [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
-- [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
-- [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
-- [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
 - [IndexV2](https://github.com/Wildenhaus/IndexV2) - Tool for working with game index files.
 - [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) - .NET wrapper for Assimp library for importing 3D models.
 - [nifxml](https://github.com/niftools/nifxml) - XML schemas for NetImmerse/Gamebryo NIF model format.
 - [MagicaVoxel-Importer](https://github.com/scayze/MagicaVoxel-Importer) - Blender addon for importing MagicaVoxel .vox files.
-- [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Godot plugin for importing GoldSrc MDL models.
 - [Material-Editor](https://github.com/ousnius/Material-Editor) - Editor for game material files.
-- [XbTool](https://github.com/Thealexbarney/XbTool) - Tool for working with Xbox file formats.
 - [AudioMog](https://github.com/Yoraiz0r/AudioMog) - Audio extraction tool for various game formats.
 - [isodump](https://github.com/Lameguy64/isodump) - ISO image dumper and extractor.
 - [ArcExplorer](https://github.com/ScanMountGoat/ArcExplorer) - Archive explorer for various game formats.
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
 - [X-coder](https://github.com/lilmuff2/X-coder) - File format encoder/decoder tool.
-- [Fmod-Bank-Tools](https://github.com/Wouldubeinta/Fmod-Bank-Tools) - Tools for working with FMOD bank files.
-- [BnkExtractor](https://github.com/AssetRipper/BnkExtractor) - Extractor for Wwise BNK soundbank files.
 - [Guidebook](https://github.com/gigaherz/Guidebook) - Tool for extracting and viewing game guidebook files.
 - [nod](https://github.com/encounter/nod) - Node-based file format library.
-- [sfo](https://github.com/hippie68/sfo) - Tool for working with PlayStation SFO (System File Object) files.
 - [RGLExtractor](https://github.com/Disquse/RGLExtractor) - Extractor for RGL archive files.
 - [M1TE2](https://github.com/nesdoug/M1TE2) - Tool for working with M1TE format files.
-- [otptool](https://github.com/SciresM/otptool) - Tool for Nintendo OTP (One-Time Programmable) files.
 - [ArcCross](https://github.com/Ploaj/ArcCross) - Archive cross-converter tool.
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
-- [HunexFileArchiveTool](https://github.com/LinkOFF7/HunexFileArchiveTool) - File archive tool for Hunex games.
 - [lui-tool](https://github.com/xensik/lui-tool) - Tool for working with LUI (Localized User Interface) files.
 - [unneko](https://github.com/lico-n/unneko) - Archive extraction tool for various formats.
 - [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Multi-purpose tool for various game file formats.
 - [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for working with BDAT (Binary Data) files.
 - [XtractQuery](https://github.com/onepiecefreak3/XtractQuery) - Query tool for extracting game file formats.
-- [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) - Java tool for assessing PlayStation 4 package files.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Archive extraction tool.
 - [RRUnpacker](https://github.com/Nenkai/RRUnpacker) - Unpacker for RR archive format.
-- [XbxDeTool](https://github.com/Nenkai/XbxDeTool) - Xbox file format tool.
 - [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for game file formats.
 - [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File loader for XCNX format files.
 - [mafia-formats](https://github.com/RoadTrain/mafia-formats) - Documentation and tools for Mafia game file formats.
 - [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
 - [GUTArchiveTools](https://github.com/igorciz777/GUTArchiveTools) - Archive tools for GUT (Game Update Tool) format.
-- [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
 - [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Editor for game map data files.
 - [libansnd](https://github.com/Oaisus/libansnd) - Library for ANSND audio format files.
 - [AudiobankToC](https://github.com/sauraen/AudiobankToC) - Converter for audio bank files to C code.
-- [gc-gcm](https://github.com/jam1garner/gc-gcm) - Tool for GameCube GCM file format.
 - [shinen-gax-python](https://github.com/beanieaxolotl/shinen-gax-python) - Python tools for Shinen GAX format.
-- [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
 - [Zamboni](https://github.com/Shadowth117/Zamboni) - Archive extraction tool.
 - [NLG-File-Editor-Tool](https://github.com/KillzXGaming/NLG-File-Editor-Tool) - File editor tool for NLG format.
 - [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 - [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
 - [RDLMINT](https://github.com/firubii/RDLMINT) - Tool for RDLMINT format files.
 - [sarc](https://github.com/jam1garner/sarc) - Rust library for Nintendo SARC archive format.
-- [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
-- [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
 - [tspak](https://github.com/OpenRadical/tspak) - Tool for TSPAK archive format.
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Library for AFS archive format.
-- [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
-- [WiiExplorer](https://github.com/Aristotura/WiiExplorer) - Wii filesystem explorer tool.
 - [tdmextractor](https://github.com/NerduMiner/tdmextractor) - Extractor for TDM format files.
 - [libbndl](https://github.com/Bo98/libbndl) - Library for BNDL archive format.
 - [LtxParser](https://github.com/JKAnderson/LtxParser) - Parser for LTX configuration files.
@@ -472,14 +449,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Personal-Editor](https://github.com/SciresM/Personal-Editor) - Editor for personal save files.
 - [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Editor for Crystal file formats.
 - [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for RSBR PAK archive files.
-- [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
 - [GRPEdit](https://github.com/Garhoogin/GRPEdit) - Editor for GRP archive format.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Editor for effects binary files.
 - [AVFExt](https://github.com/puggsoy/AVFExt) - Extractor for AVF format files.
 - [bland2digtool](https://github.com/gamemasterplc/bland2digtool) - Tool for BLAND2DIG format files.
-- [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
-- [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
-- [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
 - [yafe](https://github.com/tge-was-taken/yafe) - Yet Another File Extractor for various game formats.
 - [Rezun](https://github.com/XAYRGA/Rezun) - Archive extraction tool.
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for GRF archive format.
@@ -495,15 +468,11 @@ This list is for developers and modders working with such formats. It provides t
 - [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
 - [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
 - [bea-extract](https://github.com/shibbo/bea-extract) - Extractor for BEA archive format.
-- [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
-- [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
 - [rpga](https://github.com/elizagamedev/rpga) - RPG Archive extractor and packer.
 - [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
-- [LoAHF.PAK.Tool](https://github.com/Ekey/LoAHF.PAK.Tool) - Tool for Legend of Ace Heroes PAK archive files.
 - [ltar](https://github.com/cmbasnett/ltar) - Python library for LTAR archive format.
 - [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Serializer for NBT (Named Binary Tag) format.
-- [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) - Universal installer for CPK mod files.
 - [SlimeMoriMori](https://github.com/onepiecefreak3/SlimeMoriMori) - Tool for Slime MoriMori file formats.
 - [LojRipper](https://github.com/nkrapivin/LojRipper) - Ripper for LOJ format files.
 - [mpdsarchivetool](https://github.com/gamemasterplc/mpdsarchivetool) - Archive tool for MPDS format files.
@@ -513,28 +482,20 @@ This list is for developers and modders working with such formats. It provides t
 - [mpromtool](https://github.com/gamemasterplc/mpromtool) - Tool for MPROM format files.
 - [blender3d_xeios](https://github.com/boringhexi/blender3d_xeios) - Blender addon for XEIOS format files.
 - [h5_dumper](https://github.com/Surasia/h5_dumper) - Dumper for H5 format files.
-- [RORPSPTOOL](https://github.com/leeao/RORPSPTOOL) - Tool for ROR PSP format.
 - [FpkTool](https://github.com/Shadowth117/FpkTool) - Tool for FPK archive format.
-- [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
 - [libgcl](https://github.com/Jayveer/libgcl) - Library for GCL format files.
-- [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
 - [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
-- [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
 - [irarc_unpacker](https://github.com/efimandreev0/irarc_unpacker) - Unpacker for IRARC archive format.
 - [ImZouna](https://github.com/widberg/ImZouna) - Tool for Zouna format files.
 - [binunpack](https://github.com/shibbo/binunpack) - Binary unpacker tool.
-- [YomawariMidnightArchiveTool](https://github.com/efimandreev0/YomawariMidnightArchiveTool) - Archive tool for Yomawari: Midnight Shadows.
 - [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for FCI FAT format files.
 - [GARTool](https://github.com/efimandreev0/GARTool) - Tool for GAR archive format.
 - [CB.KAR.Tool](https://github.com/Ekey/CB.KAR.Tool) - Tool for CB KAR format files.
-- [WOGWiiTools](https://github.com/Nenkai/WOGWiiTools) - Tools for World of Goo Wii version.
-- [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
 - [M-LTool](https://github.com/efimandreev0/M-LTool) - Tool for M-L format files.
 - [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for RQ TOC format files.
 - [game-asset-loader](https://github.com/macton/game-asset-loader) - Generic game asset loader library.
 - [SabTool](https://github.com/BoBoBaSs84/SabTool) - Tool for SAB format files.
 - [grf-python](https://github.com/cmbasnett/grf-python) - Python library for GRF format files.
-- [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
 - [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
 - [heightmap-viewer](https://github.com/impiaaa/heightmap-viewer) - Viewer for heightmap files.
 
@@ -832,6 +793,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [G7Reader](https://github.com/Surasia/G7Reader) - Utility to read Rawthrills G7 Engine archive files.
 
+### OpenSpace
+
+- [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
+- [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - Binary serializer for OpenSpace format.
+
 ### Raven Software
 
 #### Heretic II
@@ -947,6 +913,7 @@ This list is for developers and modders working with such formats. It provides t
 *CRI Middleware formats (CPK archives, ADX audio, etc.) used in many Japanese games across multiple platforms.*
 
 - [CriPakTools](https://github.com/esperknight/CriPakTools) - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
+- [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) - Universal installer for CPK mod files.
 - [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
 - [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
 
@@ -1634,6 +1601,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Microsoft Studios / Bungie / Turn 10
 
+- [XbTool](https://github.com/Thealexbarney/XbTool) - Tool for working with Xbox file formats.
+- [XbxDeTool](https://github.com/Nenkai/XbxDeTool) - Xbox file format tool.
+
 #### Halo
 
 - [KSoft](https://github.com/KornnerStudios/KSoft) - Toolkit for working with Halo engine file formats.
@@ -1969,6 +1939,38 @@ This list is for developers and modders working with such formats. It provides t
 - [RomFS-Builder](https://github.com/SciresM/RomFS-Builder) - Program to convert a folder in Windows into a 3DS RomFS binary. For use with makerom.
 - [wfslib](https://github.com/koolkdev/wfslib) - WFS (WiiU File System) library and tools.
 - [LegacySwitchLibraries](https://github.com/KillzXGaming/LegacySwitchLibraries) - Switch file format libraries for Switch Toolbox and other programs.
+- [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
+- [otptool](https://github.com/SciresM/otptool) - Tool for Nintendo OTP (One-Time Programmable) files.
+- [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
+- [sarc](https://github.com/jam1garner/sarc) - Rust library for Nintendo SARC archive format.
+- [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
+- [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
+- [arc-fuse](https://github.com/jam1garner/arc-fuse) - FUSE filesystem for ARC archive format.
+- [lzarc](https://github.com/jam1garner/lzarc) - Tool for LZARC compressed archive format.
+- [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
+- [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
+- [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
+- [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
+- [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
+- [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
+- [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
+- [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
+- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
+- [gc-gcm](https://github.com/jam1garner/gc-gcm) - Tool for GameCube GCM file format.
+- [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
+- [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
+- [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
+- [WiiExplorer](https://github.com/Aristotura/WiiExplorer) - Wii filesystem explorer tool.
+- [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
+- [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
+- [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
+- [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
+- [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
+- [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
+- [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
+- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
+- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
+- [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
 - [apicula](https://github.com/scurest/apicula) - Converter for Nintendo DS .nsbmd 3D model format.
 - [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) - Documentation for Nintendo DS file types.
 - [nitro-fs](https://github.com/DanielPXL/nitro-fs) - Nintendo DS filesystem tools.
@@ -2265,6 +2267,12 @@ This list is for developers and modders working with such formats. It provides t
 - [mkpsxiso](https://github.com/Lameguy64/mkpsxiso) - Tool to build and extract PlayStation 1 CD images from XML. Modern cross-platform replacement for BUILDCD from PsyQ SDK. Supports mixed-mode CD-XA with audio/video streams.
 - [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) - Library, GUI, and CLI tools for creating, inspecting, and modifying PlayStation 4 PKG, SFO, PFS files. Open-source alternative to Sony SDK tools.
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - C# library for working with PlayStation PSARC archive format.
+- [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced memory card manager for PlayStation 1 and 2 save files with support for multiple formats.
+- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
+- [sfo](https://github.com/hippie68/sfo) - Tool for working with PlayStation SFO (System File Object) files.
+- [PS4-Package-Assessor-Java](https://github.com/Cryptogenic/PS4-Package-Assessor-Java) - Java tool for assessing PlayStation 4 package files.
+- [RORPSPTOOL](https://github.com/leeao/RORPSPTOOL) - Tool for ROR PSP format.
+- [pysx](https://github.com/cmbasnett/pysx) - Python library for PSX format files.
 
 ### Square Enix
 
