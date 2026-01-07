@@ -1,0 +1,4 @@
+- [Home](README.md)
+- [Community](#-communities--wikis)
+- [Tools](#-general-tools)
+- [Game & Studio Tools](#-game--studio-tools)
