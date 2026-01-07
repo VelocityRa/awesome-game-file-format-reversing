@@ -173,7 +173,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Gauntlet](#gauntlet)
       - [NFL Blitz](#nfl-blitz)
     - [Monolith Productions](#monolith-productions)
-      - [F.E.A.R.](#fear)
+      - [F.E.A.R](#fear)
       - [Trespasser](#trespasser)
       - [Blood](#blood)
       - [Blood 2: The Chosen](#blood-2-the-chosen)
@@ -275,7 +275,7 @@ This list is for developers and modders working with such formats. It provides t
     - [SuperTuxKart](#supertuxkart)
     - [Telltale Games](#telltale-games)
     - [GSC Game World](#gsc-game-world)
-      - [S.T.A.L.K.E.R.](#stalker)
+      - [S.T.A.L.K.E.R](#stalker)
     - [Troika Games](#troika-games)
     - [Terminal Reality](#terminal-reality)
       - [BloodRayne](#bloodrayne)
@@ -350,7 +350,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Mario Kart 8 Wiki](https://mk8.tockdom.com/wiki/Main_Page) - Documentation for Mario Kart 8 formats and modding.
 - [Luma's Workshop](https://www.lumasworkshop.com/wiki/Category:File_formats) - Nintendo modding wiki.
 - [Splatoon Technical Wiki](https://wiki.oatmealdome.me/index.php/Special:AllPages) - Technical documentation for Splatoon game formats.
-- [Souls Modding Wiki](http://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
+- [Souls Modding Wiki](https://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
 
 ### 📚 Learning Resources & Tutorials
 
@@ -595,7 +595,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Forsaken Assets & Source Code (Half-Life 2)](https://www.moddb.com/mods/forsaken/downloads/forsaken-assets-source-code) - Art assets, map assets, and source code for Forsaken mod (as of June 15, 2008). Released for learning purposes only; credit required if used.
 - [Game Server Browser & Admin Tool 1.2.1 (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/game-server-browser-admin-tool-1-2-1) - A versatile tool that benefits both gamers and administrators alike.
 - [GMad Extractor (Garry's Mod)](https://www.moddb.com/mods/garrys-mod-11-half-life-rebuilt/downloads/gmad-extractor) - A noice, custom, GUI that allows extracting Garry's Mod addon files (.GMA)
-- [Half Life 1 Modding Kit Addon 2](https://www.moddb.com/games/half-life/downloads/half-life-1-modding-kit-addon-2) - Map files and prefabs for Half-Life 1 modding. Includes: M60, Barrett 50 cal, Black Mesa Van, military tanks/trucks, vending machines, computers, and more. Not all tested.
+- [Half Life 1 Modding Kit Addon 2](https://www.moddb.com/mods/half-life-modding-kit/downloads/half-life-1-modding-kit-addon-2) - Map files and prefabs for Half-Life 1 modding. Includes: M60, Barrett 50 cal, Black Mesa Van, military tanks/trucks, vending machines, computers, and more. Not all tested.
 - [Half-Life Asset Manager V3.0.0](https://www.moddb.com/games/half-life/downloads/half-life-asset-manager-v300) - Modeling tool based on Half-Life Model Viewer 2 with many improvements. Best model viewer for Half-Life 1. Note: Only supports Half-Life 1/GoldSource, not Half-Life 2/Source and Source 2 (v3.0.0).
 - [Half-Life DLL Decompiler](https://www.moddb.com/games/half-life/downloads/half-life-dll-decompiler) - DLL decompiling tool for pre-Steam CD-retail versions of Half-Life. Source code provided for programmers and developers.
 - [Half-Life: Insecure - Mapping Tools and Source Code v1.3](https://www.moddb.com/mods/half-life-insecure/downloads/half-life-insecure-mapping-tools-and-source-code-version-13) - Mapping tools and source code for Half-Life: Insecure mod. Made specifically for the Steam version of Half-Life (v1.3).
@@ -1183,7 +1183,7 @@ This list is for developers and modders working with such formats. It provides t
 - [dstools](https://github.com/katalash/dstools) - Tools for Dark Souls file formats.
 - [ds3-open-re](https://github.com/garyttierney/ds3-open-re) - Open reverse engineering resources for Dark Souls 3.
 - [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
-- [Souls Modding Wiki](http://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
+- [Souls Modding Wiki](https://www.soulsmodding.com/doku.php?id=start) - Documentation for FromSoftware formats.
 - [Awesome Elden Ring](https://github.com/sovietspaceship/awesome-elden-ring) - Curated list of resources and tools for Elden Ring.
 - [Sekiro Modding Wiki](https://github.com/SekiroResurrection/modding-wiki) - Documentation for Sekiro modding.
 - [DSMapStudio](https://github.com/soulsmods/DSMapStudio) - Map/level editor for Souls/Bloodborne/Elden Ring.
@@ -1510,7 +1510,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Sparagas/Silent-Hill](https://github.com/Sparagas/Silent-Hill) - Reverse engineering research and documentation for Silent Hill file formats.
 - [Murugo/Misc-Game-Research (Silent Hill 2)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Silent%20Hill%202%2B3) - Reverse engineering notes for Silent Hill 2 & 3 (PS2).
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
-- [laura-a-n-n/silent-hill-museum](https://github.com/laura-a-n-n/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
+- [dreamingmoths/silent-hill-museum](https://github.com/dreamingmoths/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
 
 ### Kuju London
@@ -1563,7 +1563,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Gorky 17
 
-- [Gorky 17 *.dat and *.kdt extractor tool](https://www.moddb.com/games/gorky-17/downloads/gorky-17-dat-and-kdt-extractor-tool) - Hello, guys! Here's my extractor tool for *.dat and */.kdtr files. You can now extract the contents of these data containers. I'm started to working on the gui version of the program that will supports more filetypes and will include a scripter, updated extractor - builder, you will be able to pl...
+- [Gorky 17 *.dat and *.kdt extractor tool](https://www.moddb.com/games/gorky-17/downloads/gorky-17-dat-and-kdt-extractor-tool) - Extractor tool for *.dat and*/.kdtr files. You can now extract the contents of these data containers. I'm started to working on the gui version of the program that will supports more filetypes and will include a scripter, updated extractor - builder, you will be able to pl...
 
 ### Microsoft Studios / Bungie / Turn 10
 
@@ -1627,7 +1627,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Monolith Productions
 
-#### F.E.A.R.
+#### F.E.A.R
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin)
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial tools for extracting F.E.A.R. 2 archives, textures, and sounds.
@@ -2370,7 +2370,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### GSC Game World
 
-#### S.T.A.L.K.E.R.
+#### S.T.A.L.K.E.R
 
 - [Geometry Decompiler plugin for 3dsmax](https://www.moddb.com/games/stalker/downloads/geometry-decompiler-plugin-for-3dsmax) - This plugin is designed to import into 3ds Max (works with versions 7-8, not tested on version 9) map geometry files of the game STALKER"
 - [STALKER game archives unpacker](https://www.moddb.com/mods/old-good-stalker-evolution/downloads/stalker-game-archives-unpacker) - Needed for unpacking game archives - if you want to try to install russian version of mod - you'll need this.
