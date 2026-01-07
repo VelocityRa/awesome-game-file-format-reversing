@@ -2385,7 +2385,7 @@ This list is for developers and modders working with such formats. It provides t
 - [STALKER utilities pack](https://www.moddb.com/games/stalker/downloads/stalker-utilities-pack) - Tool for editing LTX configuration files in S.T.A.L.K.E.R. games.
 - [Updated Milkshape plugin](https://www.moddb.com/games/stalker/downloads/updated-milkshape-plugin) - Updated Milkshape plugin for S.T.A.L.K.E.R. (dated 01/08/2016).
 - [Database converter (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/mods/call-of-chernobyl/downloads/cop-coc-db-converter) - COP/COC converter, which unpacks db files to gamedata files.
-- [Extractor de archivos para S.T.A.L.K.E.R.: Shadow of Chernobyl](https://www.moddb.com/games/stalker/downloads/extractor-de-archivos-para-stalker-shadow-of-chernobyl) - Este ligero programa te permitira extraer todos los archivos de S.T.A.L.K.E.R.: Shadow of Chernobyl para propositos de modding.
+- [Extractor de archivos para S.T.A.L.K.E.R.: Shadow of Chernobyl](https://www.moddb.com/games/stalker/downloads/extractor-de-archivos-para-stalker-shadow-of-chernobyl) - Lightweight program for extracting all files from S.T.A.L.K.E.R.: Shadow of Chernobyl for modding purposes.
 - [General X Ray SDK CS-CoP Tools (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/general-x-ray-sdk-tools) - General X Ray SDK Tools. This archive contains dds2tgaLE X-Ray game asset converter 02 june 2011 rev10192 Fake flatness CS&CoP; Compilers 2010 v3.0
 
 ### Troika Games
@@ -2489,7 +2489,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BSA Browser](https://github.com/AlexxEG/BSA_Browser) - Bethesda Archive (BSA and BA2) browser & extractor application.
 - [Gibbed.Fallout4](https://github.com/gibbed/Gibbed.Fallout4) - Tools for Fallout 4 file formats.
 - [xEdit](https://tes5edit.github.io) - Advanced graphical module editor and conflict detector for Bethesda games.
-- [F2 TOOLS PAK BY LEONARDO (Fallout 2)](https://www.moddb.com/games/fallout-2/downloads/f2-tools-pak-by-leonardo) - Набор инструментов для создания модов на Fallout 2. Для более подробной информации см. Readme.txt в архиве. В архиве - BIS mapper, Dims mapper, SFall script editor, Notepad ++, Frame animator.
+- [F2 TOOLS PAK BY LEONARDO (Fallout 2)](https://www.moddb.com/games/fallout-2/downloads/f2-tools-pak-by-leonardo) - Toolset for creating Fallout 2 mods. For more information, see Readme.txt in the archive. Archive contains: BIS mapper, Dims mapper, SFall script editor, Notepad++, Frame animator.
 - [Fallout2 FRM converter v 2.0](https://www.moddb.com/games/fallout-2/downloads/fallout2-frm-converter-v-20) - Convert Fallout's FRM image files to the BMP, JPG, PNG, TGA, TIF, PBM, PGM and PPM files formats, and then convert BMP, TIF and PNG files back into FRM's! Use your own art in Fallout....
 - [Wrye Bash](https://wrye-bash.github.io) - Swiss army knife for modding Bethesda games with features including mod installation, conflict manager, load order manager and automatic merging.
 - [Synthesis](https://github.com/Mutagen-Modding/Synthesis) - Framework and GUI to empower people to create mods via code instead of by hand, mainly used to create patches.
