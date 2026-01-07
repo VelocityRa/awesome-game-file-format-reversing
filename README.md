@@ -35,13 +35,13 @@ This list is for developers and modders working with such formats. It provides t
       - [🎥 Video Tutorials](#-video-tutorials)
     - [Asset Databases](#asset-databases)
   - [🛠️ General Tools](#️-general-tools)
-    - [🎨 Model, Texture \& Animation](#-model-texture--animation)
-    - [📦 Archive \& Asset Extraction](#-archive--asset-extraction)
+    - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
+    - [📦 Archive Extractors](#-archive-extractors)
     - [🔊 Audio Tools](#-audio-tools)
     - [🌐 Translation \& Localization](#-translation--localization)
-    - [🔍 Binary Analysis \& Hex Editors](#-binary-analysis--hex-editors)
-    - [💻 Libraries \& Development Tools](#-libraries--development-tools)
-    - [Decompilation Tools](#decompilation-tools)
+    - [🔍 Hex Editors](#-hex-editors)
+    - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
+    - [💻 Development Libraries](#-development-libraries)
     - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
   - [⚙️ Engines](#️-engines)
     - [GameMaker](#gamemaker)
@@ -68,7 +68,7 @@ This list is for developers and modders working with such formats. It provides t
     - [RenderWare](#renderware)
     - [CRI](#cri)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
-  - [Formats by Studio / Game](#formats-by-studio--game)
+  - [Game \& Studio Tools](#game--studio-tools)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
@@ -379,7 +379,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Multi-format tools that support a wide variety of unrelated games.*
 
-### 🎨 Model, Texture & Animation
+### 🎨 Asset Viewers & Converters
 
 - [Noesis](https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91) - Popular all-in-one tool for previewing and converting 500+ model, texture, and animation formats. Supports batch conversion, has a rich plugin ecosystem, and can handle most common game formats out of the box.
   - [Noesis Plugins (Rich Whitehouse)](https://richwhitehouse.com/index.php?content=inc_projects.php#prjmp91) - Official plugin collection by the creator of Noesis.
@@ -393,7 +393,6 @@ This list is for developers and modders working with such formats. It provides t
   - [noesis_iqe](https://github.com/viciious/noesis_iqe) - Noesis plugin for exporting models to Inter-Quake Export (IQE) format.
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures. Supports RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16), platform-specific unswizzling (PSP, PS2, PS3, PS4, Xbox), and decompression (RLE, PackBits, ZLIB). Exports as DDS, PNG, or BMP.
-- [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Command line bulk PNG to DDS (and vice versa) conversion tool with duplicate detection.
 - [Sprite Sheet Addon for Blender](https://www.moddb.com/engines/blender-game-engine/downloads/sprite-sheet-addon-for-blender) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
 - [Sprite Sheet Addon for Blender VSE](https://www.moddb.com/groups/blender-game-engine/downloads/sprite-sheet-addon-for-blender-vse) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
@@ -404,32 +403,24 @@ This list is for developers and modders working with such formats. It provides t
 - [mviewer](https://github.com/majimboo/mviewer) - Reverse engineering tool for viewing and analyzing 3D models.
 - [psx-modding-toolchain](https://github.com/mateusfavarin/psx-modding-toolchain) - Toolchain for PlayStation 1 modding including model and texture tools.
 - [detex](https://github.com/hglm/detex) - Low-level library for texture extraction and conversion.
+- [heightmap-viewer](https://github.com/impiaaa/heightmap-viewer) - Viewer for heightmap files.
 
-### 📦 Archive & Asset Extraction
+### 📦 Archive Extractors
 
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
-- [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
-- [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
-- [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
-- [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
-- [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
+- [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
 - [steam2-extract](https://github.com/NicknineTheEagle/steam2-extract) - Very fast Steam 2 archive extractor.
-- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
-- [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
-- [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats (FBX, STL, PLY).
-- [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) - .NET wrapper for Assimp library for importing 3D models.
 - [isodump](https://github.com/Lameguy64/isodump) - ISO image dumper and extractor.
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
-- [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
-- [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for PKG package format.
-- [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
 - [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
-- [game-asset-loader](https://github.com/macton/game-asset-loader) - Generic game asset loader library.
-- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
 - [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for extracting archives from Royal Quest Online game files.
-- [heightmap-viewer](https://github.com/impiaaa/heightmap-viewer) - Viewer for heightmap files.
+- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
+- [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
+- [libgamearchives](https://github.com/maxton/libgamearchives) - Library for various game archive formats.
+- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
+- [game-asset-loader](https://github.com/macton/game-asset-loader) - Generic game asset loader library.
 
 ### 🔊 Audio Tools
 
@@ -456,32 +447,49 @@ This list is for developers and modders working with such formats. It provides t
 - [Kuriimu](https://github.com/IcySon55/Kuriimu) - General purpose game translation toolkit.
 - [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) - Next-gen version of Kuriimu.
 
-### 🔍 Binary Analysis & Hex Editors
+### 🔍 Hex Editors
 
 - [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 - [ImHex](https://github.com/WerWolv/ImHex) - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
+- [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
+- [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
+- [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
+
+### 🔬 Format Analysis & Reverse Engineering
+
 - [Kaitai Struct](https://kaitai.io/) - Declarative language for describing binary data structures with code generation for multiple programming languages.
 - [Veles](https://codisec.com/veles/) - Binary analysis and visualization tool for reverse engineering (open-source).
 - [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) - Templates for binary analysis.
 - [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
+- [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger.
+- [HexForge](https://github.com/elastic/HexForge) - IDA plugin for extracting and analyzing file formats.
+- [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
+- [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [JSC-PyDecrypt-Tool](https://github.com/bartlomiejduda/JSC-PyDecrypt-Tool) - Decrypts JSC (JavaScript Compiled) files from Cocos2d games. Requires valid encryption key extracted via Frida from running game instances.
-- [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
 - [pics](https://github.com/corkami/pics) - File formats dissections and visualizations for reverse engineering.
 - [psxrev](https://github.com/emu-russia/psxrev) - Sony PlayStation PCB/chips reverse engineering documentation and resources.
-- [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [Ghidra-GameCube-Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader) - Nintendo GameCube binary loader for Ghidra reverse engineering framework.
 - [NTRGhidra](https://github.com/onepiecefreak3/NTRGhidra) - Nintendo DS binary loader for Ghidra reverse engineering framework.
 - [Ghidra-RSP](https://github.com/Random06457/Ghidra-RSP) - Nintendo 64 RSP processor module and loader for Ghidra.
 - [BinaryX](https://github.com/Cuyler36/BinaryX) - BinaryReader capable of reading both BigEndian and LittleEndian schemes.
 - [research](https://github.com/ProjectDreamland/research) - Research on game engine and decompiled game code.
 - [gsaxml](https://github.com/Candoran2/gsaxml) - XML description of the binary format of compiled GSA files.
+- [decomp-toolkit](https://github.com/encounter/decomp-toolkit) - GameCube & Wii decompilation toolkit.
+- [splat](https://github.com/ethteck/splat) - Binary splitting tool to assist with decompilation and modding projects.
+- [objdiff](https://github.com/encounter/objdiff) - Local diffing tool for decompilation projects.
+- [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) - Randomly permute C files to better match a target binary.
+- [m2c](https://github.com/matt-kempster/m2c) - MIPS and PowerPC decompiler.
+- [vutrace](https://github.com/chaoticgd/vutrace) - PS2 VU tracing debugger.
 
-### 💻 Libraries & Development Tools
+### 💻 Development Libraries
 
 - [ReverseBox](https://github.com/bartlomiejduda/ReverseBox) - Python library for reverse engineering with utilities for checksums (Adler32, CRC variants, Fletcher, XOR), compression (BZIP2, LZ4, LZMA, MIO0, PackBits, RLE variants), encryption (ROT13, XOR cipher), hashing (FNV, DJB2, MD5, SHA, Murmur3), and image processing (100+ pixel formats including DXT, PVRTC, ETC, ASTC, BC formats, swizzling for multiple platforms).
+- [binread](https://github.com/jam1garner/binread) - Rust library for reading binary file formats with derive macros.
 - [DragonLib](https://github.com/neptuwunium/DragonLib) - Common library for file format research.
 - [GL Editor Framework](https://github.com/jupahe64/GL_EditorFramework) - OpenGL-based framework for creating 3D game editors.
 - [SFGraphics](https://github.com/ScanMountGoat/SFGraphics) - OpenGL graphics library for rendering game formats, used in various format viewers.
+- [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats (FBX, STL, PLY).
+- [Assimp.Net](https://github.com/StirlingLabs/Assimp.Net) - .NET wrapper for Assimp library for importing 3D models.
 - [ooz](https://github.com/powzix/ooz) - Open-source decompressor for Oodle compression formats (Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit) used in many modern games including Warframe and other titles using RAD Game Tools compression.
 - [Syroot.BinaryData](https://gitlab.com/Syroot/BinaryData) - .NET library for easy binary data reading/writing with support for various endianness and encodings.
 - [SharpRiff](https://github.com/gigaherz/SharpRiff) - .NET library for reading and writing RIFF format files, such as .wav, .avi, or WebP.
@@ -491,15 +499,7 @@ This list is for developers and modders working with such formats. It provides t
 - [GameFormatReader](https://github.com/lioncash/GameFormatReader) - Library for reading various game formats (mostly Nintendo ones).
 - [CTLib](https://github.com/narahiero/CTLib) - Utility library to create and convert various file formats used in Mario Kart Wii custom tracks.
 - [Byaml-Tool](https://github.com/KillzXGaming/Byaml-Tool) - Simple BYAML tool which currently just converts endianness using Syroot's Byaml library.
-
-### Decompilation Tools
-
-- [decomp-toolkit](https://github.com/encounter/decomp-toolkit) - GameCube & Wii decompilation toolkit.
-- [splat](https://github.com/ethteck/splat) - Binary splitting tool to assist with decompilation and modding projects.
-- [objdiff](https://github.com/encounter/objdiff) - Local diffing tool for decompilation projects.
-- [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) - Randomly permute C files to better match a target binary.
-- [m2c](https://github.com/matt-kempster/m2c) - MIPS and PowerPC decompiler.
-- [vutrace](https://github.com/chaoticgd/vutrace) - PS2 VU tracing debugger.
+- [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 
 ### 📂 Script Collections & Multi-Game Tools
 
@@ -851,7 +851,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Sappy (Touched)](https://github.com/Touched/Sappy) - Fork with additional features.
 - [shinen-gax-python](https://github.com/beanieaxolotl/shinen-gax-python) - Python tools for Shin'en Multimedia's GAX Sound Engine used in Game Boy Advance games. Includes conversion, unpacking, waveform dumping, and song rendering tools. Also supports NAX Sound Engine format.
 
-## Formats by Studio / Game
+## Game & Studio Tools
 
 ### Activision / Infinity Ward / Treyarch
 
