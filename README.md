@@ -20,22 +20,11 @@ This list is for developers and modders working with such formats. It provides t
 - **Working with an engine**: See [Engines](#️-engines) and [Middleware & SDKs](#-middleware--sdks)
 - **Need help**: Join the communities in [Forums & Communities](#forums--communities) and [Discord Servers](#discord-servers)
 
-## 📚 Docsify (No Build Step)
-
-Docsify renders Markdown on the fly, so you get a modern docs site with sidebar navigation and search without generating HTML.
-
-This repo already ships with `index.html` at the root that loads `README.md` via Docsify. Deploy the entire repo to any static host (Netlify, Cloudflare Pages, a private server, etc.) and the same site will load without additional tooling.
-
-If you only want to publish a subfolder instead, place your files under that directory and tell your server to serve `index.html` as the entry point so Docsify can hydrate from there.
-
-Pros: Professional look with sidebar + search, zero build step, and you can host it anywhere.
-
 ## 📑 Contents
 
 - [🎮 Awesome Game File Format Reversing](#-awesome-game-file-format-reversing)
   - [📖 About](#-about)
   - [🗺️ How to Use This List](#️-how-to-use-this-list)
-  - [📚 Docsify (No Build Step)](#-docsify-no-build-step)
   - [📑 Contents](#-contents)
   - [👥 Communities \& Wikis](#-communities--wikis)
     - [Forums \& Communities](#forums--communities)
