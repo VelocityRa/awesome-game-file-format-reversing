@@ -134,9 +134,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Genki](#genki)
     - [Grezzo](#grezzo)
     - [Human Head Studios](#human-head-studios)
-    - [Grezzo](#grezzo-1)
     - [id Software](#id-software)
-    - [Grezzo](#grezzo-2)
     - [Guerrilla Games](#guerrilla-games)
     - [LucasArts](#lucasarts)
     - [Gust (Koei Tecmo)](#gust-koei-tecmo)
@@ -163,7 +161,6 @@ This list is for developers and modders working with such formats. It provides t
       - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Level-5](#level-5)
     - [Lionhead Studios](#lionhead-studios)
-    - [Mario Artist](#mario-artist)
     - [Metropolis Software](#metropolis-software)
       - [Gorky 17](#gorky-17)
     - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
@@ -176,7 +173,6 @@ This list is for developers and modders working with such formats. It provides t
       - [Gauntlet](#gauntlet)
       - [NFL Blitz](#nfl-blitz)
     - [Monolith Productions](#monolith-productions)
-      - [Xenoblade Chronicles](#xenoblade-chronicles)
       - [F.E.A.R.](#fear)
       - [Trespasser](#trespasser)
       - [Blood](#blood)
@@ -184,6 +180,8 @@ This list is for developers and modders working with such formats. It provides t
       - [No One Lives Forever](#no-one-lives-forever)
       - [Shogo: Mobile Armor Division](#shogo-mobile-armor-division)
       - [Serious Sam](#serious-sam)
+    - [Monolith Soft](#monolith-soft)
+      - [Xenoblade Chronicles](#xenoblade-chronicles)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
@@ -195,6 +193,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Luigi's Mansion](#luigis-mansion)
       - [Pikmin](#pikmin)
       - [Pikmin 2](#pikmin-2)
+      - [Mario Artist](#mario-artist)
       - [Mario Kart: Double Dash](#mario-kart-double-dash)
       - [Super Mario 64](#super-mario-64)
       - [Super Mario 64 DS](#super-mario-64-ds)
@@ -240,6 +239,11 @@ This list is for developers and modders working with such formats. It provides t
       - [Aliens vs. Predator 2](#aliens-vs-predator-2)
       - [Aliens vs. Predator (2010)](#aliens-vs-predator-2010)
     - [Rare](#rare)
+      - [Banjo-Kazooie](#banjo-kazooie)
+      - [Banjo-Tooie](#banjo-tooie)
+      - [Donkey Kong 64](#donkey-kong-64)
+      - [Diddy Kong Racing](#diddy-kong-racing)
+      - [GoldenEye 007](#goldeneye-007)
     - [Runic Games](#runic-games)
       - [Torchlight](#torchlight)
       - [Torchlight II](#torchlight-ii)
@@ -260,7 +264,6 @@ This list is for developers and modders working with such formats. It provides t
       - [Sonic Adventure](#sonic-adventure)
       - [Sonic Heroes / Shadow](#sonic-heroes--shadow)
       - [Other Sonic Games](#other-sonic-games)
-      - [Other Sonic Games](#other-sonic-games-1)
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
       - [Final Fantasy](#final-fantasy)
@@ -1282,8 +1285,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Gwynhala's Model Exporter (Rune)](https://www.moddb.com/games/rune/downloads/gwynhalas-model-exporter) - Rune SuperCoolModel Exporter for Milkshape 3D by Gwynhala
 
-### Grezzo
-
 ### id Software
 
 - [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing Quake BSP (Binary Space Partition) map files.
@@ -1313,16 +1314,6 @@ This list is for developers and modders working with such formats. It provides t
 - [Blender Terrain scripts (Quake III Arena)](https://www.moddb.com/mods/project-rdx/downloads/blender-terrain-scripts) - Blender scripts to turn an elevation grid into a terrain in .map format to be used in Radiant.
 - [Blocks II v0.2 Editing Package (Doom II)](https://www.moddb.com/mods/blocks-of-doom-ii/downloads/blocks-ii-v02-editing-package) - Editing package with all tools needed to create levels for Blocks of Doom II (v0.2).
 - [Blender MD3 Import-Export Tool](https://www.moddb.com/games/quake-iii-arena/downloads/blender-md3-import-export-tool) - MD3 import/export script for Blender with shader path configuration, material name mapping, animation frame export, and UV image preview.
-
-### Grezzo
-
-- [io_scene_cmb](https://github.com/M-1-RLG/io_scene_cmb) - Blender add-on for Grezzo's "Ctr Model Binary" (CMB) format.
-- [noclip.website (OoT3D)](https://github.com/magcius/noclip.website/tree/main/src/OcarinaOfTime3D) - In-browser Ocarina of Time 3D viewer.
-- [MeltyTool (Grezzo)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Grezzo) - Grezzo format viewer/exporter.
-- [N3DSCmbViewer](https://github.com/xdanieldzd/N3DSCmbViewer) - Viewer for 3DS CMB models.
-- [Scarlet](https://github.com/xdanieldzd/Scarlet) - General purpose 3DS/Vita game tool.
-- [Gar/Zar UnPacker](https://gbatemp.net/threads/release-gar-zar-unpacker-v0-1.385264/) - Archive unpacker for Ocarina of Time 3D and Majora's Mask 3D.
-- [Switch-Toolbox](https://github.com/KillzXGaming/Switch-Toolbox/tree/master/File_Format_Library/FileFormats/Grezzo) - A tool to edit many video game file formats
 
 ### Guerrilla Games
 
@@ -1560,16 +1551,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 
-### Mario Artist
-
-*Mario Artist series (Nintendo 64DD Disk Drive).*
-
-- [leotools](https://github.com/jkbenaim/leotools) - Toolkit for extracting and working with 64DD disk images.
-- [leo64dd_python](https://github.com/LuigiBlood/leo64dd_python) - Python-based tools for 64DD disk manipulation.
-- [mfs_manager](https://github.com/LuigiBlood/mfs_manager) - Manager for MFS (Multi File System) used on 64DD disks.
-- [MeltyTool (MarioArtist)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/MarioArtist) - Format viewer and exporter for Mario Artist series.
-- [ma3d1toOBJ](https://github.com/LuigiBlood/ma3d1toOBJ) - Mario Artist Polygon Studio Model File to OBJ
-
 ### Metropolis Software
 
 #### Gorky 17
@@ -1638,13 +1619,6 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Monolith Productions
 
-#### Xenoblade Chronicles
-
-- [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
-- [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for reading and writing BDAT format used in Xenoblade Chronicles games for data tables.
-- [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File replacement mod for Switch Xenoblade games allowing custom files to be loaded from RomFS instead of ARD archives.
-- [ard-tools](https://github.com/roccodev/ard-tools) - Tools for working with ARD/ARH archive files from Switch Xenoblade Chronicles games. Includes ardain library, ard-tools CLI, and fuse-ard FUSE driver.
-
 #### F.E.A.R.
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin)
@@ -1690,6 +1664,17 @@ This list is for developers and modders working with such formats. It provides t
 #### Serious Sam
 
 - [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
+
+### Monolith Soft
+
+*Japanese studio (distinct from Monolith Productions, USA).*
+
+#### Xenoblade Chronicles
+
+- [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
+- [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for reading and writing BDAT format used in Xenoblade Chronicles games for data tables.
+- [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File replacement mod for Switch Xenoblade games allowing custom files to be loaded from RomFS instead of ARD archives.
+- [ard-tools](https://github.com/roccodev/ard-tools) - Tools for working with ARD/ARH archive files from Switch Xenoblade Chronicles games. Includes ardain library, ard-tools CLI, and fuse-ard FUSE driver.
 
 ### Oddworld Inhabitants
 
@@ -1779,6 +1764,16 @@ This list is for developers and modders working with such formats. It provides t
 - [Pikmin-2-Symbol-Maps](https://github.com/Minty-Meeo/Pikmin-2-Symbol-Maps) - Debug symbol maps for Pikmin 2 reverse engineering.
 - [pikmin-tools](https://github.com/RenolY2/pikmin-tools) - Collection of various tools for working with Pikmin 2 files.
 - [noclip.website (Pikmin 2)](https://github.com/magcius/noclip.website/tree/main/src/j3d) - In-browser Pikmin 2 viewer.
+
+#### Mario Artist
+
+*Mario Artist series (Nintendo 64DD Disk Drive).*
+
+- [leotools](https://github.com/jkbenaim/leotools) - Toolkit for extracting and working with 64DD disk images.
+- [leo64dd_python](https://github.com/LuigiBlood/leo64dd_python) - Python-based tools for 64DD disk manipulation.
+- [mfs_manager](https://github.com/LuigiBlood/mfs_manager) - Manager for MFS (Multi File System) used on 64DD disks.
+- [MeltyTool (MarioArtist)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/MarioArtist) - Format viewer and exporter for Mario Artist series.
+- [ma3d1toOBJ](https://github.com/LuigiBlood/ma3d1toOBJ) - Mario Artist Polygon Studio Model File to OBJ
 
 #### Mario Kart: Double Dash
 
@@ -2120,21 +2115,34 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Rare
 
-*Banjo-Kazooie, Donkey Kong, GoldenEye 007.*
+#### Banjo-Kazooie
 
 - [noclip.website (Banjo-Kazooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoKazooie) - In-browser Banjo-Kazooie viewer.
-- [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
-- [noclip.website (Diddy Kong Racing)](https://github.com/magcius/noclip.website/tree/main/src/DiddyKongRacing) - In-browser Diddy Kong Racing viewer.
-- [noclip.website (Donkey Kong 64)](https://github.com/magcius/noclip.website/tree/main/src/DonkeyKong64) - In-browser Donkey Kong 64 viewer.
-- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
-- [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
-- [DK64MapGenerator](https://github.com/GloriousLiar/DK64MapGenerator) - Tool for generating Donkey Kong 64 map and floor files from 3D meshes.
 - [Banjo-Kazooie-Floor-Tool](https://github.com/oohnahleevay/Banjo-Kazooie-Floor-Tool) - Tool to modify floor collision properties in Banjo-Kazooie.
 - [Banjo-s-Backpack](https://github.com/RareExports/Banjo-s-Backpack) - Level editor for Banjo-Kazooie (map and object editing).
 - [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
-- [DK64-Viewer](https://github.com/RareExports/DK64-Viewer) - Model and map viewer for Donkey Kong 64.
+
+#### Banjo-Tooie
+
+- [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
+- [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
+
+#### Donkey Kong 64
+
+- [noclip.website (Donkey Kong 64)](https://github.com/magcius/noclip.website/tree/main/src/DonkeyKong64) - In-browser Donkey Kong 64 viewer.
+- [DK64MapGenerator](https://github.com/GloriousLiar/DK64MapGenerator) - Tool for generating Donkey Kong 64 map and floor files from 3D meshes.
+- [DK64-Viewer](https://github.com/RareExports/DK64-Viewer) - Model and map viewer for Donkey Kong 64.
 - [dk64_lib](https://github.com/ThomasJRyan/dk64_lib) - Library for extracting data from Donkey Kong 64 ROMs.
+
+#### Diddy Kong Racing
+
+- [noclip.website (Diddy Kong Racing)](https://github.com/magcius/noclip.website/tree/main/src/DiddyKongRacing) - In-browser Diddy Kong Racing viewer.
+
+#### GoldenEye 007
+
+- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
+- [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
 
 ### Runic Games
 
@@ -2251,9 +2259,6 @@ This list is for developers and modders working with such formats. It provides t
 - [SonLVL-RSDK](https://github.com/Lavesiime/SonLVL-RSDK) - Level editor for RSDK v3/v4 games (Sonic CD, Sonic 1, Sonic 2).
 - [RSDK-Reverse](https://github.com/Rubberduckycooly/RSDK-Reverse) - Reverse engineering tools for Retro Engine games (Sonic CD, Sonic 1, Sonic 2).
 - [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
-
-#### Other Sonic Games
-
 - [HedgeLib](https://github.com/Radfordhound/HedgeLib) - C++ library and collection of tools that aims to make modding games in the Sonic the Hedgehog franchise easier.
 - [Marathon](https://github.com/hyperbx/Marathon) - Toolkit and library for Sonic The Hedgehog file formats.
 - [Sonic-1-2-2013-Decompilation](https://github.com/RSDKModding/RSDKv4-Decompilation) - Complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4).
