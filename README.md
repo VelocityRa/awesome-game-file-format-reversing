@@ -625,6 +625,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Tool for extracting IL2CPP metadata and converting IL2CPP binaries.
 - [UnityPy](https://github.com/K0lb3/UnityPy) - Python library for extracting and modifying Unity assets.
 - [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) - .NET library for reading and writing Unity asset files.
+- [Unity3DCompressor](https://gitgoon.dev/IllusionMods/Unity3DCompressor) - Utility for compressing Unity asset bundles using LZ4 to reduce file size and improve load times.
 
 ### Unreal Engine
 
@@ -1456,7 +1457,14 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Illusion
 
-- [KK-Blender-Porter-Pack](https://github.com/AnalogKnight/KK-Blender-Porter-Pack) - Collection of Koikatsu exporter/importer plugins for Blender covering meshes, armatures, and character data.
+*Koikatsu, Koikatsu Sunshine, Honey Select, AI Girl, PlayHome.*
+
+- [KK-Blender-Porter-Pack](https://archive.org/details/kkbp-importer-8.0.2) - Exporter/importer pack for Koikatsu characters in Blender with near-perfect mesh and texture replication, facial shapekeys, Rigify armature, and FBX export.
+  - Games: Koikatsu, Koikatsu Sunshine.
+  - See also [gitgoon mirror](https://gitgoon.dev/kkbp-dev/KKBP_Importer).
+- [KKBP_Exporter](https://gitgoon.dev/kkbp-dev/KKBP_Exporter) - In-game BepInEx plugin that exports Koikatsu character cards as PMX models with textures and skeletal data for use with KKBP Importer or MMD tools.
+- [KoikatsuModdingTools](https://gitgoon.dev/IllusionMods/KoikatsuModdingTools) - Unity Editor toolkit for creating Koikatsu mods including clothing, accessories, hair, maps, and custom shaders. Supports asset bundle building, FBX import with bone optimization, and uTinyRipper integration.
+- [ZipStudio](https://gitgoon.dev/IllusionMods/ZipStudio) - Utility for converting Koikatsu hard-mods to sideloader format with automatic list conversion to CSV and manifest editing.
 
 ### iNiS
 
