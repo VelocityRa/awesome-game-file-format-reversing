@@ -412,7 +412,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
-- [steam2-extract](https://github.com/NicknineTheEagle/steam2-extract) - Very fast Steam 2 archive extractor.
 - [isodump](https://github.com/Lameguy64/isodump) - ISO image dumper and extractor.
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for PKG package format.
@@ -502,7 +501,6 @@ This list is for developers and modders working with such formats. It provides t
 - [GameFormatReader](https://github.com/lioncash/GameFormatReader) - Library for reading various game formats (mostly Nintendo ones).
 - [CTLib](https://github.com/narahiero/CTLib) - Utility library to create and convert various file formats used in Mario Kart Wii custom tracks.
 - [Byaml-Tool](https://github.com/KillzXGaming/Byaml-Tool) - Simple BYAML tool which currently just converts endianness using Syroot's Byaml library.
-- [ffam](https://github.com/wareya/ffam) - Conversion tools for grub's PFF2/pf2 font format.
 
 ### 📂 Script Collections & Multi-Game Tools
 
