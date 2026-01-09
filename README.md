@@ -2594,7 +2594,7 @@ This list is for developers and modders working with such formats. It provides t
 ## 🔗 Related Lists
 
 - [Awesome Modding](https://github.com/loicreynier/awesome-modding) - Resources for game modding and customization.
-- [Awesome Game File Formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - The inspiration for this list - another excellent such collection.
+- [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) - A curated list of awesome game decompilations.
 - [Awesome Game Datasets](https://github.com/leomaurodesenv/game-datasets) - Datasets and resources for game research.
 - [Awesome Reverse Engineering](https://github.com/tylerha97/awesome-reversing) - List of reverse engineering resources.
 - [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/_software.md) - Comprehensive list of reverse engineering software and tools.
