@@ -1,7 +1,7 @@
 # 🎮 Awesome Game File Format Reversing
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[Awesome](https://github.com/sindresorhus/awesome)
+[License: CC0-1.0](LICENSE)
 
 > A collection of documentation, code, tools, and resources for reverse engineering and working with video game file formats.
 
@@ -26,23 +26,23 @@ This list is for developers and modders working with such formats. It provides t
   - [📖 About](#-about)
   - [🗺️ How to Use This List](#️-how-to-use-this-list)
   - [📑 Contents](#-contents)
-  - [👥 Communities \& Wikis](#-communities--wikis)
-    - [Forums \& Communities](#forums--communities)
+  - [👥 Communities  Wikis](#-communities--wikis)
+    - [Forums  Communities](#forums--communities)
     - [Discord Servers](#discord-servers)
-    - [Knowledge Bases \& Format Databases](#knowledge-bases--format-databases)
+    - [Knowledge Bases  Format Databases](#knowledge-bases--format-databases)
     - [Game-Specific Wikis](#game-specific-wikis)
-    - [📚 Learning Resources \& Tutorials](#-learning-resources--tutorials)
+    - [📚 Learning Resources  Tutorials](#-learning-resources--tutorials)
       - [🎥 Video Tutorials](#-video-tutorials)
     - [Asset Databases](#asset-databases)
   - [🛠️ General Tools](#️-general-tools)
-    - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
+    - [🎨 Asset Viewers  Converters](#-asset-viewers--converters)
     - [📦 Archive Extractors](#-archive-extractors)
     - [🔊 Audio Tools](#-audio-tools)
-    - [🌐 Translation \& Localization](#-translation--localization)
+    - [🌐 Translation  Localization](#-translation--localization)
     - [🔍 Hex Editors](#-hex-editors)
-    - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
+    - [🔬 Format Analysis  Reverse Engineering](#-format-analysis--reverse-engineering)
     - [💻 Development Libraries](#-development-libraries)
-    - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
+    - [📂 Script Collections  Multi-Game Tools](#-script-collections--multi-game-tools)
   - [⚙️ Engines](#️-engines)
     - [GameMaker](#gamemaker)
     - [Source (Valve)](#source-valve)
@@ -60,7 +60,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
       - [Soldier of Fortune](#soldier-of-fortune)
-  - [🔧 Middleware \& SDKs](#-middleware--sdks)
+  - [🔧 Middleware  SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
     - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
@@ -68,7 +68,7 @@ This list is for developers and modders working with such formats. It provides t
     - [RenderWare](#renderware)
     - [CRI](#cri)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
-  - [Game \& Studio Tools](#game--studio-tools)
+  - [Game  Studio Tools](#game--studio-tools)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
@@ -87,6 +87,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Black Element Software](#black-element-software)
     - [Bandai Namco](#bandai-namco)
     - [Electronic Arts](#electronic-arts)
+      - [SSX](#ssx)
     - [EA DICE](#ea-dice)
       - [Battlefield Series](#battlefield-series)
       - [Star Wars: Battlefront](#star-wars-battlefront)
@@ -95,9 +96,11 @@ This list is for developers and modders working with such formats. It provides t
       - [Resident Evil](#resident-evil)
       - [Monster Hunter](#monster-hunter)
       - [Devil May Cry](#devil-may-cry)
+      - [Street Fighter](#street-fighter)
       - [Mega Man](#mega-man)
       - [Gregory Horror Show](#gregory-horror-show)
       - [Gotcha Force](#gotcha-force)
+      - [Phoenix Wright: Ace Attorney](#phoenix-wright-ace-attorney)
     - [CCR](#ccr)
     - [CCP Games](#ccp-games)
     - [CD Projekt Red](#cd-projekt-red)
@@ -126,7 +129,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gearbox Software](#gearbox-software)
       - [MechWarrior 4](#mechwarrior-4)
     - [Game Freak](#game-freak)
-      - [Gen I \& II](#gen-i--ii)
+      - [Gen I  II](#gen-i--ii)
       - [Gen III](#gen-iii)
       - [Gen VI](#gen-vi)
       - [Gen V](#gen-v)
@@ -155,6 +158,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Konami](#konami)
       - [Metal Gear Solid](#metal-gear-solid)
       - [Silent Hill](#silent-hill)
+      - [Fatal Frame](#fatal-frame)
+      - [Castlevania](#castlevania)
     - [Kuju London](#kuju-london)
     - [Larian Studios](#larian-studios)
       - [Baldur's Gate 3](#baldurs-gate-3)
@@ -184,7 +189,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Xenoblade Chronicles](#xenoblade-chronicles)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
-      - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
+      - [Crash Bandicoot 1-3  CTR](#crash-bandicoot-1-3--ctr)
       - [Jak and Daxter](#jak-and-daxter)
     - [NanaOn-Sha](#nanaon-sha)
     - [Nintendo EAD](#nintendo-ead)
@@ -205,10 +210,15 @@ This list is for developers and modders working with such formats. It provides t
       - [Star Fox 64](#star-fox-64)
       - [Star Fox 64 3D](#star-fox-64-3d)
       - [Super Monkey Ball](#super-monkey-ball)
+      - [F-Zero](#f-zero)
+      - [Chibi-Robo!](#chibi-robo)
+      - [Snowboard Kids](#snowboard-kids)
+      - [Wave Race 64](#wave-race-64)
+      - [The New Tetris](#the-new-tetris)
       - [New Super Mario Bros DS](#new-super-mario-bros-ds)
       - [Metroid Prime](#metroid-prime)
       - [Pokemon](#pokemon)
-    - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+    - [Nintendo SDKs  Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
     - [BioWare](#bioware)
       - [Mass Effect](#mass-effect)
@@ -267,6 +277,12 @@ This list is for developers and modders working with such formats. It provides t
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
       - [Final Fantasy](#final-fantasy)
+      - [Chrono Cross](#chrono-cross)
+      - [Xenogears](#xenogears)
+      - [Xenosaga](#xenosaga)
+      - [Vagrant Story](#vagrant-story)
+      - [Soul Blazer](#soul-blazer)
+      - [The World Ends With You](#the-world-ends-with-you)
       - [Babylon's Fall](#babylons-fall)
       - [Hitman](#hitman)
     - [Sucker Punch](#sucker-punch)
@@ -282,6 +298,7 @@ This list is for developers and modders working with such formats. It provides t
     - [THQ / Rainbow Studios](#thq--rainbow-studios)
       - [Cars](#cars)
       - [MX vs ATV](#mx-vs-atv)
+      - [Twisted Metal](#twisted-metal)
     - [3D Realms](#3d-realms)
       - [Duke Nukem 3D](#duke-nukem-3d)
       - [Duke Nukem: Manhattan Project](#duke-nukem-manhattan-project)
@@ -298,6 +315,24 @@ This list is for developers and modders working with such formats. It provides t
     - [Bethesda](#bethesda)
     - [2K Games / Firaxis Games](#2k-games--firaxis-games)
     - [2K Czech / Illusion Softworks](#2k-czech--illusion-softworks)
+    - [Natsume](#natsume)
+    - [Falcom](#falcom)
+    - [Working Designs](#working-designs)
+    - [Toby Fox](#toby-fox)
+    - [Studio MDHR](#studio-mdhr)
+    - [TT Games](#tt-games)
+    - [Acclaim Entertainment](#acclaim-entertainment)
+    - [Whoopee Camp](#whoopee-camp)
+    - [Team Shanghai Alice](#team-shanghai-alice)
+    - [5th Cell](#5th-cell)
+    - [Asmik Ace Entertainment](#asmik-ace-entertainment)
+    - [Stainless Games](#stainless-games)
+    - [Gumi](#gumi)
+    - [Ninja Kiwi](#ninja-kiwi)
+    - [Eutechnyx](#eutechnyx)
+    - [Hasbro Interactive](#hasbro-interactive)
+    - [H2O Entertainment](#h2o-entertainment)
+    - [Other / Indie](#other--indie)
     - [Bohemia Interactive](#bohemia-interactive)
     - [Bugbear Entertainment](#bugbear-entertainment)
     - [Blizzard Entertainment](#blizzard-entertainment)
@@ -387,7 +422,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Noesis](https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91) - Popular all-in-one tool for previewing and converting 500+ model, texture, and animation formats. Supports batch conversion, has a rich plugin ecosystem, and can handle most common game formats out of the box.
   - [Noesis Plugins (Rich Whitehouse)](https://richwhitehouse.com/index.php?content=inc_projects.php#prjmp91) - Official plugin collection by the creator of Noesis.
   - [Noesis Plugins (HimeWorks)](https://himeworks.com/noesis-plugins/) - Community plugin collection for 100+ games, primarily MMORPGs and action games.
-    Games include Tales series, Midnight Club 2, Dragon Nest, Dark Souls, League of Legends, C9, Cabal Online, Monster Hunter 3, Hyperdimension Neptunia, Ys series, and many more.
+  Games include Tales series, Midnight Club 2, Dragon Nest, Dark Souls, League of Legends, C9, Cabal Online, Monster Hunter 3, Hyperdimension Neptunia, Ys series, and many more.
   - [Noesis Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community collection with 150+ plugins for various games including Final Fantasy series, Dark Souls 2, Dead Rising 4, Ridge Racer, NHL 21, and many others.
   - [Noesis Plugins (mrpostiga)](https://github.com/mrpostiga/noesis-plugins-official) - Additional community-maintained plugin collection.
   - [Noesis Plugins (RoadTrain)](https://github.com/RoadTrain/noesis-plugins) - LS3D engine plugin (.4ds format) supporting Mafia: The City of Lost Heaven, Chameleon, Hidden & Dangerous 2, War of Wings.
@@ -506,10 +541,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [noclip.website](https://github.com/magcius/noclip.website) - In-browser 3D viewer for 60+ games across multiple platforms and studios.
   - Games: Source Engine games (17 titles including Half-Life 2, Portal 1 & 2, Team Fortress 2, CS:GO, L4D2),
-    Nintendo games (Mario 64, Mario Kart series, Zelda series, Pikmin, Luigi's Mansion, Super Mario Galaxy 1 & 2, Paper Mario series, Kirby, Smash Bros Melee/Brawl), Rare games (Banjo-Kazooie, DKC), GTA series (III, Vice City, San Andreas), Crash Bandicoot, Dark Souls, Katamari Damacy, Okami, Psychonauts, Need for Speed: Most Wanted, SpongeBob games, Outer Wilds, Halo CE, and more.
+  Nintendo games (Mario 64, Mario Kart series, Zelda series, Pikmin, Luigi's Mansion, Super Mario Galaxy 1 & 2, Paper Mario series, Kirby, Smash Bros Melee/Brawl), Rare games (Banjo-Kazooie, DKC), GTA series (III, Vice City, San Andreas), Crash Bandicoot, Dark Souls, Katamari Damacy, Okami, Psychonauts, Need for Speed: Most Wanted, SpongeBob games, Outer Wilds, Halo CE, and more.
 - [GameArchives](https://github.com/PikminGuts92/GameArchives) - C# library for reading 14+ video game archive formats.
   - Games: Harmonix titles (Frequency, Amplitude, Guitar Hero series, Rock Band series 1-4, Beatles, Green Day, Lego, VR, Karaoke Revolution, Disney Fantasia),
-    Konami rhythm games (DDR Universe 1-3, DDR 2010, Dance Masters), FreeStyleGames (DJ Hero series, Guitar Hero Live, Sing Party), Psychonauts, Power Gig.
+  Konami rhythm games (DDR Universe 1-3, DDR 2010, Dance Masters), FreeStyleGames (DJ Hero series, Guitar Hero Live, Sing Party), Psychonauts, Power Gig.
   - Formats: Ark, PSARC, PACKAGE, PFS, STFS, XDVDFS, U8. See also [maxton's fork](https://github.com/maxton/GameArchives) with FSAR support for Sing Party.
 - [MeltyTool](https://github.com/MeltyPlayer/MeltyTool) - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games.
   - Games: Super Mario 64, Mario Artist (Polygon Studio, Talent Studio), Paper Mario TTYD, Super Paper Mario, Mario Kart Double Dash, Pikmin 1 & 2, Super Mario Sunshine, Chibi-Robo, Super Smash Bros. Melee, Battalion Wars 1 & 2, Super Mario 64 DS, Luigi's Mansion 3D, Majora's Mask 3D, Ocarina of Time 3D, Professor Layton vs. Phoenix Wright, Dead Space, Glover, Halo Wars, Celeste 64, Pokemon Colosseum, and more.
@@ -894,6 +929,7 @@ This list is for developers and modders working with such formats. It provides t
 #### A Series of Unfortunate Events
 
 - [resPack](https://github.com/XAYRGA/resPack) - Extractor for XBOX A Series of Unfortunate Events.
+- [spyro-1 (decomp)](https://github.com/TheMobyCollective/spyro-1) - Matching decompilation of Spyro the Dragon.
 
 ### Angel Matrix
 
@@ -946,6 +982,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Argonaut Games
 
+- [croc (decomp)](https://github.com/xeeynamo/croc) - Matching decompilation of Croc: Legend of the Gobbos.
 - [PS1-BRender-Reverse](https://github.com/OverSurge/PS1-Argonaut-Reverse) - Reverse engineering tools for PlayStation 1 BRender engine games like Harry Potter and Croc 2.
 - [Stratigise](https://github.com/Argonaut-PS1-Reverse/Stratigise) - WIP tool for disassembling and (re)assembling ASL binaries for Croc 1.
 - [CrocUtils](https://github.com/Rexhunter99/CrocUtils) - Utilities for Croc game file formats.
@@ -956,7 +993,7 @@ This list is for developers and modders working with such formats. It provides t
 - [disrev](https://github.com/chipolux/disrev) - Python tools for extracting and modifying Dishonored 2 assets.
 - [dishonored2_scripts](https://github.com/usernametoolo/dishonored2_scripts/blob/master/tools/scripts/unpack_resources.py) - Resource extraction script for unpacking .pak archives.
 - [Obscura](https://github.com/Mikompilation/Obscura) - Modding toolkit for Dishonored games.
-- [Field Editor 0.5.1 \"Tautologist tool\" (Dishonored)](https://www.moddb.com/games/dishonored/downloads/field-editor-051-tautologist-tool) - Field editor for Dishonored with improved menu system, keyboard shortcuts, auto-completing text boxes, additional grouping and fields, live filtering/searching, settings persistence, and XML file browsing (v0.5.1).
+- [Field Editor 0.5.1 Tautologist tool (Dishonored)](https://www.moddb.com/games/dishonored/downloads/field-editor-051-tautologist-tool) - Field editor for Dishonored with improved menu system, keyboard shortcuts, auto-completing text boxes, additional grouping and fields, live filtering/searching, settings persistence, and XML file browsing (v0.5.1).
 
 ### Atlus
 
@@ -977,6 +1014,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Bandai Namco
 
+- [kl2_lv_decomp (decomp)](https://github.com/entriphy/kl2_lv_decomp) - Matching decompilation of Klonoa 2: Lunatea's Veil (PS2).
+- [Dragon-Ball-Legends (decomp)](https://github.com/GodkuHacking/Dragon-Ball-Legends) - Matching decompilation of Dragon Ball Legends (Android APK).
 - [SoulCalibur2-game-unpacker](https://github.com/PS2Homebrew-arcade/SoulCalibur2-game-unpacker) - Unpacker for Soul Calibur 2 game files.
 - [BinarySerializer.Klonoa](https://github.com/BinarySerializer/BinarySerializer.Klonoa) - Serializer for Klonoa games.
 - [TalesOfFantasy (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugins for Tales series.
@@ -994,9 +1033,15 @@ This list is for developers and modders working with such formats. It provides t
   - Games: FIFA series (97, 2000, 06, 09, 14, Street, UEFA Euro 2004), Need For Speed series (1994, II, High Stakes, Hot Pursuit 2, Porsche Unleashed, Carbon, Undercover), Medal of Honor series (Frontline, Rising Sun, Vanguard, European Assault), Madden NFL (06, 08), NHL series (2001, 2002, 2005, 07), NBA Live 97, MVP Baseball/NCAA Baseball (2005, 2007), SSX series, Cricket (2005, 2007), Harry Potter (Chamber of Secrets, Quidditch World Cup), Def Jam: Fight For New York, Fight Night Round 3, GoldenEye, SimCity 4 Deluxe, Triple Play 2000, ReBoot, F.A. Premier League Football Manager 2000, EA Playground (Wii), and more across PS1, PS2, PSP, PC, Xbox, Wii, and Zeebo platforms.
 - [EA-Font-Manager](https://github.com/bartlomiejduda/EA-Font-Manager) - Handles EA font files (FFN, PFN, XFN, MFN, SFN formats). Preview, decode flags, edit character tables, and convert font images.
   - Games: FIFA 97, Need for Speed series (2, High Stakes, Hot Pursuit, Undercover), NBA Live 06-07, SSX series, MVP Baseball 2005, Medal of Honor: European Assault,
-    NHL series, Def Jam: Fight for NY, Harry Potter and the Chamber of Secrets, The Sims, and more.
+  NHL series, Def Jam: Fight for NY, Harry Potter and the Chamber of Secrets, The Sims, and more.
 - [EA-Loc-Manager](https://github.com/bartlomiejduda/EA-Loc-Manager) - Extract and import localization files (LOC format) from EA games. Supports UTF-8, UTF-16, and Latin-1 encodings.
   - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
+
+#### SSX
+
+- [ssx (decomp)](https://github.com/ssxdecomp/ssx) - Matching decompilation of SSX (2000).
+- [ssx3 (decomp)](https://github.com/ssxdecomp/ssx3) - Matching decompilation of SSX 3 (2003).
+- [ssxdvd (decomp)](https://github.com/ssxdecomp/ssxdvd) - Matching decompilation of SSX Tricky (2001).
 
 ### EA DICE
 
@@ -1038,6 +1083,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Monster Hunter
 
+- [mh1j (decomp)](https://github.com/2Tie/mh1j) - Matching decompilation of Monster Hunter (PS2, Japanese release).
 - [mhst2-arc-tool](https://github.com/Fexty12573/mhst2-arc-tool) - Archive tool for Monster Hunter Stories 2.
 - [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
 - [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
@@ -1052,8 +1098,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [dmc_hd_tools](https://github.com/Kerilk/dmc_hd_tools) - Toolkit for Devil May Cry HD Collection including Noesis plugins and binary templates.
 
+#### Street Fighter
+
+- [3s-decomp (decomp)](https://github.com/crowded-street/3s-decomp) - Matching decompilation of Street Fighter III: 3rd Strike (PS2).
+
 #### Mega Man
 
+- [mmx4 (decomp)](https://github.com/sozud/mmx4) - Matching decompilation of Mega Man X4 (PS1).
 - [MegaManPoweredUpTool](https://github.com/efimandreev0/MegaManPoweredUpTool) - Tool for Mega Man Powered Up files.
 - [MegaManLINKExtract](https://github.com/efimandreev0/MegaManLINKExtract) - Extractor for Mega Man Battle Network LINK files.
 - [ARC Unpacker & Repacker](https://www.moddb.com/games/devil-may-cry-4/downloads/arc-unpacker-repacker-v09428) - Modding tool letting you extract and repack ARC file containers in MT Framework games (Resident Evil 5, Resident Evil 6, Dragon’s Dogma, Devil May Cry 4, and other Capcom titles) which can also convert many of the file formats in the archives.
@@ -1065,6 +1116,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Gotcha Force
 
 - [gotcha-afs-tool](https://github.com/RenolY2/gotcha-afs-tool) - Unpacker and repacker for Gotcha Force's AFS format (tested on GameCube version).
+
+#### Phoenix Wright: Ace Attorney
+
+- [pwaa1 (decomp)](https://github.com/atasro2/pwaa1) - Matching decompilation of Phoenix Wright: Ace Attorney (Gyakuten Saiban, Japan).
+- [recv-dc-decomp (decomp)](https://github.com/fmil95/recv-dc-decomp) - Matching decompilation of Resident Evil - Code: Veronica (Dreamcast).
+- [recvx-decomp (decomp)](https://github.com/fmil95/recvx-decomp) - Matching decompilation of Resident Evil - Code: Veronica X (PS2).
 
 ### CCR
 
@@ -1112,6 +1169,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Double Fine
 
+- [CostumeQuest-Decomp (decomp)](https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp) - Matching decompilation of Costume Quest (PC).
 - [noclip.website (Psychonauts)](https://github.com/magcius/noclip.website/tree/main/src/psychonauts) - In-browser Psychonauts viewer.
 
 ### 8monkey Labs
@@ -1120,6 +1178,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Crystal Dynamics / Eidos Interactive
 
+- [soul-re (decomp)](https://github.com/fmil95/soul-re) - Matching decompilation of Legacy of Kain: Soul Reaver (PS1).
+- [gex64decomp (decomp)](https://github.com/matbourgon/gex64decomp) - Matching decompilation of Gex 64: Enter the Gecko (N64).
 - [Blood Omen 2 3D Rip Tools](https://www.moddb.com/games/blood-omen-2/downloads/blood-omen-2-3d-rip-tools) - A group of cli to export and manipulate blood omen 2 raw 3d model into wavefront and dds textures
 
 ### Ion Storm
@@ -1130,6 +1190,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Deus Ex
 
+- [cdcEngineDXHR (decomp)](https://github.com/rrika/cdcEngineDXHR) - Matching decompilation of Deus Ex: Human Revolution.
 - [Gibbed's Deus Ex HR tools](https://www.moddb.com/games/deus-ex-3/downloads/gibbeds-deus-ex-hr-tools) - A set of tools for compiling and decompiling the Crystal Dynamics engine's data files. Requires the .NET Framework 4 Client Profile.
 
 ### Massive Entertainment
@@ -1158,6 +1219,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Tribes 1.40 LoDFix plugin](https://www.moddb.com/games/tribes/downloads/tribes-140-lodfix-plugin) - Plugin that fixes a known level of detail (LOD) issue with certain weapons in Tribes. Affects users with field of view (FOV) higher than default. Place LoDFix.dll in plugins folder. Created by Groove (v1.40).
 
 ### EA Black Box
+
+- [Castaway (decomp)](https://github.com/HaydnTrigg/Castaway) - Matching decompilation of The Sims 2: Castaway.
 
 #### Need for Speed Series
 
@@ -1223,6 +1286,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [map-editor](https://github.com/KernelEquinox/map-editor) - Map editor for Generation I/II Pokémon games.
 - [polished-map](https://github.com/Rangi42/polished-map) - Polished map editor for Gen II.
+- [puzzleleague64 (decomp)](https://github.com/angheloalf/puzzleleague64) - Matching decompilation of Pokémon Puzzle League.
+- [xd-decomp (decomp)](https://github.com/TeamOrre/xd-decomp) - Matching decompilation of Pokémon XD: Gale of Darkness (GameCube).
+- [pokeheartgold (decomp)](https://github.com/pret/pokeheartgold) - Matching decompilation of Pokémon HeartGold (100%).
+- [pokefirered (decomp)](https://github.com/pret/pokefirered) - Matching decompilation of Pokémon FireRed (100%).
+- [pokecrystal (decomp)](https://github.com/pret/pokecrystal) - Matching decompilation of Pokémon Crystal (100%).
+- [pokegold (decomp)](https://github.com/pret/pokegold) - Matching decompilation of Pokémon Gold (100%).
+- [pokegold-spaceworld (decomp)](https://github.com/pret/pokegold-spaceworld) - Matching decompilation of Pokémon Gold (SpaceWorld Demo) (100%).
+- [pokeyellow (decomp)](https://github.com/pret/pokeyellow) - Matching decompilation of Pokémon Yellow (100%).
+- [pokered (decomp)](https://github.com/pret/pokered) - Matching decompilation of Pokémon Red (100%).
 
 #### Gen III
 
@@ -1235,7 +1307,10 @@ This list is for developers and modders working with such formats. It provides t
 - [blue-spider](https://github.com/cosarara/blue-spider) - Map editor for Pokémon Ruby/Sapphire/Emerald.
 - [porymap](https://github.com/huderlem/porymap) - Modern map editor for Gen III Pokémon games.
 - [MEH](https://github.com/shinyquagsire23/MEH) - Map editor for Gen III.
+- [pokeemerald-jp (decomp)](https://github.com/pret/pokeemerald-jp) - Matching decompilation of Pokémon Emerald (JP) (100%).
+- [pokeemerald (decomp)](https://github.com/pret/pokeemerald) - Matching decompilation of Pokémon Emerald (100%).
 - [AwesomeMapEditor](https://github.com/Sierraffinity/AwesomeMapEditor) - Alternative map editor for Gen III.
+- [pokeruby (decomp)](https://github.com/pret/pokeruby) - Matching decompilation of Pokémon Ruby (100%).
 - [gomons](https://github.com/huderlem/gomons) - Go library that can read and modify Pokémon Emerald save files.
 - [Bulbapedia (Gen I)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_I)) - Save data structure documentation for Generation I.
 - [Bulbapedia (Gen II)](https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_II)) - Save data structure documentation for Generation II.
@@ -1243,11 +1318,23 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Gen VI
 
+- [pokediamond (decomp)](https://github.com/pret/pokediamond) - Matching decompilation of Pokémon Diamond (100%).
+- [pokeplatinum (decomp)](https://github.com/pret/pokeplatinum) - Matching decompilation of Pokémon Platinum (100%).
 - [Personal-Editor](https://github.com/SciresM/Personal-Editor) - Editor for Generation 6 Pokémon games (Pokémon X/Y and Pokémon OR/AS). Use on extracted files from Personal.GARC.
 
 #### Gen V
 
 - [SwissArmyKnife](https://github.com/PlatinumMaster/SwissArmyKnife) - Cross-platform ROM editor for Generation V Pokémon games (Black, White, Black 2, White 2). Supports editing map containers, text, events, zone headers, entities, and encounters.
+- [pbr-dtk (decomp)](https://github.com/bgsamm/pbr-dtk) - Matching decompilation of Pokémon Battle Revolution.
+- [pokestadium (decomp)](https://github.com/pret/pokestadium) - Matching decompilation of Pokémon Stadium (100%).
+- [pokestadiumgs (decomp)](https://github.com/pret/pokestadiumgs) - Matching decompilation of Pokémon Stadium 2 (100%).
+- [pmd-red (decomp)](https://github.com/pret/pmd-red) - Matching decompilation of Pokémon Mystery Dungeon: Red Rescue Team (100%).
+- [pmd-sky (decomp)](https://github.com/pret/pmd-sky) - Matching decompilation of Pokémon Mystery Dungeon: Explorers of Sky (100%).
+- [pokepinballrs (decomp)](https://github.com/pret/pokepinballrs) - Matching decompilation of Pokémon Pinball: Ruby & Sapphire (100%).
+- [pokepinball (decomp)](https://github.com/pret/pokepinball) - Matching decompilation of Pokémon Pinball (100%).
+- [poketcg (decomp)](https://github.com/pret/poketcg) - Matching decompilation of Pokémon TCG (100%).
+- [poketcg2 (decomp)](https://github.com/pret/poketcg2) - Matching decompilation of Pokémon TCG 2 (100%).
+- [pokeblack (decomp)](https://github.com/pokemodding/pokeblack) - Matching decompilation of Pokémon Black.
 
 ### Genius Sonority
 
@@ -1286,6 +1373,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### id Software
 
+- [DOOM64-RE (decomp)](https://github.com/Erick194/DOOM64-RE) - Matching decompilation of Doom 64.
+- [PSXDOOM-RE (decomp)](https://github.com/Erick194/PSXDOOM-RE) - Matching decompilation of Doom (PlayStation).
 - [blender_io_mesh_bsp](https://github.com/andyp123/blender_io_mesh_bsp) - Blender addon for importing Quake BSP (Binary Space Partition) map files.
 - [wadext](https://github.com/ZDoom/wadext) - Simple WAD extraction command-line tool for Doom engine (id Tech 1) mods. Extracts and converts Doom format patches/flats to PNG and sounds to WAV. Supports Doom, Heretic, Hexen, and Strife palettes.
 - [DOOMP](https://github.com/Ret-HZ/DOOMP) - Doom file format parser and extractor.
@@ -1320,6 +1409,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### LucasArts
 
+- [rogue_squadron64 (decomp)](https://github.com/Tmcg2/rogue_squadron64) - Matching decompilation of Star Wars: Rogue Squadron (N64).
+- [SW_RACER_RE (decomp)](https://github.com/tim-tim707/SW_RACER_RE) - Matching decompilation of Star Wars Episode 1: Racer.
 - [scummtools](https://github.com/UnBeatWaterGH/scummtools) - Tools for SCUMM (Script Creation Utility For Maniac Mansion).
 - [Grim Fandango model viewer](https://www.moddb.com/games/grim-fandango/downloads/grim-fandango-model-viewer)
 - [Easy Saber Editing Script 2.0 (Star Wars: Jedi Academy)](https://www.moddb.com/games/star-wars-jedi-academy/downloads/easy-saber-editing-script-2-0) - Script for skipping the saber menu and receiving a default saber in Star Wars: Jedi Academy (v2.0).
@@ -1328,6 +1419,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Gust (Koei Tecmo)
 
+- [slpm86183 (decomp)](https://github.com/Erizur/slpm86183) - Matching decompilation of Pop'N Music CS1 (PS1).
 - [gust_stuff](https://github.com/eArmada8/gust_stuff) - Modding toolkit for G1M model files used in Gust games (Atelier series).
 - [Project-G1M](https://github.com/Joschuka/Project-G1M) - Noesis plugin for importing G1M 3D model format used in Gust and Bandai Namco games.
 
@@ -1335,6 +1427,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Rock Band, Guitar Hero, Amplitude, Dance Dance Revolution Universe, Frequency, Karaoke Revolution.*
 
+- [rb3ds (decomp)](https://github.com/ieee802dot11ac/rb3ds) - Matching decompilation of Rock Band 3 (Nintendo DS).
 - [LibForge](https://github.com/maxton/LibForge) - Library for reading, writing, and converting Forge engine formats (Rock Band 4, Rock Band VR, FUSER). Handles MIDI, textures (PNG, BMP), models (FBX, OBJ), DTA/DTB, RBmid, RBsong, lipsync, and package files (CON, GP4, PKG). See also [PikminGuts92's fork](https://github.com/PikminGuts92/LibForge) with v2 RB MIDI support, MAGMA v1 milos support, and AMP/RBVR .mid_* file support.
 - [pikaxe](https://github.com/PikminGuts92/pikaxe) - Milo engine modding tool for Harmonix games. Supports Guitar Hero 1-2, Guitar Hero Encore: Rocks the 80s, Rock Band series, Dance Central, and other Milo engine titles. Handles DTA, GLTF, and ARK formats across Xbox, Wii, and PS3. Evolution of Mackiloha.
 - [DtxCS](https://github.com/maxton/DtxCS) - C# library for parsing and interpreting DTA/DTB scripting format used in Rock Band and Guitar Hero games.
@@ -1382,9 +1475,14 @@ This list is for developers and modders working with such formats. It provides t
 - [MeltyTool (Sysdolphin)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Sysdolphin) - Sysdolphin format viewer/exporter.
 - [Melee DAT format](https://smashboards.com/threads/melee-dat-format.292603/) - Documentation for Melee's DAT format.
 - [DATReaderC](https://github.com/EstevanBR/DATReaderC) - A C program that reads a .dat file (Super Smash Bros. Melee)
+- [ssb-decomp-re (decomp)](https://github.com/vetritheretri/ssb-decomp-re) - Matching decompilation of Super Smash Bros. (N64).
+- [melee (decomp)](https://github.com/doldecomp/melee) - Matching decompilation of Super Smash Bros. Melee.
+- [brawl (decomp)](https://github.com/doldecomp/brawl) - Matching decompilation of Super Smash Bros. Brawl.
 
 ### Heavy Iron Studios
 
+- [bfbb (decomp)](https://github.com/bfbbdecomp/bfbb) - Matching decompilation of SpongeBob SquarePants: Battle for Bikini Bottom.
+- [SBMI-Decomp (decomp)](https://github.com/Juanen100/SBMI-Decomp) - Matching decompilation of SpongeBob Moves In! (Android).
 - [BFBBJSPTool](https://github.com/igorseabra4/BFBBJSPTool) - JSP tool for SpongeBob SquarePants: Battle for Bikini Bottom.
 - [SpyroETDChunkTool](https://github.com/igorseabra4/SpyroETDChunkTool) - Chunk tool for Spyro: Enter the Dragonfly.
 - [IndustrialPark](https://github.com/igorseabra4/IndustrialPark) - Viewer and editor for SpongeBob SquarePants: Battle for Bikini Bottom and Scooby-Doo games.
@@ -1421,6 +1519,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Intelligent Systems
 
+- [fe11-us (decomp)](https://github.com/Eebit/fe11-us) - Matching decompilation of Fire Emblem: Shadow Dragon (NDS, USA).
 - [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
 - [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Fire Emblem If ARC re/unpacker.
@@ -1429,6 +1528,8 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [Fast3d/F3dex (N64)](#fast3df3dex-n64) for graphics format tools used in this game.*
 
+- [papermario (decomp)](https://github.com/pmret/papermario) - Matching decompilation of Paper Mario (Nintendo 64).
+- [leaflitter (decomp)](https://github.com/darxoon/leaflitter) - Work-in-progress decompilation of Paper Mario: Sticker Star.
 - [noclip.website (PM64)](https://github.com/magcius/noclip.website/tree/main/src/PaperMario64) - In-browser Paper Mario 64 map viewer.
 - [star-rod](https://github.com/z64a/star-rod) - Modding tool for Paper Mario 64 including map editor and script tools.
 - [Hack64 Paper Mario](https://hack64.net/wiki/doku.php?id=paper_mario) - Documentation for Paper Mario 64 file formats and data structures.
@@ -1437,6 +1538,8 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for additional format tools used in these games.*
 
+- [ttyd (decomp)](https://github.com/doldecomp/ttyd) - Matching decompilation of Paper Mario: The Thousand-Year Door.
+- [spm-decomp (decomp)](https://github.com/seekyct/spm-decomp) - Matching decompilation of Super Paper Mario.
 - [SpmViewer](https://github.com/follyfoxe/SpmViewer) - Viewer for Super Paper Mario assets.
 - [ttyd-utils](https://github.com/jdaster64/ttyd-utils) - Utilities for modding Paper Mario: TTYD.
 - [noclip.website (TTYD)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTTYD) - In-browser TTYD map viewer.
@@ -1500,7 +1603,13 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Silent Hill
 
+- [silent-hill-decomp (decomp)](https://github.com/Vatuu/silent-hill-decomp) - Matching decompilation of Silent Hill (PS1, US 1.1).
 - [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
+
+#### Fatal Frame
+
+- [himuro (decomp)](https://github.com/mikompilation/himuro) - Matching decompilation of Fatal Frame (PS2).
+- [minakami (decomp)](https://github.com/mikompilation/minakami) - Matching decompilation of Fatal Frame 2 (PS2).
 - [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
 - [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
 - [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
@@ -1510,6 +1619,13 @@ This list is for developers and modders working with such formats. It provides t
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
 - [dreamingmoths/silent-hill-museum](https://github.com/dreamingmoths/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
+- [mgs_reversing (decomp)](https://github.com/FoxdieTeam/mgs_reversing) - Matching decompilation of Metal Gear Solid (PSX).
+
+#### Castlevania
+
+- [cv64 (decomp)](https://github.com/blazkowolf/cv64) - Matching decompilation of Castlevania (N64).
+- [cvaos (decomp)](https://github.com/testyourmine/cvaos) - Matching decompilation of Castlevania: Aria of Sorrow.
+- [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
 
 ### Kuju London
 
@@ -1540,6 +1656,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Level-5
 
+- [dcdecomp (decomp)](https://github.com/adubbz/dcdecomp) - Matching decompilation of Dark Cloud (PS2).
 - [Inazuma-Eleven-Toolbox](https://github.com/SwareJonge/Inazuma-Eleven-Toolbox) - Toolbox for Inazuma Eleven game files.
 - [Metanoia](https://github.com/Ploaj/Metanoia) - Model viewer and research tool for Level-5 games.
 - [MeltyTool (Level5)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Level5) - Level-5 format viewer/exporter for games like Dark Cloud and Professor Layton.
@@ -1599,12 +1716,15 @@ This list is for developers and modders working with such formats. It provides t
 - [Audio Modding Guide (AoE2DE)](https://steamcommunity.com/sharedfiles/filedetails/?id=1915891079) - Comprehensive tutorial for audio modding in Age of Empires II: Definitive Edition.
   - Topics: Scenario triggers, SFX replacement, music, voice-overs, taunts, data file editing with Wwise audio system.
   - Tools: Ravioli Tools, vgmstream, Advanced Genie Editor.
+- [halo (decomp)](https://github.com/halo-re/halo) - Matching decompilation of Halo: Combat Evolved (Xbox).
 
 ### Mobius Digital
 
 - [noclip.website (Outer Wilds)](https://github.com/magcius/noclip.website/tree/main/src/OuterWilds) - In-browser Outer Wilds viewer.
 
 ### Midway
+
+- [revenge (decomp)](https://github.com/svinsmoke212/revenge) - Matching decompilation of WCW/nWo Revenge (N64).
 
 #### Gauntlet
 
@@ -1677,6 +1797,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Xenoblade Chronicles
 
+- [xenoblade (decomp)](https://github.com/xbret/xenoblade) - Matching decompilation of Xenoblade Chronicles (Wii, JP).
 - [XenoTools](https://github.com/Nenkai/XenoTools) - Tools for Xenoblade Chronicles file formats.
 - [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for reading and writing BDAT format used in Xenoblade Chronicles games for data tables.
 - [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File replacement mod for Switch Xenoblade games allowing custom files to be loaded from RomFS instead of ARD archives.
@@ -1700,6 +1821,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Crash-Bandicoot-2-Modelexport](https://github.com/warenhuis/Crash-Bandicoot-2-Modelexport) - Model exporter for Crash Bandicoot 2.
 - [crashutils](https://github.com/wurlyfox/crashutils) - Collection of utilities for Crash Bandicoot file formats.
 - [noclip.website (Crash Bandicoot: Warped)](https://github.com/magcius/noclip.website/tree/main/src/CrashWarped) - In-browser Crash Bandicoot: Warped viewer.
+- [c2c (decomp)](https://github.com/ughman/c2c) - Matching decompilation of Crash Bandicoot 2: Cortex Strikes Back.
+- [crash-ps2 (decomp)](https://github.com/calmsacibis995/crash-ps2) - Matching decompilation of Crash Bandicoot: The Wrath of Cortex (PS2).
 
 #### Jak and Daxter
 
@@ -1708,6 +1831,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Blender-Script-JaD-Actors](https://github.com/innocentmiau/Blender-Script-JaD-Actors) - Blender script for importing Jak and Daxter actor models.
 - [JakAudioTools](https://github.com/jwetzell/JakAudioTools) - Audio extraction and conversion tools for Jak and Daxter series.
 - [JakAudioTool](https://github.com/LuminarLight/JakAudioTool) - GUI tool for working with Jak and Daxter audio files.
+- [CTR-ModSDK (decomp)](https://github.com/CTR-tools/CTR-ModSDK) - Matching decompilation of Crash Team Racing (PS1).
 
 ### NanaOn-Sha
 
@@ -1730,6 +1854,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Animal-Crossing-Texture-Editor](https://github.com/Cuyler36/Animal-Crossing-Texture-Editor) - Texture editing tool for Animal Crossing.
 - [Cross-View](https://github.com/Cuyler36/Cross-View) - Model viewer for Animal Crossing.
 - [RELDumper](https://github.com/Cuyler36/RELDumper) - Tool for dumping REL files from Animal Crossing.
+- [af (decomp)](https://github.com/zeldaret/af) - Matching decompilation of Animal Forest.
+- [ac-decomp (decomp)](https://github.com/acreteam/ac-decomp) - Matching decompilation of Animal Crossing (GameCube).
+- [afe-decomp (decomp)](https://github.com/acreteam/afe-decomp) - Matching decompilation of Animal Forest e+ (JP).
 
 #### AST
 
@@ -1755,6 +1882,9 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for additional format tools used in this game.*
 
+- [pikmin (decomp)](https://github.com/projectPiki/pikmin) - Matching decompilation of Pikmin.
+- [pik2wii (decomp)](https://github.com/projectPiki/pik2wii) - Matching decompilation of New Play Control! Pikmin 2 (Wii, USA).
+- [pikmin2 (decomp)](https://github.com/projectPiki/pikmin2) - Matching decompilation of Pikmin 2 (GameCube, USA).
 - [MODConv](https://github.com/intns/MODConv) - MOD model format converter for Pikmin 1.
 - [Pikmin1Toolset](https://github.com/NerduMiner/Pikmin1Toolset) - Collection of modding tools including mod2obj converter for Pikmin 1.
 - [PikBinGen](https://github.com/RenolY2/PikBinGen) - Binary file generator for creating custom Pikmin levels.
@@ -1790,6 +1920,7 @@ This list is for developers and modders working with such formats. It provides t
 - [mkdd-track-editor](https://github.com/RenolY2/mkdd-track-editor) - Full-featured track editor for Mario Kart Double Dash.
 - [DouBOL-Dash](https://github.com/shibbo/DouBOL-Dash) - BOL file format tool for editing race course layouts in Mario Kart Double Dash.
 - [noclip.website (Mario Kart: Double Dash)](https://github.com/magcius/noclip.website/tree/main/src/j3d) - In-browser Mario Kart Double Dash viewer.
+- [mkdd (decomp)](https://github.com/doldecomp/mkdd) - Matching decompilation of Mario Kart: Double Dash!!.
 
 #### Super Mario 64
 
@@ -1799,6 +1930,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MeltyTool (SuperMario64)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/SuperMario64) - Super Mario 64 format viewer/exporter.
 - [SM64Paint](https://github.com/Trenavix/SM64Paint) - Texture editor for Super Mario 64.
 - [Hack64 Super Mario 64](https://hack64.net/wiki/doku.php?id=super_mario_64) - Documentation for Super Mario 64 formats.
+- [sm64 (decomp)](https://github.com/n64decomp/sm64) - Matching decompilation of Super Mario 64.
 
 #### Super Mario 64 DS
 
@@ -1811,6 +1943,25 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for Super Mario Sunshine and Galaxy.*
 
+- [bba-wd (decomp)](https://github.com/vabold/bba-wd) - Matching decompilation of Big Brain Academy: Wii Degree.
+- [bodyharvestdecomp (decomp)](https://github.com/deltaniumindustries/bodyharvestdecomp) - Matching decompilation of Body Harvest (N64).
+- [chameleontwistv1.0-jp (decomp)](https://github.com/chameleontwistret/chameleontwistv1.0-jp) - Matching decompilation of Chameleon Twist (N64, JP).
+- [doshin-gc (decomp)](https://github.com/break-core/doshin-gc) - Matching decompilation of Doshin the Giant (GameCube).
+- [pcopter_wii (decomp)](https://github.com/Bsquo/pcopter_wii) - Matching decompilation of Radio Helicopter (Wii).
+- [KinokoDecomp-S (decomp)](https://github.com/Moddimation/KinokoDecomp-S) - Matching decompilation of Captain Toad: Treasure Tracker for Nintendo Switch.
+- [drmario64 (decomp)](https://github.com/angheloalf/drmario64) - Matching decompilation of Dr. Mario 64.
+- [mariogolf64 (decomp)](https://github.com/monde-lointain/mariogolf64) - Matching decompilation of Mario Golf (N64).
+- [mk64 (decomp)](https://github.com/n64decomp/mk64) - Matching decompilation of Mario Kart 64.
+- [mkds-re (decomp)](https://github.com/XorTroll/mkds-re) - Reverse engineering work for Mario Kart DS (EU).
+- [mkw (decomp)](https://github.com/snailspeed3/mkw) - Matching decompilation of Mario Kart Wii.
+- [marioparty (decomp)](https://github.com/mariopartyrd/marioparty) - Matching decompilation of Mario Party.
+- [marioparty2 (decomp)](https://github.com/mariopartyrd/marioparty2) - Matching decompilation of Mario Party 2.
+- [marioparty3 (decomp)](https://github.com/mariopartyrd/marioparty3) - Matching decompilation of Mario Party 3.
+- [marioparty4 (decomp)](https://github.com/mariopartyrd/marioparty4) - Matching decompilation of Mario Party 4.
+- [red-pro2 (decomp)](https://github.com/aboood40091/red-pro2) - Matching decompilation of New Super Mario Bros. U v1.3.0 (US).
+- [OdysseyDecomp (decomp)](https://github.com/MonsterDruide1/OdysseyDecomp) - Matching decompilation of Super Mario Odyssey for all versions.
+- [smstrikers-decomp (decomp)](https://github.com/yannicksuter/smstrikers-decomp) - Matching decompilation of Super Mario Strikers.
+- [sms (decomp)](https://github.com/doldecomp/sms) - Matching decompilation of Super Mario Sunshine.
 - [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
 - [smstools](https://github.com/impiaaa/smstools) - Toolkit for decoding and working with Super Mario Sunshine data files.
 - [Track-Studio](https://github.com/MapStudioProject/Track-Studio) - Full-featured track and course editor for Mario Kart 8.
@@ -1829,6 +1980,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### New Super Mario Bros Wii
 
+- [NSMBW-Decomp (decomp)](https://github.com/NSMBW-Community/NSMBW-Decomp) - Matching decompilation of New Super Mario Bros. Wii.
 - [BerryBush](https://github.com/hayden0729/berrybush) - Blender addon focused on importing and exporting BRRES models.
   - Games: New Super Mario Bros. Wii (BRRES assets including characters, levels, props).
   - Features: BRRES importer/exporter, render engine, material editing interface, and verifier to catch malformed model data before export.
@@ -1851,6 +2003,8 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Wii Sports
 
+- [wii-ipl (decomp)](https://github.com/koopthekoopa/wii-ipl) - Matching decompilation of Wii Menu.
+- [ogws (decomp)](https://github.com/doldecomp/ogws) - Matching decompilation of Wii Sports.
 - [noclip.website (Wii Sports)](https://github.com/magcius/noclip.website/tree/main/src/WiiSports) - In-browser Wii Sports viewer.
 - [noclip.website (Wii Sports Resort)](https://github.com/magcius/noclip.website/tree/main/src/WiiSports) - In-browser Wii Sports Resort viewer.
 
@@ -1860,6 +2014,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Star Fox 64
 
+- [sf64 (decomp)](https://github.com/sonicdcer/sf64) - Matching decompilation of Star Fox 64.
 - [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for Star Fox 64 file formats.
 
 #### Star Fox 64 3D
@@ -1870,8 +2025,31 @@ This list is for developers and modders working with such formats. It provides t
 
 - [noclip.website (Super Monkey Ball)](https://github.com/magcius/noclip.website/tree/main/src/SuperMonkeyBall) - In-browser Super Monkey Ball viewer.
 
+#### F-Zero
+
+- [fzerox (decomp)](https://github.com/inspectredc/fzerox) - Matching decompilation of F-Zero X.
+- [fzerox-expansion-kit (decomp)](https://github.com/inspectredc/fzerox-expansion-kit) - Matching decompilation of F-Zero X Expansion Kit.
+
+#### Chibi-Robo
+
+- [cbr_decomp (decomp)](https://github.com/eavpsp/cbr_decomp) - Matching decompilation of Chibi-Robo! (GameCube).
+
+#### Snowboard Kids
+
+- [sk (decomp)](https://github.com/sonicdcer/sk) - Matching decompilation of Snowboard Kids (N64).
+- [snowboardkids2-decomp (decomp)](https://github.com/cdlewis/snowboardkids2-decomp) - Matching decompilation of Snowboard Kids 2 (N64).
+
+#### Wave Race 64
+
+- [wave-race-64 (decomp)](https://github.com/llonsit/wave-race-64) - Matching decompilation of Wave Race 64.
+
+#### The New Tetris
+
+- [tnt (decomp)](https://github.com/kiritodv/tnt) - Matching decompilation of The New Tetris (N64).
+
 #### New Super Mario Bros DS
 
+- [nsmb (decomp)](https://github.com/NSMB-Decomp/nsmb) - Matching decompilation of New Super Mario Bros.
 - [noclip.website (New Super Mario Bros DS)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser New Super Mario Bros DS viewer.
 
 #### Metroid Prime
@@ -1881,6 +2059,10 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Metroid Prime 2)](https://github.com/magcius/noclip.website/tree/main/src/MetroidPrime) - In-browser Metroid Prime 2: Echoes viewer.
 - [noclip.website (Metroid Prime 3)](https://github.com/magcius/noclip.website/tree/main/src/MetroidPrime) - In-browser Metroid Prime 3: Corruption viewer.
 - [noclip.website (Metroid Prime Hunters)](https://github.com/magcius/noclip.website/tree/main/src/MetroidPrimeHunters) - In-browser Metroid Prime Hunters viewer.
+- [mzm (decomp)](https://github.com/metroidret/mzm) - Matching decompilation of Metroid: Zero Mission.
+- [mf (decomp)](https://github.com/metroidret/mf) - Matching decompilation of Metroid Fusion.
+- [prime (decomp)](https://github.com/primedecomp/prime) - Matching decompilation of Metroid Prime.
+- [echoes (decomp)](https://github.com/primedecomp/echoes) - Matching decompilation of Metroid Prime 2: Echoes.
 
 #### Pokemon
 
@@ -1914,6 +2096,18 @@ This list is for developers and modders working with such formats. It provides t
 - [Z64Utils](https://github.com/zeldaret/Z64Utils) - Asset viewer for the Zelda64 Engine
 - [NSMBHD Wiki (BCRES)](https://nsmbhd.net/wiki/BCRES/) - BCRES format documentation for 3DS games.
 - [CloudModding Wiki (OoT Animation)](https://wiki.cloudmodding.com/oot/Animation_Format) - Animation format documentation for Ocarina of Time.
+- [mm (decomp)](https://github.com/zeldaret/mm) - Matching decompilation of The Legend of Zelda: Majora's Mask.
+- [oot (decomp)](https://github.com/zeldaret/oot) - Matching decompilation of The Legend of Zelda: Ocarina of Time.
+- [oot-vc (decomp)](https://github.com/zeldaret/oot-vc) - Matching decompilation of the Wii Virtual Console N64 emulator for Ocarina of Time (JP).
+- [oot3d (decomp)](https://github.com/zeldaret/oot3d) - Matching decompilation of The Legend of Zelda: Ocarina of Time 3D.
+- [tww (decomp)](https://github.com/zeldaret/tww) - Matching decompilation of The Legend of Zelda: The Wind Waker.
+- [tmc (decomp)](https://github.com/zeldaret/tmc) - Matching decompilation of The Legend of Zelda: The Minish Cap.
+- [ph (decomp)](https://github.com/zeldaret/ph) - Matching decompilation of The Legend of Zelda: Phantom Hourglass.
+- [st (decomp)](https://github.com/yanis002/st) - Matching decompilation of The Legend of Zelda: Spirit Tracks.
+- [ss (decomp)](https://github.com/zeldaret/ss) - Matching decompilation of The Legend of Zelda: Skyward Sword.
+- [botw (decomp)](https://github.com/zeldaret/botw) - Matching decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0).
+- [las-decomp (decomp)](https://github.com/Owen-Splat/las-decomp) - Matching decompilation of Link's Awakening Switch (2019 remake).
+- [tp (decomp)](https://github.com/zeldaret/tp) - Matching decompilation of The Legend of Zelda: Twilight Princess.
 
 ### Nintendo SDKs & Hardware
 
@@ -2120,6 +2314,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Rare
 
+- [sssv (decomp)](https://github.com/mkst/sssv) - Matching decompilation of Space Station Silicon Valley (N64).
+
 #### Banjo-Kazooie
 
 - [noclip.website (Banjo-Kazooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoKazooie) - In-browser Banjo-Kazooie viewer.
@@ -2129,6 +2325,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Banjo-Tooie
 
+- [conker (decomp)](https://github.com/mkst/conker) - Matching decompilation of Conker's Bad Fur Day (N64).
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
 - [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
@@ -2148,6 +2345,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
 - [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
+- [bk360 (decomp)](https://github.com/banjo360/bk360) - Matching decompilation of Banjo-Kazooie (Xbox 360).
+- [diddy-kong-racing (decomp)](https://github.com/davidsm64/diddy-kong-racing) - Matching decompilation of Diddy Kong Racing.
 
 ### Runic Games
 
@@ -2204,6 +2403,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Sega
 
+- [ogre-decomp (decomp)](https://github.com/hamzaxx370/ogre-decomp) - Matching decompilation of Yakuza 1 (PS2).
+- [tbg-decomp (decomp)](https://github.com/lhsazevedo/tbg-decomp) - Matching decompilation of Tokyo Bus Guide (Dreamcast).
+- [SkiesofArcadiaLegends (decomp)](https://github.com/rainchus/SkiesofArcadiaLegends) - Matching decompilation of Skies of Arcadia Legends (GameCube).
 - [puyotools](https://github.com/nickworonekin/puyotools) - Tools for Puyo Puyo game file formats.
 - [puyo-pac](https://github.com/nickworonekin/puyo-pac) - Tool for Puyo Puyo PAC archive format.
 - [PP20thDataExtractor](https://github.com/nickworonekin/PP20thDataExtractor) - Data extractor for Puyo Puyo 20th Anniversary.
@@ -2238,6 +2440,14 @@ This list is for developers and modders working with such formats. It provides t
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
 - [PCSX2 Patches](https://github.com/PCSX2/pcsx2_patches) - Game patches for PCSX2 emulator including widescreen and interlacing fixes.
 - [noclip.website (Jet Set Radio)](https://github.com/magcius/noclip.website/tree/main/src/JetSetRadio) - In-browser Jet Set Radio viewer.
+- [Sonic-1-2-2013-Decompilation (decomp)](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation) - Matching decompilation of Sonic 1 & 2 (2013 mobile) and Retro Engine v4.
+- [Sonic-CD-11-Decompilation (decomp)](https://github.com/RSDKModding/RSDKv3-Decompilation) - Matching decompilation of Sonic CD (2011 mobile) and Retro Engine v3.
+- [sa1 (decomp)](https://github.com/SAT-R/sa1) - Matching decompilation of Sonic Advance (GBA, Europe).
+- [sa2 (decomp)](https://github.com/SAT-R/sa2) - Matching decompilation of Sonic Advance 2 (GBA).
+- [sa3 (decomp)](https://github.com/SAT-R/sa3) - Matching decompilation of Sonic Advance 3 (GBA).
+- [Sonic-Mania-Decompilation (decomp)](https://github.com/RSDKModding/Sonic-Mania-Decompilation) - Matching decompilation of Sonic Mania (2017).
+- [RunnersDecomp (decomp)](https://github.com/itsmattkc/RunnersDecomp) - Matching decompilation of Sonic Runners.
+- [SonicRushAdventure-Decomp (decomp)](https://github.com/RushRE/SonicRushAdventure-Decomp) - Matching decompilation of Sonic Rush Adventure.
 
 ### Sonic Team
 
@@ -2273,6 +2483,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Sony (First Party)
 
+- [ico-decomp (decomp)](https://github.com/rossydoubleunderscore/ico-decomp) - Matching decompilation of Ico (PS2).
+- [medievil-decomp (decomp)](https://github.com/medievildecompilation/medievil-decomp) - Matching decompilation of MediEvil (PS1).
+- [open-ribbon (decomp)](https://github.com/open-ribbon/open-ribbon) - Matching decompilation of VIB Ribbon (PS1, PAL).
 - [mkpsxiso](https://github.com/Lameguy64/mkpsxiso) - Tool to build and extract PlayStation 1 CD images from XML. Modern cross-platform replacement for BUILDCD from PsyQ SDK. Supports mixed-mode CD-XA with audio/video streams.
 - [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) - Library, GUI, and CLI tools for creating, inspecting, and modifying PlayStation 4 PKG, SFO, PFS files. Open-source alternative to Sony SDK tools.
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Tool for building SGX audio file banks used in various PSP and PS3 games (sgd/sgh/sgb) from standard audio formats. Used in Gran Turismo 5/6, LocoRoco Cocoreccho, Ape Escape Move, and more.
@@ -2289,7 +2502,33 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Final Fantasy
 
+- [FFCC-Decomp (decomp)](https://github.com/zcanann/FFCC-Decomp) - Matching decompilation of Final Fantasy Crystal Chronicles.
 - [ff7tool](https://github.com/jkbenaim/ff7tool) - Tool for Final Fantasy 7 file formats.
+
+#### Chrono Cross
+
+- [chrono-cross-decomp (decomp)](https://github.com/jdperos/chrono-cross-decomp) - Matching decompilation of Chrono Cross (100%, based on Radical Dreamers version).
+
+#### Xenogears
+
+- [xenogears-decomp (decomp)](https://github.com/ladysilverberg/xenogears-decomp) - Matching decompilation of Xenogears.
+- [Noah (decomp)](https://github.com/yaz0r/Noah) - Non-matching decompilation of Xenogears.
+
+#### Xenosaga
+
+- [xenosaga (decomp)](https://github.com/squareman/xenosaga) - Matching decompilation of Xenosaga Episode 1 (PS2, USA).
+
+#### Vagrant Story
+
+- [rood-reverse (decomp)](https://github.com/ser-pounce/rood-reverse) - Matching decompilation of Vagrant Story.
+
+#### Soul Blazer
+
+- [RustyBlazer (decomp)](https://github.com/hellow554/RustyBlazer) - Matching decompilation of Soul Blazer.
+
+#### The World Ends With You
+
+- [twewy (decomp)](https://github.com/Yotona/twewy) - Matching decompilation of The World Ends With You (NDS).
 
 #### Babylon's Fall
 
@@ -2297,8 +2536,8 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Hitman
 
+- [re47 (decomp)](https://github.com/0danny/re47) - Matching decompilation of Hitman: Codename 47 (2000).
 - [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Use this tool to install HiTMAN mods or extract the *.rpkg archives in which HiTMAN files are stored. Version 2: Now called Hitman Archive Manager
-
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
 - [AudioMog](https://github.com/Yoraiz0r/AudioMog) - All-in-one audio modding tool for unpacking and repacking audio binary files. Created for Kingdom Hearts III modding and works on other games such as Melody of Memory, Final Fantasy XV, and more.
 - [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Worldpoint editor for Kingdom Hearts 2.
@@ -2326,11 +2565,13 @@ This list is for developers and modders working with such formats. It provides t
 - [KH2-Anm-Generator](https://github.com/Kite2810/KH2-Anm-Generator) - Automated animation cutscene generator for Kingdom Hearts 2 custom character models.
 - [Hypercrown](https://github.com/Some1fromthedark/Hypercrown) - Model converter for Kingdom Hearts 1 (converts models to common formats and back).
 - [CrystalEditor](https://github.com/Cuyler36/CrystalEditor) - Savegame editor for Final Fantasy Crystal Chronicles: My Life as a King (WiiWare).
+- [ff7-decomp (decomp)](https://github.com/xeeynamo/ff7-decomp) - Matching decomp of Final Fantasy VII for PlayStation 1
 
 ### Sucker Punch
 
 #### Sly Cooper
 
+- [sly1 (decomp)](https://github.com/TheOnlyZac/sly1) - Matching decompilation of Sly Cooper and the Thievius Raccoonus (PS2).
 - [SlyTools](https://github.com/VelocityRa/SlyTools) - Sly Cooper (PS2/PS3 games) modding tools & research
 - [Sly2ModelRE](https://github.com/froggestspirit/Sly2ModelRE) - Researching the model format in Sly 2: Band of Thieves.
 - [sly_dec.py](https://github.com/yukinogatari/Reverse-Engineering/blob/573fc1c20796fb40a982f11dfda4039eb480a34e/Sly%20Cooper/sly_dec.py) - Python script for decrypting Sly Cooper files.
@@ -2392,11 +2633,17 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Terminal Reality
 
+- [NocturneDecomp (decomp)](https://github.com/NearlyTRex/NocturneDecomp) - Matching decompilation of Nocturne.
+
 #### BloodRayne
 
 - [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
 
 ### THQ / Rainbow Studios
+
+- [OpenBarnyard (decomp)](https://github.com/InfiniteC0re/OpenBarnyard) - Matching decompilation of Barnyard and TOSHI 2.0 engine (Blue Tongue Entertainment).
+- [OpenToshi (decomp)](https://github.com/AdventureT/OpenToshi) - Matching decompilation of de Blob and Toshi engine (Blue Tongue Entertainment).
+- [OpenJPOG (decomp)](https://github.com/AdventureT/OpenJPOG) - Matching decompilation of Jurassic Park: Operation Genesis and Toshi Engine v1.0 (Blue Tongue Entertainment).
 
 #### Cars
 
@@ -2406,7 +2653,16 @@ This list is for developers and modders working with such formats. It provides t
 
 - [3ds Export script (MX vs ATV Reflex)](https://www.moddb.com/games/mx-vs-atv-reflex/downloads/3ds-export-script) - 3DS Max export plugin for MX vs ATV Reflex.
 
+#### Twisted Metal
+
+- [tm1_decomp (decomp)](https://github.com/abelbriggs1/tm1_decomp) - Matching decompilation of Twisted Metal (PS1, NTSC-J).
+- [tmb_decomp (decomp)](https://github.com/abelbriggs1/tmb_decomp) - Matching decompilation of Twisted Metal: Black (PS2).
+- [tmhc (decomp)](https://github.com/jacobleeharris/tmhc) - Matching decompilation of Twisted Metal: Harbor City (PS2).
+
 ### 3D Realms
+
+- [BioMenaceDecomp (decomp)](https://github.com/lethal-guitar/BioMenaceDecomp) - Matching decompilation of Bio Menace.
+- [cosmore (decomp)](https://github.com/smitelli/cosmore) - Matching decompilation of Cosmo's Cosmic Adventure (96% complete).
 
 #### Duke Nukem 3D
 
@@ -2458,6 +2714,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Ubisoft
 
+- [rgh (decomp)](https://github.com/rghdecomp/rgh) - Matching decompilation of Rabbids Go Home (2009).
 - [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Library for Rayman 2 file formats.
 - [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Tool for Rayman 2 file formats.
 - [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Text tool for Gangstar Vegas game files.
@@ -2514,8 +2771,87 @@ This list is for developers and modders working with such formats. It provides t
 
 ### 2K Czech / Illusion Softworks
 
+- [mafia-re (decomp)](https://github.com/Marvisak/mafia-re) - Matching decompilation of Mafia: The City of Lost Heaven.
 - [mafia-formats](https://github.com/RoadTrain/mafia-formats) - Documentation and tools for Mafia game file formats.
 - [EffectsBinEditor](https://github.com/legion2809/EffectsBinEditor) - Program to add or remove particle effects from a particular mission in Mafia: The City of Lost Heaven.
+
+### Natsume
+
+- [hm64-decomp (decomp)](https://github.com/harvestwhisperer/hm64-decomp) - Matching decompilation of Harvest Moon 64 (N64).
+- [hmawl (decomp)](https://github.com/ChrisNonyminus/hmawl) - Matching decompilation of Harvest Moon: A Wonderful Life (GameCube).
+
+### Falcom
+
+- [YsViDecomp (decomp)](https://github.com/GrantBenR/YsViDecomp) - Matching decompilation of Ys VI (Steam).
+
+### Working Designs
+
+- [lunar2-psx-decomp (decomp)](https://github.com/Zackmon/lunar2-psx-decomp) - Matching decompilation of Lunar 2: Eternal Blue Complete (PS1).
+
+### Toby Fox
+
+- [UndertaleDecomp (decomp)](https://github.com/kittibyte/UndertaleDecomp) - Matching decompilation of UNDERTALE (Xbox One v1.13X).
+
+### Studio MDHR
+
+- [cuphead-decomp (decomp)](https://github.com/jmxamongusmodder/cuphead-decomp) - Matching decompilation of Cuphead.
+
+### TT Games
+
+- [isle (decomp)](https://github.com/isledecomp/isle) - Matching decompilation of LEGO Island (1997).
+- [Lego-City-Undercover-Decompilation (decomp)](https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation) - Matching decompilation of Lego City Undercover.
+
+### Acclaim Entertainment
+
+- [turok3 (decomp)](https://github.com/Drahsid/turok3) - Matching decompilation of Turok 3: Shadow of Oblivion (N64).
+
+### Whoopee Camp
+
+- [psx_tomba (decomp)](https://github.com/hansbonini/psx_tomba) - Matching decompilation of Tomba! (PS1, 100%).
+
+### Team Shanghai Alice
+
+- [ReC98 (decomp)](https://github.com/nmlgc/ReC98) - Matching decompilation of Touhou PC-98 games (74% complete).
+
+### 5th Cell
+
+- [locksmith (decomp)](https://github.com/redraincatching/locksmith) - Matching decompilation of Lock's Quest.
+
+### Asmik Ace Entertainment
+
+- [lsddecomp (decomp)](https://github.com/FirecatFG/lsddecomp) - Matching decompilation of LSD: Dream Emulator (PS1).
+
+### Stainless Games
+
+- [dethrace (decomp)](https://github.com/dethrace-labs/dethrace) - Matching decompilation of Carmageddon (1997).
+
+### Gumi
+
+- [client (decomp)](https://github.com/decompfrontier/client) - Matching decompilation of Brave Frontier client.
+
+### Ninja Kiwi
+
+- [BTD5-Decomp (decomp)](https://github.com/NKHook/BTD5-Decomp) - Matching decompilation of Bloons TD 5.
+
+### Eutechnyx
+
+- [Gt2 (decomp)](https://github.com/dashr9230/Gt2) - Matching decompilation of Ford Racing (2000).
+- [Caper (decomp)](https://github.com/dashr9230/Caper) - Matching decompilation of The Italian Job (2001).
+
+### Hasbro Interactive
+
+- [frogger-psx (decomp)](https://github.com/HighwayFrogs/frogger-psx) - Matching decompilation of Frogger (1997, PS1, 100%).
+
+### H2O Entertainment
+
+- [aidyn (decomp)](https://github.com/blackgamma7/aidyn) - Matching decompilation of Aidyn Chronicles: The First Mage (N64).
+
+### Other / Indie
+
+- [esa (decomp)](https://github.com/mkst/esa) - Matching decompilation of Evo's Space Adventures (PS1).
+- [GhostsAndGraves (decomp)](https://github.com/AnthonyBongers/GhostsAndGraves) - Matching decompilation of Ghosts And Graves (NES, 100%).
+- [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
+- [reSL (decomp)](https://github.com/konovalov-aleks/reSL) - Matching decompilation of ShortLine v1.1.
 
 ### Bohemia Interactive
 
@@ -2593,7 +2929,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ## 🔗 Related Lists
 
-- [Awesome Modding](https://github.com/loicreynier/awesome-modding) - Resources for game modding and customization.
+- [Awesome Modding](https://github.com/loicreynier/awesome-modding.bak) - Resources for game modding and customization.
 - [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) - A curated list of awesome game decompilations.
 - [Awesome Game Datasets](https://github.com/leomaurodesenv/game-datasets) - Datasets and resources for game research.
 - [Awesome Reverse Engineering](https://github.com/tylerha97/awesome-reversing) - List of reverse engineering resources.
@@ -2602,7 +2938,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ## 📄 License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
 
