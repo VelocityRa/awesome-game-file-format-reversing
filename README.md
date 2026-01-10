@@ -30,6 +30,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Forums \& Communities](#forums--communities)
     - [Discord Servers](#discord-servers)
     - [Knowledge Bases \& Format Databases](#knowledge-bases--format-databases)
+    - [Platform \& SDK Documentation](#platform--sdk-documentation)
     - [Game-Specific Wikis](#game-specific-wikis)
     - [📚 Learning Resources \& Tutorials](#-learning-resources--tutorials)
       - [🎥 Video Tutorials](#-video-tutorials)
@@ -376,6 +377,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Just Solve the File Format Problem](http://fileformats.archiveteam.org/wiki/Game_data_files) - ArchiveTeam's wiki for file formats.
 - [XeNTaX Wiki (defunct)](https://web.archive.org/web/20230822181840/https://wiki.xentax.com/index.php/Game_File_Format_Central) - Massive database of file format specifications.
+
+### Platform & SDK Documentation
+
+- [Psy-Q SDK Documentation](https://psx.arthus.net/sdk/Psy-Q/DOCS/) - Official PlayStation SDK documentation archive. Includes file format references, development guides, and API documentation.
+  - [File Format Reference](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Filefrmt.pdf) - Official Psy-Q SDK file format documentation.
+- [PSX-SPX Console Dev](https://psx-spx.consoledev.net/) - Comprehensive PlayStation technical documentation and reference. Covers CD-ROM file formats, hardware specifications, BIOS functions, and development resources.
+  - [CD-ROM File Formats](https://psx-spx.consoledev.net/cdromfileformats/) - Detailed documentation on PlayStation CD-ROM file formats and structures.
 
 ### Game-Specific Wikis
 
