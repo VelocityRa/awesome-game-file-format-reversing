@@ -1854,6 +1854,7 @@ This list is for developers and modders working with such formats. It provides t
 ### NanaOn-Sha
 
 - [parappa2 (decomp)](https://github.com/parappadev/parappa2) - Matching decompilation of PaRappa the Rapper 2 (PS2).
+- [open-ribbon (decomp)](https://github.com/open-ribbon/open-ribbon) - Matching decompilation of VIB Ribbon (PS1, PAL).
 - [Murugo/Misc-Game-Research (Vib-Ribbon)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS1/Vib-Ribbon) - Reverse engineering notes for Vib-Ribbon (PS1).
 
 ### Nintendo EAD
@@ -2512,7 +2513,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ico-decomp (decomp)](https://github.com/rossydoubleunderscore/ico-decomp) - Matching decompilation of Ico (PS2).
 - [medievil-decomp (decomp)](https://github.com/medievildecompilation/medievil-decomp) - Matching decompilation of MediEvil (PS1).
-- [open-ribbon (decomp)](https://github.com/open-ribbon/open-ribbon) - Matching decompilation of VIB Ribbon (PS1, PAL).
 - [mkpsxiso](https://github.com/Lameguy64/mkpsxiso) - ISO disc image maker written specifically for PlayStation homebrew development. Tool to build and extract PlayStation 1 CD images from XML. Modern cross-platform replacement for BUILDCD from PsyQ SDK. Supports mixed-mode CD-XA with audio/video streams.
 - [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) - Library, GUI, and CLI tools for creating, inspecting, and modifying PlayStation 4 PKG, SFO, PFS, and related filetypes. Open-source alternative to Sony SDK tools.
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Creates and builds Sony SGX/SGXD Audio Banks (sgd/sgh/sgb) from standard audio formats (WAV/AC3). Used in various PSP and PS3 games including Gran Turismo 5/6, LocoRoco Cocoreccho, Ape Escape Move, and more.
