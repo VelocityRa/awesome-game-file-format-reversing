@@ -440,7 +440,7 @@ This list is for developers and modders working with such formats. It provides t
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures. Supports RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16), platform-specific unswizzling (PSP, PS2, PS3, PS4, Xbox), and decompression (RLE, PackBits, ZLIB). Exports as DDS, PNG, or BMP.
 - [RAW pixels viewer](https://www.kernellabs.com/rawpixels/) - Web-based tool for analyzing raw image data. Displays memory dumps of frame buffers, video buffers, and uncompressed video files. Allows interactive exploration of color formats and image parameters (width, height, offset, flip, invert, zoom) to help identify unknown pixel formats.
-- [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Command line bulk PNG to DDS (and vice versa) conversion tool with duplicate detection.
+- [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Simple DDS and PNG tool set that converts DDS images to PNG images and vice versa on a large scale. Has options for duplicate detection and sorting.
 - [Sprite Sheet Addon for Blender](https://www.moddb.com/engines/blender-game-engine/downloads/sprite-sheet-addon-for-blender) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
 - [Sprite Sheet Addon for Blender VSE](https://www.moddb.com/groups/blender-game-engine/downloads/sprite-sheet-addon-for-blender-vse) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
@@ -612,13 +612,13 @@ This list is for developers and modders working with such formats. It provides t
 - [Dvondrake's SMD exporter for Blender](https://www.moddb.com/groups/source-developers/downloads/dvondrake-smd-blender) - The first fully-functional Source engine SMD exporter for Blender. Supports reference, physics and animation, and has an accompanying video tutorial.
 - [Autodesk Softimage Mod Tool 7.5 (Source Developers)](https://www.moddb.com/groups/source-developers/downloads/autodesk-softimage-mod-tool-75) - (Formerly the XSI Mod Tool) A completely free version of the Autodesk Softimage modelling package. Plugins for Source, CryEngine 2, Unreal Engine 3, XNA, Unity, and more are available.
 - [Blender3D SMD Exporter (Half-Life 2)](https://www.moddb.com/games/half-life-2/downloads/blender3d-smd-exporter) - Provides support for Blender3D to export models to the Half-Life 2 SMD format. Supports rigged meshes as well as animations.
-- [ValveResourceFormat](https://github.com/ValveResourceFormat/ValveResourceFormat) - C# library and tools for reading and writing Valve Source engine resource files.
-- [source-engine](https://github.com/nillerusr/source-engine) - Source engine tools and utilities.
-- [GARbro](https://github.com/morkt/GARbro) - Visual Novels archive browser and extractor supporting many formats.
-- [openrw](https://github.com/rwengine/openrw) - Open source re-implementation of Rockstar's RenderWare engine.
-- [unrpa](https://github.com/Lattyware/unrpa) - Extractor for RPA archives used in Ren'Py visual novels.
-- [GtkRadiant](https://github.com/TTimo/GtkRadiant) - Level editor for id Tech and Source engine games.
-- [jpsxdec](https://github.com/m35/jpsxdec) - PlayStation 1 disc image extractor and converter.
+- [ValveResourceFormat](https://github.com/ValveResourceFormat/ValveResourceFormat) - Source 2 Viewer is a powerful tool that allows you to browse VPK archives, view, extract, and decompile Source 2 assets, including maps, models, materials, textures, sounds, and more. Also includes C# library for reading and writing Valve Source engine resource files.
+- [source-engine](https://github.com/nillerusr/source-engine) - Modified Source engine (2017) developed by Valve and leaked in 2020. Not for commercial purposes.
+- [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
+- [openrw](https://github.com/rwengine/openrw) - Open source recreation of the classic Grand Theft Auto III game executable (Open ReWrite).
+- [unrpa](https://github.com/Lattyware/unrpa) - Program to extract files from the RPA archive format used in Ren'Py visual novels.
+- [GtkRadiant](https://github.com/TTimo/GtkRadiant) - Open source, cross-platform level editor for id Tech and Source engine games.
+- [jpsxdec](https://github.com/m35/jpsxdec) - Cross-platform PlayStation 1 audio and video converter.
 - [Hammer Units Conversion Tool](https://www.moddb.com/engines/source/downloads/hammer-units-conversion-tool) - Tool that integrates into Hammer for on-the-fly conversion of Source Engine units to metric or imperial units. Converts Hammer's status bar into a real-time unit converter showing object dimensions.
 - [Hammer Units Converter 2.2](https://www.moddb.com/groups/level-design-group/downloads/hammer-units-converter-22) - Tool for converting values between imperial, metric, and Hammer (Source engine map editor) units. Useful for mappers working with mixed measurement systems (v2.2).
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Simple model viewer for GoldSrc engine (Half-Life 1) models. Supports MDL format (v0.3a Beta2, archived). Note: MDL v4 support not yet added.
@@ -657,34 +657,34 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Unity
 
-- [UABEANext](https://github.com/nesrak1/UABEANext) - Next generation Unity Asset Bundle Extractor.
-- [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Explorer/exporter for Unity assets and assetbundles (original version).
+- [UABEANext](https://github.com/nesrak1/UABEANext) - Research and modding tool for SerializedFiles and Asset Bundles.
+- [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Tool for exploring, extracting, and exporting assets and assetbundles (original version).
 - [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudio) - Actively maintained fork with UI optimization and enhancements.
 - [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
-- [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) - Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
-- [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) - In-game UI for exploring, debugging and modifying IL2CPP and Mono Unity games.
+- [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) - C# UABE for newer versions of Unity. Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
+- [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) - In-game UI for exploring, debugging, and modifying IL2CPP and Mono Unity games.
 - [Unity Asset Editor v0.2 (7 Days To Die)](https://www.moddb.com/games/7-days-to-die/downloads/unity-asset-editor) - Plugin-based asset editor, exporter, and importer for Unity Engine games. Can import and export assets in raw data format and be extended through plugins to support additional asset types (v0.2).
-- [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Tool for extracting IL2CPP metadata and converting IL2CPP binaries.
-- [UnityPy](https://github.com/K0lb3/UnityPy) - Python library for extracting and modifying Unity assets.
-- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) - .NET library for reading and writing Unity asset files.
+- [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Unity IL2CPP reverse engineer tool for extracting IL2CPP metadata and converting IL2CPP binaries.
+- [UnityPy](https://github.com/K0lb3/UnityPy) - Python module that makes it possible to extract/unpack and edit Unity assets.
+- [AssetsTools.NET](https://github.com/nesrak1/AssetsTools.NET) - Read and write Unity assets/bundle files, based on UABE.
 - [Unity3DCompressor](https://gitgoon.dev/IllusionMods/Unity3DCompressor) - Utility for compressing Unity asset bundles using LZ4 to reduce file size and improve load times.
 
 ### Unreal Engine
 
-- [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - Python library for parsing Unreal Engine 4 file formats.
+- [pyUE4Parse](https://github.com/MinshuG/pyUE4Parse) - UE4 asset parser/reader in Python.
 - [Unreal-Mappings-Archive](https://github.com/TheNaeem/Unreal-Mappings-Archive) - Archive of Unreal Engine mapping files.
 - [io_scene_psk_psa](https://github.com/DarklightGames/io_scene_psk_psa) - Blender addon for importing and exporting PSK (skeletal mesh) and PSA (animation) formats used in Unreal Engine. Supports PSK/PSKX mesh import with vertex normals, extra UV channels, vertex colors, and shape keys.
 - [io_scene_ase](https://github.com/DarklightGames/io_scene_ase) - Blender exporter for the legacy ASE (ASCII Scene Export) format used by Unreal Engine 1 & 2 games (e.g., Unreal Tournament 2004).
-- [UEViewer (UModel)](https://github.com/gildor2/UEViewer) - Viewer and exporter for Unreal Engine 1-4 assets.
+- [UEViewer (UModel)](https://github.com/gildor2/UEViewer) - Viewer and exporter for Unreal Engine 1-4 assets (UE Viewer).
   - [Compatibility Table](https://www.gildor.org/projects/umodel/compat) - Official compatibility list.
 - [UE4Dumper](https://github.com/kp7742/UE4Dumper) - Tool for dumping Unreal Engine 4 assets and structures.
 - [UAssetGUI](https://github.com/atenfyr/UAssetGUI) - GUI tool for viewing and editing Unreal Engine UAsset files.
 - [blender3d_import_psk_psa](https://github.com/Befzz/blender3d_import_psk_psa) - Blender addon for importing PSK (skeletal mesh) and PSA (animation) formats from Unreal Engine.
-- [repak](https://github.com/trumank/repak) - Rust library and CLI tool for packing and unpacking Unreal Engine PAK archives.
+- [repak](https://github.com/trumank/repak) - Unreal Engine .pak file library and CLI in Rust.
 - [Unreal-Library](https://github.com/EliotVU/Unreal-Library) - Library for reading and writing Unreal Engine file formats.
 - [UE4-AES-Key-Extracting-Guide](https://github.com/Cracko298/UE4-AES-Key-Extracting-Guide) - Guide for extracting AES encryption keys from Unreal Engine 4 games.
 - [uesave-rs](https://github.com/trumank/uesave-rs) - Rust library for reading and writing Unreal Engine save files.
-- [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - .NET library for parsing Unreal Engine UAsset files.
+- [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - Low-level .NET library for reading and writing Unreal Engine game assets.
 - [UEFormat](https://github.com/h4lfheart/UEFormat) - Library for working with Unreal Engine file formats.
 - [UEAssetToolkit](https://github.com/Archengius/UEAssetToolkit) - Toolkit for extracting and modifying Unreal Engine assets.
 - [FModel](https://fmodel.app/) - Open-source software for data-mining UE4-5 games.
@@ -726,8 +726,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Hedgehog Engine
 
-- [HedgeLib](https://github.com/Radfordhound/HedgeLib) - C++ library and collection of tools for modding Hedgehog Engine games (Sonic series).
-- [Hedgehog Engine Blender I/O](https://github.com/hedge-dev/HedgehogEngineBlenderIO) - WIP Blender add-on for Hedgehog Engine assets including import/export and animation editing.
+- [HedgeLib](https://github.com/Radfordhound/HedgeLib) - C++ library and collection of tools that aims to make modding games in the Sonic the Hedgehog franchise easier.
+- [Hedgehog Engine Blender I/O](https://github.com/hedge-dev/HedgehogEngineBlenderIO) - WIP Blender add-on for Hedgehog Engine I/O including import/export and animation editing.
 - [RflTemplates](https://github.com/blueskythlikesclouds/RflTemplates) - 010 Editor binary templates for Hedgehog Engine 2 RFL files.
 - [surfboard-templates](https://github.com/DeaTh-G/surfboard-templates) - Templates for various versions of the SWIF file format used primarily in Hedgehog Engine games.
 - [HedgehogEngineReversing](https://github.com/WistfulHopes/HedgehogEngineReversing) - BinSync project for Hedgehog Engine reversing.
@@ -736,11 +736,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Northlight Engine
 
-- [BlenderNorthlight](https://github.com/OpenAWE-Project/BlenderNorthlight) - Blender plugin for loading `binmsh` and `binfbx` files from Northlight Engine games (Control, Alan Wake 2, Quantum Break).
+- [BlenderNorthlight](https://github.com/OpenAWE-Project/BlenderNorthlight) - Blender plugin for loading binmsh/binfbx files from Northlight Engine games (Control, Alan Wake 2, Quantum Break).
 
 ### Build Engine
 
-- [BUILD Map Importer](https://github.com/jensnt/io_import_build_map) - Blender add-on for BUILD-format maps (Blood, Duke Nukem 3D, etc.) that can auto-extract textures from `.ART`, `.GRP`, and `.RFF` files.
+- [BUILD Map Importer](https://github.com/jensnt/io_import_build_map) - Blender add-on for importing BUILD maps (Blood, Duke Nukem 3D, etc.) that can auto-extract textures from `.ART`, `.GRP`, and `.RFF` files.
   - Import options: split sectors/walls/sky, preserve sprite offsets, reuse materials, shade to vertex colors, and store original map data in custom properties.
 - [Build palette editing tools (Duke Nukem 3D)](https://www.moddb.com/mods/black-shadow/downloads/build-palette-editing-tools) - Tools for manipulating and creating palettes for BUILD Engine games including Duke Nukem 3D. Work in progress.
 
@@ -750,21 +750,21 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Genie Engine
 
-- [geniedoc](https://github.com/aap/geniedoc) - Documentation and tools for Genie Engine formats.
+- [geniedoc](https://github.com/aap/geniedoc) - Documentation of Age of Empires II .dat files (Genie Engine formats).
 
 ### RPG Maker
 
-- [rgssad](https://github.com/luxrck/rgssad) - Tool for extracting RGSSAD archives from RPG Maker games.
-- [rpga](https://github.com/elizagamedev/rpga) - Small utility which can extract and create RPG Maker XP+ archives and Wolf RPG archives (though Wolf archive creation does not work yet).
+- [rgssad](https://github.com/luxrck/rgssad) - Extract rgssad/rgss2a/rgss3a files from RPG Maker games.
+- [rpga](https://github.com/elizagamedev/rpga) - RPG archive extraction and creation utility. Can extract and create RPG Maker XP+ archives and Wolf RPG archives (though Wolf archive creation does not work yet).
 
 ### Rawthrills G7 Engine
 
-- [G7Reader](https://github.com/Surasia/G7Reader) - Utility to read Rawthrills G7 Engine archive files.
+- [G7Reader](https://github.com/Surasia/G7Reader) - Small utility to read Rawthrills G7 Engine archive files.
 
 ### OpenSpace
 
 - [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
-- [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - Binary serializer for OpenSpace format.
+- [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - BinarySerializer extension library for serializing OpenSpace game formats.
 
 ### Raven Software
 
@@ -801,9 +801,9 @@ This list is for developers and modders working with such formats. It provides t
 
 *Physics and animation middleware used in hundreds of games across all platforms.*
 
-- [Havok IO (Blender)](https://github.com/NewSkyLine-dev/havokmax-blender) - Blender add-on that imports `.hkx`, `.hkt`, `.hka`, `.igz`, and `.pak` files from Havok XML and binary archives. Replaces the legacy HavokMax 3ds Max plugin.
+- [Havok IO (Blender)](https://github.com/NewSkyLine-dev/havokmax-blender) - Havok tool for Blender (replaces legacy HavokMax 3ds Max plugin). Blender add-on that imports `.hkx`, `.hkt`, `.hka`, `.igz`, and `.pak` files from Havok XML and binary archives.
   - Capabilities: builds armatures and keyframed actions from animation data, constructs static meshes from geometry blocks, and unwraps PAK/IGZ containers.
-- [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for importing/exporting Havok physics engine formats.
+- [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for Havok format.
 - [MapEditor](https://github.com/BF3RM/MapEditor) - Realtime map editor mod for Venice Unleashed (Battlefield 3).
 - [HavokPreviewToolsBatch2018](https://github.com/asasasasasbc/HavokPreviewToolsBatch2018) - Batch conversion script for Havok Preview Tool 2018 that can automatically convert Havok HKX/HKT files' format.
 - [hkxlib](https://github.com/aerisarn/hkxlib) - JAXB parser for editing TAGXML formatted Havok files.
@@ -903,14 +903,14 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Call of Duty
 
-- [Tyrant](https://github.com/Scobalula/Tyrant) - Tyrant tool for Call of Duty file formats.
-- [ShibaInu](https://github.com/Scobalula/ShibaInu) - Tool for Call of Duty file formats.
-- [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Tool for working with Call of Duty IWD archive files.
+- [Tyrant](https://github.com/Scobalula/Tyrant) - RE Engine asset extractor for Call of Duty file formats.
+- [ShibaInu](https://github.com/Scobalula/ShibaInu) - Weapon file converter for Call of Duty Mod Tools.
+- [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Command-line tool for generating IWD files for Call of Duty.
 - [lui-tool](https://github.com/xensik/lui-tool) - Utility to assemble and disassemble IW engine UI scripts. Supports Call of Duty: Ghosts (IW6).
-- [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender Add-On for Call of Duty modding.
-- [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Asset extraction tool.
-- [Cordycep](https://github.com/Scobalula/Cordycep) - Tool to load and parse Call of Duty fast files.
-- [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile Generator for IW4 (Modern Warfare 2).
+- [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender add-on for Call of Duty modding.
+- [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Legendary Call of Duty asset extraction tool.
+- [Cordycep](https://github.com/Scobalula/Cordycep) - Tool that utilizes modified game executables to load fast files for Call of Duty.
+- [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile generator for IW4 (Modern Warfare 2).
 - [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140)
 - [x to xmodel_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for DirectX (*.x) and Wavefront Object (*.obj) files to Call of Duty: World at War xmodel_export format. Converted files can then be converted to xmodel using the Asset Manager. Place xconv.exe in CoD5 directory and run (v1.6).
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
@@ -927,13 +927,13 @@ This list is for developers and modders working with such formats. It provides t
 #### Tony Hawk's Pro Skater
 
 - [WAD Tool v1.0 (Tony Hawk's Pro Skater)](https://www.moddb.com/games/tony-hawks-pro-skater/downloads/wad-tool-v10) - A small tool to build and extract WAD files from early thps-engine based games.
-- [C2M](https://github.com/sheilan102/C2M) - Map exporter for Call of Duty.
+- [C2M](https://github.com/sheilan102/C2M) - Tool to export maps from Call of Duty games.
 - [TOXEC (The Obj to Xmodel Export Converter)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/toxec-the-obj-to-xmodel-export-converter) - Converter for OBJ files to Xmodel format. For use with Call of Duty 4 and Call of Duty: World at War mapping.
 - [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5)
 
 #### Ghostbusters
 
-- [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools for Ghostbusters game file formats.
+- [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools and code for use with Ghostbusters: The Video Game (2009).
 
 #### A Series of Unfortunate Events
 
@@ -948,15 +948,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Real-time handling editor for Grand Theft Auto V.
 - [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
-- [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender addon for importing models from Angel Studios/Rockstar San Diego games. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and likely other Angel Studios titles from ~1999-2006.
+- [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender add-on that handles several formats used in Angel Studios/Rockstar San Diego games from ~1999-2006. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and other titles.
 - [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
-- [Sollumz](https://github.com/Hancapo/Sollumz) - GTA V modding suite for Blender (RAGE engine formats). [Documentation here](https://docs.sollumz.org).
-- [pyrpfiv](https://github.com/gmroder/pyrpfiv) - Python library for parsing and manipulating GTA IV's RPF (Resource Package Format) archives.
+- [Sollumz](https://github.com/Hancapo/Sollumz) - Blender plugin to import CodeWalker converter XML files from GTA V. GTA V modding suite for Blender (RAGE engine formats). [Documentation here](https://docs.sollumz.org).
+- [pyrpfiv](https://github.com/gmroder/pyrpfiv) - Python library for parsing and manipulating GTA IV's RPF (Resource Package Format) archives. Supports file extraction, modification, and encrypted TOC handling.
 - [noclip.website (Grand Theft Auto III)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto III viewer.
 - [noclip.website (Grand Theft Auto: Vice City)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: Vice City viewer.
 - [noclip.website (Grand Theft Auto: San Andreas)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: San Andreas viewer.
-- [MidtownExtractor](https://github.com/0x1F9F1/MidtownExtractor) - Midtown Madness 1/2 and Midnight Club 2 File Extractor
-- [RGLExtractor](https://github.com/Disquse/RGLExtractor) - Tool for extracting content from Rockstar Games Launcher's (RGL) RAGE Packfiles (currently just Launcher.rpf). Uses RPF7 format with different AES encryption key.
+- [MidtownExtractor](https://github.com/0x1F9F1/MidtownExtractor) - Midtown Madness 1/2 and Midnight Club 2 file extractor.
+- [RGLExtractor](https://github.com/Disquse/RGLExtractor) - Tool for extracting content from Rockstar Games Launcher RAGE packfiles (currently just Launcher.rpf). Uses RPF7 format with different AES encryption key.
 - [MeltyTool](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/AngelStudios) - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games en-masse.
 - [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto III)](https://www.moddb.com/games/grand-theft-auto-3/downloads/cleo-library-by-seemann-for-gta-iii) - Welcome to the CLEO library (or simply CLEO) - a hugely popular extensible plugin for the Grand Theft Auto games series by Rockstar Games, allowing the use of thousands of unique mods which change or expand the gameplay. There are different versions of CLEO made for GTA III, GTA Vice City and GTA...
 - [CLEO library v2.0.0.5 by Seemann (Grand Theft Auto: Vice City)](https://www.moddb.com/games/grand-theft-auto-vice-city/downloads/cleo-library-v2005-by-seemann-for-gta-vc) - Welcome to the CLEO library (or simply CLEO) - a hugely popular extensible plugin for the Grand Theft Auto games series by Rockstar Games, allowing the use of thousands of unique mods which change or expand the gameplay. There are different versions of CLEO made for GTA III, GTA Vice City and GTA...
@@ -970,9 +970,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Ape, Inc
 
-- [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) - Script dumper for EarthBound.
-- [ebtexted](https://github.com/PKHackers/ebtexted) - Text editor for EarthBound.
-- [EBME](https://github.com/Supremekirb/EBME) - EarthBound Map Editor.
+- [earthbound-script-dumper](https://github.com/CataLatas/earthbound-script-dumper) - EarthBound text script dumper.
+- [ebtexted](https://github.com/PKHackers/ebtexted) - Tomato's EarthBound text editor.
+- [EBME](https://github.com/Supremekirb/EBME) - GUI editor for EarthBound's overworld areas.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Simple utility for extracting data from Earthbound ROM files.
 
 ### 11 bit studios
@@ -2289,7 +2289,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Piranha Bytes
 
-- [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for Gothic game engine formats.
+- [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for proprietary formats used by the engine in Gothic and Gothic II games.
 
 ### Polyphony Digital
 
@@ -2300,7 +2300,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### RAD Game Tools
 
-- [Knit](https://github.com/neptuwunium/Knit) - Managed C# library for reading Granny 2 3D model files used in many games.
+- [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
 
 ### Rebel Act
 
@@ -2388,8 +2388,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Radical Entertainment
 
-- [scarface-p3d](https://github.com/aap/scarface-p3d) - P3D format tools for "Scarface: The World is Yours".
-- [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Blender 2.80+ addon for importing/exporting/editing/creating The Simpsons: Hit & Run map data including road networks, fences, pedestrian paths, locators, and trees.
+- [scarface-p3d](https://github.com/aap/scarface-p3d) - Code to deal with P3D files from "Scarface: The World is Yours".
+- [map-data-editor](https://github.com/WeaselOnaStick/map-data-editor) - Blender 2.80+ addon for editing SHAR map data like road networks, fences, paths, locators, and level trees in The Simpsons: Hit & Run.
 
 ### Reflections Interactive
 
@@ -2399,7 +2399,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Riot Games
 
-- [yordle](https://github.com/neptuwunium/yordle) - File format research project for League of Legends.
+- [yordle](https://github.com/neptuwunium/yordle) - League of Legends research project for file formats.
 - [MindCorpViewer](https://github.com/autergame/MindCorpViewer?tab=readme-ov-file) - Model viewer for League of Legends SKN/SKL/DDS files [archived].
 - [MindCorpViewer-Rust](https://github.com/autergame/MindCorpViewer-Rust) - Modern Rust rewrite of League of Legends model viewer with improved performance.
 
@@ -2608,14 +2608,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [TTG-Tools](https://github.com/zenderovpaulo95/TTG-Tools) - Translation utility for Telltale Games titles ([original version here](https://github.com/bartlomiejduda/TTG_Tools)). Supports texture conversion (d3dtx to dds/pvr), bitmap font editing/export to ttf, archive building/unpacking (ttarch/ttarch2), lua/lenc decryption/encryption, and extended game support including Sam & Max remasters and The Walking Dead: Definitive Series.
   - Games: Telltale Texas Hold'em, Bone (Out from Boneville, The Great Cow Race), Sam & Max (Save the World, Beyond Time and Space, The Devil's Playhouse), Strong Bad's Cool Game for Attractive People, Wallace & Gromit's Grand Adventures, Tales of Monkey Island, Hector: Badge of Carnage, Nelson Tethers: Puzzle Agent, Poker Night at the Inventory, Back to the Future: The Game, Puzzle Agent 2, Jurassic Park: The Game, Law & Order: Legacies, The Walking Dead (Season One, Season Two, Michonne, A New Frontier), Poker Night 2, The Wolf Among Us, Tales from the Borderlands, Game of Thrones, Minecraft: Story Mode, Batman: The Telltale Series.
-- [Telltale-Texture-Tool](https://github.com/Telltale-Modding-Group/Telltale-Texture-Tool) - GUI application for converting `.d3dtx` files to PNG, DDS, TGA, and vice versa.
-- [Telltale-Script-Editor](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor) - Unofficial script editor for Telltale Tool games.
-- [D3DMESH-Converter](https://github.com/Telltale-Modding-Group/D3DMESH-Converter) - Tool for converting `.d3dmesh` models to standard formats and back.
+- [Telltale-Texture-Tool](https://github.com/Telltale-Modding-Group/Telltale-Texture-Tool) - GUI application designed to make texture mods possible for Telltale Tool games. Converts D3DTX files to PNG, DDS, TGA, and other image formats and vice versa.
+- [Telltale-Script-Editor](https://github.com/Telltale-Modding-Group/Telltale-Script-Editor) - Unofficial, open source script editor for games made by Telltale.
+- [D3DMESH-Converter](https://github.com/Telltale-Modding-Group/D3DMESH-Converter) - Application designed for converting .d3dmesh models (Telltale Tool Models) to a standard model format and back (work-in-progress).
 - [ttarch-docs](https://github.com/Telltale-Modding-Group/ttarch-docs) - Documentation and guide for reading Telltale Archive files programmatically.
-- [IMAP-Editor](https://github.com/Telltale-Modding-Group/IMAP-Editor) - Editor for `.imap` files used in Telltale games.
+- [IMAP-Editor](https://github.com/Telltale-Modding-Group/IMAP-Editor) - Application designed to edit .imap files that exist within Telltale games.
 - [Unity_WBOX_Editor](https://github.com/Telltale-Modding-Group/Unity_WBOX_Editor) - Unity-based tool for importing and generating `.wbox` navigation mesh files.
 - [TelltaleToolPaper](https://github.com/LucasSaragosa/TelltaleToolPaper) - Small informal paper which goes through Telltale file formats and game engine structure.
-- [TelltaleGames_D3DMesh_Importer](https://github.com/WeaselOnaStick/TelltaleGames_D3DMesh_Importer) - Blender add-on for importing `D3DMesh` models from Telltale titles.
+- [TelltaleGames_D3DMesh_Importer](https://github.com/WeaselOnaStick/TelltaleGames_D3DMesh_Importer) - Rewrite of RTB's "Telltale Games Almost-All-In-One Model Importer" for use in Blender (work-in-progress).
 
 ### GSC Game World
 
@@ -2624,7 +2624,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Geometry Decompiler plugin for 3dsmax](https://www.moddb.com/games/stalker/downloads/geometry-decompiler-plugin-for-3dsmax) - This plugin is designed to import into 3ds Max (works with versions 7-8, not tested on version 9) map geometry files of the game STALKER"
 - [STALKER game archives unpacker](https://www.moddb.com/mods/old-good-stalker-evolution/downloads/stalker-game-archives-unpacker) - Needed for unpacking game archives - if you want to try to install russian version of mod - you'll need this.
 - [STALKER Extractor](https://www.moddb.com/games/stalker/downloads/stalker-extractor) - STALKER database extractor. Compatible with all game versions. Allows choosing files to extract.
-- [LtxParser](https://github.com/JKAnderson/LtxParser) - C# library for loading .ltx files, trees, and ltx-formatted strings from the STALKER series.
+- [LtxParser](https://github.com/JKAnderson/LtxParser) - C# library for loading .ltx trees from the STALKER series.
 - [S.T.A.L.K.E.R Mod Tool](https://www.moddb.com/games/stalker/downloads/stalker-mod-tool) - NOT MY ADDON! The S.T.A.L.K.E.R mod tool used to extract the files from the .db files. Place all gamedata files into a folder called old once you have extracted every .db to a folder called gamedata in stalkers main directory like. G:\program files\THQ\S.T.A.L.K.E.R. - Shadow of Chernobyl\gamedat...
 - [Unpack Pack xr files Stalker (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/unpack-pack-xr-files-stalker) - Gathered most of the pearl scripts into a heap and adapted them to a single library. The archives are all taken from the AMK website, and re-uploaded here because they were on a Yandex disk
 - [XRay Exporter v2.03 (S.T.A.L.K.E.R. Shadow of Chernobyl)](https://www.moddb.com/games/stalker/downloads/xray-exporter-v203) - Official SDK 0.4 export plugins for 3ds Max 7, 8, 9, 2008, 2009, 2010, 2011, LightWave 3D 7.5 and 8.0, and Maya 7, 8, 8.5, 2008, 2009, 2010. In addition, missing libraries have been added.
@@ -2691,7 +2691,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Duke Nukem Forever (2011)
 
-- [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Tool to extract Duke Nukem Forever (2011)'s MegaPackage.dat format.
+- [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Duke Nukem Forever (2011) MegaPackage.dat extractor.
 
 #### The Outforce
 
@@ -2713,15 +2713,15 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Visceral Games
 
-- [Gibbed.Visceral](https://github.com/gibbed/Gibbed.Visceral) - File format tools for Dante's Inferno and Dead Space 2.
+- [Gibbed.Visceral](https://github.com/gibbed/Gibbed.Visceral) - Tools and code for use with Visceral developed games (Dante's Inferno, Dead Space 2).
 - [Noesis-Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community Noesis plugins collection including Visceral Games support.
 - [MeltyTool (Visceral)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/VisceralGames) - Format viewer/exporter for Visceral Games titles.
 - [ZenHAX Thread](https://zenhax.com/viewtopic.php?t=15376) - Forum discussion and research on Visceral Games file formats. *(Link archived/dead)*
-- [VisceralToolkit](https://github.com/Greavesy1899/VisceralToolkit) - Toolkit for editing games by EA Redwood Shores/Visceral Games (The Godfather, Dead Space, Dante's Inferno).
+- [VisceralToolkit](https://github.com/Greavesy1899/VisceralToolkit) - Set of tools for editing Visceral Games after "The Godfather (2006)" including Dead Space and Dante's Inferno.
 
 ### Wargaming
 
-- [yretenai/Akizuki](https://github.com/neptuwunium/Akizuki/tree/csharp) - File format research project for World of Warships.
+- [yretenai/Akizuki](https://github.com/neptuwunium/Akizuki/tree/csharp) - World of Warships file format research project.
 
 ### Ubisoft
 
@@ -2870,13 +2870,13 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Bugbear Entertainment
 
-- [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing FlatOut 2 track AI files.
+- [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing trackai.bin files from FlatOut 2.
 
 ### Blizzard Entertainment
 
-- [wow.export](https://github.com/Kruithne/wow.export) - World of Warcraft model and texture exporter.
-- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - World of Warcraft DBD (database definition) files for extracting game data.
-- [OWLib](https://github.com/overtools/OWLib) - Toolkit for extracting and working with Overwatch game files.
+- [wow.export](https://github.com/Kruithne/wow.export) - Export toolkit for World of Warcraft models and textures.
+- [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - Client database definitions for World of Warcraft (DBD files for extracting game data).
+- [OWLib](https://github.com/overtools/OWLib) - DataTool program that lets you extract models, maps, and files from Overwatch.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter)
 - [Starcraft Modding Tools](https://www.moddb.com/games/starcraft/downloads/starcraft-modding-tools) - This file contains the four Starcraft Mod Tools used in this tutorial. These files include: Arsenal III by King Arthur For the beginner or advanced custom designer, arsenal III is essential. Arsenal III edits StarCraft's primary data files, also known as DAT files. DAT files control all of the ba...
@@ -2890,7 +2890,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Mojang Studios
 
-- [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Minecraft NBT Serialization Library.
+- [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Minecraft NBT serialization library.
 
 ### Grasshopper Manufacture
 
@@ -2898,7 +2898,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Free Radical Design
 
-- [tspak](https://github.com/OpenRadical/tspak) - Small utility program designed to extract the contents of TimeSplitters .pak files. Supports P4CK (Timesplitters 1 & 2 PS2), P5CK (TimeSplitters: Future Perfect), and P8CK (TimeSplitters 2 GameCube/XBox).
+- [tspak](https://github.com/OpenRadical/tspak) - Small utility for extracting TimeSplitters .pak files. Supports P4CK (Timesplitters 1 & 2 PS2), P5CK (TimeSplitters: Future Perfect), and P8CK (TimeSplitters 2 GameCube/Xbox).
 
 ### Enhance Games
 
@@ -2906,20 +2906,20 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Gravity / Ragnarok Online
 
-- [libgrf](https://github.com/cmbasnett/libgrf) - Library for reading and writing GRF archives found in Ragnarok Online.
+- [libgrf](https://github.com/cmbasnett/libgrf) - Library for reading GRF archives found in Ragnarok Online.
 - [grf-python](https://github.com/cmbasnett/grf-python) - Python wrapper for libgrf.
 
 ### Stencyl
 
-- [MbsEditor](https://github.com/Monkeytron/MbsEditor) - View and edit .mbs data files from Stencyl games. Can open scene data files and view/edit data within them including positions of level terrain collision and actors.
+- [MbsEditor](https://github.com/Monkeytron/MbsEditor) - Allows viewing and editing of scene .mbs files from Stencyl games. Can open scene data files and view/edit data within them including positions of level terrain collision and actors.
 
 ### Her Interactive
 
-- [AVFExt](https://github.com/puggsoy/AVFExt) - Converter for AVF files used in Her Interactive games (in particular the Nancy Drew series).
+- [AVFExt](https://github.com/puggsoy/AVFExt) - AVF file converter/extractor for Her Interactive games (in particular the Nancy Drew series).
 
 ### Yostar / Revived Witch
 
-- [unneko](https://github.com/lico-n/unneko) - Extractor for Revived Witch nekodata files. Supports both regular and patch nekodata files.
+- [unneko](https://github.com/lico-n/unneko) - Extraction tool for Revived Witch nekodata files. Supports both regular and patch nekodata files.
 
 ### CyberStep
 
@@ -2927,11 +2927,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Mobile Games
 
-- [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for extracting PAK (OBB) archives from mobile game Run Sackboy! Run! (Android / iOS).
+- [RSBR.PAK.Tool](https://github.com/Ekey/RSBR.PAK.Tool) - Tool for extracting PAK (OBB) archives from mobile game Run Sackboy! Run! (Android/iOS).
 
 ### Bandai Namco (Dragon Ball)
 
-- [binunpack](https://github.com/shibbo/binunpack) - Program for unpacking the BIN archives in DragonBall Revenge of King Piccolo, written in Python 3.
+- [binunpack](https://github.com/shibbo/binunpack) - Program for unpacking the BIN archives in DragonBall: Revenge of King Piccolo, written in Python 3.
 - [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official set of modding tools for Command & Conquer: Renegade.
 - [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - CnC Renegade Tools by Westwood to help modders in making mods for Renegade.
 - [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - No further information avaliable.
