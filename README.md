@@ -275,6 +275,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Sonic Adventure](#sonic-adventure)
       - [Sonic Heroes / Shadow](#sonic-heroes--shadow)
       - [Other Sonic Games](#other-sonic-games)
+    - [Snowblind Studios](#snowblind-studios)
+      - [Baldur's Gate: Dark Alliance](#baldurs-gate-dark-alliance)
     - [Sony (First Party)](#sony-first-party)
     - [Square Enix](#square-enix)
       - [Final Fantasy](#final-fantasy)
@@ -443,6 +445,7 @@ This list is for developers and modders working with such formats. It provides t
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Simple DDS and PNG tool set that converts DDS images to PNG images and vice versa on a large scale. Has options for duplicate detection and sorting.
 - [Sprite Sheet Addon for Blender](https://www.moddb.com/engines/blender-game-engine/downloads/sprite-sheet-addon-for-blender) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
 - [Sprite Sheet Addon for Blender VSE](https://www.moddb.com/groups/blender-game-engine/downloads/sprite-sheet-addon-for-blender-vse) - Sprite sheet script for Blender VSE. (video squence editor) Convert image sequences to sprite sheet.
+- [blender-tooling](https://github.com/bigianb/blender-tooling) - Scripts to import files into Blender.
 - [blender_magicavoxel](https://github.com/AstrorEnales/blender_magicavoxel) - MagicaVoxel `.vox` importer for Blender with hierarchy/greedy meshing, voxel hull reduction, and UV-aware material modes.
 - [MagicaVoxel-Importer](https://github.com/scayze/MagicaVoxel-Importer) - Godot Engine plugin for importing MagicaVoxel `.vox` format files as meshes. Supports Godot 3.0+ with import scaling and centering based on voxel resolution.
   - Options: multiple meshing modes (voxel-as-model, simple cubes/quads, greedy), UV unwrapping, vertex colors, texture baking, and voxel hull pruning.
@@ -1737,6 +1740,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [revenge (decomp)](https://github.com/svinsmoke212/revenge) - Matching decompilation of WCW/nWo Revenge (N64).
 
+#### Area 51
+
+- [engine-51](https://github.com/bigianb/engine-51) - Experimental tools for Area 51 (2005) engine.
+
 #### Gauntlet
 
 - [gdl-tools (haekb)](https://github.com/haekb/gdl-tools) - Toolkit for Gauntlet Dark Legacy files.
@@ -1846,6 +1853,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### NanaOn-Sha
 
+- [parappa2 (decomp)](https://github.com/parappadev/parappa2) - Matching decompilation of PaRappa the Rapper 2 (PS2).
 - [Murugo/Misc-Game-Research (Vib-Ribbon)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS1/Vib-Ribbon) - Reverse engineering notes for Vib-Ribbon (PS1).
 
 ### Nintendo EAD
@@ -2491,6 +2499,14 @@ This list is for developers and modders working with such formats. It provides t
 - [UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) - Unofficial PC port of the Xbox 360 version of Sonic Unleashed created through static recompilation.
 - [noclip.website (Sonic Colors)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Sonic Colors viewer.
 - [Sonic Retro (SA2 Hacking Guide)](https://info.sonicretro.org/SCHG:Sonic_Adventure_2) - Sonic Hacking Guide for Sonic Adventure 2.
+
+### Snowblind Studios
+
+#### Baldur's Gate: Dark Alliance
+
+- [bgda-explorer](https://github.com/bigianb/bgda-explorer) - Data file explorer for Baldur's Gate: Dark Alliance (PS2).
+- [jbgda](https://github.com/bigianb/jbgda) - Java-based tools for Baldur's Gate: Dark Alliance (PS2).
+- [frostbite](https://github.com/bigianb/frostbite) - Experimental implementation of the Snowblind engine.
 
 ### Sony (First Party)
 
