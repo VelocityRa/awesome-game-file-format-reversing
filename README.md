@@ -481,6 +481,8 @@ This list is for developers and modders working with such formats. It provides t
 - [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
 - [game-asset-loader](https://github.com/macton/game-asset-loader) - HTML5 Filesystem, offline capable loader for web game assets.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
+  - Engines: NScripter, Kirikiri (TYPEMOON), RealLive (Key), CatSystem2, Majiro, BGI/Ethornell, Nekoneko Soft, Nitro+, Active Soft, DRS, NeXAS, and many others.
+  - Formats: NSA, SAR, XP3, DAT, ARC, INT, NPA, PAC, and 200+ other archive formats.
 
 ### 🔊 Audio Tools
 
@@ -524,7 +526,6 @@ This list is for developers and modders working with such formats. It provides t
 - [010-Editor-Templates](https://github.com/tge-was-taken/010-Editor-Templates) - Collection of 010 Editor binary templates for game file format analysis.
 - [mafia-formats](https://github.com/pudingus/mafia-formats) - 010 Editor templates for Mafia: The City of Lost Heaven file formats.
 - [chtdb](https://github.com/tge-was-taken/chtdb) - Cheats and patches database for PSX games, primarily intended for use with DuckStation emulator. Contains GameShark codes and patches for various games.
-- [decomp.me](https://github.com/laurel-he/decomp.me) - Collaborative decompilation and reverse engineering platform. Web-based tool for crowdsourced decompilation work with compiler integration and diff matching.
 - [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - Tool for recompiling Xbox 360 games to native executables. Converts Xbox 360 executables into C++ code that can be recompiled for any platform.
 - [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger that integrates the pattern language from ImHex.
 - [HexForge](https://github.com/elastic/HexForge) - IDA plugin that extends the functionality of the assembly and hex view, allowing you to decode/decrypt/alter data directly from the IDA Pro interface.
@@ -541,7 +542,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Ghidra-GameCube-Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader) - Nintendo GameCube binary loader for Ghidra reverse engineering framework.
 - [NTRGhidra](https://github.com/onepiecefreak3/NTRGhidra) - Nintendo DS binary loader for Ghidra reverse engineering framework.
 - [Ghidra-RSP](https://github.com/Random06457/Ghidra-RSP) - Nintendo 64 RSP processor module and loader for Ghidra.
-- [dwarf2cpp](https://github.com/seilweiss/dwarf2cpp) - Converts DWARF v1 debug data from ELF files into C/C++ definitions including structs, enums, unions, and function definitions. Useful for reverse engineering games with DWARF debug information.
+- [dwarf2cpp](https://github.com/seilc/dwarf2cpp) - Converts DWARF v1 debug data from ELF files into C/C++ definitions including structs, enums, unions, and function definitions. Useful for reverse engineering games with DWARF debug information.
 - [BinaryX](https://github.com/Cuyler36/BinaryX) - BinaryReader capable of reading both BigEndian and LittleEndian schemes.
 - [research](https://github.com/ProjectDreamland/research) - Research on game engine and decompiled game code.
 - [gsaxml](https://github.com/Candoran2/gsaxml) - XML description of the binary format of compiled GSA (Game Script Archive) files.
@@ -1502,7 +1503,7 @@ This list is for developers and modders working with such formats. It provides t
 - [slpm86183 (decomp)](https://github.com/Erizur/slpm86183) - Matching decompilation of Pop'N Music CS1 (PS1).
 - [gust_stuff](https://github.com/eArmada8/gust_stuff) - Modding toolkit for G1M model files used in Gust games (Atelier series).
 - [Project-G1M](https://github.com/Joschuka/Project-G1M) - Noesis plugin for importing G1M 3D model format used in Gust and Bandai Namco games.
-- [Cethleann](https://github.com/yretenai/Cethleann) - KTGL (Soft Engine) data exploration and research tool for Koei Tecmo games.
+- [Cethleann](https://github.com/neptuwunium/Cethleann) - KTGL (Soft Engine) data exploration and research tool for Koei Tecmo games.
 
 ### Harmonix
 
@@ -1710,7 +1711,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Castlevania
 
-- [cv64 (decomp)](https://github.com/blazkowolf/cv64) - Matching decompilation of Castlevania (N64).
+- [cv64 (decomp)](https://github.com/k64ret/cv64) - Matching decompilation of Castlevania (N64).
 - [cvaos (decomp)](https://github.com/testyourmine/cvaos) - Matching decompilation of Castlevania: Aria of Sorrow.
 - [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
 
@@ -2544,7 +2545,7 @@ This list is for developers and modders working with such formats. It provides t
 - [NaomiLib Blender Addon](https://github.com/NaomiMod/blender-NaomiLib) - Blender addon for importing NaomiLib 3D models from SEGA Dreamcast and Naomi arcade games (Crazy Taxi, Dead or Alive 2, Marvel vs. Capcom 2, Shenmue 2, Virtua Tennis, and more).
 - [PCSX2 Patches](https://github.com/PCSX2/pcsx2_patches) - Game patches for PCSX2 emulator including widescreen and interlacing fixes.
 - [noclip.website (Jet Set Radio)](https://github.com/magcius/noclip.website/tree/main/src/JetSetRadio) - In-browser Jet Set Radio viewer.
-- [Sonic-1-2-2013-Decompilation (decomp)](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation) - Matching decompilation of Sonic 1 & 2 (2013 mobile) and Retro Engine v4.
+- [Sonic-1-2-2013-Decompilation (decomp)](https://github.com/RSDKModding/RSDKv4-Decompilation) - Matching decompilation of Sonic 1 & 2 (2013 mobile) and Retro Engine v4.
 - [Sonic-CD-11-Decompilation (decomp)](https://github.com/RSDKModding/RSDKv3-Decompilation) - Matching decompilation of Sonic CD (2011 mobile) and Retro Engine v3.
 - [sa1 (decomp)](https://github.com/SAT-R/sa1) - Matching decompilation of Sonic Advance (GBA, Europe).
 - [sa2 (decomp)](https://github.com/SAT-R/sa2) - Matching decompilation of Sonic Advance 2 (GBA).
