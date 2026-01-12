@@ -469,20 +469,23 @@ This list is for developers and modders working with such formats. It provides t
 
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
-- [isodump](https://github.com/Lameguy64/isodump) - PlayStation ISO content extraction tool.
-- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
+- [isodump](https://github.com/Lameguy64/isodump) - PlayStation ISO content extraction tool. Extracts files from PSX ISO/BIN images, supports ISO9660 filesystem, XA and STR files. Generates MKPSXISO-compatible XML project files for rebuilding ISOs.
+- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter for games using the Krawall sound engine. Exports audio as XM or S3M module files. Supports automatic detection of instrument/sample lists and modules, direct rip mode for lossless extraction, and can be used as a library.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for extracting and repacking PKG files from The Legend of Heroes: Trails of Cold Steel.
-- [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format.
-- [GFXtract](https://github.com/puggsoy/GFXtract) - Generic file extractor.
+- [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format (Wii/GameCube). Fork of BFGR WadTools with enhanced command-line options for wadpacker and wadunpacker, including custom output directories and common-key.bin path specification. Supports C++ and C++/CLI compilation.
+- [GFXtract](https://github.com/puggsoy/GFXtract) - Script-driven graphic converter/extractor/dumper. Can load and save image files, perform simple manipulation (horizontal/vertical flipping), and includes various file reading and variable manipulation commands. Built with Haxe/OpenFL.
 - [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for extracting archives from Royal Quest Online game files.
-- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
-- [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats.
-- [libgamearchives](https://github.com/maxton/libgamearchives) - GameArchives re-implemented in modern C++. Library for reading various game archive formats.
-- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - Library for NKZIP archive format.
-- [game-asset-loader](https://github.com/macton/game-asset-loader) - HTML5 Filesystem, offline capable loader for web game assets.
+- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
+- [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats. Provides unified API and virtual file systems compatible with `io/fs`.
+  - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
+  - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
+- [libgamearchives](https://github.com/maxton/libgamearchives) - GameArchives re-implemented in modern C++. Library for reading various game archive formats. C++ port of the original C# GameArchives library, aiming for feature-parity in supported archives.
+- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - C# library for parsing NKZIP archive files used in MMO games from the early 2000s. Simple format with no compression - files stored sequentially with header containing magic, version, raw data bytes, and file count.
+- [game-asset-loader](https://github.com/macton/game-asset-loader) - HTML5 Filesystem, offline capable loader for web game assets. Manifest-based bundle system for organizing and downloading asset groups. Supports automatic downloading, progress tracking, error handling, and provides local URLs to downloaded assets for offline use.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
-  - Engines: NScripter, Kirikiri (TYPEMOON), RealLive (Key), CatSystem2, Majiro, BGI/Ethornell, Nekoneko Soft, Nitro+, Active Soft, DRS, NeXAS, and many others.
-  - Formats: NSA, SAR, XP3, DAT, ARC, INT, NPA, PAC, and 200+ other archive formats.
+  - Engines: KiriKiri (KAG3/TJS2), Nitro+, NScripter, Ren'Py, CatSystem2, AliceSoft, BGI/Ethornell, Liar-soft, Unity, Wolf RPG Editor, RealLive (Key/Visual Arts), Majiro, Nekoneko Soft, Active Soft, DRS, NeXAS, and many others.
+  - Formats: `.xp3` (KiriKiri), `.npa` (Nitro+), `.nsa`, `.sar`, `.dat` (NScripter), `.rpa` (Ren'Py), `.int`, `.hg3` (CatSystem2), `.ald`, `.afa`, `.alk` (AliceSoft), `.arc`, `.bsa` (BGI/Ethornell), `.xfl` (Liar-soft), UnityFS, `.assets` (Unity), `.wolf`, `.data` (Wolf RPG Editor), and 200+ other archive formats.
+  - Notable Games: *Fate/stay night*, *Fate/hollow ataraxia*, *Steins;Gate*, *Chaos;Head*, *Tsukihime*, *Umineko*, *Katawa Shoujo*, *Doki Doki Literature Club!*, *Grisaia no Kajitsu*, *Rance* series, *Clannad*, *Little Busters!*, *Muv-Luv* series, and many others.
 
 ### 🔊 Audio Tools
 
