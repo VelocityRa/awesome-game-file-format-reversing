@@ -952,7 +952,7 @@ This list is for developers and modders working with such formats. It provides t
 *SDK-provided formats for the Game Boy Advance sound engine. Used in [Pokémon Gen III](#gen-iii) and many other GBA titles.*
 
 - [gba-mus-ripper](https://github.com/berg8793/gba-mus-ripper) - GBA music ripper.
-- [SapPy](https://github.com/hfmkwi/SapPy) - Python-based GBA sound tool.
+- [SapPy](https://github.com/mayhaps-perchance/SapPy) - Python-based GBA sound tool.
 - [agbplay](https://github.com/ipatix/agbplay) - Music player and music ripper for GBA.
 - [sappy](https://github.com/maddievision/sappy) - GBA sound tool.
 - [Sappy (Touched)](https://github.com/Touched/Sappy) - Fork with additional features.
@@ -1441,6 +1441,10 @@ This list is for developers and modders working with such formats. It provides t
 - [poketcg (decomp)](https://github.com/pret/poketcg) - Matching decompilation of Pokémon TCG (100%).
 - [poketcg2 (decomp)](https://github.com/pret/poketcg2) - Matching decompilation of Pokémon TCG 2 (100%).
 - [pokeblack (decomp)](https://github.com/pokemodding/pokeblack) - Matching decompilation of Pokémon Black.
+
+### Gameloft
+
+- [GameloftEngineLoader](https://github.com/REDxEYE/GameloftEngineLoader) - UniLoader addon for importing Gameloft engine PIG files. Supports meshes, textures, transforms, nodes, and compression (LZ4, ZSTD).
 
 ### Genius Sonority
 
