@@ -778,6 +778,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [3DS MAX 5 and 3DS MAX 6 converter](https://www.moddb.com/engines/3dstate/downloads/3ds-max-5-and-3ds-max-6-converter) - Converts 3DS Max scenes to 3DSTATE WLD format, preserving lighting, shadows, and effects. Includes script for rendering to texture and converting to binary 3dstate format.
 
+### AtiSushi Engine
+
+- [AtiSushi](https://github.com/REDxEYE/AtiSushi) - UniLoader plugin for importing AtiSushi engine files.
+
 ### Genie Engine
 
 - [geniedoc](https://github.com/aap/geniedoc) - Documentation of Age of Empires II .dat files (Genie Engine formats).
