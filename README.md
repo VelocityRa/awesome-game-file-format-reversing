@@ -1160,6 +1160,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Official modding tools for creating levels in Star Wars: Battlefront. Originally from Game Front. Download subject to End User License Agreement terms.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - Polygon-based 3D object file format converter supporting 440 file formats.
 
+### EgoSoft
+
+- [X4Tools](https://github.com/REDxEYE/X4Tools) - UniLoader addon for importing and exporting assets from X4 game.
+
 ### Capcom
 
 #### RE Engine
@@ -1366,6 +1370,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
 - [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for extracting data archives from mobile game Earth Revival (Project Arrival).
+
+### Frictional Games
+
+- [AmnesiaLoader](https://github.com/REDxEYE/AmnesiaLoader) - UniLoader addon for most Frictional Games titles (Amnesia series, Soma, etc).
 
 ### Gearbox Software
 
