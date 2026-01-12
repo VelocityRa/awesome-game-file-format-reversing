@@ -486,6 +486,7 @@ This list is for developers and modders working with such formats. It provides t
 ### 🔊 Audio Tools
 
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
+- [jpsxdec](https://github.com/m35/jpsxdec) - Cross-platform PlayStation 1 audio and video converter.
 - [VGAudio](https://github.com/Thealexbarney/VGAudio) - .NET library for encoding, decoding, and manipulating audio files from video games. Supports many Nintendo formats (BRSTM, BCSTM, BFSTM, IDSP, HPS, DSP, etc.).
 - [vgm_ripping](https://github.com/hcs64/vgm_ripping) - Sources for game music ripping tools.
 - [wwiseutil](https://github.com/hpxro7/wwiseutil) - Tool for manipulating Wwise SoundBank (.bnk, .nbnk) and File Package (.pck, .npck) files. Supports unpacking WEM audio files, replacing audio with automatic metadata updates, and editing loop points. Works with any game using Wwise audio middleware.
@@ -646,7 +647,6 @@ This list is for developers and modders working with such formats. It provides t
 - [VTFLib](https://github.com/NeilJed/VTFLib) - C/C++ library for reading/writing VTF and VMT texture/material files.
 - [source-engine](https://github.com/nillerusr/source-engine) - Modified Source engine (2017) developed by Valve and leaked in 2020. Not for commercial purposes.
 - [GtkRadiant](https://github.com/TTimo/GtkRadiant) - Open source, cross-platform level editor for id Tech and Source engine games.
-- [jpsxdec](https://github.com/m35/jpsxdec) - Cross-platform PlayStation 1 audio and video converter.
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Simple model viewer for GoldSrc engine (Half-Life 1) models. Supports MDL format (v0.3a Beta2, archived). Note: MDL v4 support not yet added.
 - [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds)
 - [Jed's Half-Life Model Viewer 1.36](https://www.moddb.com/games/half-life/downloads/jeds-half-life-model-viewer-136) - Modified version of Mete Ciragan's Half-Life Model Viewer 1.25 with support for new Half-Life engine texture features (v1.36).
