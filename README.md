@@ -267,6 +267,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Torchlight II](#torchlight-ii)
     - [1C Company / Best Way](#1c-company--best-way)
       - [Men of War](#men-of-war)
+      - [Royal Quest Online](#royal-quest-online)
     - [Ironclad Games / Stardock](#ironclad-games--stardock)
       - [Sins of a Solar Empire](#sins-of-a-solar-empire)
     - [Radical Entertainment](#radical-entertainment)
@@ -473,15 +474,10 @@ This list is for developers and modders working with such formats. It provides t
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter for games using the Krawall sound engine. Exports audio as XM or S3M module files. Supports automatic detection of instrument/sample lists and modules, direct rip mode for lossless extraction, and can be used as a library.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for extracting and repacking PKG files from The Legend of Heroes: Trails of Cold Steel.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format (Wii/GameCube). Fork of BFGR WadTools with enhanced command-line options for wadpacker and wadunpacker, including custom output directories and common-key.bin path specification. Supports C++ and C++/CLI compilation.
-- [GFXtract](https://github.com/puggsoy/GFXtract) - Script-driven graphic converter/extractor/dumper. Can load and save image files, perform simple manipulation (horizontal/vertical flipping), and includes various file reading and variable manipulation commands. Built with Haxe/OpenFL.
-- [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for extracting archives from Royal Quest Online game files.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats. Provides unified API and virtual file systems compatible with `io/fs`.
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
-- [libgamearchives](https://github.com/maxton/libgamearchives) - GameArchives re-implemented in modern C++. Library for reading various game archive formats. C++ port of the original C# GameArchives library, aiming for feature-parity in supported archives.
-- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - C# library for parsing NKZIP archive files used in MMO games from the early 2000s. Simple format with no compression - files stored sequentially with header containing magic, version, raw data bytes, and file count.
-- [game-asset-loader](https://github.com/macton/game-asset-loader) - HTML5 Filesystem, offline capable loader for web game assets. Manifest-based bundle system for organizing and downloading asset groups. Supports automatic downloading, progress tracking, error handling, and provides local URLs to downloaded assets for offline use.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
   - Engines: KiriKiri (KAG3/TJS2), Nitro+, NScripter, Ren'Py, CatSystem2, AliceSoft, BGI/Ethornell, Liar-soft, Unity, Wolf RPG Editor, RealLive (Key/Visual Arts), Majiro, Nekoneko Soft, Active Soft, DRS, NeXAS, and many others.
   - Formats: `.xp3` (KiriKiri), `.npa` (Nitro+), `.nsa`, `.sar`, `.dat` (NScripter), `.rpa` (Ren'Py), `.int`, `.hg3` (CatSystem2), `.ald`, `.afa`, `.alk` (AliceSoft), `.arc`, `.bsa` (BGI/Ethornell), `.xfl` (Liar-soft), UnityFS, `.assets` (Unity), `.wolf`, `.data` (Wolf RPG Editor), and 200+ other archive formats.
@@ -576,6 +572,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CTLib](https://github.com/narahiero/CTLib) - Utility library to create and convert various file formats used in Mario Kart Wii custom tracks.
 - [Byaml-Tool](https://github.com/KillzXGaming/Byaml-Tool) - Simple BYAML tool which currently just converts endianness using Syroot's Byaml library.
 - [prs.net](https://github.com/FraGag/prs.net) - PRS compression/decompression library and GUI front-end for the .NET Framework. PRS is based on LZ77 with run-length encoding and is used in numerous games since the SEGA Saturn, including Phantasy Star Universe.
+- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - C# library for parsing NKZIP archive files used in MMO games from the early 2000s. Simple format with no compression - files stored sequentially with header containing magic, version, raw data bytes, and file count.
 
 ### 📂 Script Collections & Multi-Game Tools
 
@@ -2473,6 +2470,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Men of War
 
 - [Men of War 3DS Max Exporter Tools](https://www.moddb.com/games/men-of-war/downloads/men-of-war-3ds-max-exporter-tools) - 3DS Max exporter tools for Men of War. Supports 32-bit versions of 3DS Max 8, 9, 2008, and 2009 only. Mirrored here as the original Best Way download is no longer available.
+
+#### Royal Quest Online
+
+- [RQ.TOC.Tool](https://github.com/Ekey/RQ.TOC.Tool) - Tool for extracting archives from Royal Quest Online game files.
 
 ### Ironclad Games / Stardock
 
