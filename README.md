@@ -26,24 +26,24 @@ This list is for developers and modders working with such formats. It provides t
   - [📖 About](#-about)
   - [🗺️ How to Use This List](#️-how-to-use-this-list)
   - [📑 Contents](#-contents)
-  - [👥 Communities \& Wikis](#-communities--wikis)
-    - [Forums \& Communities](#forums--communities)
+  - [👥 Communities  Wikis](#-communities--wikis)
+    - [Forums  Communities](#forums--communities)
     - [Discord Servers](#discord-servers)
-    - [Knowledge Bases \& Format Databases](#knowledge-bases--format-databases)
-    - [Platform \& SDK Documentation](#platform--sdk-documentation)
+    - [Knowledge Bases  Format Databases](#knowledge-bases--format-databases)
+    - [Platform  SDK Documentation](#platform--sdk-documentation)
     - [Game-Specific Wikis](#game-specific-wikis)
-    - [📚 Learning Resources \& Tutorials](#-learning-resources--tutorials)
+    - [📚 Learning Resources  Tutorials](#-learning-resources--tutorials)
       - [🎥 Video Tutorials](#-video-tutorials)
     - [Asset Databases](#asset-databases)
   - [🛠️ General Tools](#️-general-tools)
-    - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
+    - [🎨 Asset Viewers  Converters](#-asset-viewers--converters)
     - [📦 Archive Extractors](#-archive-extractors)
     - [🔊 Audio Tools](#-audio-tools)
-    - [🌐 Translation \& Localization](#-translation--localization)
+    - [🌐 Translation  Localization](#-translation--localization)
     - [🔍 Hex Editors](#-hex-editors)
-    - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
+    - [🔬 Format Analysis  Reverse Engineering](#-format-analysis--reverse-engineering)
     - [💻 Development Libraries](#-development-libraries)
-    - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
+    - [📂 Script Collections  Multi-Game Tools](#-script-collections--multi-game-tools)
   - [⚙️ Engines](#️-engines)
     - [GameMaker](#gamemaker)
     - [Source (Valve)](#source-valve)
@@ -64,7 +64,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
       - [Soldier of Fortune](#soldier-of-fortune)
-  - [🔧 Middleware \& SDKs](#-middleware--sdks)
+  - [🔧 Middleware  SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
     - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
@@ -73,7 +73,7 @@ This list is for developers and modders working with such formats. It provides t
     - [CRI](#cri)
     - [XNA](#xna)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
-  - [Game \& Studio Tools](#game--studio-tools)
+  - [Game  Studio Tools](#game--studio-tools)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
@@ -136,7 +136,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gearbox Software](#gearbox-software)
       - [MechWarrior 4](#mechwarrior-4)
     - [Game Freak](#game-freak)
-      - [Gen I \& II](#gen-i--ii)
+      - [Gen I  II](#gen-i--ii)
       - [Gen III](#gen-iii)
       - [Gen VI](#gen-vi)
       - [Gen V](#gen-v)
@@ -197,7 +197,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Xenoblade Chronicles](#xenoblade-chronicles)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
-      - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
+      - [Crash Bandicoot 1-3  CTR](#crash-bandicoot-1-3--ctr)
       - [Spyro the Dragon](#spyro-the-dragon)
       - [Jak and Daxter](#jak-and-daxter)
     - [NanaOn-Sha](#nanaon-sha)
@@ -227,7 +227,7 @@ This list is for developers and modders working with such formats. It provides t
       - [New Super Mario Bros DS](#new-super-mario-bros-ds)
       - [Metroid Prime](#metroid-prime)
       - [Pokemon](#pokemon)
-    - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+    - [Nintendo SDKs  Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
     - [BioWare](#bioware)
       - [Mass Effect](#mass-effect)
@@ -474,7 +474,7 @@ This list is for developers and modders working with such formats. It provides t
 - [isodump](https://github.com/Lameguy64/isodump) - PlayStation ISO content extraction tool. Extracts files from PSX ISO/BIN images, supports ISO9660 filesystem, XA and STR files. Generates MKPSXISO-compatible XML project files for rebuilding ISOs.
 - [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter for games using the Krawall sound engine. Exports audio as XM or S3M module files. Supports automatic detection of instrument/sample lists and modules, direct rip mode for lossless extraction, and can be used as a library.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for extracting and repacking PKG files from The Legend of Heroes: Trails of Cold Steel.
-- [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format (Wii/GameCube). Fork of BFGR WadTools with enhanced command-line options for wadpacker and wadunpacker, including custom output directories and common-key.bin path specification. Supports C++ and C++/CLI compilation.
+- [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format (Wii/GameCube). Fork of BFGR WadTools with enhanced command-line options for wadpacker and wadunpacker, including custom output directories and common-key.bin path specification. Supports C++and C++/CLI compilation.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats. Provides unified API and virtual file systems compatible with `io/fs`.
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
@@ -1162,7 +1162,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### EgoSoft
 
-- [X4Tools](https://github.com/REDxEYE/X4Tools) - UniLoader addon for importing and exporting assets from X4 game.
+- [X4Tools](https://github.com/REDxEYE/X4Tools) - Standalone plugin for importing and exporting assets from X4 game.
 
 ### Capcom
 
@@ -3021,7 +3021,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
 - [HeroForge_parser](https://github.com/REDxEYE/HeroForge_parser) - Library for parsing CKB files from HeroForge character creation platform.
 - [HeroBuilder](https://github.com/REDxEYE/HeroBuilder) - Blender addon for loading HeroForge characters into Blender. Works with CKB files exported from HeroForge.
-- [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I'm Going In 2 file formats.
+- [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I.G.I.-2: Covert Strike file formats.
 
 ### Bohemia Interactive
 
