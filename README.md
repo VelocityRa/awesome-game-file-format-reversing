@@ -55,6 +55,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Pragma Engine](#pragma-engine)
     - [Build Engine](#build-engine)
     - [3DSTATE](#3dstate)
+    - [AtiSushi Engine](#atisushi-engine)
     - [Genie Engine](#genie-engine)
     - [RPG Maker](#rpg-maker)
     - [Ren'Py](#renpy)
@@ -636,6 +637,7 @@ This list is for developers and modders working with such formats. It provides t
   - Features: full map import (brushes, overlays, lights, props, skyboxes), MDL/material/texture import with color options, and embedded file browser.
 - [SourceOps](https://github.com/bonjorno7/SourceOps) - Blender addon for exporting models to Source 1. More convenient alternative to Blender Source Tools. Features export objects as SMD or FBX, export actions as SMD, generate QC based on UI settings, buttons to compile and view models, and experimental export for brushes and displacements to VMF. Requires Blender 2.83 or newer.
 - [io_mesh_SourceBSP](https://github.com/REDxEYE/io_mesh_SourceBSP) - Blender addon for importing and exporting Source Engine BSP map files.
+- [io_texture_VTF](https://github.com/REDxEYE/io_texture_VTF) - Blender addon for importing and exporting Source Engine VTF texture files. (Archived)
 - [StdPatch](https://github.com/kohtep/StdPatch) - StudioMDL Compiler Patcher that removes limitations of the Source Engine models compiler. Allows compiling high-poly models by expanding vertex arrays, weight arrays, and flexcontroller arrays. Includes StdInjector for DLL injection into studiomdl process.
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - Plugin for 3DS Max 9, 2008, and 2009 to import SMD files from Valve games. Inspired by Cannonfodder's work for 3DS Max 5-7.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - Plugin for 3DS Max 9, 2008, and 2009 to export Source reference and animation sequence SMD files. Supports Standard and Multi/Sub-Object materials, Editable Mesh and Editable Poly geometry, Skin and Physique modifiers, and helper nodes.
@@ -1487,6 +1489,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ProjectZeroDawn](https://github.com/neptuwunium/ProjectZeroDawn) - File format research and tools for Horizon Zero Dawn.
 - [decima](https://github.com/ShadelessFox/decima) - GUI application for viewing and editing resources found in games powered by Decima Engine. Supports browsing and editing core objects, previewing models/textures/shaders, exporting assets, and repacking archives. Works with Horizon Zero Dawn, Death Stranding, and other Decima Engine games.
 - [decima-dmf](https://github.com/REDxEYE/decima-dmf) - Blender addon for importing DMF files produced by Decima Workshop. Supplementary addon for working with Decima Engine models in Blender.
+- [ProjectDecima](https://github.com/spammydavis/ProjectDecima) - GUI application for previewing, exporting and modifying game resources in Decima Engine games. Archive explorer with texture preview and export capabilities. (Fork)
 
 ### LucasArts
 
@@ -2395,6 +2398,7 @@ This list is for developers and modders working with such formats. It provides t
 ### RAD Game Tools
 
 - [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
+- [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
 
 ### Rebel Act
 
@@ -2925,6 +2929,7 @@ This list is for developers and modders working with such formats. It provides t
 - [isle (decomp)](https://github.com/isledecomp/isle) - Matching decompilation of LEGO Island (1997).
 - [Lego-City-Undercover-Decompilation (decomp)](https://github.com/Nintendocustom/Lego-City-Undercover-Decompilation) - Matching decompilation of Lego City Undercover.
 - [BionicleHeroesTools](https://github.com/REDxEYE/BionicleHeroesTools) - Blender plugin for importing Bionicle Heroes files. Supports NUP and HGP model formats and PAK archive extraction. Requires Blender 3.1 to 3.5.
+- [LegoTools](https://github.com/REDxEYE/LegoTools) - Tools for working with LEGO game file formats.
 
 ### Acclaim Entertainment
 
@@ -2980,6 +2985,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
 - [HeroForge_parser](https://github.com/REDxEYE/HeroForge_parser) - Library for parsing CKB files from HeroForge character creation platform.
 - [HeroBuilder](https://github.com/REDxEYE/HeroBuilder) - Blender addon for loading HeroForge characters into Blender. Works with CKB files exported from HeroForge.
+- [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I'm Going In 2 file formats.
 
 ### Bohemia Interactive
 
