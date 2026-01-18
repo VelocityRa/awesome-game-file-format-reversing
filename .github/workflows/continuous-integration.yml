@@ -21,5 +21,6 @@ jobs:
     - name: Check links with lychee
       uses: lycheeverse/lychee-action@v2.7.0
       with:
-        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress './**/*.md'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-concurrency 64 './**/*.md'
         fail: true
