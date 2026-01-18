@@ -81,7 +81,9 @@ This list is for developers and modders working with such formats. It provides t
       - [A Series of Unfortunate Events](#a-series-of-unfortunate-events)
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
+    - [Anthony Bongers](#anthony-bongers)
     - [Ape, Inc](#ape-inc)
+    - [Arrowhead Game Studios](#arrowhead-game-studios)
     - [11 bit studios](#11-bit-studios)
     - [Avalanche Studios](#avalanche-studios)
     - [Remedy Entertainment](#remedy-entertainment)
@@ -111,6 +113,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Phoenix Wright: Ace Attorney](#phoenix-wright-ace-attorney)
     - [CCR](#ccr)
     - [CCP Games](#ccp-games)
+    - [CR-Space](#cr-space)
     - [CD Projekt Red](#cd-projekt-red)
       - [The Witcher 3 / REDEngine 3](#the-witcher-3--redengine-3)
       - [The Witcher](#the-witcher)
@@ -131,6 +134,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Surreal Software](#surreal-software)
     - [Dynamix / Sierra](#dynamix--sierra)
       - [Tribes Series](#tribes-series)
+    - [DOKA Studios](#doka-studios)
     - [EA Black Box](#ea-black-box)
       - [Need for Speed Series](#need-for-speed-series)
     - [FromSoftware](#fromsoftware)
@@ -162,6 +166,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Interactive Studios](#interactive-studios)
       - [Glover](#glover)
     - [Illusion](#illusion)
+    - [Innerloop Studios](#innerloop-studios)
     - [iNiS](#inis)
     - [Jupiter](#jupiter)
     - [Jagex](#jagex)
@@ -270,6 +275,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Runic Games](#runic-games)
       - [Torchlight](#torchlight)
       - [Torchlight II](#torchlight-ii)
+    - [Runecraft](#runecraft)
     - [1C Company / Best Way](#1c-company--best-way)
       - [Men of War](#men-of-war)
       - [Royal Quest Online](#royal-quest-online)
@@ -349,7 +355,6 @@ This list is for developers and modders working with such formats. It provides t
     - [Eurocom](#eurocom)
     - [Hasbro Interactive](#hasbro-interactive)
     - [H2O Entertainment](#h2o-entertainment)
-    - [Other / Indie](#other--indie)
     - [Bohemia Interactive](#bohemia-interactive)
     - [Bugbear Entertainment](#bugbear-entertainment)
     - [Blizzard Entertainment](#blizzard-entertainment)
@@ -361,6 +366,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gravity / Ragnarok Online](#gravity--ragnarok-online)
     - [Stencyl](#stencyl)
     - [Her Interactive](#her-interactive)
+    - [HeroForge](#heroforge)
     - [Yostar / Revived Witch](#yostar--revived-witch)
     - [CyberStep](#cyberstep)
     - [Mobile Games](#mobile-games)
@@ -1031,6 +1037,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Angel Studios / Rockstar San Diego
 
 - [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Real-time handling editor for Grand Theft Auto V.
+
+### Anthony Bongers
+
+- [GhostsAndGraves (decomp)](https://github.com/AnthonyBongers/GhostsAndGraves) - Matching decompilation of Ghosts And Graves (NES, 100%).
 - [gta5-nativedb-data](https://github.com/alloc8or/gta5-nativedb-data) - Native function database for Grand Theft Auto V.
 - [AngelStudiosBlenderAddon](https://github.com/Dummiesman/AngelStudiosBlenderAddon) - Blender add-on that handles several formats used in Angel Studios/Rockstar San Diego games from ~1999-2006. Supports multiple formats (BMS, DLP, MOD/XMOD, BND, SKEL, GEO) used in Midnight Club 2, Midtown Madness 1, and other titles.
 - [MidnightClub2 (Noesis)](https://himeworks.com/noesis-plugins/) - Noesis plugin for Midnight Club 2 model formats.
@@ -1059,6 +1069,10 @@ This list is for developers and modders working with such formats. It provides t
 - [ebtexted](https://github.com/PKHackers/ebtexted) - Tomato's EarthBound text editor.
 - [EBME](https://github.com/Supremekirb/EBME) - GUI editor for EarthBound's overworld areas.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Simple utility for extracting data from Earthbound ROM files.
+
+### Arrowhead Game Studios
+
+- [helldivers2-rs](https://github.com/nblockbuster/helldivers2-rs) - Work-in-progress tool to extract files from Helldivers 2.
 
 ### 11 bit studios
 
@@ -1254,6 +1268,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) - Research project for Carbon Engine file formats used in EVE Online.
 
+### CR-Space
+
+- [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
+
 ### CD Projekt Red
 
 #### The Witcher 3 / REDEngine 3
@@ -1342,6 +1360,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Tribes 2 3D Studio MAX Export Plug-in](https://www.moddb.com/games/tribes-2/downloads/tribes-2-3d-studio-max-export-plug-in) - Export plugin for 3D Studio MAX v2.5 for creating and modifying objects in Tribes 2. Requires 3D Studio MAX (professional 3D modeling suite, recommended for advanced users).
 - [Tribes: Vengeance Editing Tools](https://www.moddb.com/games/tribes-vengeance/downloads/tribes-vengeance-editing-tools) - Beta release of TribesEd for creating Tribes: Vengeance maps.
 - [Tribes 1.40 LoDFix plugin](https://www.moddb.com/games/tribes/downloads/tribes-140-lodfix-plugin) - Plugin that fixes a known level of detail (LOD) issue with certain weapons in Tribes. Affects users with field of view (FOV) higher than default. Place LoDFix.dll in plugins folder. Created by Groove (v1.40).
+
+### DOKA Studios
+
+- [reSL (decomp)](https://github.com/konovalov-aleks/reSL) - Matching decompilation of ShortLine v1.1.
 
 ### EA Black Box
 
@@ -1469,6 +1491,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Gameloft
 
 - [GameloftEngineLoader](https://github.com/REDxEYE/GameloftEngineLoader) - UniLoader addon for importing Gameloft engine PIG files. Supports meshes, textures, transforms, nodes, and compression (LZ4, ZSTD).
+- [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
 
 ### Genius Sonority
 
@@ -1718,6 +1741,10 @@ This list is for developers and modders working with such formats. It provides t
 - [KKBP_Exporter](https://gitgoon.dev/kkbp-dev/KKBP_Exporter) - In-game BepInEx plugin that exports Koikatsu character cards as PMX models with textures and skeletal data for use with KKBP Importer or MMD tools.
 - [KoikatsuModdingTools](https://gitgoon.dev/IllusionMods/KoikatsuModdingTools) - Unity Editor toolkit for creating Koikatsu mods including clothing, accessories, hair, maps, and custom shaders. Supports asset bundle building, FBX import with bone optimization, and uTinyRipper integration.
 - [ZipStudio](https://gitgoon.dev/IllusionMods/ZipStudio) - Utility for converting Koikatsu hard-mods to sideloader format with automatic list conversion to CSV and manifest editing.
+
+### Innerloop Studios
+
+- [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I.G.I.-2: Covert Strike file formats.
 
 ### iNiS
 
@@ -2559,6 +2586,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Modified PAK Extractor Tool](https://www.moddb.com/games/torchlight-ii/downloads/modified-pak-extractor-tool-by-jarcho) - Tool for extracting data files from Torchlight 2's DATA.PAK file. Developed by Jarcho, modified by timebomb. Enables modding by extracting game assets.
 - [GUTS Tools and Assets](https://www.moddb.com/games/torchlight-ii/downloads/guts-tools-and-assets) - This .ZIP includes raw media, assets, and tools which will be useful to you when creating mods for Torchlight II. Below is a brief description of the resources you will find in this package.
 
+### Runecraft
+
+- [esa (decomp)](https://github.com/mkst/esa) - Matching decompilation of Evo's Space Adventures (PS1).
+
 ### 1C Company / Best Way
 
 #### Men of War
@@ -3085,18 +3116,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [aidyn (decomp)](https://github.com/blackgamma7/aidyn) - Matching decompilation of Aidyn Chronicles: The First Mage (N64).
 
-### Other / Indie
-
-- [esa (decomp)](https://github.com/mkst/esa) - Matching decompilation of Evo's Space Adventures (PS1).
-- [GhostsAndGraves (decomp)](https://github.com/AnthonyBongers/GhostsAndGraves) - Matching decompilation of Ghosts And Graves (NES, 100%).
-- [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
-- [reSL (decomp)](https://github.com/konovalov-aleks/reSL) - Matching decompilation of ShortLine v1.1.
-- [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
-- [HeroForge_parser](https://github.com/REDxEYE/HeroForge_parser) - Library for parsing CKB files from HeroForge character creation platform.
-- [HeroBuilder](https://github.com/REDxEYE/HeroBuilder) - Blender addon for loading HeroForge characters into Blender. Works with CKB files exported from HeroForge.
-- [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I.G.I.-2: Covert Strike file formats.
-- [helldivers2-rs](https://github.com/nblockbuster/helldivers2-rs) - Work-in-progress tool to extract files from Helldivers 2 (Arrowhead Game Studios).
-
 ### Bohemia Interactive
 
 - [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Complete editing tool suite for Bohemia Interactive's game engine used in ARMA II. This installer will overwrite previously released BI Editing Tools for Arma I (user made data are intact) and it can not be possible to pack and finalize content for Arma I using the newer tools. Despite it may be ...
@@ -3149,6 +3168,11 @@ This list is for developers and modders working with such formats. It provides t
 ### Her Interactive
 
 - [AVFExt](https://github.com/puggsoy/AVFExt) - AVF file converter/extractor for Her Interactive games (in particular the Nancy Drew series).
+
+### HeroForge
+
+- [HeroForge_parser](https://github.com/REDxEYE/HeroForge_parser) - Library for parsing CKB files from HeroForge character creation platform.
+- [HeroBuilder](https://github.com/REDxEYE/HeroBuilder) - Blender addon for loading HeroForge characters into Blender. Works with CKB files exported from HeroForge.
 
 ### Yostar / Revived Witch
 
