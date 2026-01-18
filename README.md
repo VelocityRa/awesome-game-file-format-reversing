@@ -502,6 +502,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) - Windows tool for extracting audio from Wwise PCK and BNK containers to OGG or MP3 format. Works with any game using Wwise audio middleware.
 - [Wwise-BNKExtract](https://github.com/rickvg/Wwise-BNKExtract) - Extraction utility for Wwise soundbank files (BNK format, file version 113 and earlier). Extracts WEM audio files for conversion to OGG Vorbis format.
 - [wwiser](https://github.com/bnnm/wwiser) - Wwise .bnk explorer and audio simulator. Python tool for parsing Wwise soundbank files, viewing HIRC audio scripting data, generating TXTP files for vgmstream playback, and dumping bank contents. Works with any game using Wwise audio middleware.
+- [WwiseParser](https://github.com/xyx0826/WwiseParser) - C# library for parsing Wwise 2016.1 SoundBank object formats. Supports deserializing Wwise objects, rebuilding hierarchies (Master-Mixer and Actor-Mixer), and dumping SoundBank files to JSON. Works with any game using Wwise audio middleware.
 - [wwise-audio-tools](https://github.com/WolvenKit/wwise-audio-tools) - Static and dynamic library plus command-line tool for converting Wwise WEM files to OGG format. Modern replacement for ww2ogg and revorb with easier integration.
 - [ww2ogg](https://github.com/hcs64/ww2ogg) - Converts Wwise RIFF/RIFX Vorbis audio (.wem files) to standard Ogg Vorbis format. Command-line tool with packed codebook support for various encoding variants. Note: vgmstream is recommended for playback, but ww2ogg is useful when Ogg Vorbis output is specifically required.
 - [atrac9j](https://github.com/ShadelessFox/atrac9j) - Java port of the LibAtrac9 library for decoding ATRAC9 audio format used in PlayStation games.
@@ -538,6 +539,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Kaitai Struct](https://kaitai.io/) - Declarative language for describing binary data structures with code generation for multiple programming languages.
 - [Veles](https://codisec.com/veles/) - Binary analysis and visualization tool for reverse engineering (open-source).
+- [atlas](https://github.com/nblockbuster/atlas) - Hashing tool for reverse engineering work. Plugin-based system supporting FNV (0, 1, 1a), MD2/MD4/MD5, Murmur2/3, SipHash, SHA1/SHA2/SHA3, XXHash/XXHash3. Useful for analyzing hashed values in game file formats.
 - [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) - Templates for binary analysis.
 - [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
 - [010-Editor-Templates](https://github.com/tge-was-taken/010-Editor-Templates) - Collection of 010 Editor binary templates for game file format analysis.
@@ -666,6 +668,8 @@ This list is for developers and modders working with such formats. It provides t
 - [SourceOps](https://github.com/bonjorno7/SourceOps) - Blender addon for exporting models to Source 1. More convenient alternative to Blender Source Tools. Features export objects as SMD or FBX, export actions as SMD, generate QC based on UI settings, buttons to compile and view models, and experimental export for brushes and displacements to VMF. Requires Blender 2.83 or newer.
 - [io_mesh_SourceBSP](https://github.com/REDxEYE/io_mesh_SourceBSP) - Blender addon for importing and exporting Source Engine BSP map files.
 - [io_texture_VTF](https://github.com/REDxEYE/io_texture_VTF) - Blender addon for importing and exporting Source Engine VTF texture files. (Archived)
+- [AutoMDL](https://github.com/NvC-DmN-CH/AutoMDL) - Blender 4+ addon for Source engine MDL compilation workflow. Automatically compiles .blend files to .mdl format when saved in a models folder, with Hammer++ hotloading support. Features automatic material path detection, collision model support, and studiomdl.exe integration.
+- [AutoVTF](https://github.com/NvC-DmN-CH/AutoVTF) - C# WinForms tool for working with VTF files. Monitors materials folder and automatically converts updated images (PNG, BMP, TGA, JPG, PSD) to VTF format, preserving VTF settings. Features drag-and-drop conversion, advanced VTF options panel, and Hammer++ hotloading support.
 - [StdPatch](https://github.com/kohtep/StdPatch) - StudioMDL Compiler Patcher that removes limitations of the Source Engine models compiler. Allows compiling high-poly models by expanding vertex arrays, weight arrays, and flexcontroller arrays. Includes StdInjector for DLL injection into studiomdl process.
 - [3D Studio Max SMD Import Plugin](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-import-plug-in-import-smd-mode) - Plugin for 3DS Max 9, 2008, and 2009 to import SMD files from Valve games. Inspired by Cannonfodder's work for 3DS Max 5-7.
 - [3D Studio Max SMD Export Plug-in](https://www.moddb.com/games/half-life/downloads/3d-studio-max-smd-export-plug-in) - Plugin for 3DS Max 9, 2008, and 2009 to export Source reference and animation sequence SMD files. Supports Standard and Multi/Sub-Object materials, Editable Mesh and Editable Poly geometry, Skin and Physique modifiers, and helper nodes.
@@ -1857,9 +1861,25 @@ This list is for developers and modders working with such formats. It provides t
 - [tiger-pkg](https://github.com/v4nguard/tiger-pkg) - Destiny 1/2 package library and tools (unpacker, verification). Supports Destiny 1 (Internal Alpha, The Taken King, Rise of Iron), Destiny 2 (Beta through Edge of Fate), and Marathon. Handles PKG files across PS3, PS4, X360, XONE, and Windows platforms.
 - [quicktag](https://github.com/v4nguard/quicktag) - Destiny 1/2 package file data structure explorer. Scans and analyzes Tiger engine structure files (8080 files) to discover structures, patterns, strings, and more. Features tag viewer, localized/raw strings browser, and asset preview for textures and Wwise audio streams.
 - [Charm](https://github.com/cohaereo/Charm) - Destiny 2 reverse engineering tool for extracting assets from game files. Supports multiple Tiger engine versions and Destiny 2 game versions (Shadowkeep through Lightfall). Focuses on providing access to information in game files for artists and content preservation.
+- [d2-map-importer-addon](https://github.com/DeltaDesigns/d2-map-importer-addon) - Blender 4.0+ addon for importing Destiny 2 rips from Charm. Assembles maps (statics, dynamics, lights, terrain), auto-assigns gear shaders and textures to player gear, compatible with DARE/DCG skeletons and IK Player Skeleton.
+- [Destiny-Collada-Generator](https://github.com/DeltaDesigns/Destiny-Collada-Generator) - Tool to generate Collada files of items from Destiny 2 via web/mobile API. Exports geometry, mesh weights, UV coordinates, normals, tangents, vertex colors, and dye slots. Generates textures in PNG format and shader parameter lists.
+- [SBox-Destiny-2-Map-Importer](https://github.com/DeltaDesigns/SBox-Destiny-2-Map-Importer) - Tool for importing ripped Destiny 2 maps from Charm into S&Box Hammer. Imports maps with materials, shaders, and models into S&Box scenes.
+- [MIDA](https://github.com/DeltaDesigns/MIDA) - Fork of Charm designed for Marathon. Tool for extracting assets from Marathon game files, focused on artists and content preservation. Supports Marathon Closed Alpha. Note: Most features currently non-functional, development status uncertain.
 - [destinydocs](https://github.com/cohaereo/destinydocs) - Documentation for Destiny 1/2 internals.
+- [DestinyDocs](https://github.com/MontagueM/DestinyDocs) - Documentation on Destiny game files, particularly for recent versions of Destiny 2. Includes Charm wiki, engine overview, and tag format explanations.
+- [D2StaticDocs](https://github.com/nblockbuster/D2StaticDocs) - Documentation on the Destiny 2 Beyond Light static model format. Covers main model files, subfiles, material tables, and loadzone structures.
 - [destinypkgtool](https://github.com/v4nguard/destinypkgtool) - Rust library and tools for working with Destiny 1 pkg files (unpacker, verification).
 - [ddkf](https://github.com/v4nguard/ddkf) - Destiny Decryption Key Finder.
+- [DestinyUnpackerCPP](https://github.com/nblockbuster/DestinyUnpackerCPP) - C++ unpacker for Destiny 1 (PS4/PS3/X360) and Destiny 2 PC packages. Supports WEM conversion, TXTP generation, hex ID naming, and music-only extraction. See also [MontagueM/DestinyUnpackerCPP](https://github.com/MontagueM/DestinyUnpackerCPP) for the original version.
+- [destiny-unpacker-rs](https://github.com/nblockbuster/destiny-unpacker-rs) - Rust implementation of Destiny unpacker (archived).
+- [D2StaticExtractor](https://github.com/nblockbuster/D2StaticExtractor) - Static model extraction tool that converts Destiny 2 static models into FBX files. Supports Beyond Light and later versions. Note: Superseded by Charm, but still useful for specific use cases (archived).
+- [D2TextureRipper](https://github.com/nblockbuster/D2TextureRipper) - Batch texture and image ripper for Destiny 2. Supports versions 1.0.0.1 through 4.0.0.1 (The Witch Queen). Extracts textures from package files with batch processing support.
+- [MontevenDynamicExtractor](https://github.com/nblockbuster/MontevenDynamicExtractor) - Fork of MDE for extracting Destiny 2 dynamic models to FBX. Supports textures, skeletons, weighted models, and batch extraction. See also [MontagueM/MontevenDynamicExtractor](https://github.com/MontagueM/MontevenDynamicExtractor) for the original version.
+- [Destiny-API-Ripper-Extension](https://github.com/nblockbuster/Destiny-API-Ripper-Extension) - Extension and GUI for Destiny Collada Generator and Monteven Dynamic Extractor. Provides automated workflow for extracting Destiny 2 assets via API.
+- [Destiny-Collada-Generator](https://github.com/nblockbuster/Destiny-Collada-Generator) - Fork of tool to generate Collada files of items from Destiny 2 via web/mobile API. Exports geometry, mesh weights, UV coordinates, normals, tangents, vertex colors, and dye slots. See also [DeltaDesigns/Destiny-Collada-Generator](https://github.com/DeltaDesigns/Destiny-Collada-Generator) for the maintained version.
+- [DestinyOSTListGen](https://github.com/nblockbuster/DestinyOSTListGen) - Tool to generate a list (OSTs.db) of all GinsorIDs of music from Destiny. Uses WwiseParser to parse soundbanks. Supports comparison with previous lists and SFX filtering.
+- [DestinyWwiseParserScript](https://github.com/nblockbuster/DestinyWwiseParserScript) - Python script to create and parse JSON files created by WwiseParser, specialized for Destiny and Destiny 2. Supports automatic WAV export and version switching (D1/pre-BL).
+- [bungie-lua-decompiler](https://github.com/nblockbuster/bungie-lua-decompiler) - Tool to decompile Bungie's Lua scripts found in the Destiny 1 Alpha with format 14.
 
 #### Gears of War
 
@@ -3075,6 +3095,7 @@ This list is for developers and modders working with such formats. It provides t
 - [HeroForge_parser](https://github.com/REDxEYE/HeroForge_parser) - Library for parsing CKB files from HeroForge character creation platform.
 - [HeroBuilder](https://github.com/REDxEYE/HeroBuilder) - Blender addon for loading HeroForge characters into Blender. Works with CKB files exported from HeroForge.
 - [IGI2ModTool](https://github.com/REDxEYE/IGI2ModTool) - Modding tools for I.G.I.-2: Covert Strike file formats.
+- [helldivers2-rs](https://github.com/nblockbuster/helldivers2-rs) - Work-in-progress tool to extract files from Helldivers 2 (Arrowhead Game Studios).
 
 ### Bohemia Interactive
 
