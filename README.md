@@ -1638,6 +1638,7 @@ This list is for developers and modders working with such formats. It provides t
 - [symbols](https://github.com/PartyPlanner64/symbols) - Debug symbol maps for reverse engineering Mario Party games.
 - [mpdsarchivetool](https://github.com/gamemasterplc/mpdsarchivetool) - Mario Party DS archive (.bin) extraction tool.
 - [mpromtool](https://github.com/gamemasterplc/mpromtool) - Mario Party 1-3 (N64) ROM extractor and rebuilder tool.
+- [hsfview](https://github.com/Muzzarino/hsfview) - Model viewer for Mario Party (Wii).
 
 ### Insomniac Games
 
@@ -2120,6 +2121,7 @@ This list is for developers and modders working with such formats. It provides t
 - [sms (decomp)](https://github.com/doldecomp/sms) - Matching decompilation of Super Mario Sunshine.
 - [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
 - [smstools](https://github.com/impiaaa/smstools) - Toolkit for decoding and working with Super Mario Sunshine data files.
+- [Bin-editor-improvements](https://github.com/Muzzarino/Bin-editor-improvements) - Enhanced version of miluaces' bin editor for Super Mario Sunshine with fixed orthogonal mode, duplicate/translate/subdivide buttons, improved UI, and Camera Intro editor (WIP).
 - [Corona](https://github.com/shibbo/Corona) - Toolkit designed for custom C++ code injection in Super Mario Sunshine. Can be used to create new enemies, objects, bosses, items, and more.
 - [flaaffy](https://github.com/arookas/flaaffy) - Audio toolchain for Super Mario Sunshine. Runtime library for loading, utilizing, and playing various audio-related formats with tools and utilities to convert and create these formats.
 - [Track-Studio](https://github.com/MapStudioProject/Track-Studio) - Full-featured track and course editor for Mario Kart 8.
@@ -2492,6 +2494,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
 - [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
+- [BK2BT](https://github.com/Muzzarino/BK2BT) - Fast3DEX to Fast3DEX2 microcode converter for Banjo-Kazooie model files to Banjo-Tooie format. Includes model previewer and converter.
 
 #### Donkey Kong 64
 
@@ -2628,6 +2631,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Sonic Heroes / Shadow
 
 - [HeroesPowerPlant](https://github.com/igorseabra4/HeroesPowerPlant/wiki/Level-Editor) - Full-featured level editor for Sonic Heroes and Shadow the Hedgehog.
+- [Heroes.SDK](https://github.com/Muzzarino/Heroes.SDK) - Unified library for manipulating Sonic Heroes at runtime and definitions for internal data structures and functions. Includes format parsers for creating/extracting various game formats. Primarily intended for Reloaded II mods but contains structures useful for standalone tools.
 
 #### Other Sonic Games
 
@@ -2638,6 +2642,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BBSonicDSTool](https://github.com/efimandreev0/BBSonicDSTool) - Tool for Sonic DS file formats.
 - [blue-sphere](https://github.com/scurest/blue-sphere) - Tool for Sonic 3 & Knuckles special stage files.
 - [Glitter](https://github.com/crash5band/Glitter) - Format library and editor application to open, modify, and resave GTE/GTM particle files for Sonic Generations.
+- [libgens-sonicglvl](https://github.com/Muzzarino/libgens-sonicglvl) - Level editor and formats library for the PC version of Sonic Generations.
 - [SonLVL-RSDK](https://github.com/Lavesiime/SonLVL-RSDK) - Level editor for RSDK v3/v4 games (Sonic CD, Sonic 1, Sonic 2).
 - [RSDK-Reverse](https://github.com/Rubberduckycooly/RSDK-Reverse) - Reverse engineering tools for Retro Engine games (Sonic CD, Sonic 1, Sonic 2).
 - [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
