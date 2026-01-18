@@ -26,24 +26,24 @@ This list is for developers and modders working with such formats. It provides t
   - [📖 About](#-about)
   - [🗺️ How to Use This List](#️-how-to-use-this-list)
   - [📑 Contents](#-contents)
-  - [👥 Communities \& Wikis](#-communities--wikis)
-    - [Forums \& Communities](#forums--communities)
+  - [👥 Communities  Wikis](#-communities--wikis)
+    - [Forums  Communities](#forums--communities)
     - [Discord Servers](#discord-servers)
-    - [Knowledge Bases \& Format Databases](#knowledge-bases--format-databases)
-    - [Platform \& SDK Documentation](#platform--sdk-documentation)
+    - [Knowledge Bases  Format Databases](#knowledge-bases--format-databases)
+    - [Platform  SDK Documentation](#platform--sdk-documentation)
     - [Game-Specific Wikis](#game-specific-wikis)
-    - [📚 Learning Resources \& Tutorials](#-learning-resources--tutorials)
+    - [📚 Learning Resources  Tutorials](#-learning-resources--tutorials)
       - [🎥 Video Tutorials](#-video-tutorials)
     - [Asset Databases](#asset-databases)
   - [🛠️ General Tools](#️-general-tools)
-    - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
+    - [🎨 Asset Viewers  Converters](#-asset-viewers--converters)
     - [📦 Archive Extractors](#-archive-extractors)
     - [🔊 Audio Tools](#-audio-tools)
-    - [🌐 Translation \& Localization](#-translation--localization)
+    - [🌐 Translation  Localization](#-translation--localization)
     - [🔍 Hex Editors](#-hex-editors)
-    - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
+    - [🔬 Format Analysis  Reverse Engineering](#-format-analysis--reverse-engineering)
     - [💻 Development Libraries](#-development-libraries)
-    - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
+    - [📂 Script Collections  Multi-Game Tools](#-script-collections--multi-game-tools)
   - [⚙️ Engines](#️-engines)
     - [GameMaker](#gamemaker)
     - [Source (Valve)](#source-valve)
@@ -64,7 +64,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Raven Software](#raven-software)
       - [Heretic II](#heretic-ii)
       - [Soldier of Fortune](#soldier-of-fortune)
-  - [🔧 Middleware \& SDKs](#-middleware--sdks)
+  - [🔧 Middleware  SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
     - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
@@ -73,7 +73,7 @@ This list is for developers and modders working with such formats. It provides t
     - [CRI](#cri)
     - [XNA](#xna)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
-  - [Game \& Studio Tools](#game--studio-tools)
+  - [Game  Studio Tools](#game--studio-tools)
     - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
       - [Call of Duty](#call-of-duty)
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
@@ -138,7 +138,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gearbox Software](#gearbox-software)
       - [MechWarrior 4](#mechwarrior-4)
     - [Game Freak](#game-freak)
-      - [Gen I \& II](#gen-i--ii)
+      - [Gen I  II](#gen-i--ii)
       - [Gen III](#gen-iii)
       - [Gen VI](#gen-vi)
       - [Gen V](#gen-v)
@@ -200,7 +200,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Xenoblade Chronicles](#xenoblade-chronicles)
     - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Naughty Dog](#naughty-dog)
-      - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
+      - [Crash Bandicoot 1-3  CTR](#crash-bandicoot-1-3--ctr)
       - [Spyro the Dragon](#spyro-the-dragon)
       - [Jak and Daxter](#jak-and-daxter)
     - [NanaOn-Sha](#nanaon-sha)
@@ -230,7 +230,7 @@ This list is for developers and modders working with such formats. It provides t
       - [New Super Mario Bros DS](#new-super-mario-bros-ds)
       - [Metroid Prime](#metroid-prime)
       - [Pokemon](#pokemon)
-    - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+    - [Nintendo SDKs  Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
     - [BioWare](#bioware)
       - [Mass Effect](#mass-effect)
@@ -510,6 +510,11 @@ This list is for developers and modders working with such formats. It provides t
 - [ray2get](https://github.com/Synthesis/ray2get) - Convert the .apm music files from Rayman 2 (PC) to .wav.
 - [libnus3audio](https://github.com/jam1garner/libnus3audio) - Rust library for working with nus3audio files.
 - [ntrWavTool](https://github.com/turtleisaac/ntrWavTool) - Converts WAV to IMA ADPCM SWAV for use in DS games.
+- [es-ps2-vag-tool](https://github.com/eurotools/es-ps2-vag-tool) - Tool to convert Sony PS2 VAG files to WAV PCM 16-bit encoding and vice versa.
+- [es-xbox-adpcm-tool](https://github.com/eurotools/es-xbox-adpcm-tool) - Tool to convert Xbox ADPCM files to WAV PCM 16-bit encoding and vice versa.
+- [es-dsp-adpcm-tool](https://github.com/eurotools/es-dsp-adpcm-tool) - Nintendo GameCube DSP audio data encoder. Converts GameCube DSP ADPCM to WAV PCM 16-bit encoding and vice versa.
+- [es-ima-adpcm-encoder-decoder](https://github.com/eurotools/es-ima-adpcm-encoder-decoder) - Tool to convert IMA ADPCM files to WAV PCM 16-bit encoding and vice versa.
+- [es-eurocom-adpcm-encoder-decoder](https://github.com/eurotools/es-eurocom-adpcm-encoder-decoder) - Tool to convert custom Eurocom ADPCM files to WAV PCM 16-bit encoding and vice versa.
 
 ### 🌐 Translation & Localization
 
@@ -3006,6 +3011,22 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Gt2 (decomp)](https://github.com/dashr9230/Gt2) - Matching decompilation of Ford Racing (2000).
 - [Caper (decomp)](https://github.com/dashr9230/Caper) - Matching decompilation of The Italian Job (2001).
+
+### Eurocom
+
+- [eurochef](https://github.com/eurotools/eurochef) - Rust crates and utilities for Eurocom EngineX(T) files. Supports texture extraction, entity extraction, map extraction, filelist re-packing, EDB to Euroland 4 decompiler, and Blender plugin.
+ - Games: Sphinx and the Shadow of Set Demo Disc, Buffy The Vampire Slayer: Chaos Bleeds, Sphinx and the Cursed Mummy, Spyro: A Hero's Tail, Robots, Predator: Concrete Jungle, Batman Begins, Ice Age 2: The Meltdown, Pirates of the Caribbean: At World's End, Ice Age: Dawn of the Dinosaurs, G-Force, Spider-Man 4, GoldenEye 007.
+ - Formats: EDB, ELX, SFX, filelist (v4-v10).
+ - Platforms: PC, Xbox, Xbox 360, GameCube, Wii, PlayStation 2.
+- [eurosound-editor](https://github.com/eurotools/eurosound-editor) - .NET program reimplementing the original EuroSound tool by Eurocom for editing EngineX sound files.
+- [eurosound-explorer](https://github.com/eurotools/eurosound-explorer) - C# tool for viewing parameters and extracting audio from SFX files compatible with Eurocom games.
+- [eurotext](https://github.com/eurotools/eurotext) - Custom tool to edit and inspect text-based EngineX spreadsheets.
+- [binary-templates](https://github.com/eurotools/binary-templates) - 010 Editor binary templates for visually opening Sphinx and EngineX file formats.
+- [hashcodes](https://github.com/eurotools/hashcodes) - Public hashcodes list for various Eurocom games, useful for cross-checking.
+- [blender-addon](https://github.com/eurotools/blender-addon) - Import and export Eurocom Scene Export (.ESE) files in Blender. Supports 3D models, skins + animations, cameras, maps and scripts.
+- [euroland_exporters](https://github.com/eurotools/euroland_exporters) - Import and export Eurocom Scene Export (.ESE) files in Blender; 3D models, skins + animations, cameras, maps and scripts.
+- [euroland-elf-texture-extractor](https://github.com/eurotools/euroland-elf-texture-extractor) - Tool to extract textures from random EuroLand data files (*.elf) that may not be inspectable otherwise (e.g. different versions that don't work with the EuroLand .exe).
+- [sphinx-savegame-editor](https://github.com/eurotools/sphinx-savegame-editor) - C# tool to edit and view savegame files for The Sphinx and the Cursed Mummy game.
 
 ### Hasbro Interactive
 
