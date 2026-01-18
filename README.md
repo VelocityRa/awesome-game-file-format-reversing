@@ -341,7 +341,11 @@ This list is for developers and modders working with such formats. It provides t
     - [Falcom](#falcom)
     - [Working Designs](#working-designs)
     - [Toby Fox](#toby-fox)
+    - [Terry Cavanagh](#terry-cavanagh)
+      - [VVVVVV](#vvvvvv)
     - [Studio MDHR](#studio-mdhr)
+    - [TaleWorlds Entertainment](#taleworlds-entertainment)
+      - [Mount\&Blade](#mountblade)
     - [TT Games](#tt-games)
     - [Acclaim Entertainment](#acclaim-entertainment)
     - [Whoopee Camp](#whoopee-camp)
@@ -1340,6 +1344,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### AquaNox
 
+- [aquanox-tools](https://github.com/Swyter/aquanox-tools) - Reverse engineering tools for the first AquaNox's file formats. Includes 010 Editor binary template (`.bt`) to decrypt and open `.pak` files and their filenames/sizes, and extractor script (`.1sc`). Documents internal formats: `.dds`, `.tga` textures, `.sco` Lua bytecode, `.des` configuration files, `.fog` volumetric fog tables, and `.msb` mesh files.
 - [AquaNox 1-2 modding tools](https://www.moddb.com/games/aquanox/downloads/aquanox-1-2-modding-tools) - Modding tools for AquaNox 1-2 including: save editor, file unpacker (for PAK files containing models, scripts, materials, etc.), model converter (MSB to X format), and modding guides. Tools and guides by GodGell and ProjectAqua.
 
 #### World in Conflict
@@ -3043,9 +3048,22 @@ This list is for developers and modders working with such formats. It provides t
 
 - [UndertaleDecomp (decomp)](https://github.com/kittibyte/UndertaleDecomp) - Matching decompilation of UNDERTALE (Xbox One v1.13X).
 
+### Terry Cavanagh
+
+#### VVVVVV
+
+- [extract.vvv](https://github.com/Swyter/extract.vvv) - Simple program to extract original music from VVVVVV game. Extracts all 15 tracks from `vvvvvvmusic.vvv` files and outputs them as OGG Vorbis format.
+
 ### Studio MDHR
 
 - [cuphead-decomp (decomp)](https://github.com/jmxamongusmodder/cuphead-decomp) - Matching decompilation of Cuphead.
+
+### TaleWorlds Entertainment
+
+#### Mount&Blade
+
+- [mab-tools](https://github.com/Swyter/mab-tools) - 010 Editor binary templates for Mount&Blade 1.011 and Warband file formats. Includes templates for `.brf` (Binary Resource File), `.sco` (Scene Object), `options.dat` (gameplay and graphics settings including battle size), `controls.dat` (keymapping with support for two assignable key slots per action), and `sg*.sav` savegame files.
+- [cartographer](https://github.com/Swyter/cartographer) - Mount&Blade strategic map editor. Allows real-time positioning of world parties/cities. Supports importing/exporting OBJ files, editing map.txt and module_parties.py, with first-person camera controls and terrain visualization.
 
 ### TT Games
 
@@ -3107,6 +3125,7 @@ This list is for developers and modders working with such formats. It provides t
 - [euroland-elf-texture-extractor](https://github.com/eurotools/euroland-elf-texture-extractor) - Tool to extract textures from random EuroLand data files (*.elf) that may not be inspectable otherwise (e.g. different versions that don't work with the EuroLand .exe).
 - [sphinx-savegame-editor](https://github.com/eurotools/sphinx-savegame-editor) - C# tool to edit and view savegame files for The Sphinx and the Cursed Mummy game.
 - [sphinxtools](https://github.com/Swyter/sphinxtools) - Unpackers and modding tools for the GameCube version of Sphinx and the Cursed Mummy. Extracts files from Filelist.000 containers, includes 010 Editor binary templates for EDB and SFX formats, and provides demuxing tools for GameCube IMA ADPCM audio.
+- [gforce-tools](https://github.com/Swyter/gforce-tools) - 010 Editor binary templates for newer Eurocom/EngineX formats. Includes Filelist extractor script supporting version 7 (Athens 2004, Spyro: A Hero's Tail, Robots, Predator: Concrete Jungle, Batman Begins, Ice Age 2, Pirates of the Caribbean: At World's End, The Mummy: Tomb of the Dragon Emperor, 007: Quantum of Solace, Ice Age: Dawn of the Dinosaurs, G-Force, Dead Space: Extraction, Spider-Man 4 prototype, GoldenEye 007).
 
 ### Hasbro Interactive
 
