@@ -3112,9 +3112,9 @@ This list is for developers and modders working with such formats. It provides t
 ### Eurocom
 
 - [eurochef](https://github.com/eurotools/eurochef) - Rust crates and utilities for Eurocom EngineX(T) files. Supports texture extraction, entity extraction, map extraction, filelist re-packing, EDB to Euroland 4 decompiler, and Blender plugin.
- - Games: Sphinx and the Shadow of Set Demo Disc, Buffy The Vampire Slayer: Chaos Bleeds, Sphinx and the Cursed Mummy, Spyro: A Hero's Tail, Robots, Predator: Concrete Jungle, Batman Begins, Ice Age 2: The Meltdown, Pirates of the Caribbean: At World's End, Ice Age: Dawn of the Dinosaurs, G-Force, Spider-Man 4, GoldenEye 007.
- - Formats: EDB, ELX, SFX, filelist (v4-v10).
- - Platforms: PC, Xbox, Xbox 360, GameCube, Wii, PlayStation 2.
+  - Games: Sphinx and the Shadow of Set Demo Disc, Buffy The Vampire Slayer: Chaos Bleeds, Sphinx and the Cursed Mummy, Spyro: A Hero's Tail, Robots, Predator: Concrete Jungle, Batman Begins, Ice Age 2: The Meltdown, Pirates of the Caribbean: At World's End, Ice Age: Dawn of the Dinosaurs, G-Force, Spider-Man 4, GoldenEye 007.
+  - Formats: EDB, ELX, SFX, filelist (v4-v10).
+  - Platforms: PC, Xbox, Xbox 360, GameCube, Wii, PlayStation 2.
 - [eurosound-editor](https://github.com/eurotools/eurosound-editor) - .NET program reimplementing the original EuroSound tool by Eurocom for editing EngineX sound files.
 - [eurosound-explorer](https://github.com/eurotools/eurosound-explorer) - C# tool for viewing parameters and extracting audio from SFX files compatible with Eurocom games.
 - [eurotext](https://github.com/eurotools/eurotext) - Custom tool to edit and inspect text-based EngineX spreadsheets.
