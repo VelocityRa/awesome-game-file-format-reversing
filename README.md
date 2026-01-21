@@ -170,10 +170,11 @@ This list is for developers and modders working with such formats. It provides t
     - [iNiS](#inis)
     - [Jupiter](#jupiter)
     - [Jagex](#jagex)
+    - [Koei Tecmo](#koei-tecmo)
+      - [Fatal Frame](#fatal-frame)
     - [Konami](#konami)
       - [Metal Gear Solid](#metal-gear-solid)
       - [Silent Hill](#silent-hill)
-      - [Fatal Frame](#fatal-frame)
       - [Castlevania](#castlevania)
     - [Kuju London](#kuju-london)
     - [Larian Studios](#larian-studios)
@@ -272,6 +273,8 @@ This list is for developers and modders working with such formats. It provides t
       - [Donkey Kong 64](#donkey-kong-64)
       - [Diddy Kong Racing](#diddy-kong-racing)
       - [GoldenEye 007](#goldeneye-007)
+      - [Conker's Bad Fur Day](#conkers-bad-fur-day)
+      - [Banjo-Kazooie (Xbox 360)](#banjo-kazooie-xbox-360)
     - [Runic Games](#runic-games)
       - [Torchlight](#torchlight)
       - [Torchlight II](#torchlight-ii)
@@ -1780,6 +1783,13 @@ This list is for developers and modders working with such formats. It provides t
 - [OSRS-Environment-Exporter](https://github.com/ConnorDY/OSRS-Environment-Exporter) - Environment and map exporter for Old School RuneScape.
 - [modelviewer](https://github.com/waleedyaseen/modelviewer) - Model viewer for RuneScape cache files.
 
+### Koei Tecmo
+
+#### Fatal Frame
+
+- [himuro (decomp)](https://github.com/mikompilation/himuro) - Matching decompilation of Fatal Frame (PS2).
+- [minakami (decomp)](https://github.com/mikompilation/minakami) - Matching decompilation of Fatal Frame 2 (PS2).
+
 ### Konami
 
 #### Metal Gear Solid
@@ -1790,29 +1800,25 @@ This list is for developers and modders working with such formats. It provides t
 - [MGS2 HZX Format](https://github.com/GirianSeed/mgs2/blob/trunk/source/include/fmt_hzx.h) - Documentation for Metal Gear Solid 2 HZX (Hazard) map navigation format including patrol routes, navmesh, triggers, cameras, and spatial zones.
 - [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
 - [DAR Archive Editor (Metal Gear Solid 2: Sons of Liberty)](https://www.moddb.com/games/metal-gear-solid-2-sons-of-liberty/downloads/dar-archive-editor)
+- [mgs_reversing (decomp)](https://github.com/FoxdieTeam/mgs_reversing) - Matching decompilation of Metal Gear Solid (PSX).
 
 #### Silent Hill
 
 - [silent-hill-decomp (decomp)](https://github.com/Vatuu/silent-hill-decomp) - Matching decompilation of Silent Hill (PS1, US 1.1).
 - [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
-
-#### Fatal Frame
-
-- [himuro (decomp)](https://github.com/mikompilation/himuro) - Matching decompilation of Fatal Frame (PS2).
-- [minakami (decomp)](https://github.com/mikompilation/minakami) - Matching decompilation of Fatal Frame 2 (PS2).
 - [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
 - [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
 - [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
-- [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
 - [Sparagas/Silent-Hill](https://github.com/Sparagas/Silent-Hill) - Reverse engineering research and documentation for Silent Hill file formats.
 - [Murugo/Misc-Game-Research (Silent Hill 2)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Silent%20Hill%202%2B3) - Reverse engineering notes for Silent Hill 2 & 3 (PS2).
 - [Silent Hill Museum](https://silenthillmuseum.org/) - Website dedicated to Silent Hill series with file format documentation.
 - [dreamingmoths/silent-hill-museum](https://github.com/dreamingmoths/silent-hill-museum) - Repository for Silent Hill Museum website with technical documentation.
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
-- [mgs_reversing (decomp)](https://github.com/FoxdieTeam/mgs_reversing) - Matching decompilation of Metal Gear Solid (PSX).
+
 
 #### Castlevania
 
+- [Castlevania](https://github.com/Sparagas/Castlevania) - Castlevania reverse engineering file formats documentation and tools.
 - [cv64 (decomp)](https://github.com/k64ret/cv64) - Matching decompilation of Castlevania (N64).
 - [cvaos (decomp)](https://github.com/testyourmine/cvaos) - Matching decompilation of Castlevania: Aria of Sorrow.
 - [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
@@ -2582,7 +2588,6 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Banjo-Tooie
 
-- [conker (decomp)](https://github.com/mkst/conker) - Matching decompilation of Conker's Bad Fur Day (N64).
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
 - [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
@@ -2598,13 +2603,20 @@ This list is for developers and modders working with such formats. It provides t
 #### Diddy Kong Racing
 
 - [noclip.website (Diddy Kong Racing)](https://github.com/magcius/noclip.website/tree/main/src/DiddyKongRacing) - In-browser Diddy Kong Racing viewer.
+- [diddy-kong-racing (decomp)](https://github.com/davidsm64/diddy-kong-racing) - Matching decompilation of Diddy Kong Racing.
 
 #### GoldenEye 007
 
 - [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
 - [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
+
+#### Conker's Bad Fur Day
+
+- [conker (decomp)](https://github.com/mkst/conker) - Matching decompilation of Conker's Bad Fur Day (N64).
+
+#### Banjo-Kazooie (Xbox 360)
+
 - [bk360 (decomp)](https://github.com/banjo360/bk360) - Matching decompilation of Banjo-Kazooie (Xbox 360).
-- [diddy-kong-racing (decomp)](https://github.com/davidsm64/diddy-kong-racing) - Matching decompilation of Diddy Kong Racing.
 
 ### Runic Games
 
