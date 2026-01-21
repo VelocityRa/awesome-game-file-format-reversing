@@ -520,6 +520,10 @@ This list is for developers and modders working with such formats. It provides t
 - [BassoonTracker](https://github.com/steffest/BassoonTracker) - Web-based old-school Amiga music tracker in plain JavaScript. Plays and edits Amiga Mod files and FastTracker XM files.
 - [DSP2BRSTM](https://github.com/onepiecefreak3/DSP2BRSTM) - Converter and multichannel creator for DSP to BRSTM. Merges multiple DSP files into one multichannel BRSTM. Also supports DSP to WAV conversion.
 - [fsb5_split](https://github.com/CyberBotX/fsb5_split) - Tool to split a multi-stream FSB5 into multiple single-stream FSB5s.
+- [Fmod5Sharp](https://github.com/Masusder/Fmod5Sharp) - Managed C# library for decoding FMOD 5 sound banks (FSB files).
+ - Formats: PCM8, PCM16, PCM32, GCADPCM, IMAADPCM, VORBIS
+ - Exports: WAV (PCM formats), OGG (Vorbis)
+ - Features: Sample extraction, metadata reading, format detection
 - [MCAConverter](https://github.com/onepiecefreak3/MCAConverter) - Converter for Capcom's MCA format. Converts MCA to WAVs and vice versa.
 - [HIRCDump](https://github.com/neptuwunium/HIRCDump) - Dump soundbank samples via event IDs.
 - [vgmstream-funkify](https://github.com/gheskett/vgmstream-funkify) - vgmstream library for playback of various streamed audio formats used in video games.
