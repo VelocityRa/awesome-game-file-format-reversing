@@ -70,6 +70,7 @@ This list is for developers and modders working with such formats. It provides t
     - [CRI](#cri)
     - [XNA](#xna)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
+    - [RAD Game Tools](#rad-game-tools)
   - [Game \& Studio Tools](#game--studio-tools)
     - [11 bit studios](#11-bit-studios)
     - [1C Company / Best Way](#1c-company--best-way)
@@ -296,7 +297,6 @@ This list is for developers and modders working with such formats. It provides t
     - [Primal Software](#primal-software)
       - [The I of the Dragon](#the-i-of-the-dragon)
     - [Punchline](#punchline)
-    - [RAD Game Tools](#rad-game-tools)
     - [Radical Entertainment](#radical-entertainment)
     - [Rare](#rare)
       - [Banjo-Kazooie](#banjo-kazooie)
@@ -985,6 +985,13 @@ This list is for developers and modders working with such formats. It provides t
 - [gsfopt](https://github.com/loveemu/gsfopt) - GSF (GBA Sound Format) optimizer tool. Optimizes GSF sets by removing unused code/data, converts minigsfs/gsflibs to single GSF files, and includes timing functionality for auto-tagging.
 - [saptapper](https://github.com/loveemu/saptapper) - Automated GSF ripper for Game Boy Advance games using the Sappy driver. Extracts music from GBA ROMs automatically.
 - [deadbeef_GSFdecoder](https://github.com/joshbarrass/deadbeef_GSFdecoder) - GSF decoder plugin for DeaDBeeF media player. Enables playback of GSF (GBA Sound Format) files in DeaDBeeF, based on viogsf/VBA-M.
+
+### RAD Game Tools
+
+*Middleware provider (Bink video, Granny 3D, Miles Sound System) used in hundreds of games across all platforms.*
+
+- [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
+- [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
 
 ## Game & Studio Tools
 
@@ -2533,11 +2540,6 @@ This list is for developers and modders working with such formats. It provides t
 - [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
 - [PDTools](https://github.com/Nenkai/PDTools) - Utilities for extracting and modifying Gran Turismo game files.
 - [GT4SaveEditor](https://github.com/Nenkai/GT4SaveEditor) - Save editor for Gran Turismo 4.
-
-### RAD Game Tools
-
-- [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
-- [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
 
 ### Rebel Act
 
