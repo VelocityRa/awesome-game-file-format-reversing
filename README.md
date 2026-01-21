@@ -61,9 +61,6 @@ This list is for developers and modders working with such formats. It provides t
     - [Ren'Py](#renpy)
     - [Rawthrills G7 Engine](#rawthrills-g7-engine)
     - [OpenSpace](#openspace)
-    - [Raven Software](#raven-software)
-      - [Heretic II](#heretic-ii)
-      - [Soldier of Fortune](#soldier-of-fortune)
   - [🔧 Middleware \& SDKs](#-middleware--sdks)
     - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
     - [Havok](#havok)
@@ -275,6 +272,9 @@ This list is for developers and modders working with such formats. It provides t
       - [GoldenEye 007](#goldeneye-007)
       - [Conker's Bad Fur Day](#conkers-bad-fur-day)
       - [Banjo-Kazooie (Xbox 360)](#banjo-kazooie-xbox-360)
+    - [Raven Software](#raven-software)
+      - [Heretic II](#heretic-ii)
+      - [Soldier of Fortune](#soldier-of-fortune)
     - [Runic Games](#runic-games)
       - [Torchlight](#torchlight)
       - [Torchlight II](#torchlight-ii)
@@ -857,21 +857,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [openspace-ps2-extractor](https://github.com/byvar/openspace-ps2-extractor) - Extractor for OpenSpace PS2 archive files.
 - [BinarySerializer.OpenSpace](https://github.com/BinarySerializer/BinarySerializer.OpenSpace) - BinarySerializer extension library for serializing OpenSpace game formats.
-
-### Raven Software
-
-#### Heretic II
-
-- [Quake Model to FlexModel Converter](https://www.moddb.com/games/heretic-ii/downloads/quake-model-to-flexmodel-converter-aka-convert) - Converts Quake models to FlexModel format. Preserves vertex placement only (no skeletal structure), suitable for static models, not animated player models.
-- [FlexModel to Wavefront Object Converter (FM2OBJ)](https://www.moddb.com/games/heretic-ii/downloads/flexmodel-to-wavefront-object-converter-aka-fm2obj) - Exports Heretic II animation frames (e.g., conjure11, draw5) as 3D meshes in Alias/Wavefront OBJ format. Can export Corvus or Kiera in specific poses, with option to export each mesh node (head, arm, etc.) as separate meshes.
-- [Heretic II Toolkit v1.06](https://www.moddb.com/games/heretic-ii/downloads/heretic-ii-toolkit-v106) - Official Heretic II modding toolkit. Usually included with the Heretic II CD, but available for download here (v1.06).
-
-#### Soldier of Fortune
-
-- [Official 3dsmax 3x plugin (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/official-3dsmax-3x-plugin) - Official GHOUL exporter for 3DS Max 3.x. Includes Controller for 3D Studio Max (avg_ctrl.dlc), Softimage|3D import plugin, and GHOUL prep program.
-- [.m32 to .tga/.adp to .wav file converters (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-to-tga-file-converter) - Convert your .m32 (SoF) texture files to manageable .tga texture files with an easy to use GUI. Also includes .adp to .wav for audio conversion. Also includes source code.
-- [.m32 tool (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-tool) - .m32 tool is a texture conversion utility for Soldier of Fortune. Allows batch conversion of .tga files to .m32.
-- [.os script decompiler v2.0 (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/os-script-decompiler-v20) - Command line program that tries to convert .os files back into .ds file form.
 
 ## 🔧 Middleware & SDKs
 
@@ -2617,6 +2602,21 @@ This list is for developers and modders working with such formats. It provides t
 #### Banjo-Kazooie (Xbox 360)
 
 - [bk360 (decomp)](https://github.com/banjo360/bk360) - Matching decompilation of Banjo-Kazooie (Xbox 360).
+
+### Raven Software
+
+#### Heretic II
+
+- [Quake Model to FlexModel Converter](https://www.moddb.com/games/heretic-ii/downloads/quake-model-to-flexmodel-converter-aka-convert) - Converts Quake models to FlexModel format. Preserves vertex placement only (no skeletal structure), suitable for static models, not animated player models.
+- [FlexModel to Wavefront Object Converter (FM2OBJ)](https://www.moddb.com/games/heretic-ii/downloads/flexmodel-to-wavefront-object-converter-aka-fm2obj) - Exports Heretic II animation frames (e.g., conjure11, draw5) as 3D meshes in Alias/Wavefront OBJ format. Can export Corvus or Kiera in specific poses, with option to export each mesh node (head, arm, etc.) as separate meshes.
+- [Heretic II Toolkit v1.06](https://www.moddb.com/games/heretic-ii/downloads/heretic-ii-toolkit-v106) - Official Heretic II modding toolkit. Usually included with the Heretic II CD, but available for download here (v1.06).
+
+#### Soldier of Fortune
+
+- [Official 3dsmax 3x plugin (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/official-3dsmax-3x-plugin) - Official GHOUL exporter for 3DS Max 3.x. Includes Controller for 3D Studio Max (avg_ctrl.dlc), Softimage|3D import plugin, and GHOUL prep program.
+- [.m32 to .tga/.adp to .wav file converters (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-to-tga-file-converter) - Convert your .m32 (SoF) texture files to manageable .tga texture files with an easy to use GUI. Also includes .adp to .wav for audio conversion. Also includes source code.
+- [.m32 tool (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-tool) - .m32 tool is a texture conversion utility for Soldier of Fortune. Allows batch conversion of .tga files to .m32.
+- [.os script decompiler v2.0 (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/os-script-decompiler-v20) - Command line program that tries to convert .os files back into .ds file form.
 
 ### Runic Games
 
