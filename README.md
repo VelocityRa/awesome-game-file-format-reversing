@@ -71,6 +71,7 @@ This list is for developers and modders working with such formats. It provides t
     - [XNA](#xna)
     - [Sappy (GBA Audio)](#sappy-gba-audio)
     - [RAD Game Tools](#rad-game-tools)
+    - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
   - [Game \& Studio Tools](#game--studio-tools)
     - [11 bit studios](#11-bit-studios)
     - [1C Company / Best Way](#1c-company--best-way)
@@ -277,7 +278,6 @@ This list is for developers and modders working with such formats. It provides t
       - [New Super Mario Bros DS](#new-super-mario-bros-ds)
       - [Metroid Prime](#metroid-prime)
       - [Pokemon](#pokemon)
-    - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
     - [Ntreev Soft](#ntreev-soft)
     - [Obsidian Entertainment](#obsidian-entertainment)
       - [Neverwinter Nights 2](#neverwinter-nights-2)
@@ -992,6 +992,77 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
 - [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
+
+### Nintendo SDKs & Hardware
+
+*Formats and tools generic to Nintendo consoles or SDKs.*
+
+- [Nintendo-File-Formats](https://github.com/kinnay/Nintendo-File-Formats) - Documentation for Wii U and Switch file formats.
+- [hactool](https://github.com/SciresM/hactool) - Tool to view information about, decrypt, and extract Nintendo Switch file formats including NCA, XCI, PFS0, HFS0, RomFS, ExeFS, save data, and more.
+- [WiiUTools](https://github.com/NWPlayer123/WiiUTools) - Collection of Python utilities for working with Wii U file formats including IPK packages, RPX executables, SARC archives, and texture editing (TexHaxU/TexHaxU2).
+- [Syroot.NintenTools.Bfres](https://gitlab.com/Syroot/NintenTools) - Library for reading/writing Nintendo BFRES model format (Wii U).
+- [Nitro Files](https://wiki.vg-resource.com/Nitro_Files) - Documentation for Nintendo DS file formats.
+- [narchive](https://github.com/nickworonekin/narchive) - Tool for extracting and creating NARC archives used in DS games.
+- [RomFS-Builder](https://github.com/SciresM/RomFS-Builder) - Program to convert a folder in Windows into a 3DS RomFS binary. For use with makerom.
+- [XCI-Explorer](https://github.com/StudentBlake/XCI-Explorer) - Tool for viewing contents of Nintendo Switch XCI and NSP files. Features include viewing metadata, exploring partitions, checking NCA hashes, extracting NCA, and modifying certificates.
+- [gc-c-kit](https://github.com/RenolY2/gc-c-kit) - Toolkit for compiling C code using devkitppc and injecting it into a GameCube Executable (DOL). Can be adapted to different GC games.
+- [WiiTools](https://github.com/Megazig/WiiTools) - Tools for Wii reverse engineering and function identification to help hacking Wii games.
+- [N64Recomp](https://github.com/N64Recomp/N64Recomp) - Tool to statically recompile N64 games into native executables. Converts N64 binaries into C code that can be compiled for any platform.
+- [wfslib](https://github.com/koolkdev/wfslib) - WFS (WiiU File System) library and tools.
+- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for exporting/importing CTPK texture package files used in Nintendo 3DS games.
+- [AudiobankToC](https://github.com/sauraen/AudiobankToC) - Scripts for converting between N64 Audiobank bank files and C code. Matches on binary -> C -> binary for banks in OoT.
+- [libansnd](https://github.com/Oaisus/libansnd) - Audio library for Wii and GameCube homebrew with support for ADPCM audio decoding and arbitrary resampling. Supports up to 48 simultaneous voices with hardware ADPCM decoding.
+- [LegacySwitchLibraries](https://github.com/KillzXGaming/LegacySwitchLibraries) - Switch file format libraries for Switch Toolbox and other programs.
+- [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
+- [otptool](https://github.com/SciresM/otptool) - Tool for Nintendo OTP (One-Time Programmable) files.
+- [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
+- [sarc](https://github.com/jam1garner/sarc) - Rust library for reading and writing Nintendo SARC and SZS (yaz0 compressed SARC) archive formats.
+- [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
+- [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
+- [lzarc](https://github.com/jam1garner/lzarc) - Rust library and CLI for working with LZARC compressed archives used in Paper Mario Color Splash.
+- [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
+- [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
+- [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
+- [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
+- [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
+- [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
+- [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
+- [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
+- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
+- [gc-gcm](https://github.com/jam1garner/gc-gcm) - Tool for GameCube GCM file format.
+- [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
+- [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
+- [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
+- [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
+- [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
+- [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
+- [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
+- [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
+- [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
+- [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
+- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
+- [Hatenatools](https://github.com/pbsds/Hatenatools) - Python tools for Flipnote Studio (Nintendo DSi) file formats. Supports reading and writing .ppm (Flipnote files), .tmb (thumbnail files), .ugo (user data), and .ntft (image files). Can extract metadata, frames, and audio from Flipnote files.
+- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
+- [M1TE2](https://github.com/nesdoug/M1TE2) - SNES Mode 1 Tile Editor for generating, editing, and arranging SNES tiles and tilemaps (2bpp/4bpp) with palette support. Designed for Mode 1 but works with any mode needing 2bpp or 4bpp graphics.
+- [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
+- [apicula](https://github.com/scurest/apicula) - Converter for Nintendo DS .nsbmd 3D model format.
+- [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) - Documentation for Nintendo DS file types.
+- [nitro-fs](https://github.com/DanielPXL/nitro-fs) - Nintendo DS filesystem tools.
+- [nitro-g3d-tools](https://github.com/Ermelber/nitro-g3d-tools) - Tools for Nintendo DS 3D graphics.
+- [nitroefx](https://github.com/Fexty12573/nitroefx) - Nintendo DS effect tools.
+- [NitroEffectMaker](https://github.com/HaroohiePals/NitroEffectMaker) - Effect editor for Nintendo DS.
+- [narc](https://github.com/lhearachel/narc) - NARC archive tool for Nintendo DS.
+- [NitroSDK](https://github.com/ntrtwl/NitroSDK) - Official Nintendo DS SDK.
+- [NitroSystem](https://github.com/ntrtwl/NitroSystem) - Nintendo DS system library.
+- [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) - Ghidra plugin for Nintendo DS.
+- [NitroSharp](https://github.com/PlatinumMaster/NitroSharp) - Nintendo DS file format library.
+- [nitrog3d](https://github.com/red031000/nitrog3d) - Nintendo DS 3D tools.
+- [nitrogfx](https://github.com/red031000/nitrogfx) - Nintendo DS graphics tools.
+- [Ekona](https://github.com/SceneGate/Ekona) - Nintendo DS file format library.
+- [Nds4j](https://github.com/turtleisaac/Nds4j) - Java library for Nintendo DS formats.
+- [Cafe-Shader-Studio](https://github.com/KillzXGaming/Cafe-Shader-Studio) - Shader editor and viewer for Wii U games.
+- [REGames Editor](https://www.reddit.com/r/REGames/comments/12o004k/a_friend_and_i_made_a_full_editor_for_a_nintendo/) - Full-featured editor for Nintendo DS games.
+- [nod](https://github.com/encounter/nod) - Rust library for reading and writing Nintendo Optical Disc images (GameCube and Wii). Supports ISO (GCM), WIA/RVZ, WBFS, CISO, NFS (Wii U VC), GCZ, and TGC formats. Includes nodtool CLI for extraction, conversion, and verification.
 
 ## Game & Studio Tools
 
@@ -2357,77 +2428,6 @@ This list is for developers and modders working with such formats. It provides t
 - [botw (decomp)](https://github.com/zeldaret/botw) - Matching decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0).
 - [las-decomp (decomp)](https://github.com/Owen-Splat/las-decomp) - Matching decompilation of Link's Awakening Switch (2019 remake).
 - [tp (decomp)](https://github.com/zeldaret/tp) - Matching decompilation of The Legend of Zelda: Twilight Princess.
-
-### Nintendo SDKs & Hardware
-
-*Formats and tools generic to Nintendo consoles or SDKs.*
-
-- [Nintendo-File-Formats](https://github.com/kinnay/Nintendo-File-Formats) - Documentation for Wii U and Switch file formats.
-- [hactool](https://github.com/SciresM/hactool) - Tool to view information about, decrypt, and extract Nintendo Switch file formats including NCA, XCI, PFS0, HFS0, RomFS, ExeFS, save data, and more.
-- [WiiUTools](https://github.com/NWPlayer123/WiiUTools) - Collection of Python utilities for working with Wii U file formats including IPK packages, RPX executables, SARC archives, and texture editing (TexHaxU/TexHaxU2).
-- [Syroot.NintenTools.Bfres](https://gitlab.com/Syroot/NintenTools) - Library for reading/writing Nintendo BFRES model format (Wii U).
-- [Nitro Files](https://wiki.vg-resource.com/Nitro_Files) - Documentation for Nintendo DS file formats.
-- [narchive](https://github.com/nickworonekin/narchive) - Tool for extracting and creating NARC archives used in DS games.
-- [RomFS-Builder](https://github.com/SciresM/RomFS-Builder) - Program to convert a folder in Windows into a 3DS RomFS binary. For use with makerom.
-- [XCI-Explorer](https://github.com/StudentBlake/XCI-Explorer) - Tool for viewing contents of Nintendo Switch XCI and NSP files. Features include viewing metadata, exploring partitions, checking NCA hashes, extracting NCA, and modifying certificates.
-- [gc-c-kit](https://github.com/RenolY2/gc-c-kit) - Toolkit for compiling C code using devkitppc and injecting it into a GameCube Executable (DOL). Can be adapted to different GC games.
-- [WiiTools](https://github.com/Megazig/WiiTools) - Tools for Wii reverse engineering and function identification to help hacking Wii games.
-- [N64Recomp](https://github.com/N64Recomp/N64Recomp) - Tool to statically recompile N64 games into native executables. Converts N64 binaries into C code that can be compiled for any platform.
-- [wfslib](https://github.com/koolkdev/wfslib) - WFS (WiiU File System) library and tools.
-- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for exporting/importing CTPK texture package files used in Nintendo 3DS games.
-- [AudiobankToC](https://github.com/sauraen/AudiobankToC) - Scripts for converting between N64 Audiobank bank files and C code. Matches on binary -> C -> binary for banks in OoT.
-- [libansnd](https://github.com/Oaisus/libansnd) - Audio library for Wii and GameCube homebrew with support for ADPCM audio decoding and arbitrary resampling. Supports up to 48 simultaneous voices with hardware ADPCM decoding.
-- [LegacySwitchLibraries](https://github.com/KillzXGaming/LegacySwitchLibraries) - Switch file format libraries for Switch Toolbox and other programs.
-- [exefs_patches](https://github.com/misson20000/exefs_patches) - ExeFS patching tool for Nintendo Switch.
-- [otptool](https://github.com/SciresM/otptool) - Tool for Nintendo OTP (One-Time Programmable) files.
-- [switch-reversing](https://github.com/SciresM/switch-reversing) - Reverse engineering resources for Nintendo Switch.
-- [sarc](https://github.com/jam1garner/sarc) - Rust library for reading and writing Nintendo SARC and SZS (yaz0 compressed SARC) archive formats.
-- [sarc-extract](https://github.com/RenolY2/sarc-extract) - Extractor for SARC archive format.
-- [GARC-Unpack](https://github.com/vgmoose/GARC-Unpack) - Unpacker for Nintendo GARC archive format.
-- [lzarc](https://github.com/jam1garner/lzarc) - Rust library and CLI for working with LZARC compressed archives used in Paper Mario Color Splash.
-- [Lzarc-Tool](https://github.com/Fuzzy2319/Lzarc-Tool) - Tool for LZARC compressed archive format.
-- [msbt2sheets](https://github.com/CaXaPeK/msbt2sheets) - Converter for MSBT files to spreadsheet format.
-- [MSBTEditor](https://github.com/efimandreev0/MSBTEditor) - MSBT text extractor/replacer for .msbt and .umsbt LE-files.
-- [umsbt_cmd_extractor](https://github.com/efimandreev0/umsbt_cmd_extractor) - Command extractor for UMSBT files.
-- [BFRES-Viewer](https://github.com/KillzXGaming/BFRES-Viewer) - Viewer for Nintendo BFRES model format files.
-- [BFRES-Tool](https://github.com/aboood40091/BFRES-Tool) - Tool for working with Nintendo BFRES files.
-- [BFRES-Extractor](https://github.com/LordNed/BFRES-Extractor) - Extractor for Nintendo BFRES format files.
-- [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
-- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
-- [gc-gcm](https://github.com/jam1garner/gc-gcm) - Tool for GameCube GCM file format.
-- [LibGCM](https://github.com/Sage-of-Mirrors/LibGCM) - Library for GameCube memory card formats.
-- [dolreader](https://github.com/RenolY2/dolreader) - Reader for GameCube/Wii DOL executable format.
-- [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
-- [Chihuahua](https://github.com/Sage-of-Mirrors/Chihuahua) - Tool for GameCube/Wii file formats.
-- [TSCBReader](https://github.com/Sage-of-Mirrors/TSCBReader) - Reader for TSCB format files.
-- [KMP-Expander](https://github.com/Ermelber/KMP-Expander) - Expander for KMP format files.
-- [pymsc](https://github.com/jam1garner/pymsc) - Python library for MSC format files.
-- [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
-- [cgrr-gamecube](https://github.com/sopoforic/cgrr-gamecube) - Tools for GameCube file formats.
-- [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
-- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
-- [Hatenatools](https://github.com/pbsds/Hatenatools) - Python tools for Flipnote Studio (Nintendo DSi) file formats. Supports reading and writing .ppm (Flipnote files), .tmb (thumbnail files), .ugo (user data), and .ntft (image files). Can extract metadata, frames, and audio from Flipnote files.
-- [SuperFamiconv](https://github.com/Optiroc/SuperFamiconv) - Command-line tool to convert graphics to Super Nintendo format.
-- [M1TE2](https://github.com/nesdoug/M1TE2) - SNES Mode 1 Tile Editor for generating, editing, and arranging SNES tiles and tilemaps (2bpp/4bpp) with palette support. Designed for Mode 1 but works with any mode needing 2bpp or 4bpp graphics.
-- [3dstool](https://github.com/dnasdw/3dstool) - All-in-one tool for extracting and creating 3DS file formats (CIA, CCI, NCCH, NCSD, etc.).
-- [apicula](https://github.com/scurest/apicula) - Converter for Nintendo DS .nsbmd 3D model format.
-- [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) - Documentation for Nintendo DS file types.
-- [nitro-fs](https://github.com/DanielPXL/nitro-fs) - Nintendo DS filesystem tools.
-- [nitro-g3d-tools](https://github.com/Ermelber/nitro-g3d-tools) - Tools for Nintendo DS 3D graphics.
-- [nitroefx](https://github.com/Fexty12573/nitroefx) - Nintendo DS effect tools.
-- [NitroEffectMaker](https://github.com/HaroohiePals/NitroEffectMaker) - Effect editor for Nintendo DS.
-- [narc](https://github.com/lhearachel/narc) - NARC archive tool for Nintendo DS.
-- [NitroSDK](https://github.com/ntrtwl/NitroSDK) - Official Nintendo DS SDK.
-- [NitroSystem](https://github.com/ntrtwl/NitroSystem) - Nintendo DS system library.
-- [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) - Ghidra plugin for Nintendo DS.
-- [NitroSharp](https://github.com/PlatinumMaster/NitroSharp) - Nintendo DS file format library.
-- [nitrog3d](https://github.com/red031000/nitrog3d) - Nintendo DS 3D tools.
-- [nitrogfx](https://github.com/red031000/nitrogfx) - Nintendo DS graphics tools.
-- [Ekona](https://github.com/SceneGate/Ekona) - Nintendo DS file format library.
-- [Nds4j](https://github.com/turtleisaac/Nds4j) - Java library for Nintendo DS formats.
-- [Cafe-Shader-Studio](https://github.com/KillzXGaming/Cafe-Shader-Studio) - Shader editor and viewer for Wii U games.
-- [REGames Editor](https://www.reddit.com/r/REGames/comments/12o004k/a_friend_and_i_made_a_full_editor_for_a_nintendo/) - Full-featured editor for Nintendo DS games.
-- [nod](https://github.com/encounter/nod) - Rust library for reading and writing Nintendo Optical Disc images (GameCube and Wii). Supports ISO (GCM), WIA/RVZ, WBFS, CISO, NFS (Wii U VC), GCZ, and TGC formats. Includes nodtool CLI for extraction, conversion, and verification.
 
 ### Ntreev Soft
 
