@@ -78,6 +78,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Tony Hawk's Pro Skater](#tony-hawks-pro-skater)
       - [Ghostbusters](#ghostbusters)
       - [A Series of Unfortunate Events](#a-series-of-unfortunate-events)
+      - [Spider-Man (Neversoft)](#spider-man-neversoft)
     - [Angel Matrix](#angel-matrix)
     - [Angel Studios / Rockstar San Diego](#angel-studios--rockstar-san-diego)
     - [Anthony Bongers](#anthony-bongers)
@@ -717,6 +718,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .mdl, .vtx, .vvd.
 - [VTFLib](https://github.com/NeilJed/VTFLib) - C/C++ library for reading/writing VTF and VMT texture/material files.
 - [source-engine](https://github.com/nillerusr/source-engine) - Modified Source engine (2017) developed by Valve and leaked in 2020. Not for commercial purposes.
+- [Kisak-Strike](https://github.com/SwagSoftware/Kisak-Strike) - Open-source, fully buildable CS:GO port on Source 1; requires original game assets.
 - [GtkRadiant](https://github.com/TTimo/GtkRadiant) - Open source, cross-platform level editor for id Tech and Source engine games.
 - [Goldsrc Model Viewer (V 0.3a Beta2)](https://www.moddb.com/games/half-life/downloads/goldsrc-model-viewer-v-03a-beta2-archived-for-other-use) - Simple model viewer for GoldSrc engine (Half-Life 1) models. Supports MDL format (v0.3a Beta2, archived). Note: MDL v4 support not yet added.
 - [Half Life 2 MDL (v37) Importer V 0.9 Beta for 3DS](https://www.moddb.com/games/half-life-2/downloads/half-life-2-mdl-v37-importer-v-0-9-beta-for-3ds)
@@ -1098,6 +1100,7 @@ This list is for developers and modders working with such formats. It provides t
 - [lui-tool](https://github.com/xensik/lui-tool) - Utility to assemble and disassemble IW engine UI scripts. Supports Call of Duty: Ghosts (IW6).
 - [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender add-on for Call of Duty modding.
 - [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Legendary Call of Duty asset extraction tool.
+- [KisakCOD](https://github.com/SwagSoftware/KisakCOD/) - Open-source, fully buildable reimplementation of Call of Duty 4 multiplayer; aimed at mod developers.
 - [Cordycep](https://github.com/Scobalula/Cordycep) - Tool that utilizes modified game executables to load fast files for Call of Duty.
 - [zonebuilder](https://github.com/RagdollPhysics/zonebuilder) - Fastfile generator for IW4 (Modern Warfare 2).
 - [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140)
@@ -1109,7 +1112,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Call of Duty 1 Mod Tools No Installer Version](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-mod-tools-no-installer-version) - Alternative version for users experiencing installation issues with the official installer, typically caused by missing or corrupt game registry entries.
 - [Call of Duty 2 Mod Tools](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools) - Official modding tools for Call of Duty 2.
 - [Call of Duty 2 Mod Tools No Installer](https://www.moddb.com/games/call-of-duty-2/downloads/call-of-duty-2-mod-tools-no-installer) - Alternative version for users experiencing installation issues with the official installer, typically caused by missing or corrupt game registry entries.
-- [Call of Duty 4 Mod Tools (SDK)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/call-of-duty-4-mod-tools-sdk) - The official SDK from Infinity Ward. Now the real mod'ing will begin.
+- [CoD4 Mod Tools 1.1 (mirror)](https://github.com/promod/CoD4-Mod-Tools) - Repository containing the original Call of Duty 4 Mod Tools and 1.1 update from Infinity Ward.
 - [Iwi Converter (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-converter) - IWI converter with multi-file selection support for Call of Duty 2. Created to address lack of multi-select support in other IWI converters.
 - [KV Map Converter v2 Beta2 (Call of Duty 4: Modern Warfare)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/kv-map-converter-v2-beta2) - Utility by KillerVirus for converting Source Engine maps to Call of Duty 4: Modern Warfare format (v2 Beta2).
 
@@ -1127,6 +1130,10 @@ This list is for developers and modders working with such formats. It provides t
 #### A Series of Unfortunate Events
 
 - [resPack](https://github.com/XAYRGA/resPack) - Extractor for Xbox A Series of Unfortunate Events archive files.
+
+#### Spider-Man (Neversoft)
+
+- [spidey-decomp](https://github.com/krystalgamer/spidey-decomp) - Decompilation of Neversoft's Spider-Man (PC port), useful for studying formats and game internals.
 
 ### Angel Matrix
 
@@ -3235,6 +3242,9 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Westwood Studios / EA Los Angeles
 
+- [Command & Conquer: Renegade (source release)](https://github.com/electronicarts/CnC_Renegade) - Official source code release for C&C Renegade and tools (archived; GPLv3 with additional terms).
+  - Tools: Level Edit (public editor), Free Dedicated Server (FDS) build.
+  - Dependencies: DirectX (8+), RAD Bink, RAD Miles Sound System, NvDXTLib, Umbra, GameSpy, SafeDisk API, Microsoft Cab, RTPatch, Lightscape.
 - [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Tool for extracting files from Command & Conquer BIG archive files. Supports: Generals, Generals: Zero Hour, Tiberium Wars, Kane's Wrath, Red Alert 3, Red Alert 3: Uprising, Tiberian Twilight. Originally uploaded by bibber.
 - [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - This program can extract asset files from C&C streams. This program can extract asset files from C&C streams. You can also extract models (W3DAnimation, W3DCollisionBox, W3DContainer, W3DHierarchy, W3DMesh), textures (OnDemandTexture, Texture) and sounds/music (AudioFile, AudioFileMP3Passthrough,...
 
