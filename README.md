@@ -2502,6 +2502,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Archive files plugin for Noesis (The I of the Dragon)](https://www.moddb.com/games/the-i-of-the-dragon/downloads/archive-files-plugin-for-noesis-v001) - Basic tools to work with archive resource files (.res).
 
+### Procedural Arts
+
+#### Façade
+
+- [facade_editor](https://github.com/G4B33/facade_editor) - Randomizer, corruptor, and editor for Façade. Randomizes sounds, textures, cursors, animations, and subtitles; replaces custom sound files with automatic downsampling; decompiles .bin, .map, and .rul files (Jess rule language); enables built-in debug features.
+- [Facade (decompiled)](https://github.com/VideoGameSmash12/Facade) - Decompiled back-end source code of Façade, which was written entirely in Java.
+
 ### Polytron
 
 - [noclip.website (Fez)](https://github.com/magcius/noclip.website/tree/main/src/Fez) - In-browser Fez viewer.
