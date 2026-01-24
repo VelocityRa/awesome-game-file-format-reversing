@@ -2866,6 +2866,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [RustyBlazer (decomp)](https://github.com/hellow554/RustyBlazer) - Matching decompilation of Soul Blazer.
 
+#### Sleeping Dogs
+
+- [TheoryEngine](https://github.com/SDmodding/TheoryEngine) - WIP reverse-engineered reimplementation of the Sleeping Dogs: Definitive Edition engine using shipped debug symbols (PDB); header-focused for embedding in tools and mods.
+
 #### The World Ends With You
 
 - [twewy (decomp)](https://github.com/Yotona/twewy) - Matching decompilation of The World Ends With You (NDS).
