@@ -67,6 +67,7 @@ This list is for developers and modders working with such formats. It provides t
   - [XNA](#xna)
   - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [RAD Game Tools](#rad-game-tools)
+  - [SmartFoxServer](#smartfoxserver)
   - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
 - [Game \& Studio Tools](#game--studio-tools)
   - [Activision / Infinity Ward / Treyarch](#activision--infinity-ward--treyarch)
@@ -1014,6 +1015,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
 - [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
+
+### SmartFoxServer
+
+*Multiplayer game server middleware by gotoAndPlay(). Its binary protocol (SFS2X) is used in many mobile and browser-based online games.*
+
+- [sfs2x-py](https://github.com/KeepALifeUS/sfs2x-py) - Pure Python implementation of the SmartFoxServer 2X binary protocol for packet analysis, MITM proxying, and game bot development.
 
 ### Nintendo SDKs & Hardware
 
