@@ -435,7 +435,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Team Shanghai Alice (Touhou)](#team-shanghai-alice-touhou)
   - [Techland](#techland)
   - [Telltale Games](#telltale-games)
-  - [Terminal Reality (Nocturne)](#terminal-reality-nocturne)
+  - [Terminal Reality](#terminal-reality)
+    - [Nocturne](#nocturne)
     - [Terminal Velocity / Fury3](#terminal-velocity--fury3)
     - [BloodRayne](#bloodrayne)
   - [Terrible Toybox](#terrible-toybox)
@@ -3980,17 +3981,35 @@ This list is for developers and modders working with such formats. It provides t
 - [d3dmesh-to-gltf](https://github.com/sassy-or-clement/d3dmesh-to-gltf) - CLI tool (Rust) that converts Telltale D3DMESH meshes, D3DTX textures, and SKL skeletons to glTF 2.0 + PNG for use in Blender and other 3D tools; targets The Walking Dead: The Telltale Definitive Series (format version 55).
   - Formats: .d3dmesh, .d3dtx, .skl → .gltf / .bin / .png.
 
-### Terminal Reality (Nocturne)
+### Terminal Reality
+
+#### Tools / Libraries
+
+- [Poddy](https://github.com/dummiesman/Poddy) - POD Manipulation tool for all Terminal Reality Inc. games/software formats
+- [termpod](https://github.com/lndpj/termpod) - Terminal Reality POD{1,2,3,4,5,6}/EPD file format archive C++ library 
+- [JPod](https://github.com/juanputrerasm/JPod) - Terminal Reality POD archive utility 
+- [JSPod](https://github.com/juanputrerasm/JSPod) - Online Terminal Reality POD archive viewer
+- [JPodman](https://github.com/juanputrerasm/JPodman) - Terminal Reality games POD mounting utility
+- [TermPod](https://github.com/KeyofBlueS/TermPod) - Terminal Reality POD (archive) managment tool.
+
+#### Documentation
+
+- [termpod](https://github.com/lndpj/termpod/wiki) - Terminal Reality POD file format Documentation and related resources.
+- [jtrfp](https://github.com/jtrfp/jtrfp/wiki) - Java library providing file parsers for Terminal Reality game formats, intended as a dependency for game re-implementation projects.
+
+#### POD1 Style (POD1,EPD,POD2,POD6)
+
+##### Terminal Velocity / Fury3
+
+- [terminal-recall](https://github.com/jtrfp/terminal-recall) - Open-source engine remake for Terminal Velocity and Fury3 that reads and renders original game data files. Built on jtrfp.
+
+##### Nocturne
 
 - [NocturneDecomp (decomp)](https://github.com/NearlyTRex/NocturneDecomp) - Matching decompilation of Nocturne.
 
-#### Terminal Velocity / Fury3
+#### POD3 Style (POD3,POD4,POD5)
 
-- [terminal-recall](https://github.com/jtrfp/terminal-recall) - Open-source engine remake for Terminal Velocity and Fury3 that reads and renders original game data files. Built on jtrfp.
-- [jtrfp](https://github.com/jtrfp/jtrfp) - Java library providing file parsers for Terminal Reality game formats, intended as a dependency for game re-implementation projects.
-  - Formats: POD (archive), BIN (3D models), ACT/CLR (palettes), TEX (textures), TRK/LVL/CRS (track/level/course data), LST, PUP, KFM, RAW, SIT.
-
-#### BloodRayne
+##### BloodRayne
 
 - [RedRayne](https://github.com/americusmaximus/RedRayne) - Open-source reverse-engineered implementation of Terminal Reality's BloodRayne (2002), reading original game assets with DX8, DX9, and OpenGL renderer support.
 - [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
