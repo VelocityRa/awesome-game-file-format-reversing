@@ -11,5 +11,5 @@ jobs:
       uses: lycheeverse/lychee-action@v2.7.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-concurrency 64 README.md
+        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-retries 5 --max-concurrency 8 README.md
         fail: true
