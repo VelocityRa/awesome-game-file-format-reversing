@@ -3378,7 +3378,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Midway
 
-- [revenge (decomp)](https://github.com/svinsmoke212/revenge) - Matching decompilation of WCW/nWo Revenge (N64).
+- [WCWnWoRevengeRecomp](https://github.com/jessetbh/WCWnWoRevengeRecomp) - Native PC port of WCW/nWo Revenge (N64) via static recompilation (bring your own ROM).
 
 #### Area 51
 
