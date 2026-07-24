@@ -4851,7 +4851,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Awesome Game Decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) - A curated list of awesome game decompilations.
 - [Awesome Game Datasets](https://github.com/leomaurodesenv/game-datasets) - Datasets and resources for game research.
 - [Awesome Reverse Engineering](https://github.com/tylerha97/awesome-reversing) - List of reverse engineering resources.
-- [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/_software.md) - Comprehensive list of reverse engineering software and tools.
+- [Awesome Software Reverse Engineering](https://github.com/ReversingID/Awesome-Reversing/blob/master/software-reversing.md) - Comprehensive list of reverse engineering software and tools.
 - [Awesome Gamedev](https://github.com/ellisonleao/magictools) - Curated list of game development resources.
 - [Game-Decompilations](https://github.com/SamidyFR/Game-Decompilations) - Curated list of video game decompilation projects, documenting reverse-engineered game source code and asset parsing.
 
