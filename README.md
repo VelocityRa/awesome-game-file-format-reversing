@@ -2787,7 +2787,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Rock Band, Guitar Hero, Amplitude, Dance Dance Revolution Universe, Frequency, Karaoke Revolution.*
 
-- [rb3ds (decomp)](https://github.com/ieee802dot11ac/rb3ds) - Matching decompilation of Rock Band 3 (Nintendo DS).
+- [rb3 (decomp)](https://github.com/DarkRTA/rb3) - Matching decompilation of Rock Band 3 (Wii).
 - [LibForge](https://github.com/maxton/LibForge) - Library for reading, writing, and converting Forge engine formats (Rock Band 4, Rock Band VR, FUSER). See also [PikminGuts92's fork](https://github.com/PikminGuts92/LibForge) with v2 RB MIDI support, MAGMA v1 milos support, and AMP/RBVR .mid_* file support.
   - Formats: MIDI, PNG/BMP (textures), FBX/OBJ (models), DTA/DTB, RBmid, RBsong, lipsync, CON/GP4/PKG (packages).
 - [pikaxe](https://github.com/PikminGuts92/pikaxe) - Milo engine modding tool for Harmonix games. Supports Guitar Hero 1-2, Guitar Hero Encore: Rocks the 80s, Rock Band series, Dance Central, and other Milo engine titles. Handles DTA, GLTF, and ARK formats across Xbox, Wii, and PS3. Evolution of Mackiloha.
@@ -3327,7 +3327,6 @@ This list is for developers and modders working with such formats. It provides t
 - [DestinyDocs](https://github.com/MontagueM/DestinyDocs) - Documentation on Destiny game files, particularly for recent versions of Destiny 2. Includes Charm wiki, engine overview, and tag format explanations.
 - [D2StaticDocs](https://github.com/nblockbuster/D2StaticDocs) - Documentation on the Destiny 2 Beyond Light static model format. Covers main model files, subfiles, material tables, and loadzone structures.
 - [destinypkgtool](https://github.com/v4nguard/destinypkgtool) - Rust library and tools for working with Destiny 1 pkg files (unpacker, verification).
-- [ddkf](https://github.com/v4nguard/ddkf) - Destiny Decryption Key Finder.
 - [DestinyUnpackerCPP](https://github.com/nblockbuster/DestinyUnpackerCPP) - C++ unpacker for Destiny 1 (PS4/PS3/X360) and Destiny 2 PC packages. Supports WEM conversion, TXTP generation, hex ID naming, and music-only extraction. See also [MontagueM/DestinyUnpackerCPP](https://github.com/MontagueM/DestinyUnpackerCPP) for the original version.
 - [destiny-unpacker-rs](https://github.com/nblockbuster/destiny-unpacker-rs) - Rust implementation of Destiny unpacker (archived).
 - [D2StaticExtractor](https://github.com/nblockbuster/D2StaticExtractor) - Static model extraction tool that converts Destiny 2 static models into FBX files. Supports Beyond Light and later versions. Note: Superseded by Charm, but still useful for specific use cases (archived).
