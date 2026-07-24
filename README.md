@@ -858,6 +858,8 @@ This list is for developers and modders working with such formats. It provides t
 - [ghidra-gekko-broadway-lang](https://github.com/aldelaro5/ghidra-gekko-broadway-lang) - Ghidra processor language for Gekko/Broadway CPU (GameCube/Wii) disassembly and decompilation.
 - [ds-decomp](https://github.com/AetiasHax/ds-decomp) - Toolkit for decompiling Nintendo DS games, with ROM extraction, building, symbol analysis, and asset handling tools.
 - [Ghidra-Switch-Loader](https://github.com/Adubbz/Ghidra-Switch-Loader) - Ghidra loader extension for Nintendo Switch executable formats (NCA, XCI), enabling decompilation and reverse engineering of Switch games.
+- [idaxex](https://github.com/emoose/idaxex) - XEX/XBE loader plugin for IDA 9, plus the xex1tool CLI, supporting most known Xbox and Xbox 360 executable file formats.
+- [ccc](https://github.com/chaoticgd/ccc) - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
 
 ### 💻 Development Libraries
 
@@ -971,6 +973,9 @@ This list is for developers and modders working with such formats. It provides t
 - [SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) - Converts Supercell Texture (.sctx) files to PNG with metadata extraction in JSON format. Supports texture streaming and mip-mapping data.
 - [AmazeDSExtractor](https://github.com/RayCarrot/AmazeDSExtractor) - Archive extractor for 20+ Nintendo DS games by Amaze Entertainment.
   - Games: Spyro: Shadow Legacy, Ice Age 2, The Legend of Spyro series, and others
+- [amuse](https://github.com/AxioDL/amuse) - Real-time MIDI/SFX sequencer and alternate runtime library for games using Factor 5/Nintendo's MusyX audio engine.
+  - Games: Metroid Prime series, Star Fox Adventures, Paper Mario: The Thousand Year Door (GameCube), Indiana Jones and the Infernal Machine, Star Wars Episode I, and the Rogue Squadron series.
+  - Features: command-line audio-group player, SNG-to-MIDI converter, WAV song renderer, library API for engine integration, and physical/virtual MIDI keyboard support.
 
 ## ⚙️ Engines
 
@@ -1089,6 +1094,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Plugin that imports GoldSrc .mdl model files into Godot.
 - [MareTF](https://github.com/craftablescience/MareTF) - Utility for creating, editing, and displaying VTF (Valve Texture Format) files. Supports all VTF versions used in Source Engine games (Half-Life 2, Portal, Counter-Strike, Team Fortress 2, etc.).
 - [WifeRadiant](https://github.com/erysdren/WifeRadiant) - Open-source, cross-platform level editor for idTech, Source Engine, and GoldSrc based games; modern fork of NetRadiant.
+- [awpy](https://github.com/pnxenopoulos/awpy) - Python library for parsing and analyzing Counter-Strike 2 .dem demo files (via a Rust demoparser backend) and CS2 .nav navigation-mesh files, exposing tick-level player/event data as dataframes.
+- [UEditingTools](https://github.com/adenexvfx/UEditingTools) - Unreal Engine 5 widget/pipeline for importing CS2, CS:GO, CS:S, TF2, and CS 1.6 player, weapon, and viewmodel assets with correct skeletons, cameras, and sequencer/level placement; companion to the same author's io_scene_CSGO Blender importer.
 
 ### Unity
 
@@ -1172,7 +1179,7 @@ This list is for developers and modders working with such formats. It provides t
 - [UnrealLocresEditor](https://github.com/Snoozeds/UnrealLocresEditor) - GUI tool for editing Unreal localization resource (.locres) file format.
 - [UEAssetToolkitGenerator](https://github.com/LongerWarrior/UEAssetToolkitGenerator) - UE asset extraction tool that converts compiled UE4 assets to JSON format.
 - [UETools-GUI](https://github.com/Cranch-fur/UETools-GUI) - Dumper-7 based GUI tool for rapid debugging and SDK extraction from Unreal Engine games.
-- [UnrealDumper-4.25](https://github.com/Buckminsterfullerene02/UnrealDumper-4.25) - Unreal Engine SDK and structure dumper for extracting runtime data from UE game binaries.
+- [UnrealDumper-4.25](https://github.com/guttir14/UnrealDumper-4.25) - Unreal Engine SDK and structure dumper for extracting runtime data from UE game binaries.
 - [UEFN-AES-Loader](https://github.com/Aleman-sein-Vater/UEFN-AES-Loader) - DLL for applying AES encryption keys to decrypt encrypted UE game assets and data files.
 - [UE.Toolkit](https://github.com/RyoTune/UE.Toolkit) - Modding toolkit for UE games with UObject/UDataTable inspection and editing via Reloaded II, runtime data modification.
 - [Unreal Media Ripper (UMR)](https://github.com/sezero/umr) - Extracts media from Unreal UPKG files, supporting versions 63-85 with 64-bit and big-endian system support.
@@ -1187,6 +1194,7 @@ This list is for developers and modders working with such formats. It provides t
 - [AndUEDumper](https://github.com/MJx0/AndUEDumper) - Android UE4/5 dumper generating SDK and function scripts, supporting ARM64, ARM, x86, and x86_64 ABIs.
 - [Unreal Save Dumper](https://github.com/GMatrixGames/UnrealSaveDumper) - CLI program to dump UE4/5 .sav save files to JSON, displaying versioning and engine information.
 - [UnrealPakTool](https://github.com/allcoolthingsatoneplace/UnrealPakTool) - Extracts and lists .pak archive files from Unreal Engine 4 games (win64).
+- [Dumper-7](https://github.com/Encryqed/Dumper-7) - Unreal Engine SDK generator supporting all UE4 and UE5 versions, dumping engine classes/structs/offsets from a running game via DLL injection; the de facto standard modern UE SDK dumper and basis for several other tools already listed (e.g. UETools-GUI).
 
 
 ### CryEngine
@@ -1436,6 +1444,7 @@ This list is for developers and modders working with such formats. It provides t
 - [atirut.bdl](https://github.com/atirutw/atirut.bdl) - JSYSTEM BMD/BDL model importer for Godot Engine.
 - [wsystool](https://github.com/XAYRGA/wsystool) - WAVESYSTEM modification toolkit for JSYSTEM games.
 - [jampacked](https://github.com/XAYRGA/jampacked) - BAA unpacker for JSYSTEM games.
+- [aurora](https://github.com/encounter/aurora) - Source-level GameCube & Wii GX graphics compatibility layer, used by decompilation and static-recompilation projects to run original GC/Wii rendering code on modern backends (Dawn/WebGPU).
 
 ### MikuMikuDance
 
@@ -1594,6 +1603,8 @@ This list is for developers and modders working with such formats. It provides t
 - [GB Recompiled](https://github.com/arcanite24/gb-recompiled) - Static recompiler for Game Boy and Game Boy Color ROMs that translates LR35902 assembly directly to portable C code.
 - [nxtik](https://github.com/jam1garner/nxtik) - Library and tool for parsing Nintendo Switch .tik (ticket) files.
 - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
+- [NDecrypt](https://github.com/SabreTools/NDecrypt) - Encryption/decryption utility for Nintendo cartridge images, supporting Nintendo DS, DSi, 3DS, and New 3DS cartridge formats.
+- [nesrecomp](https://github.com/mstan/nesrecomp) - Static recompiler ecosystem for NES games (part of the R.A.I.D. community), converting 6502 ROM code into portable native code, similar in approach to upernes and GB Recompiled above.
 
 ### FMOD
 
@@ -1771,6 +1782,7 @@ This list is for developers and modders working with such formats. It provides t
 - [VichoTools](https://github.com/Hancapo/VichoTools) - Blender add-on for GTA V modding; handles YMAP scene files, YTD texture dictionaries, and animation clips extraction and editing.
 - [TexFury.NET](https://github.com/Hancapo/TexFury.NET) - Fast image-to-DDS conversion and YTD texture dictionary toolkit for .NET, supporting RAGE engine formats used in Grand Theft Auto and Red Dead series.
 - [PKGImportExport](https://github.com/Dummiesman/PKGImportExport) - Blender addon for importing and exporting Angel Studios ModPackage (PKG) format files from Midnight Club and related titles.
+- [tt-decomp (decomp)](https://github.com/OZORDI/tt-decomp) - AI-assisted matching decompilation of Rockstar Games Presents Table Tennis (Xbox 360, 2006), lifting PowerPC assembly into C++ toward a cross-platform SDL2/OpenGL port.
 
 ### Anthony Bongers
 
@@ -1964,6 +1976,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SkyrimSETest](https://github.com/Nukem9/skyrimse-test) - Reverse-engineering collection for Skyrim Special Edition with analysis of game formats and resources.
 - [SSE-Fallout-4-Voice-Dialog-Converter](https://github.com/Backporter/SSE-Fallout-4-Voice-Dialog-Converter) - Voice dialog converter for Fallout 4 and Skyrim; converts .fuz files to PS4 format.
 - [SSE-Fallout-4-Sound-Music-Converter](https://github.com/Backporter/SSE-Fallout-4-Sound-Music-Converter) - Audio converter for Fallout 4 and Skyrim; converts .xwm and .wav files to PS4 format.
+- [daggerfall-unity](https://github.com/Interkarma/daggerfall-unity) - Open-source recreation of The Elder Scrolls II: Daggerfall in the Unity engine, reverse-engineering and loading the original Daggerfall (DOS) game data and formats.
 
 ### BioWare
 
@@ -2280,6 +2293,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [TheDarknessIIDecompiled](https://github.com/FromDarkHell/TheDarknessIIDecompiled) - Decompiled Lua source code extracted from The Darkness II (2012), useful as a reference for modding and format research.
 
+### Distinctive Software (Stunts)
+
+- [restunts2](https://github.com/dstien/restunts2) - Reverse engineering and modernization effort for Stunts (1990, DOS), using Ghidra analysis and Open Watcom to port the original executable to portable C while preserving behavior; supports building fully-ported or hybrid original/ported executables.
+
 ### DOKA Studios
 
 - [reSL (decomp)](https://github.com/konovalov-aleks/reSL) - Matching decompilation of ShortLine v1.1.
@@ -2424,6 +2441,7 @@ This list is for developers and modders working with such formats. It provides t
 - [JModel](https://github.com/FabianFG/JModel) - Fortnite asset explorer for viewing and parsing PAK game files. Extracts Unreal Engine assets from game.
 - [JohnWickParse](https://github.com/SirWaddles/JohnWickParse) - Parser for Fortnite PAK, uasset, and uexp files; provides serialization and extraction of game assets.
 - [JFortniteParse](https://github.com/FabianFG/JFortniteParse) - JVM Unreal Engine 4 asset parser library for Fortnite and Valorant; parses PAK files, textures, sounds, meshes, and localization files.
+- [fortnite-aes-archive](https://github.com/dippyshere/fortnite-aes-archive) - Archive of AES decryption keys for Fortnite's PAK files, covering almost every dynamic and main PAK key.
 
 #### Unreal Tournament
 
@@ -2659,6 +2677,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Gibbed's Borderlands 2 Datamining Tools](https://github.com/gibbed/Gibbed.Borderlands2.Datamining) - Datamining tools for extracting game data (items, missions, balance, currencies, customizations, perks) from running Borderlands 2 instances.
 - [Gibbed's Borderlands 3 Tools](https://github.com/gibbed/Gibbed.Borderlands3) - Tools and code for working with Borderlands 3 game files and formats.
 - [ft-explorer](https://github.com/apocalyptech/ft-explorer) - GUI browser for Borderlands resource data used by BLCMM modding tool, browsing Unreal Engine structures from Borderlands 2, TPS, and Tales from the Borderlands.
+- [borderlands2](https://github.com/apocalyptech/borderlands2) - Command-line save editor for Borderlands 2 and Borderlands: The Pre-Sequel that decodes the protobuf-based savegame format to JSON/text for editing character stats, inventory, currencies, and challenges, then re-encodes it back to a console/PC-playable save.
 
 ### Genius Sonority
 
@@ -2802,6 +2821,7 @@ This list is for developers and modders working with such formats. It provides t
 - [WorshipTools](https://github.com/PikminGuts92/WorshipTools) - Converts Jam Band songs to Clone Hero format. (Archived)
 - [ghlcrypt](https://github.com/maxton/ghlcrypt) - C# tool for Guitar Hero Live.
 - [re-notes](https://github.com/PikminGuts92/re-notes) - Reverse engineering notes and templates for Harmonix games (Dance Dance Revolution Universe, DJ Hero, Karaoke Revolution) and other titles. Includes 010 Editor templates, Python scripts, and data dumps for BlitzTech, Forge, and Milo engines.
+- [Nautilus](https://github.com/trojannemo/Nautilus) - All-in-one modding toolkit for Rock Band 3, handling CON/RBA package extraction/repacking, MIDI/DTA editing, milo scene conversion, and album art (WAD) processing.
 
 ### Hasbro Interactive (Frogger)
 
@@ -2914,6 +2934,7 @@ This list is for developers and modders working with such formats. It provides t
 - [BFG-Resource-File-Manager](https://github.com/BoBoBaSs84/BFG-Resource-File-Manager) - Tool for extracting, previewing, editing, and creating .resources game archive files in DOOM 3 BFG Edition.
 - [Quake MAP File Importer for Blender](https://github.com/andyp123/blender_io_mesh_qmap) - Blender add-on for importing Quake MAP level editor files; enables using brush-based level geometry in Blender for collision meshes and other purposes.
 - [TrenchBroom](https://github.com/TrenchBroom/TrenchBroom) - Level editor for Quake and Quake-engine based games, supporting BSP map format creation and editing.
+- [DOOMExtract](https://github.com/emoose/DOOMExtract) - Command-line tool for extracting and repacking DOOM (2016) resource files.
 
 ### Illusion
 
@@ -3089,6 +3110,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Silent-Hill-2-Enhancements](https://github.com/elishacloud/Silent-Hill-2-Enhancements) - Project to enhance Silent Hill 2 (PC) graphics and audio, includes scripts to build or modify SH2 audio files (SFX, BGM, Dialog).
 - [memory-of-alessa](https://github.com/dreamingmoths/memory-of-alessa) - Matching decompilation project of Silent Hill 3 (PS2), reverse-engineering the binary and asset handling.
 - [SilentEngine](https://github.com/Sezzary/SilentEngine) - In-progress cross-platform engine port of Silent Hill based on decompilation, parsing original game data with support for translation and modding.
+- [SilentHillMapExaminer](https://github.com/ItEndsWithTens/SilentHillMapExaminer) - BizHawk external tool utility to help reverse engineer the map format used in the original Silent Hill (PS1).
 
 
 #### Castlevania
@@ -3097,6 +3119,7 @@ This list is for developers and modders working with such formats. It provides t
 - [cv64 (decomp)](https://github.com/k64ret/cv64) - Matching decompilation of Castlevania (N64).
 - [cvaos (decomp)](https://github.com/testyourmine/cvaos) - Matching decompilation of Castlevania: Aria of Sorrow.
 - [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
+- [ooe (decomp)](https://github.com/LagoLunatic/ooe) - Matching decompilation of Castlevania: Order of Ecclesia (Nintendo DS).
 
 #### Enthusia Professional Racing
 
@@ -3467,6 +3490,11 @@ This list is for developers and modders working with such formats. It provides t
 - [ard-tools](https://github.com/roccodev/ard-tools) - Tools for working with ARD/ARH archive files from Switch Xenoblade Chronicles games. Includes ardain library, ard-tools CLI, and fuse-ard FUSE driver.
 - [xb3tool](https://github.com/vaxherd/xb3tool) - Tools and notes for researching/analyzing Xenoblade Chronicles 3 data. Supports BDAT database format and map generation.
 
+### Moonsprout Games (Bug Fables)
+
+- [Bug-Fables-Internal-Docs](https://github.com/aldelaro5/Bug-Fables-Internal-Docs) - Aggregated reverse-engineering documentation for Bug Fables: The Everlasting Sapling's Unity-based internal data formats and game systems.
+- [Bug-Fables-Save-Editor](https://github.com/aldelaro5/Bug-Fables-Save-Editor) - Save editor for Bug Fables: The Everlasting Sapling.
+
 ### Moorhuhn
 
 - [MHLIB](https://github.com/Theaninova/mhlib) - Engine reimplementation for classic Moorhuhn games written in Rust and Godot; preprocesses and loads original game assets from installed game copies.
@@ -3706,6 +3734,7 @@ This list is for developers and modders working with such formats. It provides t
 - [oracles-disasm](https://github.com/Stewmath/oracles-disasm) - Complete documented disassembly of The Legend of Zelda: Oracle of Ages and Oracle of Seasons (Game Boy Color).
 - [zelda3](https://github.com/snesrev/zelda3) - Reverse-engineered reimplementation of The Legend of Zelda: A Link to the Past; parses original game ROM (levels, images, assets).
 - [GCZelda Map Entity Info Dumper](https://github.com/LordNed/GCZelda-Map-Entity-Info-Dumper) - Extracts map entity data from GameCube Zelda games (Wind Waker, Twilight Princess) to CSV.
+- [Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) - Static recompilation of The Legend of Zelda: Majora's Mask (and Ocarina of Time) N64 ROMs into native PC executables for Windows, Linux, and macOS.
 
 #### Wii Sports
 
@@ -3770,6 +3799,7 @@ This list is for developers and modders working with such formats. It provides t
 - [prime (decomp)](https://github.com/primedecomp/prime) - Matching decompilation of Metroid Prime.
 - [echoes (decomp)](https://github.com/primedecomp/echoes) - Matching decompilation of Metroid Prime 2: Echoes.
 - [Metaforce](https://github.com/AxioDL/metaforce) - Native reimplementation of the Metroid Prime engine with asset parsing.
+- [PrimeWorldEditor](https://github.com/AxioDL/PrimeWorldEditor) - Modding tools and world/level editor suite for the Metroid Prime series, providing asset browsing and editing across Metroid Prime 1-3.
 
 #### Pokemon
 
@@ -4030,6 +4060,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [bk360 (decomp)](https://github.com/banjo360/bk360) - Matching decompilation of Banjo-Kazooie (Xbox 360).
 
+#### Grabbed by the Ghoulies
+
+- [project-grabbed](https://github.com/x1nixmzeng/project-grabbed) - Reverse engineering toolkit to explore and extract files from Grabbed by the Ghoulies and other Rare Xbox/Xbox 360 titles.
+  - Games: Grabbed by the Ghoulies (demo & retail), Kameo: Elements of Power, Conker: Live & Reloaded, Perfect Dark Zero, Viva Piñata, Banjo-Kazooie: Nuts & Bolts, 1 vs. 100.
+  - Formats: CAFF (multiple versions), localisation files, audio, fonts, textures; includes a reverse hash lookup tool and loose bundle extractor.
+
 ### Raven Software
 
 #### Heretic II
@@ -4044,6 +4080,10 @@ This list is for developers and modders working with such formats. It provides t
 - [.m32 to .tga/.adp to .wav file converters (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-to-tga-file-converter) - Convert your .m32 (SoF) texture files to manageable .tga texture files with an easy to use GUI. Also includes .adp to .wav for audio conversion. Also includes source code.
 - [.m32 tool (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/m32-tool) - .m32 tool is a texture conversion utility for Soldier of Fortune. Allows batch conversion of .tga files to .m32.
 - [.os script decompiler v2.0 (Soldier of Fortune)](https://www.moddb.com/games/soldier-of-fortune/downloads/os-script-decompiler-v20) - Command line program that tries to convert .os files back into .ds file form.
+
+#### Jedi Knight: Jedi Academy / Jedi Outcast
+
+- [OpenJK](https://github.com/JACoders/OpenJK) - Community-maintained continuation of Raven Software's GPL-released engine source for Star Wars Jedi Knight: Jedi Academy (singleplayer & multiplayer) and Jedi Knight II: Jedi Outcast (singleplayer), forming the base engine for ongoing modding and format work on both titles.
 
 ### Rebel Act
 
@@ -4216,6 +4256,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Hedge Mod Manager](https://github.com/thesupersonic16/HedgeModManager) - Mod manager for Hedgehog Engine PC games (Sonic Generations, Lost World, Forces, Colours Ultimate, Origins).
 - [HedgeMatEdit](https://github.com/hedge-dev/HedgeMatEdit) - Material editor for Hedgehog Engine Sonic games.
 - [HMMCodes](https://github.com/hedge-dev/HMMCodes) - Hedge Mod Manager community codes and tools for Sonic game modding and file format work.
+- [sonic-rush-tools](https://github.com/BLiNXthetimesweeperGOD/sonic-rush-tools) - Map ripper for the Sonic Rush series (Nintendo DS), extracting and decompressing NARC-packed level map data from ROMs and converting it to image files.
 
 #### Creative Assembly
 
@@ -4529,6 +4570,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MultiAssist](https://github.com/ilmheg/MultiAssist) - GUI tool for extracting and repacking FFXIV animation files (.pap format) with support for multiple animations and FBX export.
 - [Novus](https://github.com/redstrate/Novus) - Suite of unofficial FFXIV tools including model/gear viewer, map editor, Excel data editor, and archive explorer.
 - [FFXIVClientStructs](https://github.com/aers/FFXIVClientStructs) - Reverse-engineering resources for Final Fantasy XIV client's native classes and structures; C# library for interop with native game objects and functions.
+- [AnimAssist](https://github.com/0ceal0t/AnimAssist) - Basic animation modding workflow tool for Final Fantasy XIV, from the same author as BlenderAssist.
 
 #### Tactics Ogre: Let Us Cling Together
 
@@ -4717,6 +4759,14 @@ This list is for developers and modders working with such formats. It provides t
 - [NOD Noesis Plugin (Vampire: The Masquerade – Redemption)](https://www.moddb.com/games/vampire-the-masquerade-redemption/downloads/nod-noesis-plugin) - Noesis plugin for importing and exporting NOD and NAD model/animation formats. Supports full model and animation import/export (v2). Alternative to Milkshape and Maya 2.5.
 - [vtmb-sbox-mounter](https://github.com/atrblizzard/vtmb-sbox-mounter) - s&box library that mounts Vampire the Masquerade: Bloodlines VPK archives, providing access to models, materials, textures, and sounds.
 
+#### Temple of Elemental Evil
+
+- [tig](https://github.com/alexbatalov/tig) - Archived OS abstraction library reverse-engineered from Troika Games' Temple of Elemental Evil engine; development has since been folded into the arcanum-ce repository below.
+
+#### Arcanum
+
+- [arcanum-ce](https://github.com/alexbatalov/arcanum-ce) - Community Edition drop-in replacement for arcanum.exe, running Troika Games' Arcanum: Of Steamworks and Magick Obscura on modern Windows, Linux, macOS, Android, and iOS by parsing the original DAT archives (arcanum1-4.dat), MES text/config files, and BIK/MP3 media.
+
 ### TT Games (LEGO Island)
 
 - [isle (decomp)](https://github.com/isledecomp/isle) - Matching decompilation of LEGO Island (1997).
@@ -4741,6 +4791,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Rayman Control Panel](https://github.com/RayCarrot/RaymanControlPanel) - Powerful community utility and toolkit for Rayman games (Origins, Legends, Rayman 3). Includes an Archive Explorer to modify `.ipk` and asset archives.
 - [Raymap](https://github.com/Adsolution/RaymapGame) - Unity extension for Raymap map viewer/editor supporting Rayman and OpenSpace engine games.
 - [Rayman3Readvanced](https://github.com/RayCarrot/Rayman3Readvanced) - Format reversing tool for Rayman 3 (GBA/N-Gage), supporting decompilation and game data extraction.
+- [CPATool](https://github.com/Adsolution/CPATool) - Converts modern .OBJ level geometry into the .MOD format used by Rayman 2's CPA engine, enabling level creation with contemporary 3D software instead of 3ds Max 8 plus Ubisoft's proprietary plugin. Companion tool to the same author's Raymap Unity extension.
 
 #### Anvil / Scimitar
 
@@ -4864,5 +4915,6 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
