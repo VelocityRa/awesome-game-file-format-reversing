@@ -872,6 +872,7 @@ This list is for developers and modders working with such formats. It provides t
 - [decomp.me](https://github.com/decompme/decomp.me) - Collaborative decompilation and reverse engineering website, widely used to reverse game binaries function-by-function against a reference build.
 - [XEXLoaderWV](https://github.com/zeroKilo/XEXLoaderWV) - Ghidra loader module for Xbox 360 XEX executable files.
 - [Ghidra-SegaSaturn-Loader](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader) - Sega Saturn binary loader for Ghidra.
+- [SR (Static Recompiler)](https://github.com/M-HT/SR) - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
 
 ### 💻 Development Libraries
 
@@ -988,6 +989,7 @@ This list is for developers and modders working with such formats. It provides t
 - [amuse](https://github.com/AxioDL/amuse) - Real-time MIDI/SFX sequencer and alternate runtime library for games using Factor 5/Nintendo's MusyX audio engine.
   - Games: Metroid Prime series, Star Fox Adventures, Paper Mario: The Thousand Year Door (GameCube), Indiana Jones and the Infernal Machine, Star Wars Episode I, and the Rogue Squadron series.
   - Features: command-line audio-group player, SNG-to-MIDI converter, WAV song renderer, library API for engine integration, and physical/virtual MIDI keyboard support.
+- [resource_dasm](https://github.com/fuzziqersoftware/resource_dasm) - Classic Mac OS resource fork disassembler and reverse-engineering toolkit, with format decoders for dozens of classic Macintosh games.
 
 ## ⚙️ Engines
 
@@ -1629,6 +1631,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
 - [NDecrypt](https://github.com/SabreTools/NDecrypt) - Encryption/decryption utility for Nintendo cartridge images, supporting Nintendo DS, DSi, 3DS, and New 3DS cartridge formats.
 - [nesrecomp](https://github.com/mstan/nesrecomp) - Static recompiler ecosystem for NES games (part of the R.A.I.D. community), converting 6502 ROM code into portable native code, similar in approach to upernes and GB Recompiled above.
+- [3dsfont](https://github.com/dnasdw/3dsfont) - Toolkit for Nintendo BCFNT and BFFNT font files (3DS, Wii U, Switch).
+- [bchtool](https://github.com/dnasdw/bchtool) - Tool for exporting and importing BCH model files used in Nintendo 3DS games.
+- [txobtool](https://github.com/dnasdw/txobtool) - Tool for exporting and importing CGFX graphics files used in Nintendo 3DS games.
+- [darctool](https://github.com/dnasdw/darctool) - Tool for extracting and creating DARC archive files used in Nintendo games.
 
 ### FMOD
 
@@ -3311,6 +3317,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Simitone](https://github.com/riperiperi/Simitone) - Re-implementation of The Sims 1 based on FreeSO, parsing original Sims game data files (IFF/FAR proprietary formats).
 
+#### The Sims 2
+
+- [OpenTS2](https://github.com/LazyDuchess/OpenTS2) - Open-source re-implementation of The Sims 2 in Unity, reading the original game's proprietary data files.
+- [sims2_mac_decomp (decomp)](https://github.com/ChrisNonyminus/sims2_mac_decomp) - Work-in-progress matching decompilation of the Mac port of The Sims 2.
+
 ### Mega Crit (Slay the Spire)
 
 - [SimTheSpire](https://github.com/kartoFlane/SimTheSpire) - Reverse-engineer Slay the Spire and simulate gameplay to automatically balance cards.
@@ -4512,6 +4523,7 @@ This list is for developers and modders working with such formats. It provides t
 - [xiv-datamining](https://github.com/xivapi/ffxiv-datamining) - Repository for sharing Final Fantasy XIV datamining information, including CSV exports and documentation on various systems.
   - See also [ffxiv-datamining-ko](https://github.com/Ra-Workspace/ffxiv-datamining-ko) for Korean version specific data.
 - [FFNx](https://github.com/julianxhokaxhiu/FFNx) - Next-generation modding platform and graphics enhancement framework for Final Fantasy VII (Steam, 2026 Rerelease, GOG, Windows Store) and Final Fantasy VIII (Steam), supporting DirectX 11/12, OpenGL, and Vulkan.
+- [ffvii (decomp)](https://github.com/Drahsid/ffvii) - In-progress matching decompilation of Final Fantasy VII (PSX).
 
 
 #### Final Fantasy XV
@@ -4962,6 +4974,8 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
 
 
 
