@@ -400,6 +400,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Bayonetta](#bayonetta)
     - [Nier: Automata / Replicant](#nier-automata--replicant)
   - [Polytron (Fez)](#polytron-fez)
+  - [PopCap Games](#popcap-games)
   - [Primal Software](#primal-software)
     - [The I of the Dragon](#the-i-of-the-dragon)
   - [Procedural Arts](#procedural-arts)
@@ -860,6 +861,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Ghidra-Switch-Loader](https://github.com/Adubbz/Ghidra-Switch-Loader) - Ghidra loader extension for Nintendo Switch executable formats (NCA, XCI), enabling decompilation and reverse engineering of Switch games.
 - [idaxex](https://github.com/emoose/idaxex) - XEX/XBE loader plugin for IDA 9, plus the xex1tool CLI, supporting most known Xbox and Xbox 360 executable file formats.
 - [ccc](https://github.com/chaoticgd/ccc) - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
+- [PS2Recomp](https://github.com/ran-j/PS2Recomp) - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
 
 ### 💻 Development Libraries
 
@@ -1195,6 +1197,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Unreal Save Dumper](https://github.com/GMatrixGames/UnrealSaveDumper) - CLI program to dump UE4/5 .sav save files to JSON, displaying versioning and engine information.
 - [UnrealPakTool](https://github.com/allcoolthingsatoneplace/UnrealPakTool) - Extracts and lists .pak archive files from Unreal Engine 4 games (win64).
 - [Dumper-7](https://github.com/Encryqed/Dumper-7) - Unreal Engine SDK generator supporting all UE4 and UE5 versions, dumping engine classes/structs/offsets from a running game via DLL injection; the de facto standard modern UE SDK dumper and basis for several other tools already listed (e.g. UETools-GUI).
+- [JsonAsAsset](https://github.com/JsonAsAsset/Reflection) - Unreal Engine asset reconstruction toolkit; an in-editor plugin that rebuilds engine assets (materials, data assets, curves, and more) from JSON dumps produced by CUE4Parse/FModel.
+- [rust-u4pak](https://github.com/panzi/rust-u4pak) - Rust CLI to unpack, pack, list, check, and mount Unreal Engine 4 .pak archives.
+- [uasset-rs](https://github.com/jorgenpt/uasset-rs) - Rust library for parsing Unreal Engine asset (.uasset) files.
 
 
 ### CryEngine
@@ -2885,6 +2890,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [obscure1-map-parser](https://github.com/ran-j/obscure1-map-parser) - Desktop application for parsing and visualizing binary `.map` files from ObsCure (2004); decodes entity types (blocks, characters, dialog, environment, items, objectives) and presents them as JSON with a map visualization view.
 - [HydraVision-Obscure-010-Editor-Templates](https://github.com/Al-Hydra/HydraVision-Obscure-010-Editor-Templates) - 010 Editor binary templates for Obscure (2004) and Obscure II (2007).
+- [obscure-hvp](https://github.com/YouKnow-sys/obscure-hvp) - CLI tool to extract and rebuild HVP archives from Obscure, Obscure II, and Final Exam, covering the PC, PS2, PSP, Xbox, and Wii versions.
 
 ### Human Head Studios
 
@@ -3983,6 +3989,11 @@ This list is for developers and modders working with such formats. It provides t
 - [Felt](https://github.com/Krzyhau/Felt) - Work-in-progress trixel-art editor for FEZ modding, supporting FEZTS and FEZAO file bundle creation and modification.
 - [FEZEditor](https://github.com/FEZModding/FEZEditor) - Cross-platform modding tool for FEZ game assets, supporting level editing, art objects, trile sets, world maps, skies, localization, and save file management.
 
+### PopCap Games
+
+- [PopStudio](https://github.com/PopGameTool/PopStudio) - Converter for many file formats used by PopCap Games (Plants vs. Zombies and others).
+  - Formats: dz (Android, BlackBerry), rsb (Android, iOS, PS3, PS4, Xbox 360), ptx textures, xml.compiled, pam animations (versions 1-6).
+
 ### Primal Software
 
 #### The I of the Dragon
@@ -4664,6 +4675,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .d3dmesh, .d3dtx, .skl → .gltf / .bin / .png.
 - [TelltaleToolKit](https://github.com/iMrShadow/TelltaleToolKit) - .NET library for reading and writing Telltale Tool engine assets and archives.
 - [DDS-D3DTX-Converter](https://github.com/iMrShadow/DDS-D3DTX-Converter) - Texture format converter for Telltale game engines (DDS to D3DTX).
+- [Telltale-FNT-Editor](https://github.com/HeitorSpectre/Telltale-FNT-Editor) - Editor for viewing, editing, and exporting .fnt bitmap font files from Telltale Games titles.
 
 ### Terminal Reality
 
@@ -4915,6 +4927,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
