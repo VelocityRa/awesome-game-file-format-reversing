@@ -869,6 +869,9 @@ This list is for developers and modders working with such formats. It provides t
 - [ccc](https://github.com/chaoticgd/ccc) - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
 - [PS2Recomp](https://github.com/ran-j/PS2Recomp) - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
 - [RetDec](https://github.com/avast/retdec) - Retargetable machine-code decompiler based on LLVM, supporting multiple architectures and file formats — useful for reverse engineering game binaries. Currently in limited maintenance.
+- [decomp.me](https://github.com/decompme/decomp.me) - Collaborative decompilation and reverse engineering website, widely used to reverse game binaries function-by-function against a reference build.
+- [XEXLoaderWV](https://github.com/zeroKilo/XEXLoaderWV) - Ghidra loader module for Xbox 360 XEX executable files.
+- [Ghidra-SegaSaturn-Loader](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader) - Sega Saturn binary loader for Ghidra.
 
 ### 💻 Development Libraries
 
@@ -1001,6 +1004,7 @@ This list is for developers and modders working with such formats. It provides t
 - [libaltar](https://github.com/Prashant-Jonny/libaltar) - Library for processing GameMaker: Studio binary file formats (decompiler).
 - [gamemaker2-data-research](https://github.com/jam1garner/gamemaker2-data-research) - Tools/Documentation for GameMaker 2 data files.
 - [LojRipper](https://github.com/nkrapivin/LojRipper) - Tool to dump .win files from GameMaker YYC-compiled executables for game modding purposes.
+- [GM8Decompiler](https://github.com/OpenGMK/GM8Decompiler) - Decompiler for GameMaker 8.x executables, recovering the original game's assets and code from compiled `.exe` files.
 
 ### Source (Valve)
 
@@ -2283,6 +2287,11 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: DRM, BIGFILE.
 - [TR-Rando](https://github.com/LostArtefacts/TR-Rando) - Randomizer for Tomb Raider I-III and Remastered, modifying item pickups, secrets, enemies, Lara's appearance, level order, and text.
 - [TRX](https://github.com/LostArtefacts/TRX) - Open-source re-implementation of Tomb Raider I, II, and III that reads the original games' level and asset data (PHD/TR2 formats) while adding enhancements and bug fixes.
+- [OpenTomb](https://github.com/opentomb/OpenTomb) - Open-source engine remake for classic Tomb Raider 1-5, reading the original games' level and asset formats (archived, but a landmark reference).
+- [TOMB5](https://github.com/TOMB5/TOMB5) - Tomb Raider: Chronicles disassembly translated to C source code.
+- [Tomb-Editor](https://github.com/TombEngine/Tomb-Editor) - Level editor for the classic Tomb Raider engines and custom engines such as TombEngine and TRX.
+- [TR2-Level-Viewer](https://github.com/suruz/TR2-Level-Viewer) - Cross-platform Unity level viewer for the classic Tomb Raider II.
+- [TR42PRJ](https://github.com/sapper-trle/TR42PRJ) - Converts a Tomb Raider 4 `.TR4` level file back into a TRLE project `.prj` file.
 
 ### CyberStep (CosmicBreak)
 
@@ -4283,6 +4292,10 @@ This list is for developers and modders working with such formats. It provides t
 - [HedgeMatEdit](https://github.com/hedge-dev/HedgeMatEdit) - Material editor for Hedgehog Engine Sonic games.
 - [HMMCodes](https://github.com/hedge-dev/HMMCodes) - Hedge Mod Manager community codes and tools for Sonic game modding and file format work.
 - [sonic-rush-tools](https://github.com/BLiNXthetimesweeperGOD/sonic-rush-tools) - Map ripper for the Sonic Rush series (Nintendo DS), extracting and decompressing NARC-packed level map data from ROMs and converting it to image files.
+- [mdcomp](https://github.com/flamewing/mdcomp) - Compressors and decompressors for the assorted compression formats used by Sega Mega Drive games (Kosinski, Nemesis, Enigma, Saxman, and more).
+- [SMPSPlay](https://github.com/ValleyBell/SMPSPlay) - Player for SMPS files, the sound driver format commonly used in Sega Mega Drive games.
+- [RSDK](https://github.com/Xeeynamo/RSDK) - Reverse engineering of the Retro Engine RSDK format, including a Sonic Mania animation editor.
+- [libsonassmd](https://github.com/Clownacy/libsonassmd) - Library for reading and writing the assets of Mega Drive Sonic the Hedgehog games.
 
 #### Creative Assembly
 
@@ -4620,6 +4633,10 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Studio Pixel
 
+#### Cave Story
+
+- [Booster's Lab](https://github.com/taedixon/boosters-lab) - Cross-platform level editor for Cave Story.
+
 #### Kero Blaster / Pink Hour / Pink Heaven
 
 - [KeroMaster](https://github.com/Gota7/KeroMaster) - Level editor for Studio Pixel games. Works with proprietary game file formats for level data and tile assets.
@@ -4942,6 +4959,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
