@@ -868,6 +868,7 @@ This list is for developers and modders working with such formats. It provides t
 - [idaxex](https://github.com/emoose/idaxex) - XEX/XBE loader plugin for IDA 9, plus the xex1tool CLI, supporting most known Xbox and Xbox 360 executable file formats.
 - [ccc](https://github.com/chaoticgd/ccc) - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
 - [PS2Recomp](https://github.com/ran-j/PS2Recomp) - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
+- [RetDec](https://github.com/avast/retdec) - Retargetable machine-code decompiler based on LLVM, supporting multiple architectures and file formats — useful for reverse engineering game binaries. Currently in limited maintenance.
 
 ### 💻 Development Libraries
 
@@ -1299,6 +1300,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [rgssad](https://github.com/luxrck/rgssad) - Extract rgssad/rgss2a/rgss3a files from RPG Maker games.
 - [rpga](https://github.com/elizagamedev/rpga) - RPG archive extraction and creation utility. Can extract and create RPG Maker XP+ archives and Wolf RPG archives (though Wolf archive creation does not work yet).
+- [EasyRPG Player](https://github.com/EasyRPG/Player) - Open-source interpreter that runs RPG Maker 2000/2003 games natively, reading their LCF data formats (LMU maps, LDB/LMT databases) via liblcf.
+- [liblcf](https://github.com/EasyRPG/liblcf) - C++ library for reading and writing the LCF formats used by RPG Maker 2000/2003 and EasyRPG projects.
+- [mkxp](https://github.com/Ancurio/mkxp) - Open-source reimplementation of the Ruby Game Scripting System (RGSS) used by RPG Maker XP, VX, and VX Ace, running games natively by reading their RGSSAD/RGSS2A/RGSS3A archives. See also the more actively maintained [mkxp-z fork](https://github.com/mkxp-z/mkxp-z).
 
 ### Ren'Py
 
@@ -1480,6 +1484,7 @@ This list is for developers and modders working with such formats. It provides t
 - [rwfury](https://github.com/Hancapo/rwfury) - Python library for reading and writing RenderWare formats.
   - Games: GTA III, Vice City, San Andreas
   - Formats: DFF (3D models), TXD (textures), IMG (archives), COL (collision), IFP (animation)
+- [g3DTZ](https://github.com/guard3/g3DTZ) - GAME.DTZ archive extraction utility for GTA: Liberty City Stories and Vice City Stories, supporting both the PSP and PS2 versions.
 
 ### CRI
 
@@ -2578,6 +2583,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Dark-Souls-II-Mod-Loader](https://github.com/Atvaark/Dark-Souls-II-Mod-Loader) - File system hook for modding and runtime file replacement.
 - [DarkSoulsII.FileFormats](https://github.com/Atvaark/DarkSoulsII.FileFormats) - Archive file format reference and dumped game assets (.anibnd, .hqbnd, .hqobjbnd).
 - [soulstruct-gui](https://github.com/Grimrukh/soulstruct-gui) - GUI editor for Dark Souls binary data structures and game parameters.
+- [SoulsAssetPipeline](https://github.com/Meowmaritus/SoulsAssetPipeline) - C# pipeline for importing and exporting assets from FromSoftware's Souls games, built on top of SoulsFormats.
+- [BBAnimConverter](https://github.com/Sanadsk/BBAnimConverter) - Converts Dark Souls 3 and Bloodborne PS4 Havok animations into HavokTools-friendly files.
 
 ### Funcom
 
@@ -4933,6 +4940,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
