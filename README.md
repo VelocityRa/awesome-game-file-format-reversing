@@ -1109,6 +1109,9 @@ This list is for developers and modders working with such formats. It provides t
 - [WifeRadiant](https://github.com/erysdren/WifeRadiant) - Open-source, cross-platform level editor for idTech, Source Engine, and GoldSrc based games; modern fork of NetRadiant.
 - [awpy](https://github.com/pnxenopoulos/awpy) - Python library for parsing and analyzing Counter-Strike 2 .dem demo files (via a Rust demoparser backend) and CS2 .nav navigation-mesh files, exposing tick-level player/event data as dataframes.
 - [UEditingTools](https://github.com/adenexvfx/UEditingTools) - Unreal Engine 5 widget/pipeline for importing CS2, CS:GO, CS:S, TF2, and CS 1.6 player, weapon, and viewmodel assets with correct skeletons, cameras, and sequencer/level placement; companion to the same author's io_scene_CSGO Blender importer.
+- [SourceUtils](https://github.com/Metapyziks/SourceUtils) - Source Engine file format exporting toolkit with a WebGL-based map viewer, converting BSP maps and their assets for in-browser rendering.
+- [bsp-decompiler](https://github.com/wfowler1/bsp-decompiler) - Decompiler for many BSP map formats (Quake, GoldSrc, Source, and other id Tech-derived engines), reconstructing editable map sources.
+- [vsif2vcd](https://github.com/MrSoup678/vsif2vcd) - Decompiles VCD choreography scenes from Source Engine `scenes.image` files back into editable `.vcd` files.
 
 ### Unity
 
@@ -4959,6 +4962,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
