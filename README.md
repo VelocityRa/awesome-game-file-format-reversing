@@ -1303,6 +1303,7 @@ This list is for developers and modders working with such formats. It provides t
 - [EasyRPG Player](https://github.com/EasyRPG/Player) - Open-source interpreter that runs RPG Maker 2000/2003 games natively, reading their LCF data formats (LMU maps, LDB/LMT databases) via liblcf.
 - [liblcf](https://github.com/EasyRPG/liblcf) - C++ library for reading and writing the LCF formats used by RPG Maker 2000/2003 and EasyRPG projects.
 - [mkxp](https://github.com/Ancurio/mkxp) - Open-source reimplementation of the Ruby Game Scripting System (RGSS) used by RPG Maker XP, VX, and VX Ace, running games natively by reading their RGSSAD/RGSS2A/RGSS3A archives. See also the more actively maintained [mkxp-z fork](https://github.com/mkxp-z/mkxp-z).
+- [Luminol](https://github.com/Astrabit-ST/Luminol) - Cross-platform RPG Maker XP/VX/VX Ace editor rewrite in Rust, reading the RGSS project data (rxdata/rvdata maps and databases).
 
 ### Ren'Py
 
@@ -2281,6 +2282,7 @@ This list is for developers and modders working with such formats. It provides t
   - Features: Blender extensions for loading unit and mesh files (`cdcunit.py`, `cdcmesh.py`), command-line DRM file explorer, FUSE mount for BIGFILE.000 archives.
   - Formats: DRM, BIGFILE.
 - [TR-Rando](https://github.com/LostArtefacts/TR-Rando) - Randomizer for Tomb Raider I-III and Remastered, modifying item pickups, secrets, enemies, Lara's appearance, level order, and text.
+- [TRX](https://github.com/LostArtefacts/TRX) - Open-source re-implementation of Tomb Raider I, II, and III that reads the original games' level and asset data (PHD/TR2 formats) while adding enhancements and bug fixes.
 
 ### CyberStep (CosmicBreak)
 
@@ -4940,6 +4942,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
