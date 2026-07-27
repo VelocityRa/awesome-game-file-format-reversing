@@ -141,6 +141,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
   - [Bugbear Entertainment (Wreckfest)](#bugbear-entertainment-wreckfest)
+  - [Bullfrog Productions](#bullfrog-productions)
+    - [Syndicate Wars](#syndicate-wars)
+    - [Creation](#creation)
   - [Capcom](#capcom)
     - [RE Engine](#re-engine)
     - [MT Framework](#mt-framework)
@@ -235,6 +238,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Genki](#genki)
   - [Grasshopper Manufacture (No More Heroes, Killer7)](#grasshopper-manufacture-no-more-heroes-killer7)
   - [Gravity (Ragnarok Online)](#gravity-ragnarok-online)
+  - [Gremlin Interactive](#gremlin-interactive)
+    - [Hogs of War](#hogs-of-war)
   - [Grezzo](#grezzo)
   - [GSC Game World](#gsc-game-world)
     - [S.T.A.L.K.E.R](#stalker)
@@ -430,6 +435,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Judge Dredd: Dredd vs Death](#judge-dredd-dredd-vs-death)
     - [Aliens vs. Predator 2](#aliens-vs-predator-2)
     - [Aliens vs. Predator (2010)](#aliens-vs-predator-2010)
+  - [Red Storm Entertainment](#red-storm-entertainment)
   - [Reflections Interactive](#reflections-interactive)
   - [Remedy Entertainment](#remedy-entertainment)
     - [Max Payne](#max-payne)
@@ -536,6 +542,7 @@ This list is for developers and modders working with such formats. It provides t
     - [YETI Engine](#yeti-engine)
     - [Unreal Engine](#unreal-engine-1)
     - [CryEngine / Dunia](#cryengine--dunia)
+    - [Jade Engine](#jade-engine)
     - [Other Games / General](#other-games--general)
     - [Anno 1800](#anno-1800)
   - [Vicarious Visions](#vicarious-visions)
@@ -876,6 +883,8 @@ This list is for developers and modders working with such formats. It provides t
 - [XEXLoaderWV](https://github.com/zeroKilo/XEXLoaderWV) - Ghidra loader module for Xbox 360 XEX executable files.
 - [Ghidra-SegaSaturn-Loader](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader) - Sega Saturn binary loader for Ghidra.
 - [SR (Static Recompiler)](https://github.com/M-HT/SR) - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
+- [Bin2Obj](https://github.com/hogsy/Bin2Obj) - Converts arbitrary binary data into a Wavefront OBJ point cloud, useful for spotting vertex/mesh data when reverse-engineering unknown formats.
+- [ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded) - Ghidra extension adding PlayStation 2 (Emotion Engine) support, including the MIPS R5900 processor with VU macromode and PS2 ELF/IRX loaders.
 
 ### 💻 Development Libraries
 
@@ -1221,6 +1230,7 @@ This list is for developers and modders working with such formats. It provides t
 - [rust-u4pak](https://github.com/panzi/rust-u4pak) - Rust CLI to unpack, pack, list, check, and mount Unreal Engine 4 .pak archives.
 - [uasset-rs](https://github.com/jorgenpt/uasset-rs) - Rust library for parsing Unreal Engine asset (.uasset) files.
 - [blender_t3d](https://github.com/crapola/blender_t3d) - Blender import/export add-on for Unreal `.T3D` map files.
+- [t3d2map](https://github.com/hogsy/t3d2map) - Converts Unreal `.T3D` text map documents to Quake's `.MAP` brush format.
 
 
 ### CryEngine
@@ -2097,6 +2107,16 @@ This list is for developers and modders working with such formats. It provides t
 
 - [wreckfest_toolbox](https://github.com/gmazy/wreckfest_toolbox) - Blender addon for importing and exporting Wreckfest game formats (SCNE, VHCL, BMAP).
 
+### Bullfrog Productions
+
+#### Syndicate Wars
+
+- [Syndicate Wars Port](https://github.com/swfans/syndwarsfx) - Open-source reverse-engineered port of Bullfrog's Syndicate Wars, reading the original game's data files.
+
+#### Creation
+
+- [creation_tk](https://github.com/hogsy/creation_tk) - Utility for reading, extracting, and converting files from Bullfrog's cancelled game Creation.
+
 ### Capcom
 
 *Many titles use [Havok](#havok) or [CRI](#cri) middleware alongside proprietary engines.*
@@ -2142,6 +2162,7 @@ This list is for developers and modders working with such formats. It provides t
 - [recv-dc-decomp (decomp)](https://github.com/fmil95/recv-dc-decomp) - Matching decompilation of Resident Evil - Code: Veronica (Dreamcast).
 - [recvx-decomp (decomp)](https://github.com/fmil95/recvx-decomp) - Matching decompilation of Resident Evil - Code: Veronica X (PS2).
 - [BioHazard File Archive Tool (Resident Evil 4)](https://www.moddb.com/games/resident-evil-4/downloads/biohazard-file-archive-tool) - File archive tool for Resident Evil 4. Two versions available: one designed for Windows XP, another ported for Windows 7. Both are 32-bit but work on 64-bit systems. Windows 7 version is backwards compatible with XP.
+- [reevengi-tools](https://github.com/pmandin/reevengi-tools) - Tools written to verify the reverse engineering of classic Resident Evil file formats (models, textures, pre-rendered backgrounds, and archives).
 
 #### Monster Hunter
 
@@ -2749,6 +2770,12 @@ This list is for developers and modders working with such formats. It provides t
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for reading GRF archives found in Ragnarok Online.
 - [grf-python](https://github.com/cmbasnett/grf-python) - Python wrapper for libgrf.
 
+### Gremlin Interactive
+
+#### Hogs of War
+
+- [OpenHoW](https://github.com/hogsy/OpenHoW) - Open-source reimplementation of Gremlin Interactive's Hogs of War (PC/PSX) that reads and renders the original game's data files.
+
 ### Grezzo
 
 *Ocarina of Time 3D, Majora's Mask 3D, Luigi's Mansion remake, Ever Oasis.*
@@ -2783,6 +2810,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Extractor de archivos para S.T.A.L.K.E.R.: Shadow of Chernobyl](https://www.moddb.com/games/stalker/downloads/extractor-de-archivos-para-stalker-shadow-of-chernobyl) - Lightweight program for extracting all files from S.T.A.L.K.E.R.: Shadow of Chernobyl for modding purposes.
 - [General X Ray SDK CS-CoP Tools (S.T.A.L.K.E.R.: Call of Pripyat)](https://www.moddb.com/games/stalker-call-of-pripyat/downloads/general-x-ray-sdk-tools) - General X Ray SDK Tools. This archive contains dds2tgaLE X-Ray game asset converter 02 june 2011 rev10192 Fake flatness CS&CoP; Compilers 2010 v3.0
 - [blender-xray](https://github.com/PavelBlend/blender-xray) - Blender import/export addon for S.T.A.L.K.E.R. X-Ray Engine formats (OGF, OMF, ANM, SKL, SKLS), enabling extraction and manipulation of STALKER game assets.
+- [OpenXRay](https://github.com/OpenXRay/xray-16) - Community-maintained, improved version of GSC Game World's X-Ray Engine (S.T.A.L.K.E.R.: Shadow of Chernobyl / Clear Sky / Call of Pripyat) that loads and renders the original games' assets and archives.
 
 ### Gumi (Brave Frontier)
 
@@ -3073,6 +3101,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Anachronox Modding Tools](https://www.moddb.com/games/anachronox/downloads/anachronox-modding-tools) - Mapping and modding tools for Anachronox, includes documentation.
 - [chronon](https://github.com/hogsy/chronon) - Open-source reimplementation of Anachronox (Ion Storm, 2001) built on the Quake 2 engine, reading original game data files.
+- [anoxtools](https://github.com/hogsy/anoxtools) - Fork of qbism's q2tools-220 map compiler with added support for Anachronox.
 
 #### Deus Ex
 
@@ -3290,6 +3319,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: GOB, CND, NDY, MAT, KEY, 3DO.
 - [OpenSith](https://github.com/r1sc/OpenSith) - Engine reimplementation of Jedi Knight Dark Forces II in Unity, parsing and rendering .JKL levels, .3DO models, and .GOB archive containers.
 - [The Force Engine](https://github.com/TheForceEngine/TheForceEngine) - Modern reverse-engineered replacement for the Jedi Engine supporting Dark Forces and Outlaws with modern tools including a level editor.
+- [gorc](https://github.com/jdmclark/gorc) - Early-development engine recreation of Jedi Knight: Dark Forces II that parses the original game's GOB archives, JKL levels, and 3DO models.
 
 ### Macrospace
 
@@ -3431,6 +3461,7 @@ This list is for developers and modders working with such formats. It provides t
   - Topics: Scenario triggers, SFX replacement, music, voice-overs, taunts, data file editing with Wwise audio system.
   - Tools: Ravioli Tools, vgmstream, Advanced Genie Editor.
 - [halo (decomp)](https://github.com/halo-re/halo) - Matching decompilation of Halo: Combat Evolved (Xbox).
+- [OniFoxed](https://github.com/hogsy/OniFoxed) - Bungie's Oni source modified to build with modern Visual Studio, enabling study and modification of the game and its original data formats.
 
 ### Midway
 
@@ -4173,6 +4204,11 @@ This list is for developers and modders working with such formats. It provides t
 - [AVP2010MapViewer](https://github.com/Trololp/AVP2010MapViewer) - 3D map viewer for Aliens vs. Predator (2010); renders level geometry, props, and entities from unpacked `.pc` archives (requires QuickBMS + asura.bms script). Supports entity inspection and map mesh export.
 - [AVP2010ModelViewer](https://github.com/Trololp/AVP2010ModelViewer) - 3D model and animation viewer for Aliens vs. Predator (2010); fork of AVP2010MapViewer focused on character/object models with skeleton display and GLTF export.
 
+### Red Storm Entertainment
+
+- [RSE-file-formats](https://github.com/AlexKimov/RSE-file-formats) - File-format templates, specifications, and tools for Red Storm Entertainment's classic games (Rainbow Six, Rogue Spear, and related), covering their texture, model, and map/mission formats.
+- [RainbowSixFileConverters](https://github.com/RainbowRedux/RainbowSixFileConverters) - Converts data files from the classic Rainbow Six and Rogue Spear to open formats.
+
 ### Reflections Interactive
 
 - [driver-tools](https://github.com/Fireboyd78/driver-tools) - Modding tools for DRIV3R, Driver: Parallel Lines, and Driver: San Francisco.
@@ -4914,6 +4950,10 @@ This list is for developers and modders working with such formats. It provides t
 - [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for extracting FAT/DAT archives from Far Cry Instincts.
 - [Gibbed.Dunia](https://github.com/gibbed/Gibbed.Dunia) - Tools for Dunia engine-based Far Cry games; file format extraction and modding capabilities.
 
+#### Jade Engine
+
+- [jaded](https://github.com/hogsy/jaded) - Community fork of Ubisoft's Jade engine (Beyond Good & Evil, Rayman, Peter Jackson's King Kong) with bug fixes, enabling loading of the original games' assets.
+
 #### Other Games / General
 
 - [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting .SPK audio files found in Ubisoft game .dat files. Can play back and decode sound and music encoded into the game files.
@@ -5003,6 +5043,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
