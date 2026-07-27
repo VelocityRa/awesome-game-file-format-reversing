@@ -3060,6 +3060,8 @@ This list is for developers and modders working with such formats. It provides t
 - [star-rod](https://github.com/z64a/star-rod) - Modding tool for Paper Mario 64 including map editor and script tools.
 - [Hack64 Paper Mario](https://hack64.net/wiki/doku.php?id=paper_mario) - Documentation for Paper Mario 64 file formats and data structures.
 - [Mamar](https://github.com/bates64/mamar) - Paper Mario (N64) music editor; parses and extracts BGM and SBN audio file formats.
+- [Merlon](https://github.com/bates64/merlon) - Mod manager for the Paper Mario (N64) decompilation that packages and applies mods built on the decomp source.
+- [papermario-dx](https://github.com/bates64/papermario-dx) - Enhanced fork of the Paper Mario (N64) decompilation providing an improved engine base for romhacks.
 
 #### Paper Mario: TTYD / Super Paper Mario
 
@@ -3822,6 +3824,7 @@ This list is for developers and modders working with such formats. It provides t
 - [zelda3](https://github.com/snesrev/zelda3) - Reverse-engineered reimplementation of The Legend of Zelda: A Link to the Past; parses original game ROM (levels, images, assets).
 - [GCZelda Map Entity Info Dumper](https://github.com/LordNed/GCZelda-Map-Entity-Info-Dumper) - Extracts map entity data from GameCube Zelda games (Wind Waker, Twilight Princess) to CSV.
 - [Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) - Static recompilation of The Legend of Zelda: Majora's Mask (and Ocarina of Time) N64 ROMs into native PC executables for Windows, Linux, and macOS.
+- [sw97](https://github.com/z64proto/sw97) - Reverse-engineered recreation of the Nintendo Space World 1997 demo of The Legend of Zelda: Ocarina of Time.
 
 #### Wii Sports
 
@@ -5043,6 +5046,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
