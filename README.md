@@ -435,6 +435,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Max Payne](#max-payne)
     - [Alan Wake 2](#alan-wake-2)
   - [Riot Games](#riot-games)
+    - [League of Legends](#league-of-legends)
   - [Runecraft](#runecraft)
   - [Runic Games](#runic-games)
     - [Torchlight](#torchlight)
@@ -4189,10 +4190,27 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Riot Games
 
-- [yordle](https://github.com/neptuwunium/yordle) - League of Legends research project for file formats.
+#### League of Legends
+
+- [LeagueToolkit](https://github.com/LeagueToolkit/LeagueToolkit) - Foundational C# library for parsing and editing League of Legends assets (WAD archives, SKN/SKL meshes, ANM animations, MAPGEO maps, property .bin files, textures). Many community tools build on it.
+- [cslol-manager](https://github.com/LeagueToolkit/cslol-manager) - The de-facto mod manager for installing WAD-based skin/asset mods (Fantome/.fantome format).
+- [ltk-manager](https://github.com/LeagueToolkit/ltk-manager) - Next-generation League of Legends mod manager (TypeScript), successor to cslol-manager.
+- [CDTB](https://github.com/CommunityDragon/CDTB) - CommunityDragon Toolbox: Python library to extract files from the client, parse manifests (rman), and resolve WAD hashes. See also [cdragon-rs](https://github.com/CommunityDragon/cdragon-rs) with the Rust reimplementation.
+- [Obsidian](https://github.com/Crauzer/Obsidian) - League of Legends WAD archive explorer and editor for viewing and extracting game-specific archive formats.
+- [lol2gltf](https://github.com/Crauzer/lol2gltf) - Convert between League of Legends mesh formats (SKN/SKL/ANM) and the glTF runtime format.
+- [LeagueConvert](https://github.com/jochem-waque/LeagueConvert) - Convert champion models to glTF with textures and animations [archived].
+- [Cs-lol-go](https://github.com/Aurecueil/Cs-lol-go) - C# mod manager mimicking cslol-manager with an improved skin fixer and quality-of-life features.
+- [ritobin](https://github.com/moonshadow565/ritobin) - Converter for Riot property `.bin` files between binary and human-readable text. See also [ritobin-lsp](https://github.com/alanpq/ritobin-lsp) providing a language server for editing them.
+- [ManifestDownloader](https://github.com/Morilli/ManifestDownloader) - Commandline tool to download Riot manifest files from the CDN, parse them, and download their content.
+- [LtMAO](https://github.com/tarngaina/LtMAO) - Modding toolpack handling BNK, DDS, FBX, WAD, and .bin files.
+- [lol_maya](https://github.com/tarngaina/lol_maya) - Maya plugin (updated RiotFileTranslator) for importing/exporting SKN/SKL/ANM assets [archived].
+- [lol-blender](https://github.com/alanpq/lol-blender) - Blender plugin for League of Legends asset import/export. Modern successor to the original [lolblender](https://github.com/lispascal/lolblender).
+- [LoL-NGRID-converter](https://github.com/FrankTheBoxMonster/LoL-NGRID-converter) - Converter for the NGRID navigation-grid (AIMesh) format.
+- [Scavenger](https://github.com/Crauzer/Scavenger) - Property `.bin` file editor for League of Legends.
 - [MindCorpViewer](https://github.com/fernpi/MindCorpViewer) - Model viewer for League of Legends SKN/SKL/DDS files [archived].
 - [MindCorpViewer-Rust](https://github.com/fernpi/MindCorpViewer-Rust) - Modern Rust rewrite of League of Legends model viewer with improved performance.
-- [Obsidian](https://github.com/Crauzer/Obsidian) - League of Legends WAD archive explorer and editor for viewing and extracting game-specific archive formats.
+- [ReyEngine](https://github.com/TheKillerey/ReyEngine) - Modern map & asset editor for League of Legends mods.
+- [yordle](https://github.com/neptuwunium/yordle) - League of Legends research project for file formats.
 
 ### Runecraft
 
