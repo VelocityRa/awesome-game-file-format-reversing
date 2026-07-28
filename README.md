@@ -886,6 +886,10 @@ This list is for developers and modders working with such formats. It provides t
 - [SR (Static Recompiler)](https://github.com/M-HT/SR) - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
 - [Bin2Obj](https://github.com/hogsy/Bin2Obj) - Converts arbitrary binary data into a Wavefront OBJ point cloud, useful for spotting vertex/mesh data when reverse-engineering unknown formats.
 - [ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded) - Ghidra extension adding PlayStation 2 (Emotion Engine) support, including the MIPS R5900 processor with VU macromode and PS2 ELF/IRX loaders.
+- [SPRXPatcher](https://github.com/NotNite/SPRXPatcher) - Modern PlayStation 3 ELF patcher for loading SPRX plugin files into decrypted executables.
+- [X360](https://github.com/mtolly/X360) - Archive of DJ SkunkieButt's X360 .NET library and Le Fluffie GUI for browsing/editing Xbox 360 file formats (STFS, GPD, and more).
+- [XCompression](https://github.com/gibbed/XCompression) - .NET wrapper library for XMemCompress, the LZX-based compression scheme commonly found in Xbox 360 game data.
+- [Velocity](https://github.com/hetelek/Velocity) - Cross-platform Xbox 360 file browser/editor (STFS containers, profiles, and more) built on the XboxInternals library.
 
 ### 💻 Development Libraries
 
@@ -4380,7 +4384,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Shuriken](https://github.com/crash5band/Shuriken) - XNCP/YNCP UI Editor for Sonic games.
 - [Sonic-Adventure-Animation-.JSON-Input-Output](https://github.com/Shadowth117/Sonic-Adventure-Animation-.JSON-Input-Output) - Imports and exports Sonic Adventure, Sonic Adventure DX, Sonic Adventure 2, and Sonic Adventure 2 Battle animations extracted with SA Tools into and out of 3ds Max.
 - [Sonic 3 A.I.R.](https://github.com/Eukaryot/sonic3air) - Reconstruction of Sonic 3 & Knuckles from the original Genesis ROM, extracting sprites, audio, and level data via decompilation-adjacent ROM analysis.
-- [RSDKv5-Decompilation](https://github.com/SaturnSH2x2/RSDKv5-Decompilation) - Complete decompilation of Retro Engine v5/v5Ultimate (used by Sonic Mania and other games).
+- [RSDKv5-Decompilation](https://github.com/RSDKModding/RSDKv5-Decompilation) - Complete decompilation of Retro Engine v5/v5Ultimate (used by Sonic Mania and other games).
 - [mst06](https://github.com/GerbilSoft/mst06) - Sonic '06 MST string table file format converter supporting XML and MST formats for game localization data.
 - [Sonic '06 Randomiser Suite](https://github.com/Knuxfan24/Sonic-06-Randomiser-Suite) - Software suite for randomizing game elements in Sonic '06 (Xbox 360, PS3).
 - [sonicriders](https://github.com/doldecomp/sonicriders) - WIP decompilation of Sonic Riders (USA) with original DOL file reconstruction.
@@ -4393,6 +4397,14 @@ This list is for developers and modders working with such formats. It provides t
 - [SMPSPlay](https://github.com/ValleyBell/SMPSPlay) - Player for SMPS files, the sound driver format commonly used in Sega Mega Drive games.
 - [RSDK](https://github.com/Xeeynamo/RSDK) - Reverse engineering of the Retro Engine RSDK format, including a Sonic Mania animation editor.
 - [libsonassmd](https://github.com/Clownacy/libsonassmd) - Library for reading and writing the assets of Mega Drive Sonic the Hedgehog games.
+- [Converse](https://github.com/NextinMono/converse) - Editor for .fco (Font Converse) files from Sonic Unleashed.
+- [kunai](https://github.com/NextinMono/kunai) - Editor for Ninja CSD Project files (XNCP, YNCP, GNCP) used by Sonic games.
+- [SharpNeedle](https://github.com/hedge-dev/SharpNeedle) - Format library for Hedgehog Engine, covering models, animations, and other game data.
+- [libHSON-csharp](https://github.com/hedge-dev/libHSON-csharp) - C# serialization library for the Hedgehog Set Object Notation (HSON) format used by modern Hedgehog Engine games.
+- [KnuxLib](https://github.com/Knuxfan24/KnuxLib) - Library and CLI tools for miscellaneous Sonic-related file formats, with conversion utilities where applicable.
+- [Sonic-06-Character-Swapper](https://github.com/hyperbx/Sonic-06-Character-Swapper) - Character swapping tool for Sonic the Hedgehog (2006), built on the Marathon toolkit's file format APIs.
+- [RFL2HMM](https://github.com/hyperbx/RFL2HMM) - Converts Hedgehog Engine 2 reflection (RFL) data into Hedge Mod Manager code definitions.
+- [Unleashed-Mod-Manager](https://github.com/hyperbx/Unleashed-Mod-Manager) - Tool to handle mod copying and organisation for Sonic Unleashed.
 
 #### Creative Assembly
 
@@ -5061,6 +5073,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
