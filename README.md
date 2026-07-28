@@ -80,6 +80,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [RAD Game Tools](#rad-game-tools)
   - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+  - [Xbox SDKs \& Hardware](#xbox-sdks--hardware)
   - [FMOD](#fmod)
   - [SpeedTree](#speedtree)
   - [Wwise](#wwise)
@@ -1231,6 +1232,8 @@ This list is for developers and modders working with such formats. It provides t
 - [uasset-rs](https://github.com/jorgenpt/uasset-rs) - Rust library for parsing Unreal Engine asset (.uasset) files.
 - [blender_t3d](https://github.com/crapola/blender_t3d) - Blender import/export add-on for Unreal `.T3D` map files.
 - [t3d2map](https://github.com/hogsy/t3d2map) - Converts Unreal `.T3D` text map documents to Quake's `.MAP` brush format.
+- [binfold](https://github.com/trumank/binfold) - Fast symbol-porting tool that matches and transfers large numbers of symbols between similar binaries (e.g. across UE game versions/builds) using pattern signatures.
+- [OodleUE](https://github.com/WorkingRobot/OodleUE) - Automatically pulls and packages the latest Oodle Data compression SDK builds from Unreal Engine 5's private git repo, since RAD's Oodle libraries are otherwise difficult to obtain standalone.
 
 
 ### CryEngine
@@ -1651,6 +1654,14 @@ This list is for developers and modders working with such formats. It provides t
 - [txobtool](https://github.com/dnasdw/txobtool) - Tool for exporting and importing CGFX graphics files used in Nintendo 3DS games.
 - [darctool](https://github.com/dnasdw/darctool) - Tool for extracting and creating DARC archive files used in Nintendo games.
 
+### Xbox SDKs & Hardware
+
+*Formats and tools generic to the Xbox platform/OS, not tied to a specific game.*
+
+- [SlimEra](https://github.com/XWine1/SlimEra) - Slim Win32 reference implementations of select DLLs from the Xbox ERA operating system (e.g. D3DCompiler_46.dll, xg_x.dll), intended for research/analysis tooling rather than running full games.
+- [XDL Compiler](https://github.com/XWine1/XDLCompiler) - Compiler for XDL, an IDL-like interface definition language (with versioning support) used to generate headers for reversing Xbox ERA OS components.
+- [XboxAudio2](https://github.com/XWine1/XboxAudio2) - XAudio2 wrapper providing XMA2 audio format support for Xbox TitleOS applications.
+
 ### FMOD
 
 *Audio middleware used in thousands of games for sound bank management and streaming.*
@@ -1729,6 +1740,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Duke Nukem Forever (2011)
 
 - [MegaPackageExtractor](https://github.com/DaZombieKiller/MegaPackageExtractor) - Duke Nukem Forever (2011) MegaPackage.dat extractor.
+- [DukeForeverSDK](https://github.com/DaZombieKiller/DukeForeverSDK) - Unofficial modding SDK for Duke Nukem Forever (2011).
 
 #### The Outforce
 
@@ -2022,6 +2034,8 @@ This list is for developers and modders working with such formats. It provides t
 - [SSE-Fallout-4-Voice-Dialog-Converter](https://github.com/Backporter/SSE-Fallout-4-Voice-Dialog-Converter) - Voice dialog converter for Fallout 4 and Skyrim; converts .fuz files to PS4 format.
 - [SSE-Fallout-4-Sound-Music-Converter](https://github.com/Backporter/SSE-Fallout-4-Sound-Music-Converter) - Audio converter for Fallout 4 and Skyrim; converts .xwm and .wav files to PS4 format.
 - [daggerfall-unity](https://github.com/Interkarma/daggerfall-unity) - Open-source recreation of The Elder Scrolls II: Daggerfall in the Unity engine, reverse-engineering and loading the original Daggerfall (DOS) game data and formats.
+- [Altar](https://github.com/Kein/Altar) - Unreal Engine 5.3 SDK project for Oblivion Remastered, generated from a UE4SS class dump, letting modders write native C++/Blueprint code against the game's classes.
+- [UProjOblivionRemastered](https://github.com/nathtest/UProjOblivionRemastered) - Similar UE 5.3.2 SDK project for Oblivion Remastered built from a UE4SS dump; used alongside FModel-extracted assets for Blueprint modding.
 
 ### BioWare
 
@@ -2268,6 +2282,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Cyberpunk-TweakDB-Schema](https://github.com/gibbed/Cyberpunk-TweakDB-Schema) - Reverse-engineered schema documentation for Cyberpunk 2077's TweakDB binary file format (tweakdb.bin)
 - [CyberpunkReversing](https://github.com/alphanin9/CyberpunkReversing) - Collection of reverse engineering tools for Cyberpunk 2077 including address helpers, RTTI type recovery, and framework hash checking
 - [CyberpunkSaveEditor](https://github.com/PixelRick/CyberpunkSaveEditor) - Editor for Cyberpunk 2077 .sav.dat save files; manipulates node tree structures, inventory, quest flags, and item properties
+- [Hash2077](https://github.com/0x1F9F1/Hash2077) - Optimized brute-force dehasher for recovering symbol names in Cyberpunk 2077 using the Adler-32/SHA-256 hashes recorded in cyberpunk2077_addresses.json.
 
 ### Cloud Imperium Games (Star Citizen)
 
@@ -5046,6 +5061,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
