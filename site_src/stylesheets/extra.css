@@ -5,10 +5,15 @@
   --md-text-font: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-/* `toc.integrate` removes the right-hand rail, so the grid can reclaim that
-   width. Material's default is 61rem, which would leave the freed space empty. */
+/* `toc.integrate` removes the right-hand rail, so the grid can reclaim some of
+   that width. Material's default is 61rem, which would leave the freed space
+   empty; 66rem gives the content column roughly the same measure it had when a
+   right rail was still taking 12.1rem out of a 74rem grid.
+   Note Material sets `html { font-size: 125% }`, so 1rem is 20px here: 66rem is
+   1320px, which actually binds on a 1600px viewport and leaves a real margin on
+   both sides. A larger cap simply never engages and the text runs edge to edge. */
 .md-grid {
-  max-width: 100rem;
+  max-width: 62rem;
 }
 
 /* The left rail now carries the nav *and* the page ToC, whose entries are studio
@@ -93,27 +98,19 @@
 .studio-index ul {
   margin: 0.2em 0 0.9em;
   padding-left: 1.1em;
-  columns: 3;
+  /* A column *width*, not a count: the browser fits as many 18rem columns as the
+     content area allows, so the count follows the viewport with no media queries.
+     18rem is sized to hold the longest studio name ("Grasshopper Manufacture (No
+     More Heroes, Killer7)", 49 chars) on one line. A fixed `columns: 3` wrapped
+     roughly a quarter of the names once the grid narrowed. */
+  columns: 18rem;
   column-gap: 2.2rem;
 }
 
 .studio-index ul li {
-  /* Long names ("Grasshopper Manufacture (No More Heroes, Killer7)") wrap to two
-     lines; without this a wrapped item can straddle a column break. */
+  /* A name that does wrap must not straddle a column break. */
   break-inside: avoid;
   margin: 0.12em 0;
-}
-
-@media screen and (max-width: 76.1875em) {
-  .studio-index ul {
-    columns: 2;
-  }
-}
-
-@media screen and (max-width: 44.9375em) {
-  .studio-index ul {
-    columns: 1;
-  }
 }
 
 /* Entry count. Muted and small so the studio names still carry the page. */
