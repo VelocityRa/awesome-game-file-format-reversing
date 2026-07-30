@@ -895,6 +895,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
 - [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
+- [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - colorized hexdump/xxd based on [xcd](https://git.sr.ht/~breadbox/xcd)
 
 ### 🔬 Format Analysis & Reverse Engineering
 
