@@ -197,7 +197,10 @@ This list is for developers and modders working with such formats. It provides t
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
   - [Bugbear Entertainment (Wreckfest)](#bugbear-entertainment-wreckfest)
   - [Bullfrog Productions](#bullfrog-productions)
+    - [DungeonKeeper](#dungeon-keeper)
     - [Syndicate Wars](#syndicate-wars)
+    - [Populous The Beginning](#populous-the-beginning)
+    - [Hi-Octane](#hi-octane)
     - [Creation](#creation)
   - [Capcom](#capcom)
     - [RE Engine](#re-engine)
@@ -2341,9 +2344,23 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Bullfrog Productions
 
+#### Dungeon Keeper
+
+- [KeeperFX](https://github.com/dkfans/keeperfx) - Dungeon Keeper FX reverse-engineered fan project of Bullfrog's Dungeon Keeper
+
 #### Syndicate Wars
 
 - [Syndicate Wars Port](https://github.com/swfans/syndwarsfx) - Open-source reverse-engineered port of Bullfrog's Syndicate Wars, reading the original game's data files.
+
+#### Populous The Beginning
+
+- [Populous-The-Beginning-Public](https://github.com/TylerTheFox/Populous-The-Beginning-Public) - Open Repository For A Bullfrog Productions Game
+- [PopResourceEditor](https://github.com/Toksisitee/PopResourceEditor) - Open-source asset editor and manager written in C++ for Bullfrog's Populous: The Beginning game, designed to preview, modify, and generate the game assets.
+
+#### Hi-Octane
+
+- [hi-octane202x](https://github.com/woalexan/hi-octane202x) - Hi-Octane port using the Irrlicht Engine with level editor
+- [HiOctaneTools](https://github.com/movAX13h/HiOctaneTools) - Tools to inspect and modify levels of the game Hi-Octane by Bullfrog (1995)
 
 #### Creation
 
