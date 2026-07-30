@@ -1,0 +1,70 @@
+/* Density tuning for a list this long. The content is ~5400 lines of nested
+   bullets, so Material's default vertical rhythm wastes a lot of screen. */
+
+:root {
+  --md-text-font: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+.md-grid {
+  /* Wider than Material's 61rem default -- entries are long single lines. */
+  max-width: 74rem;
+}
+
+.md-typeset {
+  font-size: 0.76rem;
+  line-height: 1.55;
+}
+
+/* Tighten list spacing; the default 0.5em per item adds up over 3000 entries. */
+.md-typeset ul,
+.md-typeset ol {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.md-typeset li {
+  margin-bottom: 0.15em;
+}
+
+.md-typeset li > ul,
+.md-typeset li > ol {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
+/* Studio (h3) and game (h4) headings repeat hundreds of times, so make the
+   hierarchy readable without eating a third of the viewport. */
+.md-typeset h2 {
+  margin-top: 1.6em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset h3 {
+  margin-top: 1.1em;
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.md-typeset h4 {
+  margin-top: 0.9em;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+
+/* The right-hand ToC mirrors a deep outline (studios -> games); let long names
+   wrap rather than truncate ("Format Analysis & Reverse Engi..."). */
+.md-nav--secondary .md-nav__link {
+  white-space: normal;
+}
+
+.md-nav__title {
+  font-size: 0.7rem;
+}
+
+/* The A-Z studio directory on games/index.md is a comma-separated run of ~220
+   links; give it a little breathing room between them. */
+.md-typeset h2 + p a {
+  white-space: nowrap;
+}

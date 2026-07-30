@@ -1,0 +1,12 @@
+# Pinned toolchain for building the GitHub Pages site from README.md.
+# Used by .github/workflows/pages.yml and by `uv run --with-requirements` locally.
+#
+# Material for MkDocs 9.7+ is the free edition that absorbed every former
+# Insiders feature (2025-11-11). It is in maintenance mode with support through
+# ~2026-11; the successor, Zensical, reads this same mkdocs.yml. See
+# docs/superpowers/specs/2026-07-30-mkdocs-material-site-design.md.
+mkdocs==1.6.1
+mkdocs-material==9.7.4
+mkdocs-gen-files==0.5.0
+mkdocs-literate-nav==0.6.2
+mkdocs-minify-plugin==0.8.0
