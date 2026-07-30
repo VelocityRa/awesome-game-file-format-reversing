@@ -47,6 +47,12 @@ GITHUB_BLOB = "https://github.com/VelocityRa/awesome-game-file-format-reversing/
 DOCTOC_START = "<!-- START doctoc -->"
 DOCTOC_END = "<!-- END doctoc -->"
 
+# Content between these markers is for GitHub readers only and is dropped from the
+# site. HTML comments, so they stay invisible in the rendered README. Used for the
+# "browse this as a website" pointer, which would be self-referential on the site.
+SITE_SKIP_START = "<!-- site:skip-start -->"
+SITE_SKIP_END = "<!-- site:skip-end -->"
+
 # The `## Game & Studio Tools` section is split into these fixed first-letter
 # ranges. Fixed -- rather than byte-balanced -- boundaries keep page URLs stable
 # as studios are added; balanced buckets would shift and rot external links.
@@ -199,6 +205,46 @@ def strip_doctoc(lines: list[str]) -> list[str]:
     while tail < len(lines) and not lines[tail].strip():
         tail += 1
     return lines[:start] + lines[tail:]
+
+
+def strip_site_skip(lines: list[str]) -> list[str]:
+    """Drop every ``<!-- site:skip-start -->`` .. ``<!-- site:skip-end -->`` block.
+
+    Runs *after* ``annotate_headings``, so removing a block can never shift the
+    GitHub slug counters of the headings that remain. A heading inside a skipped
+    block therefore keeps its slug but has no page — a link to it then fails the
+    build in ``rewrite_links``, which is the intended loud failure.
+    """
+    out: list[str] = []
+    depth = 0
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped == SITE_SKIP_START:
+            depth += 1
+            continue
+        if stripped == SITE_SKIP_END:
+            if depth == 0:
+                raise SystemExit(
+                    f"gen_pages: README.md line {i + 1} has {SITE_SKIP_END} with no "
+                    f"matching {SITE_SKIP_START}."
+                )
+            depth -= 1
+            continue
+        if depth == 0:
+            out.append(line)
+    if depth:
+        raise SystemExit(f"gen_pages: README.md has an unclosed {SITE_SKIP_START}.")
+    # Collapse the blank-line pair a removed block leaves behind.
+    return _collapse_blank_runs(out)
+
+
+def _collapse_blank_runs(lines: list[str]) -> list[str]:
+    out: list[str] = []
+    for line in lines:
+        if not line.strip() and out and not out[-1].strip():
+            continue
+        out.append(line)
+    return out
 
 
 def scan_headings(lines: list[str]) -> list[Heading]:
@@ -490,7 +536,7 @@ def write_summary(pages: list[Page]) -> None:
 def build() -> list[Page]:
     """Everything except writing, so tests can inspect the result."""
     lines, _titles = annotate_headings(read_readme())
-    lines = strip_doctoc(lines)
+    lines = strip_site_skip(strip_doctoc(lines))
     return build_pages(lines, scan_headings(lines))
 
 

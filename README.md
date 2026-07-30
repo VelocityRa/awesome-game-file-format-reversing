@@ -2,8 +2,13 @@
 
 [Awesome](https://github.com/sindresorhus/awesome)
 [License: CC0-1.0](LICENSE)
+[Website](https://velocityra.github.io/awesome-game-file-format-reversing/)
 
 > A collection of documentation, code, tools, and resources for reverse engineering and working with video game file formats.
+
+<!-- site:skip-start -->
+**[Browse this list as a website.](https://velocityra.github.io/awesome-game-file-format-reversing/)** Sections are split across pages with a sidebar outline of every studio and game, so it is easier to navigate than this one. There is a [single-page version](https://velocityra.github.io/awesome-game-file-format-reversing/full/) too, if you prefer Ctrl+F.
+<!-- site:skip-end -->
 
 ## 📖 About
 
