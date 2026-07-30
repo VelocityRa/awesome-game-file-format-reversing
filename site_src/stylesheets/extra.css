@@ -5,15 +5,21 @@
   --md-text-font: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-/* `toc.integrate` removes the right-hand rail, so the grid can reclaim some of
-   that width. Material's default is 61rem, which would leave the freed space
-   empty; 66rem gives the content column roughly the same measure it had when a
-   right rail was still taking 12.1rem out of a 74rem grid.
-   Note Material sets `html { font-size: 125% }`, so 1rem is 20px here: 66rem is
-   1320px, which actually binds on a 1600px viewport and leaves a real margin on
-   both sides. A larger cap simply never engages and the text runs edge to edge. */
+/* `toc.integrate` removes the right-hand rail, so the grid can reclaim that width.
+   Material's default 61rem would leave the freed space empty.
+
+   Mind the units: Material sets `html { font-size: 125% }`, and 137.5% above
+   100em, so 1rem is 20-22px, NOT 16px. 72rem is ~1584px at a 1600px viewport and
+   ~1728px at 2560px. Pick this by real pixels -- a cap chosen as if 1rem were 16px
+   never engages, and the page runs edge to edge with no margin at all.
+   Roughly 22px of total width per 1rem when adjusting.
+
+   The `min()` matters: a bare 72rem is 1584px, so on a 1600px viewport it leaves
+   8px of margin and reads as full-bleed, while on a 2560px display it caps nicely.
+   Pairing it with 94vw guarantees a real margin at every width and still caps the
+   absolute measure, so this does not need retuning per screen size. */
 .md-grid {
-  max-width: 62rem;
+  max-width: min(72rem, 94vw);
 }
 
 /* The left rail now carries the nav *and* the page ToC, whose entries are studio
