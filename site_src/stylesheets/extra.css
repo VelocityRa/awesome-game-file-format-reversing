@@ -5,9 +5,19 @@
   --md-text-font: "Roboto", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
+/* `toc.integrate` removes the right-hand rail, so the grid can reclaim that
+   width. Material's default is 61rem, which would leave the freed space empty. */
 .md-grid {
-  /* Wider than Material's 61rem default -- entries are long single lines. */
-  max-width: 74rem;
+  max-width: 100rem;
+}
+
+/* The left rail now carries the nav *and* the page ToC, whose entries are studio
+   and game names ("Bugbear Entertainment (Team6 Engine - FlatOut 3)"). Material's
+   12.1rem default would wrap almost every one of them onto three lines. */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 17rem;
+  }
 }
 
 .md-typeset {
@@ -53,7 +63,7 @@
   color: var(--md-default-fg-color--light);
 }
 
-/* The right-hand ToC mirrors a deep outline (studios -> games); let long names
+/* The integrated ToC mirrors a deep outline (studios -> games); let long names
    wrap rather than truncate ("Format Analysis & Reverse Engi..."). */
 .md-nav--secondary .md-nav__link {
   white-space: normal;
@@ -61,6 +71,20 @@
 
 .md-nav__title {
   font-size: 0.7rem;
+}
+
+/* Distinguish the integrated ToC from the page nav above it: the page nav is
+   usually one entry, and without a rule the two run together as one flat list. */
+.md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Denser ToC -- it can run to 500+ entries on a games page. */
+.md-nav--secondary .md-nav__list .md-nav__item {
+  font-size: 0.68rem;
+  line-height: 1.35;
 }
 
 /* The A-Z studio directory on games/index.md is a comma-separated run of ~220

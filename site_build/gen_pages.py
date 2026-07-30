@@ -334,7 +334,10 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
     pages.append(
         Page(
             "games/index.md",
-            "Games & Studios",
+            # Not a `navigation.indexes` section landing page -- that flag is
+            # incompatible with toc.integrate -- so it needs a title that does not
+            # duplicate the "Games & Studios" section heading above it in the nav.
+            "All Studios (A–Z)",
             promote_first_heading(gi),
             {headings_slug(lines, games_start)},
         )

@@ -10,7 +10,9 @@
 #
 # Design notes: docs/superpowers/specs/2026-07-30-mkdocs-material-site-design.md
 
-site_name: Awesome Game File Format Reversing
+# Header/tab title only. README.md's own H1 still reads "🎮 Awesome Game File
+# Format Reversing" and is what GitHub renders -- see the note in CLAUDE.md.
+site_name: Game File Format Reversing
 site_url: https://velocityra.github.io/awesome-game-file-format-reversing/
 site_description: >-
   A curated collection of documentation, code, tools, and resources for reverse
@@ -57,7 +59,15 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
-    - navigation.indexes
+    # The page's heading ToC renders inside the LEFT sidebar instead of a second
+    # right-hand rail, and the content area reclaims that width. Without this,
+    # most pages left a near-empty left rail (one nav entry) next to a right rail
+    # that was a strict superset of it.
+    #
+    # Mutually exclusive with navigation.indexes ("sections cannot host the table
+    # of contents due to missing space"), so games/index.md is a normal nav entry
+    # titled "All Studios (A-Z)" rather than a section landing page.
+    - toc.integrate
     - navigation.path        # breadcrumbs (free since 9.7)
     - navigation.top
     - navigation.tracking
