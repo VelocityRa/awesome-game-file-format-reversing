@@ -158,6 +158,10 @@ class Page:
     lines: list[str] = field(default_factory=list)
     slugs: set[str] = field(default_factory=set)  # heading anchors this page owns
     exclude_from_search: bool = False
+    # True for pages whose body is synthesised rather than sliced out of README.md
+    # (the studio directory). Content-preservation checks must skip these: their
+    # bullets are navigation, not list entries, and would look like added content.
+    generated: bool = False
 
 
 def read_readme() -> list[str]:
@@ -266,6 +270,32 @@ def scan_headings(lines: list[str]) -> list[Heading]:
 # --------------------------------------------------------------------------
 # Page splitting
 # --------------------------------------------------------------------------
+DIGIT_GROUP = "0–9"  # en dash, matching the "0–9 · A" bucket label
+# Top-level entry bullets only. Nested bullets carry a studio's "Formats:" /
+# "See also" detail lines, which are not separate entries.
+TOP_LEVEL_ENTRY_RE = re.compile(r"^[-*+] \[")
+
+
+def index_letter(studio: str) -> str:
+    """The letter a studio files under on the index page."""
+    first = studio.strip()[0].upper()
+    return first if first.isalpha() else DIGIT_GROUP
+
+
+def letter_anchor(letter: str) -> str:
+    """Anchor id for an index letter heading.
+
+    Prefixed so these generated ids cannot collide with a slug computed from a real
+    README heading (a collision would put two identical ids on one page), and kept
+    ASCII so the digit group's en dash does not end up in a URL fragment.
+    """
+    return f"studios-{letter.lower().replace('–', '-')}"
+
+
+def count_entries(body: list[str]) -> int:
+    return sum(1 for line in body if TOP_LEVEL_ENTRY_RE.match(line))
+
+
 def bucket_for(studio: str) -> str:
     """Which GAME_BUCKETS page a studio heading belongs on."""
     first = studio.strip()[0].upper()
@@ -367,16 +397,42 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
             owned |= slugs_in(h.line, end)
         bucket_pages.append(Page(f"games/{slug}.md", label, body, owned))
 
-    # games/index.md: the section heading, its intro prose, and an A-Z directory
-    # of every studio, linking into the bucket pages.
+    # games/index.md -- the section heading, its intro prose, and a directory of
+    # every studio grouped by its real first letter.
+    #
+    # Deliberately NOT grouped by GAME_BUCKETS: the buckets are a page-splitting
+    # artifact, and a reader looking for Konami thinks "K", not "which bucket holds
+    # K". Grouping by letter also gives the integrated ToC an A-Z alphabet in the
+    # left rail. Landing on the right bucket page is the link's job, not the
+    # reader's.
+    by_letter: dict[str, list[Heading]] = {}
+    for h in studios:
+        by_letter.setdefault(index_letter(h.text), []).append(h)
+    letters = sorted(by_letter, key=lambda k: (k != DIGIT_GROUP, k))
+
+    counts = {h.slug: count_entries(lines[h.line : studio_end[h.line]]) for h in studios}
+
     gi = [lines[games_start], *lines[games_start + 1 : studios[0].line]]
-    gi += ["", f"{len(studios)} studios and publishers, split alphabetically.", ""]
-    for slug, label, _upper in GAME_BUCKETS:
-        members = buckets[slug]
-        if not members:
-            continue
-        gi += [f"## {label} {{#index-{slug}}}", ""]
-        gi += [", ".join(f"[{h.text}]({slug}.md#{h.slug})" for h in members), ""]
+    gi += [
+        "",
+        f"All {len(studios)} studios and publishers, A to Z. The number after each "
+        "is how many entries it has.",
+        "",
+        "**Jump to:** " + " · ".join(f"[{k}](#{letter_anchor(k)})" for k in letters),
+        "",
+    ]
+    for k in letters:
+        gi += [f"## {k} {{#{letter_anchor(k)}}}", ""]
+        # md_in_html wrapper so the CSS can lay the list out in columns; one studio
+        # per line, since a comma-separated run of 25 names cannot be scanned.
+        gi += ['<div class="studio-index" markdown>', ""]
+        gi += [
+            f"- [{h.text}]({bucket_for(h.text)}.md#{h.slug})"
+            f' <span class="studio-index__count">{counts[h.slug]}</span>'
+            for h in by_letter[k]
+        ]
+        gi += ["", "</div>", ""]
+
     pages.append(
         Page(
             "games/index.md",
@@ -385,7 +441,10 @@ def build_pages(lines: list[str], headings: list[Heading]) -> list[Page]:
             # duplicate the "Games & Studios" section heading above it in the nav.
             "All Studios (A–Z)",
             promote_first_heading(gi),
-            {headings_slug(lines, games_start)},
+            # The generated letter anchors must be owned by the page, or the "Jump
+            # to" links would look like unresolvable cross-page anchors.
+            {headings_slug(lines, games_start)} | {letter_anchor(k) for k in letters},
+            generated=True,
         )
     )
     pages.extend(bucket_pages)

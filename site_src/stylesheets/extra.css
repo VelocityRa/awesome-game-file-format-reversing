@@ -87,8 +87,39 @@
   line-height: 1.35;
 }
 
-/* The A-Z studio directory on games/index.md is a comma-separated run of ~220
-   links; give it a little breathing room between them. */
-.md-typeset h2 + p a {
-  white-space: nowrap;
+/* The A-Z studio directory on games/index.md: 219 studios, one per line, flowed
+   into columns. CSS columns fill top-to-bottom then left-to-right, which is the
+   reading order an alphabetical index wants. */
+.studio-index ul {
+  margin: 0.2em 0 0.9em;
+  padding-left: 1.1em;
+  columns: 3;
+  column-gap: 2.2rem;
+}
+
+.studio-index ul li {
+  /* Long names ("Grasshopper Manufacture (No More Heroes, Killer7)") wrap to two
+     lines; without this a wrapped item can straddle a column break. */
+  break-inside: avoid;
+  margin: 0.12em 0;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .studio-index ul {
+    columns: 2;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .studio-index ul {
+    columns: 1;
+  }
+}
+
+/* Entry count. Muted and small so the studio names still carry the page. */
+.studio-index__count {
+  margin-left: 0.25em;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8em;
+  opacity: 0.6;
 }
