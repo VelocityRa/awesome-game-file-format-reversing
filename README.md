@@ -20,67 +20,68 @@ This list is for developers and modders working with such formats. It provides t
 - **Working with an engine**: See [Engines](#️-engines) and [Middleware & SDKs](#-middleware--sdks)
 - **Need help**: Join the communities in [Forums & Communities](#forums--communities) and [Discord Servers](#discord-servers)
 
+<!-- START doctoc -->
 ## 📑 Contents
 
-- [👥 Communities \& Wikis](#-communities--wikis)
-  - [Forums \& Communities](#forums--communities)
+- [👥 Communities & Wikis](#-communities--wikis)
+  - [Forums & Communities](#forums--communities)
   - [Discord Servers](#discord-servers)
-  - [Knowledge Bases \& Format Databases](#knowledge-bases--format-databases)
-  - [Platform \& SDK Documentation](#platform--sdk-documentation)
+  - [Knowledge Bases & Format Databases](#knowledge-bases--format-databases)
+  - [Platform & SDK Documentation](#platform--sdk-documentation)
   - [Game-Specific Wikis](#game-specific-wikis)
-  - [📚 Learning Resources \& Tutorials](#-learning-resources--tutorials)
+  - [📚 Learning Resources & Tutorials](#-learning-resources--tutorials)
     - [🎥 Video Tutorials](#-video-tutorials)
   - [Asset Databases](#asset-databases)
 - [🛠️ General Tools](#️-general-tools)
-  - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
-    - [3D Models \& Viewers](#3d-models--viewers)
-    - [Textures \& Images](#textures--images)
-    - [Sprites, Tiles \& Tilemaps](#sprites-tiles--tilemaps)
+  - [🎨 Asset Viewers & Converters](#-asset-viewers--converters)
+    - [3D Models & Viewers](#3d-models--viewers)
+    - [Textures & Images](#textures--images)
+    - [Sprites, Tiles & Tilemaps](#sprites-tiles--tilemaps)
     - [DCC Tool Plugins (Blender / 3ds Max / Godot)](#dcc-tool-plugins-blender--3ds-max--godot)
   - [📦 Archive Extractors](#-archive-extractors)
   - [🔊 Audio Tools](#-audio-tools)
-  - [🌐 Translation \& Localization](#-translation--localization)
+  - [🌐 Translation & Localization](#-translation--localization)
   - [🔍 Hex Editors](#-hex-editors)
-    - [Scripts \& Templates](#scripts--templates)
-  - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
-    - [Binary Templates \& Format Descriptions](#binary-templates--format-descriptions)
-    - [Disassemblers, Decompilers \& Analysis Frameworks](#disassemblers-decompilers--analysis-frameworks)
+    - [Scripts & Templates](#scripts--templates)
+  - [🔬 Format Analysis & Reverse Engineering](#-format-analysis--reverse-engineering)
+    - [Binary Templates & Format Descriptions](#binary-templates--format-descriptions)
+    - [Disassemblers, Decompilers & Analysis Frameworks](#disassemblers-decompilers--analysis-frameworks)
     - [IDA / Hex-Rays Plugins](#ida--hex-rays-plugins)
-    - [Managed \& Bytecode Decompilers (.NET / Java / Script)](#managed--bytecode-decompilers-net--java--script)
+    - [Managed & Bytecode Decompilers (.NET / Java / Script)](#managed--bytecode-decompilers-net--java--script)
     - [Decompilation Project Toolchains](#decompilation-project-toolchains)
     - [Static Recompilation](#static-recompilation)
-    - [Ghidra \& IDA Platform Loaders](#ghidra--ida-platform-loaders)
-    - [Binary Visualization \& Diffing](#binary-visualization--diffing)
-    - [Hooking, Memory \& Runtime Tools](#hooking-memory--runtime-tools)
+    - [Ghidra & IDA Platform Loaders](#ghidra--ida-platform-loaders)
+    - [Binary Visualization & Diffing](#binary-visualization--diffing)
+    - [Hooking, Memory & Runtime Tools](#hooking-memory--runtime-tools)
     - [Console-specific RE (PlayStation / Xbox)](#console-specific-re-playstation--xbox)
   - [💻 Development Libraries](#-development-libraries)
-  - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
-    - [Multi-Game Viewers \& Explorers](#multi-game-viewers--explorers)
-    - [Cross-Game Libraries \& Extractors](#cross-game-libraries--extractors)
+  - [📂 Script Collections & Multi-Game Tools](#-script-collections--multi-game-tools)
+    - [Multi-Game Viewers & Explorers](#multi-game-viewers--explorers)
+    - [Cross-Game Libraries & Extractors](#cross-game-libraries--extractors)
     - [Noesis / 3ds Max / Format Script Packs](#noesis--3ds-max--format-script-packs)
-    - [ROM/Save Extraction, Detection \& Modding](#romsave-extraction-detection--modding)
-    - [Franchise \& Studio Toolkits](#franchise--studio-toolkits)
+    - [ROM/Save Extraction, Detection & Modding](#romsave-extraction-detection--modding)
+    - [Franchise & Studio Toolkits](#franchise--studio-toolkits)
 - [⚙️ Engines](#️-engines)
   - [GameMaker](#gamemaker)
   - [Source (Valve)](#source-valve)
-    - [Engines, Libraries \& Full Toolkits](#engines-libraries--full-toolkits)
-    - [Maps \& BSP](#maps--bsp)
+    - [Engines, Libraries & Full Toolkits](#engines-libraries--full-toolkits)
+    - [Maps & BSP](#maps--bsp)
     - [Models (MDL/SMD)](#models-mdlsmd)
-    - [Textures \& Materials (VTF/VMT)](#textures--materials-vtfvmt)
-    - [Packages \& Filesystem (VPK/GCF/GMA/WAD)](#packages--filesystem-vpkgcfgmawad)
-    - [KeyValues, VDF \& Choreography](#keyvalues-vdf--choreography)
+    - [Textures & Materials (VTF/VMT)](#textures--materials-vtfvmt)
+    - [Packages & Filesystem (VPK/GCF/GMA/WAD)](#packages--filesystem-vpkgcfgmawad)
+    - [KeyValues, VDF & Choreography](#keyvalues-vdf--choreography)
     - [DCC Plugins (Blender / 3ds Max / Maya / XSI)](#dcc-plugins-blender--3ds-max--maya--xsi)
-    - [Legacy Tools \& Downloads (ModDB)](#legacy-tools--downloads-moddb)
+    - [Legacy Tools & Downloads (ModDB)](#legacy-tools--downloads-moddb)
   - [Unity](#unity)
   - [Unreal Engine](#unreal-engine)
-    - [Asset Parsers \& Libraries](#asset-parsers--libraries)
-    - [Explorers, Viewers \& PAK/IoStore Tools](#explorers-viewers--pakiostore-tools)
-    - [SDK \& Structure Dumpers](#sdk--structure-dumpers)
-    - [Blueprint, UnrealScript \& Shaders](#blueprint-unrealscript--shaders)
-    - [Maps, Saves, Localization \& Mappings](#maps-saves-localization--mappings)
-    - [Modding Frameworks \& Toolkits](#modding-frameworks--toolkits)
-    - [DCC Plugins \& ActorX (Blender / 3ds Max)](#dcc-plugins--actorx-blender--3ds-max)
-    - [Legacy Tools \& Downloads (ModDB)](#legacy-tools--downloads-moddb-1)
+    - [Asset Parsers & Libraries](#asset-parsers--libraries)
+    - [Explorers, Viewers & PAK/IoStore Tools](#explorers-viewers--pakiostore-tools)
+    - [SDK & Structure Dumpers](#sdk--structure-dumpers)
+    - [Blueprint, UnrealScript & Shaders](#blueprint-unrealscript--shaders)
+    - [Maps, Saves, Localization & Mappings](#maps-saves-localization--mappings)
+    - [Modding Frameworks & Toolkits](#modding-frameworks--toolkits)
+    - [DCC Plugins & ActorX (Blender / 3ds Max)](#dcc-plugins--actorx-blender--3ds-max)
+    - [Legacy Tools & Downloads (ModDB)](#legacy-tools--downloads-moddb-1)
   - [CryEngine](#cryengine)
   - [Dagor Engine](#dagor-engine)
   - [Fox Engine](#fox-engine)
@@ -104,7 +105,7 @@ This list is for developers and modders working with such formats. It provides t
   - [SCI Engine (Sierra)](#sci-engine-sierra)
   - [SCUMM](#scumm)
   - [Godot](#godot)
-- [🔧 Middleware \& SDKs](#-middleware--sdks)
+- [🔧 Middleware & SDKs](#-middleware--sdks)
   - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
   - [Havok](#havok)
   - [JSYSTEM (GameCube/Wii)](#jsystem-gamecubewii)
@@ -114,21 +115,21 @@ This list is for developers and modders working with such formats. It provides t
   - [XNA](#xna)
   - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [RAD Game Tools](#rad-game-tools)
-  - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+  - [Nintendo SDKs & Hardware](#nintendo-sdks--hardware)
     - [Switch](#switch)
     - [Wii U](#wii-u)
     - [3DS](#3ds)
-    - [GameCube \& Wii](#gamecube--wii)
+    - [GameCube & Wii](#gamecube--wii)
     - [Nintendo DS / DSi](#nintendo-ds--dsi)
     - [Nintendo 64](#nintendo-64)
     - [SNES / NES](#snes--nes)
     - [Game Boy / GBA](#game-boy--gba)
-    - [Cross-Platform Formats \& Archives](#cross-platform-formats--archives)
-  - [Xbox SDKs \& Hardware](#xbox-sdks--hardware)
+    - [Cross-Platform Formats & Archives](#cross-platform-formats--archives)
+  - [Xbox SDKs & Hardware](#xbox-sdks--hardware)
   - [FMOD](#fmod)
   - [SpeedTree](#speedtree)
   - [Wwise](#wwise)
-- [Game \& Studio Tools](#game--studio-tools)
+- [Game & Studio Tools](#game--studio-tools)
   - [11 bit studios (Frostpunk)](#11-bit-studios-frostpunk)
   - [1C Company / Best Way](#1c-company--best-way)
     - [Men of War](#men-of-war)
@@ -179,9 +180,10 @@ This list is for developers and modders working with such formats. It provides t
   - [Black Element Software (Alpha Prime)](#black-element-software-alpha-prime)
   - [Blizzard Entertainment](#blizzard-entertainment)
     - [World of Warcraft](#world-of-warcraft)
-    - [StarCraft II \& Heroes of the Storm](#starcraft-ii--heroes-of-the-storm)
+    - [StarCraft II & Heroes of the Storm](#starcraft-ii--heroes-of-the-storm)
     - [Overwatch](#overwatch)
   - [Bohemia Interactive](#bohemia-interactive)
+  - [Boss Game Studios (Top Gear Rally)](#boss-game-studios-top-gear-rally)
   - [Bugbear Entertainment (FlatOut)](#bugbear-entertainment-flatout)
   - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
@@ -233,6 +235,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Sakuna: Of Rice and Ruin](#sakuna-of-rice-and-ruin)
   - [Ecstatica](#ecstatica)
   - [EgoSoft (X4)](#egosoft-x4)
+  - [Eighting (Naruto: Gekitō Ninja Taisen!)](#eighting-naruto-gekitō-ninja-taisen)
   - [Electronic Arts](#electronic-arts)
     - [Frostbite](#frostbite)
       - [Battlefield Series](#battlefield-series)
@@ -242,7 +245,7 @@ This list is for developers and modders working with such formats. It provides t
     - [EAGL / Black Box / Other](#eagl--black-box--other)
       - [Need for Speed Series](#need-for-speed-series)
     - [SAGE / W3D](#sage--w3d)
-      - [Command \& Conquer Series](#command--conquer-series)
+      - [Command & Conquer Series](#command--conquer-series)
     - [SSX](#ssx)
     - [General Tools](#general-tools)
   - [Enhance Games (Rez)](#enhance-games-rez)
@@ -264,17 +267,17 @@ This list is for developers and modders working with such formats. It provides t
   - [Free Radical Design (TimeSplitters)](#free-radical-design-timesplitters)
   - [Frictional Games (Amnesia, Soma)](#frictional-games-amnesia-soma)
   - [FromSoftware](#fromsoftware)
-    - [Documentation \& Wikis](#documentation--wikis)
-    - [Format Libraries \& Templates](#format-libraries--templates)
-    - [Archives, Unpackers \& Encryption](#archives-unpackers--encryption)
-    - [Models, Animation \& FLVER](#models-animation--flver)
-    - [Maps \& Level Editors](#maps--level-editors)
-    - [Scripting, FX, Params \& Runtime Modding](#scripting-fx-params--runtime-modding)
+    - [Documentation & Wikis](#documentation--wikis)
+    - [Format Libraries & Templates](#format-libraries--templates)
+    - [Archives, Unpackers & Encryption](#archives-unpackers--encryption)
+    - [Models, Animation & FLVER](#models-animation--flver)
+    - [Maps & Level Editors](#maps--level-editors)
+    - [Scripting, FX, Params & Runtime Modding](#scripting-fx-params--runtime-modding)
   - [Funcom](#funcom)
     - [Dreamfall: The Longest Journey](#dreamfall-the-longest-journey)
     - [Secret World Legends](#secret-world-legends)
   - [Game Freak](#game-freak)
-    - [Gen I \& II](#gen-i--ii)
+    - [Gen I & II](#gen-i--ii)
     - [Gen III](#gen-iii)
     - [Gen VI](#gen-vi)
     - [Gen V](#gen-v)
@@ -311,10 +314,10 @@ This list is for developers and modders working with such formats. It provides t
     - [ObsCure](#obscure)
   - [Human Head Studios](#human-head-studios)
   - [id Software](#id-software)
-    - [Doom Engine (id Tech 1) \& Ports](#doom-engine-id-tech-1--ports)
-    - [Quake \& Wolfenstein Engines (id Tech 2/3)](#quake--wolfenstein-engines-id-tech-23)
+    - [Doom Engine (id Tech 1) & Ports](#doom-engine-id-tech-1--ports)
+    - [Quake & Wolfenstein Engines (id Tech 2/3)](#quake--wolfenstein-engines-id-tech-23)
     - [Modern DOOM (id Tech 4 / 6 / 7)](#modern-doom-id-tech-4--6--7)
-    - [Legacy Tools \& Downloads (ModDB)](#legacy-tools--downloads-moddb-2)
+    - [Legacy Tools & Downloads (ModDB)](#legacy-tools--downloads-moddb-2)
   - [Illusion](#illusion)
   - [iNiS](#inis)
   - [Innerloop Studios](#innerloop-studios)
@@ -322,6 +325,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Fire Emblem: Three Houses](#fire-emblem-three-houses)
     - [Paper Mario 64](#paper-mario-64)
     - [Paper Mario: TTYD / Super Paper Mario](#paper-mario-ttyd--super-paper-mario)
+    - [Paper Mario: The Origami King](#paper-mario-the-origami-king)
   - [Interactive Studios](#interactive-studios)
     - [Glover](#glover)
   - [Interplay / Black Isle Studios](#interplay--black-isle-studios)
@@ -344,6 +348,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Metal Gear Solid](#metal-gear-solid)
     - [Silent Hill](#silent-hill)
     - [Castlevania](#castlevania)
+    - [Elebits](#elebits)
     - [Enthusia Professional Racing](#enthusia-professional-racing)
   - [Kuju London](#kuju-london)
   - [Kuro Games](#kuro-games)
@@ -352,7 +357,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Divine Divinity / Beyond Divinity](#divine-divinity--beyond-divinity)
   - [Level-5](#level-5)
-  - [Lionhead Studios (Black \& White)](#lionhead-studios-black--white)
+  - [Lionhead Studios (Black & White)](#lionhead-studios-black--white)
+  - [Lucky Chicken Games (Casper: Spirit Dimensions)](#lucky-chicken-games-casper-spirit-dimensions)
   - [Looking Glass Studios](#looking-glass-studios)
     - [System Shock 2](#system-shock-2)
     - [Thief](#thief)
@@ -382,6 +388,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gears of War](#gears-of-war)
     - [Forza](#forza)
     - [Age of Empires](#age-of-empires)
+    - [Microsoft Plus! for Windows XP](#microsoft-plus-for-windows-xp)
   - [Midway](#midway)
     - [Area 51](#area-51)
     - [Gauntlet](#gauntlet)
@@ -421,12 +428,12 @@ This list is for developers and modders working with such formats. It provides t
     - [Super Mario 64 DS](#super-mario-64-ds)
     - [Super Mario (Other)](#super-mario-other)
       - [Super Mario Sunshine](#super-mario-sunshine)
-      - [Super Mario Galaxy \& Odyssey](#super-mario-galaxy--odyssey)
+      - [Super Mario Galaxy & Odyssey](#super-mario-galaxy--odyssey)
       - [Mario Kart](#mario-kart)
       - [Mario Party](#mario-party)
       - [New Super Mario Bros.](#new-super-mario-bros)
-      - [Classic \& 2D Mario](#classic--2d-mario)
-      - [Other Games \& Decompilations](#other-games--decompilations)
+      - [Classic & 2D Mario](#classic--2d-mario)
+      - [Other Games & Decompilations](#other-games--decompilations)
     - [New Super Mario Bros Wii](#new-super-mario-bros-wii)
     - [Zelda](#zelda)
     - [Wii Sports](#wii-sports)
@@ -441,6 +448,7 @@ This list is for developers and modders working with such formats. It provides t
     - [The New Tetris](#the-new-tetris)
     - [New Super Mario Bros DS](#new-super-mario-bros-ds)
     - [Metroid Prime](#metroid-prime)
+    - [Donkey Kong Country Returns](#donkey-kong-country-returns)
     - [Pokemon](#pokemon)
   - [NPC Studio (Fields of Mistria)](#npc-studio-fields-of-mistria)
   - [Nippon Ichi Software](#nippon-ichi-software)
@@ -458,7 +466,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Outrage Entertainment](#outrage-entertainment)
     - [Descent 3](#descent-3)
   - [Panic (Playdate)](#panic-playdate)
+  - [Paradigm Entertainment](#paradigm-entertainment)
   - [Paradox Interactive](#paradox-interactive)
+  - [Parallax Software (Descent)](#parallax-software-descent)
   - [People Can Fly](#people-can-fly)
     - [Painkiller](#painkiller)
     - [Dreamkiller](#dreamkiller)
@@ -514,17 +524,17 @@ This list is for developers and modders working with such formats. It provides t
     - [Ryu Ga Gotoku Studio (Dragon Engine)](#ryu-ga-gotoku-studio-dragon-engine)
     - [Phantasy Star](#phantasy-star)
     - [Sonic Team (Hedgehog Engine)](#sonic-team-hedgehog-engine)
-      - [Decompilations \& Reconstructions](#decompilations--reconstructions)
+      - [Decompilations & Reconstructions](#decompilations--reconstructions)
       - [Retro Engine (RSDK)](#retro-engine-rsdk)
       - [Sonic Adventure](#sonic-adventure)
-      - [Sonic Heroes \& Shadow](#sonic-heroes--shadow)
-      - [Classic \& Handheld Sonic](#classic--handheld-sonic)
-      - [Modern Hedgehog Engine \& Mod Managers](#modern-hedgehog-engine--mod-managers)
+      - [Sonic Heroes & Shadow](#sonic-heroes--shadow)
+      - [Classic & Handheld Sonic](#classic--handheld-sonic)
+      - [Modern Hedgehog Engine & Mod Managers](#modern-hedgehog-engine--mod-managers)
     - [Creative Assembly](#creative-assembly)
       - [Alien: Isolation](#alien-isolation)
       - [Total War Series](#total-war-series)
     - [Puyo Puyo](#puyo-puyo)
-    - [System \& Middleware](#system--middleware)
+    - [System & Middleware](#system--middleware)
     - [Other Games](#other-games)
   - [Sierra On-Line](#sierra-on-line)
     - [Quest for Glory V: Dragonfire](#quest-for-glory-v-dragonfire)
@@ -571,7 +581,7 @@ This list is for developers and modders working with such formats. It provides t
   - [SuperTuxKart](#supertuxkart)
   - [Surreal Software](#surreal-software)
   - [TaleWorlds Entertainment](#taleworlds-entertainment)
-    - [Mount\&Blade](#mountblade)
+    - [Mount&Blade](#mountblade)
   - [Tamsoft](#tamsoft)
   - [Team Shanghai Alice (Touhou)](#team-shanghai-alice-touhou)
   - [Techland](#techland)
@@ -630,6 +640,8 @@ This list is for developers and modders working with such formats. It provides t
 - [🔗 Related Lists](#-related-lists)
 - [📄 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
+
+<!-- END doctoc -->
 
 ## 👥 Communities & Wikis
 
@@ -1040,9 +1052,10 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Multi-Game Viewers & Explorers
 
-- [noclip.website](https://github.com/magcius/noclip.website) - In-browser 3D viewer for 60+ games across multiple platforms and studios.
-  - Games: Source Engine games (17 titles including Half-Life 2, Portal 1 & 2, Team Fortress 2, CS:GO, L4D2),
-  Nintendo games (Mario 64, Mario Kart series, Zelda series, Pikmin, Luigi's Mansion, Super Mario Galaxy 1 & 2, Paper Mario series, Kirby, Smash Bros Melee/Brawl), Rare games (Banjo-Kazooie, DKC), GTA series (III, Vice City, San Andreas), Crash Bandicoot, Dark Souls, Katamari Damacy, Okami, Psychonauts, Need for Speed: Most Wanted, SpongeBob games, Outer Wilds, Halo CE, and more.
+- [noclip.website](https://github.com/magcius/noclip.website) - In-browser 3D viewer for 100+ games across multiple platforms and studios.
+  - Games: Source Engine games (17 titles including Half-Life 2, Portal 1 & 2, Team Fortress 2, CS:GO, L4D2), GoldSrc games (Half-Life, Counter-Strike, TFC, Day of Defeat), Quake,
+  Nintendo games (Mario 64, Mario Kart series, Zelda series, Pikmin, Luigi's Mansion, Super Mario Galaxy 1 & 2/Odyssey, Paper Mario series, Kirby, Smash Bros Melee/Brawl, Metroid Prime 1-3, Pokemon Snap/Platinum/HGSS, Pilotwings 64, Wii Sports), Rare games (Banjo-Kazooie, DKC), GTA series (III, Vice City, San Andreas), Crash Bandicoot, Spyro trilogy, Ratchet & Clank 1 & 2, Dark Souls, Katamari Damacy, Kingdom Hearts 1 & 2, Final Fantasy X, Dragon Quest VIII, Okami, Psychonauts, Need for Speed: Most Wanted, SpongeBob games, Jet Set Radio, Crazy Taxi, Sonic Colors, Ragnarok Online, Morrowind, World of Warcraft, Descent 1 & 2, Outer Wilds, Halo CE, and more.
+  - Also covers oddities such as the Microsoft Plus! for Windows XP screensavers and Wii channel banners.
 - [MeltyTool](https://github.com/MeltyPlayer/MeltyTool) - Multitool for viewing/extracting assets from various N64/GCN/3DS/PC games.
   - Games: Super Mario 64, Mario Artist (Polygon Studio, Talent Studio), Paper Mario TTYD, Super Paper Mario, Mario Kart Double Dash, Pikmin 1 & 2, Super Mario Sunshine, Chibi-Robo, Super Smash Bros. Melee, Battalion Wars 1 & 2, Super Mario 64 DS, Luigi's Mansion 3D, Majora's Mask 3D, Ocarina of Time 3D, Professor Layton vs. Phoenix Wright, Dead Space, Glover, Halo Wars, Celeste 64, Pokemon Colosseum, and more.
 - [FModel](https://fmodel.app/) - High-level package explorer and asset viewer for Unreal Engine 4 & 5, Unity, and other modern games. Supporting 1000+ games, it provides advanced visualization for textures, models (with animation support), audio, and specialized formats. Features include package bulk export, AES key management, and a robust search engine.
@@ -1146,8 +1159,8 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Engines, Libraries & Full Toolkits
 
-- [noclip.website (Source Engine)](https://github.com/magcius/noclip.website/tree/main/src/SourceEngine) - In-browser Source engine map viewer supporting Counter-Strike: Source, Half-Life 2, Half-Life 2: Deathmatch, Half-Life 2: Lost Coast, Half-Life 2: Episode 1, Half-Life 2: Episode 2, Team Fortress 2, Portal, Portal 2, Counter-Strike: Global Offensive, Left 4 Dead 2, The Stanley Parable, Infra, Neo Tokyo, and Estranged: Act I.
-- [noclip.website (GoldSrc)](https://github.com/magcius/noclip.website/tree/main/src/GoldSrc) - In-browser Half-Life (GoldSrc) viewer.
+- [noclip.website (Source Engine)](https://github.com/magcius/noclip.website/tree/main/src/SourceEngine) - In-browser Source engine map viewer supporting Counter-Strike: Source, Day of Defeat: Source, Half-Life 2, Half-Life 2: Deathmatch, Half-Life 2: Lost Coast, Half-Life 2: Episode 1, Half-Life 2: Episode 2, Team Fortress 2, Portal, Portal 2, Counter-Strike: Global Offensive, Left 4 Dead 2, The Stanley Parable, Infra, Neo Tokyo, and Estranged: Act I.
+- [noclip.website (GoldSrc)](https://github.com/magcius/noclip.website/tree/main/src/GoldSrc) - In-browser GoldSrc map viewer supporting Half-Life, Counter-Strike, Team Fortress Classic, and Day of Defeat.
 - [srctools](https://github.com/TeamSpen210/srctools) - Python modules for working with Source Engine file formats.
   - Formats: VMF, BSP, VPK.
 - [go-valve](https://github.com/handsomematt/go-valve) - Go library for querying A2S server information from Source servers.
@@ -1297,6 +1310,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Texture2DDecoder](https://github.com/KiruyaMomochi/Texture2DDecoder) - Decodes Unity Texture2D assets to standard image files; based on AssetStudio.
 - [TypeTreeDumps](https://github.com/AssetRipper/TypeTreeDumps) - Archive of Unity version struct layouts (type tree information) since version 3.4.0, essential for asset format understanding.
 - [UnityLive2DExtractor](https://github.com/aelurum/UnityLive2DExtractor) - Extracts Live2D Cubism 3 assets from Unity AssetBundles. Handles moc3 models, motion3 animations, physics3 configuration, and other Live2D format files.
+- [noclip.website (Unity)](https://github.com/magcius/noclip.website/tree/main/src/Common/Unity) - From-scratch TypeScript/Rust reader for Unity SerializedFile and AssetBundle data. Reconstructs GameObject hierarchies, meshes, textures (including Crunch), and materials for in-browser rendering; drives the A Short Hike, Neon White, and Outer Wilds viewers.
 
 ### Unreal Engine
 
@@ -1745,6 +1759,7 @@ This list is for developers and modders working with such formats. It provides t
 - [wfslib](https://github.com/koolkdev/wfslib) - WFS (WiiU File System) library and tools.
 - [Cafe-Shader-Studio](https://github.com/KillzXGaming/Cafe-Shader-Studio) - Shader editor and viewer for Wii U games.
 - [GTX-Extractor](https://github.com/Gota7/GTX-Extractor) - Wii U GX2 texture extraction tool. Converts GTX texture files to DDS format for use in modding and asset extraction.
+- [noclip.website (Wii U Transfer Tool)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser viewer for the Wii U Transfer Tool's scenes, reading the app's NW4R/BRRES assets.
 
 #### 3DS
 
@@ -1777,6 +1792,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: ISO (GCM), WIA/RVZ, WBFS, CISO, NFS (Wii U VC), GCZ, TGC.
 - [GCReLink](https://github.com/Cuyler36/GCReLink) - Tool for unpacking and repacking GameCube and Wii relocatable modules (REL files).
 - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
+- [noclip.website (Wii Banners)](https://github.com/magcius/noclip.website/tree/main/src/Common/NW4R/lyt) - Renderer for NW4R LYT UI layouts, used to play back animated Wii channel banners from `banner.bin` archives. Parses BRLYT layouts, BRLAN animations, and NW4R bitmap fonts.
 
 #### Nintendo DS / DSi
 
@@ -2147,6 +2163,7 @@ This list is for developers and modders working with such formats. It provides t
 - [p5-rte](https://github.com/TheHiddenHour/p5-rte) - Real-time editing tool for Persona 5 on jailbroken PS3. Allows editing of persona slots, stats, and skills using PS3Lib.
 - [GMDTool](https://github.com/lemoncove/GMDTool) - Command-line utility to convert Persona .GMD model files to Collada .DAE format. Uses GFDLibrary for GMD loading.
 - [PersonaEditor](https://github.com/Meloman19/PersonaEditor) - File editor for Persona series (3, 4, 5) supporting multiple container formats (BIN, PAK, PAC, CPK, P00, ARC, PM1, BF, BVP, TBL, FTD) with asset extraction and modification.
+- [noclip.website (Tokyo Mirage Sessions ♯FE)](https://github.com/magcius/noclip.website/tree/main/src/TokyoMirageSessionsSharpFE) - In-browser Tokyo Mirage Sessions ♯FE (Wii U) map viewer. Parses APAK archives plus BFRES models and BNTX textures, with lightmap, gimmick, and map-layout support.
 
 ### Avalanche Studios (Generation Zero)
 
@@ -2278,6 +2295,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Bohemia Interactive
 
 - [BI Editing Tools 2 (ARMA 2)](https://www.moddb.com/games/arma-2/downloads/bi-editing-tools-2) - Complete editing tool suite for Bohemia Interactive's game engine used in ARMA II. This installer will overwrite previously released BI Editing Tools for Arma I (user made data are intact) and it can not be possible to pack and finalize content for Arma I using the newer tools. Despite it may be ...
+
+### Boss Game Studios (Top Gear Rally)
+
+- [noclip.website (Top Gear Rally)](https://github.com/magcius/noclip.website/tree/main/src/TopGearRally) - In-browser Top Gear Rally (N64) track viewer covering all five tracks plus mirrored variants, with a Python extractor for pulling track data out of the ROM. Renders spline-animated scenery, animated textures, and reflections on top of an F3DEX display-list interpreter.
 
 ### Bugbear Entertainment (FlatOut)
 
@@ -2597,6 +2618,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [X4Tools](https://github.com/REDxEYE/X4Tools) - Standalone plugin for importing and exporting assets from X4 game.
 
+### Eighting (Naruto: Gekitō Ninja Taisen!)
+
+- [noclip.website (Naruto: Gekitō Ninja Taisen! 4)](https://github.com/magcius/noclip.website/tree/main/src/NarutoGNT4) - In-browser stage viewer for Naruto: Gekitō Ninja Taisen! 4 (GameCube), the Japan-only fourth entry in the series known in the West as Naruto: Clash of Ninja. Unpacks the game's FPK archives and their compression.
+
 ### Electronic Arts
 
 #### Frostbite
@@ -2842,6 +2867,7 @@ This list is for developers and modders working with such formats. It provides t
 - [DSMSPortable](https://github.com/mountlover/DSMSPortable/tree/main) - Portable version of DSMapStudio.
 - [dark-souls-map-viewer](https://github.com/colevk/dark-souls-map-viewer) - Web-based Dark Souls map viewer.
 - [noclip.website (DarkSouls)](https://github.com/magcius/noclip.website/tree/main/src/DarkSouls) - In-browser Dark Souls map viewer.
+- [noclip.website (Dark Souls collision)](https://github.com/magcius/noclip.website/tree/main/src/DarkSoulsCollisionData) - Separate in-browser viewer for Dark Souls' collision geometry, rendering the hit meshes independently of the visual map data.
 
 #### Scripting, FX, Params & Runtime Modding
 
@@ -2990,6 +3016,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for reading GRF archives found in Ragnarok Online.
 - [grf-python](https://github.com/cmbasnett/grf-python) - Python wrapper for libgrf.
+- [noclip.website (Ragnarok Online)](https://github.com/magcius/noclip.website/tree/main/src/RagnarokOnline) - In-browser Ragnarok Online map viewer.
+  - Formats: RSW (world), GND (ground/terrain), RSM (models), GAT (altitude/collision), SPR/ACT (sprites and sprite animation), STR (effects), Granny (`.gr2` models and animation).
+  - Features: Water, weather and particle effects, dynamic lights, shadows, warp portals, name tags, pathfinding, era selection, and BGM playback.
 
 ### Gremlin Interactive
 
@@ -3003,6 +3032,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [io_scene_cmb](https://github.com/M-1-RLG/io_scene_cmb) - Blender add-on for Grezzo's "Ctr Model Binary" (CMB) format.
 - [noclip.website (OoT3D)](https://github.com/magcius/noclip.website/tree/main/src/OcarinaOfTime3D) - In-browser Ocarina of Time 3D viewer.
+- [noclip.website (Luigi's Mansion 3D)](https://github.com/magcius/noclip.website/tree/main/src/OcarinaOfTime3D) - In-browser Luigi's Mansion 3D viewer, sharing Grezzo's CMB/ZAR/ZSI loader with the OoT3D and Majora's Mask 3D viewers.
 - [MeltyTool (Grezzo)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/Grezzo) - Grezzo format viewer/exporter.
 - [N3DSCmbViewer](https://github.com/xdanieldzd/N3DSCmbViewer) - Viewer for 3DS CMB models.
 - [Scarlet](https://github.com/xdanieldzd/Scarlet) - General purpose 3DS/Vita game tool.
@@ -3208,6 +3238,7 @@ This list is for developers and modders working with such formats. It provides t
 - [LunarViewer](https://github.com/TheEnbyWitch/LunarViewer) - Model viewer for Quake 1 and Hexen 2 (MDL format).
 - [QuakePrism](https://github.com/lancebord/QuakePrism) - Engine editor/IDE for the Quake engine that streamlines mod and game development, working with PAK/WAD archives and Quake model formats.
 - [io_export_qmap](https://github.com/c-d-a/io_export_qmap) - Blender add-on that exports geometry to the Quake `.map` brush format.
+- [noclip.website (Quake)](https://github.com/magcius/noclip.website/tree/main/src/Quake) - In-browser Quake level viewer, parsing id Tech 2 BSP maps and WAD texture lumps (all four episodes plus the deathmatch arenas).
 - [Blender_BSP_Importer](https://github.com/SomaZ/Blender_BSP_Importer) - Blender importer for id Tech 3 BSP maps (Quake III and derivatives); imports entities and converts Quake 3 shaders to Eevee materials.
 
 #### Modern DOOM (id Tech 4 / 6 / 7)
@@ -3304,11 +3335,16 @@ This list is for developers and modders working with such formats. It provides t
 - [SpmViewer](https://github.com/follyfoxe/SpmViewer) - Tool for viewing Super Paper Mario model files.
 - [ttyd-utils](https://github.com/jdaster64/ttyd-utils) - Utilities for modding Paper Mario: TTYD.
 - [noclip.website (TTYD)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTTYD) - In-browser TTYD map viewer.
+- [noclip.website (Super Paper Mario)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTTYD) - In-browser Super Paper Mario (Wii) map viewer, sharing the TTYD loader.
 - [MeltyTool (TTYD)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/PaperMarioTheThousandYearDoor) - Model viewer/exporter.
 - [PistonMiner/ttyd-tools](https://github.com/PistonMiner/ttyd-tools) - Development tools including Blender exporter, disassembler, and REL linker.
 - [PaperMarioModelViewer](https://github.com/uyjulian/PaperMarioModelViewer) - Model viewer for Paper Mario games.
 - [lzarc](https://github.com/jam1garner/lzarc) - Rust library and CLI for extracting and packing LZARC compressed archives used in Paper Mario Color Splash.
 - [CollisionSceneBinary](https://github.com/KillzXGaming/CollisionSceneBinary) - A library and tool for handling csb and ctb collision files found in paper mario games.
+
+#### Paper Mario: The Origami King
+
+- [noclip.website (Paper Mario: The Origami King)](https://github.com/magcius/noclip.website/tree/main/src/PaperMarioTheOrigamiKing) - In-browser Paper Mario: The Origami King (Switch) map viewer. Reads the game's Zstd-compressed ELF data files for level/model definitions and object placement (mobj/sobj/aobj/npc/item instances) alongside BFRES models.
 
 ### Interactive Studios
 
@@ -3435,6 +3471,10 @@ This list is for developers and modders working with such formats. It provides t
 - [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
 - [ooe (decomp)](https://github.com/LagoLunatic/ooe) - Matching decompilation of Castlevania: Order of Ecclesia (Nintendo DS).
 
+#### Elebits
+
+- [noclip.website (Elebits)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Elebits (Wii) level viewer, built on noclip's NW4R/BRRES loader.
+
 #### Enthusia Professional Racing
 
 - [EnthusiaVolumeFS](https://github.com/Nenkai/EnthusiaVolumeFS) - Extract files from Enthusia Professional Racing volumes (PS2). Supports SLPM_68519 (Subaru Demo), SLPM_65948 (Japan), SLUS_20967 (US), and SLES_53125 (Europe).
@@ -3521,6 +3561,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [blackandwhite_ci](https://github.com/Daniels118/blackandwhite_ci) - Modding toolkit for Black & White: Creature Isle, with parsers and decompilers for CHL binary game script files (bidirectional CHL ↔ source code conversion).
+
+### Lucky Chicken Games (Casper: Spirit Dimensions)
+
+- [noclip.website (Casper: Spirit Dimensions)](https://github.com/magcius/noclip.website/tree/main/src/CasperSpiritDimensions) - In-browser level viewer for Casper: Spirit Dimensions (GameCube/PS2, TDK Mediactive), covering all 16 levels and parsing the game's custom `.BSP` map format.
 
 ### Looking Glass Studios
 
@@ -3696,6 +3740,10 @@ This list is for developers and modders working with such formats. It provides t
   - Tools: Ravioli Tools, vgmstream, Advanced Genie Editor.
 - [halo (decomp)](https://github.com/halo-re/halo) - Matching decompilation of Halo: Combat Evolved (Xbox).
 - [OniFoxed](https://github.com/hogsy/OniFoxed) - Bungie's Oni source modified to build with modern Visual Studio, enabling study and modification of the game and its original data formats.
+
+#### Microsoft Plus! for Windows XP
+
+- [noclip.website (Plus! for XP)](https://github.com/magcius/noclip.website/tree/main/src/PlusForXP) - In-browser recreation of the 3D screensavers shipped with Microsoft Plus! for Windows XP (Mercury Pool, Robot Circus, Sand Pendulum), including a parser for the games' SCX scene format, light baking, keyframe animation, and reimplementations of each screensaver's simulation logic.
 
 ### Midway
 
@@ -3986,6 +4034,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [OdysseyDecomp (decomp)](https://github.com/MonsterDruide1/OdysseyDecomp) - Matching decompilation of Super Mario Odyssey for all versions.
 - [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) - Level editor for Super Mario Odyssey and other Switch games using the same engine.
+- [noclip.website (Super Mario Odyssey)](https://github.com/magcius/noclip.website/tree/main/src/fres_nx) - In-browser Super Mario Odyssey viewer, with a from-scratch reader for the Switch NX graphics formats: BFRES models, BNTX textures (including Tegra swizzle/block-linear decoding), and SARC archives.
 - [noclip.website (Super Mario Galaxy)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy viewer.
 - [noclip.website (Super Mario Galaxy 2)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy 2 viewer.
 - [GSTExtract](https://github.com/shibbo/GSTExtract) - Extracts the data out of .gst files found in Super Mario Galaxy 1 and 2.
@@ -4143,6 +4192,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Metaforce](https://github.com/AxioDL/metaforce) - Native reimplementation of the Metroid Prime engine with asset parsing.
 - [PrimeWorldEditor](https://github.com/AxioDL/PrimeWorldEditor) - Modding tools and world/level editor suite for the Metroid Prime series, providing asset browsing and editing across Metroid Prime 1-3.
 
+#### Donkey Kong Country Returns
+
+- [noclip.website (Donkey Kong Country Returns)](https://github.com/magcius/noclip.website/tree/main/src/MetroidPrime) - In-browser Donkey Kong Country Returns (Wii) viewer, reusing noclip's Retro Studios engine loader from the Metroid Prime viewers.
+
 #### Pokemon
 
 - [noclip.website (Pokemon Snap)](https://github.com/magcius/noclip.website/tree/main/src/PokemonSnap) - In-browser Pokemon Snap viewer.
@@ -4229,6 +4282,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [spyroedit](https://github.com/LXShades/spyroedit) - Emulator plugin for modifying Spyro the Dragon games on PlayStation 1. Compatible with Windows emulators such as ePSXe and PCSX. Features include editing level textures and colors, replacing level skies, modifying object properties, and editing scenery positions.
 - [spyro-1 (decomp)](https://github.com/TheMobyCollective/spyro-1) - Matching decompilation of Spyro the Dragon.
+- [noclip.website (Spyro)](https://github.com/magcius/noclip.website/tree/main/src/Spyro) - In-browser level viewer for the PS1 Spyro trilogy (Spyro the Dragon, Spyro 2: Ripto's Rage!, Spyro: Year of the Dragon), parsing the games' WAD subfile geometry, sky, and texture-tile data. Data structures derived from Kly_Men_COmpany's Spyro World Viewer.
 
 #### Jak and Daxter
 
@@ -4261,9 +4315,25 @@ This list is for developers and modders working with such formats. It provides t
 - [playdate-reverse-engineering](https://github.com/cranksters/playdate-reverse-engineering) - Reverse engineering notes and tools for Playdate handheld console.
 - [noclip.website (A Short Hike)](https://github.com/magcius/noclip.website/tree/main/src/AShortHike) - In-browser A Short Hike viewer.
 
+### Paradigm Entertainment
+
+*Pilotwings 64 and Beetle Adventure Racing! share the same N64 engine and its `UV*` format family.*
+
+- [noclip.website (Pilotwings 64)](https://github.com/magcius/noclip.website/tree/main/src/Pilotwings64) - In-browser Pilotwings 64 viewer, parsing the engine's `UV*` resource chunks (UVTR terrain regions, UVCT contours, UVMD models, UVTX textures, UVEN environments) out of the ROM.
+- [noclip.website (Beetle Adventure Racing!)](https://github.com/magcius/noclip.website/tree/main/src/BeetleAdventureRacing) - In-browser Beetle Adventure Racing! (N64) track viewer, reading the game's filesystem and the same `UV*` chunk formats as Pilotwings 64 (plus UVTS texture sequences and UVTT track data).
+
 ### Paradox Interactive
 
 - [io_pdx_mesh](https://github.com/ross-g/io_pdx_mesh) - Blender addon for importing Paradox Interactive mesh formats.
+
+### Parallax Software (Descent)
+
+*See also [Descent 3](#descent-3) under Outrage Entertainment for the later entry in the series.*
+
+- [noclip.website (Descent 1 & 2)](https://github.com/magcius/noclip.website/tree/main/src/Descent1_2) - In-browser mine viewer for the PC versions of Descent, Descent II, and Descent II: Vertigo.
+  - Formats: HOG archives, RDL/RL2 levels, PIG texture/sprite libraries, HAM (Descent II data), `.256` palettes.
+  - Features: Textured mine geometry with overlay and supertransparency layers, animated and sliding textures, static and dynamic lighting, and rendering of robots, powerups, hostages, reactors, red mines, and player spawns.
+  - Parsing code derived in part from [LibDescent](https://github.com/InsanityBringer/LibDescent/).
 
 ### People Can Fly
 
@@ -4697,6 +4767,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SkiesofArcadiaLegends (decomp)](https://github.com/rainchus/SkiesofArcadiaLegends) - Matching decompilation of Skies of Arcadia Legends (GameCube).
 - [JSRGraffitiTool](https://github.com/chrisderwahre/JSRGraffitiTool) - Tool for modding Jet Set Radio's graffiti files.
 - [noclip.website (Jet Set Radio)](https://github.com/magcius/noclip.website/tree/main/src/JetSetRadio) - In-browser Jet Set Radio viewer.
+- [noclip.website (Mario & Sonic at the London 2012 Olympic Games)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser viewer for the Wii Mario & Sonic Olympic Games title, built on noclip's NW4R/BRRES loader.
 - [PCSX2 Patches](https://github.com/PCSX2/pcsx2_patches) - Game patches for PCSX2 emulator including widescreen and interlacing fixes.
 - [clownlzss](https://github.com/Clownacy/clownlzss) - LZSS compression framework with compressors for Sega Mega Drive game formats. Supports Kosinski, Saxman, Chameleon, and Rocket compression formats.
 
@@ -4762,6 +4833,7 @@ This list is for developers and modders working with such formats. It provides t
 - [replanetizer](https://github.com/RatchetModding/replanetizer) - Full-featured level editor for PS3 Ratchet & Clank games.
 - [RaCTrilogy-PS3-Tools](https://github.com/thtrandomlurker/RaCTrilogy-PS3-Tools) - Python scripts for extracting armor and model meshes from Ratchet & Clank PS3 Trilogy.
 - [wrench](https://github.com/chaoticgd/wrench) - Set of modding tools for the Ratchet & Clank PS2 games.
+- [noclip.website (Ratchet & Clank)](https://github.com/magcius/noclip.website/tree/main/src/RatchetAndClank) - In-browser level viewer for Ratchet & Clank and Ratchet & Clank: Going Commando (PS2). Parses the level `.bin` TOC/core/gameplay containers and renders tfrag terrain, tie and shrub instances, moby actors, collision meshes, and skies, including a VIF/VU microcode unpacker for the PS2 display lists.
 - [horizon-forge](https://github.com/Horizon-Private-Server/horizon-forge) - Map editor for Ratchet: Deadlocked Multiplayer (PS2).
 - [Overstrike](https://github.com/Tkachov/Overstrike) - Open-source mod manager for PC ports of Insomniac Games' games.
 
