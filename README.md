@@ -2352,6 +2352,7 @@ This list is for developers and modders working with such formats. It provides t
 - [OpenKeeper](https://github.com/tonihele/openkeeper) - Dungeon Keeper II remake in Java
 - [dk2-tools](https://github.com/ufdada/dk2-tools) - Dungeon Keeper 2 Tools in C
 - [GLKeeper](https://github.com/codenamecpp/GLKeeper) - Open Source Dungeon Keeper 2 Reimplementation
+- [DungeonKeeperReborn](https://github.com/joko1977-ui/DungeonKeeperReborn) - Dungeon Keeper Reborn in TypeScript
 
 #### Syndicate Wars
 
