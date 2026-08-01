@@ -2350,6 +2350,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Dungeon Keeper Remake](https://github.com/Themperror/Dungeon-Keeper-Remake) - A modern remake of Dungeon Keeper
 - [KeeperFX](https://github.com/dkfans/keeperfx) - Dungeon Keeper FX reverse-engineered fan project of Bullfrog's Dungeon Keeper
 - [OpenKeeper](https://github.com/tonihele/openkeeper) - Dungeon Keeper II remake in Java
+- [dk2-tools](https://github.com/ufdada/dk2-tools) - Dungeon Keeper 2 Tools in C
 
 #### Syndicate Wars
 
