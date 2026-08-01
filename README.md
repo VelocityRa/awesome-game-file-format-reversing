@@ -2353,6 +2353,8 @@ This list is for developers and modders working with such formats. It provides t
 - [dk2-tools](https://github.com/ufdada/dk2-tools) - Dungeon Keeper 2 Tools in C
 - [GLKeeper](https://github.com/codenamecpp/GLKeeper) - Open Source Dungeon Keeper 2 Reimplementation
 - [DungeonKeeperReborn](https://github.com/joko1977-ui/DungeonKeeperReborn) - Dungeon Keeper Reborn in TypeScript
+- [keeperfx-linux-alpha](https://github.com/ForkedInTime/keeperfx-linux-alpha) - KeeperFX — Tux Edition · the native Linux build of KeeperFX (Dungeon Keeper). No Wine/Proton/DOSBox — one AppImage. Unofficial, community-maintained, re-synced with upstream.
+- [DungeonKeeper](https://github.com/Kamikitte/DungeonKeeper) - Dungeon Keeper C#
 
 #### Syndicate Wars
 
