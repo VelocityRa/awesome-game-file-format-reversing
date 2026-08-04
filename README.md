@@ -197,9 +197,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
   - [Bugbear Entertainment (Wreckfest)](#bugbear-entertainment-wreckfest)
   - [Bullfrog Productions](#bullfrog-productions)
-    - [DungeonKeeper](#dungeon-keeper)
+    - [Dungeon Keeper](#dungeon-keeper)
     - [Syndicate Wars](#syndicate-wars)
-    - [Populous The Beginning](#populous-the-beginning)
+    - [Populous: The Beginning](#populous-the-beginning)
     - [Hi-Octane](#hi-octane)
     - [Creation](#creation)
   - [Capcom](#capcom)
@@ -895,7 +895,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
 - [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
-- [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - colorized hexdump/xxd based on [xcd](https://git.sr.ht/~breadbox/xcd)
+- [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - Command-line hexdump with colored output, based on [xcd](https://git.sr.ht/~breadbox/xcd).
 
 ### 🔬 Format Analysis & Reverse Engineering
 
@@ -2347,28 +2347,27 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Dungeon Keeper
 
-- [Dungeon Keeper Remake](https://github.com/Themperror/Dungeon-Keeper-Remake) - A modern remake of Dungeon Keeper
-- [KeeperFX](https://github.com/dkfans/keeperfx) - Dungeon Keeper FX reverse-engineered fan project of Bullfrog's Dungeon Keeper
-- [OpenKeeper](https://github.com/tonihele/openkeeper) - Dungeon Keeper II remake in Java
-- [dk2-tools](https://github.com/ufdada/dk2-tools) - Dungeon Keeper 2 Tools in C
-- [GLKeeper](https://github.com/codenamecpp/GLKeeper) - Open Source Dungeon Keeper 2 Reimplementation
-- [DungeonKeeperReborn](https://github.com/joko1977-ui/DungeonKeeperReborn) - Dungeon Keeper Reborn in TypeScript
-- [keeperfx-linux-alpha](https://github.com/ForkedInTime/keeperfx-linux-alpha) - KeeperFX — Tux Edition · the native Linux build of KeeperFX (Dungeon Keeper). No Wine/Proton/DOSBox — one AppImage. Unofficial, community-maintained, re-synced with upstream.
-- [DungeonKeeper](https://github.com/Kamikitte/DungeonKeeper) - Dungeon Keeper C#
+- [KeeperFX](https://github.com/dkfans/keeperfx) - Decompiled and continuously rewritten fan port of Dungeon Keeper 1, reading the original game's data files. Long-running community project with extensive modding/campaign support.
+- [OpenKeeper](https://github.com/tonihele/openkeeper) - Open-source remake of Dungeon Keeper II in Java/jMonkeyEngine, running entirely on the original game assets.
+- [GLKeeper](https://github.com/codenamecpp/GLKeeper) - Dungeon Keeper II reimplementation in C++/OpenGL, loading the original assets (not yet playable).
+- [Dungeon Keeper Remake](https://github.com/Themperror/Dungeon-Keeper-Remake) - Dungeon Keeper 1 remake in C++/DirectX 11 that drops into the original game folder. Includes RNC decompression for the game's compressed assets and Smacker (SMK) video playback.
+- [dk2-tools](https://github.com/ufdada/dk2-tools) - 010 Editor binary templates and conversion scripts documenting Dungeon Keeper 2 file formats.
+  - Formats: WAD, SPR, EngineTextures.dat/.dir (archives), KWD/KLD (levels), KMF (models), BF4 (fonts), KCS (camera sweeps), SDT/*BANK.map/*SFX.map (audio), STR, residx.dat, HiScores.dat, Addressbook.dat.
 
 #### Syndicate Wars
 
 - [Syndicate Wars Port](https://github.com/swfans/syndwarsfx) - Open-source reverse-engineered port of Bullfrog's Syndicate Wars, reading the original game's data files.
 
-#### Populous The Beginning
+#### Populous: The Beginning
 
-- [Populous-The-Beginning-Public](https://github.com/TylerTheFox/Populous-The-Beginning-Public) - Open Repository For A Bullfrog Productions Game
-- [PopResourceEditor](https://github.com/Toksisitee/PopResourceEditor) - Open-source asset editor and manager written in C++ for Bullfrog's Populous: The Beginning game, designed to preview, modify, and generate the game assets.
+- [PopResourceEditor](https://github.com/Toksisitee/PopResourceEditor) - Asset editor and manager in C++ for Populous: The Beginning, with preview, import, modification and export of the game's data files.
+  - Formats: Level (v2) maps, Palette (256-color indexed), Sprite, Sky, Blocks (3D texture atlas), BigFade/Cliff/Fade (landscape textures), Disp (displacement maps), Alpha, Ghost.
+- [Populous-The-Beginning-Public](https://github.com/TylerTheFox/Populous-The-Beginning-Public) - Reverse-engineering and reimplementation work on Populous: The Beginning (C++).
 
 #### Hi-Octane
 
-- [hi-octane202x](https://github.com/woalexan/hi-octane202x) - Hi-Octane port using the Irrlicht Engine with level editor
-- [HiOctaneTools](https://github.com/movAX13h/HiOctaneTools) - Tools to inspect and modify levels of the game Hi-Octane by Bullfrog (1995)
+- [hi-octane202x](https://github.com/woalexan/hi-octane202x) - Recreation of Hi-Octane in C++/Irrlicht, running on the original game data (`HIOCTANE.CD`), with an integrated level editor.
+- [HiOctaneTools](https://github.com/movAX13h/HiOctaneTools) - Level inspector and editor for Hi-Octane (1995) in C#, based on srtuss's and movAX13h's reverse-engineering of the game's files. Includes a Bullfrog object data to Wavefront OBJ converter.
 
 #### Creation
 
