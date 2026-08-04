@@ -988,7 +988,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Binary Visualization & Diffing
 
-- [Veles](https://codisec.com/veles/) - Binary analysis and visualization tool for reverse engineering (open-source).
+- [Veles](https://github.com/codilime/veles) - Binary analysis and visualization tool for reverse engineering (open-source, archived; the codisec.com site is gone).
 - [DataExplorer](https://github.com/x64dbg/DataExplorer) - Data explorer plugin for x64dbg debugger that integrates the pattern language from ImHex.
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [pics](https://github.com/corkami/pics) - File formats dissections and visualizations for reverse engineering.
