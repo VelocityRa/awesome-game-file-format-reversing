@@ -4580,6 +4580,7 @@ This list is for developers and modders working with such formats. It provides t
 - [GameloftEngineLoader](https://github.com/REDxEYE/GameloftEngineLoader) - UniLoader addon for importing Gameloft engine PIG files. Supports meshes, textures, transforms, nodes, and compression (LZ4, ZSTD).
 - [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
 - [SF.GLA.Tool](https://github.com/Ekey/SF.GLA.Tool) - Tool for extracting GLA archives from Sniper Fury.
+- [Minion-Rush-Modding-Tools](https://github.com/marethyu/Minion-Rush-Modding-Tools) - Scripts for modding Minion Rush. Contains an editor for BLIBCLARA files.
 
 ### GarageGames
 
