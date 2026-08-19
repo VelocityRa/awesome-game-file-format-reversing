@@ -870,8 +870,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Ocean Software](#ocean-software)
     - [Head Over Heels](#head-over-heels)
   - [Oddworld Inhabitants](#oddworld-inhabitants)
-    - [Spyro the Dragon](#spyro-the-dragon)
-    - [Jak and Daxter](#jak-and-daxter)
   - [Origin Systems](#origin-systems)
     - [Ultima V](#ultima-v)
     - [Ultima V](#ultima-v-1)
@@ -1034,9 +1032,11 @@ This list is for developers and modders working with such formats. It provides t
   - [Sony PlayStation Studios](#sony-playstation-studios)
     - [Guerrilla Games (Decima Engine)](#guerrilla-games-decima-engine)
     - [Insomniac Games](#insomniac-games)
+      - [Spyro the Dragon](#spyro-the-dragon)
     - [SIE Japan Studio (Ape Escape)](#sie-japan-studio-ape-escape)
     - [Naughty Dog](#naughty-dog)
       - [Crash Bandicoot Series](#crash-bandicoot-series)
+      - [Jak and Daxter](#jak-and-daxter)
       - [Uncharted](#uncharted)
       - [The Last of Us](#the-last-of-us)
       - [Engine & Format Tools (Multi-Game)](#engine--format-tools-multi-game)
@@ -7383,7 +7383,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Beyond the World
 
-- [BW.WPK.Tool](https://github.com/Ekey/BW.WPK.Tool) - Tool for extracting WPK archives from the mobile game Beyond the World.
+- [BW.WPK.Tool](https://github.com/Mu-L/BW.WPK.Tool) - Tool for extracting WPK archives from the mobile game Beyond the World. Mirror; the original Ekey/BW.WPK.Tool was blocked by a DMCA takedown.
 
 #### LifeAfter
 
@@ -8023,26 +8023,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Asset Tool (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/asset-tool) - Tool for converting Oddworld: Abe's Exoddus cutscenes to MP4 and previewing/exporting sprites from both Abe's Oddysee and Abe's Exoddus. Requires level files from both games, the tool, and ffmpeg.exe.
 - [Sprite / CAM Extractor (Oddworld: Abe's Exoddus)](https://www.moddb.com/games/oddworld-abes-exoddus/downloads/sprite-cam-extractor) - Application for converting "cam" files from the PC versions of Oddworld: Abe's Exoddus and Oddworld: Abe's Oddysee.
-
-
-- [crash-ps2 (decomp)](https://github.com/calmsacibis995/crash-ps2) - Matching decompilation of Crash Bandicoot: The Wrath of Cortex (PS2).
-
-#### Spyro the Dragon
-
-- [spyroedit](https://github.com/LXShades/spyroedit) - Emulator plugin for modifying Spyro the Dragon games on PlayStation 1. Compatible with Windows emulators such as ePSXe and PCSX. Features include editing level textures and colors, replacing level skies, modifying object properties, and editing scenery positions.
-- [spyro-1 (decomp)](https://github.com/TheMobyCollective/spyro-1) - Matching decompilation of Spyro the Dragon.
-- [noclip.website (Spyro)](https://github.com/magcius/noclip.website/tree/main/src/Spyro) - In-browser level viewer for the PS1 Spyro trilogy (Spyro the Dragon, Spyro 2: Ripto's Rage!, Spyro: Year of the Dragon), parsing the games' WAD subfile geometry, sky, and texture-tile data. Data structures derived from Kly_Men_COmpany's Spyro World Viewer.
-- [Spyro-Scope](https://github.com/FranklyGD/Spyro-Scope) - Program that peers into the PS1 Spyro games' data, converting it for easier viewing and analysis (archived).
-
-#### Jak and Daxter
-
-- [jak1-vag-splitter](https://github.com/blahpy/jak1-vag-splitter) - Tool for splitting VAG audio files from Jak and Daxter 1.
-- [JakAndDaxter1Sound](https://github.com/efimandreev0/JakAndDaxter1Sound) - Sound extraction and playback tool for Jak and Daxter 1.
-- [Blender-Script-JaD-Actors](https://github.com/innocentmiau/Blender-Script-JaD-Actors) - Blender script for importing Jak and Daxter actor models.
-- [JakAudioTools](https://github.com/jwetzell/JakAudioTools) - Audio extraction and conversion tools for Jak and Daxter series.
-- [JakAudioTool](https://github.com/LuminarLight/JakAudioTool) - GUI tool for working with Jak and Daxter audio files.
 - [alive_reversing](https://github.com/AliveTeam/alive_reversing) - Open-source engine replacement and decompilation for Oddworld: Abe's Oddysee and Oddworld: Abe's Exoddus with bug fixes and modding support.
-- [jak-project](https://github.com/open-goal/jak-project) - OpenGOAL: reimplementation of the GOAL compiler/runtime and a native PC port for the Jak and Daxter series, built by reverse-engineering the original game code and data.
 
 ### Origin Systems
 
@@ -9119,6 +9100,13 @@ This list is for developers and modders working with such formats. It provides t
 - [RCHooker](https://github.com/CreepNT/RCHooker) - Plugin for reverse engineering and modding Ratchet & Clank (PS Vita).
 - [RCFiosOverlay](https://github.com/CreepNT/RCFiosOverlay) - SceFios2 filesystem overlay for loading modded assets in Ratchet & Clank HD (PS Vita).
 
+##### Spyro the Dragon
+
+- [spyroedit](https://github.com/LXShades/spyroedit) - Emulator plugin for modifying Spyro the Dragon games on PlayStation 1. Compatible with Windows emulators such as ePSXe and PCSX. Features include editing level textures and colors, replacing level skies, modifying object properties, and editing scenery positions.
+- [spyro-1 (decomp)](https://github.com/TheMobyCollective/spyro-1) - Matching decompilation of Spyro the Dragon.
+- [noclip.website (Spyro)](https://github.com/magcius/noclip.website/tree/main/src/Spyro) - In-browser level viewer for the PS1 Spyro trilogy (Spyro the Dragon, Spyro 2: Ripto's Rage!, Spyro: Year of the Dragon), parsing the games' WAD subfile geometry, sky, and texture-tile data. Data structures derived from Kly_Men_COmpany's Spyro World Viewer.
+- [Spyro-Scope](https://github.com/FranklyGD/Spyro-Scope) - Program that peers into the PS1 Spyro games' data, converting it for easier viewing and analysis (archived).
+
 #### SIE Japan Studio (Ape Escape)
 
 - [ApeEscapeRecomp](https://github.com/mstan/ApeEscapeRecomp) - Static recompilation of Ape Escape (PS1) into native code.
@@ -9141,6 +9129,16 @@ This list is for developers and modders working with such formats. It provides t
 - [Crash-NST-Level-Editor](https://github.com/kishimisu/Crash-NST-Level-Editor) - Level editor, archive editor, and mod manager for Crash Bandicoot N. Sane Trilogy.
 - [CrashBashEx](https://github.com/xan1242/CrashBashEx) - Extractor for Crash Bash archive/music files.
 - [OpenSanityNeo](https://github.com/NeoKesha/OpenSanityNeo) - Crash Twinsanity (Xbox, PAL) decompilation/disassembly project using Ghidra and code generation, aiming for an accurate rebuildable disassembly.
+- [crash-ps2 (decomp)](https://github.com/calmsacibis995/crash-ps2) - Matching decompilation of Crash Bandicoot: The Wrath of Cortex (PS2).
+
+##### Jak and Daxter
+
+- [jak-project](https://github.com/open-goal/jak-project) - OpenGOAL: reimplementation of the GOAL compiler/runtime and a native PC port for the Jak and Daxter series, built by reverse-engineering the original game code and data.
+- [jak1-vag-splitter](https://github.com/blahpy/jak1-vag-splitter) - Tool for splitting VAG audio files from Jak and Daxter 1.
+- [JakAndDaxter1Sound](https://github.com/efimandreev0/JakAndDaxter1Sound) - Sound extraction and playback tool for Jak and Daxter 1.
+- [Blender-Script-JaD-Actors](https://github.com/innocentmiau/Blender-Script-JaD-Actors) - Blender script for importing Jak and Daxter actor models.
+- [JakAudioTools](https://github.com/jwetzell/JakAudioTools) - Audio extraction and conversion tools for Jak and Daxter series.
+- [JakAudioTool](https://github.com/LuminarLight/JakAudioTool) - GUI tool for working with Jak and Daxter audio files.
 
 ##### Uncharted
 
