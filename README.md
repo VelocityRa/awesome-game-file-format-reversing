@@ -4051,6 +4051,7 @@ This list is for developers and modders working with such formats. It provides t
 - [rr-decomp](https://github.com/kazuyette/rr-decomp) - Matching decompilation of Ridge Racer (PlayStation 1, Namco, 1994, SLPS-00001), plus a static recompilation that boots and plays natively on Linux and Windows; requires the original disc.
 - [saols-apk](https://github.com/rozenmad/saols-apk) - Unpacker/repacker for Sword Art Online: Lost Song's APK archive files.
 - [Tekken-7-Extracting-Packing-Tools](https://github.com/a5tronomy/Tekken-7-Extracting-Packing-Tools) - Extracting and packing tools for Tekken 7 archive files.
+- [Macross30text](https://github.com/alanm20/Macross30text) - Export/import tool for Macross 30th Anniversary: Voices Across the Galaxy (PS3) game text, covering main story dialog and mission text for translation.
 
 ### Battlestate Games (Escape from Tarkov)
 
@@ -4279,6 +4280,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Blueside (Kingdom Under Fire II)
 
 - [KUF2.PKG.Tool](https://github.com/Ekey/KUF2.PKG.Tool) - Tool for extracting PKG archives from Kingdom Under Fire II.
+- [KUF2_2014_vap](https://github.com/alanm20/KUF2_2014_vap) - Noesis plugin for viewing Kingdom Under Fire II (2014) hero character VAP models with texture binding.
 
 ### Boss Game Studios (Top Gear Rally)
 
@@ -6516,6 +6518,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Fallout 2 Community Edition](https://github.com/fallout2-ce/fallout2-ce) - Full re-implementation of Fallout 2 engine built from reverse-engineering the original binary; parses DAT archives, FRM sprites, and MAP/PRO data files; supports original mods.
 - [Fallout 2 Community Edition (BoBoBaSs84 fork)](https://github.com/BoBoBaSs84/fallout2-ce) - Community decompilation/re-implementation variant.
+- [Fallout-2-Item-Data-Extractor-for-Wikis](https://github.com/An-on-im/Fallout-2-Item-Data-Extractor-for-Wikis) - Extracts Fallout 2 item data for use in wiki documentation.
+- [Fallout-2-Simple-DAT-Archive-Extractor](https://github.com/An-on-im/Fallout-2-Simple-DAT-Archive-Extractor) - Simple extractor for unpacking all files from Fallout 2's DAT archives.
 #### Dragon Wars
 
 - [opendw](https://github.com/devinsmith/opendw) - Game engine reimplementation for Interplay's Dragon Wars (1989/1990), loading the original game data.
@@ -6752,6 +6756,8 @@ This list is for developers and modders working with such formats. It provides t
 - [SilentHillOriginsPS2](https://github.com/leeao/SilentHillOriginsPS2) - Noesis plugin for Silent Hill Origins (PS2) DFF models (with Delta Morph support), TXD textures, and ANM animations.
 - [DownpourRecomp](https://github.com/LittleBitUA/DownpourRecomp) - Silent Hill: Downpour native Windows PC port via static recompilation of the Xbox 360 binary.
 - [SH3_chr](https://github.com/alanm20/SH3_chr) - Noesis plugin/loader for Silent Hill 3 character CHR/MDL models, exporting to Blender/glTF/OBJ.
+- [SH4_map_bin_PC](https://github.com/alanm20/SH4_map_bin_PC) - Noesis plugin for viewing Silent Hill 4 (PC) map BIN files.
+- [SH2_map](https://github.com/alanm20/SH2_map) - Noesis plugin for viewing Silent Hill 2 (PC) map files.
 
 
 #### Castlevania
@@ -7275,6 +7281,9 @@ This list is for developers and modders working with such formats. It provides t
 - [io_scene_gdl](https://github.com/haekb/io_scene_gdl) - Blender addon for Gauntlet Dark Legacy scene format.
 - [gdl_tools (MosesofEgypt)](https://github.com/MosesofEgypt/gdl_tools) - Alternative toolkit for Gauntlet Dark Legacy.
 - [MeltyTool (Gauntlet)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/GauntletDarkLegacy) - Gauntlet Dark Legacy format viewer/exporter.
+- [gex](https://github.com/alinsavix/gex) - Gauntlet II arcade ROM tile, stamp, and maze extractor, rendering tiles, stamps, floors, walls, items, monsters, and complete mazes as PNG images. See also the author's [python-gex](https://github.com/alinsavix/python-gex) port.
+- [gauntlet-soundrom-ai-reveng](https://github.com/alinsavix/gauntlet-soundrom-ai-reveng) - AI-assisted reverse engineering of the Gauntlet II arcade sound coprocessor ROM.
+- [gauntlet-gamerom-ai-reveng](https://github.com/alinsavix/gauntlet-gamerom-ai-reveng) - AI-assisted reverse engineering of the Gauntlet II arcade main 68010 game ROM.
 
 #### Mortal Kombat
 
@@ -9132,6 +9141,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [qbms_shirogames](https://github.com/Sviat/qbms_shirogames) - QuickBMS scripts for Shiro Games' RES.PAK archive format, covering Northgard's res.client.pak (textures, models, sounds, data.cdb) and Farever, building on an earlier community script originally written for Evoland 2.
   - Games: Northgard, Farever.
+- [Wartales-pak-modding-Toolkit](https://github.com/An-on-im/Wartales-pak-modding-Toolkit) - Unpacker and repacker for Wartales' RES.PAK archives, extracting and modifying game resources with full preservation of the original archive structure.
 
 ### Shiny Entertainment
 
@@ -10326,6 +10336,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
