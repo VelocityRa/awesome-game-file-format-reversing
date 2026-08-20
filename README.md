@@ -90,6 +90,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Modding, Translation & Runtime Injection](#modding-translation--runtime-injection)
     - [Texture Decoders](#texture-decoders)
     - [Save File Tools](#save-file-tools)
+    - [VideoClip Transcoding](#videoclip-transcoding)
   - [Unreal Engine](#unreal-engine)
     - [Full Engine Reimplementations & Source Ports](#full-engine-reimplementations--source-ports)
     - [Asset Parsers & Libraries](#asset-parsers--libraries)
@@ -461,6 +462,7 @@ This list is for developers and modders working with such formats. It provides t
     - [EAGL / Black Box / Other](#eagl--black-box--other)
       - [Harry Potter Series](#harry-potter-series)
       - [Need for Speed Series](#need-for-speed-series)
+      - [688 Attack Sub](#688-attack-sub)
     - [SAGE / W3D](#sage--w3d)
       - [Command & Conquer Series](#command--conquer-series)
     - [SSX](#ssx)
@@ -589,7 +591,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Human Entertainment (Tadaima Yuusha Boshuuchuu Okawari)](#human-entertainment-tadaima-yuusha-boshuuchuu-okawari)
   - [Human Head Studios](#human-head-studios)
     - [Prey](#prey)
-  - [Hypergryph (Arknights Endfield)](#hypergryph-arknights-endfield)
+  - [Hypergryph](#hypergryph)
+    - [Arknights](#arknights)
+    - [Arknights: Endfield](#arknights-endfield)
   - [id Software](#id-software)
     - [Commander Keen](#commander-keen)
     - [Catacomb 3-D & Adventure Series](#catacomb-3-d--adventure-series)
@@ -704,6 +708,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Dark Cloud](#dark-cloud)
     - [Inazuma Eleven](#inazuma-eleven)
     - [Yo-Kai Watch](#yo-kai-watch)
+    - [Professor Layton](#professor-layton)
   - [Lionhead Studios (Black & White)](#lionhead-studios-black--white)
   - [Lobotomy Software (PowerSlave / Duke Nukem 3D Saturn)](#lobotomy-software-powerslave--duke-nukem-3d-saturn)
   - [Lucky Chicken Games (Casper: Spirit Dimensions)](#lucky-chicken-games-casper-spirit-dimensions)
@@ -1025,6 +1030,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Other Games](#other-games)
   - [Sensible Software (Cannon Fodder)](#sensible-software-cannon-fodder)
   - [Serial Experiments Lain](#serial-experiments-lain)
+  - [Shift Up (Goddess of Victory: NIKKE)](#shift-up-goddess-of-victory-nikke)
   - [Shiro Games](#shiro-games)
   - [Shiny Entertainment](#shiny-entertainment)
   - [Sierra On-Line](#sierra-on-line)
@@ -1106,6 +1112,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Starbreeze Studios](#starbreeze-studios)
     - [Payday 2](#payday-2)
   - [Stern Pinball](#stern-pinball)
+  - [Strategic Simulations (SSI)](#strategic-simulations-ssi)
+    - [Red Lightning](#red-lightning)
   - [Studio MDHR (Cuphead)](#studio-mdhr-cuphead)
   - [Studio Pixel](#studio-pixel)
     - [Cave Story](#cave-story)
@@ -1212,7 +1220,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Williams Electronics](#williams-electronics)
   - [Wolfpack Studios (Shadowbane)](#wolfpack-studios-shadowbane)
   - [Working Designs (Lunar)](#working-designs-lunar)
-  - [Yostar / Revived Witch](#yostar--revived-witch)
+  - [Yostar](#yostar)
+    - [Azur Lane](#azur-lane)
+    - [Revived Witch](#revived-witch)
   - [Z-Axis](#z-axis)
   - [Zyrinx (Scorcher)](#zyrinx-scorcher)
 - [🔗 Related Lists](#-related-lists)
@@ -2277,6 +2287,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Save File Tools
 
 - [unity-es3-cracker](https://github.com/Chaobs/unity-es3-cracker) - Recovers the encryption password of Unity Easy Save 3 (.es3) save files by harvesting password candidates from the game's DLLs/.assets files and brute-forcing the AES key; includes a bilingual (EN/ZH) Tkinter GUI.
+#### VideoClip Transcoding
+
+- [UVCT](https://github.com/bungaku-moe/UVCT) - Unity VideoClip Transcoder; re-encodes a Unity game's VideoClip assets to reduce their resource size.
 
 ### Unreal Engine
 
@@ -2564,6 +2577,7 @@ This list is for developers and modders working with such formats. It provides t
 - [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) - Toolset for the Kirikiri visual novel engine.
   - Tools: KirikiriDescrambler (descrambles/decompresses obfuscated `.ks`/`.tjs` plaintext scripts), KirikiriUnencryptedArchive (`version.dll` injection making games accept unencrypted .xp3 archives, with support for extracting encrypted/hashed file names), Xp3Pack (creates unencrypted .xp3 patch archives for use with the DLL).
   - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating Kirikiri scripts.
+- [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives.
 
 ### ONScripter
 
@@ -3440,6 +3454,7 @@ This list is for developers and modders working with such formats. It provides t
 - [smxtool](https://github.com/Lameguy64/smxtool) - Editing tool for PlayStation RSD and SMX model data formats. See also [Blender-RSD-Plugin](https://github.com/Lameguy64/Blender-RSD-Plugin), a Blender plugin for exporting models in the PlayStation SDK RSD format.
 - [psx_psyq_signatures](https://github.com/lab313ru/psx_psyq_signatures) - Signatures for PlayStation 1 PsyQ SDK LIB/OBJ files in JSON form, for identifying statically-linked SDK code in PS1 binaries. See also [psx_psyq_flair](https://github.com/lab313ru/psx_psyq_flair), the same signatures in IDA FLAIR format.
 - [ps2-tim2-tool](https://github.com/PS2HomeDeveloper/ps2-tim2-tool) - Tool for working with the PS2 TIM2 texture format, used across many PS2 titles.
+- [mipsasm (cakehonolulu fork)](https://github.com/cakehonolulu/mipsasm) - MIPS assembler targeting the PS2 Emotion Engine and IOP; fork of [imaandrew/mipsasm](https://github.com/imaandrew/mipsasm) (originally targeting the N64) retargeted for PS2.
 
 ### WonderSwan SDKs & Hardware
 
@@ -5098,6 +5113,8 @@ This list is for developers and modders working with such formats. It provides t
 - [burnout-data-tool](https://github.com/Sokka06/burnout-data-tool) - Multi-purpose tool for Burnout 3 and Burnout Revenge archive and asset management.
 - [libbndl](https://github.com/Bo98/libbndl) - Library for reading BUNDLE archives used in Burnout Paradise.
 - [BP-Decomp_Workflow](https://github.com/BurnoutDecomp/BP-Decomp_Workflow) - Orchestration workspace for the Burnout 5 / Burnout Paradise decompilation, coordinating agentic reconstruction of the Xbox 360 build into compilable PC C++ using RenderWare library evidence and cross-platform binary corroboration (PS3/PC builds). Recovered source lives in the companion [b5-decomp](https://github.com/BurnoutDecomp/b5-decomp) submodule.
+- [YAP](https://github.com/burninrubber0/YAP) - Bundle extractor and creator for Burnout Paradise.
+- [volatility](https://github.com/BurnoutHints/volatility) - Platform-agnostic resource interface for Burnout Paradise.
 
 #### EAGL / Black Box / Other
 
@@ -5129,6 +5146,11 @@ This list is for developers and modders working with such formats. It provides t
 - [nfsmw-2005-re](https://github.com/s-b-repo/nfsmw-2005-re) - Reverse-engineering project for Need for Speed: Most Wanted (2005), mapping the game's binary subsystems and cracking most of its internal attribute hashes in Ghidra, with a working ASI mod and Linux CLI tool.
 - [NFS-Legacy-Modpacks](https://github.com/Gxbbykko/NFS-Legacy-Modpacks) - Modpack collection for legacy Need for Speed titles' original asset formats.
 - [XNFSMusicPlayer](https://github.com/xan1242/XNFSMusicPlayer) - Custom music player for Need for Speed games, interfacing with the BASS audio library to play the games' original audio format.
+##### 688 Attack Sub
+
+- [ea-ega](https://github.com/canadianavenger/ea-ega) - Tools and documentation for the EGA image file format used by 688 Attack Sub and other vintage Electronic Arts titles.
+- [ea-pak](https://github.com/canadianavenger/ea-pak) - Tools and documentation for the PAK image file format used by 688 Attack Sub and other vintage Electronic Arts titles.
+  - Both build on the author's [ca-image](https://github.com/canadianavenger/ca-image)/[ca-imageio](https://github.com/canadianavenger/ca-imageio) companion libraries for paletted image I/O.
 
 #### SAGE / W3D
 
@@ -6002,6 +6024,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [reliquary-archiver](https://github.com/IceDynamix/reliquary-archiver) - Parses Honkai: Star Rail's network packets to export relic (artifact) data for use with optimizer tools such as fribbels hsr-optimizer. Built on [reliquary](https://github.com/IceDynamix/reliquary), the author's library for parsing the game's network protocol.
 - [HSR-Scanner](https://github.com/kel-z/HSR-Scanner) - Scanner for exporting light cone, relic, and character data from Honkai: Star Rail to JSON format.
+- [HoyoToon](https://github.com/Hoyotoon/HoyoToon) - Unity (Built-in Rendering Pipeline) shader suite replicating the in-game shading of datamined miHoYo/HoYoverse character assets (Genshin Impact, Honkai: Star Rail, and other titles); not intended for custom-made or MMD-converted models.
 
 ### HROT
 
@@ -6063,7 +6086,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Prey2006](https://github.com/FriskTheFallenHuman/Prey2006) - Source port/engine project for Prey (2006, Human Head Studios), built on id Tech 4 and reading the original game's data files.
 
-### Hypergryph (Arknights Endfield)
+### Hypergryph
+
+#### Arknights
+
+- [AK-Buddy](https://github.com/bungaku-moe/AK-Buddy) - Desktop companion app rendering Arknights operator character assets extracted from the game.
+
+#### Arknights: Endfield
 
 - [EndfieldUnpacker](https://github.com/endGuaGua/EndfieldUnpacker) - Reverse engineering toolkit for Arknights: Endfield; decrypts and extracts game assets from the game's proprietary VFS archives, including Wwise PCK/WEM audio.
 
@@ -6994,6 +7023,12 @@ This list is for developers and modders working with such formats. It provides t
 - [yw-cond](https://github.com/n123git/yw-cond) - Web-based UI and toolkit for parsing, decompiling, analyzing and generating Yo-kai Watch Conds (CExpressions). Supports Yo-kai Watch franchise condition system with more complex features than Inazuma Eleven GO.
 - [madhatter](https://github.com/bullbin/madhatter) - Low-level library for data formats used by early Nintendo DS Professor Layton games (Curious Village through Unwound Future), handling asset/archive unpacking, LZ77/RLE/Huffman compression, scripts, animations, backgrounds, and save files.
 - [InazumaElevenSaveEditor](https://github.com/Tiniifan/InazumaElevenSaveEditor) - Save file editor for the Inazuma Eleven series.
+#### Professor Layton
+
+- [widebrim](https://github.com/bullbin/widebrim) - Playable high-level reimplementation of the engine for Professor Layton and the Diabolical Box / Pandora's Box (LAYTON2, NDS), loading the original game's data.
+- [widebrim_editor](https://github.com/bullbin/widebrim_editor) - High-level editor for LAYTON2 game files, built for the widebrim engine.
+- [widebrim_hd](https://github.com/bullbin/widebrim_hd) - Work-in-progress high-level reimplementation of the LAYTON2 HD remaster's engine.
+- [tools_motdm](https://github.com/bullbin/tools_motdm) - Tools for understanding files from Professor Layton and the Mansion of the Deathly Mirror.
 
 ### Lionhead Studios (Black & White)
 
@@ -7634,6 +7669,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Kivotos Halo Asset Tool](https://github.com/minhmc2007/Kivotos-Halo-Asset-Tool) - Cross-platform (Windows/Android via Termux) toolkit for extracting and repacking Blue Archive's Unity asset bundles, with an interactive menu tailored to the game's file structure.
 - [gonx](https://github.com/Hucaru/gonx) - Reader/library for Nexon's NX file format, used by MapleStory and other Nexon games.
+- [BA2LW](https://github.com/bungaku-moe/BA2LW) - Blue Archive Memorial Lobby interactive live wallpaper, rendering the game's lobby character assets on the desktop.
 
 ### Nival
 
@@ -9238,6 +9274,10 @@ This list is for developers and modders working with such formats. It provides t
   - Ships no game assets; a companion extraction script pulls and reformats video, image, and text assets directly from the original disc images.
 - [lain-bootleg-bootleg](https://github.com/ad044/lain-bootleg-bootleg) - Reverse engineering and remake of Lain Bootleg, a minigame from the Serial Experiments Lain PSX game.
 
+### Shift Up (Goddess of Victory: NIKKE)
+
+- [NikkeViewerEX](https://github.com/bungaku-moe/NikkeViewerEX) - Interactive Spine viewer for Goddess of Victory: NIKKE character assets.
+
 ### Shiro Games
 
 - [qbms_shirogames](https://github.com/Sviat/qbms_shirogames) - QuickBMS scripts for Shiro Games' RES.PAK archive format, covering Northgard's res.client.pak (textures, models, sounds, data.cdb) and Farever, building on an earlier community script originally written for Evoland 2.
@@ -9801,6 +9841,12 @@ This list is for developers and modders working with such formats. It provides t
 - [ske-scanners](https://github.com/JayFoxRox/ske-scanners) - Tools to extract data from Stern Spike pinball machine game binaries as part of reverse-engineering the platform.
 - [ske-dumper](https://github.com/JayFoxRox/ske-dumper) - Backs up Stern Spike 1/2 pinball machine EEPROMs and hardware fuses over a debug connection.
 - [ghidra_whitestar_loader](https://github.com/c0rner/ghidra_whitestar_loader) - Ghidra extension that loads Sega/Stern Whitestar pinball game ROMs, building a complete navigable memory map including banked ROM overlays and I/O registers.
+
+### Strategic Simulations (SSI)
+
+#### Red Lightning
+
+- [ssi-img](https://github.com/canadianavenger/ssi-img) - Tools and documentation for the IMG file format used by Red Lightning; decodes both the PC and Amiga versions of the game.
 
 ### Studio MDHR (Cuphead)
 
@@ -10403,6 +10449,9 @@ This list is for developers and modders working with such formats. It provides t
 - [DCSExplorer](https://github.com/Asure/DCSExplorer) - Tools for examining and creating DCS (Digital Compression System) pinball audio ROMs used by Williams/Bally pinball machines. Actively-developed fork of [mjrgh/DCSExplorer](https://github.com/mjrgh/DCSExplorer) with 20+ additional commits.
 - [ghidra_wpc_loader](https://github.com/c0rner/ghidra_wpc_loader) - Ghidra extension that loads Williams Pinball Controller (WPC) game ROMs and builds a complete memory map, including banked ROM overlays, ASIC I/O registers, interrupt vectors, and OS-level RAM symbols.
   - Covers all six WPC hardware generations (Alphanumeric, DMD, Fliptronic, DCS, Security, WPC-95), 1990-1999.
+- [cvsd-extractor](https://github.com/c0rner/cvsd-extractor) - Reads WPC-89 pinball ROM images, extracting every CVSD audio sample and decoding sound program bytecode.
+- [wpclp](https://github.com/c0rner/wpclp) - Patches WPC/WPC95 pinball lamp matrix driver ROM code to eliminate LED "ghosting".
+- [pinretune](https://github.com/c0rner/pinretune) - Utility and library for encrypting and decrypting PinSound pinball sound-pack files.
 
 ### Wolfpack Studios (Shadowbane)
 
@@ -10412,7 +10461,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [lunar2-psx-decomp (decomp)](https://github.com/Zackmon/lunar2-psx-decomp) - Matching decompilation of Lunar 2: Eternal Blue Complete (PS1).
 
-### Yostar / Revived Witch
+### Yostar
+
+#### Azur Lane
+
+- [Azure-Gravure](https://github.com/bungaku-moe/Azure-Gravure) - Interactive Live2D viewer for Azur Lane character assets.
+
+#### Revived Witch
 
 - [unneko](https://github.com/lico-n/unneko) - Extraction tool for Revived Witch nekodata files. Supports both regular and patch nekodata files.
 
@@ -10444,6 +10499,8 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
 
 
 
