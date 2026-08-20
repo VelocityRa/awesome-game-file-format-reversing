@@ -336,7 +336,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Boss Game Studios (Top Gear Rally)](#boss-game-studios-top-gear-rally)
   - [Brain Jar Games (Dead as Disco)](#brain-jar-games-dead-as-disco)
   - [Brno Transit](#brno-transit)
-  - [Brøderbund (Lode Runner)](#brøderbund-lode-runner)
+  - [Brøderbund](#brøderbund)
+    - [Lode Runner](#lode-runner)
+    - [Karateka](#karateka)
   - [Bugbear Entertainment (FlatOut)](#bugbear-entertainment-flatout)
   - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
@@ -628,6 +630,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Illusion](#illusion)
   - [Incredible Technologies](#incredible-technologies)
   - [iNiS](#inis)
+  - [Incentive Software (Freescape)](#incentive-software-freescape)
   - [Infinite Fall (Night in the Woods)](#infinite-fall-night-in-the-woods)
   - [Infinity Ltd. (The Battle of Olympus)](#infinity-ltd-the-battle-of-olympus)
   - [Infogrames Lyon House (Sheep, Dog 'n' Wolf)](#infogrames-lyon-house-sheep-dog-n-wolf)
@@ -894,6 +897,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Head Over Heels](#head-over-heels)
   - [Oddworld Inhabitants](#oddworld-inhabitants)
   - [Origin Systems](#origin-systems)
+    - [Ultima IV](#ultima-iv)
     - [Ultima V](#ultima-v)
     - [Ultima VI](#ultima-vi)
     - [Ultima VII](#ultima-vii)
@@ -1497,6 +1501,7 @@ This list is for developers and modders working with such formats. It provides t
 - [NDSFactory](https://github.com/Luca1991/NDSFactory) - Generic Nintendo DS ROM extraction/repacking tool.
 - [dreamcast-cdi-burner](https://github.com/alex-free/dreamcast-cdi-burner) - Open-source, portable Linux tool for burning Sega Dreamcast .CDI disc images to physical media.
 - [playstation-disc-burner](https://github.com/alex-free/playstation-disc-burner) - Open-source, portable Linux tool for burning PS1/PS2 backup discs, with options for patching the disc image before burning.
+- [IPFBrowser](https://github.com/exectails/IPFBrowser) - Tool to extract and browse the contents of IPF archive files, used by several NHN/Webzen MMO titles.
 
 ### 🔊 Audio Tools
 
@@ -1970,6 +1975,11 @@ This list is for developers and modders working with such formats. It provides t
 - [BizHawk](https://github.com/TASEmulators/BizHawk) - Multi-system emulator built for tool-assisted speedrunning, with full rerecording, RAM search/watch, Lua scripting, and debugging tools across 20+ systems (NES, SNES, Genesis, Game Boy/GBA, N64, PS1, and more).
 - [ScriptHawk](https://github.com/Isotarge/ScriptHawk) - Collection of BizHawk Lua scripts for RAM watching, memory manipulation, and TAS tooling across dozens of games.
 - [hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) - SDL3-based continuation of Daphne/Singe, emulating laserdisc arcade games by reading their original laserdisc video/ROM data. Companion [hypseus_singe_data](https://github.com/DirtBagXon/hypseus_singe_data) package provides the LUA game-definition scripts for dozens of supported titles (Dragon's Lair, Space Ace, Cliff Hanger, M.A.C.H. 3, and more).
+- [dice-libretro](https://github.com/mittonk/dice-libretro) - Libretro/RetroArch port of DICE (Discrete Integrated Circuit Emulator), emulating early arcade systems built from discrete logic components with no CPU.
+- [ld-decode](https://github.com/happycube/ld-decode) - Software-defined LaserDisc RF decoder, used to digitize and preserve laserdisc arcade games for emulators such as hypseus-singe/DICE.
+- [EggmansLaserForge](https://github.com/Eggmansworld/EggmansLaserForge) - Authoring tool for building playable laserdisc games for Hypseus Singe, without hand-editing LUA scripts or frame numbers.
+- [actionmax-pi](https://github.com/DirtBagXon/actionmax-pi) - Singe implementation of the ActionMax VHS-based arcade system for 32-bit Raspberry Pi and other SBCs.
+- [Hypdroid](https://github.com/rhakka303/Hypdroid) - Standalone Android port of Hypseus Singe with a native gamepad-first game launcher.
 
 #### Franchise & Studio Toolkits
 
@@ -2015,6 +2025,8 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: HSP, NitroPlus MPK, PFS, Sonic Adventure PAK, Touhou 6 DAT, XP3, ZIP.
   - Features: Previews images, GIFs, audio, and archives; parses ELF and PE files; Squirrel scripting support for custom formats; native plugin loading (.dll/.so).
 - [Di-Gi-Charat-Fantasy-Tool](https://github.com/gopicolo/Di-Gi-Charat-Fantasy-Tool) - Text extraction/editing/reinsertion tool for Di Gi Charat Fantasy. The same author (gopicolo) has released matching text tools for several other unrelated Japanese visual novels/galgames: [Shoujo Kakumei Utena](https://github.com/gopicolo/Shoujo-Kakumei-Utena-Tool) (Sega Saturn), [Eiyuu Shigan - Gal Act Heroism](https://github.com/gopicolo/Eiyuu-Shigan-Tool) (Sega Saturn), [Nanatsuiro★Drops](https://github.com/gopicolo/Nanatsuiro-Drops-Tool), and [Papa no Iu Koto o Kikinasai!](https://github.com/gopicolo/Game-demo-Papa-no-Iu-Koto-o-Kikinasai-Tool) (PSP).
+- [FrogLord](https://github.com/Kneesnap/FrogLord) - Modding suite supporting level creation, 3D model import, unused-content viewing, and general file editing.
+  - Games: Frogger: He's Back, Frogger: The Great Quest, Frogger Beyond, Frogger Rescue, Frogger Ancient Shadow, Beast Wars: Transformers, C-12: Final Resistance, MediEvil, MediEvil II, Moon Warrior.
 
 ## ⚙️ Engines
 
@@ -2123,6 +2135,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hlbsp-converter](https://github.com/lewa-j/hlbsp-converter) - Converts Half-Life (GoldSrc) .bsp map files to glTF.
 - [BS2PC](https://github.com/Triang3l/BS2PC) - Converts Half-Life maps between the PC and PlayStation 2 port's .bsp formats.
 - [goldsrc-bsp-viewer](https://github.com/urgorri/goldsrc-bsp-viewer) - Framework-agnostic viewer for GoldSrc BSP map files from Half-Life, built with Three.js, with an optional React wrapper.
+- [BSPUtils](https://github.com/Donkie/BSPUtils) - Command-line .NET Core programs and library for interacting with the Source Engine's Binary Space Partition (.bsp) file format, including lump extraction.
 
 #### Models (MDL/SMD)
 
@@ -3577,6 +3590,7 @@ This list is for developers and modders working with such formats. It provides t
 #### WWE 2K
 
 - [MusicListEditor](https://github.com/james-wallace-ghub/MusicListEditor) - Editor for the MusicList.jsfb music loop table used by WWE 2K23 and WWE 2K24, letting you browse, page through, and search slots by name or internal ID.
+- [ARC--Multipurpose-I-O-Tool](https://github.com/dotGrx/ARC--Multipurpose-I-O-Tool) - Recursive archive I/O tool for WWE 2K games (PAC/texture/muscle/mask archives), supporting one-click file injection (OODLE/ZLIB), archive deserialization/preview, mass batch deserialization, and creating new archives from scratch.
 
 ### 3D Realms
 
@@ -3842,6 +3856,7 @@ This list is for developers and modders working with such formats. It provides t
 - [WCWvsNWOWorldTourRecomp](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp) - Native PC port of WCW vs. nWo World Tour (N64) via static recompilation, with a companion [WCWSyms](https://github.com/jessetbh/WCWSyms) repo of reverse-engineered function/data symbol TOMLs for the N64Recomp toolchain.
 - [AkiLauncher](https://github.com/jessetbh/AkiLauncher) - Native Windows hub that downloads and launches the AKI-engine N64 wrestling recompilations above.
 - [AKI-Model-Blender-IO-Addon](https://github.com/dotGrx/AKI-Model-Blender-IO-Addon) - Blender import/export addon for AKI Corporation's .model format, used in their N64/PS2-era wrestling games.
+- [WCW-Mayhem-.P30-to-OBJ](https://github.com/dotGrx/WCW-Mayhem-.P30-to-OBJ) - Converts WCW Mayhem's .P3O model format to OBJ.
 
 ### Alfa System (Neon Genesis Evangelion 2)
 
@@ -4392,9 +4407,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [krtekex](https://github.com/iOrange/krtekex) - Command-line unpacker for the indie game Brno Transit's krtek.dat asset pack file.
 
-### Brøderbund (Lode Runner)
+### Brøderbund
+
+#### Lode Runner
 
 - [lode_runner_reveng](https://github.com/XekriRedmane/lode_runner_reveng) - Reverse engineering of Lode Runner for the Apple II.
+
+#### Karateka
+
+- [karateka-decompiled](https://github.com/ergonomy-joe/karateka-decompiled) - Buildable decompiled source code of the MS-DOS version of Karateka by Jordan Mechner.
 
 ### Bugbear Entertainment (FlatOut)
 
@@ -4783,6 +4804,7 @@ This list is for developers and modders working with such formats. It provides t
 - [dirt3-modding](https://github.com/miek/dirt3-modding) - Research and tools for modding DiRT 3, including 010 Editor templates and a PSSG Manager tool for loading PSSG files (model and texture data); much of the research is applicable to other Codemasters games.
 - [OFP Extractor](https://github.com/NoahDomingues/OFP-Extractor) - Extraction tool for the win_000 archives of Operation Flashpoint: Dragon Rising and Red River (Codemasters), decompressing and decrypting DDS textures, FSB audio, and other packed game files.
 - [GBB Tool](https://github.com/retrobone/GBB_Tool) - Viewer and editor for .gbb files used in Brian Lara Cricket '99 and Shane Warne Cricket '99.
+- [Ego-Engine-Modding](https://github.com/EgoEngineModding/Ego-Engine-Modding) - Suite of modding applications for Codemasters' Ego Engine (Dirt, Grid, Formula 1 series): CTF editor, database.bin editor, ERP archiver, binary XML/lng/tpk/pkg converter, JPK archiver, language editor, and PSSG editor.
 
 ### CR-Space (Martial Heroes)
 
@@ -4796,9 +4818,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [SeriousSaveEditor](https://github.com/widberg/SeriousSaveEditor) - Save editor for Serious Sam games.
   - Games: Serious Sam: The First Encounter, The Second Encounter, and more.
-- [Serious-Engine](https://github.com/icculus/Serious-Engine) - Official open-source release of Croteam's Serious Engine, used by the classic Serious Sam games.
+- [Serious-Engine](https://github.com/icculus/Serious-Engine) - Official open-source release of Croteam's Serious Engine, used by the classic Serious Sam games. See also [DreamyCecil's fork](https://github.com/DreamyCecil/Serious-Engine) with build/configuration and other quality-of-life improvements.
 - [SS1TexConverter](https://github.com/purifetchi/SS1TexConverter) - Texture converter for the Serious Sam Classics/Revolution .tex format.
 - [SE1-StaticLibrariesForGames](https://github.com/DreamyCecil/SE1-StaticLibrariesForGames) - Collection of static libraries (.lib) reconstructed from different builds of Serious Engine 1 games' DLLs, with .def/exports.txt files listing mangled C++ symbol names to aid reverse engineering.
+- [DreamyGRO](https://github.com/DreamyCecil/DreamyGRO) - Utility for packing mapper/modder content for Serious Sam levels and mods into GRO archives.
+- [SeriousSkaConverter](https://github.com/DreamyCecil/SeriousSkaConverter) - Converts various ASCII model formats into Serious Engine 1's SKA skeletal model format.
+- [io_sedASCII](https://github.com/purifetchi/io_sedASCII) - Blender addon for importing/exporting Serious Editor ASCII formats.
 
 ### Crows Crows Crows
 
@@ -5138,6 +5163,13 @@ This list is for developers and modders working with such formats. It provides t
 - [BP-Decomp_Workflow](https://github.com/BurnoutDecomp/BP-Decomp_Workflow) - Orchestration workspace for the Burnout 5 / Burnout Paradise decompilation, coordinating agentic reconstruction of the Xbox 360 build into compilable PC C++ using RenderWare library evidence and cross-platform binary corroboration (PS3/PC builds). Recovered source lives in the companion [b5-decomp](https://github.com/BurnoutDecomp/b5-decomp) submodule.
 - [YAP](https://github.com/burninrubber0/YAP) - Bundle extractor and creator for Burnout Paradise.
 - [volatility](https://github.com/BurnoutHints/volatility) - Platform-agnostic resource interface for Burnout Paradise.
+- [Oobber](https://github.com/burninrubber0/Oobber) - Unpacking utility for Criterion Games' PackedOobb resources (Burnout Paradise).
+- [BP_Traffic_Remover](https://github.com/burninrubber0/BP_Traffic_Remover) - Removes traffic from Burnout Paradise and Burnout Paradise Remastered by editing the TrafficData resource in B5TRAFFIC.BNDL.
+- [TriggersToGLTF](https://github.com/burninrubber0/TriggersToGLTF) - Converts extracted Triggers resources from Burnout Paradise (all retail versions/platforms) to glTF.
+- [ColourCube_Converter](https://github.com/burninrubber0/ColourCube_Converter) - Converts Burnout Paradise ColourCube lighting/tint resources from Xbox 360 to PC (RGB24).
+- [BundleRecovery](https://github.com/burninrubber0/BundleRecovery) - Recovers Criterion's Bundle assets from a raw drive.
+- [RevengeChecksumGen](https://github.com/burninrubber0/RevengeChecksumGen) - Recalculates per-profile and MC02 checksums in Burnout Revenge savegames (PS2 and Xbox 360).
+- [Bundle-Manager](https://github.com/BurnoutHints/Bundle-Manager) - Program for working with Burnout Paradise Bundle files, complementing libbndl above.
 
 #### EAGL / Black Box / Other
 
@@ -5773,6 +5805,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Ragnarok Online)](https://github.com/magcius/noclip.website/tree/main/src/RagnarokOnline) - In-browser Ragnarok Online map viewer.
   - Formats: RSW (world), GND (ground/terrain), RSM (models), GAT (altitude/collision), SPR/ACT (sprites and sprite animation), STR (effects), Granny (`.gr2` models and animation).
   - Features: Water, weather and particle effects, dynamic lights, shadows, warp portals, name tags, pathfinding, era selection, and BGM playback.
+- [GrfUnpack](https://github.com/exectails/GrfUnpack) - PAK and GRF archive unpacker for Ragnarok Online (Arcturus/RO).
 
 ### Gray Design Associates
 
@@ -6467,6 +6500,7 @@ This list is for developers and modders working with such formats. It provides t
 - [tinycast](https://github.com/jandk/tinycast) - Library for reading id Software's .cast animation/scene container format, used in DOOM Eternal and other id Tech 7 games.
 - [SAMUEL](https://github.com/brongo/SAMUEL) - Cross-platform GUI asset extractor for DOOM Eternal.
 - [Snapmap+](https://github.com/doom-snapmap/snapmap-plus) - Clean-room reimplementation of SnapHak, a closed-source companion tool for DOOM (2016)'s in-game SnapMap level editor, extending the original's rawmap/decl file handling with new console commands and a WebView2-based editor window.
+- [snapmap-midi](https://github.com/doom-snapmap/snapmap-midi) - Compiles a MIDI file into a playable music map for DOOM (2016)'s SnapMap editor.
 
 #### Legacy Tools & Downloads (ModDB)
 
@@ -6531,6 +6565,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Murugo/Misc-Game-Research (Gitaroo Man)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS2/Gitaroo%20Man) - Reverse engineering notes for Gitaroo Man (PS2).
 - [blender3d_xeios](https://github.com/boringhexi/blender3d_xeios) - Blender importer for Xeios engine games including Gitaroo Man (PS2) and まげる つける はしーる.
+
+### Incentive Software (Freescape)
+
+- [Phantasma](https://github.com/TomHarte/Phantasma) - Remake of Incentive Software's Freescape engine, allowing games created with the 3D Construction Set (Driller, Dark Side, Total Eclipse, and others) to run on modern computers using the original game data.
 
 ### Infinite Fall (Night in the Woods)
 
@@ -6752,6 +6790,7 @@ This list is for developers and modders working with such formats. It provides t
 - [pop-beeb](https://github.com/kieranhj/pop-beeb) - Port of the original Apple II version of Prince of Persia to the BBC Master, converting the game's original level and animation data.
 - [PR (Princed Resources)](https://github.com/NagyD/PR) - Tool to export and import graphics and other data from and to DAT resource files of Prince of Persia 1 and 2.
 - [pop2 (static recompilation)](https://github.com/mac-recomp/pop2) - Static recompilation of the Macintosh build of Prince of Persia 2: The Shadow and the Flame into native C++/WebAssembly; engine and tools only, requiring the original game data.
+- [SDLPoP](https://github.com/NagyD/SDLPoP) - Open-source port of Prince of Persia, based on disassembly of the DOS version.
 
 ### JoWooD Vienna (Neighbours from Hell)
 
@@ -7217,6 +7256,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [SporeModder-FX](https://github.com/Spore-Community/SporeModder-FX) - Modding tool for Spore, with a syntax-highlighting text editor for the game's text-based resource formats, a Spore UI editor, an image/texture viewer, and a model viewer for Spore's proprietary model format.
 - [Sims4Tools](https://github.com/s4ptacle/Sims4Tools) - The Sims 4 modding library and tool suite (S4PE package editor and related tools) for reading/writing DBPF .package resource files; actively maintained continuation of the now-deprecated [Kuree/Sims4Tools](https://github.com/Kuree/Sims4Tools).
+- [FreeSO](https://github.com/riperiperi/FreeSO) - Open-source re-implementation of The Sims Online, reading the original game's client assets.
 
 ### MDF (Polanie)
 
@@ -7631,6 +7671,15 @@ This list is for developers and modders working with such formats. It provides t
 - [GbxDump](https://github.com/Electron-x/GbxDump) - Windows application that decodes and displays the header contents of Nadeo GameBox (.Gbx) files, covering maps, challenges, replays, packs, blocks, objects, and items across Trackmania and other Nadeo titles.
 - [gbx-net](https://github.com/BigBang1112/gbx-net) - General-purpose C#/.NET library for Nadeo GameBox (.Gbx) files used by Trackmania and ShootMania; supports high-performance serialization/deserialization of 400+ Gbx classes.
 - [TMTelemetry](https://github.com/Electron-x/TMTelemetry) - Windows tool displaying real-time telemetry data from TrackMania.
+- [gbx-ts](https://github.com/thaumictom/gbx-ts) - TypeScript library for parsing Trackmania Gbx files.
+- [pygbx](https://github.com/donadigo/pygbx) - Python library for parsing Gbx files.
+- [gbx](https://github.com/manialib/gbx) - PHP library for reading Gbx metadata, part of the ManiaLib framework.
+- [gbxc](https://github.com/GreffMASTER/gbxc) - XML to GBX compiler.
+- [GbxRemote.Net](https://github.com/EvoEsports/GbxRemote.Net) - Async .NET library for the XML-RPC protocol used by Trackmania dedicated servers.
+- [tm-essentials](https://github.com/BigBang1112/tm-essentials) - Lightweight library providing common formatting helpers for Trackmania development.
+- [GbxMapBrowser](https://github.com/ArkadySK/GbxMapBrowser) - Browser/explorer for Trackmania/ShootMania `.gbx` map and replay files, powered by GBX.NET.
+- [nations-converter](https://github.com/BigBang1112/nations-converter) - Converts Trackmania Sunrise/Nations ESWC/United Forever/Turbo maps to Trackmania (2020), powered by GBX.NET.
+- [tm-map-gbx-to-advanced](https://github.com/emkons/tm-map-gbx-to-advanced) - Converts Trackmania `Map.Gbx` files from Simple to Advanced editor mode.
 
 ### NanaOn-Sha
 
@@ -7694,6 +7743,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Mabinogi
 
 - [MabinogiFileFormats](https://github.com/exectails/MabinogiFileFormats) - Collection of 010 Editor binary templates documenting Mabinogi's game file formats.
+- [Mabioned](https://github.com/exectails/Mabioned) - 2D region editor for Mabinogi.
+- [MackLib](https://github.com/exectails/MackLib) - .NET library for reading Mabinogi pack files.
+- [Fetitor](https://github.com/exectails/Fetitor) - Editor for Mabinogi's compiled feature files.
+- [DataDog](https://github.com/exectails/DataDog) - Viewer for Mabinogi data files.
+- [Morrighan](https://github.com/exectails/Morrighan) - Client proxy for Mabinogi, used for modding and protocol inspection.
 
 #### Blue Archive
 
@@ -8320,6 +8374,10 @@ This list is for developers and modders working with such formats. It provides t
 - [alive_reversing](https://github.com/AliveTeam/alive_reversing) - Open-source engine replacement and decompilation for Oddworld: Abe's Oddysee and Oddworld: Abe's Exoddus with bug fixes and modding support.
 
 ### Origin Systems
+
+#### Ultima IV
+
+- [u4-decompiled](https://github.com/ergonomy-joe/u4-decompiled) - Decompiled source code for the PC version of Ultima IV: Quest of the Avatar.
 
 #### Ultima V
 
@@ -9560,6 +9618,10 @@ This list is for developers and modders working with such formats. It provides t
 - [ufg](https://github.com/ennuo/ufg) - Tools for working with games made by United Front Games (ModNation Racers, LittleBigPlanet Karting). See also [ufg.js](https://github.com/ennuo/ufg.js), a JavaScript port of the format library.
 - [lbparc](https://github.com/ennuo/lbparc) - Unpacks archives from LittleBigPlanet PSP.
 - [TLoD-Texture-Converter](https://github.com/dragoonsouls/TLoD-Texture-Converter) - Texture converter/previewer for The Legend of Dragoon (PS1), decoding TIM, MCQ (skybox), and PXL (submap object) texture formats to PNG from Severed Chains file dumps.
+- [TLoD-Assets-Manager](https://github.com/dragoonsouls/TLoD-Assets-Manager) - Manages The Legend of Dragoon (PS1) game assets (textures, models, animations).
+- [TLoD-TMD-Converter](https://github.com/dragoonsouls/TLoD-TMD-Converter) - Converts The Legend of Dragoon's TMD model format to DAE.
+- [Blender-Anim-To-TLoD](https://github.com/dragoonsouls/Blender-Anim-To-TLoD) - Blender 2.80 addon for converting object animations into The Legend of Dragoon's SAF (Simple Animation Format).
+- [DEFF-Basic-Unpacker](https://github.com/dragoonsouls/DEFF-Basic-Unpacker) - Unpacker for The Legend of Dragoon's DEFF archive format.
 
 #### Sony Online Entertainment
 
@@ -9690,6 +9752,9 @@ This list is for developers and modders working with such formats. It provides t
 - [DoCTextTool](https://github.com/Surihix/DoCTextTool) - Extracts and re-converts text files for Dirge of Cerberus: Final Fantasy VII.
 - [ff7-decomp (decomp)](https://github.com/xeeynamo/ff7-decomp) - Matching decomp of Final Fantasy VII for PlayStation 1
 - [Gaia](https://github.com/LaZar00/Gaia) - Command-line tool for exporting/importing Final Fantasy VII world map .MAP files to/from .OBJ format.
+- [ff7-worldmap](https://github.com/ergonomy-joe/ff7-worldmap) - Decompiled Final Fantasy VII world map engine.
+- [ff7-coaster](https://github.com/ergonomy-joe/ff7-coaster) - Decompiled code for the Final Fantasy VII "Jet Coaster" minigame.
+- [ff7-chocobo](https://github.com/ergonomy-joe/ff7-chocobo) - Decompiled code for the Final Fantasy VII chocobo racing minigame.
 
 #### Final Fantasy VIII
 
@@ -10543,6 +10608,8 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
 
 
 
