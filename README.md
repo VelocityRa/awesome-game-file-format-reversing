@@ -638,7 +638,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Ion Storm](#ion-storm)
     - [Anachronox](#anachronox)
     - [Daikatana](#daikatana)
-    - [Deus Ex](#deus-ex-1)
   - [ITE Media (Hugo)](#ite-media-hugo)
   - [Ironclad Games / Stardock](#ironclad-games--stardock)
     - [Sins of a Solar Empire](#sins-of-a-solar-empire)
@@ -720,7 +719,6 @@ This list is for developers and modders working with such formats. It provides t
     - [The Sims 1](#the-sims-1)
     - [The Sims 2](#the-sims-2)
     - [The Sims 4](#the-sims-4)
-    - [The Sims 4](#the-sims-4-1)
   - [MDF (Polanie)](#mdf-polanie)
   - [Mega Crit (Slay the Spire)](#mega-crit-slay-the-spire)
   - [Media.Vision](#mediavision)
@@ -1149,8 +1147,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Treasure](#treasure)
     - [Mischief Makers](#mischief-makers)
   - [Tripwire Interactive (Killing Floor)](#tripwire-interactive-killing-floor)
-  - [Tripwire Interactive (Killing Floor)](#tripwire-interactive-killing-floor-1)
-  - [Tripwire Interactive (Killing Floor)](#tripwire-interactive-killing-floor-2)
   - [Troika Games (Vampire: The Masquerade)](#troika-games-vampire-the-masquerade)
     - [Temple of Elemental Evil](#temple-of-elemental-evil)
     - [Arcanum](#arcanum)
@@ -1172,7 +1168,6 @@ This list is for developers and modders working with such formats. It provides t
     - [CryEngine / Dunia](#cryengine--dunia)
     - [Snowdrop Engine](#snowdrop-engine)
     - [Jade Engine](#jade-engine)
-    - [UbiArt Engine](#ubiart-engine-1)
     - [Other Games / General](#other-games--general)
     - [Anno 1800](#anno-1800)
   - [Ultimate Play the Game (JETPAC)](#ultimate-play-the-game-jetpac)
@@ -1407,11 +1402,8 @@ This list is for developers and modders working with such formats. It provides t
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
 - [isodump](https://github.com/Lameguy64/isodump) - PlayStation ISO content extraction tool. Extracts files from PSX ISO/BIN images, supports ISO9660 filesystem, XA and STR files. Generates MKPSXISO-compatible XML project files for rebuilding ISOs.
-- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter for games using the Krawall sound engine. Exports audio as XM or S3M module files. Supports automatic detection of instrument/sample lists and modules, direct rip mode for lossless extraction, and can be used as a library.
-  - See also [krawall](https://github.com/sebknzl/krawall), the original XM/S3M player engine source used by these games.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for extracting and repacking PKG files from The Legend of Heroes: Trails of Cold Steel.
 - [wad-tools](https://github.com/libertyernie/wad-tools) - Tools for WAD archive format (Wii/GameCube). Fork of BFGR WadTools with enhanced command-line options for wadpacker and wadunpacker, including custom output directories and common-key.bin path specification. Supports C++and C++/CLI compilation.
-- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [archives](https://github.com/mholt/archives) - Cross-platform archive library for Go supporting many formats. Provides unified API and virtual file systems compatible with `io/fs`.
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
@@ -3066,7 +3058,6 @@ This list is for developers and modders working with such formats. It provides t
 ##### Graphics, Models, Textures & Fonts (CTPK/BCH/CGFX/BCLIM)
 
 - [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for exporting/importing CTPK texture package files used in Nintendo 3DS games.
-- [ctpktool](https://github.com/dnasdw/ctpktool) - Tool for working with CTPK texture package files.
 - [bchtool](https://github.com/dnasdw/bchtool) - Tool for exporting and importing BCH model files used in Nintendo 3DS games.
 - [txobtool](https://github.com/dnasdw/txobtool) - Tool for exporting and importing CGFX graphics files used in Nintendo 3DS games.
 - [3ds-bannertool](https://github.com/ihaveamac/3ds-bannertool) - Tool for creating Nintendo 3DS banners; fork of carstene1ns/3ds-bannertool adding Windows Unicode fixes and a CMake build system.
@@ -3208,7 +3199,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [cgrr-gameboy](https://github.com/sopoforic/cgrr-gameboy) - Tools for Game Boy file formats.
 - [HexManiacAdvance](https://github.com/haven1433/HexManiacAdvance) - Hex editor for Game Boy Advance ROMs with scripting support.
-- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter.
+- [UnkrawerterGBA](https://github.com/MCJack123/UnkrawerterGBA) - Game Boy Advance ROM extractor and converter for games using the Krawall sound engine. Exports audio as XM or S3M module files. Supports automatic detection of instrument/sample lists and modules, direct rip mode for lossless extraction, and can be used as a library.
+  - See also [krawall](https://github.com/sebknzl/krawall), the original XM/S3M player engine source used by these games.
 - [GB Recompiled](https://github.com/arcanite24/gb-recompiled) - Static recompiler for Game Boy and Game Boy Color ROMs that translates LR35902 assembly directly to portable C code.
 - [Tilemap-Creator](https://github.com/erandis-vol/Tilemap-Creator) - Tileset and tilemap editor for the Game Boy Advance.
 - [gba_explorer](https://github.com/attilathedud/gba_explorer) - Explorer for Game Boy Advance ROMs, browsing and extracting embedded text, graphics, and sound data.
@@ -3357,7 +3349,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: sgd/sgh/sgb (output), WAV/AC3 (input).
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - PSARC library in C# for working with PlayStation PSARC archive format.
 - [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced PlayStation 1 memory card editor for managing save files with support for multiple formats.
-- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
+- [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [sfo](https://github.com/hippie68/sfo) - Fast C program that reads a file to print or modify its SFO parameters. Can be used for automation or to build param.sfo files from scratch. Also available as .exe file for Windows command line.
 - [ps3-ckit](https://github.com/tge-was-taken/ps3-ckit) - PS3 C code injection framework. Toolkit for running arbitrary C code in games, hooking existing functions, and inserting custom functionality.
 - [dynlib](https://github.com/aerosoul94/dynlib) - IDA Pro plugin to aid PS4 user mode ELF reverse engineering. Loads PS4-specific DYNLIBDATA segment, resolves obfuscated symbol NIDs to label imports/exports, loads symbol table, and patches relocations.
@@ -4677,6 +4669,8 @@ This list is for developers and modders working with such formats. It provides t
 - [dxhr](https://github.com/rrika/dxhr) - Tools for processing Deus Ex: Human Revolution data files.
   - Features: Blender extensions for loading unit and mesh files (`cdcunit.py`, `cdcmesh.py`), command-line DRM file explorer, FUSE mount for BIGFILE.000 archives.
   - Formats: DRM, BIGFILE.
+- [cdcEngineDXHR (decomp)](https://github.com/rrika/cdcEngineDXHR) - Matching decompilation of Deus Ex: Human Revolution.
+- [Gibbed's Deus Ex HR tools](https://www.moddb.com/games/deus-ex-3/downloads/gibbeds-deus-ex-hr-tools) - A set of tools for compiling and decompiling the Crystal Dynamics engine's data files. Requires the .NET Framework 4 Client Profile.
 - [TrRebootModTools](https://github.com/arcusmaximus/TrRebootModTools) - Modding tools for the Tomb Raider Reboot games (Tomb Raider 2013, Rise of the Tomb Raider, Shadow of the Tomb Raider).
 
 ### Custom Order Maid 3D2
@@ -6450,11 +6444,6 @@ This list is for developers and modders working with such formats. It provides t
 - [FuseMDX2DKM](https://github.com/KUBA18i/FuseMDX2DKM) - Fuses Kingpin: Life of Crime .mdx models into a single Daikatana .dkm model.
 - [MD22DKM](https://github.com/KUBA18i/MD22DKM) - Converts Quake II .md2 models into Daikatana's .dkm format.
 
-#### Deus Ex
-
-- [cdcEngineDXHR (decomp)](https://github.com/rrika/cdcEngineDXHR) - Matching decompilation of Deus Ex: Human Revolution.
-- [Gibbed's Deus Ex HR tools](https://www.moddb.com/games/deus-ex-3/downloads/gibbeds-deus-ex-hr-tools) - A set of tools for compiling and decompiling the Crystal Dynamics engine's data files. Requires the .NET Framework 4 Client Profile.
-
 ### ITE Media (Hugo)
 
 - [hugo-re](https://github.com/gzalo/hugo-re) - Reverse-engineering/reimplementation project for the 1990s 'Hugo' TV/PC game series, loading the original game's resource archives and asset formats.
@@ -6948,9 +6937,6 @@ This list is for developers and modders working with such formats. It provides t
 #### The Sims 4
 
 - [FastDec-TS4](https://github.com/KitsuneDev/FastDec-TS4) - Fast Python decompiler for The Sims 4's compiled .pyc script files, used to decompile the game's own scripts and TS4Script mods back to readable Python source.
-
-#### The Sims 4
-
 - [Sims-4-Modding-Docs](https://github.com/zmilla93/Sims-4-Modding-Docs) - Archive of official Maxis/EA Sims 4 modding documentation (the original Custom Content Guide, forum discussions, and binary templates for .package resource formats), preserved from now-defunct forum pages via the Internet Archive.
 
 ### MDF (Polanie)
@@ -8310,7 +8296,6 @@ This list is for developers and modders working with such formats. It provides t
 #### Banjo-Tooie
 
 - [noclip.website (Banjo-Tooie)](https://github.com/magcius/noclip.website/tree/main/src/BanjoTooie) - In-browser Banjo-Tooie viewer.
-- [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [WumbasWigwam](https://github.com/RareExports/WumbasWigwam) - Level exporter for Banjo-Tooie (Blender import support).
 - [BK2BT](https://github.com/Muzzarino/BK2BT) - Fast3DEX to Fast3DEX2 microcode converter for Banjo-Kazooie model files to Banjo-Tooie format. Includes model previewer and converter.
 - [banjo-tooie (decomp)](https://github.com/Mr-Wiseguy/banjo-tooie) - Work-in-progress matching decompilation of Banjo-Tooie (N64).
@@ -9823,13 +9808,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Tripwire Interactive (Killing Floor)
 
 - [KFTempArchiveExtractor](https://github.com/Mateos81/KFTempArchiveExtractor) - Manually extracts Killing Floor's Steam Workshop TempArchiveXX files when the game's own downloader fails, based on the documented internal format of the TempArchive files.
-
-### Tripwire Interactive (Killing Floor)
-
 - [Killing Floor Map Viewer](https://github.com/TheBestPlan/killingfloor-map-viewer) - Desktop and browser viewer for Killing Floor's Unreal Engine 2.5 `.rom` map files, drawing BSP geometry, static meshes, terrain, and skybox with textures, and allowing free-flight navigation without KFEd.
-
-### Tripwire Interactive (Killing Floor)
-
 - [killingfloor-map-importer](https://github.com/TheBestPlan/killingfloor-map-importer) - Converts maps from other games into Killing Floor 1 levels (.rom, Unreal Engine 2.5).
 
 ### Troika Games (Vampire: The Masquerade)
@@ -9954,6 +9933,7 @@ This list is for developers and modders working with such formats. It provides t
 #### UbiArt Engine
 
 - [ubiart-id-table](https://github.com/wukko/ubiart-id-table) - Generator for UbiArt Engine `idtable.idt` files, used to add new bundles to UbiArt games that verify file-download completion via an ID table; primarily used for modding Just Dance 2017 on PC.
+- [ubiart-loc8-converter](https://github.com/wukko/ubiart-loc8-converter) - Converter for UbiArt Engine `loc8` localization files, supporting decompression, compression, and patching. Used for modding Just Dance, Rayman Legends, and other UbiArt Engine games.
 
 #### Unreal Engine
 
@@ -9999,13 +9979,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [jaded](https://github.com/hogsy/jaded) - Community fork of Ubisoft's Jade engine (Beyond Good & Evil, Rayman, Peter Jackson's King Kong) with bug fixes, enabling loading of the original games' assets.
 
-#### UbiArt Engine
-
-- [ubiart-loc8-converter](https://github.com/wukko/ubiart-loc8-converter) - Converter for UbiArt Engine `loc8` localization files, supporting decompression, compression, and patching. Used for modding Just Dance, Rayman Legends, and other UbiArt Engine games.
-
 #### Other Games / General
 
-- [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting .SPK audio files found in Ubisoft game .dat files. Can play back and decode sound and music encoded into the game files.
 - [UplayDB](https://github.com/UplayDB) - Comprehensive resource and tools for reversing Ubisoft services, launchers, manifests, and APIs.
 - [Ray1Map](https://github.com/BinarySerializer/Ray1Map) - Map viewer/editor for tile-based Rayman games, focused on Rayman 1; supports tile, collision and object viewing/editing, asset export, and real-time memory-based editing.
 - [Ray1Editor](https://github.com/RayCarrot/Ray1Editor) - 2D game editor derived from Ray1Map for modifying maps in Rayman 1 games. Supports Rayman 1 PS1, PC (multiple versions), Educational, Designer, by his Fans, and 60 Levels versions.
