@@ -1578,6 +1578,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
 - [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
+- [hobbits](https://github.com/Mahlet-Inc/hobbits) - Multi-platform GUI for bit-based analysis, processing, and visualization of binary data, with a plugin system for custom parsers.
 - [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - Command-line hexdump with colored output, based on [xcd](https://git.sr.ht/~breadbox/xcd).
 - [binxelview](https://github.com/bbbradsmith/binxelview) - Binary image explorer that renders raw binary data as a bitmap at adjustable width/bit-depth/palette, for visually spotting embedded graphics data inside ROMs and other game files.
 
@@ -7578,6 +7579,10 @@ This list is for developers and modders working with such formats. It provides t
   - Reverse-engineers the game's `.pak`, `map.xdb`, and `GroundTerrain.bin` formats.
   - Live 3D terrain rendering and editing; ships no game content.
 - [EIrepack](https://github.com/aspadm/EIrepack) - Automatic decompiler for Evil Islands, extracting the game's archived resource files.
+- [EI-HD-tiles](https://github.com/aspadm/EI-HD-tiles) - Tools for generating tile atlases for Evil Islands: Curse of the Lost Soul.
+- [EIDBEditor](https://github.com/chemmalion/EIDBEditor) - Evil Islands database editor.
+- [ei_figer](https://github.com/konstvest/ei_figer) - Blender addon to import/export Evil Islands' 3D models.
+- [ei_maper](https://github.com/konstvest/ei_maper) - Editor for Evil Islands' `.MOB` map files.
 
 ### Nicalis / Team Meat (The Binding of Isaac)
 
@@ -8306,6 +8311,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Piranha Bytes
 
 - [ZenLib](https://github.com/ataulien/ZenLib) - Loading library for proprietary formats used by the engine in Gothic and Gothic II games.
+- [OpenGothic](https://github.com/Try/OpenGothic) - Open-source reimplementation of the Gothic 2: Night of the Raven game client, loading the original game's data files and mods; requires an existing installation of Gothic 2.
 
 #### Gothic 3
 
