@@ -4064,6 +4064,9 @@ This list is for developers and modders working with such formats. It provides t
 ### ArenaNet (Guild Wars)
 
 - [GuildWarsMapBrowser](https://github.com/Jonathan-Greve/GuildWarsMapBrowser) - Browser and explorer for Guild Wars' `.dat` file, with search and filtering of the internal file formats it contains.
+- [dat_files_searcher](https://github.com/Jonathan-Greve/dat_files_searcher) - Searches decompressed Guild Wars `.dat` files for specific byte sequences; companion tool to GuildWarsMapBrowser, which can export the files in decompressed form.
+- [GuildWarsFVF_and_filenames](https://github.com/Jonathan-Greve/GuildWarsFVF_and_filenames) - Code for converting the `.dat` file's internal FVF (flexible vertex format) to the actual DirectX 9 FVF, plus routines for decoding and encoding Guild Wars' internal filename hashes.
+- [GWSM](https://github.com/Jonathan-Greve/GWSM) - Shared-memory library that streams live Guild Wars client data (via FlatBuffers) into other processes for interop. See also [GWSMController](https://github.com/Jonathan-Greve/GWSMController), which combines GWSM with GuildWarsMapBrowser's map data to render in-game actors/agents on 3D maps in real time.
 
 ### Argentum Online
 
@@ -5385,6 +5388,7 @@ This list is for developers and modders working with such formats. It provides t
 - [AptEditor](https://github.com/lanyizi/AptEditor) - Editor for SAGE engine APT (Flash-like UI) files, based on feliwir's AptEditor and OpenSAGE's APT implementation.
 - [CnC_Tiberian_Dawn](https://github.com/electronicarts/CnC_Tiberian_Dawn) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn game logic and engine source code.
 - [Thyme](https://github.com/TheAssemblyArmada/Thyme) - Open-source reimplementation of Command & Conquer: Generals and Zero Hour in C++, reading the original games' data files.
+- [GeneralsGameCode](https://github.com/TheSuperHackers/GeneralsGameCode) - Actively maintained community continuation of the official Command & Conquer: Generals - Zero Hour source release, with cross-platform build fixes, bug fixes, and modernization work on top of the original game's data handling.
 
 #### SSX
 
@@ -7829,6 +7833,8 @@ This list is for developers and modders working with such formats. It provides t
 - [muscode](https://github.com/ata4/muscode) - Encoder/decoder for Minecraft's XOR-encrypted .mus background music files, converting them to and from standard Ogg Vorbis.
 - [nbtpp](https://github.com/JaanDev/nbtpp) - Modern C++ library for reading and writing Minecraft's NBT (Named Binary Tag) file format.
 - [rpw (Resource Pack Workbench)](https://github.com/mcRPW/rpw) - Standalone application for editing and managing Minecraft resource packs.
+- [MCEdit-Unified](https://github.com/Podshot/MCEdit-Unified) - Combined MCEdit and Pymclevel world editor for Minecraft Java Edition; reads and edits chunk/region world save data for large-scale terrain and structure editing.
+- [minecraftfinder](https://github.com/edward4096/minecraftfinder) - Tool to locate Minecraft installation and world files on disk, adapted from the author's RuneScape cache-finding work for the rs-archive preservation project.
 
 ### Monolith Productions
 
@@ -7974,10 +7980,12 @@ This list is for developers and modders working with such formats. It provides t
 #### Blade & Soul
 
 - [BnsDatTool](https://github.com/ashllay/BnsDatTool) - GUI tool for extracting, repacking, and unpacking Blade & Soul .dat archive files.
+- [UPKManager](https://github.com/stricq/UPKManager) - Blade & Soul Unreal Engine 3 Package (UPK) extractor and rebuilder; views, exports, and imports textures and sounds, with DDS load/save support.
 
 ### Neople (Dungeon Fighter Online)
 
 - [PVF-Ai-Agent-Workbench](https://github.com/Qswhisper/PVF-Ai-Agent-Workbench) - Toolkit for inspecting and editing Dungeon Fighter Online's Script.pvf archive format, combining a native extraction/repacking backend with scripted analysis, diffing, and dependency-checking utilities, driven through an AI-agent front-end (Claude Code, Codex, etc).
+- [PVFTools](https://github.com/flwmxd/DNF-Porting) - Library for unpacking Dungeon Fighter Online's PVF and NPK archive files, developed alongside a DNF client-porting effort built on the Maple engine.
 
 ### NetDevil (Dungeon Runners)
 
@@ -8015,6 +8023,7 @@ This list is for developers and modders working with such formats. It provides t
 - [reNX](https://github.com/angelsl/reNX) - C# library for reading MapleStory's NX (PKG4) archive format, the successor to WZ.
 - [wz2nx](https://github.com/angelsl/wz2nx) - Tool to convert MapleStory WZ archives to the NX (PKG4) format.
 - [MapleStory-Porting (Pharaoh)](https://github.com/flwmxd/MapleStory-Porting) - Collection of MapleStory tools including a client-editor, file-browser, and client, supporting the game's WZ files.
+- [WzTools](https://github.com/flwmxd/WzTools) - C++ reader library for MapleStory's WZ client resource files, exposing a node-based (`WzFile`/`WzNode`) API for browsing archive contents.
 
 #### MapleStory 2
 
@@ -10963,6 +10972,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
