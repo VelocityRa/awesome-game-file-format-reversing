@@ -201,6 +201,7 @@ This list is for developers and modders working with such formats. It provides t
   - [WonderSwan SDKs & Hardware](#wonderswan-sdks--hardware)
   - [Xbox SDKs & Hardware](#xbox-sdks--hardware)
   - [Tamagotchi (Bandai) Hardware](#tamagotchi-bandai-hardware)
+  - [Sega SDKs & Hardware](#sega-sdks--hardware)
   - [FMOD](#fmod)
   - [SpeedTree](#speedtree)
   - [Wwise](#wwise)
@@ -360,6 +361,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Haunting Ground](#haunting-ground)
     - [Dead Rising](#dead-rising)
   - [Carbon Games (AirMech)](#carbon-games-airmech)
+  - [Carbine Studios (WildStar)](#carbine-studios-wildstar)
   - [CCP Games (EVE Online)](#ccp-games-eve-online)
   - [CCR (RF Online)](#ccr-rf-online)
   - [CD Projekt Red](#cd-projekt-red)
@@ -434,6 +436,7 @@ This list is for developers and modders working with such formats. It provides t
   - [DOKA Studios](#doka-studios)
   - [Dragon Soul (MMORPG)](#dragon-soul-mmorpg)
   - [DreamForge Intertainment (Ravenloft)](#dreamforge-intertainment-ravenloft)
+  - [DreamWorks Interactive (The Lost World: Jurassic Park)](#dreamworks-interactive-the-lost-world-jurassic-park)
   - [Double Fine (Psychonauts, Costume Quest)](#double-fine-psychonauts-costume-quest)
   - [Dynamix / Sierra](#dynamix--sierra)
     - [Tribes Series](#tribes-series)
@@ -667,6 +670,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Nioh](#nioh)
   - [Konami](#konami)
     - [Yu-Gi-Oh](#yu-gi-oh)
+    - [Boktai](#boktai)
     - [Metal Gear Solid](#metal-gear-solid)
       - [Archive & Data Extraction Tools](#archive--data-extraction-tools)
       - [Models, Textures, Animation & Stage Tools](#models-textures-animation--stage-tools)
@@ -2100,6 +2104,7 @@ This list is for developers and modders working with such formats. It provides t
 - [source-engine-model-loader](https://github.com/gkjohnson/source-engine-model-loader) - Three.js loader for parsing Source Engine model formats (MDL, VMT, VTF, VTX, VVD).
 - [Godot-GoldSrc-MDL-Importer](https://github.com/DataPlusProgram/Godot-GoldSrc-MDL-Importer) - Plugin that imports GoldSrc .mdl model files into Godot.
 - [hlmvqt](https://github.com/iOrange/hlmvqt) - Half-Life model viewer written from scratch using Qt 6.
+- [web-hlmv](https://github.com/danakt/web-hlmv) - WebGL implementation of the Half-Life Model Viewer, running GoldSrc .mdl model previews directly in the browser.
 - [VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) - Volt, a drop-in replacement for the Source Engine's VPhysics module built on Jolt Physics, parsing the engine's compiled VPhysics collision model (`.phy`) data to reconstruct rigid bodies, ragdolls, and constraints.
 - [HalfLifeAssetManager](https://github.com/SamVanheer/HalfLifeAssetManager) - Tool to view and edit Half-Life 1 (GoldSrc) MDL models.
 - [Source2Converter](https://github.com/REDxEYE/Source2Converter) - Toolset for converting Source 1 models to Source 2, by the author of SourceIO above.
@@ -3430,6 +3435,10 @@ This list is for developers and modders working with such formats. It provides t
 - [tamalib](https://github.com/jcrona/tamalib) - Hardware-agnostic emulation library for the first-generation Tamagotchi, reverse-engineering its E0C6S46 CPU and ROM dump format.
 - [mcugotchi](https://github.com/jcrona/mcugotchi) - First-generation Tamagotchi (P1) emulator for microcontrollers, built on tamalib. See also [pebblegotchi](https://github.com/jcrona/pebblegotchi), a port for Pebble smartwatches.
 
+### Sega SDKs & Hardware
+
+- [sega2asm](https://github.com/hansbonini/sega2asm) - Sega Genesis/Mega Drive disassembler and splitter written in Golang, producing reassemblable, annotated source from ROM images.
+
 ### FMOD
 
 *Audio middleware used in thousands of games for sound bank management and streaming.*
@@ -3832,6 +3841,7 @@ This list is for developers and modders working with such formats. It provides t
 - [blender_io_GTA5Ped](https://github.com/lucasvinbr/blender_io_GTA5Ped) - Blender import/export add-on for GTA V pedestrian (ped) meshes via OpenIV's openFormats (.odd/.odr/.mesh/.skel).
 - [GTA5VehicleFlagTool](https://github.com/adam10603/GTA5VehicleFlagTool) - Web-based tool for inspecting and modifying strModelFlags, strHandlingFlags, strDamageFlags, and strAdvancedFlags values in GTA V's handling files, using a flag lookup table.
 - [unarpack](https://github.com/HalanoSiblee/unarpack) - Linux-ported unpacker for .AR archives from the Midtown Madness CTPAX-X Team release.
+- [GTAVHandlingParserJs](https://github.com/adam10603/GTAVHandlingParserJs) - Node.js library for reading and parsing `.meta` vehicle handling files from Grand Theft Auto V.
 
 ### Ankama Games
 
@@ -4531,6 +4541,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [AirMech-AMF-file-blender-import](https://github.com/curly-brace/AirMech-AMF-file-blender-import) - Blender import script for AirMech's AMF model format.
 
+### Carbine Studios (WildStar)
+
+- [The-Ham-Sandwich](https://github.com/adarec1994/The-Ham-Sandwich) - Browses WildStar's index files, renders all maps, and exports them to Blender.
+
 ### CCP Games (EVE Online)
 
 - [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) - Research project for Carbon Engine file formats used in EVE Online.
@@ -4912,6 +4926,10 @@ This list is for developers and modders working with such formats. It provides t
 - [LoftRES](https://github.com/LaZar00/LoftRES) - Extracts/generates and decrypts/converts RES resource archives and RAW images for Ravenloft: Strahd's Possession and Ravenloft: Stone Prophet.
 - [LoftANM](https://github.com/LaZar00/LoftANM) - Extracts/generates ANM animation files for Ravenloft videogames such as Ravenloft: Strahd's Possession.
 - [LoftTExt](https://github.com/LaZar00/LoftTExt) - Extracts/generates the in-game text stored in T files for Ravenloft: Strahd's Possession and Ravenloft: Stone Prophet.
+
+### DreamWorks Interactive (The Lost World: Jurassic Park)
+
+- [Jurassic-Park-PSX-File-Viewer](https://github.com/AdrianoDiDio/Jurassic-Park-PSX-File-Viewer) - Set of tools to open and view files from the PSX game The Lost World: Jurassic Park.
 
 ### Double Fine (Psychonauts, Costume Quest)
 
@@ -5441,6 +5459,7 @@ This list is for developers and modders working with such formats. It provides t
 - [pokegold-spaceworld (decomp)](https://github.com/pret/pokegold-spaceworld) - Matching decompilation of Pokémon Gold (SpaceWorld Demo) (100%).
 - [pokeyellow (decomp)](https://github.com/pret/pokeyellow) - Matching decompilation of Pokémon Yellow (100%).
 - [pokered (decomp)](https://github.com/pret/pokered) - Matching decompilation of Pokémon Red (100%).
+- [pokered-docs-ja](https://github.com/akatsuki105/pokered-docs-ja) - Japanese-language annotated analysis/documentation of the pokered decompilation, covering the internal workings of the international (English) release of Pokémon Red.
 
 #### Gen III
 
@@ -6417,7 +6436,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [fe11-us (decomp)](https://github.com/Eebit/fe11-us) - Matching decompilation of Fire Emblem: Shadow Dragon (NDS, USA).
 - [fireemblem8u (decomp)](https://github.com/FireEmblemUniverse/fireemblem8u) - Decompilation/disassembly of Fire Emblem: The Sacred Stones (GBA).
+- [fireemblem8j (decomp)](https://github.com/laqieer/fireemblem8j) - Decompilation/disassembly of Fire Emblem: Seima no Kouseki (the Japanese release of The Sacred Stones, GBA).
 - [fireemblem6j (decomp)](https://github.com/FireEmblemUniverse/fireemblem6j) - Decompilation of Fire Emblem: The Binding Blade (GBA).
+- [fe7_us (decomp)](https://github.com/StanHash/fe7_us) - Disassembly/partial decompilation of Fire Emblem (GBA, USA) — the Western localization known as Fire Emblem: The Blazing Blade.
 - [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
 - [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Fire Emblem If ARC re/unpacker.
@@ -6645,6 +6666,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Yu-Gi-Oh
 
 - [TFCardEditGUI](https://github.com/xan1242/TFCardEditGUI) - GUI frontend for TFCardEdit to edit the card database format found in Yu-Gi-Oh! Tag Force games, Yu-Gi-Oh! Online, and other Yu-Gi-Oh! titles developed by Other Ocean Interactive. Currently supports Tag Force 1.
+
+#### Boktai
+
+- [boktai2](https://github.com/akatsuki105/boktai2) - Work-in-progress disassembly of Boktai 2: Solar Boy Django (GBA, Japan v1.1).
 
 #### Metal Gear Solid
 
@@ -7460,6 +7485,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hmawl (decomp)](https://github.com/ChrisNonyminus/hmawl) - Matching decompilation of Harvest Moon: A Wonderful Life (GameCube).
 - [hm3](https://github.com/Sanqui/hm3) - Partial disassembly of Harvest Moon 3 (Game Boy Color).
 - [HDATextTool](https://github.com/gdkchan/HDATextTool) - HDA (un)packer and text editing tool for Harvest Moon: Save the Homeland.
+- [hmfomt](https://github.com/not-alons/hmfomt) - Disassembly/decompilation of Harvest Moon: Friends of Mineral Town (Game Boy Advance). See also [StanHash's fork](https://github.com/StanHash/fomt), a parallel decompilation effort for the same game.
 
 ### Neople (Dungeon Fighter Online)
 
@@ -7943,7 +7969,7 @@ This list is for developers and modders working with such formats. It provides t
 - [las-decomp (decomp)](https://github.com/Owen-Splat/las-decomp) - Matching decompilation of Link's Awakening Switch (2019 remake).
 - [tmc (decomp)](https://github.com/zeldaret/tmc) - Matching decompilation of The Legend of Zelda: The Minish Cap.
 - [ph (decomp)](https://github.com/zeldaret/ph) - Matching decompilation of The Legend of Zelda: Phantom Hourglass.
-- [st (decomp)](https://github.com/yanis002/st) - Matching decompilation of The Legend of Zelda: Spirit Tracks.
+- [st (decomp)](https://github.com/zeldaret/st) - Matching decompilation of The Legend of Zelda: Spirit Tracks.
 - [MCEdit](https://github.com/LagoLunatic/MCEdit) - Multi-purpose editor for ROM hacking The Legend of Zelda: The Minish Cap, built on the [mclib](https://github.com/LagoLunatic/mclib) Python library. See also the author's [MC-Hacking-Docs](https://github.com/LagoLunatic/MC-Hacking-Docs) notes.
 - [LegendOfZeldaNESRecomp](https://github.com/mstan/LegendOfZeldaNESRecomp) - Static recompilation of The Legend of Zelda (NES) into native code.
 - [ZeldaAlttPSNESRecomp](https://github.com/mstan/ZeldaAlttPSNESRecomp) - Static recompilation of The Legend of Zelda: A Link to the Past (SNES) into native code.
@@ -7961,6 +7987,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Star Fox (SNES)
 
 - [StarFoxSNESRecomp](https://github.com/mstan/StarFoxSNESRecomp) - Static recompilation of Star Fox (SNES) into native code.
+- [starfox_spc_driver](https://github.com/phonymike/starfox_spc_driver) - Disassembly of Star Fox (SNES)'s SPC700 sound driver.
 
 #### Star Fox Adventures
 
@@ -9063,6 +9090,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [SF1DISASM](https://github.com/ShiningForceCentral/SF1DISASM) - Documentation disassembly of Shining Force (Genesis).
 - [SF2DISASM](https://github.com/ShiningForceCentral/SF2DISASM) - Documentation disassembly of Shining Force II.
+- [goldensun](https://github.com/gsret/goldensun) - Disassembly of Golden Sun (GBA).
 
 #### Other Games
 
@@ -9098,6 +9126,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [lainTSX](https://github.com/ad044/lainTSX) - Browser-based reimplementation of the Serial Experiments Lain PSX game using three.js, with multi-language subtitle support.
   - Ships no game assets; a companion extraction script pulls and reformats video, image, and text assets directly from the original disc images.
+- [lain-bootleg-bootleg](https://github.com/ad044/lain-bootleg-bootleg) - Reverse engineering and remake of Lain Bootleg, a minigame from the Serial Experiments Lain PSX game.
 
 ### Shiro Games
 
@@ -9575,6 +9604,7 @@ This list is for developers and modders working with such formats. It provides t
 - [kh2vif](https://github.com/GovanifY/kh2vif) - Model importer for Kingdom Hearts 2 (OBJ to VIF format converter).
 - [KH2-Anm-Generator](https://github.com/Kite2810/KH2-Anm-Generator) - Automated animation cutscene generator for Kingdom Hearts 2 custom character models.
 - [Hypercrown](https://github.com/Some1fromthedark/Hypercrown) - Tool for converting models from Kingdom Hearts 1 into more common model formats. Also converts back to the native format so that edited models can be patched into the game.
+- [khdays-decomp (decomp)](https://github.com/Yokimitsuro/khdays-decomp) - Work-in-progress matching decompilation of Kingdom Hearts 358/2 Days (Nintendo DS).
 
 #### Dragon Quest
 
@@ -9610,6 +9640,7 @@ This list is for developers and modders working with such formats. It provides t
 - [FFXIVClientStructs](https://github.com/aers/FFXIVClientStructs) - Reverse-engineering resources for Final Fantasy XIV client's native classes and structures; C# library for interop with native game objects and functions.
 - [AnimAssist](https://github.com/0ceal0t/AnimAssist) - Basic animation modding workflow tool for Final Fantasy XIV, from the same author as BlenderAssist.
 - [ff14-strategyboard-decode](https://github.com/wtw0212/ff14-strategyboard-decode) - Reverse-engineered Python/TypeScript codec for Final Fantasy XIV's in-game Strategy Board binary serialization format, documenting its DEFLATE compression, CRC32 checksum, and obfuscation/substitution layers, with a web interface for creating diagrams and exporting them as in-game strategy codes.
+- [seventhumbral](https://github.com/adarec1994/seventhumbral) - Explorer for Final Fantasy XIV 1.0 (the original pre-A Realm Reborn release), previewing levels, animations, and models.
 
 #### Tactics Ogre: Let Us Cling Together
 
@@ -10028,6 +10059,7 @@ This list is for developers and modders working with such formats. It provides t
 - [NTT-Model-Dumper](https://github.com/KillzXGaming/NTT-Model-Dumper) - Tool to dump .model files used by Lego Star Wars: The Skywalker Saga.
 - [tt-save-editor](https://github.com/fisherjoey/tt-save-editor) - Browser-based save editor for LEGO Batman: Legacy of the Dark Knight. Decrypts the RC4-encrypted, fixed 32-byte-key save file and parses its Unreal Engine 5 GVAS fields by name to fix the "created on an updated version" error, unlock collectibles and characters, and edit mission progress. Runs entirely client-side.
 - [Tt-Games-quickbms-scripts](https://github.com/linterniGamer/Tt-Games-quickbms-scripts) - QuickBMS scripts for extracting and modding archives from games made by TT Games.
+- [LegoRacers2Explorer](https://github.com/adarec1994/LegoRacers2Explorer) - Browser and exporter for LEGO Racers 2's game files.
 
 ### Turbine
 
@@ -10294,6 +10326,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
