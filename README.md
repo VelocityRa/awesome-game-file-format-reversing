@@ -263,6 +263,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Aether Studios (Rivals of Aether)](#aether-studios-rivals-of-aether)
   - [AKI Corporation](#aki-corporation)
   - [Alfa System (Neon Genesis Evangelion 2)](#alfa-system-neon-genesis-evangelion-2)
+  - [Algoryx (Algodoo / Phun)](#algoryx-algodoo--phun)
   - [Amber Studio](#amber-studio)
   - [Analgesic Productions](#analgesic-productions)
     - [Anodyne](#anodyne)
@@ -687,6 +688,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Larian Studios](#larian-studios)
     - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Divine Divinity / Beyond Divinity](#divine-divinity--beyond-divinity)
+  - [LEGO Media (Junkbot)](#lego-media-junkbot)
   - [LEGO Universe](#lego-universe)
   - [Level-5](#level-5)
     - [Mobile Suit Gundam AGE](#mobile-suit-gundam-age)
@@ -3776,6 +3778,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [nge_2_re](https://github.com/EVA-zh-Hans/nge_2_re) - Reverse-engineering and Simplified Chinese localization project for Neon Genesis Evangelion 2: Tsukurareshi Sekai -Another Cases- (PSP); parses and repacks the game's HGPT, TEXT, and BIND file formats, dynamically patches the EBOOT executable, and builds a full translation import/export toolchain.
 
+### Algoryx (Algodoo / Phun)
+
+- [phun-js-box2d](https://github.com/EJTH/phun-js-box2d) - Parser and work-in-progress web player for Phun/Algodoo physics sandbox `.phz` scene files, including a ThymeScript-to-JavaScript transpiler and Box2D-based physics playback.
+
 ### Amber Studio
 
 - [amber-file-formats](https://github.com/AlexKimov/amber-file-formats) - File formats and viewer plugins for Amber Studio games.
@@ -6810,6 +6816,11 @@ This list is for developers and modders working with such formats. It provides t
 - [bg3-dds-convert](https://github.com/Geminitrix/bg3-dds-convert) - Batch texture converter for Baldur's Gate 3 modding, converting PNG/JPG/BMP/TGA/TIF/HDR images into game-accurate .DDS files using the same texconv settings BG3 itself uses per icon type, verified by inspecting the game's shipped assets.
 - [BG3SE (Savegame Library)](https://github.com/Wahkah/BG3SE) - Baldur's Gate 3 savegame library and editor parsing LSPK/LSF/LSMF from scratch to decode abilities, classes, feats, XP, and items. Not related to Norbyte's Script Extender of the same abbreviation; character edits currently produce saves the game won't load (read-only in practice).
 - [dos2de-save-game-editor-macos](https://github.com/XEonAX/dos2de-save-game-editor-macos) - macOS-compatible save game editor for Divinity: Original Sin 2 - Definitive Edition.
+
+### LEGO Media (Junkbot)
+
+- [junkbot-code](https://github.com/JakeSteam/junkbot-code) - Extracted source code and assets from LEGO's Junkbot (2002), a browser-based Adobe Director/Shockwave puzzle game, preserving Lingo scripts, level data, and cast-ripped sprites/sounds/animations.
+- [janitorial-android](https://github.com/1j01/janitorial-android) - HTML5 remake of Junkbot and Junkbot Undercover with a fancy level editor, loading the original level format and reusing sprites/sounds ripped from the original Shockwave games.
 
 ### LEGO Universe
 
@@ -10283,6 +10294,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
