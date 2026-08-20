@@ -286,6 +286,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Duke Nukem II](#duke-nukem-ii)
     - [Blake Stone (Aliens of Gold, Planet Strike)](#blake-stone-aliens-of-gold-planet-strike)
   - [ArenaNet (Guild Wars)](#arenanet-guild-wars)
+  - [Argentum Online](#argentum-online)
   - [Argonaut Games](#argonaut-games)
   - [Arkane Studios](#arkane-studios)
   - [Armature Studio (Batman: Arkham Origins Blackgate)](#armature-studio-batman-arkham-origins-blackgate)
@@ -3932,6 +3933,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [GuildWarsMapBrowser](https://github.com/Jonathan-Greve/GuildWarsMapBrowser) - Browser and explorer for Guild Wars' `.dat` file, with search and filtering of the internal file formats it contains.
 
+### Argentum Online
+
+- [ArgentumOnlineGodot](https://github.com/brian-christopher/ArgentumOnlineGodot) - Port of the original Argentum Online 0.13.3 client (released by Shak) to the Godot engine.
+  - See also [pyao-server](https://github.com/cavazquez/pyao-server) for a compatible Python/asyncio server reimplementation, which includes tooling to extract and convert the original VB6 client's `.map` files into JSON for runtime use.
+
 ### Argonaut Games
 
 - [croc (decomp)](https://github.com/xeeynamo/croc) - Matching decompilation of Croc: Legend of the Gobbos.
@@ -5614,6 +5620,7 @@ This list is for developers and modders working with such formats. It provides t
 - [PermuteMMO](https://github.com/kwsch/PermuteMMO) - Permutes possible player actions to find shiny Pokémon outcomes in Pokémon Legends: Arceus, companion tool to EtumrepMMO.
 - [PokeRomXtractor](https://github.com/AngelCen14/PokeRomXtractor) - Extracts data (Pokemon, items, abilities, and more) from Pokemon Emerald and FireRed ROMs.
 - [PokeTunes](https://github.com/akatsuki105/PokeTunes) - Web-based save editor for Pokemon games up to Generation III.
+- [PqSave](https://github.com/Thealexbarney/PqSave) - Save reader and writer for Pokémon Quest.
 
 ### Gameloft
 
@@ -7250,6 +7257,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Halo CE Batch Bitmap Extractor](https://www.moddb.com/downloads/halo-ce-batch-bitmap-extractor)
 - [H2PC_TagExtraction](https://github.com/Project-Cartographer/H2PC_TagExtraction) - Tool for extracting assets and tags from Halo 2 PC cache files using BlamLib.
 - [PckTool](https://github.com/coconutbird/PckTool) - .NET library and CLI tool for manipulating Wwise PCK/BNK audio packages, used by Halo Wars: Definitive Edition.
+- [phxtool](https://github.com/coconutbird/phxtool) - Rust CLI toolkit for Halo Wars: Definitive Edition modding, covering ERA, XMB, UGX, Wwise, ECF, BDT, and Scaleform formats; a modern successor to KornnerStudios' PhxTool.
+  - Built on [ensemble-formats](https://github.com/coconutbird/ensemble-formats) (Rust library for Halo Wars Definitive Edition and Halo Wars 2 file formats) and [pcktool-rs](https://github.com/coconutbird/pcktool-rs) (zero-copy Rust library/CLI for parsing and writing Wwise PCK/BNK audio packages).
+  - Related: [ensemble-assets](https://github.com/coconutbird/ensemble-assets) (Ensemble game asset resolution and typed database schemas), [hwm](https://github.com/coconutbird/hwm) (command-line manager for Halo Wars installations and mods), [sevenzip-era](https://github.com/coconutbird/sevenzip-era) (7-Zip plugin for reading/writing Ensemble ERA archive files).
 
 ##### Map Editing, Modding & DCC Tools
 
@@ -7922,6 +7932,8 @@ This list is for developers and modders working with such formats. It provides t
 - [ToadsTool](https://github.com/huderlem/ToadsTool) - Tool for editing Mario Golf: Toadstool Tour files including map containers, text, events, zone headers, entities, and encounters.
 - [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Camelot GameCube games (Mario Golf: Toadstool Tour and Mario Power Tennis) data decoder/encoder.
 - [M-LTool](https://github.com/efimandreev0/M-LTool) - Tool to extract archives from Mario & Luigi: Partner's in Time and Mario & Luigi: Bowser's Inside Story (NDS).
+- [MLSS_SE](https://github.com/Cefo14/MLSS_SE) - Save editor for Mario & Luigi: Superstar Saga (3DS remake).
+- [MLDT_SE](https://github.com/Cefo14/MLDT_SE) - Save editor for Mario & Luigi: Dream Team (3DS).
 - [PartrickSharp](https://github.com/ca1e/PartrickSharp) - Decrypts/encrypts course data from Super Mario Maker 2. See also [SMM2CourseDecryptor](https://github.com/simontime/SMM2CourseDecryptor).
 ##### Classic & Portable Mario Recompilations
 
@@ -8048,6 +8060,7 @@ This list is for developers and modders working with such formats. It provides t
 - [event-editor](https://github.com/zeldamods/event-editor) - Event flow editor for The Legend of Zelda: Breath of the Wild, for editing the game's cutscene/event flowchart data.
 - [BotW-SBFRES-to-FBX](https://github.com/Makiah/BotW-SBFRES-to-FBX) - Batch export tool combining custom Python/MAXScript with existing libraries to convert Nintendo SBFRES compressed model files from The Legend of Zelda: Breath of the Wild to FBX.
 - [botw (decomp)](https://github.com/zeldaret/botw) - Matching decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0).
+- [TotK-Tools-Mod-Manager](https://github.com/V0idpool/TotK-Tools-Mod-Manager) - Mod manager and toolset for The Legend of Zelda: Tears of the Kingdom, working with the game's original asset formats. See also [lchmagKekse's TOTK-SaveGame-Editor](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) for save file editing.
 
 ##### Classic & Handheld Zelda
 
@@ -8195,8 +8208,6 @@ This list is for developers and modders working with such formats. It provides t
 #### Punch-Out!!
 
 - [punch-out-wii-noesis-plugin](https://github.com/HiddenBoiRightHere/punch-out-wii-noesis-plugin) - Noesis plugin to extract Punch-Out!! Wii models with their meshes and rig.
-- [TotK-Tools-Mod-Manager](https://github.com/V0idpool/TotK-Tools-Mod-Manager) - Mod manager and toolset for The Legend of Zelda: Tears of the Kingdom, working with the game's original asset formats. See also [lchmagKekse's TOTK-SaveGame-Editor](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) for save file editing.
-- [MLSS_SE](https://github.com/Cefo14/MLSS_SE) - Save editor for Mario & Luigi: Superstar Saga.
 
 ### NPC Studio (Fields of Mistria)
 
