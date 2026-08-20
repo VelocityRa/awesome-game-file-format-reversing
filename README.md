@@ -240,6 +240,7 @@ This list is for developers and modders working with such formats. It provides t
   - [4Head Studios](#4head-studios)
   - [5th Cell](#5th-cell)
   - [8monkey Labs](#8monkey-labs)
+  - [A&F Software (Chuckie Egg)](#af-software-chuckie-egg)
   - [Access Games (Deadly Premonition)](#access-games-deadly-premonition)
   - [Acclaim Entertainment (Turok)](#acclaim-entertainment-turok)
   - [Accolade (Eradicator)](#accolade-eradicator)
@@ -291,6 +292,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Duke Nukem II](#duke-nukem-ii)
     - [Blake Stone (Aliens of Gold, Planet Strike)](#blake-stone-aliens-of-gold-planet-strike)
   - [ArenaNet (Guild Wars)](#arenanet-guild-wars)
+    - [Guild Wars 2](#guild-wars-2)
   - [Argentum Online](#argentum-online)
   - [Argonaut Games](#argonaut-games)
   - [Arkane Studios](#arkane-studios)
@@ -300,6 +302,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Assembly Line (Supaplex)](#assembly-line-supaplex)
   - [Asmik Ace Entertainment (LSD: Dream Emulator)](#asmik-ace-entertainment-lsd-dream-emulator)
   - [Asobo Studio](#asobo-studio)
+  - [Atari, Inc. (Raiders of the Lost Ark)](#atari-inc-raiders-of-the-lost-ark)
   - [Atlus](#atlus)
   - [Attack on Titan](#attack-on-titan)
   - [Aurogon (Gujian)](#aurogon-gujian)
@@ -491,6 +494,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Medal of Honor](#medal-of-honor)
     - [Seven Cities of Gold](#seven-cities-of-gold)
     - [General Tools](#general-tools)
+    - [Starflight](#starflight)
   - [Elemental Games (Space Rangers)](#elemental-games-space-rangers)
   - [Enhance Games (Rez)](#enhance-games-rez)
   - [Epic Games](#epic-games)
@@ -707,6 +711,7 @@ This list is for developers and modders working with such formats. It provides t
   - [KID](#kid)
   - [King of Route 66](#king-of-route-66)
   - [KingsIsle Entertainment (Wizard101)](#kingsisle-entertainment-wizard101)
+  - [Klei Entertainment (Oxygen Not Included)](#klei-entertainment-oxygen-not-included)
   - [Koei Tecmo](#koei-tecmo)
     - [Fatal Frame](#fatal-frame)
     - [Nioh](#nioh)
@@ -728,6 +733,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Yu-Gi-Oh! GX: Duel Academy](#yu-gi-oh-gx-duel-academy)
     - [Yu-Gi-Oh! Tag Force](#yu-gi-oh-tag-force)
     - [Pop'n Music](#popn-music)
+    - [Green Beret](#green-beret)
   - [Kuju London](#kuju-london)
   - [Kuro Games](#kuro-games)
     - [Wuthering Waves](#wuthering-waves)
@@ -932,6 +938,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Ocean Software (Chase H.Q.)](#ocean-software-chase-hq)
   - [Ocean Software](#ocean-software)
     - [Head Over Heels](#head-over-heels)
+    - [Cobra](#cobra)
   - [Oddworld Inhabitants](#oddworld-inhabitants)
   - [Origin Systems](#origin-systems)
     - [Ultima IV](#ultima-iv)
@@ -1098,6 +1105,9 @@ This list is for developers and modders working with such formats. It provides t
   - [SoftClub](#softclub)
     - [Treasure Island (2005)](#treasure-island-2005)
   - [SoftLab-NN](#softlab-nn)
+  - [Software Projects](#software-projects)
+    - [Manic Miner](#manic-miner)
+    - [Jet Set Willy](#jet-set-willy)
   - [Sony PlayStation Studios](#sony-playstation-studios)
     - [Guerrilla Games (Decima Engine)](#guerrilla-games-decima-engine)
     - [Insomniac Games](#insomniac-games)
@@ -1371,6 +1381,7 @@ This list is for developers and modders working with such formats. It provides t
 - [What's In A Bit - Designing, Using And Reverse-engineering Binary File Formats](https://www.youtube.com/watch?v=QEIGc3tXGmM) - Peter Bindels - cpponsea talk on binary file format design and reverse engineering.
 - [File Format Reverse Engineering 1 - Intro, target, and tools](https://www.youtube.com/watch?v=_zCekiF5aBQ) - CO/DE tutorial series introduction to file format reverse engineering.
 - [Reverse Engineered old Compression Algorithm for Frogger](https://www.youtube.com/watch?v=BwoOB2QFXvw) - LiveOverflow - Case study on reverse engineering compression algorithms in classic games.
+- [retrore](https://github.com/realdmx/retrore) - Curated list of original and reverse-engineered vintage 6502 game source code, tracking disassembly projects across many classic 8-bit titles.
 
 ### Asset Databases
 
@@ -1986,6 +1997,9 @@ This list is for developers and modders working with such formats. It provides t
 - [GameTracking](https://github.com/SteamTracking/GameTracking) - Shared CI tooling behind the community's per-game Steam depot trackers, downloading and processing game update files across dozens of Valve titles (Dota 2, CS2, Half-Life, Portal, TF2, and more), including protobuf dumping and VPK content extraction.
 - [Mixup](https://github.com/Fabulu/Mixup) - Hand-translates console game disassembly into readable, modifiable JavaScript (not emulation), verifying each translated routine frame-by-frame against the original ROM running in an emulator.
   - Games: Batman: Return of the Joker (Game Boy, complete), Gradius (NES, all seven stages playable), DoDonPachi DaiOuJou (arcade, in progress).
+- [zx-spectrum-games](https://github.com/mrcook/zx-spectrum-games) - Collection of annotated ZX Spectrum game source code disassemblies as SkoolKit `.skool` files, gathering and preserving disassembly efforts spread across many authors and studios.
+  - Games: Ultimate Play the Game (Knight Lore, Alien 8), Beyond Software/Lunysoft (Tir Na Nog, Dun Darach), Bug-Byte (Through The Trap Door), Mikro-Gen (Stormbringer), Firebird (Spellbound, Knight Tyme), Mirrorsoft (Dynamite Dan 2), Faster Than Light (Atic Atac), and Chaos: The Battle of Wizards.
+  - Also links out to the same author's other standalone disassemblies (JetPac, Lords of Midnight, Chuckie Egg) and related third-party disassembly collections (Skool Daze, Back to Skool, Manic Miner, Jet Set Willy, The Great Escape, and several Paul Maddern/Ritchie Swann works-in-progress).
 
 #### Noesis / 3ds Max / Format Script Packs
 
@@ -3767,6 +3781,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Translation Tool (Darkest of Days)](https://www.moddb.com/games/darkest-of-days/downloads/darkest-of-days-translation-tool)
 
+### A&F Software (Chuckie Egg)
+
+- [chuckie-egg-disassembly](https://github.com/mrcook/chuckie-egg-disassembly) - Annotated source code disassembly of Chuckie Egg (1983, ZX Spectrum). Work in progress.
+- [ZXSpectrumChuckieEgg](https://github.com/Paulie68000/ZXSpectrumChuckieEgg) - Fully documented, reverse engineered source code to A&F Software's ZX Spectrum Chuckie Egg.
+- [chuckie](https://github.com/mungre/chuckie) - Disassembly of the ZX Spectrum version of Chuckie Egg.
+
 ### Access Games (Deadly Premonition)
 
 - [DPRecomp](https://github.com/LittleBitUA/DPRecomp) - Deadly Premonition native PC port via static recompilation of the Xbox 360 binary.
@@ -3786,6 +3806,8 @@ This list is for developers and modders working with such formats. It provides t
 #### Elite
 
 - [elite-source-code-nes](https://github.com/markmoxon/elite-source-code-nes) - Fully documented, line-by-line annotated source code for the NES conversion of Elite (1984), part of a wider software-archaeology project by the same author covering Elite's BBC Micro, Commodore 64, Apple II, and other ports.
+- [elite-source-code-commodore-64](https://github.com/markmoxon/elite-source-code-commodore-64) - Fully documented, annotated source code disassembly for the Commodore 64 version of Elite.
+- [c64-elite-flicker-free](https://github.com/markmoxon/c64-elite-flicker-free) - Patch for Commodore 64 and Plus/4 Elite that removes sprite flicker, built on the disassembled source above.
 
 ### Akella
 
@@ -4067,6 +4089,14 @@ This list is for developers and modders working with such formats. It provides t
 - [dat_files_searcher](https://github.com/Jonathan-Greve/dat_files_searcher) - Searches decompressed Guild Wars `.dat` files for specific byte sequences; companion tool to GuildWarsMapBrowser, which can export the files in decompressed form.
 - [GuildWarsFVF_and_filenames](https://github.com/Jonathan-Greve/GuildWarsFVF_and_filenames) - Code for converting the `.dat` file's internal FVF (flexible vertex format) to the actual DirectX 9 FVF, plus routines for decoding and encoding Guild Wars' internal filename hashes.
 - [GWSM](https://github.com/Jonathan-Greve/GWSM) - Shared-memory library that streams live Guild Wars client data (via FlatBuffers) into other processes for interop. See also [GWSMController](https://github.com/Jonathan-Greve/GWSMController), which combines GWSM with GuildWarsMapBrowser's map data to render in-game actors/agents on 3D maps in real time.
+#### Guild Wars 2
+
+- [Gw2Browser](https://github.com/rhoot/Gw2Browser) - Browser and extractor for Guild Wars 2's `.dat` file, viewing and exporting the proprietary formats it contains.
+- [gw2_reverse](https://github.com/ahom/gw2_reverse) - Collection of tools for reverse engineering and extracting Guild Wars 2 `.dat` files.
+- [gw2formats](https://github.com/rhoot/gw2formats) - Type-safe C++ library for reading Guild Wars 2's internal file formats.
+- [gw2re](https://github.com/daegalus/gw2re) - Community collection of tools and research reverse engineering the Guild Wars 2 DAT file and the custom formats contained within.
+- [gixxcel](https://github.com/thatshaman/gixxcel) - Decodes and archives Guild Wars 2 STRS (string table) files extracted from DAT archives.
+- [gw2dattools](https://github.com/kytulendu/gw2dattools) - Collection of tools for building programs that work with the Guild Wars 2 dat file.
 
 ### Argentum Online
 
@@ -4138,6 +4168,10 @@ This list is for developers and modders working with such formats. It provides t
   - Games: Ratatouille (PC, PS2, GC, Xbox), WALL-E (PC), Toy Story 3 (PS2), SpongeBob SquarePants: Revenge of the Flying Dutchman (PS2, GC), A Plague Tale (PC), Microsoft Flight Simulator 2024 (PC), Shaun White 2 (PC), Castleween (PS2), Garfield, Noddy.
   - Formats: Bitmap_Z, Mesh_Z, Material_Z, World_Z, Node_Z, Skel_Z, Skin_Z, Animation_Z, Lod_Z, and more Zouna _Z resource types.
 - [RatDecomp](https://github.com/ZounaModding/RatDecomp) - Decompilation project for Ratatouille (GameCube) with original game data parsing and reconstruction.
+
+### Atari, Inc. (Raiders of the Lost Ark)
+
+- [Raiders2600](https://github.com/halkuncode/Raiders2600) - Fully reverse-engineered and commented disassembly source code for the Atari 2600 classic Raiders of the Lost Ark (1982).
 
 ### Atlus
 
@@ -4934,6 +4968,7 @@ This list is for developers and modders working with such formats. It provides t
 - [GBB Tool](https://github.com/retrobone/GBB_Tool) - Viewer and editor for .gbb files used in Brian Lara Cricket '99 and Shane Warne Cricket '99.
 - [Ego-Engine-Modding](https://github.com/EgoEngineModding/Ego-Engine-Modding) - Suite of modding applications for Codemasters' Ego Engine (Dirt, Grid, Formula 1 series): CTF editor, database.bin editor, ERP archiver, binary XML/lng/tpk/pkg converter, JPK archiver, language editor, and PSSG editor.
 - [ego.nefsedit](https://github.com/EgoEngineModding/ego.nefsedit) - NeFS (.nfs/.nefs) archive editor for Ego Engine games such as DiRT 4 and DiRT Rally 2.0, including the NefsLib C# library used to read/write the archives.
+- [D3](https://github.com/picosonic/D3) - Source port of Fantasy World Dizzy to the BBC Micro, built from the original ZX Spectrum Z80 source code and reusing the game's original digitized speech samples.
 
 ### CR-Space (Martial Heroes)
 
@@ -5150,6 +5185,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Denton Designs (The Great Escape)
 
 - [The Great Escape](https://github.com/dpt/The-Great-Escape) - Reverse engineering of Denton Designs' classic ZX Spectrum 48K game The Great Escape from a tape image into a cross-referenced, annotated HTML disassembly and buildable assembly source.
+- [The-Great-Escape-in-C](https://github.com/dpt/The-Great-Escape-in-C) - Portable C rewrite of the same author's The Great Escape disassembly, reimplementing the ZX Spectrum classic from the reverse-engineered game logic.
 
 ### Di Gi Charat
 
@@ -5434,6 +5470,9 @@ This list is for developers and modders working with such formats. It provides t
 - [SWEditor](https://github.com/code-a-saurus/SWEditor) - Save editor for the 1989 EA-published MS-DOS game Sentinel Worlds I: Future Magic.
 - [zerohour-big-explorer](https://github.com/johnneijzen/zerohour-big-explorer) - Explorer for the SAGE engine BIG archive format used by Command & Conquer: Generals - Zero Hour.
 - [NHL-07_public](https://github.com/Bunkai9448/NHL-07_public) - Collaborative hub centralizing tools, resources, and file-format documentation for modding EA Sports NHL 07 (PSP).
+#### Starflight
+
+- [starflight-reverse](https://github.com/s-macke/starflight-reverse) - Reverse engineered source code and format documentation for the 1986 space exploration RPG Starflight.
 
 ### Elemental Games (Space Rangers)
 
@@ -5686,6 +5725,7 @@ This list is for developers and modders working with such formats. It provides t
 - [unpoka](https://github.com/JKAnderson/unpoka) - Unpacking tool for gamedata from FromSoftware's PSP game Monster Hunter Diary: Poka Poka Airou Village (Monhan Nikki).
 - [SaveMerge](https://github.com/JKAnderson/SaveMerge) - Editor for merging and transferring Dark Souls 3 save files.
 - [rages-elden-ring-save-editor](https://github.com/WhoamiRAGE/rages-elden-ring-save-editor) - Elden Ring save editor for PC ER0000.sl2 files, usable from the CLI or as a Python library. Edits stats, runes, and inventory without requiring Cheat Engine.
+- [EldenRing-Save-Manager](https://github.com/Ariescyn/EldenRing-Save-Manager) - GUI save editor for Elden Ring PC ER0000.sl2 files with a built-in hex-edit mode, item/stat editing, and checksum recalculation.
 
 #### Models, Animation & FLVER
 
@@ -5832,6 +5872,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Cry-Editor](https://github.com/erandis-vol/Cry-Editor) - Cry (Pokémon sound effect) editor for 3rd generation Pokémon games.
 - [Pokemon-Editor](https://github.com/erandis-vol/Pokemon-Editor) - Editor for 3rd generation Pokémon game data (e.g. sprites).
 - [psfrag](https://github.com/jkbenaim/psfrag) - Utility for scanning, extracting, and building a database of code fragments in the Pokémon Stadium games.
+- [rgen3](https://github.com/crumblingstatue/rgen3) - Suite of Rust libraries and utilities to manipulate Generation 3 Pokémon games (Ruby, Sapphire, Emerald, FireRed, LeafGreen), covering ROM and save data.
 
 #### Gen VI
 
@@ -5995,6 +6036,8 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: RSW (world), GND (ground/terrain), RSM (models), GAT (altitude/collision), SPR/ACT (sprites and sprite animation), STR (effects), Granny (`.gr2` models and animation).
   - Features: Water, weather and particle effects, dynamic lights, shadows, warp portals, name tags, pathfinding, era selection, and BGM playback.
 - [GrfUnpack](https://github.com/exectails/GrfUnpack) - PAK and GRF archive unpacker for Ragnarok Online (Arcturus/RO).
+- [midgarts](https://github.com/drgomesp/midgarts) - Multi-platform Ragnarok Online MMORPG client reimplementation using an ECS architecture, reading original sprites and configuration from `.grf` client files.
+- [RagnarokRebuildTcp](https://github.com/Doddler/RagnarokRebuildTcp) - Unity-based Ragnarok Online-like server/client that imports maps, sprites, and music extracted from an original `data.grf` client. Active successor to the archived Doddler/RagnarokRebuild.
 
 ### Gray Design Associates
 
@@ -6422,6 +6465,7 @@ This list is for developers and modders working with such formats. It provides t
 - [JDETH](https://github.com/atsb/JDETH) - Doom source port/tooling project for Doom engine (id Tech 1) file format handling.
 - [managed-doom](https://github.com/sinshu/managed-doom) - Doom source port written in C#, reading original IWAD/PWAD data.
 - [EDGE](https://github.com/3dfxdev/EDGE) - Enhanced Doom Engine, an OpenGL DOOM source port with a DDF definition language; predecessor to the actively maintained EDGE-classic listed above.
+- [Chocolate Doom](https://github.com/chocolate-doom/chocolate-doom) - Minimalist, historically accurate Doom source port that closely reproduces the original DOS engine's behavior, reading original IWAD/PWAD data; basis for numerous derivative ports (Rum and Raisin Doom, Thanatos, doom-wasm) listed elsewhere in this section.
 
 ##### Console, Handheld, DOS & Novelty Ports
 
@@ -7058,6 +7102,10 @@ This list is for developers and modders working with such formats. It provides t
 - [BFWE](https://github.com/BBQGiraffe/BFWE) - GUI extractor for Wizard101 client assets, previewing DDS textures and playing back extracted WAV/OGG/MP3 music and sound effects.
 - [libki](https://github.com/Joshsora/libki) - C++ library implementing multiple KingsIsle client/server systems (KINP, DML, and related serialization systems) used by Wizard101.
 
+### Klei Entertainment (Oxygen Not Included)
+
+- [oni-duplicity](https://github.com/RoboPhred/oni-duplicity) - Web-hosted, locally-running save editor for Oxygen Not Included, parsing and modifying the game's original save file format.
+
 ### Koei Tecmo
 
 #### Fatal Frame
@@ -7215,6 +7263,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [pop'n rhythmin (source reconstruction)](https://github.com/Tatsh/expert-rotary-phone) - Reconstructed source code for pop'n rhythmin (jp.konami.popnmusic), the mobile spin-off of Konami's Pop'n Music series, recovered from the original iOS binary's embedded debug/assert strings and RTTI; requires the original game's IPA to build.
 - [SH-Save-Editor](https://github.com/nuttycream/SH-Save-Editor) - Save file editor for a Silent Hill title.
+#### Green Beret
+
+- [ZXSpectrumGreenBeret](https://github.com/Paulie68000/ZXSpectrumGreenBeret) - Fully documented, reverse engineered source code for the ZX Spectrum version of Green Beret.
 
 ### Kuju London
 
@@ -7407,6 +7458,7 @@ This list is for developers and modders working with such formats. It provides t
 - [swe1r-assets](https://github.com/akopetsch/swe1r-assets) - C#/.NET library, published as a NuGet package, for reading and writing Star Wars Episode I: Racer's proprietary asset formats (models, textures, and data blocks).
 - [Obi-Wan Importer](https://github.com/janglesworthy/ObiWanImporter) - Autodesk Maya plug-in that imports levels, environments, props, characters, rigs, textures, and character animations from an extracted Xbox copy of Star Wars: Obi-Wan.
 - [ROTS Maya Importer](https://github.com/janglesworthy/ROTSMayaImporter) - Autodesk Maya 2024.2/2027.2 plug-in that imports complete editor levels, characters, props, textures, materials, skeletons, skin weights, and animations from the Xbox version of Star Wars: Episode III - Revenge of the Sith.
+- [Maniac.Mansion.Disassembly](https://github.com/segrax/Maniac.Mansion.Disassembly) - Commented disassembly of Maniac Mansion's SCUMM game scripts, with spreadsheets detailing room objects, variables, and their usage.
 
 ### Macrospace
 
@@ -7562,6 +7614,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Darklands
 
 - [Darklands](https://github.com/vvendigo/Darklands) - File reading utilities and preserved file format documentation for Darklands (MicroProse, 1992).
+- [darklandscompanion](https://github.com/illusium77/darklandscompanion) - Save game editor for Darklands (MicroProse, 1992), reading and modifying the original save file structures.
 
 #### MPS Show
 
@@ -8669,6 +8722,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Head Over Heels
 
 - [Head-Over-Heels](https://github.com/mkrivos/Head-Over-Heels) - Byte-exact, 100%-line-commented Z80 disassembly of Head Over Heels (ZX Spectrum, Jon Ritman & Bernie Drummond/Ocean, 1987), reassembling to the same SHA-256 as the original; includes a narrated code-walk, extracted room graphics, and a Python reimplementation.
+#### Cobra
+
+- [ZXSpectrumCobra](https://github.com/Paulie68000/ZXSpectrumCobra) - Full reverse engineered source code of Jonathan "Joffa" Smith's ZX Spectrum game Cobra.
 
 ### Oddworld Inhabitants
 
@@ -9127,6 +9183,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Redmoon Online
 
 - [Novluno](https://github.com/cjschneider2/novluno) - Rust file parsers for Redmoon Online's data formats (LST lists, RLE sprites, RMD data, RMM maps, RMI info files), part of an effort to build a modern client that runs against the original game files.
+- [rm-lib](https://github.com/briansteffens/rm-lib) - .NET library for editing Redmoon Online client/server data and config files, aiming to cover all non-executable file formats. Includes sprite color decoding and map file header work contributed by cjschneider2 (author of Novluno, above).
 
 ### Reflections Interactive
 
@@ -9776,6 +9833,20 @@ This list is for developers and modders working with such formats. It provides t
 ### SoftLab-NN
 
 - [HardTruck-RignRoll-file-formats](https://github.com/AlexKimov/HardTruck-RignRoll-file-formats) - File formats, specs, and script tools for Hard Truck 1/2 and Rig'n'Roll.
+
+### Software Projects
+
+#### Manic Miner
+
+- [manicminer](https://github.com/skoolkid/manicminer) - SkoolKit-based disassembly of Manic Miner (ZX Spectrum), created by SkoolKit's author.
+- [ManicMiner](https://github.com/TobyLobster/ManicMiner) - Disassembly of the original BBC Micro version of Manic Miner.
+- [Manic-Miner-Source-Code](https://github.com/WHumphreys/Manic-Miner-Source-Code) - Source code disassembly of Manic Miner for the ZX Spectrum.
+
+#### Jet Set Willy
+
+- [jetsetwilly](https://github.com/skoolkid/jetsetwilly) - SkoolKit-based disassembly of Jet Set Willy (ZX Spectrum), created by SkoolKit's author.
+- [jsw](https://github.com/TobyLobster/jsw) - Disassembly of Jet Set Willy for the BBC Micro.
+- [jsw2021](https://github.com/TobyLobster/jsw2021) - Jet Set Willy remastered on the BBC Micro, built on the jsw disassembly above.
 
 ### Sony PlayStation Studios
 
@@ -10972,6 +11043,8 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
 
 
 
