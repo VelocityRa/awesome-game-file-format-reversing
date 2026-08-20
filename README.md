@@ -358,6 +358,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Dragon's Dogma 2](#dragons-dogma-2)
     - [Haunting Ground](#haunting-ground)
     - [Dead Rising](#dead-rising)
+  - [Carbon Games (AirMech)](#carbon-games-airmech)
   - [CCP Games (EVE Online)](#ccp-games-eve-online)
   - [CCR (RF Online)](#ccr-rf-online)
   - [CD Projekt Red](#cd-projekt-red)
@@ -377,7 +378,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Cloud Imperium Games (Star Citizen)](#cloud-imperium-games-star-citizen)
   - [Clover Studio (Okami)](#clover-studio-okami)
   - [Creat Studio](#creat-studio)
-  - [Com2uS (Inotia4)](#com2us-inotia4)
+  - [Com2uS](#com2us)
+    - [Inotia4](#inotia4)
+    - [Summoners War: Sky Arena](#summoners-war-sky-arena)
   - [Compile Heart (Hyperdimension Neptunia)](#compile-heart-hyperdimension-neptunia)
   - [Conic Games](#conic-games)
     - [Exponential Idle](#exponential-idle)
@@ -705,6 +708,7 @@ This list is for developers and modders working with such formats. It provides t
   - [MAGES.](#mages)
   - [Magic Bytes Software / TD Corp (Dizzy BK-0011M Port)](#magic-bytes-software--td-corp-dizzy-bk-0011m-port)
   - [Marigul (Tamagotchi Town)](#marigul-tamagotchi-town)
+  - [Marvelous (Story of Seasons)](#marvelous-story-of-seasons)
   - [Massive Development](#massive-development)
     - [Archimedean Dynasty](#archimedean-dynasty)
   - [Massive Entertainment](#massive-entertainment)
@@ -877,6 +881,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Orion Games](#orion-games)
   - [Outrage Entertainment](#outrage-entertainment)
     - [Descent 3](#descent-3)
+  - [Owlcat Games](#owlcat-games)
   - [Pangea Software (Bugdom)](#pangea-software-bugdom)
   - [Panic (Playdate)](#panic-playdate)
   - [Panik Arcade (CloverPit)](#panik-arcade-cloverpit)
@@ -1007,6 +1012,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Camelot Software Planning (Shining Force)](#camelot-software-planning-shining-force)
     - [Other Games](#other-games)
   - [Sensible Software (Cannon Fodder)](#sensible-software-cannon-fodder)
+  - [Serial Experiments Lain](#serial-experiments-lain)
   - [Shiro Games](#shiro-games)
   - [Shiny Entertainment](#shiny-entertainment)
   - [Sierra On-Line](#sierra-on-line)
@@ -1045,6 +1051,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Sony Online Entertainment](#sony-online-entertainment)
     - [Evolution Studios](#evolution-studios)
     - [Bend Studio](#bend-studio)
+    - [SuperBot Entertainment](#superbot-entertainment)
   - [Sorath (Devil Daggers)](#sorath-devil-daggers)
   - [South East Games (CastleMiner Z)](#south-east-games-castleminer-z)
   - [Southend Interactive (Sacred Citadel)](#southend-interactive-sacred-citadel)
@@ -3703,6 +3710,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Hed-Extract](https://github.com/Daniel-McCarthy/Hed-Extract) - Extractor/packer for Tony Hawk's Project 8 (PSP) .hed/.wad files.
 - [RLE-GIMP-Plugin](https://github.com/Daniel-McCarthy/RLE-GIMP-Plugin) - GIMP plugin for Neversoft's .rle 16-bit image format.
 - [psx_texture_extractor](https://github.com/slfx77/psx_texture_extractor) - Extractor for textures within Neversoft's PS1 model format, supporting 4, 8, and 16-bit textures (16-bit support incomplete).
+- [io_thps_scene](https://github.com/denetii/io_thps_scene) - Blender import/export addon for the Tony Hawk's Pro Skater (THPS) scene format.
 
 #### Ghostbusters
 
@@ -4026,6 +4034,7 @@ This list is for developers and modders working with such formats. It provides t
 - [PSP-Eureka-Seven-Scripts](https://github.com/master801/PSP-Eureka-Seven-Scripts) - Scripts to extract .dpk and .spk archive files from the PSP game Eureka Seven V.2: Psalms of Planets.
 - [rr-decomp](https://github.com/kazuyette/rr-decomp) - Matching decompilation of Ridge Racer (PlayStation 1, Namco, 1994, SLPS-00001), plus a static recompilation that boots and plays natively on Linux and Windows; requires the original disc.
 - [saols-apk](https://github.com/rozenmad/saols-apk) - Unpacker/repacker for Sword Art Online: Lost Song's APK archive files.
+- [Tekken-7-Extracting-Packing-Tools](https://github.com/a5tronomy/Tekken-7-Extracting-Packing-Tools) - Extracting and packing tools for Tekken 7 archive files.
 
 ### Battlestate Games (Escape from Tarkov)
 
@@ -4434,6 +4443,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MHGU-Modding](https://github.com/RTHKKona/MHGU-Modding) - Community wiki documenting Monster Hunter Generations Ultimate modding information and file formats.
 - [MHW-010-Templates](https://github.com/Fexty12573/MHW-010-Templates) - Collection of 010 Editor templates for various Monster Hunter: World file formats.
 - [mhfu-ios-pmo-plugin](https://github.com/m2jean/mhfu-ios-pmo-plugin) - Noesis plugin to display PMO 3D models from the iOS version of Monster Hunter Freedom United; not compatible with the PSP version's PMO format.
+- [SharpPluginLoader](https://github.com/Fexty12573/SharpPluginLoader) - C# plugin loader and modding framework for Monster Hunter World, exposing the game's internal data structures to managed plugins.
 
 #### Devil May Cry
 
@@ -4510,6 +4520,10 @@ This list is for developers and modders working with such formats. It provides t
 - [mh-stories-re](https://github.com/teozocchi/mh-stories-re) - Reverse engineering of Monster Hunter Stories' file formats.
 - [mhash.app](https://github.com/Akzyra/mhash.app) - Data extraction helper for building Monster Hunter item/monster sets.
 - [exe6f](https://github.com/dism-exe/exe6f) - Disassembly of Mega Man Battle Network 6, using Densetsu no Starforce as a base ROM.
+
+### Carbon Games (AirMech)
+
+- [AirMech-AMF-file-blender-import](https://github.com/curly-brace/AirMech-AMF-file-blender-import) - Blender import script for AirMech's AMF model format.
 
 ### CCP Games (EVE Online)
 
@@ -4613,9 +4627,15 @@ This list is for developers and modders working with such formats. It provides t
 
 - [creat-file-formats](https://github.com/AlexKimov/creat-file-formats) - File formats and viewer plugins for Creat Studio games.
 
-### Com2uS (Inotia4)
+### Com2uS
+
+#### Inotia4
 
 - [reverse_inotia4](https://github.com/sunflower9264/reverse_inotia4) - Local reverse-engineering toolkit for Inotia4 (Com2uS) Android APK resources; extracts and parses maps, text, images, and audio from the APK and generates a web-viewable dataset via a built-in viewer.
+
+#### Summoners War: Sky Arena
+
+- [noesis-smon](https://github.com/Ilemni/noesis-smon) - Noesis plugin for importing Summoners War: Sky Arena models.
 
 ### Compile Heart (Hyperdimension Neptunia)
 
@@ -6401,6 +6421,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Throne-of-Knowledge](https://github.com/three-houses-research-team/Throne-of-Knowledge) - Central repository for Fire Emblem: Three Houses reversing and documentation.
 - [010-binary-templates (FE3H)](https://github.com/three-houses-research-team/010-binary-templates) - 010 Editor templates for Fire Emblem: Three Houses file formats (G1T, G1M, etc.).
+  - See also [Reichard-III's fork](https://github.com/Reichard-III/FE3H-010-Binary-Templates-Fork) with faster parsing, more accurate enum sizing, and new format discoveries.
 - [th-hack-tools](https://github.com/HeartHeroDE/th-hack-tools) - Toolkit for hacking and editing data in Fire Emblem: Three Houses.
 - [G1Tool](https://github.com/three-houses-research-team/G1Tool) - GUI for creating and editing Koei Tecmo G1T texture files.
 - [koeipy](https://github.com/3096/koeipy) - Python library for Koei Tecmo Engine file formats, specifically targeting Fire Emblem: Three Houses.
@@ -6944,6 +6965,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [tamagotchi-town](https://github.com/ButThouMust/tamagotchi-town) - Reverse-engineering notes and tools for translating Tamagotchi Town (Super Famicom), covering the game's script and data formats.
 
+### Marvelous (Story of Seasons)
+
+- [sosawl-font-data-edit](https://github.com/Giza/sosawl-font-data-edit) - Tool for extracting and repacking the font parameter `.bin` files in Story of Seasons: A Wonderful Life.
+
 ### Massive Development
 
 #### Archimedean Dynasty
@@ -7480,6 +7505,7 @@ This list is for developers and modders working with such formats. It provides t
 - [homm5-editor](https://github.com/senyaak/homm5-editor) - From-scratch Electron/Node map and campaign editor for Heroes of Might & Magic V: Tribes of the East.
   - Reverse-engineers the game's `.pak`, `map.xdb`, and `GroundTerrain.bin` formats.
   - Live 3D terrain rendering and editing; ships no game content.
+- [EIrepack](https://github.com/aspadm/EIrepack) - Automatic decompiler for Evil Islands, extracting the game's archived resource files.
 
 ### Nicalis / Team Meat (The Binding of Isaac)
 
@@ -8117,6 +8143,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Descent3](https://github.com/DescentDevelopers/Descent3) - Official open-source release of Descent 3 (Outrage Entertainment, 1999), preserving the full game engine and assets for modern platforms.
 
+### Owlcat Games
+
+- [OwlCatPortraitTool](https://github.com/indoctrinatedrecluse/OwlCatPortraitTool) - Portrait tool for Owlcat Games' RPGs (Pathfinder: Kingmaker/Wrath of the Righteous, Rogue Trader, Warhammer 40,000).
+
 ### Pangea Software (Bugdom)
 
 - [Bugdom](https://github.com/jorio/Bugdom) - Officially Pangea-approved port of the 1999 Mac game Bugdom to modern systems, using a tailor-made renderer for the original QuickDraw 3D-era models, sprites, and audio resources.
@@ -8733,6 +8763,7 @@ This list is for developers and modders working with such formats. It provides t
 - [mtasa-blue](https://github.com/multitheftauto/mtasa-blue) - Multi Theft Auto: San Andreas, a large-scale multiplayer modification platform for GTA: San Andreas, reading and extending the original game's IMG/DFF/TXD/COL/IPL/IDE formats.
 - [wazz-android-editor-gxt](https://github.com/shawawah12-alt/wazz-android-editor-gxt) - Editor for GXT text format files used in the Android ports of the GTA series.
 - [mh-replayed](https://github.com/66rival/mh-replayed) - Static recompilation/decompilation effort for Manhunt (RenderWare engine), running the original game data natively.
+- [GTAModTools](https://github.com/ParadoxEpoch/GTAModTools) - Collection of tools for building mods and extracting game data from GTA Trilogy: Definitive Edition.
 
 ### Runecraft
 
@@ -8771,6 +8802,7 @@ This list is for developers and modders working with such formats. It provides t
 ### SCS Software (Euro Truck Simulator)
 
 - [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for extracting SCS archives from Euro Truck Simulator 2.
+- [ts-map](https://github.com/dariowouters/ts-map) - Map renderer for Euro Truck Simulator 2 and American Truck Simulator, parsing the games' `.mbd`/`.base`/`.aux` map definition files.
 
 ### Sega
 
@@ -9051,6 +9083,11 @@ This list is for developers and modders working with such formats. It provides t
 - [OpenFodder](https://github.com/OpenFodder/openfodder) - Open-source port of the Cannon Fodder engine (PC and Amiga) for modern operating systems, reading the original game's data pack.
   - See also [OpenFodder Editor](https://github.com/OpenFodder/editor), a companion campaign and map editor.
 
+### Serial Experiments Lain
+
+- [lainTSX](https://github.com/ad044/lainTSX) - Browser-based reimplementation of the Serial Experiments Lain PSX game using three.js, with multi-language subtitle support.
+  - Ships no game assets; a companion extraction script pulls and reformats video, image, and text assets directly from the original disc images.
+
 ### Shiro Games
 
 - [qbms_shirogames](https://github.com/Sviat/qbms_shirogames) - QuickBMS scripts for Shiro Games' RES.PAK archive format, covering Northgard's res.client.pak (textures, models, sounds, data.cdb) and Farever, building on an earlier community script originally written for Evoland 2.
@@ -9308,6 +9345,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [HG2PatchCreator](https://github.com/icemesh/HG2PatchCreator) - Tool for creating a valid patch.bin for Uncharted: Golden Abyss (PS Vita).
 
+#### SuperBot Entertainment
+
+- [PSAS-Vita-Noesis](https://github.com/Cri4Key/PSAS-Vita-Noesis) - Noesis import script for PlayStation All-Stars Battle Royale models.
+
 ### Sorath (Devil Daggers)
 
 - [DevilDaggersAssetEditor](https://github.com/NoahStolk/DevilDaggersAssetEditor) - Tool for extracting assets from Devil Daggers' resource files and inserting them back into binaries to create mods.
@@ -9381,6 +9422,7 @@ This list is for developers and modders working with such formats. It provides t
 - [LandSandBoat](https://github.com/LandSandBoat/server) - Open-source server emulator for Final Fantasy XI, reimplementing retail server behavior alongside reverse-engineered game data tables (dats) for the game's client.
 - [FFXI-NavMesh-Builder](https://github.com/LandSandBoat/FFXI-NavMesh-Builder) - Builds navigation meshes (via RecastNavigation) from Final Fantasy XI's collision data for retail-accurate mob/pet pathing on LandSandBoat servers, exporting intermediate .OBJ files. See also [xiNavmeshes](https://github.com/LandSandBoat/xiNavmeshes) (the generated navmesh dataset) and [xiNavmeshOBJs](https://github.com/LandSandBoat/xiNavmeshOBJs) (hand-cleaned intermediate OBJ output from the builder).
 - [UpdateExtractor](https://github.com/LandSandBoat/UpdateExtractor) - Extracts and sanitizes Final Fantasy XI client update data (produced by POLUtils' MassExtractor) and applies it in-place to a LandSandBoat server install, avoiding manual fixes for shifted IDs and content changes.
+- [FFXINAV](https://github.com/xathei/FFXINAV) - DLL that exports pathfinding using DSP navmeshes or custom navmeshes for Final Fantasy XI.
 
 #### Final Fantasy XV
 
@@ -9974,6 +10016,7 @@ This list is for developers and modders working with such formats. It provides t
 - [sonicr-mod-loader](https://github.com/sonicretro/sonicr-mod-loader) - Mod loader for the 2004 PC version of Sonic R.
 - [NTT-Model-Dumper](https://github.com/KillzXGaming/NTT-Model-Dumper) - Tool to dump .model files used by Lego Star Wars: The Skywalker Saga.
 - [tt-save-editor](https://github.com/fisherjoey/tt-save-editor) - Browser-based save editor for LEGO Batman: Legacy of the Dark Knight. Decrypts the RC4-encrypted, fixed 32-byte-key save file and parses its Unreal Engine 5 GVAS fields by name to fix the "created on an updated version" error, unlock collectibles and characters, and edit mission progress. Runs entirely client-side.
+- [Tt-Games-quickbms-scripts](https://github.com/linterniGamer/Tt-Games-quickbms-scripts) - QuickBMS scripts for extracting and modding archives from games made by TT Games.
 
 ### Turbine
 
@@ -10240,6 +10283,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
