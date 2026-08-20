@@ -161,6 +161,7 @@ This list is for developers and modders working with such formats. It provides t
   - [M3G (Mobile 3D Graphics API)](#m3g-mobile-3d-graphics-api)
   - [Murder Engine](#murder-engine)
   - [NETLizard (J2ME Game Engine)](#netlizard-j2me-game-engine)
+  - [Nebula Engine](#nebula-engine)
   - [MikuMikuDance](#mikumikudance)
   - [Spine (2D Skeletal Animation Middleware)](#spine-2d-skeletal-animation-middleware)
   - [RenderWare](#renderware)
@@ -306,9 +307,11 @@ This list is for developers and modders working with such formats. It provides t
   - [Bethesda](#bethesda)
     - [Elder Scrolls](#elder-scrolls)
     - [Fallout](#fallout)
+  - [Bigpoint (Drakensang Online)](#bigpoint-drakensang-online)
   - [BioWare](#bioware)
     - [Mass Effect](#mass-effect)
     - [Dragon Age: Origins](#dragon-age-origins)
+    - [Star Wars: The Old Republic](#star-wars-the-old-republic)
   - [Bitmap Brothers](#bitmap-brothers)
     - [The Chaos Engine](#the-chaos-engine)
     - [Speedball 2](#speedball-2)
@@ -2913,6 +2916,10 @@ This list is for developers and modders working with such formats. It provides t
 *Java Mobile 3D Graphics API (JSR-184) used by many J2ME mobile games in the 2000s.*
 
 - [m3gcore](https://github.com/toaarnio/m3gcore) - Core engine implementation (in C) of the M3G (JSR-184) API, originally developed at Nokia Research Center and later released as open source through the Symbian Foundation.
+- [M3G-Blender-Exporter](https://github.com/3dcinetv/M3G-Blender-Exporter) - Modern M3G (.m3g, JSR-184) exporter for Blender 3.6, implementing a byte-accurate full mobile 3D scene graph.
+- [M3G2FBX](https://github.com/RaduMC/M3G2FBX) - Command-line M3G model converter, for Real Racing 3, NFS: Most Wanted, and NFS: No Limits.
+- [desktop-m3g](https://github.com/vadosnaprimer/desktop-m3g) - Free C++ implementation of the M3G 1.1 (JSR-184) API for Linux and Android, with Java and Ruby bindings and a separate M3G-Reader-Writer library for reading/writing the .m3g format.
+- [Juinness](https://github.com/BaalNetbek/Juinness) - Converts arbitrary 3D models into M3G models.
 
 ### Murder Engine
 
@@ -2925,6 +2932,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [netlizard](https://github.com/glKarin/netlizard) - Parser utility and Qt4 GUI tool for NETLizard 3D J2ME game resource files (models, textures, fonts, text, sprites), reversed from decompiled Java source.
 - [NETLizard_idTech4](https://github.com/glKarin/NETLizard_idTech4) - Converter from NETLizard 3D J2ME game resource files to idTech4 format.
+
+### Nebula Engine
+
+*The Nebula Device/Nebula2 engine, used by Project Nomads and other early-2000s titles.*
+
+- [nebula2-assets-extractor](https://github.com/vinceh121/nebula2-assets-extractor) - Extracts and converts asset packs for the Nebula Device 2 engine.
+  - Formats: NPK0 archives, NTX1 textures, NOB0 scripts, NVX1 models, NAX0 animations (read, and read/write for most).
+  - Features: NVX-to-OBJ/glTF conversion, NTX-to-image and image-to-NTX conversion, NOB script decompilation, NPK packing/unpacking.
 
 ### MikuMikuDance
 
@@ -4139,6 +4154,12 @@ This list is for developers and modders working with such formats. It provides t
   - Parses and rewrites `.strings`/`.dlstrings`/`.ilstrings` files, BA2 archives, ESP/ESM plugin files, and interface TXT files across all 12 supported languages.
   - AI-assisted (local Ollama models or Claude) translation with a quality-check and review workflow.
 
+### Bigpoint (Drakensang Online)
+
+- [neb3map-viewer](https://github.com/simo8902/neb3map-viewer) - Drakensang Online model and map viewer.
+- [Drakensang_RaknetProtocol](https://github.com/DSO-Reconstruction/Drakensang_RaknetProtocol) - Documentation of the RakNet network protocol used by Drakensang Online, covering packet IDs, handlers, and client/server packet flows.
+- [drakensang-nb3-bundle-extractor](https://github.com/simo8902/drakensang-nb3-bundle-extractor) - Extractor for Drakensang Online's NB3 bundle files.
+
 ### BioWare
 
 #### Mass Effect
@@ -4159,6 +4180,10 @@ This list is for developers and modders working with such formats. It provides t
 - [KotOR Level Editor for Maya](https://github.com/janglesworthy/KotorMayaImporter) - Compiled Autodesk Maya 2024/2027 importer/editor for Star Wars: Knights of the Old Republic, importing characters, animations, props, and complete levels, and exporting playable modules.
 - [Ghost-Studio](https://github.com/CrispyW0nton/Ghost-Studio) - Windows modding suite for Star Wars: Knights of the Old Republic 1 & 2; inspects and edits models, builds and rigs custom characters, retargets animations, edits modules, authors maps, and validates/exports game-ready assets and modules.
 - [KotOR.js](https://github.com/KobaltBlu/KotOR.js) - TypeScript/Electron remake of the Odyssey Game Engine that powered Star Wars: Knights of the Old Republic and KotOR II: The Sith Lords, interfacing directly with an installed copy's game files (no game content is distributed). Includes an early modding suite, KotOR Forge.
+
+#### Star Wars: The Old Republic
+
+- [Granny2-Plug-In-Blender-2.8x](https://github.com/SWTOR-Slicers/Granny2-Plug-In-Blender-2.8x) - Add-on for Blender 2.8 through 5.0 that imports/exports Star Wars: The Old Republic's Granny2 (.gr2) model files and adds SWTOR-compatible materials.
 
 
 ### Bitmap Brothers
@@ -5031,6 +5056,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Bad-Company-2-Map-Editor](https://github.com/Powback/Bad-Company-2-Map-Editor) - Frostbite engine map editor for Battlefield: Bad Company 2; supports loading, editing, and saving terrain, models, and textures.
 - [Frostbite 3ds Max Scripts](https://github.com/Highflex/frostbite_3dsmax_scripts) - 3ds Max scripts for importing Frostbite engine assets, enabling mesh and skeleton extraction from Battlefield and other Frostbite games.
 - [IceBloc](https://github.com/marv7000/IceBloc) - Frostbite asset extractor.
+- [AssetBankPlugin](https://github.com/marv7000/AssetBankPlugin) - Plugin for Frosty Toolsuite that adds AssetBank reading support for all major Frostbite titles.
 - [Gametoast Documentation](https://github.com/Gametoast/Documentation) - Wiki, source files, and example projects documenting Star Wars: Battlefront and Battlefront II (SWBFI & SWBFII) file formats and modding.
 - [data_PSP_SND](https://github.com/Gametoast/data_PSP_SND) - Star Wars: Battlefront II (PSP/PS2) sound-effect build project, documenting and converting the shared PSP/PS2 .sfx (VAG) audio format.
 - [ZeroMunge](https://github.com/Gametoast/ZeroMunge) - Reimplementation of Star Wars: Battlefront's asset 'munge' build pipeline, converting mod source assets into the game's native packed formats.
@@ -5319,6 +5345,16 @@ This list is for developers and modders working with such formats. It provides t
 ### Fishlabs (Galaxy on Fire)
 
 - [AEMesh](https://github.com/BaalNetbek/AEMesh) - Noesis plugin and format documentation for Fishlabs' Abyss Engine mesh (.aem) format, covering the multiple versioned mesh layouts (V2-V5) used across the Galaxy on Fire series.
+- [DeepOpen](https://github.com/BaalNetbek/DeepOpen) - Decompiled, deobfuscated recreation of the J2ME Galaxy on Fire 2 (v1.0.4) client and the common Abyss Engine it's built on.
+- [gof2-vita](https://github.com/v-atamanenko/gof2-vita) - Native PS Vita loader/port of Galaxy on Fire 2 that runs against an installed copy's original game data.
+- [gof2hd-decomp](https://github.com/fionera/gof2hd-decomp) - Work-in-progress byte-matching decompilation of the Abyss Engine + Galaxy on Fire 2 (Fishlabs, ~2012), recovered from the Android `libgof2hdaa.so` and validated function-by-function against it.
+- [gof2edit](https://github.com/Ravernstal/gof2edit) - CLI tool to unpack/repack Galaxy on Fire 2's BIN files and save files, and to patch binaries.
+- [AEPi](https://github.com/Trimatix/AEPi) - Python library for reading and writing Abyss Engine Image (.aei) files, for Galaxy on Fire 2.
+- [Abyss-Engine-Tools](https://github.com/BaalNetbek/Abyss-Engine-Tools) - Collection of Abyss Engine modding tools: AEZtractor (unpacks/repacks the .aez archives found in GoF's Symbian version) and an AEM Blender import/export plugin.
+- [FMOD-GOF2-Recreated](https://github.com/KroeteTroete/FMOD-GOF2-Recreated) - Recreated replica of Galaxy on Fire 2's FMOD Designer project file, enabling more complex sound and event modding.
+- [Ae4Extractor](https://github.com/xyx0826/Ae4Extractor) - Asset extractor for Galaxy on Fire 3: Manticore.
+- [AbyssEngineTools](https://github.com/xyx0826/AbyssEngineTools) - Tools for working with Abyss Engine file formats (in development).
+- [AEIporter](https://github.com/BaalNetbek/AEIporter) - Converts between Abyss Engine Image (.aei) files and PNG.
 
 ### Free Radical Design (TimeSplitters)
 
@@ -7164,6 +7200,7 @@ This list is for developers and modders working with such formats. It provides t
 - [XbxDeTool](https://github.com/Nenkai/XbxDeTool) - Xbox file format tool.
 - [Halo Asset Blender Development Toolset](https://github.com/General-101/Halo-Asset-Blender-Development-Toolset) - Blender addon for creating and exporting assets for multiple Halo titles (Halo CE, 2, 3, ODST, Reach, 4, 5, Infinite).
 - [Foundry](https://github.com/ILoveAGoodCrisp/Foundry) - Blender extension for Halo Reach, 4, and 2A Multiplayer asset pipeline.
+- [Halo-CR4B-Tool](https://github.com/PlasteredCrab/Halo-CR4B-Tool) - One-click game-accuracy tool for Halo 3/ODST/Reach assets in Blender that also exports assets from every Halo game.
 
 
 #### SkiFree
