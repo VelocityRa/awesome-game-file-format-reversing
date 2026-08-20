@@ -956,6 +956,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Pterodon (Vietcong)](#pterodon-vietcong)
   - [Punchline](#punchline)
   - [Quantic Dream](#quantic-dream)
+  - [Racjin](#racjin)
+    - [Busin 0: Wizardry Alternative Neo](#busin-0-wizardry-alternative-neo)
   - [Radical Entertainment](#radical-entertainment)
   - [Rare](#rare)
     - [Battletoads](#battletoads)
@@ -4826,6 +4828,7 @@ This list is for developers and modders working with such formats. It provides t
 - [OFP Extractor](https://github.com/NoahDomingues/OFP-Extractor) - Extraction tool for the win_000 archives of Operation Flashpoint: Dragon Rising and Red River (Codemasters), decompressing and decrypting DDS textures, FSB audio, and other packed game files.
 - [GBB Tool](https://github.com/retrobone/GBB_Tool) - Viewer and editor for .gbb files used in Brian Lara Cricket '99 and Shane Warne Cricket '99.
 - [Ego-Engine-Modding](https://github.com/EgoEngineModding/Ego-Engine-Modding) - Suite of modding applications for Codemasters' Ego Engine (Dirt, Grid, Formula 1 series): CTF editor, database.bin editor, ERP archiver, binary XML/lng/tpk/pkg converter, JPK archiver, language editor, and PSSG editor.
+- [ego.nefsedit](https://github.com/EgoEngineModding/ego.nefsedit) - NeFS (.nfs/.nefs) archive editor for Ego Engine games such as DiRT 4 and DiRT Rally 2.0, including the NefsLib C# library used to read/write the archives.
 
 ### CR-Space (Martial Heroes)
 
@@ -5874,6 +5877,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Whiplash / Fatal Racing
 
 - [ROLLER](https://github.com/FatalDecomp/ROLLER) - Reverse engineering and reimplementation of Gremlin Interactive's Whiplash/Fatal Racing (1995), building and running the original DOS game (using assets from a retail CD image) on modern PCs with SDL; a matching-instruction decompilation is developed in the companion [ROLLER-matching](https://github.com/FatalDecomp/ROLLER-matching) repo.
+- [Whiptools](https://github.com/FatalDecomp/Whiptools) - Tools for decoding, encoding, and viewing Whiplash/Fatal Racing game files.
+  - Formats: .BM/.DRH (textures), .PAL (palettes), .RAW/.RBP/.RFR/.RGE/.RSS (audio), .HMP (MIDI), .KC (cheat audio), .TRK, FATAL.INI/PASSWORD.INI.
+  - Features: Unmangling/mangling, bitmap and palette extraction/conversion, audio conversion to WAV, HMP MIDI repair, image-to-texture conversion.
+- [TrackEditor](https://github.com/FatalDecomp/TrackEditor) - Whiplash/Fatal Racing track editor and OBJ/glTF resource converter, built on the ROLLER engine core; edits track geometry, surfaces, signs, audio triggers, and moving stunts.
 
 ### Grezzo
 
@@ -8699,6 +8706,12 @@ This list is for developers and modders working with such formats. It provides t
 - [QD.BIG.Tool](https://github.com/Ekey/QD.BIG.Tool) - Extractor for BigFile archives from Quantic Dream games.
   - Games: Beyond: Two Souls, Heavy Rain, Detroit: Become Human.
 
+### Racjin
+
+#### Busin 0: Wizardry Alternative Neo
+
+- [Busin0Translation](https://github.com/Fabulu/Busin0Translation) - English fan translation toolchain for Busin 0: Wizardry Alternative Neo (PS2), including the scripts that decode the game's text and graphics (font atlases), the translation data, and the build pipeline that produces a patched, real-hardware-compatible disc image.
+
 ### Radical Entertainment
 
 - [scarface-p3d](https://github.com/aap/scarface-p3d) - Code to deal with P3D files from "Scarface: The World is Yours".
@@ -10668,6 +10681,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
