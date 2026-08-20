@@ -328,6 +328,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Diablo I / Hellfire](#diablo-i--hellfire)
       - [Diablo II / Resurrected](#diablo-ii--resurrected)
     - [Hearthstone](#hearthstone)
+  - [Blue Byte (The Settlers)](#blue-byte-the-settlers)
   - [BLUEPOCH (Reverse: 1999)](#bluepoch-reverse-1999)
   - [Bob Hays (Hypercycles)](#bob-hays-hypercycles)
   - [Bohemia Interactive](#bohemia-interactive)
@@ -335,6 +336,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Boss Game Studios (Top Gear Rally)](#boss-game-studios-top-gear-rally)
   - [Brain Jar Games (Dead as Disco)](#brain-jar-games-dead-as-disco)
   - [Brno Transit](#brno-transit)
+  - [Brøderbund (Lode Runner)](#brøderbund-lode-runner)
   - [Bugbear Entertainment (FlatOut)](#bugbear-entertainment-flatout)
   - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
   - [Bugs Bunny: Lost in Time](#bugs-bunny-lost-in-time)
@@ -397,6 +399,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Contrail (Legend of Legaia)](#contrail-legend-of-legaia)
   - [Codemasters](#codemasters)
   - [CR-Space (Martial Heroes)](#cr-space-martial-heroes)
+  - [Creature Labs (Creatures)](#creature-labs-creatures)
   - [Croteam](#croteam)
   - [Crows Crows Crows](#crows-crows-crows)
   - [Cryo Interactive](#cryo-interactive)
@@ -756,6 +759,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Sid Meier's Covert Action](#sid-meiers-covert-action)
     - [Darklands](#darklands)
     - [MPS Show](#mps-show)
+    - [Master of Magic](#master-of-magic)
   - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
     - [SkiFree](#skifree)
     - [Halo](#halo)
@@ -891,6 +895,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Oddworld Inhabitants](#oddworld-inhabitants)
   - [Origin Systems](#origin-systems)
     - [Ultima V](#ultima-v)
+    - [Ultima VI](#ultima-vi)
     - [Ultima VII](#ultima-vii)
     - [Ultima IX: Ascension](#ultima-ix-ascension)
     - [Strike Commander](#strike-commander)
@@ -1216,6 +1221,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Blade Runner (1997)](#blade-runner-1997)
     - [Command & Conquer](#command--conquer)
     - [Nox](#nox)
+    - [Dune II](#dune-ii)
   - [Whoopee Camp (Tomba!)](#whoopee-camp-tomba)
   - [Williams Electronics](#williams-electronics)
   - [Wolfpack Studios (Shadowbane)](#wolfpack-studios-shadowbane)
@@ -1963,6 +1969,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [BizHawk](https://github.com/TASEmulators/BizHawk) - Multi-system emulator built for tool-assisted speedrunning, with full rerecording, RAM search/watch, Lua scripting, and debugging tools across 20+ systems (NES, SNES, Genesis, Game Boy/GBA, N64, PS1, and more).
 - [ScriptHawk](https://github.com/Isotarge/ScriptHawk) - Collection of BizHawk Lua scripts for RAM watching, memory manipulation, and TAS tooling across dozens of games.
+- [hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) - SDL3-based continuation of Daphne/Singe, emulating laserdisc arcade games by reading their original laserdisc video/ROM data. Companion [hypseus_singe_data](https://github.com/DirtBagXon/hypseus_singe_data) package provides the LUA game-definition scripts for dozens of supported titles (Dragon's Lair, Space Ace, Cliff Hanger, M.A.C.H. 3, and more).
 
 #### Franchise & Studio Toolkits
 
@@ -3774,6 +3781,7 @@ This list is for developers and modders working with such formats. It provides t
 - [RLE-GIMP-Plugin](https://github.com/Daniel-McCarthy/RLE-GIMP-Plugin) - GIMP plugin for Neversoft's .rle 16-bit image format.
 - [psx_texture_extractor](https://github.com/slfx77/psx_texture_extractor) - Extractor for textures within Neversoft's PS1 model format, supporting 4, 8, and 16-bit textures (16-bit support incomplete).
 - [io_thps_scene](https://github.com/denetii/io_thps_scene) - Blender import/export addon for the Tony Hawk's Pro Skater (THPS) scene format.
+- [THPS-Level-Editor](https://github.com/Vadru93/THPS-Level-Editor) - Level editor for Tony Hawk's Pro Skater games.
 
 #### Ghostbusters
 
@@ -4182,6 +4190,7 @@ This list is for developers and modders working with such formats. It provides t
 - [neb3map-viewer](https://github.com/simo8902/neb3map-viewer) - Drakensang Online model and map viewer.
 - [Drakensang_RaknetProtocol](https://github.com/DSO-Reconstruction/Drakensang_RaknetProtocol) - Documentation of the RakNet network protocol used by Drakensang Online, covering packet IDs, handlers, and client/server packet flows.
 - [drakensang-nb3-bundle-extractor](https://github.com/simo8902/drakensang-nb3-bundle-extractor) - Extractor for Drakensang Online's NB3 bundle files.
+- [dro_client-decomp](https://github.com/DSO-Reconstruction/dro_client-decomp) - Decompilation project for the Drakensang Online client.
 
 ### BioWare
 
@@ -4336,11 +4345,16 @@ This list is for developers and modders working with such formats. It provides t
 - [gomule-d2r](https://github.com/pairofdocs/gomule-d2r) - Port of the classic GoMule item-muling and stash-transfer tool, enabled for Diablo II: Resurrected's save and item file formats.
 - [d2-stash-organizer](https://github.com/bethington/pd2-doc) - Browser-based Diablo II PlugY stash organizer, item search, muling utility, and Holy Grail tracker that reads and rewrites save/stash files entirely client-side.
 - [D2R-Save-Editor](https://github.com/non-npc/D2R-Save-Editor) - Save file editor for Diablo II: Resurrected.
+- [D2CE](https://github.com/WalterCouto/D2CE) - Diablo II Character Editor for save (`.d2s`) files, an actively maintained continuation of the original tool by Burton Tsang.
 
 #### Hearthstone
 
 - [proto-extractor](https://github.com/HearthSim/proto-extractor) - Extracts and generates C# classes from the protobuf definitions compiled into Hearthstone's binaries, used to decode the game's network protocol and data.
 - [HearthDB](https://github.com/The-Kludge-Bureau/HearthDB) - Database/parser for Hearthstone's card and game data files.
+
+### Blue Byte (The Settlers)
+
+- [freeserf](https://github.com/freeserf/freeserf) - Open-source re-implementation of The Settlers I / Serf City (1993, Blue Byte), reading the original DOS or Amiga game data files.
 
 ### BLUEPOCH (Reverse: 1999)
 
@@ -4377,6 +4391,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Brno Transit
 
 - [krtekex](https://github.com/iOrange/krtekex) - Command-line unpacker for the indie game Brno Transit's krtek.dat asset pack file.
+
+### Brøderbund (Lode Runner)
+
+- [lode_runner_reveng](https://github.com/XekriRedmane/lode_runner_reveng) - Reverse engineering of Lode Runner for the Apple II.
 
 ### Bugbear Entertainment (FlatOut)
 
@@ -4453,6 +4471,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Quake III: Revolution
 
 - [Q3R_tools](https://github.com/Yagotzirck/Q3R_tools) - Resource extractor for Quake III: Revolution (2001, PS2), Bullfrog Productions' final game.
+- [CorsixTH](https://github.com/CorsixTH/CorsixTH) - Open-source reimplementation of Theme Hospital (1997, Bullfrog Productions), reading the original game's graphics, sound, and data files.
 
 ### Burut CT
 
@@ -4768,6 +4787,10 @@ This list is for developers and modders working with such formats. It provides t
 ### CR-Space (Martial Heroes)
 
 - [Diamond](https://github.com/tge-was-taken/Diamond) - Reverse engineering and enhancement project for Martial Heroes. Provides tooling, parsers, and client-side improvements including binary parsers, VFS archive tools, and 010 Editor templates.
+
+### Creature Labs (Creatures)
+
+- [openc2e](https://github.com/openc2e/openc2e) - Open-source game engine for the Creatures artificial life series (Creatures, Creatures 2, Creatures 3, Docking Station), reading the original games' world and creature data files.
 
 ### Croteam
 
@@ -5175,6 +5198,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ra3-skybox-patch-builder](https://github.com/lanyizi/ra3-skybox-patch-builder) - Builds skybox mod patches for Red Alert 3.
 - [ra3xsd-to-cpp](https://github.com/lanyizi/ra3xsd-to-cpp) - Converts Red Alert 3's XSD schema declarations into C++ struct definitions for parsing the game's data files.
 - [AptEditor](https://github.com/lanyizi/AptEditor) - Editor for SAGE engine APT (Flash-like UI) files, based on feliwir's AptEditor and OpenSAGE's APT implementation.
+- [CnC_Tiberian_Dawn](https://github.com/electronicarts/CnC_Tiberian_Dawn) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn game logic and engine source code.
 
 #### SSX
 
@@ -6095,6 +6119,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Arknights: Endfield
 
 - [EndfieldUnpacker](https://github.com/endGuaGua/EndfieldUnpacker) - Reverse engineering toolkit for Arknights: Endfield; decrypts and extracts game assets from the game's proprietary VFS archives, including Wwise PCK/WEM audio.
+- [Endfield-Il2cpp-Dynamic-Dumper](https://github.com/endGuaGua/Endfield-Il2cpp-Dynamic-Dumper) - Dynamic IL2CPP metadata dumper for Arknights: Endfield, with RVA output and IDA import support.
 
 ### id Software
 
@@ -7252,6 +7277,9 @@ This list is for developers and modders working with such formats. It provides t
 #### MPS Show
 
 - [mps-show](https://github.com/canadianavenger/mps-show) - Reverse-engineering and extraction tools for the MicroProse MPS Show slideshow data format used with some of their DOS game demos.
+#### Master of Magic
+
+- [openmom](https://github.com/Jakz/openmom) - Cross-platform open-source port of Master of Magic (1994, MicroProse/SimTex), reading the original game's LBX archive files for graphics, sound, and data.
 
 ### Microsoft Studios / Bungie / Turn 10
 
@@ -7601,6 +7629,8 @@ This list is for developers and modders working with such formats. It provides t
 ### Nadeo
 
 - [GbxDump](https://github.com/Electron-x/GbxDump) - Windows application that decodes and displays the header contents of Nadeo GameBox (.Gbx) files, covering maps, challenges, replays, packs, blocks, objects, and items across Trackmania and other Nadeo titles.
+- [gbx-net](https://github.com/BigBang1112/gbx-net) - General-purpose C#/.NET library for Nadeo GameBox (.Gbx) files used by Trackmania and ShootMania; supports high-performance serialization/deserialization of 400+ Gbx classes.
+- [TMTelemetry](https://github.com/Electron-x/TMTelemetry) - Windows tool displaying real-time telemetry data from TrackMania.
 
 ### NanaOn-Sha
 
@@ -8296,6 +8326,10 @@ This list is for developers and modders working with such formats. It provides t
 - [UltimaVSaveGameEditor](https://github.com/bradhannah/UltimaVSaveGameEditor) - Editor and summarizer for Ultima V save games, reading and writing the original proprietary save file format; built to speed up scenario recreation for the Ultima V Redux fan remake project.
 - [u5d](https://github.com/wonst719/u5d) - Ongoing decompilation project for Ultima V: Warriors of Destiny.
 
+#### Ultima VI
+
+- [u6-decompiled](https://github.com/ergonomy-joe/u6-decompiled) - Decompilation of the PC/MS-DOS version of Ultima VI: The False Prophet.
+
 #### Ultima VII
 
 - [exult](https://github.com/exult/exult) - Long-running project to recreate Ultima VII: The Black Gate and Serpent Isle for modern operating systems, reading original game data and graphics files.
@@ -8541,6 +8575,9 @@ This list is for developers and modders working with such formats. It provides t
 ### Pterodon (Vietcong)
 
 - [VC_Scripter](https://github.com/desintegrathor/VC_Scripter) - Reverse engineering and scripting environment for Vietcong (2003), including a `.scr` bytecode decompiler/compiler (SCMP toolchain) and a `.sco` scene file parser, exposed via MCP servers for AI-agent-assisted script analysis.
+- [vc-spec](https://github.com/OpenVietcong/vc-spec) - Documentation of Vietcong (2003) file formats, covering archives, 3D models, animations, and other data formats used by the game.
+- [blender-plugin-vietcong](https://github.com/OpenVietcong/blender-plugin-vietcong) - Blender plugin for importing/exporting Vietcong's `.BES` 3D model files. See also [desintegrathor's plugin](https://github.com/desintegrathor/Vietcong-Blender-plugin) with Blender 4.x/5.x support.
+- [nogamespy-vietcong](https://github.com/garncarz/nogamespy-vietcong) - Reimplementation of Vietcong's GameSpy-based multiplayer server discovery/matchmaking protocol.
 
 ### Punchline
 
@@ -8984,6 +9021,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for extracting SCS archives from Euro Truck Simulator 2.
 - [ts-map](https://github.com/dariowouters/ts-map) - Map renderer for Euro Truck Simulator 2 and American Truck Simulator, parsing the games' `.mbd`/`.base`/`.aux` map definition files.
+- [ts-fmod-plugin](https://github.com/dariowouters/ts-fmod-plugin) - FMOD telemetry plugin for Euro Truck Simulator 2 and American Truck Simulator, enabling FMOD-based sound mods (e.g. for TruckersMP).
+- [Extractor](https://github.com/sk-zk/Extractor) - Cross-platform extractor for Euro Truck Simulator 2 and American Truck Simulator's `.scs` archive files.
 
 ### Sega
 
@@ -10434,6 +10473,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [opennox](https://github.com/opennox/opennox) - Community reimplementation and extension of the Nox (Westwood Studios, 2000) engine, supporting the full vanilla campaign and multiplayer using original game data files.
 - [CrescentHawksTools](https://github.com/Elthial/CrescentHawksTools) - .NET Core toolkit for extracting assets from BattleTech: The Crescent Hawk's Inception (1988, Westwood Associates); support for The Crescent Hawk's Revenge planned.
+- [Reko-Btech](https://github.com/Elthial/Reko-Btech) - Decompilation project for BattleTech: The Crescent Hawk's Inception (1988, Westwood Associates), companion to the same author's CrescentHawksTools asset extractor.
+- [battletech-maps](https://github.com/waynepiekarski/battletech-maps) - Map extraction tools for BattleTech: The Crescent Hawk's Inception.
+#### Dune II
+
+- [OpenDUNE](https://github.com/OpenDUNE/OpenDUNE) - Open-source re-creation of Dune II (1992, Westwood Studios), reading the original game's data files (dune2.exe and the EU/US/HS asset sets).
 
 ### Whoopee Camp (Tomba!)
 
@@ -10499,6 +10543,9 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
+
 
 
 
