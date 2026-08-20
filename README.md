@@ -164,6 +164,7 @@ This list is for developers and modders working with such formats. It provides t
   - [NETLizard (J2ME Game Engine)](#netlizard-j2me-game-engine)
   - [Nebula Engine](#nebula-engine)
   - [MikuMikuDance](#mikumikudance)
+  - [Cal3D](#cal3d)
   - [Spine (2D Skeletal Animation Middleware)](#spine-2d-skeletal-animation-middleware)
   - [RenderWare](#renderware)
   - [CRI](#cri)
@@ -428,6 +429,9 @@ This list is for developers and modders working with such formats. It provides t
     - [Toontown Online](#toontown-online)
     - [Club Penguin](#club-penguin)
   - [Deck13 Interactive (Lords of the Fallen)](#deck13-interactive-lords-of-the-fallen)
+  - [Deep Red Games](#deep-red-games)
+    - [AtmosFear](#atmosfear)
+    - [Total Overdose](#total-overdose)
   - [Delphine Software](#delphine-software)
     - [Another World](#another-world)
     - [Fade to Black](#fade-to-black)
@@ -822,6 +826,9 @@ This list is for developers and modders working with such formats. It provides t
   - [NetEase Games](#netease-games)
     - [Beyond the World](#beyond-the-world)
     - [LifeAfter](#lifeafter)
+    - [NeoX Engine](#neox-engine)
+    - [Messiah Engine](#messiah-engine)
+    - [Super Mecha Champions](#super-mecha-champions)
   - [Nexon](#nexon)
     - [MapleStory](#maplestory)
     - [MapleStory 2](#maplestory-2)
@@ -1092,6 +1099,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Final Fantasy XV](#final-fantasy-xv)
     - [Final Fantasy XIII](#final-fantasy-xiii)
     - [Final Fantasy VII](#final-fantasy-vii)
+      - [Final Fantasy VII Remake / Rebirth](#final-fantasy-vii-remake--rebirth)
     - [Final Fantasy VIII](#final-fantasy-viii)
     - [Final Fantasy IX](#final-fantasy-ix)
     - [Chrono Trigger](#chrono-trigger)
@@ -1729,6 +1737,7 @@ This list is for developers and modders working with such formats. It provides t
 - [m68k-recomp-core](https://github.com/mstan/m68k-recomp-core) - Shared clean-room Motorola 68000-family static-recompiler frontend used by Genesis/Mega Drive recompilation projects.
 - [ps1-recomp](https://github.com/PS1Recomp/ps1-recomp) - Static recompiler translating PlayStation 1 MIPS R3000A machine code into native C++ executables for PC ports.
 - [rexauto](https://github.com/xdzleo/rexauto) - Desktop orchestrator front-end for the ReXGlue static recompiler, automating the full Xbox 360-to-PC pipeline (extract from ISO/GoD/STFS containers, scaffold, recover jump tables via IDA, build, and self-heal missing functions) into a native x86-64 executable.
+- [RecompOne](https://github.com/BlackLabelHQ/RecompOne) - Static recompiler and runtime for PlayStation 1 (MIPS) game code, converting binaries into native executables.
 
 #### Ghidra & IDA Platform Loaders
 
@@ -2027,6 +2036,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Di-Gi-Charat-Fantasy-Tool](https://github.com/gopicolo/Di-Gi-Charat-Fantasy-Tool) - Text extraction/editing/reinsertion tool for Di Gi Charat Fantasy. The same author (gopicolo) has released matching text tools for several other unrelated Japanese visual novels/galgames: [Shoujo Kakumei Utena](https://github.com/gopicolo/Shoujo-Kakumei-Utena-Tool) (Sega Saturn), [Eiyuu Shigan - Gal Act Heroism](https://github.com/gopicolo/Eiyuu-Shigan-Tool) (Sega Saturn), [Nanatsuiro★Drops](https://github.com/gopicolo/Nanatsuiro-Drops-Tool), and [Papa no Iu Koto o Kikinasai!](https://github.com/gopicolo/Game-demo-Papa-no-Iu-Koto-o-Kikinasai-Tool) (PSP).
 - [FrogLord](https://github.com/Kneesnap/FrogLord) - Modding suite supporting level creation, 3D model import, unused-content viewing, and general file editing.
   - Games: Frogger: He's Back, Frogger: The Great Quest, Frogger Beyond, Frogger Rescue, Frogger Ancient Shadow, Beast Wars: Transformers, C-12: Final Resistance, MediEvil, MediEvil II, Moon Warrior.
+- [Test-Drive-Off-Road-3-Model-Extractor](https://github.com/ExIfDev/Test-Drive-Off-Road-3-Model-Extractor) - Extracts and converts models from Test Drive: Off-Road 3.
 
 ## ⚙️ Engines
 
@@ -2338,6 +2348,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Core](https://github.com/JsonAsAsset/Core) - Extension of JsonAsAsset's Reflection above that fetches referenced Unreal Engine assets automatically, hands-free.
 - [UE1-VertexMesh-Blender-IO](https://github.com/Skywolf285/UE1-VertexMesh-Blender-IO) - Blender exporter/importer for the Unreal Engine 1 `_a.3d`/`_d.3d` vertex mesh format.
 - [unreal-assets-to-glb](https://github.com/Prikalel/unreal-assets-to-glb) - Parses Unreal Engine 5.5 editor-time `.uasset` files and extracts static meshes (glTF/glb) and base color textures (PNG) without requiring Unreal Engine to be installed; includes a browser-based level preview mode.
+- [pyUsmap](https://github.com/MinshuG/pyUsmap) - Python parser for Unreal Engine .usmap files.
 
 #### Explorers, Viewers & PAK/IoStore Tools
 
@@ -2395,6 +2406,8 @@ This list is for developers and modders working with such formats. It provides t
 - [t3d2map](https://github.com/hogsy/t3d2map) - Converts Unreal `.T3D` text map documents to Quake's `.MAP` brush format. See also [mildred/t3d2map](https://github.com/mildred/t3d2map), an unrelated same-named tool converting Wheel of Time/Unreal T3D exports to other map formats.
 - [UnrealKeyr](https://github.com/Falkrian/UnrealKeyr) - Finds and validates AES-256 encryption keys in Unreal Engine 4 game binaries, .pak files, and IoStore containers.
 - [Solicen.UEExtractor](https://github.com/SolicenTEAM/UEExtractor) - Extracts text strings from Unreal Engine `.pak`/`.ucas` archive files for game localization/translation workflows.
+- [UEAESKeyFinder](https://github.com/EZFNDEV/UEAESKeyFinder) - Finds the AES decryption key of practically any Unreal Engine game.
+- [UEManifestReader](https://github.com/EZFNDEV/UEManifestReader) - Reads and parses Unreal Engine build manifests.
 
 #### Modding Frameworks & Toolkits
 
@@ -2413,6 +2426,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SkelEdit](https://github.com/gildor2/SkelEdit) - Cross-platform PSK/PSKX/PSA (ActorX) skeletal mesh viewer with wxWidgets UI and OpenGL renderer.
 - [ActorX](https://github.com/gildor2/ActorX) - Epic Games' ActorX plugin source code for Unreal skeletal animation format (PSK/PSA).
 - [blender_t3d](https://github.com/crapola/blender_t3d) - Blender import/export add-on for Unreal `.T3D` map files.
+- [BlenderUmap2](https://github.com/MinshuG/BlenderUmap2) - Blender addon for importing Unreal Engine .umap/.uasset world and actor data exported by FModel.
 
 #### Legacy Tools & Downloads (ModDB)
 
@@ -2984,6 +2998,12 @@ This list is for developers and modders working with such formats. It provides t
 - [MMD Tools](https://github.com/MMD-Blender/blender_mmd_tools) - Blender add-on for importing/exporting MikuMikuDance assets. Supports physics, bone constraints, and motion/pose data.
 - [MMD Tools Append](https://github.com/MMD-Blender/blender_mmd_tools_append) - Companion extension for MMD Tools that provides material/scene controls, lighting presets, and Rigify helpers.
 
+### Cal3D
+
+*Cal3D, an open-source skeletal-based 3D character animation library used by several early-2000s indie games.*
+
+- [Cal3d-Noesis](https://github.com/ExIfDev/Cal3d-Noesis) - Noesis addon for Cal3D models and animations.
+
 ### Spine (2D Skeletal Animation Middleware)
 
 - [Spine Magic Builder](https://github.com/Randombirdnoise/Spine_Magic_Builder) - Windows toolkit for reconstructing scattered or mislabeled Spine skeleton/atlas/texture assets by scanning a directory tree at the byte level and matching candidates, with a GUI picker for visual validation against SpineViewer.
@@ -3498,6 +3518,7 @@ This list is for developers and modders working with such formats. It provides t
 - [dump-xbox-dvd](https://github.com/JayFoxRox/dump-xbox-dvd) - Dumps original Xbox game discs (XGD) to redump preservation standard using Kreon-firmware optical drives.
 - [xbox-dvd-compress](https://github.com/JayFoxRox/xbox-dvd-compress) - Proof-of-concept tools to inspect redump-format Xbox DVD images: extracts embedded authoring-tool version tags and traces the RNG seed used to generate sector padding, as groundwork for compression.
 - [UnXiP](https://github.com/JayFoxRox/UnXiP) - Extracts XIP archive files from the original Xbox dashboard, based on Voltaic's PIXIT research.
+- [WinDurango](https://github.com/WinDurango/WinDurango) - Xbox One compatibility layer for Windows, allowing Xbox One executables to run natively on PC.
 
 ### Tamagotchi (Bandai) Hardware
 
@@ -4974,6 +4995,16 @@ This list is for developers and modders working with such formats. It provides t
 
 - [LOTF.PKG.Tool](https://github.com/Ekey/LOTF.PKG.Tool) - Tool for extracting PKG archives from Lords of the Fallen (2014).
 
+### Deep Red Games
+
+#### AtmosFear
+
+- [AtmosFear-Noesis-Importer](https://github.com/ExIfDev/AtmosFear-Noesis-Importer) - Noesis script to import AtmosFear 3/4 models (.cmf).
+
+#### Total Overdose
+
+- [fmt_kapow](https://github.com/ExIfDev/fmt_kapow) - Total Overdose viewer/unpacker plugin for Noesis.
+
 ### Delphine Software
 
 #### Another World
@@ -5201,6 +5232,7 @@ This list is for developers and modders working with such formats. It provides t
 - [nfsmw-2005-re](https://github.com/s-b-repo/nfsmw-2005-re) - Reverse-engineering project for Need for Speed: Most Wanted (2005), mapping the game's binary subsystems and cracking most of its internal attribute hashes in Ghidra, with a working ASI mod and Linux CLI tool.
 - [NFS-Legacy-Modpacks](https://github.com/Gxbbykko/NFS-Legacy-Modpacks) - Modpack collection for legacy Need for Speed titles' original asset formats.
 - [XNFSMusicPlayer](https://github.com/xan1242/XNFSMusicPlayer) - Custom music player for Need for Speed games, interfacing with the BASS audio library to play the games' original audio format.
+- [NFSU_model_research](https://github.com/ExIfDev/NFSU_model_research) - Reverse engineering of Need For Speed: Underground's model format.
 ##### 688 Attack Sub
 
 - [ea-ega](https://github.com/canadianavenger/ea-ega) - Tools and documentation for the EGA image file format used by 688 Attack Sub and other vintage Electronic Arts titles.
@@ -5322,6 +5354,7 @@ This list is for developers and modders working with such formats. It provides t
 - [JFortniteParse](https://github.com/FabianFG/JFortniteParse) - JVM Unreal Engine 4 asset parser library for Fortnite and Valorant; parses PAK files, textures, sounds, meshes, and localization files.
 - [fortnite-aes-archive](https://github.com/dippyshere/fortnite-aes-archive) - Archive of AES decryption keys for Fortnite's PAK files, covering almost every dynamic and main PAK key.
 - [fortnite-replay](https://github.com/linustg/fortnite-replay) - Modern C++23 library for parsing Fortnite .replay files, extracting metadata, network frames, checkpoints, and game events (e.g. eliminations), with optional Oodle decompression support.
+- [Fortnite-ManifestsArchive](https://github.com/Kyiro/Fortnite-ManifestsArchive) - Archive of known Fortnite build manifests.
 
 #### Unreal
 
@@ -5672,6 +5705,8 @@ This list is for developers and modders working with such formats. It provides t
 - [poketcg2 (decomp)](https://github.com/pret/poketcg2) - Matching decompilation of Pokémon TCG 2 (100%).
 - [pokeblack (decomp)](https://github.com/pokemodding/pokeblack) - Matching decompilation of Pokémon Black.
 - [ppmdu](https://github.com/PsyCommando/ppmdu) - Combined toolset for exporting/importing graphics, audio, and script data to and from Pokémon Mystery Dungeon: Explorers of Time/Darkness/Sky (NDS).
+- [SkyTemple](https://github.com/SkyTemple/skytemple) - GUI ROM editor for Pokémon Mystery Dungeon: Explorers of Sky (NDS), built on top of the pmd-sky decompilation and skytemple-files.
+- [pmdsky-debug](https://github.com/UsernameFodder/pmdsky-debug) - Reverse-engineered debug/symbol information for Pokémon Mystery Dungeon: Explorers of Sky (NDS), used by pmd-sky and SkyTemple.
 
 #### Switch (Gen VIII+)
 
@@ -7680,6 +7715,10 @@ This list is for developers and modders working with such formats. It provides t
 - [GbxMapBrowser](https://github.com/ArkadySK/GbxMapBrowser) - Browser/explorer for Trackmania/ShootMania `.gbx` map and replay files, powered by GBX.NET.
 - [nations-converter](https://github.com/BigBang1112/nations-converter) - Converts Trackmania Sunrise/Nations ESWC/United Forever/Turbo maps to Trackmania (2020), powered by GBX.NET.
 - [tm-map-gbx-to-advanced](https://github.com/emkons/tm-map-gbx-to-advanced) - Converts Trackmania `Map.Gbx` files from Simple to Advanced editor mode.
+- [gbxclient-node](https://github.com/EvoEsports/gbxclient-node) - Node.js XML-RPC client for Trackmania dedicated servers.
+- [island-converter](https://github.com/bigbang1112-cz/island-converter) - Converts any Island environment map from Trackmania (TMUF, TMU, or TMS) to be compatible with the community-made ManiaPlanet titlepack TM² Island.
+- [win-file-explorer-gbx-addons](https://github.com/BigBang1112/win-file-explorer-gbx-addons) - Gbx-related property/thumbnail addons for Windows File Explorer.
+- [clip-input](https://github.com/bigbang1112-cz/clip-input) - Converts input data available inside a Trackmania replay or ghost into its Clip.Gbx visualization overlay.
 
 ### NanaOn-Sha
 
@@ -7718,6 +7757,17 @@ This list is for developers and modders working with such formats. It provides t
 #### LifeAfter
 
 - [LA.NPK.Tool](https://github.com/Ekey/LA.NPK.Tool) - Tool for extracting NPK archives from LifeAfter, NetEase's post-apocalyptic survival game.
+#### NeoX Engine
+
+- [Aexadev_NeoX_Extractor](https://github.com/ExIfDev/Aexadev_NeoX_Extractor) - Tool to extract/convert assets from NetEase's NeoX game engine, used across many NetEase titles.
+
+#### Messiah Engine
+
+- [Aexadev_MESSIAH_extractor](https://github.com/ExIfDev/Aexadev_MESSIAH_extractor) - Model extractor/viewer for NetEase's Messiah Engine.
+
+#### Super Mecha Champions
+
+- [SMC_NPK_Tool](https://github.com/ExIfDev/SMC_NPK_Tool) - Command-line tool to extract resources from Super Mecha Champions.
 
 ### Nexon
 
@@ -8219,12 +8269,15 @@ This list is for developers and modders working with such formats. It provides t
 #### Star Fox Adventures
 
 - [noclip.website (Star Fox Adventures)](https://github.com/magcius/noclip.website/tree/main/src/StarFoxAdventures) - In-browser Star Fox Adventures viewer.
+- [StarFoxAdventures](https://github.com/RenaKunisaki/StarFoxAdventures) - Reverse engineering notes and research on Star Fox Adventures (GameCube) file formats.
+- [sfa-kiosk-default-dol](https://github.com/Francessco121/sfa-kiosk-default-dol) - Work-in-progress decompilation of the default.dol executable found inside the Star Fox Adventures Kiosk ROM.
 
 #### Star Fox 64
 
 - [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for extracting files from Star Fox 64 ROMs.
 - [Starship](https://github.com/HarbourMasters/Starship) - Star Fox 64 PC port based on SF64 decomposition project. Requires supported game copy.
 - [sf64-dc](https://github.com/jnmartin84/sf64-dc) - Sega Dreamcast port of the Star Fox 64 decompilation.
+- [Starfox64Recomp](https://github.com/Francessco121/Starfox64Recomp) - Static recompilation of Star Fox 64 (N64) for native PC (Windows/Linux); the only surviving copy of the original sonicdcer/Starfox64Recomp project, which has since been deleted.
 
 #### Star Fox 64 3D
 
@@ -8924,6 +8977,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [RBXGSdecomp (decomp)](https://github.com/RBLXDecomp/RBXGSdecomp) - Decompilation of RBXGS (Roblox Grid Service) version 0.3.634.0, the legacy Roblox game/asset delivery service.
 - [Roblox RBXL Extractor](https://github.com/pinkythegawd/Roblox-rbxl-extractor) - Extracts and recovers Lua scripts, assets, and resources from Roblox `.rbxl` place files, using heuristics for script recovery.
+- [Roblox-File-Format](https://github.com/MaximumADHD/Roblox-File-Format) - C# library for creating and manipulating files in Roblox's serialized DOM format (RBXL/RBXM, binary and XML).
 
 ### RobTop Games
 
@@ -9632,6 +9686,7 @@ This list is for developers and modders working with such formats. It provides t
 - [eqsage](https://github.com/knervous/eqsage) - Converts EverQuest S3D/EQG assets on the fly to render them in the browser; includes a zone database editor and viewer.
 - [eqrequiem](https://github.com/knervous/eqrequiem) - Brings EverQuest to the browser using the BabylonJS engine and Go, converting and extracting the original game's assets.
 - [eq-three-js-zone-viewer](https://github.com/brynnb/eq-three-js-zone-viewer) - Python-based converter for extracting, converting, and viewing classic EverQuest game assets in a browser with three.js.
+- [EYE_extractor](https://github.com/ExIfDev/EYE_extractor) - Extracts .eye archives from Lords of EverQuest.
 
 #### Evolution Studios
 
@@ -9755,6 +9810,10 @@ This list is for developers and modders working with such formats. It provides t
 - [ff7-worldmap](https://github.com/ergonomy-joe/ff7-worldmap) - Decompiled Final Fantasy VII world map engine.
 - [ff7-coaster](https://github.com/ergonomy-joe/ff7-coaster) - Decompiled code for the Final Fantasy VII "Jet Coaster" minigame.
 - [ff7-chocobo](https://github.com/ergonomy-joe/ff7-chocobo) - Decompiled code for the Final Fantasy VII chocobo racing minigame.
+
+##### Final Fantasy VII Remake / Rebirth
+
+- [FF7R-UMAP](https://github.com/frostbone25/FF7R-UMAP) - Work-in-progress map (.umap) extractor for Final Fantasy VII Remake Intergrade (PC), built on Unreal Engine.
 
 #### Final Fantasy VIII
 
@@ -10086,6 +10145,7 @@ This list is for developers and modders working with such formats. It provides t
 - [lenctools](https://github.com/gekonnn/lenctools) - Decompiles Telltale .lenc files (Lua bytecode) into .lua and vice versa, handling the swapped opcodes used by some older Telltale games that standard Lua tools cannot process.
 - [TelltaleLuaScriptingDocumentation](https://github.com/iMrShadow/TelltaleLuaScriptingDocumentation) - Documentation of Telltale Tool's Lua scripting API functions, useful for modding and reverse engineering Telltale game scripts.
 - [Telltale-Music-Extractor](https://github.com/bgbennyboy/Telltale-Music-Extractor) - Rips music from games built on the Telltale Tool engine, including Skunkape Games' Sam & Max Save the World.
+- [Telltale-Resdesc-Viewer](https://github.com/Telltale-Modding-Group/Telltale-Resdesc-Viewer) - Tool to open and view encrypted `resdesc` files from Telltale Games titles.
 
 ### Terminal Reality
 
@@ -10608,6 +10668,8 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
+
 
 
 
