@@ -4285,6 +4285,9 @@ This list is for developers and modders working with such formats. It provides t
 ##### Diablo II / Resurrected
 
 - [OpenD2](https://github.com/eezstreet/OpenD2) - Open-source rewrite of the Diablo 2 game engine that uses the original game's data files (MPQ archives) and original save files, rather than reimplementing/replacing them.
+- [Riiablo](https://github.com/collinsmith/riiablo) - Rebuild of Diablo II from scratch using Java and LibGDX, using 100% original Diablo II assets (MPQ archives).
+- [diablo2](https://github.com/blacha/diablo2) - Monorepo of Diablo II tools and libraries.
+  - Packages: `bintools` (Diablo II Classic `.bin` file binary parsers), `mpq` (MPQ archive reader/extractor), `map` (Docker-based map generation API for Classic and Resurrected), `huffman` (network data decompressor), `packets`/`sniffer` (Classic network protocol parser and packet sniffer), `memory` (Resurrected memory reader).
 - [vector-lsp](https://github.com/eezstreet/vector-lsp) - Language Server Protocol (LSP) server for Diablo II and Diablo II: Resurrected's structured, delimited data files (tab-delimited .txt, CSV).
   - Features: Real-time diagnostics, hover documentation, go-to-definition, and an extensible plugin system for IDE-supported editing of D2/D2R data tables.
 - [d2rdoc](https://github.com/eezstreet/d2rdoc) - Augmented version of Blizzard's official Diablo II: Resurrected modding documentation, covering the data file formats introduced in the 3.0 "Reign of the Warlock" expansion.
@@ -4298,12 +4301,22 @@ This list is for developers and modders working with such formats. It provides t
 - [D2MOO](https://github.com/ThePhrozenKeep/D2MOO) - Reimplementation of Diablo II with patching facilities for modders.
 - [d2s-format](https://github.com/krisives/d2s-format) - Documentation and reference implementation for Diablo II's .d2s save file format.
 - [d2s](https://github.com/nokka/d2s) - Go library and binary parser for Diablo II `.d2s` character save files.
+- [diablo_edit](https://github.com/daidodo/diablo_edit) - Diablo II character save (`.d2s`) editor, tested against versions 1.09, 1.10, 1.13, and Diablo II: Resurrected.
+- [diablo2-protocol](https://github.com/MephisTools/diablo2-protocol) - Diablo II network protocol implementation, published as an npm package. See also [mephistools-sniffer](https://github.com/MephisTools/mephistools-sniffer), a companion packet sniffing library.
 - [game-exe](https://github.com/bethington/game-exe) - Reimplementation of Diablo II's Game.exe from scratch, based on reverse engineering and Ghidra binary analysis. Covers CRT startup, the 23-step initialization sequence, loading of the 9 core D2 DLLs, and the 6-phase game loop.
+- [d2-workshop](https://github.com/bethington/d2-workshop) - VS Code extension for Diablo II 1.13c modding.
+  - Features: MPQ archive browsing and read/write (via StormLib) through a virtual filesystem, a spreadsheet-style `.txt` data table editor with schema validation, a DC6 sprite viewer/editor with palette rendering and PNG import, and a binary patcher for `.dll`/`.exe` files using PE format parsing.
+- [d2-ds1-edit](https://github.com/bethington/d2-ds1-edit) - Continuation of Paul Siramy's win_ds1edit (the Diablo II community's DS1 map editor since 2002), ported to Allegro 5 for GPU-accelerated rendering on Windows, Linux, and macOS.
+- [vscode-d2-txt-compare-extension](https://github.com/bethington/vscode-d2-txt-compare-extension) - VS Code extension ("D2 Modder's Comparator") for comparing, editing, and managing Diablo II's tab-delimited .txt data files, with side-by-side diffs and a spreadsheet-style table viewer.
+- [D2VersionChanger](https://github.com/bethington/D2VersionChanger) - Fork of ChaosMarc's Diablo 2 Version Changer, extended with Ghidra-based cross-version function analysis: a 154K+ function registry, ordinal import resolution, and an interactive report viewer covering every D2 patch version.
+- [Diablo-II-Address-Table](https://github.com/mir-diablo-ii-tools/Diablo-II-Address-Table) - Collected Diablo II memory/function addresses across multiple game versions, stored as tab-delimited data.
+- [gomule-d2r](https://github.com/pairofdocs/gomule-d2r) - Port of the classic GoMule item-muling and stash-transfer tool, enabled for Diablo II: Resurrected's save and item file formats.
+- [d2-stash-organizer](https://github.com/bethington/pd2-doc) - Browser-based Diablo II PlugY stash organizer, item search, muling utility, and Holy Grail tracker that reads and rewrites save/stash files entirely client-side.
+- [D2R-Save-Editor](https://github.com/non-npc/D2R-Save-Editor) - Save file editor for Diablo II: Resurrected.
 
 #### Hearthstone
 
 - [proto-extractor](https://github.com/HearthSim/proto-extractor) - Extracts and generates C# classes from the protobuf definitions compiled into Hearthstone's binaries, used to decode the game's network protocol and data.
-- [D2R-Save-Editor](https://github.com/non-npc/D2R-Save-Editor) - Save file editor for Diablo II: Resurrected.
 - [HearthDB](https://github.com/The-Kludge-Bureau/HearthDB) - Database/parser for Hearthstone's card and game data files.
 
 ### BLUEPOCH (Reverse: 1999)
