@@ -122,6 +122,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Kirikiri](#kirikiri)
   - [ONScripter](#onscripter)
   - [Light.vn](#lightvn)
+  - [C,system Engine](#csystem-engine)
   - [Glulx VM (Interactive Fiction)](#glulx-vm-interactive-fiction)
   - [Z-machine VM (Interactive Fiction)](#z-machine-vm-interactive-fiction)
     - [Interpreters & Players](#interpreters--players)
@@ -729,6 +730,7 @@ This list is for developers and modders working with such formats. It provides t
     - [The Sims 1](#the-sims-1)
     - [The Sims 2](#the-sims-2)
     - [The Sims 4](#the-sims-4)
+    - [Spore](#spore)
   - [MDF (Polanie)](#mdf-polanie)
   - [Mega Crit (Slay the Spire)](#mega-crit-slay-the-spire)
   - [Media.Vision](#mediavision)
@@ -1473,6 +1475,8 @@ This list is for developers and modders working with such formats. It provides t
 - [unPAKer](https://github.com/mxtherfxcker/unPAKer) - Generic PAK archive unpacker for game asset extraction.
 - [genesis-rom-workshop](https://github.com/wesellis/genesis-rom-workshop) - Workshop tool for inspecting and modifying Sega Genesis/Mega Drive ROMs.
 - [NDSFactory](https://github.com/Luca1991/NDSFactory) - Generic Nintendo DS ROM extraction/repacking tool.
+- [dreamcast-cdi-burner](https://github.com/alex-free/dreamcast-cdi-burner) - Open-source, portable Linux tool for burning Sega Dreamcast .CDI disc images to physical media.
+- [playstation-disc-burner](https://github.com/alex-free/playstation-disc-burner) - Open-source, portable Linux tool for burning PS1/PS2 backup discs, with options for patching the disc image before burning.
 
 ### 🔊 Audio Tools
 
@@ -1557,6 +1561,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) - Next-gen version of Kuriimu.
 - [jstrings](https://github.com/drojaazu/jstrings) - Tool for finding JIS-based Japanese text strings in binary data, useful for locating text in Japanese game files.
 - [TF3 (Translation Framework 3)](https://github.com/Kaplas80/TF3) - General-purpose game translation framework with per-game plugins, including [Yakuza](https://github.com/Kaplas80/TF3.YakuzaPlugins) and [Zwei](https://github.com/Kaplas80/TF3.ZweiPlugins) series plugins.
+- [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) - VNTextPatch, a text extraction/translation/patching framework for Japanese visual novels, plus VNTextProxy, a companion DLL for injecting non-Japanese text rendering into VN engines that only support Shift-JIS.
+  - Engines: AdvHD, ArcGameEngine, Artemis, BGI/Ethornell, CatSystem2, Cyberworks C,system, KaGuYa, Kirikiri, Majiro, Musica, Mware, Propeller/Stuff Script Engine, RealLive, Ren'Py, ShSystem, Silky's/AI6WIN, Qlie, Softpal, SystemNNN, TmrHiroAdvSystem, Whale, YU-RIS.
+  - Features: Script text extraction/repacking, SJIS-tunneling text rendering proxy, Locale Emulator relaunching.
 
 ### 🔍 Hex Editors
 
@@ -2534,6 +2541,9 @@ This list is for developers and modders working with such formats. It provides t
 - [openbgi](https://github.com/Cytlan/openbgi) - Open-source reimplementation of the Ethornell/BGI (Buriko General Interpreter) visual novel engine.
 - [BGI](https://github.com/txt231/BGI) - Experimental reimplementation of the BGI (Buriko General Interpreter) visual novel engine: bytecode VM emulator (BGITool), opcode disassembler (BGIPiler) and tracer (BGITracer), and a resource viewer (BGIExplorer) for BGI's texture/bitmap formats.
 - [BGIKit](https://github.com/xupefei/BGIKit) - Script decoder and encoder for the Ethornell/BGI visual novel engine (archived).
+- [EthornellTools](https://github.com/arcusmaximus/EthornellTools) - Tools for the Buriko General Interpreter (BGI)/Ethornell visual novel engine.
+  - Tools: BgiDisassembler (disassembles internal system `._bp` scripts), BgiImageEncoder (encodes images to the engine's proprietary CompressedBG format).
+  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating BGI scenario scripts.
 
 ### RealLive
 
@@ -2546,6 +2556,9 @@ This list is for developers and modders working with such formats. It provides t
 *Visual novel engine (KAG/TJS scripting) used by many Japanese visual novels.*
 
 - [Xp3Viewer-AfterStory](https://github.com/Inori/Xp3Viewer-AfterStory) - Updated viewer for Kirikiri's XP3 archive format.
+- [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) - Toolset for the Kirikiri visual novel engine.
+  - Tools: KirikiriDescrambler (descrambles/decompresses obfuscated `.ks`/`.tjs` plaintext scripts), KirikiriUnencryptedArchive (`version.dll` injection making games accept unencrypted .xp3 archives, with support for extracting encrypted/hashed file names), Xp3Pack (creates unencrypted .xp3 patch archives for use with the DLL).
+  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating Kirikiri scripts.
 
 ### ONScripter
 
@@ -2558,6 +2571,12 @@ This list is for developers and modders working with such formats. It provides t
 *Visual novel engine (lightvn.net).*
 
 - [Light.vnTools](https://github.com/bungaku-moe/Light.vnTools) - Unpack/decrypt and repack/encrypt tool for games made with the Light.vn visual novel engine (.vndat/.mcdat files).
+
+### C,system Engine
+
+*Visual novel engine ("C,system") by Cyberworks, used in various Japanese visual novels.*
+
+- [CSystemTools](https://github.com/arcusmaximus/CSystemTools) - Script and image unpacking/repacking tool for the Cyberworks "C,system" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) for translating the extracted scenario scripts.
 
 ### Glulx VM (Interactive Fiction)
 
@@ -5772,6 +5791,9 @@ This list is for developers and modders working with such formats. It provides t
 - [kale](https://github.com/devinacker/kale) - Kirby's Adventure Level Editor (KALE), a C++/Qt tool for editing Kirby's Adventure (NES) level data.
 - [kdceditor](https://github.com/devinacker/kdceditor) - Kirby's Dream Course / Kirby Bowl level editor (C++/Qt), reading and writing the game's level data format.
 - [kar (decomp)](https://github.com/doldecomp/kar) - Decompilation of Kirby Air Ride.
+- [kirby-color](https://github.com/aquova/kirby-color) - Web-based palette editor for recoloring Kirby across several Kirby-series ROMs, with presets based on *Kirby and the Amazing Mirror*'s alternate colors.
+- [KA-Rando](https://github.com/aquova/KA-Rando) - Randomizer for Kirby's Adventure (NES), randomizing level order, enemy abilities, and Kirby's color via a web interface; complements [kale](https://github.com/devinacker/kale) above for editing the game's level data format.
+- [KNDL-Rando](https://github.com/aquova/KNDL-Rando) - Enemy-ability randomizer for Kirby: Nightmare in Dream Land (GBA).
 
 #### Super Smash Bros.
 
@@ -7070,6 +7092,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [FastDec-TS4](https://github.com/KitsuneDev/FastDec-TS4) - Fast Python decompiler for The Sims 4's compiled .pyc script files, used to decompile the game's own scripts and TS4Script mods back to readable Python source.
 - [Sims-4-Modding-Docs](https://github.com/zmilla93/Sims-4-Modding-Docs) - Archive of official Maxis/EA Sims 4 modding documentation (the original Custom Content Guide, forum discussions, and binary templates for .package resource formats), preserved from now-defunct forum pages via the Internet Archive.
+#### Spore
+
+- [SporeModder-FX](https://github.com/Spore-Community/SporeModder-FX) - Modding tool for Spore, with a syntax-highlighting text editor for the game's text-based resource formats, a Spore UI editor, an image/texture viewer, and a model viewer for Spore's proprietary model format.
+- [Sims4Tools](https://github.com/s4ptacle/Sims4Tools) - The Sims 4 modding library and tool suite (S4PE package editor and related tools) for reading/writing DBPF .package resource files; actively maintained continuation of the now-deprecated [Kuree/Sims4Tools](https://github.com/Kuree/Sims4Tools).
 
 ### MDF (Polanie)
 
@@ -10255,6 +10281,8 @@ This list is for developers and modders working with such formats. It provides t
 - [paktools](https://github.com/artlavrov/paktools) - WayForward Engine resource packer/unpacker for PAK archive files.
   - Games: Duck Tales Remastered, BloodRayne Betrayal, Adventure Time (Russian localization project).
   - Tools: Far Manager MultiArc Plugin support (in development).
+- [wfLZEx](https://github.com/meh2481/wfLZEx) - Image-decompressing program for WayForward's .anb format, used in DuckTales: Remastered.
+- [ltbtools](https://github.com/artlavrov/ltbtools) - WayForward Engine text resource (.ltb) packer.
 
 ### Webzen (Archlord 2)
 
@@ -10336,6 +10364,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
