@@ -3549,6 +3549,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Civilization IV Plugins for 3DS Max 6](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-6) - Official plugin for 3DS Max 6 with support for 3D models used in Sid Meier's Civilization IV.
 - [Civilization IV Plugins for 3DS Max 7+](https://www.moddb.com/games/civilization-iv-original/downloads/civilization-iv-plugins-for-3ds-max-7) - Official plugin for 3DS Max 7 and newer with support for 3D models used in Sid Meier's Civilization IV.
 - [OpenCiv3](https://github.com/C7-Game/OpenCiv3) - Open-source Civilization III remake with tools for parsing and importing original Civ3 game data.
+- [civ4-studio](https://github.com/bssth/civ4-studio) - Civilization 4 Map Studio, a tool for editing and creating custom maps for Sid Meier's Civilization IV.
 
 #### WWE 2K
 
@@ -3967,6 +3968,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [sacred-sdk](https://github.com/bssth/sacred-sdk) - Lua scripting framework and bytecode toolchain for Sacred Gold (2004), enabling mods without patching the game's EXE.
   - Format: FunkCode.bin bytecode baking, achieving byte-perfect roundtrip against all 132 vanilla game .bin files.
+- [sacred-minimap-viewer](https://github.com/Qronikarz/sacred-minimap-viewer) - Tool to view the whole minimap of Sacred.
 
 ### Assembly Line (Supaplex)
 
@@ -5531,6 +5533,8 @@ This list is for developers and modders working with such formats. It provides t
 - [pokeyellow (decomp)](https://github.com/pret/pokeyellow) - Matching decompilation of Pokémon Yellow (100%).
 - [pokered (decomp)](https://github.com/pret/pokered) - Matching decompilation of Pokémon Red (100%).
 - [pokered-docs-ja](https://github.com/akatsuki105/pokered-docs-ja) - Japanese-language annotated analysis/documentation of the pokered decompilation, covering the internal workings of the international (English) release of Pokémon Red.
+- [pokemon-gameboy-extractor-tool](https://github.com/brynnb/pokemon-gameboy-extractor-tool) - Extractor tool for pulling assets from assembly code on Pokémon Red/Blue GameBoy cartridges into SQLite/JSON.
+- [capture-quest](https://github.com/brynnb/capture-quest) - Multiplayer reimplementation of the original 1996 Game Boy Pokémon world, built on custom extractor tooling that reverse engineers cartridge data into a living Phaser-powered MMO.
 
 #### Gen III
 
@@ -8893,6 +8897,7 @@ This list is for developers and modders working with such formats. It provides t
 - [wazz-android-editor-gxt](https://github.com/shawawah12-alt/wazz-android-editor-gxt) - Editor for GXT text format files used in the Android ports of the GTA series.
 - [mh-replayed](https://github.com/66rival/mh-replayed) - Static recompilation/decompilation effort for Manhunt (RenderWare engine), running the original game data natively.
 - [GTAModTools](https://github.com/ParadoxEpoch/GTAModTools) - Collection of tools for building mods and extracting game data from GTA Trilogy: Definitive Edition.
+- [gta-map-converters](https://github.com/bssth/gta-map-converters) - Converts SAMP, MTA, and GTA:SA IPL and CSV map formats between each other.
 
 ### Runecraft
 
@@ -8973,6 +8978,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ShenmueDKSharp](https://github.com/Shenmue-Mods/ShenmueDKSharp) - Shenmue I & II HD Modding SDK for C#.
 - [new-yokosuka](https://github.com/brynnb/new-yokosuka) - Asset extractor and web-based model viewer for Shenmue 1 (Dreamcast).
+- [Shenmunity](https://github.com/brynnb/Shenmunity) - Lets you use Shenmue assets in Unity; automatically finds the Shenmue install via Steam.
+- [wudecon](https://github.com/LemonHaze420/wudecon) - Multi-purpose tool built with ShenmueDKSharp to convert/unpack a variety of file formats used in Shenmue I and Shenmue II.
+- [Shenmue-Export-Tools](https://github.com/seiche/Shenmue-Export-Tools) - Tools for exporting meshes from Shenmue for Blender and Noesis.
 
 #### Phantasy Star
 
@@ -9467,6 +9475,11 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Holocore](https://github.com/ProjectSWGCore/Holocore) - Star Wars Galaxies server emulator for the Combat Upgrade (CU) era.
 - [Sanctuary](https://github.com/Open-Source-Free-Realms/Sanctuary) - Server emulator for Free Realms research, and [LibSOE](https://github.com/Joshsora/LibSOE) networking library.
+- [FLATool](https://github.com/psforever/FLATool) - Extractor and packer for FlatFile archives (.FAT), used by PlanetSide 1 to store .DDS files.
+- [vanguard-saga-of-heroes-asset-extractor](https://github.com/brynnb/vanguard-saga-of-heroes-asset-extractor) - Extracts, converts, and exports 3D models, animations, audio, and other assets from Vanguard: Saga of Heroes, an Unreal Engine 2.5 MMORPG.
+- [eqsage](https://github.com/knervous/eqsage) - Converts EverQuest S3D/EQG assets on the fly to render them in the browser; includes a zone database editor and viewer.
+- [eqrequiem](https://github.com/knervous/eqrequiem) - Brings EverQuest to the browser using the BabylonJS engine and Go, converting and extracting the original game's assets.
+- [eq-three-js-zone-viewer](https://github.com/brynnb/eq-three-js-zone-viewer) - Python-based converter for extracting, converting, and viewing classic EverQuest game assets in a browser with three.js.
 
 #### Evolution Studios
 
@@ -10420,6 +10433,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
