@@ -3585,6 +3585,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ido-rs](https://github.com/EllipticEllipsis/ido-rs) - Rust programs for handling SGI IDO compiler data formats (st, ucode, binasm), complementing ido-static-recomp above in N64 decompilation toolchains.
 - [n64soundtools](https://github.com/jsdf/n64soundtools) - Node.js reimplementation of the N64 SDK's SGI sound tools (sbc sequence bank compiler and related utilities) for building N64 homebrew audio data.
 - [n64os-info](https://github.com/akopetsch/n64os-info) - Reverse-engineered and documented version history of the official Nintendo 64 OS (libultra, microcode, headers, release notes), based on SDK discs and leaks, complementing ultralib above.
+- [n64-mr-backup-z64-python](https://github.com/gufranco/n64-mr-backup-z64-python) - Builds verified Mr. Backup Z64 Zip100 disk images from an N64 ROM collection: 8.3 naming, FAT16 layout, provably minimal disk count, and byte-reproducible output; ships no ROMs, only hashes to identify them.
 
 #### SNES / NES
 
@@ -3605,6 +3606,18 @@ This list is for developers and modders working with such formats. It provides t
 - [snes-assembly-book](https://github.com/Ersanio/snes-assembly-book) - 65c816 assembly guide covering opcodes and the inner workings of the SNES, aimed at ROM hacking and reverse engineering.
 - [NES-Sprite-Editor](https://github.com/eonarheim/NES-Sprite-Editor) - Simple sprite editor for NES games.
 - [snes-sdd1-python](https://github.com/gufranco/snes-sdd1-python) - Python reimplementation of the SNES S-DD1 compression coprocessor (used by Star Ocean and Street Fighter Alpha 2), checked against the snes9x reference decoder across 4,000 golden test vectors.
+  - Same author also publishes patchers that rebuild [Street Fighter Alpha 2/Zero 2](https://github.com/gufranco/street-fighter-alpha-2-nochip) and [two Star Ocean rebuilds](https://github.com/gufranco/star-ocean-nochip-fix) as plain ROMs with the S-DD1 requirement designed out of the header, built from your own cartridge dump.
+- [snes-driver-python](https://github.com/gufranco/snes-driver-python) - Recovers the command protocol a SNES cartridge uses to talk to its coprocessor, read directly out of the cartridge's own driver code; checked against 42 real cartridges.
+- [snes-st-python](https://github.com/gufranco/snes-st-python) - Emulator for the Seta ST010/ST011 navigation coprocessors used in SNES racing cartridges, settled against their own reference implementation.
+- [snes-rtc-python](https://github.com/gufranco/snes-rtc-python) - Emulator for the two real-time-clock coprocessors used in SNES cartridges (S-RTC), held to the chips' own reference implementations.
+- [snes-obc1-python](https://github.com/gufranco/snes-obc1-python) - Emulator for the OBC1 sprite-remapper coprocessor carried by one SNES cartridge, validated byte-for-byte against its own reference across every addressing state.
+- [snes-dsp-python](https://github.com/gufranco/snes-dsp-python) - Emulator for the SNES DSP-1/2/3/4 coprocessor family (built on the [nec-upd7725-96050-python](https://github.com/gufranco/nec-upd7725-96050-python) core), running the microcode dump you supply rather than a from-scratch reimplementation of it.
+- [sony-s-dsp-python](https://github.com/gufranco/sony-s-dsp-python) - Sony S-DSP audio-unit model for the SNES sound engine, cross-checked sample-for-sample against register configurations taken from real SPC music dumps.
+- [sony-spc700-python](https://github.com/gufranco/sony-spc700-python) - Cycle-accurate SPC700 CPU interpreter for the SNES's audio processor (all 256 opcodes), validated against the SingleStepTests conformance corpus.
+- [snes-spc7110-python](https://github.com/gufranco/snes-spc7110-python) - Python reimplementation of the SNES SPC7110 decompression coprocessor (all three of its modes), checked against the chip's own reference implementation over 102,400 bytes of generated streams.
+- [snes-graphics-python](https://github.com/gufranco/snes-graphics-python) - Encoder/decoder for the Super Nintendo's tile, tilemap, and palette graphics formats, validated bit-exact against the hardware's own behavior.
+- [snes-mapper-python](https://github.com/gufranco/snes-mapper-python) - SNES cartridge memory map and DMA engine in Python, resolving every header-declared layout to its address-space mapping; checked against 5,145 real cartridges.
+- [snes-rom-image-python](https://github.com/gufranco/snes-rom-image-python) - Python library treating a SNES cartridge dump as a file rather than an address space: strips copier stubs, joins split ROM sets, identifies a dump by digest, and rewrites the header to drop a declared coprocessor with the checksum recomputed across every mirror; validated against 7,317 real cartridges.
 
 #### Game Boy / GBA
 
@@ -7005,7 +7018,6 @@ This list is for developers and modders working with such formats. It provides t
 - [DOOM 3 BFG Edition](https://github.com/id-Software/DOOM-3-BFG) - id Software's official GPL source code release for DOOM 3: BFG Edition, covering the idTech 4 engine's updated file-reading and rendering code.
 - [blender-bfg](https://github.com/klaussilveira/blender-bfg) - Blender addon supporting the RBDOOM-3-BFG GLTF mapping workflow.
 - [Blender-2.8-MD5-import-export-addon](https://github.com/KozGit/Blender-2.8-MD5-import-export-addon) - Blender addon for importing/exporting idTech 4 MD5 model (.md5mesh) and animation (.md5anim) files, with batch animation import/export support.
-- [IcedTech](https://github.com/jmarshall23/IcedTech) - Modernized idTech 4 engine fork with virtual texturing, Recast navmesh, and a Radiant.NET-based IceStudio editor; includes a Doom 3-compatible branch that reads the original game's idTech 4 file formats.
 - [etqw-extractor](https://github.com/klaussilveira/etqw-extractor) - CLI tool to extract and restore original TGA textures from Enemy Territory: Quake Wars DDS cache files.
 
 ##### id Tech 4 Documentation & Community Resources
@@ -11361,6 +11373,7 @@ To the extent possible under law, the contributors have waived all copyright and
 ## 🙏 Acknowledgments
 
 Shoutout to [MeltyPlayer/awesome-game-file-formats](https://github.com/MeltyPlayer/awesome-game-file-formats) - this started as a fork of it with my own bookmark collection, but I eventually decided to add more sections and reorganize it.
+
 
 
 
