@@ -279,6 +279,7 @@ This list is for developers and modders working with such formats. It provides t
       - [Audio](#audio)
       - [amiibo (NFC Tag Data)](#amiibo-nfc-tag-data)
   - [Sharp X68000 SDKs & Hardware](#sharp-x68000-sdks--hardware)
+  - [FM Towns SDKs & Hardware](#fm-towns-sdks--hardware)
   - [PlayStation SDKs & Hardware](#playstation-sdks--hardware)
   - [WonderSwan SDKs & Hardware](#wonderswan-sdks--hardware)
   - [Xbox SDKs & Hardware](#xbox-sdks--hardware)
@@ -404,6 +405,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Atari, Inc. (Raiders of the Lost Ark)](#atari-inc-raiders-of-the-lost-ark)
     - [I, Robot](#i-robot)
     - [Pole Position](#pole-position)
+    - [Star Raiders](#star-raiders)
   - [Atlus](#atlus)
   - [ATOM Team (Atom RPG)](#atom-team-atom-rpg)
   - [Attack on Titan](#attack-on-titan)
@@ -421,11 +423,13 @@ This list is for developers and modders working with such formats. It provides t
     - [Tales Of](#tales-of)
     - [Eternal Sonata](#eternal-sonata)
     - [Daigasso! Band Brothers](#daigasso-band-brothers)
+    - [Taiko no Tatsujin](#taiko-no-tatsujin)
   - [Bakemonogatari](#bakemonogatari)
   - [Banpresto](#banpresto)
     - [Super Robot Wars](#super-robot-wars)
   - [Battle Raper](#battle-raper)
   - [Battlestate Games (Escape from Tarkov)](#battlestate-games-escape-from-tarkov)
+  - [Beam Software (KKnD)](#beam-software-kknd)
   - [BeamNG GmbH (BeamNG.drive)](#beamng-gmbh-beamngdrive)
   - [Beetle Crazy Cup](#beetle-crazy-cup)
   - [BeeWorks (Mushroom Garden Neo)](#beeworks-mushroom-garden-neo)
@@ -516,6 +520,7 @@ This list is for developers and modders working with such formats. It provides t
     - [The Witcher 3 / REDEngine 3](#the-witcher-3--redengine-3)
     - [The Witcher](#the-witcher)
     - [Cyberpunk 2077 / REDEngine 4](#cyberpunk-2077--redengine-4)
+    - [Gwent](#gwent)
   - [Century Interactive](#century-interactive)
     - [Bermuda Syndrome](#bermuda-syndrome)
   - [Charybdis (Machines: Wired for War)](#charybdis-machines-wired-for-war)
@@ -634,6 +639,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Elemental Games (Space Rangers)](#elemental-games-space-rangers)
   - [Ember Lab (Kena: Bridge of Spirits)](#ember-lab-kena-bridge-of-spirits)
   - [Enhance Games (Rez)](#enhance-games-rez)
+  - [Enterbrain (Panzer Front)](#enterbrain-panzer-front)
   - [Epic Games](#epic-games)
     - [ZZT](#zzt)
     - [Ken's Labyrinth](#kens-labyrinth)
@@ -679,6 +685,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Spy vs Spy III](#spy-vs-spy-iii)
   - [Fred Haslam (Dragon Court)](#fred-haslam-dragon-court)
   - [Fishlabs (Galaxy on Fire)](#fishlabs-galaxy-on-fire)
+  - [Flagship Studios (Hellgate: London)](#flagship-studios-hellgate-london)
   - [Flying Shine (Cross†Channel)](#flying-shine-crosschannel)
   - [Free Radical Design (TimeSplitters)](#free-radical-design-timesplitters)
   - [Frictional Games (Amnesia, Soma)](#frictional-games-amnesia-soma)
@@ -719,6 +726,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Borderlands](#borderlands)
   - [Genius Sonority](#genius-sonority)
   - [Genki](#genki)
+  - [Geoff Crammond (Stunt Car Racer)](#geoff-crammond-stunt-car-racer)
   - [Giant Network (King of Kings 3)](#giant-network-king-of-kings-3)
   - [GlassesCatGames (Devil Slayer - Raksasi)](#glassescatgames-devil-slayer---raksasi)
   - [Glowmade (King of Meat)](#glowmade-king-of-meat)
@@ -873,6 +881,7 @@ This list is for developers and modders working with such formats. It provides t
   - [JiangHu Studio (Wushu Chronicles 2)](#jianghu-studio-wushu-chronicles-2)
   - [Johan Kotlinski (LSDj)](#johan-kotlinski-lsdj)
   - [Jordan Mechner (Prince of Persia)](#jordan-mechner-prince-of-persia)
+  - [Jorudan (Detective Conan)](#jorudan-detective-conan)
   - [JoWooD Vienna (Neighbours from Hell)](#jowood-vienna-neighbours-from-hell)
   - [Joymax (Silkroad Online)](#joymax-silkroad-online)
   - [Juice Games (Juiced)](#juice-games-juiced)
@@ -920,6 +929,7 @@ This list is for developers and modders working with such formats. It provides t
   - [L2 Games (She Will Punish Them)](#l2-games-she-will-punish-them)
   - [Lab Zero Games](#lab-zero-games)
     - [Indivisible](#indivisible)
+  - [Landon Podbielski (Duck Game)](#landon-podbielski-duck-game)
   - [Larian Studios](#larian-studios)
     - [Divinity: Original Sin 2](#divinity-original-sin-2)
     - [Divine Divinity / Beyond Divinity](#divine-divinity--beyond-divinity)
@@ -952,6 +962,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Fatal Force: Earth Assault](#fatal-force-earth-assault)
   - [MAGES.](#mages)
   - [Magic Bytes Software / TD Corp (Dizzy BK-0011M Port)](#magic-bytes-software--td-corp-dizzy-bk-0011m-port)
+  - [Magnetic Fields (Lotus Esprit Turbo Challenge)](#magnetic-fields-lotus-esprit-turbo-challenge)
   - [Marigul (Tamagotchi Town)](#marigul-tamagotchi-town)
   - [Marvelous (Story of Seasons)](#marvelous-story-of-seasons)
   - [Marvelous (Shinobi Master Senran Kagura: New Link)](#marvelous-shinobi-master-senran-kagura-new-link)
@@ -978,6 +989,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Media.Vision](#mediavision)
   - [Mercedes-Benz Truck Racing](#mercedes-benz-truck-racing)
   - [Archetype Interactive (Meridian 59)](#archetype-interactive-meridian-59)
+  - [Metanet Software (N+)](#metanet-software-n)
   - [Metropolis Software](#metropolis-software)
     - [Gorky 17](#gorky-17)
   - [Microids](#microids)
@@ -1009,6 +1021,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Microsoft Plus! for Windows XP](#microsoft-plus-for-windows-xp)
     - [3D Movie Maker](#3d-movie-maker)
     - [Minesweeper](#minesweeper)
+  - [MiCROViSiON (Legend of Galactic Heroes)](#microvision-legend-of-galactic-heroes)
   - [Midway](#midway)
     - [Area 51](#area-51)
     - [Gauntlet](#gauntlet)
@@ -1054,6 +1067,7 @@ This list is for developers and modders working with such formats. It provides t
   - [NanaOn-Sha](#nanaon-sha)
   - [MumboJumbo](#mumbojumbo)
   - [Mythic Entertainment (Dark Age of Camelot)](#mythic-entertainment-dark-age-of-camelot)
+  - [Nashi Igry (Counter Action)](#nashi-igry-counter-action)
   - [Natsume (Harvest Moon)](#natsume-harvest-moon)
     - [Telefang](#telefang)
   - [NCSoft](#ncsoft)
@@ -1300,8 +1314,10 @@ This list is for developers and modders working with such formats. It provides t
     - [Homebrew & Audio/Video Format Tools](#homebrew--audiovideo-format-tools)
     - [Model 2 Arcade Games](#model-2-arcade-games)
     - [maimai](#maimai)
+    - [Project DIVA](#project-diva)
     - [Project Sekai](#project-sekai)
     - [Crazy Taxi](#crazy-taxi)
+    - [Initial D](#initial-d)
     - [Panzer Dragoon Saga](#panzer-dragoon-saga)
     - [Ryu Ga Gotoku Studio (Dragon Engine)](#ryu-ga-gotoku-studio-dragon-engine)
     - [Shenmue](#shenmue)
@@ -1452,6 +1468,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Ripper](#ripper)
   - [TaleWorlds Entertainment](#taleworlds-entertainment)
     - [Mount&Blade](#mountblade)
+    - [Mount&Blade II: Bannerlord](#mountblade-ii-bannerlord)
   - [Tamsoft](#tamsoft)
   - [Tate Interactive (Kao the Kangaroo)](#tate-interactive-kao-the-kangaroo)
   - [Tecmo (Tecmo Super Bowl)](#tecmo-tecmo-super-bowl)
@@ -1477,6 +1494,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Terrible Toybox](#terrible-toybox)
   - [Terry Cavanagh](#terry-cavanagh)
     - [VVVVVV](#vvvvvv)
+  - [Thalion Software](#thalion-software)
+    - [Amberstar](#amberstar)
+    - [Ambermoon](#ambermoon)
   - [thatgamecompany (Sky)](#thatgamecompany-sky)
   - [The End Is Nigh](#the-end-is-nigh)
   - [The Learning Company](#the-learning-company)
@@ -1860,6 +1880,8 @@ This list is for developers and modders working with such formats. It provides t
 - [Aaru](https://github.com/aaru-dps/Aaru) - Data Preservation Suite for dumping and analyzing media (optical, magnetic, and solid-state) into forensic disc images, with format identification, checksumming, and decoding across a huge range of game and computer platforms. See also [libaaruformat](https://github.com/aaru-dps/libaaruformat), the C implementation of the Aaru image format.
 - [redumper](https://github.com/superg/redumper) - Low-level CD dumper utility for bit-perfect optical disc preservation, used by the Redump.org preservation community.
 - [mdsx](https://github.com/Marisa-Chan/mdsx) - Decompressor/decrypter for MDS v2 / MDX disc image formats (DAEMON Tools).
+- [cue-2-ccd](https://github.com/DerekPascarella/cue-2-ccd) - Command-line utility that converts CUE-based disc images into the CloneCD format (CCD/IMG/SUB), handling discs that mix data and audio tracks across several data track modes.
+- [binmerge](https://github.com/putnam/binmerge) - Merges multiple bin/cue tracks of a disc dump into a single bin/cue pair, commonly used to prep Redump-style multi-track dumps for ODEs and other tools that expect a single data track.
 - [romrepomgr](https://github.com/claunia/romrepomgr) - ROM Repository Manager for organizing and deduplicating game ROM/disc image collections.
 - [RVWorld (RomVault)](https://github.com/RomVault/RVWorld) - DAT-file-driven ROM set organizer/verifier for identifying, sorting, and repairing game ROM and disc image collections.
 - [SabreTools](https://github.com/SabreTools/SabreTools) - DAT-based ROM/disc image management tool with advanced editing and sorting features.
@@ -1967,6 +1989,7 @@ This list is for developers and modders working with such formats. It provides t
 - [dpcmtool](https://github.com/karmic64/dpcmtool) - NSF DPCM sample ripper and bit-reversal tool for NES audio.
   - See also karmic64's other retro audio format tools: [64vgmplay](https://github.com/karmic64/64vgmplay) (OPL1/2 VGM converter/player for the Commodore 64 SFX Sound Expander/FM-YAM), [makegsf](https://github.com/karmic64/makegsf) (scriptable GSF/miniGSF creator for GBA sound rips), [nsf2nes](https://github.com/karmic64/nsf2nes) (NSF-to-NES-ROM converter), [KokonoePlayer-Lite](https://github.com/karmic64/KokonoePlayer-Lite) (Sega Genesis/Mega Drive VGM player with sample support), and [snes-mod-player](https://github.com/karmic64/snes-mod-player) (Amiga MOD converter/player for SNES).
 - [ymfm](https://github.com/aaronsgiles/ymfm) - BSD-licensed emulation cores for Yamaha FM sound chips (OPM, OPN, OPL, and others) widely used across arcade and console game audio.
+- [Nuked-OPN2](https://github.com/nukeykt/Nuked-OPN2) - Cycle-accurate emulator for the Yamaha YM3438/YM2612 FM sound chip used in the Sega Genesis/Mega Drive, widely adopted as the accuracy reference core in other emulators.
 - [libopenpmd](https://github.com/OPNA2608/libopenpmd) - Library for parsing PMD (Professional Music Driver) files, the PC-98-era sound driver/sequence format also handled by PMDDotNET and pmdmini above.
 - [XWB Studio](https://github.com/Mogolt/XWB-to-WAV-converter) - GUI tool for extracting, injecting, and converting XACT XWB (Xbox wave bank) audio; originally built for Resident Evil 4 (2005 PC) modding but applicable to other XACT-based games.
 - [crosslooper](https://github.com/Splendide-Imaginarius/crosslooper) - Automatically sets LOOPSTART/LOOPLENGTH/LOOP_START/LOOP_END metadata tags in audio files using statistical cross-correlation, for seamless BGM looping in RPG Maker and other engines.
@@ -1974,6 +1997,7 @@ This list is for developers and modders working with such formats. It provides t
 - [gba-hq-mixer](https://github.com/ipatix/gba-hq-mixer) - High-quality sound mixer replacements for GBA games using the m4a/mp2k sound driver.
 - [snestracker](https://github.com/bazz1tv/snestracker) - Super Nintendo Entertainment System (Super Famicom) music tracker software.
 - [C700](https://github.com/osoumen/C700) - AU/VST software sampler plugin emulating the SNES's SPC700/DSP sound engine. Directly loads and plays SPC dumps and AddmusicM-format raw BRR sample files (also AIFF/WAV), with up to 128 waveforms across 4 banks and real-hardware sync via a G.I.M.I.C. board.
+- [SNES-BRR-Converter](https://github.com/MeguminBOT/SNES-BRR-Converter) - GUI utility with drag-and-drop support to convert SNES BRR (Bit Rate Reduction) audio samples to WAV.
 - [XPMCK](https://github.com/bazz1tv/XPMCK) - Cross-platform MML (music macro language) compiler kit and playback library collection, with bugfixes/new features on top of the original jiggawatt.org release.
   - Systems: Amstrad CPC, Atari 8-bit (400/800/XL/XE), Capcom Play System (VGM output), ColecoVision, Commodore 64, MSX (KSS output), Game Boy/Game Boy Color, PC Engine/TurboGrafx, SEGA Master System, Game Gear, Genesis.
 - [ahx2wav](https://github.com/LemonHaze420/ahx2wav) - Converts AHX audio files (a tracker-based container format used primarily in SEGA games) to WAV, for single files or entire directories.
@@ -2071,6 +2095,7 @@ This list is for developers and modders working with such formats. It provides t
 - [crudNES](https://github.com/hitchhikr/crudNES) - NES emulator built for reverse engineering purposes, including a tracer that records executed code.
 - [Shockky](https://github.com/PaulusParssinen/Shockky) - .NET library for disassembling and assembling Adobe/Macromedia Shockwave files, complementing ProjectorRays and DirectorCastRipper above.
 - [retrogram](https://github.com/kmeisthax/retrogram) - Binary program analysis toolkit for reverse engineering retro game binaries.
+- [Amiga-Re-Engineering](https://github.com/kermitfrog/Amiga-Re-Engineering) - Guide and dump-analyzer tool for reverse engineering old Amiga games, combining FS-UAE memory dumps with Ghidra (via the Amiga hunks loader plugin) to recover game internals; developed while researching Ambermoon.
 
 #### IDA / Hex-Rays Plugins
 
@@ -2332,6 +2357,7 @@ This list is for developers and modders working with such formats. It provides t
 - [patchwright](https://github.com/MortisClub/patchwright) - Library and CLI for writing save editors that make targeted, in-place edits to MessagePack-serialized Unity/C# game saves without a full file rebuild, preserving each field's original serialized byte width so games that expect fixed-width msgpack fields don't break from auto-minification.
 - [ByteSerialization](https://github.com/akopetsch/ByteSerialization) - Declarative C# binary serialization library giving bit-level control over binary representation; define structs via attributes, similar to BinarySerializer.
 - [armips](https://github.com/Kingcom/armips) - General-purpose assembler for MIPS, Allegrex, ARM, and Nintendo DS/GBA-era instruction sets, widely used for ROM hacking, homebrew development, and reverse engineering across many retro console platforms.
+- [CamelROM](https://github.com/DerekPascarella/CamelROM) - Perl module of utility functions for developing game translation patches and other ROM hacks, treating binary data as strings for convenient byte-level manipulation.
 
 ### 📂 Script Collections & Multi-Game Tools
 
@@ -2370,7 +2396,7 @@ This list is for developers and modders working with such formats. It provides t
 - [vgio](https://github.com/joshuaskelly/vgio) - Python library for reading and writing game file formats. Supports Quake, Duke Nukem 3D, Quake II, Hexen II, HROT, and Devil Daggers (BSP, MAP, and related formats).
 - [bevy_trenchbroom](https://github.com/Noxmore/bevy_trenchbroom) - Quake level format support (.map, .bsp) and TrenchBroom integration for Bevy engine. Enables loading and rendering of Quake-based game levels.
 - [porter-lib](https://github.com/dtzxporter/porter-lib) - Rust library for extracting 3D models, animations, and game assets across multiple games. Cross-platform (Windows, Linux, macOS).
-- [amuse](https://github.com/AxioDL/amuse) - Real-time MIDI/SFX sequencer and alternate runtime library for games using Factor 5/Nintendo's MusyX audio engine.
+- [amuse](https://github.com/derselbst/amuse) - Real-time MIDI/SFX sequencer and alternate runtime library for games using Factor 5/Nintendo's MusyX audio engine.
   - Games: Metroid Prime series, Star Fox Adventures, Paper Mario: The Thousand Year Door (GameCube), Indiana Jones and the Infernal Machine, Star Wars Episode I, and the Rogue Squadron series.
   - Features: command-line audio-group player, SNG-to-MIDI converter, WAV song renderer, library API for engine integration, and physical/virtual MIDI keyboard support.
 - [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher) - Modding platform/launcher for a shared 3dmigoto-based model-importer ecosystem spanning multiple unrelated gacha titles, installing and hot-loading custom 3D character models as mods.
@@ -2561,6 +2587,11 @@ This list is for developers and modders working with such formats. It provides t
   - Games: Frogger: He's Back, Frogger: The Great Quest, Frogger Beyond, Frogger Rescue, Frogger Ancient Shadow, Beast Wars: Transformers, C-12: Final Resistance, MediEvil, MediEvil II, Moon Warrior.
 - [Test-Drive-Off-Road-3-Model-Extractor](https://github.com/ExIfDev/Test-Drive-Off-Road-3-Model-Extractor) - Extracts and converts models from Test Drive: Off-Road 3.
 - [StringReloads](https://github.com/marcussacana/StringReloads) - Universal tool for injecting translated strings into any game via low-level assembly patching, without needing to reverse the game's own package/encryption format. Supports non-ASCII characters, auto word-wrap, and font/glyph-spacing adjustments. See also [LSTXLSTool](https://github.com/marcussacana/LSTXLSTool) for batch-exporting/importing its LST translation files to/from a single XLSX spreadsheet.
+- [OpenRALegacyLoaders](https://github.com/IceReaper/OpenRALegacyLoaders) - OpenRA engine SDK providing package/sprite/sound/video asset loaders for several abandoned 1990s RTS games' original data files.
+  - Games: Blood & Magic, Dominion: Storm Over Gift 3, Earth 2140, Jurassic War, KKnD, 7th Legion, State of War, War Wind, Z.
+- [retroGDX](https://github.com/IceReaper/retroGDX) - libGDX-based Java library of file format readers for reviving classic 1990s RTS games from their original data files.
+  - Games: Blood & Magic, Dominion: Storm Over Gift 3, Dune II, Earth 2140, Eradicator, Future Cop, Mayday: Conflict Earth, State of War, State of War: Warmonger, Swarm Assault, Warcraft, Warcraft II, War Wind, War Wind II.
+- [OpenE2140](https://github.com/OpenE2140/OpenE2140) - Playable remake of the RTS Earth 2140 built on the OpenRA engine (via the OpenRA Mod SDK), reading the original game's data files.
 
 ## ⚙️ Engines
 
@@ -2863,6 +2894,7 @@ This list is for developers and modders working with such formats. It provides t
 - [TypeTreeRipper](https://github.com/DaZombieKiller/TypeTreeRipper) - Experimental C++ Unity TypeTree/serialization dumper that does not require symbols, an alternative to TypeTreeDumper. See also [LukeFZ's fork](https://github.com/LukeFZ/TypeTreeRipper).
 - [UTTDumper](https://github.com/Razmoth/UTTDumper) - Tool to help dump Unity type trees.
 - [UnityWebTools.NET](https://github.com/kiraio-moe/UnityWebTools.NET) - C# library for unpacking and repacking Unity WebGL `UnityWebData` (`.data`) files, complementing AssetsTools.NET for Unity WebGL builds.
+- [unityweb](https://github.com/jozsefsallai/unityweb) - Go command-line utility and library for parsing, unpacking, and repacking Unity WebGL `UnityWebData` (`.data`) files; a Go-based alternative to UnityWebTools.NET above.
 - [UnityAssetLib](https://github.com/akintos/UnityAssetLib) - C# library for reading and writing Unity serialized asset files (AssetBundle, `.assets`, scenes) across engine versions, independent of AssetsTools.NET.
 - [unitypatcher](https://github.com/synogen/unitypatcher) - Command-line tool for patching values inside Unity serialized asset files without needing to rebuild the whole AssetBundle.
 - [unity-asset](https://github.com/Latias94/unity-asset) - Rust toolkit for inspecting, indexing, extracting, and making guarded, revision-bound edits to Unity YAML (scene/prefab) and binary serialized assets.
@@ -3893,6 +3925,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Fabularium](https://github.com/tccowper/fabularium) - Multi-format interactive-fiction player for Android, bundling Z-machine, Glulx, Hugo, TADS, and other IF virtual-machine interpreters into a single app; the mobile counterpart to Gargoyle.
 - [mojozork](https://github.com/icculus/mojozork) - Simple Z-machine interpreter implemented in a single C file, with an experimental online-multiplayer mode for playing classic Infocom Z-code story files together.
 - [Discoggin](https://github.com/iftechfoundation/discoggin) - Discord bot that plays parser and choice-based interactive fiction directly in a Discord channel, supporting Z-code (.z1-.z8/.zblorb), Glulx (.ulx/.gblorb), Ink, and YarnSpinner game files, with persisted per-channel save sessions.
+- [ZInterpreter](https://github.com/lwiest/ZInterpreter) - Z-machine interpreter written in Java, playing Infocom text adventure story files.
 
 #### Authoring & Compiler Tools
 
@@ -4079,6 +4112,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [flxanimate](https://github.com/Dot-Stuff/flxanimate) - Plays back Adobe Animate texture atlas exports (used widely by Friday Night Funkin' and its mods) in HaxeFlixel.
 - [BetterTextureAtlas](https://github.com/Dot-Stuff/BetterTextureAtlas) - Adobe Animate extension that enhances Texture Atlas exports, extending the animation file format with extra data (blend modes, baked filters) for use by players like flxanimate.
+- [FNF-Modding-Engine-Differences](https://github.com/MeguminBOT/FNF-Modding-Engine-Differences) - Documents the modding APIs and data formats across the three major Friday Night Funkin' engines (Official Funkin, Psych Engine, Codename Engine).
+  - Covers: mod folder structures/metadata, chart/song data formats, character/stage/week data formats, scripting systems (HScript, Lua), and cross-engine conversion guidance.
 
 ### PICO-8 (Lexaloffle Games)
 
@@ -4870,6 +4905,14 @@ This list is for developers and modders working with such formats. It provides t
 - [x68000_converters](https://github.com/hitchhikr/x68000_converters) - Set of Python scripts to convert various Sharp X68000 file formats (including ADPCM audio samples) to more usable states.
 - [furnace_z68](https://github.com/hitchhikr/furnace_z68) - Modification of the Furnace chiptune tracker adding X68000 .z68 music export and an ASM replay routine.
 
+### FM Towns SDKs & Hardware
+
+*Formats and tools generic to the FM Towns/FM Towns Marty platform, not tied to a specific game.*
+
+- [FM-Squared](https://github.com/DerekPascarella/FM-Squared) - SD card management tool for the FM Towns/FM Towns Marty optical drive emulators Wizard and DocBrown.
+- [TIFF Town](https://github.com/DerekPascarella/TIFF-Town) - Cross-platform image converter that turns modern image formats into TIFF files readable by TownsOS on the FM Towns/FM Towns Marty, previewing exactly what the console will display before conversion.
+- [FM Towns Self-Boot Kit](https://github.com/DerekPascarella/FM-Towns-Self-Boot-Kit) - Builds self-booting ISOs for the FM Towns/FM Towns Marty from a set of files (including IO.SYS), for use via burned CD-R or ODE.
+
 ### PlayStation SDKs & Hardware
 
 *Formats and tools generic to PlayStation consoles/SDKs, not tied to a specific game.*
@@ -4946,6 +4989,7 @@ This list is for developers and modders working with such formats. It provides t
 - [DirectPackageInstaller](https://github.com/marcussacana/DirectPackageInstaller) - Tool to preview and send PKG files directly to a PS4 or PS5 over the network, supporting three different transfer methods.
 - [PS5-SELF-Decrypter](https://github.com/EchoStretch/PS5-SELF-Decrypter) - PS5 payload that uses kernel arbitrary read/write to decrypt Signed ELF (SELF) binaries from the filesystem and dump the plaintext ELFs to a USB drive.
 - [psio-helper](https://github.com/ncirocco/psio-helper) - Cross-platform Go tool that prepares PS1 CUE/BIN disc images for use with the PSIO optical drive emulator cartridge.
+- [xStationMenuRefiner](https://github.com/DerekPascarella/xStationMenuRefiner) - Utility for customizing how the xStation PS1 optical drive emulator displays game titles, by reading an SD card and showing the game list exactly as xStation will render it in both of its menu views, subfolders included.
 - [pkg_pfs_tool](https://github.com/flatz/pkg_pfs_tool) - PKG/PFS unpacker for PS4, extracting package and filesystem contents.
 - [ps5-pup-decrypt](https://github.com/zecoxao/ps5-pup-decrypt) - Decrypts PS5 PUP (firmware update package) files by directing an exploited PS5 console to decrypt them itself.
 - [ps4-cfw-toolkit](https://github.com/Al-Azif/ps4-cfw-toolkit) - Decrypts and encrypts various PlayStation 4 firmware files.
@@ -5255,6 +5299,7 @@ This list is for developers and modders working with such formats. It provides t
 ### 8monkey Labs
 
 - [Translation Tool (Darkest of Days)](https://www.moddb.com/games/darkest-of-days/downloads/darkest-of-days-translation-tool)
+- [StoogeExport3dsMax](https://github.com/cookgreen/StoogeExport3dsMax) - Mesh export tool for 3ds Max 2010, targeting Darkest of Days' Stooge model format.
 
 ### A&F Software (Chuckie Egg)
 
@@ -5774,6 +5819,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ppengine](https://github.com/jonathanopalise/ppengine) - 3D remake of Atari's Pole Position coin-op, with game logic reverse-engineered directly from the arcade ROMs.
 
+#### Star Raiders
+
+- [StarRaiders](https://github.com/lwiest/StarRaiders) - Reverse-engineered, complete, and fully documented 6502 assembly language source code for Star Raiders (Atari 8-bit, 1979).
+
 ### Atlus
 
 - [Amicitia](https://github.com/tge-was-taken/Amicitia) - Tool for working with Persona 3/4/5 file formats.
@@ -5934,6 +5983,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Degausser](https://github.com/AdibSurani/Degausser) - Save editor for Daigasso! Band Brothers P (Nintendo DS); imports, exports, converts, and plays `.bdx`/`.bin` song files.
 
+#### Taiko no Tatsujin
+
+- [tja-js](https://github.com/jozsefsallai/tja-js) - Parsing library for the TJA (Taikojiro) chart format for JavaScript/Node.js, used by Taiko no Tatsujin fan simulators to store song metadata and notation.
+- [PyTaiko](https://github.com/Yonokid/PyTaiko) - TJA player and Taiko simulator written in Python using the raylib library. (Archived)
+- [Taiko Web Plugins](https://github.com/KatieFrogs/taiko-web-plugins) - Plugin collection extending the Taiko Web fan simulator with additional features.
+
 ### Bakemonogatari
 
 - [mxs_bakemonogatari_psp](https://github.com/coreynguyen/mxs_bakemonogatari_psp) - MaxScript for importing `.amo`/`.amt` mesh and texture files from Bakemonogatari Portable (PSP), extracted from the game's CRIWare CPK archives.
@@ -5952,6 +6007,9 @@ This list is for developers and modders working with such formats. It provides t
 
 - [TarkinItemExporter](https://github.com/bmpq/TarkinItemExporter) - Escape from Tarkov item data exporter.
 
+### Beam Software (KKnD)
+
+- [OpenKrush](https://github.com/IceReaper/OpenKrush) - KKnD and KKnD2: Krossfire mod for the OpenRA engine, with file-format readers (Blit/Mapd/Mobd sprites, Lvl packages, Son/Soun audio, Vbc video) for the original games' assets.
 
 ### BeamNG GmbH (BeamNG.drive)
 
@@ -6649,6 +6707,11 @@ This list is for developers and modders working with such formats. It provides t
 - [cybertracer](https://github.com/jac3km4/cybertracer) - ASI plugin for dumping stack traces for Cyberpunk 2077 redscript crashes.
 - [wolvenkit-mcp](https://github.com/Y4rd13/wolvenkit-mcp) - MCP server exposing WolvenKit's Cyberpunk 2077 asset/archive tooling for programmatic and AI-assisted workflows.
 
+#### Gwent
+
+- [gwent-data](https://github.com/GwentCommunityDevelopers/gwent-data) - Scripts that transform Gwent's card data XML files (from `GWENT_Data/StreamingAssets/data_definitions`) into JSON. Archived/deprecated.
+- [GwentHook](https://github.com/GwentCommunityDevelopers/UnityHook) - Fork of HearthSim's UnityHook (a managed function-call hooking platform for Unity3D games) retargeted to Gwent, hooking the client's card-data loading routine to dump the live `data_definitions.zip` on startup.
+
 ### Century Interactive
 
 #### Bermuda Syndrome
@@ -7298,6 +7361,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) - Native macOS/iOS/iPadOS port of Command & Conquer: Generals - Zero Hour, running the real 2003 engine (not emulated) with its original DirectX 8 rendering translated to Metal via DXVK/MoltenVK.
   - Built on the GPLv3 source-release lineage: GeneralsGameCode, Fighter19's original Unix port, and fbraz3/GeneralsX; adds the iOS/iPadOS port plus further engine fixes.
   - Requires the user's own retail game data; no assets are bundled or distributed.
+- [UnGen2](https://github.com/IceReaper/UnGen2) - Data library and viewer for the cancelled Command & Conquer: Generals 2 Alpha, reading and decrypting its CAT/CAS asset containers for preservation purposes.
 
 #### SSX
 
@@ -7364,6 +7428,11 @@ This list is for developers and modders working with such formats. It provides t
 ### Enhance Games (Rez)
 
 - [Rezun](https://github.com/XAYRGA/Rezun) - Unpacks .dat and .bnk files in Rez Infinite.
+
+### Enterbrain (Panzer Front)
+
+- [PanzerFront-ModTools](https://github.com/derplayer/PanzerFront-ModTools) - Experimental modding tools for Panzer Front (PS1, Dreamcast), covering model and texture formats.
+- [PanzerFront-DC-Translation-Source](https://github.com/derplayer/PanzerFront-DC-Translation-Source) - Source files for an English fan translation patch of Panzer Front (Dreamcast).
 
 ### Epic Games
 
@@ -7603,6 +7672,10 @@ This list is for developers and modders working with such formats. It provides t
 - [gofdetect](https://github.com/KroeteTroete/gofdetect) - Extracts strings from Galaxy on Fire 2's .bin and .lang files.
 - [binmodder](https://github.com/KroeteTroete/binmodder) - Replaces strings in Galaxy on Fire 2's .bin files, for translation/modding.
 - [weapbin](https://github.com/KroeteTroete/weapbin) - Script for modifying Galaxy On Fire 2's weapons.bin file.
+
+### Flagship Studios (Hellgate: London)
+
+- [GateToHell](https://github.com/IceReaper/GateToHell) - SDK for Hellgate: London aiming to parse and convert every file format to modern open standards. Includes LibHellgate (core file-format library covering the game's DAT/IDX containers, with their compression and encryption) and ContainerTool, a drag-and-drop CLI packer/unpacker for those containers.
 
 ### Flying Shine (Cross†Channel)
 
@@ -7992,6 +8065,10 @@ This list is for developers and modders working with such formats. It provides t
 - [GNKSoundTools](https://github.com/igorciz777/GNKSoundTools) - Sound modding tools for PS2 Genki games.
 - [TXR3-Text-Editor](https://github.com/igorciz777/TXR3-Text-Editor) - Text editor for Tokyo Xtreme Racer 3.
 
+### Geoff Crammond (Stunt Car Racer)
+
+- [stunt-car-racer-ste](https://github.com/jonathanopalise/stunt-car-racer-ste) - Experimental patches for the Atari ST version of Stunt Car Racer (1989), reverse-engineered to offload CPU-driven rendering routines onto the STE's Blitter chip.
+
 ### Giant Network (King of Kings 3)
 
 - [KOK3.LPQ.Tool](https://github.com/Ekey/KOK3.LPQ.Tool) - Tool for extracting LPQ archives from King of Kings 3.
@@ -8214,6 +8291,7 @@ This list is for developers and modders working with such formats. It provides t
 - [smash-arc](https://github.com/jam1garner/smash-arc) - Library for working with Super Smash Bros. Ultimate's ARC format.
 - [ssbu-arc-extract](https://github.com/FIX94/ssbu-arc-extract) - Extracts and injects files from Super Smash Bros. Ultimate's data.arc.
 - [BrawlLib](https://github.com/libertyernie/brawltools) - Library for reading/writing file formats from Super Smash Bros. Brawl and other Wii games.
+- [BrawlBuilder](https://github.com/mogzol/BrawlBuilder) - GUI tool for building modded Super Smash Bros. Brawl ISOs, with support for custom SFX .sawnd files and alternate stages.
 - [Smash-Forge](https://github.com/jam1garner/Smash-Forge) - Open source editor for Super Smash Bros. 4 file formats.
 - [Sm4sh-Tools](https://github.com/Sammi-Husky/Sm4sh-Tools) - Suite of tools for Super Smash Bros. 4 files.
   - Tools: DTLS (3DS/Wii U DT archive extractor/patcher), PACKManager (.pac archive packer/unpacker for .omo animations), PARAM (param file editor), FITX (ACMD script (de)compiler), SM4SHCommand (moveset editor with model/animation/hitbox preview).
@@ -9173,6 +9251,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Fallout 2 Community Edition](https://github.com/fallout2-ce/fallout2-ce) - Full re-implementation of Fallout 2 engine built from reverse-engineering the original binary; parses DAT archives, FRM sprites, and MAP/PRO data files; supports original mods.
 - [Fallout 2 Community Edition (BoBoBaSs84 fork)](https://github.com/BoBoBaSs84/fallout2-ce) - Community decompilation/re-implementation variant.
+- [vault13](https://github.com/pingw33n/vault13) - Work-in-progress Rust reimplementation of the Fallout 2 engine, reading the original game's data files (e.g. `vault13 /path/to/fallout2 artemple`).
 - [Fallout-2-Item-Data-Extractor-for-Wikis](https://github.com/An-on-im/Fallout-2-Item-Data-Extractor-for-Wikis) - Extracts Fallout 2 item data for use in wiki documentation.
 - [Fallout-2-Simple-DAT-Archive-Extractor](https://github.com/An-on-im/Fallout-2-Simple-DAT-Archive-Extractor) - Simple extractor for unpacking all files from Fallout 2's DAT archives.
 - [frm_recolour_python](https://github.com/Dr-Felix116/frm_recolour_python) - Python script to automatically recolor sprites in Fallout/Fallout 2 FRM sprite files by batch-replacing colors.
@@ -9289,6 +9368,10 @@ This list is for developers and modders working with such formats. It provides t
 - [PR (Princed Resources)](https://github.com/NagyD/PR) - Tool to export and import graphics and other data from and to DAT resource files of Prince of Persia 1 and 2.
 - [pop2 (static recompilation)](https://github.com/mac-recomp/pop2) - Static recompilation of the Macintosh build of Prince of Persia 2: The Shadow and the Flame into native C++/WebAssembly; engine and tools only, requiring the original game data.
 - [SDLPoP](https://github.com/NagyD/SDLPoP) - Open-source port of Prince of Persia, based on disassembly of the DOS version.
+
+### Jorudan (Detective Conan)
+
+- [Conan-Explorer](https://github.com/derplayer/Conan-Explorer) - Translation-support software for Detective Conan (PS1/PSX), aiding fan translation of the game's text and assets.
 
 ### JoWooD Vienna (Neighbours from Hell)
 
@@ -9448,6 +9531,9 @@ This list is for developers and modders working with such formats. It provides t
 - [md_spine_tools](https://github.com/UNOWEN-OwO/md_spine_tools) - Blender add-on that imports Yu-Gi-Oh! Master Duel's Spine 2D character/Live2D animation files into a 3D Blender model.
 - [YGO_VN_Toolkit](https://github.com/hiroshil/YGO_VN_Toolkit) - Localization toolkit for the "Power of Chaos" engine PC games (Yugi the Destiny/Joey the Passion): editor and rebuilder for the language-dependent BIN text assets plus an EXE patcher to inject a new language.
 - [YGO_SystemDat_Editor](https://github.com/hiroshil/YGO_SystemDat_Editor) - Decoder/editor/encoder for the `system.dat` config format used by "Power of Chaos" engine Yu-Gi-Oh! PC games.
+- [YuGiOh-PoC-ModTools](https://github.com/derplayer/YuGiOh-PoC-ModTools) - Launcher and modding toolkit covering the "Power of Chaos" engine across all its PC/Online variants (Yugi the Destiny, Kaiba the Revenge, Joey the Passion, and the Online SHONEN JUMP/Phase 1/Phase 2/Duel Evolution builds).
+  - Formats: `.dat` archives (decompression/decryption), `.YGA` graphics (Yu-Gi-Oh Graphic Acronym), LZSS-compressed text/bin files.
+  - Features: Resolution/position editing for graphic elements and effects, modernization fixes for the game launcher.
 
 #### Contra
 
@@ -9635,6 +9721,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Indivisible
 
 - [indivisible](https://github.com/minirop/indivisible) - Tool to extract `.pkg` files from Indivisible.
+
+### Landon Podbielski (Duck Game)
+
+- [DuckGameRebuilt](https://github.com/TheFlyingFoool/DuckGameRebuilt) - Decompilation of Duck Game with improvements to performance, compatibility, and quality-of-life features, built against the original game's Steam-distributed assets.
 
 ### Larian Studios
 
@@ -9855,6 +9945,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SWE1R-Mods](https://github.com/louriccia/SWE1R-Mods) - Collection of texture packs, track modifications, and unpack/repack scripts for Star Wars Episode I: Racer's asset blocks, building on OpenSWE1R's swe1r-tools.
 - [blender-swe1r](https://github.com/louriccia/blender-swe1r) - Blender add-on for importing, modifying, and exporting Star Wars Episode I: Racer's proprietary asset (.bin) files.
 - [Star-Wars-Racer-Revenge-Extraction-Tools](https://github.com/louriccia/Star-Wars-Racer-Revenge-Extraction-Tools) - Tools for extracting assets from Star Wars Racer Revenge (PS2), from the same author as the Episode I: Racer tools above.
+- [DesktopAdventuresToolkit](https://github.com/IceReaper/DesktopAdventuresToolkit) - Unpacker/repacker for Desktop Adventure Games engine archives (Indiana Jones and Yoda Stories), also usable as a Java library. Unpacks zones to Tiled-compatible .tmx files, sounds to .wav/.mid, images to .png, and characters/weapons/puzzles to .xml; can repack either game's archive from an unpacked folder, including converting between the two games' formats.
 
 ### Macrospace
 
@@ -9880,6 +9971,10 @@ This list is for developers and modders working with such formats. It provides t
 ### Magic Bytes Software / TD Corp (Dizzy BK-0011M Port)
 
 - [bk0011m-dizzy1td-rev](https://github.com/nzeemin/bk0011m-dizzy1td-rev) - Full byte-for-byte disassembly of DIZZY.DIZ, the 1994 Soviet BK-0011M port (by Magic Bytes Software/TD Corp) of Codemasters' Dizzy III / Fantasy World Dizzy, documenting data formats, memory layout, sprite tables, and the room system.
+
+### Magnetic Fields (Lotus Esprit Turbo Challenge)
+
+- [lotus-ste](https://github.com/jonathanopalise/lotus-ste) - Reverse-engineered enhancements to the Atari ST version of Lotus Esprit Turbo Challenge (1990), adding STE-specific Blitter-rendered graphics and digital sound support.
 
 ### Marigul (Tamagotchi Town)
 
@@ -9909,6 +10004,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### World in Conflict
 
+- [massgate](https://github.com/ubisoft/massgate) - Official open-sourced online backend server for World in Conflict, enabling self-hosting of matchmaking, stats, and account services. Archived.
 - [Broadcast Tool v6 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v6) - Allows DX10 users to broadcast a game T.V.-like. Good for LAN or other multi-player matches for spectators. Just a way for someone to watch a match without having to crowd around the two players' screens.
 - [Broadcast Tool v7 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v7) - Allows DX10 users to broadcast a game T.V.-like. Good for LAN or other multi-player matches for spectators. Just a way for someone to watch a match without having to crowd around the two players' screens.
 - [Broadcast Tool v8 (World in Conflict)](https://www.moddb.com/games/world-in-conflict/downloads/broadcast-tool-v8) - Allows DX10 users to broadcast a game T.V.-like. Good for LAN or other multi-player matches for spectators. Just a way for someone to watch a match without having to crowd around the two players' screens.
@@ -10001,6 +10097,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [GZDoomBuilder (Meridian 59 port)](https://github.com/OpenMeridian105/GZDoomBuilder_M59) - Port of the GZDoomBuilder map editor for editing Meridian 59 MMORPG rooms in the game's native .roo (v15) format, in 2D and 3D.
 
+### Metanet Software (N+)
+
+- [N-PSP-ModTools](https://github.com/derplayer/N-PSP-ModTools) - Converts N+ (PSP)'s raw 16-bit ABGR 4444 textures to and from editable DDS format.
+
 ### Metropolis Software
 
 #### Gorky 17
@@ -10049,6 +10149,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### RollerCoaster Tycoon
 
+- [OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - Open-source re-implementation of RollerCoaster Tycoon 2, loading the original game's data files (including add-ins RCT1 and Time Twister) and extending the engine with new features.
 - [RCT_tools](https://github.com/KolijnWolfaardt/RCT_tools) - Scripts for working with RollerCoaster Tycoon 2's files, including sprite exporting; requires the original game.
 
 ### Microsoft Studios / Bungie / Turn 10
@@ -10189,6 +10290,7 @@ This list is for developers and modders working with such formats. It provides t
 - [halo (decomp)](https://github.com/halo-re/halo) - Matching decompilation of Halo: Combat Evolved (Xbox).
 - [OniFoxed](https://github.com/hogsy/OniFoxed) - Bungie's Oni source modified to build with modern Visual Studio, enabling study and modification of the game and its original data formats.
 - [openage](https://github.com/SFTtech/openage) - Free/open-source clone of the Age of Empires II engine, reading the original game's .dat/.drs data files to reproduce gameplay, graphics, and sound.
+- [aoc-mgx-format](https://github.com/stefan-kolb/aoc-mgx-format) - Reverse-engineered file format specification for Age of Empires II: The Conquerors savegame (.mgx) files.
 
 #### Microsoft Plus! for Windows XP
 
@@ -10214,6 +10316,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ReversingMinesweeper](https://github.com/repnz/ReversingMinesweeper) - Ongoing project to reconstruct the full source code of Microsoft Minesweeper through binary reverse engineering.
 - [H2AMap](https://github.com/Zriecka1727/H2AMap) - Map tool for Halo 2: Anniversary, working with the game's original map data.
+
+### MiCROViSiON (Legend of Galactic Heroes)
+
+- [LoGHTools](https://github.com/derplayer/LoGHTools) - Modding tools for Legend of Galactic Heroes (2008, PC).
 
 ### Midway
 
@@ -10502,6 +10608,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [craft_extract](https://github.com/atom0s/craft_extract) - Dark Age of Camelot craft information parser and extractor.
 
+### Nashi Igry (Counter Action)
+
+- [ca-re](https://github.com/IceReaper/ca-re) - File format reverse engineering library for Counter Action, parsing the game's DAW/RUS/DAT data containers and BLIT/image/palette/sound/sprite resource formats.
+
 ### Natsume (Harvest Moon)
 
 - [hm64-decomp (decomp)](https://github.com/harvestwhisperer/hm64-decomp) - Matching decompilation of Harvest Moon 64 (N64).
@@ -10655,6 +10765,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### NoriaWorks Entertainment (Speed Haste)
 
+- [SpeedHasteSrc](https://github.com/TheJare/SpeedHasteSrc) - Original C source code for Speed Haste (1995), released into the public domain by the game's own developer, Javier Arevalo Baeza.
 - [Speed](https://github.com/jval1972/Speed) - Remake/source port of Speed Haste (1995, NoriaWorks Entertainment, published by Friendware), reading the original DOS game's data files.
 - [SpeedEd](https://github.com/jval1972/SpeedEd) - Tile/level editor for Speed Haste.
 
@@ -10795,6 +10906,7 @@ This list is for developers and modders working with such formats. It provides t
 - [libsm64-blender](https://github.com/libsm64/libsm64-blender) - Blender add-on integrating libsm64 above with Fast64, letting a controller-playable Mario run around levels built in Blender.
 - [sm64nx](https://github.com/teamsalta/sm64nx) - Extension of the Super Mario 64 decompilation targeting non-N64 platforms, introducing a PAK mod-package format for loading game assets externally at runtime instead of compiling them in.
 - [Mario-64-Tools](https://github.com/Jcw87/Mario-64-Tools) - Miscellaneous Super Mario 64 editing tools, including N64.TextureTool for converting images to/from the RGBA5551 format and splitting high-resolution images into N64-sized texture fragments.
+- [Mario-64-Randomizer](https://github.com/aGlitch/Mario-64-Randomizer) - Randomizes warps, objects, music, and Mario's colors directly in a Super Mario 64 ROM; works with vanilla and romhacks, and includes an optional star-requirement-removing sequence randomizer patch.
 
 #### Super Mario 64 DS
 
@@ -10853,7 +10965,6 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Mario Kart DS)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser Mario Kart DS viewer.
 - [noclip.website (Mario Kart Wii)](https://github.com/magcius/noclip.website/tree/main/src/MarioKartWii) - In-browser Mario Kart Wii viewer.
 - [noclip.website (Mario Kart 8 Deluxe)](https://github.com/magcius/noclip.website/tree/main/src/MarioKart8Deluxe) - In-browser Mario Kart 8 Deluxe viewer.
-- [CTGP-7_Open_Source](https://github.com/PabloMK7/CTGP-7_Open_Source) - Partial source code for CTGP-7, a large Mario Kart 7 modding platform with custom track/course format injection.
 - [Mk7se](https://github.com/hax0kartik/Mk7se) - In-game save data editor for Mario Kart 7 (3DS), running as homebrew directly on-console.
 
 - [mk64project](https://github.com/shygoo/mk64project) - ROM documentation, extractor, and course viewer for Mario Kart 64.
@@ -11278,6 +11389,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [effective-spoon (splatsave)](https://github.com/3096/effective-spoon) - C++ implementation of Splatoon 2 save data decryption/encryption, supporting up to save version 8 (update 5.1.0).
 - [Gambit-Headers](https://github.com/techmuse8/Gambit-Headers) - Reverse-engineered headers documenting internal code/data structures of Splatoon (Wii U), for building custom code.
+- [NintendoSwitchRESTAPI](https://github.com/ZekeSnider/NintendoSwitchRESTAPI) - Reverse-engineered REST API used by the Nintendo Switch companion app for iOS, including documentation of Splatoon 2's API.
 
 ### NPC Studio (Fields of Mistria)
 
@@ -12213,6 +12325,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MDPlayer](https://github.com/kuma4649/MDPlayer) - Player and emulator for Mega Drive/Genesis sound chip music formats (VGM, XGM, XGM2, ZGM).
 - [mml2vgm](https://github.com/kuma4649/mml2vgm) - Compiles MML music source into Mega Drive/Genesis VGM/XGM/XGM2/ZGM sound files.
 - [sms-hq-samples](https://github.com/maxim-zhao/sms-hq-samples) - Patches Sega Master System games with high-quality audio samples.
+- [Dreamcast FMV Auto-Subber](https://github.com/DerekPascarella/Dreamcast-FMV-Auto-Subber) - Batch re-encodes Dreamcast SFD video files with SRT or ASS subtitle files baked in, producing new subtitled SFD videos as output.
 
 #### Model 2 Arcade Games
 
@@ -12227,6 +12340,10 @@ This list is for developers and modders working with such formats. It provides t
 - [ultimai-score](https://github.com/djzmo/ultimai-score) - Score format converter between simai (3simai specification) and ma2 maimai chart formats.
 - [AstroDX_ChartCat](https://github.com/Momoko-Ayase/AstroDX_ChartCat) - Converts charts for AstroDX (a maimai-compatible rhythm game using the `maidata.txt` community chart format) from its legacy storage structure into the newer one. See also the [Rust rewrite](https://github.com/Momoko-Ayase/AstroDX_ChartCat_rs).
 
+#### Project DIVA
+
+- [DSC Merger](https://github.com/jozsefsallai/dsc-merger) - Command-line utility for merging multiple Project DIVA `.dsc` script files into one, useful for patching charts exported from Comfy Studio with additional commands.
+
 #### Project Sekai
 
 - [SekaiToon](https://github.com/festivities/SekaiToon) - Unity (Built-in Render Pipeline) shader replicating Project Sekai: Colorful Stage!'s in-game character shading, for datamined assets. (Archived)
@@ -12239,6 +12356,10 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Crazy Taxi)](https://github.com/magcius/noclip.website/tree/main/src/CrazyTaxi) - In-browser Crazy Taxi viewer (GameCube).
 - [Crazy Taxi Dreamcast Restoration](https://github.com/CookiePLMonster/CT-DC) - Restores removed Dreamcast exclusive content (music, licensing) to the PC version.
 - [SilentPatch for Crazy Taxi](https://github.com/CookiePLMonster/SilentPatchCT) - Fixes common issues in the PC version of Crazy Taxi, including frame rate and resolution fixes.
+
+#### Initial D
+
+- [Initial-D-VFS-tools](https://github.com/NekoMimiOfficial/Initial-D-VFS-tools) - Extracts and repacks the virtual filesystem (VFS) used by Initial D Street Stage (PSP) and other Initial D titles, including XBB and ANA files.
 
 #### Panzer Dragoon Saga
 
@@ -12268,6 +12389,7 @@ This list is for developers and modders working with such formats. It provides t
 - [GhidraSCN3](https://github.com/LemonHaze420/GhidraSCN3) - Work-in-progress Ghidra processor module for Shenmue's Scenario Script v3 (`.d3t`) bytecode format.
 - [S3TextDataAssetEditor](https://github.com/LemonHaze420/S3TextDataAssetEditor) - CLI utility to extract and modify strings inside S3TextDataAsset files from Shenmue III.
 - [IMGExtractor](https://github.com/LemonHaze420/IMGExtractor) - Extracts IMG/IDX archive files found only in "What's Shenmue" prototype builds (not seen in released Shenmue I/II builds).
+- [ShenmueHDTools](https://github.com/derplayer/ShenmueHDTools) - Modding and tweak tools for the Shenmue I & II HD release, unpacking, editing, and exporting .tad/.tac files.
 
 #### Phantasy Star
 
@@ -12491,6 +12613,14 @@ This list is for developers and modders working with such formats. It provides t
 - [Rings of Saturn](https://github.com/AlexIII/rings-of-saturn) - Compilation of reverse-engineering knowledge on the Sega Saturn system disc format, and a method for replicating it (making bootable Saturn discs from a burner) dubbed the "Rings of Saturn".
 - [Ninja_Extractor](https://github.com/VincentNLOBJ/Ninja_Extractor) - Extracts SEGA Ninja model files (.NJ, .NJM, .NJL, .NJD), used across Dreamcast and Saturn-era games, from any uncompressed archive.
 - [SegaAFSTools](https://github.com/enovales/SegaAFSTools) - Libraries and tools for working with Sega's own AFS archive format, used across a number of Sega-published titles.
+- [PDN-FileTypePVR](https://github.com/derplayer/PDN-FileTypePVR) - Paint.NET plugin for reading and writing Sega Dreamcast PVR texture files.
+- [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) - Cross-platform GUI toolkit for Dreamcast disc image operations: applying/building patches, editing IP.BIN, and converting between disc image formats.
+- [Orbital Organizer](https://github.com/DerekPascarella/Orbital-Organizer) - Cross-platform GUI SD card management tool for the SEGA Saturn optical drive emulators Rhea and Phoebe.
+- [openMenu Virtual Folder Bundle](https://github.com/DerekPascarella/openMenu-Virtual-Folder-Bundle) - Rewrite of the openMenu GDEMU frontend adding virtual folder/subfolder support, bundled with a modified GD MENU Card Manager to build compatible SD cards.
+- [Convert GDEMU SD Card to MODE](https://github.com/DerekPascarella/Convert-GDEMU-SD-Card-to-MODE) - Converts a GDEMU-formatted Dreamcast/Saturn ODE SD card to the layout expected by the MODE optical drive emulator, including single-folder multi-disc support.
+- [VMU Disc Builder](https://github.com/DerekPascarella/VMU-Disc-Builder) - Compiles a custom CDI containing Dreamcast VMU save files (VMI/VMS pairs), covering game save data, mini-games, or icons.
+- [Saturn 4bpp Graphics Converter](https://github.com/DerekPascarella/Saturn-4bpp-Graphics-Converter) - Converts between the SEGA Saturn's 4bpp graphic format and bitmaps for editing, and back again.
+- [Saturn 15bpp Graphics Converter](https://github.com/DerekPascarella/Saturn-15bpp-Graphics-Converter) - Converts between the SEGA Saturn's 15bpp graphic format and bitmaps for editing, and back again.
 
 #### Camelot Software Planning (Shining Force)
 
@@ -13289,6 +13419,7 @@ This list is for developers and modders working with such formats. It provides t
 - [organism](https://github.com/doukutsu-rs/organism) - Converts Cave Story's Organya (.org) music format to WAV audio.
 - [DoukutsuPSX](https://github.com/fgsfdsfgs/doukutsupsx) - Port of Cave Story to the PlayStation, built on the CSE2 decompilation and converting the original freeware game's data into a bootable PSX ISO.
 - [organya (Organya Twei)](https://github.com/shbow/organya) - Original Organya music sequencer source code, created by Studio Pixel in 1999 and used to compose Cave Story's soundtrack in the .org format.
+- [node-chie](https://github.com/jozsefsallai/node-chie) - Node.js library and CLI tool for decrypting/encrypting Cave Story's TSC script files.
 
 #### Ikachan
 
@@ -13383,6 +13514,12 @@ This list is for developers and modders working with such formats. It provides t
 
 - [mab-tools](https://github.com/Swyter/mab-tools) - 010 Editor binary templates for Mount&Blade 1.011 and Warband file formats. Includes templates for `.brf` (Binary Resource File), `.sco` (Scene Object), `options.dat` (gameplay and graphics settings including battle size), `controls.dat` (keymapping with support for two assignable key slots per action), and `sg*.sav` savegame files.
 - [cartographer](https://github.com/Swyter/cartographer) - Mount&Blade strategic map editor. Allows real-time positioning of world parties/cities. Supports importing/exporting OBJ files, editing map.txt and module_parties.py, with first-person camera controls and terrain visualization.
+- [openbrf-redux](https://github.com/Swyter/openbrf-redux) - De-rusted, actively maintained version of Marco Tarini's OpenBRF, the mesh/texture/skeleton/sound editor for Mount&Blade 1.011 and Warband `.brf` resource files, with a browsable version history.
+- [WarbandBannerConverter](https://github.com/cookgreen/WarbandBannerConverter) - Converts Warband's standard vertical banner textures into the standard horizontal banner layout, for the game's `banners_*.dds` files.
+
+#### Mount&Blade II: Bannerlord
+
+- [ArenaModdingTool](https://github.com/cookgreen/ArenaModdingTool) - Unofficial XML editor for Mount & Blade II: Bannerlord modules, importing a module's `SubModule.xml` for editing.
 
 ### Tamsoft
 
@@ -13540,6 +13677,16 @@ This list is for developers and modders working with such formats. It provides t
 - [extract.vvv](https://github.com/Swyter/extract.vvv) - Simple program to extract original music from VVVVVV game. Extracts all 15 tracks from `vvvvvvmusic.vvv` files and outputs them as OGG Vorbis format.
 - [VVVVVV](https://github.com/TerryCavanagh/VVVVVV) - Terry Cavanagh's official open-source release of VVVVVV (2010), including the desktop engine's original level/tileset-reading and rendering code.
 - [VVVVVVSaveEditor](https://github.com/SuperYosh23/VVVVVVSaveEditor) - Save file editor for VVVVVV.
+
+### Thalion Software
+
+#### Amberstar
+
+- [Amberstar](https://github.com/Pyrdacor/Amberstar) - File format specifications and reverse engineering resources for the Atari ST/Amiga/DOS classic Amberstar (1990).
+
+#### Ambermoon
+
+- [Ambermoon.net](https://github.com/Pyrdacor/Ambermoon.net) - Full C#/MonoGame rewrite of Ambermoon (1993), reading and running the original Amiga game's data files on Windows, Linux, and Mac.
 
 ### thatgamecompany (Sky)
 
@@ -14005,6 +14152,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CnC_Remastered_Collection](https://github.com/electronicarts/CnC_Remastered_Collection) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn and Red Alert game logic, alongside the Remastered Collection.
 - [Chronoshift](https://github.com/TheAssemblyArmada/Chronoshift) - Open-source reimplementation of Command & Conquer: Red Alert in C++, reading the original game's MIX archives and SHP/VQA/AUD asset formats (archived).
 - [Phobos](https://github.com/Phobos-developers/Phobos) - Ares-compatible engine extension for Command & Conquer: Red Alert 2 - Yuri's Revenge, adding new logic hooks and features on top of the original game's data formats.
+- [ChronoStorm](https://github.com/cookgreen/ChronoStorm) - Open-source engine reimplementation of Command & Conquer: Red Alert 2 and Yuri's Revenge in Python/Pygame, reading the original game's `.MIX` archives, `.SHP` sprites, `.VXL` voxels, and `.PAL` palettes; no assets are bundled, requiring a legal copy of the original game.
 
 #### Nox
 
@@ -14019,6 +14167,11 @@ This list is for developers and modders working with such formats. It provides t
 #### Emperor: Battle for Dune
 
 - [xanlib](https://github.com/Lunaji/xanlib) - Python library to handle the XBF 3D data format from Emperor: Battle for Dune (2001, Westwood Studios).
+- [Xanadu Animation Viewer](https://github.com/Lunaji/Xanadu-Animation-Viewer) - Viewer for XBF 3D animation data from Emperor: Battle for Dune, built on xanlib.
+- [ebfd-re](https://github.com/IceReaper/ebfd-re) - Reverse engineering of Emperor: Battle for Dune's assets.
+  - Components: LibEmperor (asset-parsing library), EbfdExtractor (RFH/RFD/BAG archive extraction), XbfViewer (model viewer).
+- [CorrinoEngine](https://github.com/cookgreen/CorrinoEngine) - Open-source C# game engine recreating Emperor: Battle for Dune (2001, Westwood Studios) from its original data files.
+- [Dune_Emperor_Interceptor](https://github.com/TheNuSan/Dune_Emperor_Interceptor) - DirectX call interceptor (built on elishacloud/DirectX-Wrappers) that dumps in-game mesh vertex positions and normals from modified vertex buffers to text files.
 
 ### Whirlpool (Relirium - Iseki to Deai to Bouken to)
 
