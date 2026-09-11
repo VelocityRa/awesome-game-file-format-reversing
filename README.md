@@ -2127,7 +2127,9 @@ This list is for developers and modders working with such formats. It provides t
 - [objdiff](https://github.com/encounter/objdiff) - Local diffing tool for decompilation projects.
 - [objdiff-web](https://github.com/encounter/objdiff-web) - Web interface and VS Code extension for objdiff, a local diffing tool for decompilation projects.
 - [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) - Randomly permute C files to better match a target binary.
-- [m2c](https://github.com/matt-kempster/m2c) - MIPS and PowerPC decompiler.
+- [transmuter](https://github.com/macabeus/transmuter) - Randomly permute C, C++ and Pascal files to better match a target binary.
+- [m2c](https://github.com/matt-kempster/m2c) - MIPS, ARM, PowerPC and SuperH decompiler.
+- [asmlift](https://github.com/macabeus/asmlift) - MIPS, ARM and PowerPC decompiler.
 - [decomp.me](https://github.com/decompme/decomp.me) - Collaborative decompilation and reverse engineering website, widely used to reverse game binaries function-by-function against a reference build.
 - [delink](https://github.com/HaydnTrigg/delink) - Symbol splitting tool for decompilation projects, supporting ELF (DWARF), Mach-O (STABS/SYMTAB), and PE (PDB) binary formats.
 - [ds-decomp](https://github.com/AetiasHax/ds-decomp) - Toolkit for decompiling Nintendo DS games, with ROM extraction, building, symbol analysis, and asset handling tools.
@@ -2538,6 +2540,7 @@ This list is for developers and modders working with such formats. It provides t
 - [EggmansLaserForge](https://github.com/Eggmansworld/EggmansLaserForge) - Authoring tool for building playable laserdisc games for Hypseus Singe, without hand-editing LUA scripts or frame numbers.
 - [actionmax-pi](https://github.com/DirtBagXon/actionmax-pi) - Singe implementation of the ActionMax VHS-based arcade system for 32-bit Raspberry Pi and other SBCs.
 - [Hypdroid](https://github.com/rhakka303/Hypdroid) - Standalone Android port of Hypseus Singe with a native gamepad-first game launcher.
+- [gba-kit](https://github.com/macabeus/gba-kit) - GBA emulator, focused on scripting and debugging capabilities.
 
 #### Franchise & Studio Toolkits
 
