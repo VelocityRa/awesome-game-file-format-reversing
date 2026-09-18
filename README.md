@@ -1681,6 +1681,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Fate/stay night: Realta Nua (PS2)](#fatestay-night-realta-nua-ps2)
   - [Ubisoft](#ubisoft)
     - [OpenSpace](#openspace-1)
+    - [Ubi Pictures](#ubi-pictures)
     - [Anvil / Scimitar](#anvil--scimitar)
     - [Prince of Persia (2008)](#prince-of-persia-2008)
     - [LyN Engine](#lyn-engine)
@@ -1826,6 +1827,7 @@ This list is for developers and modders working with such formats. It provides t
 - [MGSV Modding and Research Wiki](https://mgsvmoddingwiki.github.io/) - Community wiki documenting Metal Gear Solid V: The Phantom Pain's Fox Engine file formats and modding workflows.
 - [Ragnarok Research Lab](https://ragnarokresearchlab.github.io/) - Technical documentation covering Ragnarok Online's file formats, rendering systems, and game mechanics. Active continuation of the archived [RagnarokFileFormats](https://github.com/rdw-archive/RagnarokFileFormats) manifest.
 - [Persona Modding Wiki](https://persona-modding.github.io/) - Community-driven documentation for modding Persona series games. Continuation of the archived [AnimatedSwine37/persona-modding-docs](https://github.com/AnimatedSwine37/persona-modding-docs).
+- [RSDK Modding Wiki](https://rsdkmodding.com) - Community wiki for Retro Engine (RSDK) modding, covering Sonic CD, Sonic 1 & 2 (2013 mobile), and Sonic Mania.
 
 ### 📚 Learning Resources & Tutorials
 
@@ -7121,6 +7123,7 @@ This list is for developers and modders working with such formats. It provides t
 - [REE-Content-Editor](https://github.com/kagenocookie/REE-Content-Editor) - Mod development editor and file patcher for RE Engine games.
 - [ReachForGodot](https://github.com/kagenocookie/ReachForGodot) - Godot-based scene and data editor for RE Engine games.
 - [REMSG_Converter](https://github.com/dtlnor/REMSG_Converter) - RE Engine message text converter (`.msg.17` etc.).
+- [remsg-editor](https://github.com/beeequeue/remsg-editor) - Editor for RE Engine MSG (text) files, targeting Monster Hunter Rise and Monster Hunter Wilds. Built on the same author's [remsg](https://github.com/beeequeue/remsg) library for parsing and serializing MSG files.
 - [RE4-EFX-Template](https://github.com/NSACloud/RE4-EFX-Template) - 010 template for Resident Evil 4 Remake EFX files.
 - [RE_RSZ](https://github.com/alphazolam/RE_RSZ) - 010 Editor binary template for RE Engine files containing RSZ data (SCN, PFB, USER, RCOL, FSMV2, MOTFSM, BHVT). Uses a companion DLL and per-game JSON structure dumps.
   - Games: Apollo Justice: Ace Attorney Trilogy, Dead Rising Deluxe Remaster, Devil May Cry 5, Dragon's Dogma 2, Ghost Trick, Monster Hunter: Rise, Monster Hunter Wilds, Resident Evil 2/3/4/7 Remake, Resident Evil Village, Resident Evil Re:Verse, Street Fighter 6.
@@ -7138,16 +7141,20 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ARC Unpacker & Repacker](https://www.moddb.com/games/devil-may-cry-4/downloads/arc-unpacker-repacker-v09428) - Modding tool letting you extract and repack ARC file containers in MT Framework games (Resident Evil 5, Resident Evil 6, Dragon’s Dogma, Devil May Cry 4, and other Capcom titles) which can also convert many of the file formats in the archives.
 - [GFDConverter](https://github.com/onepiecefreak3/GFDConverter) - Converts GFD (v1) to GFD (v2) from Capcom's MT Framework.
-- [GMDConverter](https://github.com/onepiecefreak3/GMDConverter) - Converter for the GMD file format from Capcom's MT Framework. Supports Version 1 and Version 2.
+- [GMDConverter](https://github.com/onepiecefreak3/GMDConverter) - Converter for the GMD file format from Capcom's MT Framework. Supports Version 1 and Version 2. See also [gmd](https://github.com/beeequeue/gmd), a TypeScript/Node.js library and CLI porting this logic for Monster Hunter Generations Ultimate.
   - Features: BNK Editor (soundbanks), PCK Editor (packages), Loop Calculator, WEM Creator, WWCT/WWBK/WWPK/EPVSP editors.
   - Formats: .nbnk/.bnk, .npck/.pck, .wwct, .wwbk/.wwpk, .epvsp, .wem.
 - [Gibbed.MT](https://github.com/gibbed/Gibbed.MT) - Tools for modding MT Framework-based Capcom games including archive unpacker/packer for .arc files.
 - [xfs2json](https://github.com/Fexty12573/xfs2json) - Converts Capcom MT Framework XFS binary format to JSON for Monster Hunter Generations Ultimate and other MT Framework games.
 - [Albam](https://github.com/Brachi/albam) - Blender addon for importing and exporting 3D models and other assets from Capcom's MT Framework engine. See also [albam_reloaded](https://github.com/HenryOfCarim/albam_reloaded), an update of the addon for Blender 2.80+ targeting Resident Evil 5 modding, and [GameFilesTemplates](https://github.com/HenryOfCarim/GameFilesTemplates), the same author's collection of game engine file format templates.
+- [MT Framework (MOD/LMT) Blender Importer](https://github.com/axestyra/mt-framework-blender) - Blender add-on for importing Capcom MT Framework character models (`.mod`), skeletal animations (`.lmt`), and materials/textures (`.mrl`), reverse-engineering the material/texture binding independently while porting geometry/skeleton/animation reading from Lukas Cone's (PredatorCZ) original 3ds Max MT Framework Import Tool.
+- [MT Framework Mobile Blender Model Script](https://github.com/xZombieAlix/MT-Framework-Mobile---Blender-Model-Script) - Blender import script for the MT Framework Mobile engine variant, adapted from Seth VanHeulen's Monster Hunter 4 Ultimate importer and Albam's tri-strip code.
+  - Games: Resident Evil: The Mercenaries 3D, Resident Evil: Revelations, Monster Hunter 3 Ultimate, Monster Hunter 4 Ultimate, Monster Hunter Stories, Monster Hunter Generations, Phoenix Wright: Ace Attorney – Spirit of Justice, Phoenix Wright: Ace Attorney - Dual Destinies.
 - [Ultimate Resident Evil Modding Toolkit](https://github.com/kh0shn4w/Ultimate-Resident-Evil-Modding-Toolkit) - Native Windows C++ modding workstation for Capcom MT Framework games, with an ARC archive manager, a GMD batch text/localization translator, and an interactive GFD font coordinate/texture canvas editor.
   - Games: Resident Evil HD Remaster, Resident Evil 0 HD Remaster, Resident Evil 5, Resident Evil 6, Resident Evil Revelations 1 & 2, Devil May Cry 4 & Special Edition, Dragon's Dogma.
 - [Arc Explorer](https://github.com/Paxlord/pax_arc_explorer) - Viewer/editor for ARC archive files used by MT Framework games, supporting the ArcLE, ArcBE, and encrypted ArcC container variants.
   - Games: Monster Hunter 3 Ultimate (3DS/Wii U), Monster Hunter 4, Monster Hunter 4 Ultimate, Monster Hunter Generations, Monster Hunter XX, Monster Hunter Generations Ultimate (Switch), Monster Hunter Explore (Android/iOS).
+- [MHXR-Model-Tool](https://github.com/Luckyguess-0/MHXR-Model-Tool) - Importer/exporter for `.mod` model files from Monster Hunter Explore (mobile, discontinued).
 
 #### Resident Evil
 
@@ -7195,6 +7202,14 @@ This list is for developers and modders working with such formats. It provides t
 - [mhtools](https://github.com/codestation/mhtools) - Extraction, decryption and rebuilding tool for Monster Hunter (PSP) string tables, graphics, savedata and quest files.
 - [MHW-Editor](https://github.com/Synthlight/MHW-Editor) - General-purpose Monster Hunter World game data file editor, actively maintained with documentation in the project wiki.
 - [MHGU-Modding](https://github.com/RTHKKona/MHGU-Modding) - Community wiki documenting Monster Hunter Generations Ultimate modding information and file formats.
+- [HBMK-IFRIT](https://github.com/RTHKKona/HBMK-IFRIT) - Batch-script toolkit for Monster Hunter Generations Ultimate audio/data modding; successor to the same author's now-obsolete [Hand_Modkit](https://github.com/RTHKKona/Hand_Modkit).
+  - Features: Opus header injection/editing, WAV/MP3-to-.Opus conversion, MCA/ADPCM audio conversion and header merging ("MCA Forge"), STQ/STQR editing and merging, file hash checking.
+- [SaladSoftware](https://github.com/RTHKKona/SaladSoftware) - Python port of Kuriimu 1/2's MT Framework ARC logic, scoped specifically to Monster Hunter Generations Ultimate `.arc` archives; supports extraction, byte-perfect in-place repacking, partial (single-file) extraction/injection, and batch operations.
+- [SoupTextures](https://github.com/RTHKKona/SoupTextures) - MHGU-only MT Framework 2.x `.TEX` texture handler, replacing the Kuriimu/Noesis `.tex` workflow; imports `.TEX`/PNG/DDS and exports to PNG or `.TEX`.
+- [Titanbreak Suite](https://github.com/RTHKKona/Titanbreak-Tools) - GUI suite of binary editors for Monster Hunter Generations Ultimate monster/data files, reading `NativeNX` archive dumps directly.
+  - Tools: Enrage Editor, HP Editor, Loot (Hagi) Editor, Stagger Editor, Resident (RDB) Editor.
+- [MHGU-Texture-Tool](https://github.com/Luckyguess-0/MHGU-Texture-Tool) - Batch texture replacer for Monster Hunter Generations Ultimate `.arc` files, scanning a `NativeNX` dump for textures matching replacement filenames.
+- [MHGU-Save-Tool](https://github.com/Luckyguess-0/MHGU-Save-Tool) - Save management and charm export tool for Monster Hunter Generations Ultimate.
 - [MHW-010-Templates](https://github.com/Fexty12573/MHW-010-Templates) - Collection of 010 Editor templates for various Monster Hunter: World file formats.
 - [mhfu-ios-pmo-plugin](https://github.com/m2jean/mhfu-ios-pmo-plugin) - Noesis plugin to display PMO 3D models from the iOS version of Monster Hunter Freedom United; not compatible with the PSP version's PMO format.
 - [SharpPluginLoader](https://github.com/Fexty12573/SharpPluginLoader) - C# plugin loader and modding framework for Monster Hunter World, exposing the game's internal data structures to managed plugins.
@@ -13821,6 +13836,9 @@ This list is for developers and modders working with such formats. It provides t
 - [stfdecomp](https://github.com/biggestsonicfan/stfdecomp) - Decompilation attempt of Sonic the Fighters (arcade).
 - [RSDKv2-Decompilation](https://github.com/RSDKModding/RSDKv2-Decompilation) - Decompilation of the 2008 Retro Engine v2 demo of Sonic Nexus.
 - [RSDKv3-Script-Decompilation](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) - Decompilation of Retro Engine v3 (Sonic CD) scripts.
+- [RSDKv4-Script-Decompilation](https://github.com/RSDKModding/RSDKv4-Script-Decompilation) - Decompilation of Retro Engine v4 scripts, covering Sonic 1 & 2 (2013 mobile) and Sonic CD (Sega Classics release).
+- [CD-Proto-Diffs](https://github.com/RSDKModding/CD-Proto-Diffs) - Ghidra-diff analysis documenting binary changes across a sequence of leaked Sonic CD (2011 mobile) prototype builds.
+- [RSonic3D-Decompilation](https://github.com/RSDKModding/RSonic3D-Decompilation) - Decompilation of *Retro-Sonic 3D: Sky Worlds* (2005), an early Retro Engine tech demo fan game; requires original assets and adds a mod loader plus an OpenGL/SDL renderer replacing the original DirectX 7 code.
 - [SoniCPort](https://github.com/cuckydev/SoniCPort) - C port of Sonic the Hedgehog (1991, Sega Genesis/Mega Drive), built on the s1disasm disassembly.
 - [stfdisasm](https://github.com/biggestsonicfan/stfdisasm) - Disassembly of Sonic the Fighters (arcade), the basis for the stfdecomp decompilation attempt above.
 - [SonicCD-WindowsPhone-Decompilation (decomp)](https://github.com/tge-was-taken/SonicCD-WindowsPhone-Decompilation) - Decompilation and PC port of the Windows Phone version of Sonic CD (archived).
@@ -13840,11 +13858,23 @@ This list is for developers and modders working with such formats. It provides t
 
 ##### Retro Engine (RSDK)
 
+- [RetroED](https://github.com/RSDKModding/RetroED) - All-in-one editor suite for Retro Engine (RSDKv1 through v5U) games, covering scenes, tilesets, animations, palettes, gameconfigs, models, and scripts. "v2.0" successor to [Rubberduckycooly's original RetroED](https://github.com/Rubberduckycooly/RetroED).
+  - Tools: Scene Editor, Animation Editor, GameConfig Editor, Palette Editor, Model Manager, Script Compiler, GFX Manager, UserDB Manager, RSV Manager.
+  - See also [RSDK-Export-CLI](https://github.com/RSDKModding/RSDK-Export-CLI), a companion CLI for exporting Retro Engine file data to common formats, and [S3KOEditorLink](https://github.com/RSDKModding/S3KOEditorLink), which loads Sonic 3 & Knuckles data from Sonic Origins into RetroED-compatible editors.
 - [SonicMania-SaveEditor](https://github.com/Erik-JS/SonicMania-SaveEditor) - Save editor for Sonic Mania.
 - [SonLVL-RSDK](https://github.com/Lavesiime/SonLVL-RSDK) - Level editor for RSDK v3/v4 games (Sonic CD, Sonic 1, Sonic 2).
 - [RSDK-Reverse](https://github.com/Rubberduckycooly/RSDK-Reverse) - Reverse engineering tools for Retro Engine games (Sonic CD, Sonic 1, Sonic 2).
 - [rsdkv6-extract](https://github.com/RSDKModding/rsdkv6-extract) - Extractor for RSDK v6 format files.
+- [Retro-Engine-Animation-Editor](https://github.com/Rubberduckycooly/Retro-Engine-Animation-Editor) - Animation file editor for every Retro Engine/Retro Sonic Engine game.
+- [ModelManiac](https://github.com/Rubberduckycooly/ModelManiac) - Importer/exporter for RSDK model formats.
+- [PDN-RSDK-GFX-Plugin](https://github.com/Rubberduckycooly/PDN-RSDK-GFX-Plugin) - Paint.NET plugin for direct editing of RSDK `.gfx` files.
+- [ConfigManiac](https://github.com/Rubberduckycooly/ConfigManiac) - Editor for RSDKv5 Config files.
+- [Tile-Maniac](https://github.com/Rubberduckycooly/Tile-Maniac) - RSDKv5 collision editor.
+- [ObjectTypeFixer](https://github.com/Rubberduckycooly/ObjectTypeFixer) - Re-aligns RSDK object types when a gameconfig's object count has changed.
+- [Sonic-1-2-Save-Editor](https://github.com/Rubberduckycooly/Sonic-1-2-Save-Editor) - Save file editor for the Retro Engine Sonic 1 & 2 Remasters.
+- [SonicCD-SaveEditor](https://github.com/Rubberduckycooly/SonicCD-SaveEditor) - Save file editor for Sonic CD (2011).
 - [RSDK](https://github.com/Xeeynamo/RSDK) - Reverse engineering of the Retro Engine RSDK format, including a Sonic Mania animation editor.
+  - See also [vscode-rsdk](https://github.com/RSDKModding/vscode-rsdk), a Visual Studio Code extension providing syntax highlighting for decompiled RSDK (RetroScript) script files; forked and actively maintained from [Xeeynamo's original](https://github.com/Xeeynamo/vscode-rsdk).
 - [rsdkv5_extract](https://github.com/koolkdev/rsdkv5_extract) - Extraction/packing tools for Sonic Mania's RSDK v5 archive format, plus MDL (3D model), SPR (sprite info), and SCN (scenario/scene) sub-formats.
 - [ManiacEditor](https://github.com/koolkdev/ManiacEditor) - Scene editor for Sonic Mania, reading and writing RSDK scene/tileset formats.
 
@@ -15555,6 +15585,14 @@ This list is for developers and modders working with such formats. It provides t
 - [Raymap](https://github.com/Adsolution/RaymapGame) - Unity extension for Raymap map viewer/editor supporting Rayman and OpenSpace engine games.
 - [Rayman3Readvanced](https://github.com/RayCarrot/Rayman3Readvanced) - Format reversing tool for Rayman 3 (GBA/N-Gage), supporting decompilation and game data extraction.
 - [CPATool](https://github.com/Adsolution/CPATool) - Converts modern .OBJ level geometry into the .MOD format used by Rayman 2's CPA engine, enabling level creation with contemporary 3D software instead of 3ds Max 8 plus Ubisoft's proprietary plugin. Companion tool to the same author's Raymap Unity extension.
+- [OpenSpaceBlendFileGenerator](https://github.com/rtsonneveld/OpenSpaceBlendFileGenerator) - Python toolchain for generating Blender files (maps, object lists, animations) from OpenSpace engine game assets.
+- [CPAScriptSerializer](https://github.com/rtsonneveld/CPAScriptSerializer) - Serializer/deserializer for CPA engine script files.
+- [CPAModelViewHtmlReader](https://github.com/rtsonneveld/CPAModelViewHtmlReader) - Reads CPA engine AI view/model view data and exports it to HTML.
+
+#### Ubi Pictures
+
+- [DonaldDuckPatcher](https://github.com/rtsonneveld/DonaldDuckPatcher) - Compatibility patcher for Donald Duck: Goin' Quackers / Quack Attack on modern PCs.
+- [GoofMap](https://github.com/rtsonneveld/GoofMap) - Map viewer for Disney's Extremely Goofy Skateboarding.
 
 #### Anvil / Scimitar
 
