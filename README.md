@@ -2797,13 +2797,13 @@ This list is for developers and modders working with such formats. It provides t
 - [ScriptHawk](https://github.com/Isotarge/ScriptHawk) - Collection of BizHawk Lua scripts for RAM watching, memory manipulation, and TAS tooling across dozens of games.
 - [STAS-file-format](https://github.com/MonsterDruide1/STAS-file-format) - Game-agnostic script file format for tool-assisted speedruns on Nintendo Switch.
 - [GBAHawk](https://github.com/alyosha-tas/GBAHawk) - Game Boy Advance emulator core fork of BizHawk, focused on hardware-accurate behavior verified against real console tests.
+- [gba-kit](https://github.com/macabeus/gba-kit) - TypeScript Game Boy Advance emulator (ARM7TDMI CPU, PPU/APU/DMA/timers) with a headless Node.js scripting runtime and a built-in debugger that parses ELF symbols and DWARF line tables for source-level ROM debugging, including a VS Code Debug Adapter Protocol extension.
 - [hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) - SDL3-based continuation of Daphne/Singe, emulating laserdisc arcade games by reading their original laserdisc video/ROM data. Companion [hypseus_singe_data](https://github.com/DirtBagXon/hypseus_singe_data) package provides the LUA game-definition scripts for dozens of supported titles (Dragon's Lair, Space Ace, Cliff Hanger, M.A.C.H. 3, and more).
 - [dice-libretro](https://github.com/mittonk/dice-libretro) - Libretro/RetroArch port of DICE (Discrete Integrated Circuit Emulator), emulating early arcade systems built from discrete logic components with no CPU.
 - [ld-decode](https://github.com/happycube/ld-decode) - Software-defined LaserDisc RF decoder, used to digitize and preserve laserdisc arcade games for emulators such as hypseus-singe/DICE.
 - [EggmansLaserForge](https://github.com/Eggmansworld/EggmansLaserForge) - Authoring tool for building playable laserdisc games for Hypseus Singe, without hand-editing LUA scripts or frame numbers.
 - [actionmax-pi](https://github.com/DirtBagXon/actionmax-pi) - Singe implementation of the ActionMax VHS-based arcade system for 32-bit Raspberry Pi and other SBCs.
 - [Hypdroid](https://github.com/rhakka303/Hypdroid) - Standalone Android port of Hypseus Singe with a native gamepad-first game launcher.
-- [gba-kit](https://github.com/macabeus/gba-kit) - GBA emulator, focused on scripting and debugging capabilities.
 
 #### Franchise & Studio Toolkits
 
