@@ -457,6 +457,7 @@
 - [WCWvsNWOWorldTourRecomp](https://github.com/jessetbh/WCWvsNWOWorldTourRecomp) - Native PC port of WCW vs. nWo World Tour (N64) via static recompilation, with a companion [WCWSyms](https://github.com/jessetbh/WCWSyms) repo of reverse-engineered function/data symbol TOMLs for the N64Recomp toolchain.
 - [AkiLauncher](https://github.com/jessetbh/AkiLauncher) - Native Windows hub that downloads and launches the AKI-engine N64 wrestling recompilations above.
 - [AKI-Model-Blender-IO-Addon](https://github.com/dotGrx/AKI-Model-Blender-IO-Addon) - Blender import/export addon for AKI Corporation's .model format, used in their N64/PS2-era wrestling games.
+- [AKI Anvil](https://martymonero.com/tools/aki-anvil) - Browser-based editor for the rosters, moves, animations, textures and music of the six AKI wrestling games above; exports a bootable ROM and keeps the ROM on your computer.
 - [WCW-Mayhem-.P30-to-OBJ](https://github.com/dotGrx/WCW-Mayhem-.P30-to-OBJ) - Converts WCW Mayhem's .P3O model format to OBJ.
 
 #### Acquire (Akiba's Trip)
