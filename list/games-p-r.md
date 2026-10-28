@@ -810,6 +810,7 @@
 - [Source2Roblox](https://github.com/MaximumADHD/Source2Roblox) - Toolset that automatically ports Source engine levels (VMF/BSP/MDL) into Roblox assets and models.
 - [Rbx2Source](https://github.com/MaximumADHD/Rbx2Source) - Utility that assembles Roblox assets into geometry data compiled into the Source engine's MDL format, the inverse of Source2Roblox.
 - [rbx_mesh](https://github.com/krakow10/rbx_mesh) - Rust library of deserializers for Roblox's `.mesh` geometry format (versions 1-5), plus the separate MeshData (Union Graphics CSG) and PhysicsData (Union Physics convex hull) binary formats stored on UnionOperation instances. Decodes into structures reflecting each version's on-disk layout rather than a unified representation.
+- [Roblox Model Inspector](https://file-label-guide.github.io/roblox-model-inspector/) - Browser tool that reads binary and XML `.rbxm`/`.rbxl` files (LZ4 and zstd chunks), shows the instance tree and every script's source, and scans the scripts for free-model backdoors such as `require(assetId)`, `loadstring` and Discord webhooks. Files are parsed locally.
 
 #### RobTop Games
 
