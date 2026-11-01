@@ -762,7 +762,6 @@
 
 - [cslol-manager](https://github.com/LeagueToolkit/cslol-manager) - The de-facto mod manager for installing WAD-based skin/asset mods (Fantome/.fantome format), succeeding the original [Fantome](https://github.com/LeagueToolkit/Fantome) installer that defined the format [archived].
 - [ltk-manager](https://github.com/LeagueToolkit/ltk-manager) - Next-generation League of Legends mod manager (TypeScript), successor to cslol-manager.
-- [Cs-lol-go](https://github.com/Aurecueil/Cs-lol-go) - C# mod manager mimicking cslol-manager with an improved skin fixer and quality-of-life features.
 - [hexbelt](https://github.com/alanpq/hexbelt) - Set of tools for League of Legends custom skin creation.
 - [league-mod](https://github.com/LeagueToolkit/league-mod) - Toolkit for creating, managing, and distributing League of Legends mods.
 - [SentinelAIO](https://github.com/TheKillerey/SentinelAIO) - WPF map-modding tool for League of Legends that creates map mod templates, recolors maps with 3D LUTs, swaps maps and minion/champion skin `.bin` files, fixes DDS compression, and downloads patch files.

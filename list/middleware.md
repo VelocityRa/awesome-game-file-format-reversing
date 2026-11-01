@@ -1199,7 +1199,6 @@
 
 - [sega2asm](https://github.com/hansbonini/sega2asm) - Sega Genesis/Mega Drive disassembler and splitter written in Golang, producing reassemblable, annotated source from ROM images.
 - [PscdPack](https://github.com/GMMan/PscdPack) - ROM packer for the SEGA Genesis Classics compilation's packaged ROM format.
-- [netboot](https://github.com/DragonMinded/netboot) - Utilities for netbooting and communicating with a NetDimm installed in a Sega Naomi, Triforce, or Chihiro arcade system.
 - [libdreamroq](https://github.com/dreamcastdevs/libdreamroq) - Library version of the DreamROQ video codec used by many Sega Dreamcast games, based on Mike Melanson's original DreamROQ playback engine.
 - [SampleToWav](https://github.com/maxim-zhao/SampleToWav) - Converts sampled audio data inside ROM files to WAV, originally targeting Sega 8-bit home video game systems. Supports 4-bit SN76489 volume-control data, 8-bit unsigned PCM, and 1-bit PDM extraction with configurable output bit depth and sample rate.
 - [GEMSPlay](https://github.com/ValleyBell/GEMSPlay) - Player for data of GEMS, the sound driver the author describes as the most common on the Sega Mega Drive/Genesis: loads the instrument, envelope, sequence, and sample files or reads them from a ROM via pointers, handles the GEMS 2.8 pointer format, and can log to VGM; includes disassembled Z80 driver sources for several GEMS versions.

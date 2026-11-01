@@ -1317,7 +1317,6 @@
 - [TFSndEdit](https://github.com/xan1242/TFSndEdit) - Extracts and repacks the `SNDDAT` sound banks of Yu-Gi-Oh! Tag Force (PSP), tested with Tag Force 1 and 6; needs the SHDS sound header from the executable (EBOOT.BIN).
   - [TagForceMusicEx](https://github.com/xan1242/TagForceMusicEx) - Earlier, simpler extractor for the AT3 music files (no repacking).
 - [EHPScanner](https://github.com/xan1242/EHPScanner) - Scans for and extracts EhFolder (EHP) archives embedded in files, mainly Tag Force EBOOT files, with autodetection and filename assignment.
-- [YGTool](https://github.com/matheuscardoso96/YGTool) - Converts Yu-Gi-Oh! PSP/Nintendo DS game files to editable formats and back; currently supports Yu-Gi-Oh! GX: Tag Force 2 (`.ehp` archives, `.gim` images in 4bpp/8bpp/DXT1, Huffman and Gzip compression, and `.bin` text).
 
 ##### Pop'n Music
 

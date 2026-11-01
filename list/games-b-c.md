@@ -411,7 +411,7 @@
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [blackandwhite_ci](https://github.com/Daniels118/blackandwhite_ci) - Modding toolkit for Black & White: Creature Isle, with parsers and decompilers for CHL binary game script files (bidirectional CHL ↔ source code conversion).
 - [Fable2AssetBrowser](https://github.com/adarec1994/Fable2AssetBrowser) - Browser for Fable 2's BNK archive files, with search and filtering of internal files.
-- [Fable2Recomp](https://github.com/Fable2Recomp/Fable2Recomp) - Static recompilation of Fable 2 (Xbox 360) into native code.
+- [Fable2Recomp](https://github.com/Fable2Recomp/Fable2Remake) - Static recompilation of Fable 2 (Xbox 360) into native code.
 
 #### The Game Kitchen (Blasphemous)
 
@@ -1080,7 +1080,6 @@
 ##### Dead Rising
 
 - [cvsTool](https://github.com/LinkOFF7/cvsTool) - Converter for Dead Rising 4 CVS files.
-- [mh3g-hd-mods](https://github.com/ennsia/mh3g-hd-mods) - HD texture mods for Monster Hunter 3G, working with the game's original texture formats.
 - [mh-stories-re](https://github.com/teozocchi/mh-stories-re) - Reverse engineering of Monster Hunter Stories' file formats.
 - [mhash.app](https://github.com/Akzyra/mhash.app) - Data extraction helper for building Monster Hunter item/monster sets.
 - [mxs_dead_rising_xbox360](https://github.com/coreynguyen/mxs_dead_rising_xbox360) - MaxScript mesh importer for the original Xbox 360 Dead Rising (2006); imports vertex/face geometry, though materials, textures, and per-submesh separation are not yet handled.

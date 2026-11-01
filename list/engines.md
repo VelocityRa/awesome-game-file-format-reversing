@@ -498,7 +498,7 @@
 ##### IL2CPP & Managed-Code Reverse Engineering
 
 - [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) - Unity IL2CPP reverse engineer tool for extracting IL2CPP metadata and converting IL2CPP binaries. See also [bombaris34's fork](https://github.com/bombaris34/il2cpp-pdb) with a native Rust PDB generator for x64 PE (`GameAssembly.dll`) that writes function names, full struct types, and typed prototypes into a real Windows PDB, auto-loaded by IDA.
-- [Il2CppDumper-GUI](https://github.com/AndnixSH/Il2CppDumper-GUI) - Windows GUI front-end for Il2CppDumper. See also [Il2cppDumpDroidGUI](https://github.com/Poko-Apps/Il2cppDumpDroidGUI), an Android GUI wrapper for the same tool.
+- [Il2CppDumper-GUI](https://github.com/AndnixSH/Il2CppDumper) - Windows GUI front-end for Il2CppDumper. See also [Il2cppDumpDroidGUI](https://github.com/Poko-Apps/Il2cppDumpDroidGUI), an Android GUI wrapper for the same tool.
 - [Il2CppInspector](https://github.com/djkaty/Il2CppInspector) - Powerful automated tool for reverse engineering Unity IL2CPP binaries. Outputs IL2CPP type definitions, metadata and method pointers as C# stub code, creates .NET assembly shim DLLs, and generates C++ scaffolding for all types, methods, function pointers and API functions.
 - [Il2CppInspectorRedux](https://github.com/LukeFZ/Il2CppInspectorRedux) - Actively maintained continuation of Il2CppInspector, kept up to date with newer IL2CPP/Unity metadata versions.
 - [Il2CppInspectorPlugins](https://github.com/djkaty/Il2CppInspectorPlugins) - Plugins for Il2CppInspector to inspect and reverse-engineer Unity game binaries and extract game data.
@@ -594,7 +594,7 @@
 - [uasset-rs](https://github.com/jorgenpt/uasset-rs) - Rust library for parsing Unreal Engine asset (.uasset) files.
 - [binfold](https://github.com/trumank/binfold) - Fast symbol-porting tool that matches and transfers large numbers of symbols between similar binaries (e.g. across UE game versions/builds) using pattern signatures.
 - [OodleUE](https://github.com/WorkingRobot/OodleUE) - Automatically pulls and packages the latest Oodle Data compression SDK builds from Unreal Engine 5's private git repo, since RAD's Oodle libraries are otherwise difficult to obtain standalone.
-- [Core](https://github.com/JsonAsAsset/Core) - Extension of JsonAsAsset's Reflection above that fetches referenced Unreal Engine assets automatically, hands-free.
+- [Core](https://github.com/JsonAsAsset/Mirror) - Extension of JsonAsAsset's Reflection above that fetches referenced Unreal Engine assets automatically, hands-free.
 - [UE1-VertexMesh-Blender-IO](https://github.com/Skywolf285/UE1-VertexMesh-Blender-IO) - Blender exporter/importer for the Unreal Engine 1 `_a.3d`/`_d.3d` vertex mesh format.
 - [unreal-assets-to-glb](https://github.com/Prikalel/unreal-assets-to-glb) - Parses Unreal Engine 5.5 editor-time `.uasset` files and extracts static meshes (glTF/glb) and base color textures (PNG) without requiring Unreal Engine to be installed; includes a browser-based level preview mode.
 - [pyUsmap](https://github.com/MinshuG/pyUsmap) - Python parser for Unreal Engine .usmap files.

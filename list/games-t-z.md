@@ -280,7 +280,7 @@
 
 #### Future Games (The Black Mirror)
 
-- [re-posel](https://github.com/Aurel300/re-posel) - Reverse engineering of Posel Smrti / The Black Mirror (2003), covering the game's animation, archive, asset, and audio formats.
+- [re-posel](https://github.com/AureaNoire/re-posel) - Reverse engineering of Posel Smrti / The Black Mirror (2003), covering the game's animation, archive, asset, and audio formats.
 
 #### Ivory Tower (The Crew)
 
@@ -376,10 +376,6 @@
 #### Game Arts (Thexder)
 
 - [thexder](https://github.com/hitchhikr/thexder) - Complete disassembly of the Amiga version of Thexder, including source, data, and manual.
-##### Zeliard
-
-- [Zeliard](https://github.com/thedragonheir/re-zeliard) - Reimplementation/port of Zeliard (DOS), faithfully recreating the original rendering, data formats, and gameplay systems using the original game assets.
-
 #### THQ / Rainbow Studios
 
 - [OpenToshi (decomp)](https://github.com/AdventureT/OpenToshi) - Matching decompilation of de Blob and Toshi engine (Blue Tongue Entertainment).
