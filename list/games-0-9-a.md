@@ -722,6 +722,7 @@
 #### Kunos Simulazioni (Assetto Corsa)
 
 - [kn5-converter](https://github.com/RaduMC/kn5-converter) - Command-line 3D model converter for Assetto Corsa's KN5 format.
+- [AcTools](https://github.com/gro-ove/actools) - C# libraries and apps for Assetto Corsa, including the Content Manager launcher: AcTools reads and edits common AC files (KN5 models, car and track data), with showroom renderers for skins and previews, content repair, and an FMOD soundbank player.
 
 #### Atlus
 

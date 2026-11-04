@@ -205,8 +205,10 @@
 - [TerrariaResearchChecklist](https://github.com/iconmaster5326/TerrariaResearchChecklist) - CLI that reads a Terraria `.plr` player save file directly and lists Journey Mode items not yet researched, cross-referenced against the Terraria Wiki's item list.
   - Includes a [Kaitai Struct](https://kaitai.io/) definition (`terraria_player.ksy`) documenting the `.plr` player file format, plus a generated C# reader.
 - [Terrafirma](https://github.com/mrkite/TerraFirma) - Cross-platform (Windows/Linux/macOS) world map and Bestiary viewer for Terraria 1.4, reading world save files directly and using the game's own localization files to display translated item/block names.
+- [MoreTerra](https://github.com/mike-mo/MoreTerra) - Terraria world viewer that renders a full map from world files, highlighting chests, Shadow Orbs, Heart Stones and ores, with a command-line mode for servers.
 - [XNB UV Explorer](https://github.com/RussDev7/XNB-UVExplorer) - WinForms tool for inspecting and slicing XNB texture sheets (auto tile detection, grid/dynamic UV modes), built for Terraria modding and XNA/MonoGame asset work generally.
 - [terrariaxnb2png](https://github.com/Silentspy/terrariaxnb2png) - Windows command-line converter that turns Terraria `.xnb` files (a single file or a folder) into PNG images using XNA content loading.
+- [TExtract](https://github.com/antag99/TExtract) - Extractor for Terraria's content files, which are compiled to the XNB format; only implements what Terraria needs, so other games may require modification.
 - [TSGE](https://github.com/gabsoftware/TSGE) - Terraria Save Game Editor (C#) for modifying player save files (profiles) and adjusting characters.
 
 #### Terrible Toybox
@@ -428,10 +430,6 @@
 ##### Blues Brothers
 
 - [blues](https://github.com/cyxx/blues) - Reimplementation of the engine used in Blues Brothers, Blues Brothers: Jukebox Adventure, and Prehistorik 2, reading the original games' data files; ports to PSP and SDL2.
-
-##### Superman 64
-
-- [Superman64Decomp (decomp)](https://github.com/gcsmith/Superman64Decomp) - Matching decompilation of Superman: The New Superman Adventures, a.k.a. Superman 64 (WIP).
 
 ##### Titus the Fox & Moktar
 
@@ -880,6 +878,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [vc-spec](https://github.com/OpenVietcong/vc-spec) - Documentation of Vietcong (2003) file formats, covering archives, 3D models, animations, and other data formats used by the game.
 - [blender-plugin-vietcong](https://github.com/OpenVietcong/blender-plugin-vietcong) - Blender plugin for importing/exporting Vietcong's `.BES` 3D model files. See also [desintegrathor's plugin](https://github.com/desintegrathor/Vietcong-Blender-plugin) with Blender 4.x/5.x support.
 - [nogamespy-vietcong](https://github.com/garncarz/nogamespy-vietcong) - Reimplementation of Vietcong's GameSpy-based multiplayer server discovery/matchmaking protocol.
+
+#### Anego Systems (Vintage Story)
+
+- [vsmodelcreator](https://github.com/anegostudios/vsmodelcreator) - Official Vintage Story model creator for blocks, items and entities, with cube-based modeling, texture mapping, a keyframe animation editor and attachment points, saving models in the format the game engine reads.
 
 #### Volition
 

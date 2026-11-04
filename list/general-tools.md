@@ -732,7 +732,7 @@
 - [libxe](https://github.com/hayleyxyz/libxe) - C++ library for Xbox 360 (Xenon) internals; implements shadowboot ROM, bootloader, and xboxupd.bin format parsing. See also [xbox_kernel_updater](https://github.com/hayleyxyz/xbox_kernel_updater), a submodule for parsing/applying Xbox 360 kernel update (xboxupd.bin) packages.
 - [xdk-extractor](https://github.com/hayleyxyz/xdk-extractor) - Extractor for Xbox Development Kit (XDK) installer packages.
 - [ExCrypt](https://github.com/emoose/ExCrypt) - Reimplementation of Xbox 360's XeCrypt cryptography library (hashing, RC4, AES, RSA/EC signing) as a standalone C library.
-- [xecli](https://github.com/SaveEditors/xecli) - Command-line tool for encrypting/decrypting Xbox 360 executable (XEX) files.
+- [xecli](https://github.com/xecli/xecli) - Command-line tool for encrypting/decrypting Xbox 360 executable (XEX) files.
 - [Velocity](https://github.com/hetelek/Velocity) - Cross-platform Xbox 360 file browser/editor (STFS containers, profiles, and more) built on the XboxInternals library.
 - [stfstool](https://github.com/carrot-c4k3/stfstool) - Command-line tool for Xbox 360 STFS packages, based on Velocity.
 - [stfs-webjs](https://github.com/InvoxiPlayGames/stfs-webjs) - Reads Xbox 360 STFS container files in the web browser.

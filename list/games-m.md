@@ -595,6 +595,7 @@
 - [Minecraft-Unstitcher](https://github.com/master801/Minecraft-Unstitcher) - Unstitches pre-1.6.4 stitched Minecraft texture atlases into individual named sprites, easing porting of older mods.
 - [MinecraftLocTool](https://github.com/efimandreev0/MinecraftLocTool) - Tool to edit Minecraft .loc game files; parses and modifies localization/config binary data.
 - [NBT Studio](https://github.com/tryashtar/nbt-studio) - Up-to-date NBT viewer and editor for Minecraft. Supports Java and Bedrock formats with undo/redo, drag-and-drop, multiselect, and SNBT support.
+- [NBTExplorer](https://github.com/jaquadro/NBTExplorer) - Graphical NBT editor for Minecraft data that reads and writes standard NBT files (eg. `level.dat`), schematics, uncompressed NBT, Anvil and region files (`.mca`, `.mcr`) and Cubic Chunks region files.
 - [minecraft-ttf](https://github.com/tryashtar/minecraft-ttf) - Rust tool that converts Minecraft: Java Edition font definitions (bitmap and Unifont hex glyph providers read from the game jar) into TrueType fonts, including regular/bold/italic variants; can also build fonts from resource packs and across version history.
 - [NBT (Querz)](https://github.com/Querz/NBT) - Java library for reading, writing, and manipulating Minecraft's NBT (Named Binary Tag) format, including support for implementing custom tags.
 - [CombinedAudioTool](https://github.com/Cracko298/CombinedAudioTool) - GUI/CLI tool for extracting and manipulating Minecraft New Nintendo 3DS Edition audio archives (CombinedAudio.bin, FSB SoundBank files).

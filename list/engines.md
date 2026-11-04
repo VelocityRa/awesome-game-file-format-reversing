@@ -470,13 +470,14 @@
 - [UnityAsset.NET](https://github.com/AXiX-official/UnityAsset.NET) - Work-in-progress .NET library for parsing, serializing, and patching Unity asset files.
 - [ABRecompressor](https://github.com/AXiX-official/ABRecompressor) - Recompresses Unity AssetBundle files (e.g. LZ4-to-LZMA or vice versa) to reduce size or restore compatibility.
 - [UnityDataTools](https://github.com/Unity-Technologies/UnityDataTools) - Unity's command-line tool and reference for the UnityFileSystemApi library: analyzes AssetBundles, Player content, Unity Archives and Serialized files without the Editor, and parses Addressables build reports.
+- [AssetBundleMCP](https://github.com/hanachiru/AssetBundleMCP) - MCP server (.NET tool) that analyzes Unity AssetBundles through an AI assistant, listing contained assets and texture details and exposing the results as a queryable SQL database.
 - [unity-js](https://github.com/arkntools/unity-js) - JavaScript (npm) AssetBundle unpacker supporting TextAsset, Texture2D, Sprite, SpriteAtlas and MonoBehaviour; the README notes it is a minimal implementation.
 - [unity-rs](https://github.com/yuanyan3060/unity-rs) - Rust library for unpacking Unity AssetBundle files, implementing Texture2D, Sprite and TextAsset unpacking.
 - [Unity3DCompressor](https://gitgoon.dev/IllusionMods/Unity3DCompressor) - Utility for compressing Unity asset bundles using LZ4 to reduce file size and improve load times.
 - [UtinyRipper](https://github.com/mafaca/UtinyRipper) - Extracts and exports Unity assets from serialized `.assets` files and AssetBundle files into Unity-importable project format. Supports a wide range of Unity versions.
 - [Asset Bundle Extractor (UABE)](https://github.com/SeriousCache/UABE) - Editor for .assets and AssetBundle files (archived; consider UABEA for active development).
 - [TypeTreeDumps](https://github.com/AssetRipper/TypeTreeDumps) - Archive of Unity version struct layouts (type tree information) since version 3.4.0, essential for asset format understanding.
-- [UnityLive2DExtractor](https://github.com/aelurum/UnityLive2DExtractor) - Extracts Live2D Cubism 3 assets from Unity AssetBundles. Handles moc3 models, motion3 animations, physics3 configuration, and other Live2D format files. See also [Razmoth's fork](https://github.com/Razmoth/UnityCNLive2DExtractor) (9 commits ahead) adapted for the UnityCN encryption scheme used by many Chinese Unity titles.
+- [UnityLive2DExtractor](https://github.com/Perfare/UnityLive2DExtractor) - Extracts Live2D Cubism 3 assets from Unity AssetBundles. Handles moc3 models, motion3 animations, physics3 configuration, and other Live2D format files. See also [Razmoth's fork](https://github.com/Razmoth/UnityCNLive2DExtractor) (9 commits ahead) adapted for the UnityCN encryption scheme used by many Chinese Unity titles.
 - [noclip.website (Unity)](https://github.com/magcius/noclip.website/tree/main/src/Common/Unity) - From-scratch TypeScript/Rust reader for Unity SerializedFile and AssetBundle data. Reconstructs GameObject hierarchies, meshes, textures (including Crunch), and materials for in-browser rendering; drives the A Short Hike, Neon White, and Outer Wilds viewers.
 - [disunity](https://github.com/ata4/disunity) - Early experimental Java command-line toolset for extracting and inspecting Unity asset and asset bundle files. Archived since 2018 and largely superseded by AssetStudio/UABEA, but historically significant.
 - [mikunyan](https://github.com/Ishotihadus/mikunyan) - Scriptable Unity asset deserializer for Ruby.
@@ -865,7 +866,7 @@
 
 #### AliceSoft (Alice/System 4 Engine)
 
-*Visual novel engine(s) ("System 3"/"System 4"/AinScript) by AliceSoft.*
+*Visual novel engine(s) ("System 3"/"System 4"/AinScript) created by [AliceSoft](https://vndb.org/p120).*
 
 - [alice-tools](https://github.com/nunuhara/alice-tools) - Tools for extracting/editing files from AliceSoft games (AinScript decompiler/compiler, ALD/AJP/DCF/PMS asset tools, and more).
 - [xsystem4](https://github.com/nunuhara/xsystem4) - Cross-platform, open-source reimplementation of AliceSoft's System 4 engine, running original AliceSoft game data; companion compiler/decompiler/language server [sys4lang](https://github.com/kichikuou/sys4lang) (derived from nunuhara's sys4c). See also [xsystem4-android](https://github.com/kichikuou/xsystem4-android), an Android port.
@@ -893,7 +894,7 @@
 
 #### Artemis Engine
 
-*Visual novel engine ("Artemis") used in various Japanese visual novels.*
+*Visual novel engine ("Artemis") based on KiriKiri ([website](https://www.ies-net.com/)).*
 
 - [pfs-rs](https://github.com/sakarie9/pfs-rs) - Unpacker and packer for Artemis engine `.pfs` archives, written in Rust.
 - [PFS-Android](https://github.com/sakarie9/pfs-android) - Android app built on pfs-rs for unpacking Artemis engine `.pfs` archives, from in-app file selection or the file explorer.
@@ -940,7 +941,7 @@
 
 #### Bishop Engine
 
-*Visual novel engine ("Bishop") used in various Japanese visual novels.*
+*Visual novel engine ("Bishop", internally BSXX) created by [BISHOP](https://vndb.org/p215).*
 
 - [BSXScript_Tool](https://github.com/crskycode/BSXScript_Tool) - Export/import tool for `BSXScript 3.0` script files used by the Bishop engine.
 - [Bishop_BSG_Tool](https://github.com/crskycode/Bishop_BSG_Tool) - Converts PNG images to BSG (BSS-Graphics) UI graphics files for the Bishop engine.
@@ -959,7 +960,7 @@
 
 #### CatSystem2
 
-*Visual novel engine ("CatSystem2") by CSware, used in various Japanese visual novels.*
+*Shareware visual novel engine ("CatSystem2") by CSware ([website](https://cs2.suki.jp/)).*
 
 - [FelineSystem2](https://github.com/kokseen1/FelineSystem2) - Open-source remake of the CatSystem2 visual novel engine, reading original game script and asset data.
 - [TriggersTools.CatSystem2](https://github.com/trigger-segfault/TriggersTools.CatSystem2) - .NET library for extracting from and working with CatSystem2 visual novel engine files: decrypts/extracts KIF int archives, extracts HG-2/HG-3 images, and decompiles CST/FES/ANM scripts into a modifiable, recompilable state.
@@ -991,7 +992,7 @@
 
 #### CROWD / ANIM Engine
 
-*Visual novel engines ("CROWD" and "ANIM") used by games created by SIS Planning.*
+*Custom engine used by nearly all SIS Planning visual novels, branded as [ANIM](https://vndb.org/p212) (previously [CROWD](https://vndb.org/p36)).*
 
 - [FEW_Engine](https://github.com/TheVNConnoisseur/FEW_Engine) - Script editor that fully recompiles the `*_sce.dat` script files of CROWD and ANIM visual novels, tested only with Zetsuboushi, with notes on the compiled file layout.
 - [rePaCK_TKS](https://github.com/TheVNConnoisseur/rePaCK_TKS) - Unpacks and packs `.PCK` archives (file table, name list and raw data) used by CROWD and ANIM visual novels.
@@ -1024,6 +1025,8 @@
 - [AdibouPaziralDATConverter](https://github.com/BJNFNE/AdibouPaziralDATConverter) - Converts the `.DAT` cutscene files from *Adibou et le secret de Paziral* to/from common audio/video formats.
 
 #### EAGLS
+
+*Proprietary engine used by visual novels produced by [Tech Arts](https://vndb.org/p1085).*
 
 - [Eagls_engine_tool](https://github.com/vagmr/Eagls_engine_tool) - Windows C++ toolkit and Python scripts for EAGLS engine game resources: .pak unpacker and packer (optional decryption), BMP to GR image conversion, and text extraction/replacement; the source also covers .dat files, LZSS, and PNG/BMP conversion.
 
@@ -1150,11 +1153,14 @@
 - [csvParser](https://github.com/crskycode/csvParser) - Kirikiri CSV data-file parser plugin, with KirikiriZ support.
 - [tjs2-decompiler](https://github.com/crate-1556/tjs2-decompiler) - TJS2 (TJS2100) bytecode decompiler, converting compiled Kirikiri script bytecode back into readable/executable TJS2 source. See also [tjs2Decompiler](https://github.com/xmoezzz/tjs2Decompiler), a Rust TJS2 (Kirikiri2/Kirikiri-Z) bytecode loader and decompiler.
 - [TjsParser](https://github.com/MLChinoo/TjsParser) - C# parser for Kirikiri/KRKRZ TJS2 plaintext scripts, producing a strongly-typed AST/JSON output; also parses the `KBAD100` binary Dictionary/Array data format and detects whether a given file is TJS2100 bytecode, plaintext, or KBAD100 binary.
+- [Furikiri](https://github.com/UlyssesWu/Furikiri) - Managed (.NET) TJS2 bytecode disassembler and decompiler for compiled Kirikiri scripts; CLI decompiles or disassembles (`.tjsasm`) single files or whole folders.
 - [xp3-brute](https://github.com/xmoezzz/xp3-brute) - Unpacks, packs, and modifies Kirikiri (krkr) XP3 archives.
+- [krkrz-tools](https://github.com/yanchan09/krkrz-tools) - Python reverse engineering tools for Kirikiri Z: an XP3 archive index reader plus CxDec3 encryption support (key derivation, archive table parsing, hash database) for encrypted archives.
 - [HxGamePatch](https://github.com/pkuislm/HxGamePatch) - Patch enabling file extraction/analysis on newer Kirikiri-based games with updated encryption schemes.
 - [tlg-wic-codec](https://github.com/krkrz/tlg-wic-codec) - Kirikiri TLG image codec for the Windows Imaging Component.
 - [tlg_rs](https://github.com/Forlos/tlg_rs) - Rust CLI for converting Kirikiri's TLG image format (TLG0.0/TLG6.0) to PNG.
 - [tlg2png](https://github.com/vn-tools/tlg2png) - Converts Kirikiri TLG images to PNG (archived; merged into [arc_unpacker](https://github.com/vn-tools/arc_unpacker)).
+- [FreeMote.Tlg](https://github.com/UlyssesWu/FreeMote.Tlg) - .NET wrapper around `libtlg` (from tlg-wic-codec) for loading and saving Kirikiri TLG images; faster than GARbro's managed loader.
 - [VisualNovelUpscaler](https://github.com/hokejyo/VisualNovelUpscaler) - One-click AI upscaling remaster tool for Kirikiri2/Z and Artemis engine visual novels; unpacks archives, converts TLG images to PNG, upscales with waifu2x/Real-ESRGAN/RealSR, and repacks.
 - [fcf-editor](https://github.com/dorobo-hamster/fcf-editor) - Editor for FCF flowchart files used by the TypeMoon-modified version of Kirikiri to manage scene flow. See also [Hintay's fork](https://github.com/Hintay/fcf-editor) with a fix for loading multiple flag operations.
 - [Kirikiroid2](https://github.com/zeas2/Kirikiroid2) - Cross-platform (Android and other) port of the Kirikiri2/KirikiriZ engine, running original Kirikiri visual novel game data.
@@ -1209,7 +1215,7 @@
 
 #### LiveMaker
 
-*Visual novel engine ("LiveMaker") used by many Japanese visual novels.*
+*Shareware visual novel engine ("LiveMaker") created by [HumanBalance](https://humanbalance.net/).*
 
 - [pylivemaker](https://github.com/pmrowla/pylivemaker) - Python package for manipulating LiveMaker 3/LiveNovel game resources: extracts files from a LiveMaker `.exe`/`.dat`, dumps LSB files to readable text/XML, extracts and recompiles LiveNovel LNS scripts from LSB files, and patches modified LSB files back into the `.exe`/`.dat`.
 - [liveMaker_translate_tools](https://github.com/TTitanUA/liveMaker_translate_tools) - Console Python workflow built on pylivemaker for translating LiveMaker games: extracts resources from the game .exe/archive (images converted to PNG), dumps LSB scripts to CSV and i18n JSON for automatic (Azure AI Translator) or manual translation, and patches the translated text back into the LSB files and game.
@@ -1300,6 +1306,7 @@
 - [OnscripterYuri](https://github.com/YuriSizuku/OnscripterYuri) - Enhanced ONScripter engine port, running original ONScripter/NScripter game data across many platforms, with a focus on web (Emscripten/WASM).
 - [OpenARC](https://github.com/Nyarstot/OpenARC) - Decoder/encoder for the .arc archive format used by the ONScripter visual novel engine, based on the archive codebase from ONScripter-EN.
 - [nscript.dat-tool](https://github.com/danmig06/nscript.dat-tool) - Extraction/repacking tool for the `nscript.dat` script format used by NScripter/ONScripter-family engines.
+- [NtDec](https://github.com/UlyssesWu/NtDec) - Decryptor for ONScripter script files (`nscript.dat`, `nscr_sec.dat`, `nscript.___`, `onscript.nt`/`.nt2`/`.nt3`); only `onscript.nt` is tested.
 - [nstools](https://github.com/skydark/nstools) - Python scripts for NScripter/ONScripter games, including a converter from GBK-encoded `nscript.dat`/`00`-`99`.txt scripts to Japanese encoding and `onssaver.py`, which repairs `save*.dat` files after a script update.
 - [ponscripter-fork](https://github.com/07th-mod/ponscripter-fork) - Fork of the Ponscripter (NScripter-compatible) visual novel engine adding Steam-oriented features such as release-specific scaling modes; used to run 07th Expansion's Higurashi/Umineko Steam releases from their original script/archive data.
 
@@ -1492,7 +1499,7 @@
 
 #### Tmr-Hiro ADV System
 
-*ADV engine ("Tmr-Hiro") used in various Japanese visual novels.*
+*Proprietary ADV engine created by Marigold, whose best-known visual novel brand is [Lune](https://vndb.org/p490); its real name may be "AGE_System", which is unconfirmed.*
 
 - [TmrHiro_Tool](https://github.com/crskycode/TmrHiro_Tool) - Hack/extraction tool for the Tmr-Hiro ADV System, tested on [Kyonyuu Onna Senshi Dogeza Saimin](https://vndb.org/v26531).
 - [croCKer](https://github.com/TheVNConnoisseur/croCKer) - Reads and writes `.SRP` script and `.VAR` variable files used by Tmr-Hiro ADV System games (mostly Marigold-produced titles).
@@ -1510,10 +1517,11 @@
 
 #### Valkyria's Engine
 
-*Visual novel engine ("Valkyria's Engine") used in various Japanese visual novels.*
+*Proprietary visual novel engine ("MICo") made in-house by [VALKYRIA](https://vndb.org/p765).*
 
 - [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
 - [MICo_Guide](https://github.com/TheVNConnoisseur/MICo_Guide) - Wiki-based notes on the MICo engine used in Valkyria visual novels, covering container files, debug mode, version differences and initialization files, plus IDA databases of game executables, a `system.dat` 010 Editor bookmark CSV and a sample `MICo_Debug.ini`; image and script formats are still unfinished.
+- [Turune](https://github.com/TheVNConnoisseur/Turune) - Toolset for MICo engine files: image import/export, `.ini` export/import and `.odn` create/extract.
 
 #### Whale Engine
 
@@ -1771,10 +1779,15 @@
 - [gdke](https://github.com/char-ptr/gdke) - External GUI tool to extract the AES encryption key from Godot game binaries (3.x/4.x) without needing to run or patch the target executable. Builds on the same author's earlier [godot-key-extract](https://github.com/char-ptr/godot-key-extract), a CLI tool for the same technique.
 - [GodotPCKExplorer](https://github.com/DmitriySalnikov/GodotPCKExplorer) - GUI and CLI tool for exploring, extracting, creating, and merging Godot Engine `.pck` package files, with support for encrypted packs.
 - [godotdec](https://github.com/Bioruebe/godotdec) - Unpacker for Godot Engine `.pck` package files.
+- [godot-unpacker](https://github.com/tehskai/godot-unpacker) - Python unpacker for non-encrypted Godot `.pck` archives (or a `.pck` embedded in a game exe) that also converts `.tex`/`.stex`/`.oggstr` containers to webp/png/jpg/ogg (`--raw` keeps them intact).
 - [GodotPckTool.Rs](https://github.com/vagmr/GodotPckTool.Rs) - Rust command-line tool for Godot .pck files: list, extract, add, and repack with name/size filters, AES-256-CFB encrypted index and files (Godot 4+), multi-threaded brute-force search for the 32-byte key in executables, embedded PCK detect/rip/merge/split/remove, conversion between Godot 3.x, 4.x, and 4.4+ pack versions, and mod-style patch overlays.
 - [ctex-file-viewer](https://github.com/simple-idiot/ctex-file-viewer) - Single-page HTML tool that views and converts Godot `.ctex` compressed image textures to image files.
 - [godot-stex-to-png](https://github.com/ClementineAccount/godot-stex-to-png) - Python script that converts Godot `.stex` textures to PNG (archived; its README says godot-unpacker now includes this functionality).
 - [Unidot Importer](https://github.com/V-Sekai/unidot_importer) - Godot 4 addon that converts Unity `.unitypackage` files and asset folders into Godot-native formats (`.unity`/`.prefab` to `.tscn`, meshes, animations and materials to `.tres`/`.res`, FBX via glTF).
+
+#### HashLink (Haxe)
+
+- [crashlink](https://github.com/N3rdL0rd/crashlink) - Pure-Python HashLink bytecode toolkit for Haxe games: deserializes, disassembles, decompiles (partial), patches and reserializes `.hl` bytecode, with a GUI, CFG viewer, assembler/`.hlasm` round-tripping and an HL/C transpiler.
 
 #### HaxeFlixel
 

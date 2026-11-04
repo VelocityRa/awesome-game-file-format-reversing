@@ -214,7 +214,7 @@
 - [af (decomp)](https://github.com/zeldaret/af) - Matching decompilation of Animal Forest.
 - [ac-decomp (decomp)](https://github.com/acreteam/ac-decomp) - Matching decompilation of Animal Crossing (GameCube).
 - [afe-decomp (decomp)](https://github.com/acreteam/afe-decomp) - Matching decompilation of Animal Forest e+ (JP).
-- [ACGC-PC-Port](https://github.com/flyngmt/ACGC-PC-Port) - PC port of Animal Crossing (GameCube) based on ac-decomp decompilation project. X86-native code with OpenGL 3.3 graphics layer. Requires original game copy.
+- [Nookery](https://github.com/flyngmt/Nookery) - PC port of Animal Crossing (GameCube) based on ac-decomp decompilation project. X86-native code with OpenGL 3.3 graphics layer. Requires original game copy.
 - [acnl-editor](https://github.com/marcrobledo/acnl-editor) - Animal Crossing: New Leaf savegame editor made in HTML5.
 - [ACNLPatternTool](https://github.com/Thulinma/ACNLPatternTool) - Browser-based editor for Animal Crossing: New Leaf's ACNL pattern file format, reading/writing patterns as multi-part QR codes. See also [react-acnl-pattern-tool](https://github.com/DamSenViet/react-acnl-pattern-tool), a React.js rewrite of an earlier version (Archived), and [acpatterns-js](https://github.com/DamSenViet/acpatterns-js), a standalone JavaScript library extracted from that rewrite for parsing, editing, and previewing Animal Crossing pattern data/files.
 - [Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker](https://github.com/RealDarkCraft/Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker) - Python tool that unpacks and deserializes Animal Crossing: Pocket Camp Complete save files into raw and JSON files and repacks them; not a validating save editor.
@@ -703,6 +703,7 @@
 - [xlink2](https://github.com/shadowninja108/xlink2) - Converts XLINK (XLNK) binary link-table files to and from YAML, for Tears of the Kingdom and Splatoon 3; actively maintained continuation of the author's earlier research (superseding the archived dt-12345/xlink2-old).
 - [TOTK_Research](https://github.com/NSACloud/TOTK_Research) - Research and templates for The Legend of Zelda: Tears of the Kingdom.
 - [MapEditor](https://github.com/MrMystery-Official/MapEditor) - Map editor for The Legend of Zelda: Tears of the Kingdom.
+- [NxEditor](https://github.com/NX-Editor/NxEditor) - Plugin-based editor for first-party Nintendo formats, primarily for Tears of the Kingdom and other modern Nintendo Switch game files.
 - [ZeldaTOTK](https://github.com/turtle-insect/ZeldaTOTK) - Save data editor for The Legend of Zelda: Tears of the Kingdom (Switch).
 - [botw-editor](https://github.com/handsomematt/botw-editor) - Editor for The Legend of Zelda: Breath of the Wild game files. Includes dungeon editor and world viewer components. Supports BLWP and BFRES formats.
 - [Totk-ZstdTool](https://github.com/TotkMods/Totk-ZstdTool) - Simple tool for decompressing .zs (Zstandard) files from The Legend of Zelda: Tears of the Kingdom.

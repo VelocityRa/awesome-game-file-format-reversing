@@ -444,6 +444,7 @@
 
 - [wow.export](https://github.com/Kruithne/wow.export) - Export toolkit for World of Warcraft models and textures.
 - [WoWExportTools](https://github.com/Marlamin/WoWExportTools) - Export World of Warcraft assets to portable formats.
+- [WMVx](https://github.com/Frostshake/WMVx) - Fork and rewrite of Wow Model Viewer for browsing World of Warcraft models, supporting multiple client versions including Vanilla 1.12.1, TBC 2.4.3 and WotLK 3.3.5.
 - [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - Client database definitions for World of Warcraft (DBD files for extracting game data).
 - [wowlib](https://github.com/skarndev/wowlib) - Modern C++26 library for reading and writing World of Warcraft client files across every expansion (Vanilla through The War Within): WMO, M2 (+ `.skin`/`.anim`/`.skel`/`.bone`), ADT, WDT, WDL, BLP, and DBC/DB2 (WDBC through WDC5, with typed record structs for 1221 tables generated from WoWDBDefs); provides a unified MPQ (via StormLib)/CASC (via CascLib) filesystem gateway plus Python bindings via the companion [welder](https://github.com/skarndev/welder) reflection-based binding generator.
 - [OWLib](https://github.com/overtools/OWLib) - DataTool program that lets you extract models, maps, and files from Overwatch.
@@ -569,6 +570,7 @@
   - Features: canvas-rendered virtual grid built for large tables, cell/range/row/column selection, copy/cut/paste with fill operations, row/column insert/clone/hide/delete.
   - Built as a Tauri v2 desktop app.
   - See also [d2r-mergetxt](https://github.com/yinyin333333/d2r-mergetxt), a Windows app for merging two sets of Diablo II: Resurrected TXT files that shows only the differences needing a decision, and [TXT-to-JS-Generator-for-D2RMM](https://github.com/yinyin333333/TXT-to-JS-Generator-for-D2RMM), which diffs original and edited D2R `.txt` folders to generate D2RMM `mod.js` code.
+- [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - Editor for Diablo II (LoD and Resurrected) `.txt` data files with a workspace folder view, tabbed editing, undo/redo, multi-row editing, search and row insert/copy/delete.
 - [D2MOO](https://github.com/ThePhrozenKeep/D2MOO) - Reimplementation of Diablo II with patching facilities for modders.
 - [Worldstone](https://github.com/Lectem/Worldstone) - C++ Diablo II tools and engine reimplementation; its viewer app browses MPQ archives and displays DC6 and DCC sprites, DAT and PL2 palettes and palette shifts, and COF animation information, and it can generate PL2 palette-shift files.
 - [d2s-format](https://github.com/krisives/d2s-format) - Documentation and reference implementation for Diablo II's .d2s save file format.
