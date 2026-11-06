@@ -151,32 +151,46 @@
 
 #### Terminal Reality
 
-##### Tools / Libraries
+##### Libraries
+
+- [termpod](https://sr.ht/~joneqdaniel/termpod) - Terminal Reality POD{1,2,3,4,5,6}/EPD file format archive C++ library 
+- [OpenPhotex](https://github.com/juanputrerasm/OpenPhotex) - Terminal Reality core format library in TypeScript
+
+##### Tools
 
 - [Poddy](https://github.com/dummiesman/Poddy) - POD Manipulation tool for all Terminal Reality Inc. games/software formats
-- [termpod](https://github.com/lndpj/termpod) - Terminal Reality POD{1,2,3,4,5,6}/EPD file format archive C++ library 
-- [JPod](https://github.com/juanputrerasm/JPod) - Terminal Reality POD archive utility 
-- [JSPod](https://github.com/juanputrerasm/JSPod) - Online Terminal Reality POD archive viewer
-- [JPodman](https://github.com/juanputrerasm/JPodman) - Terminal Reality games POD mounting utility
+- [termpod/podorgana](https://git.sr.ht/~joneqdaniel/termpod/tree/main/item/examples/podorgana) - POD archive viewer/extractor for CLI in C++
+- [JPod](https://github.com/juanputrerasm/JPod) - Terminal Reality POD archive utility in Java
+- [JPodman](https://github.com/juanputrerasm/JPodman) - Terminal Reality games POD mounting utility in Java
+- [KPod](https://github.com/juanputrerasm/KPod) - Terminal Reality POD archive utility in C#
+- [KPodman](https://github.com/juanputrerasm/JPodman) - Terminal Reality games POD mounting utility in C#
+- [JSPod](https://github.com/juanputrerasm/JSPod) - Online Terminal Reality POD archive viewer in Javascript
+- [JSTrackViewer](https://github.com/juanputrerasm/JSTrackViewer) - Online browser-based 3D viewer for Terminal Reality game track/level archives (POD files); decodes terrain, textures, and object placement client-side. Covers Monster Truck Madness, Monster Truck Madness 2, Terminal Velocity, Fury3/F-Zone, Hellbender, and CART Precision Racing.
+- [JSTruckViewer](https://github.com/juanputrerasm/JSTruckViewer) - Online browser-based 3D viewer for Monster Truck Madness 2 (MTM2) truck files, decoding truck mesh, textures, and wheel placement client-side from POD/ZIP archives.
 - [TermPod](https://github.com/KeyofBlueS/TermPod) - Terminal Reality POD (archive) managment tool.
 - [podextract](https://github.com/foone/podextract) - Python extractor for POD archives from Terminal Reality games.
-- [JSPod (JSTrackViewer)](https://github.com/juanputrerasm/JSTrackViewer) - Online browser-based 3D viewer for Terminal Reality game track/level archives (POD files); decodes terrain, textures, and object placement client-side. Covers Monster Truck Madness, Monster Truck Madness 2, Terminal Velocity, Fury3/F-Zone, Hellbender, and CART Precision Racing.
-- [JSTruckViewer](https://github.com/juanputrerasm/JSTruckViewer) - Online browser-based 3D viewer for Monster Truck Madness 2 (MTM2) truck files, decoding truck mesh, textures, and wheel placement client-side from POD/ZIP archives.
-- [KPodman](https://github.com/juanputrerasm/KPodman) - Windows-focused Terminal Reality games POD mounting utility, complementing JPodman above with a native GUI.
 
 ##### Documentation
 
-- [termpod](https://github.com/lndpj/termpod/wiki) - Terminal Reality POD file format Documentation and related resources.
+- [termpod](https://man.sr.ht/~joneqdaniel/termpod/wiki) - Terminal Reality POD file format Documentation and related resources.
 - [jtrfp](https://github.com/jtrfp/jtrfp/wiki) - Java library providing file parsers for Terminal Reality game formats, intended as a dependency for game re-implementation projects.
 
 ##### POD1 Style (POD1,EPD,POD2,POD6)
 
 ###### Terminal Velocity / Fury3
 
+- [TerminalFury](https://shadowmavericks.com/#/projects/terminalfury.php) - OpenGL remake based on the original source code with NDA for Terminal Velocity, Fury3, F!Zone, and Hellbender.
 - [terminal-recall](https://github.com/jtrfp/terminal-recall) - Open-source engine remake for Terminal Velocity and Fury3 that reads and renders original game data files. Built on jtrfp.
+- [hellbender (decomp)](https://github.com/sp00nznet/hellbender) - Static recompilation of Hellbeder
+- [fury3](https://github.com/sp00nznet/fury3) - Static recompilation of Fury3
+
+###### Monster Truck Madness 1 / 2
+
+- [OpenMTM2](https://github.com/juanputrerasm/OpenMTM2) - Online open source implementation of Monster Truck Madness 2
 
 ###### Nocturne
 
+- [nocturne (decomp)](https://github.com/sp00nznet/nocturne) - Static recompilation of Nocturne.
 - [NocturneDecomp (decomp)](https://github.com/NearlyTRex/NocturneDecomp) - Matching decompilation of Nocturne.
 
 ##### POD3 Style (POD3,POD4,POD5)
@@ -186,12 +200,12 @@
 - [RedRayne](https://github.com/americusmaximus/RedRayne) - Open-source reverse-engineered implementation of Terminal Reality's BloodRayne (2002), reading original game assets with DX8, DX9, and OpenGL renderer support.
 - [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
 
-##### 4x4 Evolution
+###### 4x4 Evolution
 
 - [4x4 Evolution](https://github.com/americusmaximus/4x4e) - Open source implementation of 4x4 Evolution (Build 57) with resource management, audio, video rendering, and high-resolution display support.
 - [SMFImportExport](https://github.com/Dummiesman/SMFImportExport) - Blender addon for importing/exporting 4x4 Evolution SMF 3D model format with texture support (RAW, ACT, OPA formats).
 
-##### 4x4 Evolution 2
+###### 4x4 Evolution 2
 
 - [4x4 Evolution 2](https://github.com/americusmaximus/4x4e2) - Open source implementation of 4x4 Evolution 2 (Build 139) with resource management, high-resolution graphics support, and DirectX improvements.
 

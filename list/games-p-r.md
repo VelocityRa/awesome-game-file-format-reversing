@@ -105,15 +105,6 @@
 
 #### Phenomic
 
-##### SpellForce
-
-- [spellforce_data_editor](https://github.com/leszekd25/spellforce_data_editor) - Data editor for the SpellForce series, reading and writing the game's Gamedata.cff data file.
-- [spellforce_blender_plugins](https://github.com/leszekd25/spellforce_blender_plugins) - Blender plugins for importing/exporting SpellForce's 3D model, animation, and level formats, by the same author as spellforce_data_editor.
-- [Spellforce-Spell-Framework](https://github.com/muddykat-tech/Spellforce-Spell-Framework) - Modding framework easing the creation of new spells for SpellForce: Platinum Edition.
-- [tirganach](https://github.com/krateng/tirganach) - Python library for easier editing of SpellForce's GameData.cff file, an alternative to spellforce_data_editor.
-- [SF2-ImpEx-for-Blender](https://github.com/Maxxxel/SF2-ImpEx-for-Blender) - Blender import/export tool for SpellForce 2 assets.
-- [SpellForce-Freegame-Save-Editor](https://github.com/Spellforcawka/SpellForce-Freegame-Save-Editor) - C# editor for SpellForce: The Order of Dawn Free Game mode save files (campaign saves unsupported), with avatar validation and automatic backup.
-
 ##### BattleForge
 
 - [SR-ImpEx-for-Blender](https://github.com/Maxxxel/SR-ImpEx-for-Blender) - Blender add-on to import/export BattleForge / Skylords Reborn 3D models, animations, materials, and collisions (DRS, BMG, SKA formats). Same author's earlier [BattleForgeToDDCs](https://github.com/Maxxxel/BattleForgeToDDCs) mass-converts .DRS models to glTF for use in other DCC tools (Maya, Houdini, 3ds Max).
