@@ -440,22 +440,26 @@
 
 ### 🔍 Hex Editors
 
-- [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 - [ImHex](https://github.com/WerWolv/ImHex) - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
+- [hexerator](https://github.com/crumblingstatue/hexerator) - Versatile GUI hex editor focused on binary file exploration and aiding pattern recognition. Written in Rust.
+- [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 - [btparser](https://github.com/x64dbg/btparser) - Lexer/parser library for 010 Editor's Binary Template (.bt) language, for programmatically consuming binary templates outside of 010 Editor itself.
 - [TotalByteInformer](https://github.com/wattostudios/TotalByteInformer) - Hex-viewer-style raw data interpreter by the GameExtractor author, built for identifying unknown file formats: side-by-side multi-file comparison, hex/byte/char views, little- and big-endian value interpretations and bit-shift/bit-swap operations. Viewing only, no editing.
+- [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
+- [hobbits](https://github.com/Mahlet-Inc/hobbits) - Multi-platform GUI for bit-based analysis, processing, and visualization of binary data, with a plugin system for custom parsers.
+
+#### Hex Dumper & Viewer
+
+- [vim/xxd](https://github.com/vim/vim/tree/master/src/xxd) - Standalone version of vim's xxd.
+- [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - Command-line hexdump with colored output, based on [xcd](https://git.sr.ht/~breadbox/xcd).
+- [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
+- [pytai](https://github.com/Dvd848/pytai) - Python-based interactive hex viewer and Kaitai Struct visualizer, rendering a binary file's parsed structure tree alongside its raw bytes.
 
 #### Scripts & Templates
 
 - [Alpha-Offset-Fixer](https://github.com/alphazolam/Alpha-Offset-Fixer) - 010 Editor script to help with relative offsets in binary templates.
-- [hexerator](https://github.com/crumblingstatue/hexerator) - Versatile GUI hex editor focused on binary file exploration and aiding pattern recognition. Written in Rust.
-- [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
-- [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
-- [hobbits](https://github.com/Mahlet-Inc/hobbits) - Multi-platform GUI for bit-based analysis, processing, and visualization of binary data, with a plugin system for custom parsers.
-- [pytai](https://github.com/Dvd848/pytai) - Python-based interactive hex viewer and Kaitai Struct visualizer, rendering a binary file's parsed structure tree alongside its raw bytes.
-- [xcd-rgb](https://anongit.hacktivis.me/git/xcd-rgb.git) - Command-line hexdump with colored output, based on [xcd](https://git.sr.ht/~breadbox/xcd).
 - [binxelview](https://github.com/bbbradsmith/binxelview) - Binary image explorer that renders raw binary data as a bitmap at adjustable width/bit-depth/palette, for visually spotting embedded graphics data inside ROMs and other game files.
 - [viewnes](https://github.com/bisqwit/viewnes) - SDL-based hex/graphics viewer for NES ROMs, rendering CHR tile graphics alongside a hex-and-text view of ROM/VROM banks for visual inspection.
 
