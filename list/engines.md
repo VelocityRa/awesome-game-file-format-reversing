@@ -1185,6 +1185,20 @@
 - [KrkrDataLoader](https://github.com/pjh456/KrkrDataLoader) - Loader/dumper for Kirikiri engine `.xp3` archive data and TJS2 script bytecode.
 - [scntranslate](https://github.com/respectZ/scntranslate) - Batch translator for KirikiriZ `.scn`/`.scm` (PSB/MDF) script files, extracting strings, machine-translating them via a local/OpenAI-compatible LLM, and serializing the result back into the original binary format.
 
+#### KRASS Engine (Massive Development)
+
+*3D Engine used in the AquaNox and Spellforce series including (MSB,MSH,BOB,BOR) 3D model formats*
+
+- [libkrass](https://sr.ht/~joneqdaniel/libkrass) - KRASS engine 3D model format library in C++
+- [spellforce_data_editor](https://github.com/leszekd25/spellforce_data_editor) - Data editor for the SpellForce series, reading and writing the game's Gamedata.cff data file.
+- [spellforce_blender_plugins](https://github.com/leszekd25/spellforce_blender_plugins) - Blender plugins for importing/exporting SpellForce's 3D model, animation, and level formats, by the same author as spellforce_data_editor.
+- [Spellforce-Spell-Framework](https://github.com/muddykat-tech/Spellforce-Spell-Framework) - Modding framework easing the creation of new spells for SpellForce: Platinum Edition.
+- [SF2-ImpEx-for-Blender](https://github.com/Maxxxel/SF2-ImpEx-for-Blender) - Blender import/export tool for SpellForce 2 assets.
+- [SpellForce-Freegame-Save-Editor](https://github.com/Spellforcawka/SpellForce-Freegame-Save-Editor) - C# editor for SpellForce: The Order of Dawn Free Game mode save files (campaign saves unsupported), with avatar validation and automatic backup.
+- [tirganach](https://github.com/krateng/tirganach) - Python library for easier editing of SpellForce's GameData.cff file, an alternative to spellforce_data_editor.
+- [aquanox-game-modding](https://github.com/stefan-eenhuis/aquanox-game-modding) - Modding research of the original Aquanox game from Massive Development.
+- [aquanox-tools](https://github.com/Swyter/aquanox-tools) - Some lightweight reverse-engineering of the first AquaNox's file formats to find out how it works.
+
 #### Kurumi Engine
 
 *Visual novel engine ("Kurumi") used in various Japanese visual novels.*
