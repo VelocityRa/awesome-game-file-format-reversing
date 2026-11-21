@@ -499,6 +499,7 @@
 #### Disassemblers, Decompilers & Analysis Frameworks
 
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - NSA's software reverse engineering (SRE) framework. Includes disassembly, assembly, decompilation, graphing, and scripting. Extensible through Java and Python plugins.
+- [REA](https://github.com/morluto/rea) - Local CLI and MCP server for reverse engineering that lists and extracts files from unencrypted Godot PCK archives without Godot, and supports native binary analysis through tools such as Ghidra.
 - [Cutter](https://github.com/rizinorg/cutter) - Free and open-source GUI-based reverse engineering platform powered by Rizin, for analyzing game binaries and file formats.
 - [RetDec](https://github.com/avast/retdec) - Retargetable machine-code decompiler based on LLVM, supporting multiple architectures and file formats — useful for reverse engineering game binaries. Currently in limited maintenance.
 - [Ouroboros](https://github.com/Hexorg/Ouroboros) - Symbolic-execution decompiler written in Rust. Recovers high-level structure from binaries using symbolic execution and constraint tracking. Features CFG recovery, structural reconstruction (if/else, loops), calling convention inference, and beautiful UI with egui.
