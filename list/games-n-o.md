@@ -15,7 +15,7 @@
 - [GbxRemote.Net](https://github.com/EvoEsports/GbxRemote.Net) - Async .NET library for the XML-RPC protocol used by Trackmania dedicated servers.
 - [tm-essentials](https://github.com/BigBang1112/tm-essentials) - Lightweight library providing common formatting helpers for Trackmania development.
 - [GbxMapBrowser](https://github.com/ArkadySK/GbxMapBrowser) - Browser/explorer for Trackmania/ShootMania `.gbx` map and replay files, powered by GBX.NET.
-- [nations-converter](https://github.com/BigBang1112/nations-converter) - Converts Trackmania Sunrise/Nations ESWC/United Forever/Turbo maps to Trackmania (2020), powered by GBX.NET.
+- [nations-converter](https://github.com/BigBang1112/nations-converter) (archived) - Converts Trackmania Sunrise/Nations ESWC/United Forever/Turbo maps to Trackmania (2020), powered by GBX.NET.
 - [tm-map-gbx-to-advanced](https://github.com/emkons/tm-map-gbx-to-advanced) - Converts Trackmania `Map.Gbx` files from Simple to Advanced editor mode.
 - [gbxclient-node](https://github.com/EvoEsports/gbxclient-node) - Node.js XML-RPC client for Trackmania dedicated servers.
 - [island-converter](https://github.com/bigbang1112-cz/island-converter) - Converts any Island environment map from Trackmania (TMUF, TMU, or TMS) to be compatible with the community-made ManiaPlanet titlepack TM² Island.
@@ -34,7 +34,7 @@
 - [open-ribbon (decomp)](https://github.com/open-ribbon/open-ribbon) - Matching decompilation of VIB Ribbon (PS1, PAL).
 - [Murugo/Misc-Game-Research (Vib-Ribbon)](https://github.com/Murugo/Misc-Game-Research/tree/main/PS1/Vib-Ribbon) - Reverse engineering notes for Vib-Ribbon (PS1).
 - [VibRipper](https://github.com/resistiv/VibRipper) - Actively-maintained successor to VibRibbonPakExtractor below, unpacking and repacking Vib-Ribbon's PAK archive format.
-- [VibRibbonPakExtractor](https://github.com/resistiv/VibRibbonPakExtractor) - Extraction tool for Vib-Ribbon's original PAK archive format. Superseded by VibRipper above.
+- [VibRibbonPakExtractor](https://github.com/resistiv/VibRibbonPakExtractor) (archived) - Extraction tool for Vib-Ribbon's original PAK archive format. Superseded by VibRipper above.
 
 #### Her Interactive (Nancy Drew)
 
@@ -86,7 +86,7 @@
 
 ##### LifeAfter
 
-- [LA.NPK.Tool](https://github.com/Ekey/LA.NPK.Tool) - Tool for extracting NPK archives from LifeAfter, NetEase's post-apocalyptic survival game.
+- [LA.NPK.Tool](https://github.com/Ekey/LA.NPK.Tool) (archived) - Tool for extracting NPK archives from LifeAfter, NetEase's post-apocalyptic survival game.
 ##### NeoX Engine
 
 - [neox_tools](https://github.com/zhouhang95/neox_tools) - Extracts NetEase NeoX Engine EXPK/NXPK archives and converts the resulting `.mesh` models to OBJ/IQE; includes a dedicated extractor variant for Onmyoji.
@@ -119,9 +119,9 @@
 - [wzpp](https://github.com/koolkdev/wzpp) - C++ library for reading MapleStory's WZ archive format.
 - [wzmapeditor](https://github.com/koolkdev/wzmapeditor) - Map editor for MapleStory.
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) - MapleStory WZ archive extractor and viewer, with support for browsing and exporting game assets.
-- [reWZ](https://github.com/angelsl/reWZ) - C# library for reading MapleStory's WZ archive format.
-- [reNX](https://github.com/angelsl/reNX) - C# library for reading MapleStory's NX (PKG4) archive format, the successor to WZ.
-- [wz2nx](https://github.com/angelsl/wz2nx) - Tool to convert MapleStory WZ archives to the NX (PKG4) format.
+- [reWZ](https://github.com/angelsl/reWZ) (archived) - C# library for reading MapleStory's WZ archive format.
+- [reNX](https://github.com/angelsl/reNX) (archived) - C# library for reading MapleStory's NX (PKG4) archive format, the successor to WZ.
+- [wz2nx](https://github.com/angelsl/wz2nx) (archived) - Tool to convert MapleStory WZ archives to the NX (PKG4) format.
 - [MapleStory-Porting (Pharaoh)](https://github.com/flwmxd/MapleStory-Porting) - Collection of MapleStory tools including a client-editor, file-browser, and client, supporting the game's WZ files.
 - [WzTools](https://github.com/flwmxd/WzTools) - C++ reader library for MapleStory's WZ client resource files, exposing a node-based (`WzFile`/`WzNode`) API for browsing archive contents.
 - [Limbs_XML_Parser](https://github.com/sirLimbs/Limbs_XML_Parser) - GUI tool for parsing and diffing XML exports of MapleStory's Map.wz data, extracting and comparing object, NPC, monster, reactor, and background placements across map versions.
@@ -147,11 +147,11 @@
 - [DataDog](https://github.com/exectails/DataDog) - Viewer for Mabinogi data files.
 - [Morrighan](https://github.com/exectails/Morrighan) - Client proxy for Mabinogi, used for modding and protocol inspection.
 - [mabi-pack](https://github.com/regomne/mabi-pack) - Rust CLI to extract, list, and create Mabinogi `.pack` archives.
-  - See also [mabi-pack2](https://github.com/regomne/mabi-pack2), a successor tool for the newer `.it` package format (no longer updated since the developers began actively resisting unpacking).
+  - See also [mabi-pack2](https://github.com/regomne/mabi-pack2) (archived), a successor tool for the newer `.it` package format (no longer updated since the developers began actively resisting unpacking).
 
 ##### Blue Archive
 
-- [Kivotos Halo Asset Tool](https://github.com/minhmc2007/Kivotos-Halo-Asset-Tool) - Cross-platform (Windows/Android via Termux) toolkit for extracting and repacking Blue Archive's Unity asset bundles, with an interactive menu tailored to the game's file structure.
+- [Kivotos Halo Asset Tool](https://github.com/minhmc2007/Kivotos-Halo-Asset-Tool) (archived) - Cross-platform (Windows/Android via Termux) toolkit for extracting and repacking Blue Archive's Unity asset bundles, with an interactive menu tailored to the game's file structure.
 - [gonx](https://github.com/Hucaru/gonx) - Reader/library for Nexon's NX file format, used by MapleStory and other Nexon games.
 - [BA2LW](https://github.com/bungaku-moe/BA2LW) - Blue Archive Memorial Lobby interactive live wallpaper, rendering the game's lobby character assets on the desktop.
 - [blue-archive-viewer](https://github.com/respectZ/blue-archive-viewer) - Blue Archive resource viewer and asset-catalog fetcher, covering both EN and JP servers, with a CG gallery and Live2D/Spine skeleton viewer.
@@ -189,8 +189,8 @@
 
 *See also [JSYSTEM](middleware.md#jsystem-gamecubewii) for additional format tools used in this game.*
 
-- [010Editor-AnimalCrossing-Templates](https://github.com/Cuyler36/010Editor-AnimalCrossing-Templates) - Binary templates for analyzing Animal Crossing file formats in 010 Editor.
-- [AC-Audiobank-Dumper](https://github.com/Cuyler36/AC-Audiobank-Dumper/tree/main/AC%20Audiobank%20Dumper) - Tool for extracting audio from Animal Crossing audio banks.
+- [010Editor-AnimalCrossing-Templates](https://github.com/Cuyler36/010Editor-AnimalCrossing-Templates) (archived) - Binary templates for analyzing Animal Crossing file formats in 010 Editor.
+- [AC-Audiobank-Dumper](https://github.com/Cuyler36/AC-Audiobank-Dumper/tree/main/AC%20Audiobank%20Dumper) (archived) - Tool for extracting audio from Animal Crossing audio banks.
 - [ACNESCreator](https://github.com/Cuyler36/ACNESCreator) - NES ROM editor for Animal Crossing.
 - [ACWC24](https://github.com/SunakazeKun/ACWC24) - Creates distributable DLC files (items, patterns, and letters) for Animal Crossing: City Folk as U8 archives, with WC24 encryption when the user supplies the keys, for use with RiiConnect24. (Archived.)
 - [LibACNH](https://github.com/Slattz/LibACNH) - C++ library for parsing file formats and algorithms used by Animal Crossing: New Horizons.
@@ -206,11 +206,11 @@
 - [MyHorizons](https://github.com/Cuyler36/MyHorizons) - Archived. Work-in-progress Animal Crossing: New Horizons save editor.
 - [HorizonCrypt](https://github.com/Cuyler36/HorizonCrypt) - Archived. Animal Crossing: New Horizons save encryptor/decryptor.
 - [ACSE](https://github.com/Cuyler36/ACSE) - Animal Crossing Save Editor for GameCube.
-- [Animal-Crossing-Model-Editor](https://github.com/Cuyler36/Animal-Crossing-Model-Editor) - 3D model editor for Animal Crossing.
-- [Animal-Crossing-Texture-Editor](https://github.com/Cuyler36/Animal-Crossing-Texture-Editor) - Texture editing tool for Animal Crossing.
-- [Cross-View](https://github.com/Cuyler36/Cross-View) - Model viewer for Animal Crossing.
+- [Animal-Crossing-Model-Editor](https://github.com/Cuyler36/Animal-Crossing-Model-Editor) (archived) - 3D model editor for Animal Crossing.
+- [Animal-Crossing-Texture-Editor](https://github.com/Cuyler36/Animal-Crossing-Texture-Editor) (archived) - Texture editing tool for Animal Crossing.
+- [Cross-View](https://github.com/Cuyler36/Cross-View) (archived) - Model viewer for Animal Crossing.
 - [ac-editor-stringtables](https://github.com/jamchamb/ac-editor-stringtables) - Kotlin/TornadoFX string table editor for Animal Crossing (GameCube); the tables are extracted from `forest_1st.arc` and `forest_2nd.arc` with a RARC unpacker.
-- [RELDumper](https://github.com/Cuyler36/RELDumper) - Tool for dumping REL files from Animal Crossing.
+- [RELDumper](https://github.com/Cuyler36/RELDumper) (archived) - Tool for dumping REL files from Animal Crossing.
 - [af (decomp)](https://github.com/zeldaret/af) - Matching decompilation of Animal Forest.
 - [ac-decomp (decomp)](https://github.com/acreteam/ac-decomp) - Matching decompilation of Animal Crossing (GameCube).
 - [afe-decomp (decomp)](https://github.com/acreteam/afe-decomp) - Matching decompilation of Animal Forest e+ (JP).
@@ -218,10 +218,10 @@
 - [acnl-editor](https://github.com/marcrobledo/acnl-editor) - Animal Crossing: New Leaf savegame editor made in HTML5.
 - [ACNLPatternTool](https://github.com/Thulinma/ACNLPatternTool) - Browser-based editor for Animal Crossing: New Leaf's ACNL pattern file format, reading/writing patterns as multi-part QR codes. See also [react-acnl-pattern-tool](https://github.com/DamSenViet/react-acnl-pattern-tool), a React.js rewrite of an earlier version (Archived), and [acpatterns-js](https://github.com/DamSenViet/acpatterns-js), a standalone JavaScript library extracted from that rewrite for parsing, editing, and previewing Animal Crossing pattern data/files.
 - [Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker](https://github.com/RealDarkCraft/Animal-Crossing-Pocket-Camp-Complete-Save-UnPacker) - Python tool that unpacks and deserializes Animal Crossing: Pocket Camp Complete save files into raw and JSON files and repacks them; not a validating save editor.
-- [ACNL_Research](https://github.com/Slattz/ACNL_Research) - Research on Animal Crossing: New Leaf's inner workings, obtained through reverse engineering the game's code and savefile.
+- [ACNL_Research](https://github.com/Slattz/ACNL_Research) (archived) - Research on Animal Crossing: New Leaf's inner workings, obtained through reverse engineering the game's code and savefile.
   - Contents: 010 Editor templates, MSBT tag research, SpotPass research, Dream Town downloading, HHS Exhibition data, fish data.
 - [NLTK](https://github.com/Slattz/NLTK) - Archived. Animal Crossing: New Leaf save editor and toolkit.
-- [ACNL_REditor](https://github.com/Slattz/ACNL_REditor) - Animal Crossing: New Leaf ROM editor for patching the game's code and files with quality-of-life gameplay changes.
+- [ACNL_REditor](https://github.com/Slattz/ACNL_REditor) (archived) - Animal Crossing: New Leaf ROM editor for patching the game's code and files with quality-of-life gameplay changes.
 - [ACNL_SFC](https://github.com/Slattz/ACNL_SFC) - Archived proof-of-concept C++ tool that creates custom SpotPass (DLC) files for Animal Crossing: New Leaf (Post Office presents and Campground RVs); needs CFW and a `boot9.bin` dump for encryption and decryption.
 - [CGFXModel](https://github.com/captainsouthbird/CGFXModel) - Attempt at editing Animal Crossing: New Leaf villagers and other CGFX model data. (Archived.)
 - [Turnips](https://github.com/averne/Turnips) - Homebrew Nintendo Switch application that reads Animal Crossing: New Horizons save data directly to preview turnip (stalk market) prices.
@@ -235,7 +235,7 @@
 *PCM audio format used in various Nintendo games.*
 
 - [Nintendo-AST-Creator](https://github.com/gheskett/Nintendo-AST-Creator) - Tool for creating AST audio files for Nintendo games.
-- [ast_to_wav](https://github.com/jdflyer/ast_to_wav) - Converter for AST audio files to WAV format.
+- [ast_to_wav](https://github.com/jdflyer/ast_to_wav) (archived) - Converter for AST audio files to WAV format.
 - [MeltyTool (AST)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Formats/Ast) - AST audio format viewer/converter.
 - [jatast](https://github.com/XAYRGA/jatast) - JAudio AST format tool.
 
@@ -254,7 +254,7 @@
 - [LM2Decomp](https://github.com/iliasHDZ/LM2Decomp) - Work-in-progress decompilation of Luigi's Mansion 2: Dark Moon (3DS), reverse engineering the Next Level Games engine's resource/dictionary file loading, texture parsing, and rendering code.
 - [LM2_SaveEditor](https://github.com/TollyH/LM2_SaveEditor) - Save editor/converter for Luigi's Mansion 2: Dark Moon (3DS/Switch).
 - [NLOC-Tool](https://github.com/RoadrunnerWMC/NLOC-Tool) - Tool for working with NLOC localization/message files from Luigi's Mansion: Dark Moon.
-- [MdlConverter](https://github.com/KillzXGaming/MdlConverter) - Converter for Luigi's Mansion (GameCube)'s `.mdl` model format, building on format research by opeyx and SpaceCats.
+- [MdlConverter](https://github.com/KillzXGaming/MdlConverter) (archived) - Converter for Luigi's Mansion (GameCube)'s `.mdl` model format, building on format research by opeyx and SpaceCats.
 - [NLG_Research](https://github.com/KillzXGaming/NLG_Research) - Wiki documenting Next Level Games' internal engine and file formats, covering Luigi's Mansion 2, Luigi's Mansion 3, and Mario Strikers.
 - [NextLevelLibrary](https://github.com/KillzXGaming/NextLevelLibrary) - Library for Next Level Games' NLG file formats, specifically the LM2 and LM3 archive/asset formats used in Luigi's Mansion 2 and Luigi's Mansion 3.
 
@@ -376,7 +376,7 @@
 ###### Super Mario Galaxy & Odyssey
 
 - [OdysseyDecomp (decomp)](https://github.com/MonsterDruide1/OdysseyDecomp) - Matching decompilation of Super Mario Odyssey for all versions. See also [OdysseyHeaders](https://github.com/RicBent/OdysseyHeaders), auto-generated C++ header files for all of the game's symbols, aiding manual documentation/modding work.
-- [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) - Level editor for Super Mario Odyssey and other Switch games using the same engine.
+- [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) (archived) - Level editor for Super Mario Odyssey and other Switch games using the same engine.
 - [noclip.website (Super Mario Odyssey)](https://github.com/magcius/noclip.website/tree/main/src/fres_nx) - In-browser Super Mario Odyssey viewer, with a from-scratch reader for the Switch NX graphics formats: BFRES models, BNTX textures (including Tegra swizzle/block-linear decoding), and SARC archives.
 - [noclip.website (Super Mario Galaxy)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy viewer.
 - [noclip.website (Super Mario Galaxy 2)](https://github.com/magcius/noclip.website/tree/main/src/SuperMarioGalaxy) - In-browser Super Mario Galaxy 2 viewer.
@@ -457,7 +457,7 @@
 - [marioparty4 (decomp)](https://github.com/mariopartyrd/marioparty4) - Matching decompilation of Mario Party 4.
 - [MPLibrary](https://github.com/KillzXGaming/MPLibrary) - Library for reading and writing Mario Party file formats.
 - [Party-Studio](https://github.com/MapStudioProject/Party-Studio) - Board editor for Mario Party Superstars (and planned support for older games), by the same developer as the original [KillzXGaming/Party-Studio](https://github.com/KillzXGaming/Party-Studio); more actively maintained.
-- [BEA-Library-Editor](https://github.com/KillzXGaming/BEA-Library-Editor) - Library and editor for rebuilding, adding, and removing files in Bezel Engine Archive (.bea) files, used by the Super Mario Party series.
+- [BEA-Library-Editor](https://github.com/KillzXGaming/BEA-Library-Editor) (archived) - Library and editor for rebuilding, adding, and removing files in Bezel Engine Archive (.bea) files, used by the Super Mario Party series.
 - [partyboard](https://github.com/mariopartyrd/partyboard) - Work-in-progress PC port of Mario Party 4 that loads the original game's assets.
 - [MP8RE](https://github.com/furrz/MP8RE) - Reverse engineering and language tools for Mario Party 8, converting the game's "mess" language files between JSON and binary with documented control-code and encoding tables.
 
@@ -498,7 +498,7 @@
 - [SMW-Data](https://github.com/Ankouno/SMW-Data) - Compiled technical documentation on Super Mario World and SNES-related ROM internals.
 - [smb3 (disasm)](https://github.com/captainsouthbird/smb3) - Disassembly of Super Mario Bros. 3 (NES).
 - [SMAS-Disassembly](https://github.com/Maseya/SMAS-Disassembly) - Disassembly of the Super Mario All-Stars ROM (SNES).
-- [SMB3Utilties](https://github.com/captainsouthbird/SMB3Utilties) - NoDice level editor and MusConv music converter companion tools for captainsouthbird's Super Mario Bros. 3 disassembly.
+- [SMB3Utilties](https://github.com/captainsouthbird/SMB3Utilties) (archived) - NoDice level editor and MusConv music converter companion tools for captainsouthbird's Super Mario Bros. 3 disassembly.
 - [SMBLevelDrawer](https://github.com/IsoFrieze/SMBLevelDrawer) - Draws images of Super Mario Bros. (NES) level data.
 - [sma2-disasm](https://github.com/KarisaAdvynia/sma2-disasm), [sma3-disasm](https://github.com/KarisaAdvynia/sma3-disasm), [sma4-disasm](https://github.com/KarisaAdvynia/sma4-disasm), and [smbdx-disasm](https://github.com/KarisaAdvynia/smbdx-disasm) - Disassemblies of the four Super Mario Advance GBA ports: Super Mario World, Yoshi's Island, Super Mario Bros. 3, and Super Mario Bros. Deluxe respectively, by the same author as Advynia above.
   - See also [smbdxtll](https://github.com/KarisaAdvynia/smbdxtll), a Super Mario Bros. Deluxe: The Lost Levels hack built on smbdx-disasm.
@@ -517,7 +517,7 @@
 ###### Other Games & Decompilations
 
 - [bba-wd (decomp)](https://github.com/vabold/bba-wd) - Matching decompilation of Big Brain Academy: Wii Degree.
-- [bodyharvestdecomp (decomp)](https://github.com/deltaniumindustries/bodyharvestdecomp) - Matching decompilation of Body Harvest (N64).
+- [bodyharvestdecomp (decomp)](https://github.com/deltaniumindustries/bodyharvestdecomp) (archived) - Matching decompilation of Body Harvest (N64).
 - [chameleontwistv1.0-jp (decomp)](https://github.com/chameleontwistret/chameleontwistv1.0-jp) - Matching decompilation of Chameleon Twist (N64, JP).
 - [ChameleonTwist1-JP-Recomp](https://github.com/Rainchus/ChameleonTwist1-JP-Recomp) - Static recompilation of Chameleon Twist (N64, JP) into a native executable, built on chameleontwistv1.0-jp's decompilation.
 - [ChameleonTwist2-JP-Recomp](https://github.com/Rainchus/ChameleonTwist2-JP-Recomp) - Static recompilation of Chameleon Twist 2 (N64, JP) into a native executable.
@@ -541,7 +541,7 @@
 - [PartrickSharp](https://github.com/ca1e/PartrickSharp) - Decrypts/encrypts course data from Super Mario Maker 2. See also [SMM2CourseDecryptor](https://github.com/simontime/SMM2CourseDecryptor).
 - [partrick](https://github.com/jonbarrow/partrick) - NodeJS module for decrypting, parsing, editing, and encrypting Super Mario Maker 2 course data; referenced by PartrickSharp above.
 - [smm2-level-viewer](https://github.com/jonbarrow/smm2-level-viewer) - Barebones course viewer for Super Mario Maker 2, rendering decrypted level data with partial game-style/theme support.
-- [LazyShell](https://github.com/CaptainSwag101/LazyShell) - Editor for Super Mario RPG, based on Giangurgolo's original Lazy Shell with recreated source changes.
+- [LazyShell](https://github.com/CaptainSwag101/LazyShell) (archived) - Editor for Super Mario RPG, based on Giangurgolo's original Lazy Shell with recreated source changes.
 ###### Classic & Portable Mario Recompilations
 
 - [SuperMarioBrosNESRecomp](https://github.com/mstan/SuperMarioBrosNESRecomp) - Static recompilation of Super Mario Bros. (NES) into native code.
@@ -613,7 +613,7 @@
 - [zelda_ocarina_mq_debug](https://github.com/camthesaxman/zelda_ocarina_mq_debug) - Disassembly of the debug build of The Legend of Zelda: Ocarina of Time Master Quest (N64).
 - [zeldaldr](https://github.com/jkbenaim/zeldaldr) - Whole-ROM IDA loader for the Nintendo 64 Zelda games Ocarina of Time and Majora's Mask.
 - [mm3d_re](https://github.com/yellows8/mm3d_re) - Savedata format reverse-engineering notes for The Legend of Zelda: Majora's Mask 3D (3DS), including an item table dump and `mm3d_savetool.c`, a CRC-updating tool for the save file.
-- [zcamedit](https://github.com/sauraen/zcamedit) - Zelda 64 (Ocarina of Time/Majora's Mask) cutscene camera editor Blender plugin.
+- [zcamedit](https://github.com/sauraen/zcamedit) (archived) - Zelda 64 (Ocarina of Time/Majora's Mask) cutscene camera editor Blender plugin.
 - [ci4tool](https://github.com/sauraen/ci4tool) - Companion tool to ZAPD for creating N64 CI4 (4-bit color-indexed/palette) textures used by Ocarina of Time and Majora's Mask decompilation projects, converting and applying palettes that ZAPD's own PNG-to-C conversion does not handle.
 - [link-rig](https://github.com/sauraen/link-rig) - Blender IK rig for animating Link and exporting custom animations to Ocarina of Time's native animation format (via objex2), including interpolation with existing in-game animations and animated eye/mouth textures.
 - [OoT-Anim-Copy](https://github.com/skawo/OoT-Anim-Copy) - Copies a Zelda Ocarina of Time animation between ZOBJ files.
@@ -702,11 +702,11 @@
 - [ZELDA-TOTK-ZS](https://github.com/SilverEzredes/ZELDA-TOTK-ZS) - Batch scripts for extracting and repacking Zstandard (.zs) archives in The Legend of Zelda: Tears of the Kingdom.
 - [xlink2](https://github.com/shadowninja108/xlink2) - Converts XLINK (XLNK) binary link-table files to and from YAML, for Tears of the Kingdom and Splatoon 3; actively maintained continuation of the author's earlier research (superseding the archived dt-12345/xlink2-old).
 - [TOTK_Research](https://github.com/NSACloud/TOTK_Research) - Research and templates for The Legend of Zelda: Tears of the Kingdom.
-- [MapEditor](https://github.com/MrMystery-Official/MapEditor) - Map editor for The Legend of Zelda: Tears of the Kingdom.
+- [MapEditor](https://github.com/MrMystery-Official/MapEditor) (archived) - Map editor for The Legend of Zelda: Tears of the Kingdom.
 - [NxEditor](https://github.com/NX-Editor/NxEditor) - Plugin-based editor for first-party Nintendo formats, primarily for Tears of the Kingdom and other modern Nintendo Switch game files.
 - [ZeldaTOTK](https://github.com/turtle-insect/ZeldaTOTK) - Save data editor for The Legend of Zelda: Tears of the Kingdom (Switch).
 - [botw-editor](https://github.com/handsomematt/botw-editor) - Editor for The Legend of Zelda: Breath of the Wild game files. Includes dungeon editor and world viewer components. Supports BLWP and BFRES formats.
-- [Totk-ZstdTool](https://github.com/TotkMods/Totk-ZstdTool) - Simple tool for decompressing .zs (Zstandard) files from The Legend of Zelda: Tears of the Kingdom.
+- [Totk-ZstdTool](https://github.com/TotkMods/Totk-ZstdTool) (archived) - Simple tool for decompressing .zs (Zstandard) files from The Legend of Zelda: Tears of the Kingdom.
 - [totk-meshcodec](https://github.com/UltimateBomb/totk-meshcodec) - Python library and CLI that inspects and packs Tears of the Kingdom `.bfres.mc` model files, writing the FMSH geometry section the game requires; includes a documented format specification.
 - [Totk.HashCalculator](https://github.com/TotkMods/Totk.HashCalculator) - Command-line tool that scans The Legend of Zelda: Tears of the Kingdom game files to generate the hash table and strings list used to decode RSTB/RESTBL hashes; the repository ships string tables for game versions 1.0.0 to 1.2.1.
 - [botw_chest_manager](https://github.com/mathias4833/botw_chest_manager) - GUI tool to manage chest contents in The Legend of Zelda: Breath of the Wild, faster than editing via Ice Spear.
@@ -861,7 +861,7 @@
 
 ##### The New Tetris
 
-- [tnt (decomp)](https://github.com/kiritodv/tnt) - Matching decompilation of The New Tetris (N64).
+- [tnt (decomp)](https://github.com/kiritodv/tnt) (archived) - Matching decompilation of The New Tetris (N64).
 
 ##### New Super Mario Bros DS
 
@@ -935,7 +935,7 @@
 - [stadiumfrag](https://github.com/tehzz/stadiumfrag) - Documents and maps the binary formats used by Pokémon Stadium (US, N64): Fragments, PresJPEG, PERS-SZP, and Yay0-compressed data.
 - [Pokemon-Legends-Z-A-Tools](https://github.com/zbirow/Pokemon-Legends-Z-A-Tools) - Format notes and Python unpackers for Pokemon Legends Z-A on Switch: NSP (PFS0) containers, NCA files, and the `data.trpfs`/`data.trpfd` ONEPACK archive (pack names are matched by FNV-1a hash), with a table of extracted file types (BNTX textures, BNSH shaders, fonts, TRSKL/TRSLP textures).
 - [PKSM](https://github.com/FlagBrew/PKSM) - Save/box editor for Pokemon games on 3DS and Switch, with cloud storage, event injection, and legality checking.
-- [PHBank](https://github.com/gocario/PHBank) - Homebrew Pokémon Bank for the Nintendo 3DS, reading/writing Pokémon save data to store and transfer Pokémon like the official Bank service.
+- [PHBank](https://github.com/gocario/PHBank) (archived) - Homebrew Pokémon Bank for the Nintendo 3DS, reading/writing Pokémon save data to store and transfer Pokémon like the official Bank service.
 - [shinpokered-save-editor](https://github.com/VdustR/shinpokered-save-editor) - Browser editor for Shin Pokémon and Gen 1 Game Boy 32 KiB battery saves with byte-exact round-trip and checksum repair: trainer data, party, boxes, inventory, Pokédex, story flags and Hall of Fame, plus PKHeX-compatible `.pk1` import/export.
 - [PKSM-Core](https://github.com/FlagBrew/PKSM-Core) - Core save-editing library extracted from PKSM, handling the Pokémon save data parsing shared across PKSM's platforms.
 - [hypdisasm](https://github.com/Decompollaborate/hypdisasm) - Disassembly project for Hey You, Pikachu! (Nintendo 64).
@@ -954,7 +954,7 @@
 - [RubySapphireRecomp](https://github.com/mstan/RubySapphireRecomp) - Static recompilation of Pokemon Ruby and Sapphire (GBA) into native code.
 - [EmeraldRecomp](https://github.com/mstan/EmeraldRecomp) - Static recompilation of Pokemon Emerald (GBA) into native code.
 - [FireRedLeafGreenRecomp](https://github.com/mstan/FireRedLeafGreenRecomp) - Static recompilation of Pokemon FireRed and LeafGreen (GBA) into native code.
-- [PokemonStadiumRecomp](https://github.com/mstan/PokemonStadiumRecomp) - Static recompilation of Pokemon Stadium (N64) into native code.
+- [PokemonStadiumRecomp](https://github.com/mstan/PokemonStadiumRecomp) (archived) - Static recompilation of Pokemon Stadium (N64) into native code.
 - [pokepicross](https://github.com/aquova/pokepicross) - Detailed retrospective documenting the reverse engineering of the unreleased, leaked Pokemon Picross (Game Boy Color, ~2000) ROM, tracing its penalty-timer logic through RAM analysis and ASM patching.
 - [KM Editor](https://github.com/KotMatrosk1n/KM-Editor) - Windows modding toolkit for Pokémon Sword/Shield, Scarlet/Violet, and Legends Z-A; editors for Pokémon, moves, trainers, items, encounters, raids, and other game-data tables, plus CSV/TSV/JSON import and mod-merging workflows.
 - [pkmn-chest](https://github.com/Universal-Team/pkmn-chest) - Pokemon Bank for the 3rd through 5th generation Pokemon games on Nintendo DS(i).
@@ -979,7 +979,7 @@
 
 ##### Game Builder Garage
 
-- [game-builder-garage-editor](https://github.com/jaames/game-builder-garage-editor) - Web-based, experimental savedata editor/viewer for Nintendo's Game Builder Garage (Switch). (On hold)
+- [game-builder-garage-editor](https://github.com/jaames/game-builder-garage-editor) (archived) - Web-based, experimental savedata editor/viewer for Nintendo's Game Builder Garage (Switch). (On hold)
 
 ##### Splatoon
 
@@ -1053,7 +1053,7 @@
 
 ##### Sine Mora
 
-- [SM.BIN.Tool](https://github.com/Ekey/SM.BIN.Tool) - Tool for extracting BIN archives from Sine Mora / Sine Mora EX, co-developed with Digital Reality.
+- [SM.BIN.Tool](https://github.com/Ekey/SM.BIN.Tool) (archived) - Tool for extracting BIN archives from Sine Mora / Sine Mora EX, co-developed with Digital Reality.
 - [SMM.OBB.Tool](https://github.com/Ekey/SMM.OBB.Tool) - Tool for extracting OBB archives from the Sine Mora mobile port.
 
 #### Moon Studios (No Rest for the Wicked)
@@ -1101,7 +1101,7 @@
 - [CXO2](https://github.com/SirusDoma/CXO2) - Faithful, customizable, cross-platform reimplementation of the O2Jam client in C++, reading original OJN chart and OJM audio files.
 - [Mozart.Encore](https://github.com/SirusDoma/Mozart.Encore) - Cross-platform C# re-implementation of O2Jam game servers spanning six client versions (Mozart, Amadeus, CrossTime, Identity, IdentityP2, Memoryer), with build-specific metadata parsers for each client's game data.
 - [O2FS](https://github.com/SirusDoma/O2FS) - Experimental O2Jam virtual filesystem tool adding BMS chart support to the original OTwo.exe client.
-- [O2MusicList](https://github.com/SirusDoma/O2MusicList) - Generator for O2Jam music list files.
+- [O2MusicList](https://github.com/SirusDoma/O2MusicList) (archived) - Generator for O2Jam music list files.
 - [O2MusicBox](https://github.com/SirusDoma/O2MusicBox) - OpenAL-based audio playback library for O2Jam's OJM audio format.
 - [o2jam-workshop-center](https://github.com/SirusDoma/o2jam-workshop-center) - Browser-based toolkit for inspecting, editing, and building O2Jam assets, scene data, avatar tables, music lists, and client launch arguments.
 - [render-ojn](https://github.com/djzmo/render-ojn) - Renders O2Jam OJN/OJM chart and audio files to MP3, WAV, or OGG music files.

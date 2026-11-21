@@ -204,7 +204,7 @@
 
 #### Armature Studio (Batman: Arkham Origins Blackgate)
 
-- [BAOB.ARA.Tool](https://github.com/Ekey/BAOB.ARA.Tool) - Tool for extracting ARA archives from Batman: Arkham Origins Blackgate.
+- [BAOB.ARA.Tool](https://github.com/Ekey/BAOB.ARA.Tool) (archived) - Tool for extracting ARA archives from Batman: Arkham Origins Blackgate.
 
 #### Shin's Entertainment (Battle Blues)
 
@@ -367,7 +367,7 @@
 - [KotOR_IO](https://github.com/LaneDibello/KotOR_IO) - .NET class library for reading, writing, and constructing file types used by Star Wars: Knights of the Old Republic, commissioned by the KotOR speedrunning community.
 - [Kotor-Randomizer](https://github.com/LaneDibello/Kotor-Randomizer) - Randomizer for Star Wars: Knights of the Old Republic that reads and rewrites the game's module, item, table, audio, and text data to shuffle placements for challenge runs. By the same author as Kotor-Patch-Manager above.
 - [kmdlswap](https://github.com/jryantomes/kmdlswap) - Scoped tool ("kmdlfun") that replaces the geometry of a single mesh node inside a vanilla KOTOR 1 model while leaving everything else byte-identical; round-trip verified against all 2832 vanilla K1 models.
-- [reone](https://github.com/seedhartha/reone) - Open-source reimplementation of the Aurora/Odyssey engine capable of running Star Wars: Knights of the Old Republic and KotOR II: The Sith Lords, reading original game data files directly. Written in C++.
+- [reone](https://github.com/seedhartha/reone) (archived) - Open-source reimplementation of the Aurora/Odyssey engine capable of running Star Wars: Knights of the Old Republic and KotOR II: The Sith Lords, reading original game data files directly. Written in C++.
 - [KOTORMax](https://github.com/OpenKotOR/KOTORMax) - 3ds Max/gmax plugin for importing and exporting BioWare's Odyssey MDL/MDX model format used by Star Wars: Knights of the Old Republic and KotOR II; originally by bead-v, extended from NWmax.
 - [mdlops](https://github.com/ndixUR/mdlops) - Cross-platform utility for compiling and decompiling Odyssey engine MDL/MDX model and walkmesh files.
 - [tga2tpc](https://github.com/ndixUR/tga2tpc) - Electron GUI that converts TGA images into the TPC texture format used by Odyssey engine games, with queued batch conversion, DXT1/5 compression, mipmap downsampling, cube maps, and animated textures.
@@ -443,7 +443,7 @@
 ##### World of Warcraft
 
 - [wow.export](https://github.com/Kruithne/wow.export) - Export toolkit for World of Warcraft models and textures.
-- [WoWExportTools](https://github.com/Marlamin/WoWExportTools) - Export World of Warcraft assets to portable formats.
+- [WoWExportTools](https://github.com/Marlamin/WoWExportTools) (archived) - Export World of Warcraft assets to portable formats.
 - [WMVx](https://github.com/Frostshake/WMVx) - Fork and rewrite of Wow Model Viewer for browsing World of Warcraft models, supporting multiple client versions including Vanilla 1.12.1, TBC 2.4.3 and WotLK 3.3.5.
 - [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - Client database definitions for World of Warcraft (DBD files for extracting game data).
 - [wowlib](https://github.com/skarndev/wowlib) - Modern C++26 library for reading and writing World of Warcraft client files across every expansion (Vanilla through The War Within): WMO, M2 (+ `.skin`/`.anim`/`.skel`/`.bone`), ADT, WDT, WDL, BLP, and DBC/DB2 (WDBC through WDC5, with typed record structs for 1221 tables generated from WoWDBDefs); provides a unified MPQ (via StormLib)/CASC (via CascLib) filesystem gateway plus Python bindings via the companion [welder](https://github.com/skarndev/welder) reflection-based binding generator.
@@ -491,7 +491,7 @@
 
 - [s2protocol](https://github.com/Blizzard/s2protocol) - Python library to decode StarCraft II replay protocols.
 - [heroprotocol](https://github.com/Blizzard/heroprotocol) - Python library to decode Heroes of the Storm replays.
-- [m3addon](https://github.com/SC2Mapster/m3addon) - Blender addon to import and export .m3 files used in StarCraft II and Heroes of the Storm.
+- [m3addon](https://github.com/SC2Mapster/m3addon) (archived) - Blender addon to import and export .m3 files used in StarCraft II and Heroes of the Storm.
 - [M3_Import](https://github.com/CaptainD001/M3_Import) - 3ds Max importer for StarCraft II M3 models.
 - [Starcraft Modding Tools](https://www.moddb.com/games/starcraft/downloads/starcraft-modding-tools) - Collection of tools for editing StarCraft's primary data (DAT) files.
 - [SC2Mapster Community Site](https://github.com/SC2Mapster/sc2mapster.github.io) - Guides documenting StarCraft II's plain-text Galaxy Editor data formats and other map/mod development internals.
@@ -617,7 +617,7 @@
 
 ###### Diablo III
 
-- [D3Edit](https://github.com/GoobyCorp/D3Edit) - Save editor for Diablo III.
+- [D3Edit](https://github.com/GoobyCorp/D3Edit) (archived) - Save editor for Diablo III.
 - [CPKReaderWV](https://github.com/zeroKilo/CPKReaderWV) - Reader/extractor for Diablo III's CPK archive format.
 - [Diablo3ROSPS3Editor](https://github.com/asp22/Diablo3ROSPS3Editor) - Python tool for modifying Diablo III: Reaper of Souls PS3 save data.
 - [D3ModelViewer](https://github.com/Darithos/D3ModelViewer) - Windows desktop viewer and exporter for Diablo III models, browsing every in-game appearance with texture previews.
@@ -688,7 +688,7 @@
 
 #### Gamania Digital Entertainment (Bright Shadow)
 
-- [BS.PAK.Tool](https://github.com/Ekey/BS.PAK.Tool) - Tool for extracting PAK archives from Bright Shadow.
+- [BS.PAK.Tool](https://github.com/Ekey/BS.PAK.Tool) (archived) - Tool for extracting PAK archives from Bright Shadow.
 
 #### Brno Transit
 
@@ -786,15 +786,15 @@
 
 ##### Creation
 
-- [creation_tk](https://github.com/hogsy/creation_tk) - Utility for reading, extracting, and converting files from Bullfrog's cancelled game Creation.
+- [creation_tk](https://github.com/hogsy/creation_tk) (archived) - Utility for reading, extracting, and converting files from Bullfrog's cancelled game Creation.
 
 ##### Theme Park
 
 - [OpenTPW](https://github.com/OpenTPW/OpenTPW) - Open-source re-implementation of Bullfrog's Sim Theme Park / Theme Park World (1999).
 - [ThemeParkResourceViewer](https://github.com/tigrouind/ThemeParkResourceViewer) - Resource viewer/extractor for Theme Park (1994).
 - [OpenTPW.FileFormats](https://github.com/OpenTPW/OpenTPW.FileFormats) - Documentation for the file formats used in Theme Park World / Sim Theme Park (1999), for use with OpenTPW above.
-- [WADView](https://github.com/OpenTPW/WADView) - Viewer and extractor for Theme Park World's BFWD files.
-- [RSSEQCompiler](https://github.com/OpenTPW/RSSEQCompiler) - Compiler and decompiler for the RSSEQ Ride/Sideshow SEQuence format used by Theme Park World. See also [RSSEQ-VSCode-Highlighting](https://github.com/OpenTPW/RSSEQ-VSCode-Highlighting) for editor syntax support.
+- [WADView](https://github.com/OpenTPW/WADView) (archived) - Viewer and extractor for Theme Park World's BFWD files.
+- [RSSEQCompiler](https://github.com/OpenTPW/RSSEQCompiler) (archived) - Compiler and decompiler for the RSSEQ Ride/Sideshow SEQuence format used by Theme Park World. See also [RSSEQ-VSCode-Highlighting](https://github.com/OpenTPW/RSSEQ-VSCode-Highlighting) for editor syntax support.
 
 ##### Quake III: Revolution
 
@@ -849,7 +849,7 @@
 - [RszTool](https://github.com/kagenocookie/RszTool) - Resource editor for RE Engine `.user`, `.pfb`, and `.scn` files. Supports editing RSZ data in a GUI.
 - [RE_RSZ](https://github.com/SilverEzredes/RE_RSZ) - 010 Editor template for RE Engine RSZ data.
 - [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
-- [RE-Mesh-Editor](https://github.com/NSACloud/RE-Mesh-Editor) - Visual scene and mesh editor for RE Engine games.
+- [RE-Mesh-Editor](https://github.com/NSACloud/RE-Mesh-Editor) (archived) - Visual scene and mesh editor for RE Engine games.
   - See also [fmt_RE_MESH-Noesis-Plugin](https://github.com/alphazolam/fmt_RE_MESH-Noesis-Plugin) for the modern version with extensive format support.
   - [REME](https://github.com/TrueShadow01/REME-RE-Engine-Blender-Addon) - Actively maintained community continuation of the Blender addon (224 commits ahead of upstream) with compatibility fixes, newer RE Engine game formats, and expanded Street Fighter 6 material reconstruction; newer-game formats and some blend-shape paths are noted as experimental.
 - [REE-Content-Editor](https://github.com/kagenocookie/REE-Content-Editor) - Mod development editor and file patcher for RE Engine games.
@@ -918,7 +918,7 @@
 - [RE1_GC_TOOLS](https://github.com/JADERLINK/RE1_GC_TOOLS) - Extraction-only tool for DAT, EMD, EMG, and BIN container files from Resident Evil (GameCube).
 - [bio-tools](https://github.com/Nisto/bio-tools) - Assorted per-game tools for Biohazard (Resident Evil) formats, with folders for Zero (alz-tool, arcex, text-extract), RE1 (hsbsplit), RE1 GameCube (snd-extract), RE2/RE3 (bgmsplit), RE4 (midi-smp-extract, str-extract), and Code: Veronica (Multspq1.py).
 - [re4 (decomp)](https://github.com/adonis-singh/re4) - Byte-identical matching decompilation of the Resident Evil 4 (GameCube) debug build G4BE08 ("Nov 25 2004" prototype), reproducing main.dol and all 114 REL overlays exactly; includes a bytecmp/fdiff verification toolchain and a motion-export tool converting the game's own animation data to glTF/BVH.
-- [libthanatos](https://github.com/Fothsid/libthanatos) - C++ library for reading and writing the `.nbd` 3D model format used by Resident Evil Outbreak and Resident Evil Outbreak File #2.
+- [libthanatos](https://github.com/Fothsid/libthanatos) (archived) - C++ library for reading and writing the `.nbd` 3D model format used by Resident Evil Outbreak and Resident Evil Outbreak File #2.
 - [Biohazard2 (PlayJS)](https://github.com/yanmingsohu/Biohazard2) - Independent JavaScript reimplementation of Resident Evil 2 (1998 PC) that loads the original game's 3D models, animations, and map/occlusion data; requires the original game files.
 - [R3ditor](https://github.com/themitosan/R3ditor) - NW.js editor for Resident Evil 3 (classic) files: `Bu00.sav` saves, `.msg` messages and Room Data Table (`.RDT`) files (rooms WIP). Development moved to R3ditor V2; this repo is on hold.
 
@@ -1130,7 +1130,7 @@
 - [WolvenKit (legacy)](https://github.com/WolvenKit/WolvenKit-7) - REDEngine 3 file editor designed to simplify and accelerate modding workflow for The Witcher 3.
 - [TW3-PS4-Texture-Patcher](https://github.com/Backporter/TW3-PS4-Texture-Patcher) - Tool for patching The Witcher 3 PS4 texture file formats with custom data
 - [Witcher-3-ModKit-UI](https://github.com/rfuzzo/Witcher-3-ModKit-UI) - GUI and workflow automation wrapper around wcc_lite, the official REDkit command-line cook/uncook tool for The Witcher 3.
-- [Witcher-3-Conflicts-Manager](https://github.com/rfuzzo/Witcher-3-Conflicts-Manager) - Mod conflict manager for The Witcher 3, using WolvenKit's bundle/cache libraries to detect overlapping files across installed mods.
+- [Witcher-3-Conflicts-Manager](https://github.com/rfuzzo/Witcher-3-Conflicts-Manager) (archived) - Mod conflict manager for The Witcher 3, using WolvenKit's bundle/cache libraries to detect overlapping files across installed mods.
 
 ##### The Witcher
 
@@ -1163,7 +1163,7 @@
 - [Cyberpunk-TweakDB-Schema](https://github.com/gibbed/Cyberpunk-TweakDB-Schema) - Reverse-engineered schema documentation for Cyberpunk 2077's TweakDB binary file format (tweakdb.bin)
 - [CyberpunkSaveEditor](https://github.com/PixelRick/CyberpunkSaveEditor) - Editor for Cyberpunk 2077 .sav.dat save files; manipulates node tree structures, inventory, quest flags, and item properties
 - [Hash2077](https://github.com/0x1F9F1/Hash2077) - Optimized brute-force dehasher for recovering symbol names in Cyberpunk 2077 using the Adler-32/SHA-256 hashes recorded in cyberpunk2077_addresses.json.
-- [CP77Tools](https://github.com/WolvenKit/CP77Tools) - Command-line archive modding tools for Cyberpunk 2077's REDEngine 4 file formats.
+- [CP77Tools](https://github.com/WolvenKit/CP77Tools) (archived) - Command-line archive modding tools for Cyberpunk 2077's REDEngine 4 file formats.
 - [red4ext-rs-dumper](https://github.com/jac3km4/red4ext-rs-dumper) - RED4ext plugin that dumps Cyberpunk 2077's live RTTI type system (classes, enums, bitfields, offsets, alignment) into Rust source definitions.
 - [red4ext-rs](https://github.com/jac3km4/red4ext-rs) - Rust bindings for RED4ext, enabling native Cyberpunk 2077 mods and RTTI/game-data introspection to be written in Rust.
 - [cybertracer](https://github.com/jac3km4/cybertracer) - ASI plugin for dumping stack traces for Cyberpunk 2077 redscript crashes.
@@ -1181,7 +1181,7 @@
 
 ##### Bermuda Syndrome
 
-- [bermuda](https://github.com/cyxx/bermuda) - Reimplementation of the engine used in Bermuda Syndrome, reading the original DOS release's data files; ports to Emscripten, libretro, and SDL2.
+- [bermuda](https://github.com/cyxx/bermuda) (archived) - Reimplementation of the engine used in Bermuda Syndrome, reading the original DOS release's data files; ports to Emscripten, libretro, and SDL2.
 
 #### Sports Interactive (Championship Manager)
 
@@ -1250,7 +1250,7 @@
 
 #### Codemasters
 
-- [codemasters-file-formats](https://github.com/AlexKimov/codemasters-file-formats) - File formats and tools for Codemasters games.
+- [codemasters-file-formats](https://github.com/AlexKimov/codemasters-file-formats) (archived) - File formats and tools for Codemasters games.
 - [dirt3-modding](https://github.com/miek/dirt3-modding) - Research and tools for modding DiRT 3, including 010 Editor templates and a PSSG Manager tool for loading PSSG files (model and texture data); much of the research is applicable to other Codemasters games.
 - [OFP Extractor](https://github.com/NoahDomingues/OFP-Extractor) - Extraction tool for the win_000 archives of Operation Flashpoint: Dragon Rising and Red River (Codemasters), decompressing and decrypting DDS textures, FSB audio, and other packed game files.
   - Companion tools by the same author: [STF-DDS-Converter](https://github.com/NoahDomingues/STF-DDS-Converter) (`.stf`/DDS texture conversion), [FUI-SWF-Converter](https://github.com/NoahDomingues/FUI-SWF-Converter) (`.fui`/SWF UI file conversion), [XML-Extractor](https://github.com/NoahDomingues/XML-Extractor) (extracts embedded XML blocks from EXE/DLL containers), and [OFP-uberlod-XML-Unpacker](https://github.com/NoahDomingues/OFP-uberlod-XML-Unpacker) (unpacks XML from `uberlod.tpk` archives).
@@ -1265,9 +1265,6 @@
 
 #### Com2uS
 
-##### Inotia4
-
-- [reverse_inotia4](https://github.com/sunflower9264/reverse_inotia4) - Local reverse-engineering toolkit for Inotia4 (Com2uS) Android APK resources; extracts and parses maps, text, images, and audio from the APK and generates a web-viewable dataset via a built-in viewer.
 
 ##### Summoners War: Sky Arena
 
@@ -1432,7 +1429,7 @@
 - [sappers-TRLE-addons](https://github.com/sapper-trle/sappers-TRLE-addons) - Blender addons for Tomb Raider Level Editor builders: exports UV-mapped meshes to Metasequoia (`.mqo`) for StrPix's importer, and UV rectangles to `.rec` files for TextureAdd texturing.
 - [WAD2 Remapper](https://github.com/sapper-trle/WAD2Remapper) - Remaps outfit vertex indices in Tomb Raider Level Editor WAD2 files, filling a gap left by Tomb Editor's WadTool.
 - [Gimp-Plugins (TRLE)](https://github.com/sapper-trle/Gimp-Plugins) - GIMP Python plug-in for opening Tomb Raider Level Editor logo and sky `.raw`/`.pak` files.
-- [TR2X](https://github.com/LostArtefacts/TR2X) - Open-source enhancement/remaster project for Tomb Raider II, based on decompilation and reading the original game data.
+- [TR2X](https://github.com/LostArtefacts/TR2X) (archived) - Open-source enhancement/remaster project for Tomb Raider II, based on decompilation and reading the original game data.
 - [OpenLara](https://github.com/XProger/OpenLara) - Open-source reimplementation of the classic Tomb Raider engine, reading the original games' level and asset data.
 - [TR2Main](https://github.com/Arsunt/TR2Main) - Open source reimplementation of Tomb Raider II (1997) via DLL injection into the original EXE, decompiling and fixing the original game while reading its original level/asset data.
 - [TR2Draw](https://github.com/Arsunt/TR2Draw) - Dynamic library implementing Tomb Raider II's graphic routines, a companion project to TR2Main.
@@ -1466,7 +1463,7 @@
 
 #### Picroma (Cube World)
 
-- [CubeWorld-Reversal (decomp)](https://github.com/qad3n/CubeWorld-Reversal) - Highly accurate decompiled source for Cube World Alpha's client (`Cube.exe`) and dedicated server (`Server.exe`), reconstructing the game's original class architecture and file layout via Ghidra-based RTTI/call-graph analysis of the 2013 alpha build (paraglider-fix version).
+- [cube-alpha-decomp (decomp)](https://github.com/qad3n/cube-alpha-decomp) (archived) - Highly accurate decompiled source for Cube World Alpha's client (`Cube.exe`) and dedicated server (`Server.exe`), reconstructing the game's original class architecture and file layout via Ghidra-based RTTI/call-graph analysis of the 2013 alpha build (paraglider-fix version).
 
 #### Studio MDHR (Cuphead)
 

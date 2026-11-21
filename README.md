@@ -147,14 +147,14 @@ This list is for developers and modders working with such formats. It provides t
 - [Free60 Wiki Archive](https://github.com/Free60Project/wiki) - Archived MediaWiki dump of free60.org, the community reference for Xbox 360 hardware, firmware, and file format reverse engineering.
 - [awesome-dreamcast](https://github.com/dreamcastdevs/awesome-dreamcast) - Curated list of Sega Dreamcast development resources, including tutorials, homebrew tools, engines, and frameworks; see also [dreamcast.wiki](https://dreamcast.wiki/Dreamcast.wiki) linked within for hardware/format documentation.
 - [gbdoc](https://github.com/msinger/gbdoc) - Documents from original Game Boy hardware research.
-- [Cart Reader (OSCR)](https://github.com/sanni/cartreader) - Firmware for an Arduino Mega/Nano-based shield that backs up ROM and save data from game cartridges without a PC, natively supporting NES, SNES, N64, Game Boy/Color/Advance, Sega Mega Drive/Genesis, and Master System, plus dozens more systems (Virtual Boy, PC Engine, WonderSwan, NeoGeo Pocket, Intellivision, ColecoVision, and others) via adapters.
+- [Cart Reader (OSCR)](https://github.com/sanni/cartreader) (archived) - Firmware for an Arduino Mega/Nano-based shield that backs up ROM and save data from game cartridges without a PC, natively supporting NES, SNES, N64, Game Boy/Color/Advance, Sega Mega Drive/Genesis, and Master System, plus dozens more systems (Virtual Boy, PC Engine, WonderSwan, NeoGeo Pocket, Intellivision, ColecoVision, and others) via adapters.
 - [n64cartreader](https://github.com/jgazeley/n64cartreader) - N64-focused fork/adaptation of the Sanni Open Source Cartridge Reader (OSCR), a Raspberry Pi Pico-based hardware dumper for reading Nintendo 64 ROM and cartridge save data over USB, with web-browser or command-line dump tools.
 
 ### Game-Specific Wikis
 
 - [The Cutting Room Floor](https://tcrf.net/Help:Contents/Finding_Content) - Community for discovering and documenting unused and debug game content.
 - [Nintendo File Formats](https://nintendo-formats.com/) - Documentation for Wii U and Switch games.
-- [Custom Mario Kart Wiiki](https://wiki.tockdom.com/wiki/List_of_File_Formats) - Formats used in Mario Kart Wii and related games.
+- [Custom Mario Kart Wiiki](https://mkwiiki.org/wiki/List_of_File_Formats) - Formats used in Mario Kart Wii and related games.
 - [Mario Kart 8 Wiki](https://mk8.tockdom.com/wiki/Main_Page) - Documentation for Mario Kart 8 formats and modding.
 - [Luma's Workshop](https://www.lumasworkshop.com/wiki/Category:File_formats) - Nintendo modding wiki.
 - [Splatoon Technical Wiki](https://wiki.oatmealdome.me/index.php/Special:AllPages) - Technical documentation for Splatoon game formats.

@@ -88,7 +88,7 @@
 - [YYDebugView](https://github.com/YAL-GameMaker-Tools/YYDebugView) - Viewer for the code inside `.yydebug` files GameMaker generates when running from the IDE, intended for code recovery; also available as a web version.
 - [libaltar](https://github.com/Prashant-Jonny/libaltar) - Library for processing GameMaker: Studio binary file formats (decompiler).
 - [gamemaker2-data-research](https://github.com/jam1garner/gamemaker2-data-research) - Tools/Documentation for GameMaker 2 data files.
-- [LojRipper](https://github.com/gm-archive/LojRipper) - Tool to dump .win files from GameMaker YYC-compiled executables for game modding purposes.
+- [LojRipper](https://github.com/gm-archive/LojRipper) (archived) - Tool to dump .win files from GameMaker YYC-compiled executables for game modding purposes.
 - [GM8Decompiler](https://github.com/OpenGMK/GM8Decompiler) - Decompiler for GameMaker 8.x executables, recovering the original game's assets and code from compiled `.exe` files.
 - [phosphorvm](https://github.com/asumagic/phosphorvm) - Open-source reimplementation of the GameMaker: Studio runner, reading original compiled GameMaker data/executables.
 - [OpenGMK](https://github.com/OpenGMK/OpenGMK) - Rewrite of the GameMaker Classic (8.x) engine runners with additional tooling, loading and executing original .gmk-derived game data.
@@ -138,7 +138,7 @@
 
 - [reSource Model Templates](https://github.com/IJARika/resource_model_templates) - 010 Editor binary templates for Respawn Entertainment's reSource engine (a Source engine fork used by Titanfall and Apex Legends), focused on studio model formats.
   - Formats: MDL (v48/49/52/53/63), RMDL, RRIG, RSEQ, PHYS (Valve and Respawn variants), vertex data (VTX/VVD/VVC/VVW), VG (rev1-4), pakfile, DMX, VTF; legacy V47 structs including original Xbox variants.
-- [Legion+](https://github.com/r-ex/LegionPlus) - Asset extraction tool for Apex Legends and Titanfall 2.
+- [Legion+](https://github.com/r-ex/LegionPlus) (archived) - Asset extraction tool for Apex Legends and Titanfall 2.
 - [rmdlconv](https://github.com/r-ex/rmdlconv) - Converts between different versions of Source Engine and Respawn MDL model files.
 - [RePak](https://github.com/r-ex/RePak) - Builds Respawn Entertainment `.rpak`/`.starpak` asset pack files for Apex Legends and Titanfall 2, for repacking modded assets back into the engine's runtime asset format.
 - [fupa](https://github.com/McSimp/fupa) - RPak extractor for Respawn Entertainment's Apex Legends/Titanfall 2 asset packs.
@@ -176,7 +176,7 @@
 - [xzp-py](https://github.com/smb123w64gb/xzp-py) - Python prototype extractor and research notes for Valve's XZP archive format used by original-Xbox Source games such as Half-Life 2, based on the 2006 SDK's `xzp.cpp`/`xzp.h`, with an ImHex pattern and preload-entry handling.
   - See also [vtfTrans-rs](https://github.com/smb123w64gb/vtfTrans-rs), a Rust converter between Xbox XTF and PC VTF textures (swizzle and mipmap handling); [XWV-py](https://github.com/smb123w64gb/XWV-py), Python scripts for reading and writing Xbox XWV audio (PCM/Xbox ADPCM) and converting WAV to XWV; and [xbox_ain](https://github.com/smb123w64gb/xbox_ain), a command-line tool that converts PC AI node graph (`.ain`) files to the Xbox version's format.
 - [SourceLoader](https://github.com/K0bin/sourceloader) - Source Engine map loader supporting BSP, VTF, and MDL formats with OBJ export.
-- [lambda-core](https://github.com/Galaco/lambda-core) - Go library for parsing Source Engine asset formats (VMT, VTF, MDL, BSP) with filesystem and resource management.
+- [lambda-core](https://github.com/Galaco/lambda-core) (archived) - Go library for parsing Source Engine asset formats (VMT, VTF, MDL, BSP) with filesystem and resource management.
 - [uSource](https://github.com/DeadZoneLuna/uSource) - Unity plugin for importing Source Engine formats (MDL, BSP, VTF, VMT, VPK, VVD, VTX).
 - [Unity-Source-Tools](https://github.com/lewa-j/Unity-Source-Tools) - Unity plugin for importing and extracting Source Engine game resources (maps and models).
 - [source1import](https://github.com/kristiker/source1import) - Python scripts for importing Source 1 game assets (materials, models, particle effects) into Source 2.
@@ -205,7 +205,7 @@
 - [halflife-bs-updated](https://github.com/twhl-community/halflife-bs-updated) - TWHL community-maintained Half-Life: Blue Shift SDK based on halflife-updated, with bug fixes, a reference implementation of the original game's features.
 - [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) - Cross-platform reimplementation of the GoldSrc engine, loading original Half-Life BSP/WAD/MDL game data. Actively maintained; companion to hlsdk-portable.
 - [ReGameDLL_CS](https://github.com/rehlds/ReGameDLL_CS) - Enhanced, cross-platform server-side GameDLL reimplementation for Counter-Strike 1.6 and Condition Zero, a GoldSrc-format companion to ReHLDS.
-  - See also [FWGS's fork](https://github.com/FWGS/regamedll).
+  - See also [FWGS's fork](https://github.com/FWGS/regamedll) (archived).
 - [hvox](https://github.com/fgsfdsfgs/hvox) - Standalone player for Half-Life's sentence system, loading the game's original voice-pack WAV files and synthesizing SENTENCES.TXT-style scripted lines with per-word pitch/volume/timing control codes.
 - [vitaXash3D](https://github.com/fgsfdsfgs/vitaXash3D) - PS Vita port of Xash3D-FWGS, loading original GoldSrc BSP/WAD/MDL game data (Half-Life, Counter-Strike, and other GoldSrc titles) natively on the Vita.
 - [Half-LifeX](https://github.com/brentdc-nz/Half-LifeX) - Port of Half-Life 1 to the original Xbox console using Xash3D and FakeGLx, loading original GoldSrc BSP/WAD/MDL game data natively on Xbox hardware.
@@ -253,7 +253,7 @@
 - [WifeRadiant](https://github.com/erysdren/WifeRadiant) - Open-source, cross-platform level editor for idTech, Source Engine, and GoldSrc based games; modern fork of NetRadiant.
 - [bsp-decompiler](https://github.com/wfowler1/bsp-decompiler) - Decompiler for many BSP map formats (Quake, GoldSrc, Source, and other id Tech-derived engines), reconstructing editable map sources.
   - Built on [LibBSP](https://github.com/wfowler1/LibBSP), the same author's C# library for parsing BSP structures across Quake-engine forks (Quake 3, Source, and others), also used by [Unity3D-BSP-Importer](https://github.com/wfowler1/Unity3D-BSP-Importer), which imports BSP maps into Unity as meshes.
-- [BspLib](https://github.com/AbitTheGray/BspLib) - Reads GoldSrc BSP v30 map files and WAD3 texture archives (Half-Life, Counter-Strike), with OBJ export. See also [BspLib_Unity3D](https://github.com/AbitTheGray/BspLib_Unity3D), a version adapted for importing into Unity3D.
+- [BspLib](https://github.com/AbitTheGray/BspLib) (archived) - Reads GoldSrc BSP v30 map files and WAD3 texture archives (Half-Life, Counter-Strike), with OBJ export. See also [BspLib_Unity3D](https://github.com/AbitTheGray/BspLib_Unity3D), a version adapted for importing into Unity3D.
 - [Decay-Library](https://github.com/AbitTheGray/Decay-Library) - Work-in-progress library for parsing GoldSrc BSP map files and WAD texture archives.
 - [WadParser-dotnet](https://github.com/elephantflea/WadParser-dotnet) - .NET library for parsing and extracting lumps from Doom/Heretic/Hexen/Strife IWAD/PWAD, Quake WAD2, and Half-Life/Opposing Force/Blue Shift WAD3 files.
 - [defullbright](https://github.com/ericwa/defullbright) - Quake texture tool that removes fullbright pixels from WAD files, with a TGA preview mode for inspecting affected textures.
@@ -310,7 +310,7 @@
 - [hlmvqt](https://github.com/iOrange/hlmvqt) - Half-Life model viewer written from scratch using Qt 6.
 - [web-hlmv](https://github.com/danakt/web-hlmv) - WebGL implementation of the Half-Life Model Viewer, running GoldSrc .mdl model previews directly in the browser.
 - [VPhysics-Jolt](https://github.com/misyltoad/VPhysics-Jolt) - Volt, a drop-in replacement for the Source Engine's VPhysics module built on Jolt Physics, parsing the engine's compiled VPhysics collision model (`.phy`) data to reconstruct rigid bodies, ragdolls, and constraints.
-- [HalfLifeAssetManager](https://github.com/SamVanheer/HalfLifeAssetManager) - Tool to view and edit Half-Life 1 (GoldSrc) MDL models.
+- [HalfLifeAssetManager](https://github.com/SamVanheer/HalfLifeAssetManager) (archived) - Tool to view and edit Half-Life 1 (GoldSrc) MDL models.
 - [Source2Converter](https://github.com/REDxEYE/Source2Converter) - Toolset for converting Source 1 models to Source 2, by the author of SourceIO above.
 - [GoldSrcSpriteThumbnailProvider](https://github.com/crskycode/GoldSrcSpriteThumbnailProvider) - Windows Explorer thumbnail provider extension that renders previews of Half-Life 1 (GoldSrc) .spr sprite files directly in Explorer.
 - [GIMP-hl-sprite-plugin](https://github.com/Psycrow101/GIMP-hl-sprite-plugin) - GIMP plugin for importing and exporting Half-Life (GoldSrc) sprite (.spr) files. See also the same author's [GIMP-hl-alphatest-plugin](https://github.com/Psycrow101/GIMP-hl-alphatest-plugin) (converts an image to color-indexed mode with alpha-channel colors moved to the palette's last index, matching GoldSrc's alpha-test texture convention) and [GIMP-hl-colormap-plugin](https://github.com/Psycrow101/GIMP-hl-colormap-plugin) (groups a palette into topcolor/bottomcolor team-color sections from layer masks).
@@ -354,7 +354,7 @@
 - [fastwad](https://github.com/urgorri/fastwad) - C++17 CLI and header-only SDK for building, listing and extracting GoldSrc (WAD3) and Quake (WAD2) texture WADs, with PNG/BMP extraction, 256-color quantization, mipmap generation and JSON output.
 - [vpk](https://github.com/ValvePython/vpk) - Python library and CLI for opening, searching, extracting, and creating Valve VPK archives.
 - [vpk-tools](https://github.com/K4ryuu/vpk-tools) - Zero-dependency Valve VPK archive reader/writer for Node.js and Bun, with full v1/v2 support, CRC32 + MD5 verification, multi-chunk archives, RSA signing, diffing, and a CLI.
-- [BspWadEmbed](https://github.com/Psycrow101/BspWadEmbed) - Python script for embedding a WAD texture archive into a GoldSrc BSP map file, with support for quickly replacing textures on the map.
+- [BspWadEmbed](https://github.com/Psycrow101/BspWadEmbed) (archived) - Python script for embedding a WAD texture archive into a GoldSrc BSP map file, with support for quickly replacing textures on the map.
 - [CSO-Paker](https://github.com/overl4y/CSO-Paker) - Command-line tool to extract files from the custom encrypted PAK archive format used by the video game Counter-Strike Online.
 - [UnCSO2](https://github.com/harmonytf/UnCSO2) - Qt file extractor for Counter-Strike: Online 2 and Titanfall Online PKG archives, based on ekey's XeNTaX reversing work, with a layout modeled on KDE's Ark; Windows and GNU/Linux.
 - [NARTools](https://github.com/SmilexGamer/NARTools) - Extractor, packager, and patcher for Nexon Archive (.nar) files, plus a model decryptor/encryptor for Counter-Strike Online's encrypted model files.
@@ -373,7 +373,7 @@
 - [checksum](https://github.com/Galaco/checksum) - Utility for calculating CRC32 checksums for Source Engine file validation.
 - [keyvalues](https://github.com/Galaco/keyvalues) - Go library for parsing Source Engine KeyValue format files (gameinfo.txt, vmt, vmf, etc.).
 - [vsif2vcd](https://github.com/MrSoup678/vsif2vcd) - Decompiles VCD choreography scenes from Source Engine `scenes.image` files back into editable `.vcd` files.
-- [VDataEditor](https://github.com/dertwist/VDataEditor) - Desktop editor for Source 2 KV3 data files (.vdata, .vsmart, .vpcf).
+- [VDataEditor](https://github.com/dertwist/VDataEditor) (archived) - Desktop editor for Source 2 KV3 data files (.vdata, .vsmart, .vpcf).
 - [keyvalues3](https://github.com/kristiker/keyvalues3) - Python library for Source 2's KeyValues3 (KV3) format.
 - [keyvalues-tools](https://github.com/K4ryuu/keyvalues-tools) - Zero-dependency TypeScript parser and serializer for Valve KeyValues (KV1/VDF and KV3), for reading, editing, validating, and converting Source engine config files, with a CLI.
 - [valve-kv](https://github.com/Perryvw/valve-kv) - npm package for parsing and serializing Valve's KeyValues format. See also [PHPValveKV](https://github.com/Perryvw/PHPValveKV), a PHP port of the same parser.
@@ -451,13 +451,14 @@
 ##### Asset Extraction & Asset Bundle Tools
 
 - [UABEANext](https://github.com/nesrak1/UABEANext) - Research and modding tool for SerializedFiles and Asset Bundles.
-- [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) - Tool for exploring, extracting, and exporting assets and assetbundles (original version).
+- [AssetStudio (Perfare)](https://github.com/Perfare/AssetStudio) (archived) - Tool for exploring, extracting, and exporting assets and assetbundles (original version).
 - [AssetStudio (aelurum fork)](https://github.com/aelurum/AssetStudioMod) - Actively maintained fork with UI optimization and enhancements.
 - [AssetStudio (zhangjiequan fork)](https://github.com/zhangjiequan/AssetStudio) - Continuation of Perfare's AssetStudio with support for new Unity versions and additional improvements.
 - [AnimeStudio](https://github.com/Escartem/AnimeStudio) - Actively maintained "modded AssetStudio" fork with support for many encrypted Unity titles, including all HoYoverse games.
 - [UnityRift](https://github.com/Diphome/UnityRift) - Toolkit (GUI, CLI, and MCP server) that began as a fork of AssetStudioMod and has since diverged: extracts Unity assets, supports IL2CPP and Mono games (via Cpp2IL, with dummy .NET assemblies and a type-tree database for stripped builds), and exports scenes, materials, particles, and MonoBehaviour script stubs into a Godot 4 project.
 - [AssetStudio_Tuanjie](https://github.com/SiMaLaoShi/AssetStudio_Tuanjie) - AssetStudio fork adapted for Tuanjie (团结引擎), the China-specific fork/variant of the Unity engine.
   - Lineage: succeeds [RazTools/Studio](https://github.com/RazTools/Studio) (archived), which itself succeeded Razmoth's own [CNStudio](https://github.com/Razmoth/CNStudio) (214 stars, archived) — both were "modded AssetStudio for CN/HoYo Unity games" forks. RazTools/Studio's own forks (e.g. [YarikStudio](https://github.com/yarik0chka/YarikStudio), discontinued) now point users to this repo as the actively maintained continuation.
+- [AssetStudio (Razviar)](https://github.com/Razviar/assetstudio) - Independently maintained continuation of RazTools/Studio (itself descended from Perfare's AssetStudio), with GUI and CLI versions, multi-threaded bundle loading and export, and support for Unity 2.x through Unity 6.
 - [AssetStudio (RaduMC)](https://github.com/RaduMC/AssetStudio) - Earlier, independently developed tool of the same name, predating Perfare's AssetStudio by about 10 months and sharing no code with it. Exports models to FBX and extracts DDS/PVR textures, audio clips, fonts, and text assets from PC, Xbox 360, PS3, Android, and iOS builds. Unmaintained since 2020.
 - [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEA) - C# UABE for newer versions of Unity. Cross-platform Unity asset bundle and serialized file editor/extractor built with Avalonia.
 - [Unity Asset Editor v0.2 (7 Days To Die)](https://www.moddb.com/games/7-days-to-die/downloads/unity-asset-editor) - Plugin-based asset editor, exporter, and importer for Unity Engine games. Can import and export assets in raw data format and be extended through plugins to support additional asset types (v0.2).
@@ -545,7 +546,7 @@
 
 ##### Modding, Translation & Runtime Injection
 
-- [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) - In-game UI for exploring, debugging, and modifying IL2CPP and Mono Unity games.
+- [UnityExplorer](https://github.com/sinai-dev/UnityExplorer) (archived) - In-game UI for exploring, debugging, and modifying IL2CPP and Mono Unity games.
 - [XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator) - Universal translation framework for Unity games. Supports automatic text translation with various translator backends and IL2CPP support.
 - [SakuraTranslator](https://github.com/fkiliver/SakuraTranslator) - XUnity.AutoTranslator translator-backend plugin providing offline Japanese-to-Chinese translation via the Sakura/GalTransl LLM models. See also [Xunity-TGW](https://github.com/HunterShenSmzh/Xunity-TGW), a modification swapping in a Text Generation WebUI backend instead.
 - [il2cpp-modder](https://github.com/juanmjacobs/il2cpp-modder) - Generate DLL injection templates for reverse engineering and modding Unity IL2CPP games. Automatically generates code for method hooks, field modifications, and implementation replacements without requiring manual pointer arithmetic.
@@ -650,7 +651,7 @@
 - [UEDumper](https://github.com/Spuckwaffel/UEDumper) - UE 4.19-5.3 reverse engineering tool for dumping SDK, analyzing structures, and identifying memory offsets.
 - [UETools-GUI](https://github.com/Cranch-fur/UETools-GUI) - Dumper-7 based GUI tool for rapid debugging and SDK extraction from Unreal Engine games.
 - [UnrealDumper-4.25](https://github.com/guttir14/UnrealDumper-4.25) - Unreal Engine SDK and structure dumper for extracting runtime data from UE game binaries.
-- [AndUEDumper](https://github.com/MJx0/AndUEDumper) - Android UE4/5 dumper generating SDK and function scripts, supporting ARM64, ARM, x86, and x86_64 ABIs.
+- [AndUEDumper](https://github.com/MJx0/AndUEDumper) (archived) - Android UE4/5 dumper generating SDK and function scripts, supporting ARM64, ARM, x86, and x86_64 ABIs.
 - [Dumper-7](https://github.com/Encryqed/Dumper-7) - Unreal Engine SDK generator supporting all UE4 and UE5 versions, dumping engine classes/structs/offsets from a running game via DLL injection; the de facto standard modern UE SDK dumper and basis for several other tools already listed (e.g. UETools-GUI).
 - [IDAExecFunctionsImporter](https://github.com/Fischsalat/IDAExecFunctionsImporter) - IDA plugin that imports Unreal Engine `exec` functions, the full generated C++ SDK, VTables, and global symbols (`GObjects`, `GNames`, etc.) from Dumper-7's `CppSDK`/`IDAMappings` output, for static analysis in IDA.
 - [UnrealContainers](https://github.com/Fischsalat/UnrealContainers) - Header-only C++ reimplementation of Unreal Engine's `TArray`, `FString`, `TSet`, `TMap`, `TSparseArray`, and `FBitArray` container types, letting external tools (SDK dumpers, hacks, analysis tooling) read and manipulate a live game's UE containers directly from process memory without linking the engine.
@@ -686,7 +687,7 @@
 - [Solicen.UEExtractor](https://github.com/SolicenTEAM/UEExtractor) - Extracts text strings from Unreal Engine `.pak`/`.ucas` archive files for game localization/translation workflows.
 - [KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - Extracts `EX_StringConst` strings from the Kismet bytecode of Unreal Engine `.uasset`/`.umap` files into a JSON file and writes edited replacements back as `EX_UnicodeStringConst` instructions with corrected offsets, for translation workflows. Also extracts and modifies `StrProperty`/`TextProperty` strings, with riskier fallbacks for `LocalizedSource`, `StringTable`, and `DataTable`; built on UAssetAPI.
 - [UEAESKeyFinder](https://github.com/EZFNDEV/UEAESKeyFinder) - Finds the AES decryption key of practically any Unreal Engine game.
-- [UEManifestReader](https://github.com/EZFNDEV/UEManifestReader) - Reads and parses Unreal Engine build manifests.
+- [UEManifestReader](https://github.com/EZFNDEV/UEManifestReader) (archived) - Reads and parses Unreal Engine build manifests.
 - [UnrealLocres](https://github.com/akintos/UnrealLocres) - Command-line tool for exporting and importing Unreal Engine 4 localization resource (.locres) files to/from CSV; the underlying library used by UnrealLocresEditor above.
 - [UE4TextExtractor](https://github.com/VD42/UE4TextExtractor) - Extracts localizable text directly from Unreal Engine .uasset, .uexp, and .umap files, and converts locres files to/from a plain text format for translation.
 - [UE4Tools](https://github.com/VD42/UE4Tools) - Archived (no longer maintained) C# command-line localization toolset for Unreal Engine 4 games: PakTools unpacks and repacks .pak archives, LocResTools handles .locres localization files, and UAssetTools reads .uasset packages; ships ready-made workspaces for The Park and Battlefleet Gothic: Armada.
@@ -922,9 +923,9 @@
 - [openbgi](https://github.com/Cytlan/openbgi) - Open-source reimplementation of the Ethornell/BGI (Buriko General Interpreter) visual novel engine.
 - [BGI](https://github.com/txt231/BGI) - Experimental reimplementation of the BGI (Buriko General Interpreter) visual novel engine: bytecode VM emulator (BGITool), opcode disassembler (BGIPiler) and tracer (BGITracer), and a resource viewer (BGIExplorer) for BGI's texture/bitmap formats.
 - [BGIKit](https://github.com/xupefei/BGIKit) - Script decoder and encoder for the Ethornell/BGI visual novel engine (archived).
-- [EthornellTools](https://github.com/arcusmaximus/EthornellTools) - Tools for the Buriko General Interpreter (BGI)/Ethornell visual novel engine.
+- [EthornellTools](https://github.com/arcusmaximus/EthornellTools) (archived) - Tools for the Buriko General Interpreter (BGI)/Ethornell visual novel engine.
   - Tools: BgiDisassembler (disassembles internal system `._bp` scripts), BgiImageEncoder (encodes images to the engine's proprietary CompressedBG format).
-  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating BGI scenario scripts.
+  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) (archived) above for translating BGI scenario scripts.
 - [ethornell-rs](https://github.com/xmoezzz/ethornell-rs) - Rust reimplementation of the Ethornell/BURIKO General Interpreter (BGI) visual novel engine that runs games from their resource archives and loose files, with desktop builds for Windows, macOS and Linux.
 - [BGI_Pack_Tool](https://github.com/crskycode/BGI_Pack_Tool) - Creates BGI engine archive files. See also the author's earlier [BGIArcPack](https://github.com/crskycode/BGIArcPack).
 - [BGI_Script_Tool](https://github.com/crskycode/BGI_Script_Tool) - Exports and rebuilds text strings from BGI engine scripts (excluding the internal `._bp` files handled by EthornellTools' BgiDisassembler above).
@@ -951,7 +952,7 @@
 
 *Visual novel engine ("C,system") by Cyberworks, used in various Japanese visual novels.*
 
-- [CSystemTools](https://github.com/arcusmaximus/CSystemTools) - Script and image unpacking/repacking tool for the Cyberworks "C,system" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) for translating the extracted scenario scripts.
+- [CSystemTools](https://github.com/arcusmaximus/CSystemTools) (archived) - Script and image unpacking/repacking tool for the Cyberworks "C,system" visual novel engine (Arc00-Arc09.dat index/content files); images convert automatically to/from PNG. See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) (archived) for translating the extracted scenario scripts.
 - [SystemCScriptManager](https://github.com/marcussacana/SystemCScriptManager) - DLL library for building custom string editors for the Cyberworks "C,system" engine's scripts.
 - [betterfpk](https://github.com/Anonym271/betterfpk) - Cyberworks "C,system" FPK archive tool with ZLC compression support, tested with TsuyokissNext.
 - [SystemCTools](https://github.com/lunaswd/SystemCTools) - Additional tools for the Cyberworks "C,system" visual novel engine.
@@ -1140,10 +1141,10 @@
 
 - [krkrz](https://github.com/krkrz/krkrz) - The official Kirikiri Z (KAG3/TJS2) visual novel engine project itself, including the runtime, TJS2 script compiler/VM, and XP3 archive support - upstream for many of the tools below.
 - [Xp3Viewer-AfterStory](https://github.com/Inori/Xp3Viewer-AfterStory) - Updated viewer for Kirikiri's XP3 archive format.
-- [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) - Toolset for the Kirikiri visual novel engine.
+- [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) (archived) - Toolset for the Kirikiri visual novel engine.
   - Tools: KirikiriDescrambler (descrambles/decompresses obfuscated `.ks`/`.tjs` plaintext scripts), KirikiriUnencryptedArchive (`version.dll` injection making games accept unencrypted .xp3 archives, with support for extracting encrypted/hashed file names), Xp3Pack (creates unencrypted .xp3 patch archives for use with the DLL).
-  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) above for translating Kirikiri scripts.
-- [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives. No longer maintained; see also the actively maintained successor [KrkrzExtract](https://github.com/xmoezzz/KrkrzExtract).
+  - See also [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) (archived) above for translating Kirikiri scripts.
+- [KrkrExtract](https://github.com/xmoezzz/KrkrExtract) (archived) - Extracts and repacks Kirikiri krkr2/krkrz XP3 archives. No longer maintained; see also the actively maintained successor [KrkrzExtract](https://github.com/xmoezzz/KrkrzExtract).
 - [eluna](https://github.com/xmoezzz/eluna) - Rust PSB/Emote reverse-engineering and reimplementation workspace: parses `.psb` files (MDF/LZ4 normalization, optional PSB key decryption and key brute-forcing), extracts PSB resources and dumps Emote schemas via `psb_extract`, and includes a wgpu preview player for Emote motions.
 - [Sickly-Days-Save-Editor](https://github.com/chocovanis/Sickly-Days-Save-Editor) - Python save editor for the Kirikiri Z visual novel Sickly Days and Summer Traces; decodes the binary game state embedded in its JPEG save files to edit stats, with a raw TJS viewer.
 - [kirikiri2](https://github.com/jeeb/kirikiri2) - Git-svn mirror of the original Kirikiri2 engine's SVN repository, the pre-Z source many of the tools above reverse engineer against.
@@ -1320,7 +1321,7 @@
 
 *Visual novel engine ("PJADV") used in various Japanese visual novels.*
 
-- [RxPJADV](https://github.com/ZQF-ReVN/RxPJADV) - Toolset for PJADV engine `textdata.bin` and `scenario.dat` files.
+- [RxPJADV](https://github.com/ZQF-ReVN/RxPJADV) (archived) - Toolset for PJADV engine `textdata.bin` and `scenario.dat` files.
 - [PJADV-Font-Maker](https://github.com/pkuislm/PJADV-Font-Maker) - Creates custom bitmap font files for the PJADV engine.
 
 #### Propeller Engine
@@ -1384,8 +1385,8 @@
 - [rxdataToJSON](https://github.com/GamingLiamStudios/rxdataToJSON) - C++ tool that converts RPG Maker XP `.rxdata` files to JSON and extracts the scripts from `Scripts.rxdata`.
 - [MakerLens](https://github.com/Kokoroou/rpgmaker-assets-viewer) - Browser-based, 100% client-side media viewer/extractor for RPG Maker MV, MZ, XP, VX, and VX Ace game assets.
 - [rpg-game-decrypter-python](https://github.com/TTitanUA/rpg-game-decrypter-python) - Desktop GUI tool for decrypting RPG Maker MV/MZ encrypted media files; also extracts Ren'Py .rpa archives.
-- [LoreInsight](https://github.com/Kokoroou/lore-insight) - Browser-based, 100% offline visualizer for RPG Maker MV/MZ event flow, parsing `Map###.json`, `CommonEvents.json`, and `MapInfos.json` into an interactive node graph of dialogue, choices, conditions, and jumps.
-- [RPG-Maker-MV-Decrypter](https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter) - Decrypts and re-encrypts RPG Maker MV/MZ's built-in encrypted resource files (`.rpgmvp`/`.rpgmvo`/`.rpgmvm`). Moved from [GitHub](https://github.com/Petschko/RPG-Maker-MV-Decrypter) (now read-only) to GitLab for continued development.
+- [LoreInsight](https://github.com/Kokoroou/rpgmaker-events-viewer) - Browser-based, 100% offline visualizer for RPG Maker MV/MZ event flow, parsing `Map###.json`, `CommonEvents.json`, and `MapInfos.json` into an interactive node graph of dialogue, choices, conditions, and jumps.
+- [RPG-Maker-MV-Decrypter](https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter) - Decrypts and re-encrypts RPG Maker MV/MZ's built-in encrypted resource files (`.rpgmvp`/`.rpgmvo`/`.rpgmvm`). Moved from [GitHub](https://github.com/Petschko/RPG-Maker-MV-Decrypter) (archived) (now read-only) to GitLab for continued development.
 - [RPGMaker_LLM_Translator](https://github.com/fkiliver/RPGMaker_LLM_Translator) - Local translator for RPG Maker games, feeding extracted Mtool/Translator++ game text through the Sakura/GalTransl offline LLM translation models for Japanese machine translation.
 - [rpgsave-converter](https://github.com/13xforever/rpgsave-converter) - Converts RPG Maker MV `.rpgsave` save files to JSON and back; the format is base64-encoded lz-string-compressed data.
 - [rpg95-fileformat](https://github.com/Ghabry/rpg95-fileformat) - Documentation of the file formats used by RPG Maker 95, the DOS-era predecessor to RPG Maker 2000/2003.
@@ -1406,7 +1407,7 @@
 - [RV2JSON](https://github.com/Sinflower/RV2JSON) - Ruby-based converter between RPG Maker VX Ace `.rvdata2` files and JSON, dumping game data and scripts to human-readable JSON/Ruby files and updating `.rvdata2` files from those dumps.
 - [TES-Patcher](https://github.com/Sinflower/TES-Patcher) - Patcher for TES-encoded RPG Maker VX Ace game files, applied after extracting the game's data (e.g. with RPG Maker Decrypter above).
 - [SL_Decoder](https://github.com/Sinflower/SL_Decoder) - Decodes RPG Maker `.sl` files to `.txt` and encodes them back.
-- [RM2k2XP](https://github.com/uuksu/RM2k2XP) - .NET GUI and CLI tool converting RPG Maker 2000/2003 charset and chipset images to RPG Maker XP format. Development has ended.
+- [RM2k2XP](https://github.com/uuksu/RM2k2XP) (archived) - .NET GUI and CLI tool converting RPG Maker 2000/2003 charset and chipset images to RPG Maker XP format. Development has ended.
 
 #### rUGP (AGES Player)
 
@@ -1461,7 +1462,7 @@
 - [SoftPal-Tool](https://github.com/luoyily/SoftPal-Tool) - Script disassembly and editing tool for the SoftPal visual novel engine.
 - [SoftpalTool](https://github.com/akiWagashi/SoftpalTool) - Resource processing tool for the Softpal visual novel engine.
 - [PGDTool](https://github.com/pkuislm/PGDTool) - Packs and unpacks the SoftPal engine's PGD image format.
-- [sena-rs](https://github.com/xmoezzz/sena-rs) - Cross-platform Rust reimplementation of the SoftPAL engine, for the game Koikake.
+- [softpal-rs](https://github.com/xmoezzz/softpal-rs) - Cross-platform Rust reimplementation of the SoftPAL engine, for the game Koikake.
 
 #### Sogna Engine
 
@@ -1519,7 +1520,7 @@
 
 *Proprietary visual novel engine ("MICo") made in-house by [VALKYRIA](https://vndb.org/p765).*
 
-- [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
+- [RxValkyria](https://github.com/ZQF-ReVN/RxValkyria) (archived) - Toolset for Valkyria's Engine `.sdt`, `.dat`, and `.mg2` files.
 - [MICo_Guide](https://github.com/TheVNConnoisseur/MICo_Guide) - Wiki-based notes on the MICo engine used in Valkyria visual novels, covering container files, debug mode, version differences and initialization files, plus IDA databases of game executables, a `system.dat` 010 Editor bookmark CSV and a sample `MICo_Debug.ini`; image and script formats are still unfinished.
 - [Turune](https://github.com/TheVNConnoisseur/Turune) - Toolset for MICo engine files: image import/export, `.ini` export/import and `.odn` create/extract.
 
@@ -1582,7 +1583,7 @@
 - [yuri](https://github.com/shimamura-sakura/yuri) - Parallel, incremental decompiler and compiler for the YU-RIS engine.
 - [YPF_Tool](https://github.com/crskycode/YPF_Tool) - Creates YU-RIS `.ypf` archive files.
 - [YPF-Manager](https://github.com/Xorboth/YPF-Manager) - GUI tool to pack, unpack, and manage YU-RIS `.ypf` archives. See also [lxl66566's fork](https://github.com/lxl66566/YPF-Manager) with prebuilt executables.
-- [RxYuris](https://github.com/ZQF-ReVN/RxYuris) - Toolset for YU-RIS engine `.ypf` archives and `.ybn` script files.
+- [RxYuris](https://github.com/ZQF-ReVN/RxYuris) (archived) - Toolset for YU-RIS engine `.ypf` archives and `.ybn` script files.
 - [Yuris_YDG_Tool](https://github.com/Lite0812/Yuris_YDG_Tool) - Batch converter between PNG and YU-RIS `.ydg` font bitmap files.
 - [extYuRis](https://github.com/CodeSpoof/extYuRis) - Extraction tool for YU-RIS `.ybn` script files.
 - [YuRISTools](https://github.com/xenei/YuRISTools) - All-in-one YU-RIS toolset: YPF unpacking/packing, YSER and YSCM parsing, an automatic YSTB XOR key finder, and YSTB parsing, patching and regeneration (requires YSCM).
@@ -1770,7 +1771,7 @@
 - [openDarkEngine](https://github.com/volca02/openDarkEngine) - Open-source multiplatform reimplementation of the Dark Engine, reading original Thief and System Shock 2 game data (level, mesh, and DAT resource formats).
 - [KCModelEditor](https://github.com/JarrodDoyle/KCModelEditor) - GUI tooling for browsing and editing Dark Engine model files, written in C# using the Godot engine.
 - [AngelLoader](https://github.com/FenPhoenix/AngelLoader) - Standalone fan mission loader/manager for the original Thief trilogy, System Shock 2, and The Dark Mod, installing and organizing Dark Engine FM archives (zip/7z) with readme/screenshot extraction and metadata handling.
-- [7-Zip Speed Optimizer](https://github.com/FenPhoenix/7-Zip-Speed-Optimizer) - Repackages Thief/System Shock 2/Dark Mod fan mission .7z archives so FM loaders (AngelLoader, FMSel) can scan them up to 70x faster, while retaining 7z's compression advantage.
+- [7-Zip Speed Optimizer](https://github.com/FenPhoenix/7-Zip-Speed-Optimizer) (archived) - Repackages Thief/System Shock 2/Dark Mod fan mission .7z archives so FM loaders (AngelLoader, FMSel) can scan them up to 70x faster, while retaining 7z's compression advantage.
 
 #### Godot
 
@@ -1780,6 +1781,7 @@
 - [GodotPCKExplorer](https://github.com/DmitriySalnikov/GodotPCKExplorer) - GUI and CLI tool for exploring, extracting, creating, and merging Godot Engine `.pck` package files, with support for encrypted packs.
 - [godotdec](https://github.com/Bioruebe/godotdec) - Unpacker for Godot Engine `.pck` package files.
 - [godot-unpacker](https://github.com/tehskai/godot-unpacker) - Python unpacker for non-encrypted Godot `.pck` archives (or a `.pck` embedded in a game exe) that also converts `.tex`/`.stex`/`.oggstr` containers to webp/png/jpg/ogg (`--raw` keeps them intact).
+- [GodotPckTool](https://github.com/hhyyrylainen/GodotPckTool) - Standalone command-line tool and C# library for Godot `.pck` files: list, extract, add and create packs with size/name filters, JSON-driven path control, and a selectable Godot version for new packs.
 - [GodotPckTool.Rs](https://github.com/vagmr/GodotPckTool.Rs) - Rust command-line tool for Godot .pck files: list, extract, add, and repack with name/size filters, AES-256-CFB encrypted index and files (Godot 4+), multi-threaded brute-force search for the 32-byte key in executables, embedded PCK detect/rip/merge/split/remove, conversion between Godot 3.x, 4.x, and 4.4+ pack versions, and mod-style patch overlays.
 - [ctex-file-viewer](https://github.com/simple-idiot/ctex-file-viewer) - Single-page HTML tool that views and converts Godot `.ctex` compressed image textures to image files.
 - [godot-stex-to-png](https://github.com/ClementineAccount/godot-stex-to-png) - Python script that converts Godot `.stex` textures to PNG (archived; its README says godot-unpacker now includes this functionality).

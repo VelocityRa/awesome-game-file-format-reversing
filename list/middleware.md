@@ -28,7 +28,7 @@
 
 - [Havok IO (Blender)](https://github.com/NewSkyLine-dev/havokmax-blender) - Havok tool for Blender (replaces legacy HavokMax 3ds Max plugin). Blender add-on that imports `.hkx`, `.hkt`, `.hka`, `.igz`, and `.pak` files from Havok XML and binary archives.
   - Capabilities: builds armatures and keyframed actions from animation data, constructs static meshes from geometry blocks, and unwraps PAK/IGZ containers.
-- [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) - Noesis plugin for Havok format.
+- [HavokNoesis](https://github.com/PredatorCZ/HavokNoesis) (archived) - Noesis plugin for Havok format.
 - [MapEditor](https://github.com/BF3RM/MapEditor) - Realtime map editor mod for Venice Unleashed (Battlefield 3).
 - [HavokPreviewToolsBatch2018](https://github.com/asasasasasbc/HavokPreviewToolsBatch2018) - Batch conversion script for Havok Preview Tool 2018 that can automatically convert Havok HKX/HKT files' format.
 - [hkxlib](https://github.com/aerisarn/hkxlib) - JAXB parser for editing TAGXML formatted Havok files.
@@ -46,7 +46,7 @@
 - [mayhem](https://github.com/ackwell/mayhem) - Pure Rust reader for Havok tagfile binary formats, currently focused on the Havok animation/physics data embedded in Final Fantasy XIV files.
 - [HKLib](https://github.com/The12thAvenger/HKLib) - Library for reading and writing Havok files, currently supporting Havok 2018.
 - [hkscdis-rs](https://github.com/Surasia/hkscdis-rs) - Rust disassembler for HavokScript 5.1 bytecode that outputs a human-readable listing, with optional support for structure-inheritance extensions.
-  - Predecessor: [hksc-disassembler](https://github.com/Surasia/hksc-disassembler), a Python HavokScript 5.1 disassembler and bytecode parser with documentation of the largely undocumented HavokScript bytecode format.
+  - Predecessor: [hksc-disassembler](https://github.com/Surasia/hksc-disassembler) (archived), a Python HavokScript 5.1 disassembler and bytecode parser with documentation of the largely undocumented HavokScript bytecode format.
 
 #### JSYSTEM (GameCube/Wii)
 
@@ -77,17 +77,17 @@
 - [J3DUltra](https://github.com/Sage-of-Mirrors/J3DUltra) - Advanced J3D model tool.
 - [Jekyll](https://github.com/Sage-of-Mirrors/Jekyll) - J3D animation tool.
 - [RiiStudio](https://github.com/snailspeed3/RiiStudio) - Modern editor for J3D models.
-- [Tockdom BMD/BDL](https://wiki.tockdom.com/wiki/BMD_and_BDL_(File_Format)) - BMD/BDL format documentation.
+- [Tockdom BMD/BDL](https://mkwiiki.org/wiki/BMD_and_BDL_(File_Format)) - BMD/BDL format documentation.
 - [ibnktool](https://github.com/XAYRGA/ibnktool) - JAudio instrument bank tool.
 - [chutools](https://github.com/TwilitRealm/chutools) - Collection of tools for JAudio audio assets in Nintendo games, an updated version of XAYRGA's JAMTools.
   - Formats: JASE, JBST, IBNK (v1/v2), BMS (disassembler).
 - [JaiSeqX](https://github.com/XAYRGA/JaiSeqX) - JAudio Engine (JAI Sequence) emulator and GameCube BMS player.
 - [py-playBMS](https://github.com/RenolY2/py-playBMS) - Reads and plays back BMS sequenced music files from various GameCube games.
-- [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) - Nintendo Wii/Gamecube BMS to MIDI converter
+- [BMS-Analyzer](https://github.com/3e2j/BMS-Analyzer) (archived) - Nintendo Wii/Gamecube BMS to MIDI converter
 - [pyjmap](https://github.com/SunakazeKun/pyjmap) - JMap format library.
 - [jpc_conv](https://github.com/PikHacker/jpc_conv) - JParticle converter.
 - [pikmin2-stb](https://github.com/RenolY2/pikmin2-stb) - JStudio format tool.
-- [Yaz0Decoder](https://github.com/Cuyler36/Yaz0Decoder) - Yaz0 compression decoder.
+- [Yaz0Decoder](https://github.com/Cuyler36/Yaz0Decoder) (archived) - Yaz0 compression decoder.
 - [rarc-rs](https://github.com/gcnhax/rarc-rs) - Rust library for RARC archives.
 - [WArchive-Tools](https://github.com/LordNed/WArchive-Tools) - Tools for working with RARC archives.
 - [RARClib.py](https://github.com/RenolY2/RARClib.py) - Python library for RARC format.
@@ -101,9 +101,9 @@
 - [bmdmaterializer](https://github.com/RenolY2/bmdmaterializer) - Tool for dumping and injecting BMD material data.
 - [BmtInjectExtract](https://github.com/RenolY2/BmtInjectExtract) - Injects and extracts J3D BMT material files into and from BMD/BDL files (used in GameCube/Wii games such as Super Mario Sunshine and Zelda: Wind Waker).
 - [RarcPack](https://github.com/Sage-of-Mirrors/RarcPack) - RARC archive packer.
-- [pyjkernel](https://github.com/SunakazeKun/pyjkernel) - Python library for JKernel formats.
+- [pyjkernel](https://github.com/SunakazeKun/pyjkernel) (archived) - Python library for JKernel formats.
 - [WiiExplorer](https://github.com/SuperHackio/WiiExplorer) - Wii filesystem explorer.
-- [ARCTool](https://github.com/tpwrules/ARCTool) - Python script to extract RARC, Yaz0, and U8 archives.
+- [ARCTool](https://github.com/tpwrules/ARCTool) (archived) - Python script to extract RARC, Yaz0, and U8 archives.
 - [atirut.bdl](https://github.com/atirutw/atirut.bdl) - JSYSTEM BMD/BDL model importer for Godot Engine.
 - [wsystool](https://github.com/XAYRGA/wsystool) - WAVESYSTEM modification toolkit for JSYSTEM games.
 - [jampacked](https://github.com/XAYRGA/jampacked) - BAA unpacker for JSYSTEM games.
@@ -144,14 +144,14 @@
 - [FFL-Testing](https://github.com/ariankordi/FFL-Testing) - Mii rendering sample and renderer server built on the FFL decompilation. Fork of [aboood40091/FFL-Testing](https://github.com/aboood40091/FFL-Testing) with added rendering server functionality.
 - [FFL.js](https://github.com/ariankordi/FFL.js) - JavaScript bindings and Three.js renderer for FFL, enabling in-browser Mii rendering from the Wii U Mii renderer decompilation.
 - [mii2studio](https://github.com/JimKatz/mii2studio) - Command-line tool converting Mii data between Wii, 3DS, Wii U, Miitomo, and Switch formats, outputting files loadable by Nintendo's Mii Studio and PNG renders via Nintendo's rendering API.
-- [mii-assets](https://github.com/jaames/mii-assets) - Reverse-engineered Nintendo's Face Library rendering pipeline and extracts the textures/meshes it uses for Mii avatars.
+- [mii-assets](https://github.com/jaames/mii-assets) (archived) - Reverse-engineered Nintendo's Face Library rendering pipeline and extracts the textures/meshes it uses for Mii avatars.
 - [MiiPort](https://github.com/Genwald/MiiPort) - Nintendo Switch homebrew application for importing and exporting Mii data.
 
 #### Katana Engine (Koei Tecmo)
 
 *Koei Tecmo's in-house engine and asset formats (G1M models, G1T texture archives, G1A/G2A skeletal animations), used across Team Ninja, Omega Force, and Gust titles as well as several external collaborations.*
 
-- [Project-G1M](https://github.com/Joschuka/Project-G1M) - Native C++ Noesis plugin for G1M model, G1T texture, and G1A/G2A skeletal animation files. Used across Nioh, Dead or Alive 5/6, the Warriors series (Dynasty/Samurai Warriors, Hyrule Warriors, Fire Emblem Warriors), Atelier, Toukiden, Fire Emblem: Three Houses, and Persona 5 Scramble. Supersedes the same author's Python-based [fmt_g1m](https://github.com/Joschuka/fmt_g1m).
+- [Project-G1M](https://github.com/Joschuka/Project-G1M) (archived) - Native C++ Noesis plugin for G1M model, G1T texture, and G1A/G2A skeletal animation files. Used across Nioh, Dead or Alive 5/6, the Warriors series (Dynasty/Samurai Warriors, Hyrule Warriors, Fire Emblem Warriors), Atelier, Toukiden, Fire Emblem: Three Houses, and Persona 5 Scramble. Supersedes the same author's Python-based [fmt_g1m](https://github.com/Joschuka/fmt_g1m).
 
 #### M3G (Mobile 3D Graphics API)
 
@@ -217,7 +217,7 @@
 - [librw](https://github.com/aap/librw) - Re-implementation of the RenderWare Graphics engine.
 - [DragonFF](https://github.com/Parik27/DragonFF) - Blender add-on for RenderWare `.dff` models, `.txd` textures, `.col` collisions, and `.ipl` map data.
 - [DemonFF](https://github.com/spicybung/DemonFF) - Fork of DragonFF for Blender, importing and exporting RenderWare and Rockstar formats: DFF/MDL/RPF/RW4 models, textures, COL collision (including COL archives), IPL/IDE maps, IFP/ANIM animations (import only), and IMG archives (import only), plus SA-MP/open.mp and MTA workflow features.
-- [Kams-Scripts-GTA-SAMP](https://github.com/spicybung/Kams-Scripts-GTA-SAMP) - 3ds Max MaxScripts for GTA RenderWare content (DFF, COL, IFP, and map I/O scripts), an updated version of Kam's scripts with SA-MP/open.mp adaptations.
+- [Kams-Scripts-SB](https://github.com/spicybung/Kams-Scripts-SB) - 3ds Max MaxScripts for GTA RenderWare content (DFF, COL, IFP, and map I/O scripts), an updated version of Kam's scripts with SA-MP/open.mp adaptations.
 - [ODFF](https://github.com/spicybung/ODFF) - DFF model conversion tool for SA-MP/open.mp: opens a DFF or folder of DFFs and embeds collision so the objects display and collide correctly in-game, loosely modeled on KDFF GUI.
 - [Blender-3D-RW-Anm-plugin](https://github.com/Psycrow101/Blender-3D-RW-Anm-plugin) - Import and export RenderWare animations (.anm) into Blender 3D.
 - [io_scene_gta_ifp](https://github.com/Psycrow101/io_scene_gta_ifp) - Blender add-on for importing and exporting GTA III, Vice City, and San Andreas animation (.ifp) files.
@@ -280,7 +280,7 @@
 
 - [CriPakTools](https://github.com/esperknight/CriPakTools) - Tools for extracting and repacking CRI CPK archives used in many Japanese games.
 - [CriPakTools (GUI)](https://github.com/wmltogether/CriPakTools) - GUI version of CriPakTools with additional features including Shift-JIS support, 2GB+ CPK support for PS3, batch mode, compression support, and improved CPK header handling.
-- [YACpkTool](https://github.com/Brolijah/YACpkTool) - Yet Another CPK Tool, for reading, extracting, packing, and patching CRIWARE CPK archives via drag-and-drop or command line.
+- [YACpkTool](https://github.com/Brolijah/YACpkTool) (archived) - Yet Another CPK Tool, for reading, extracting, packing, and patching CRIWARE CPK archives via drag-and-drop or command line.
 - [Universal-CPK-Mod-Installer](https://github.com/PTKay/Universal-CPK-Mod-Installer) - Universal installer for CPK mod files.
 - [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives. See also [CriFs.V2.Hook.ReloadedII](https://github.com/Sewer56/CriFs.V2.Hook.ReloadedII), a Reloaded-II mod built on it for redirecting CRI archive reads to loose/modded files.
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Simple, relatively fast library for reading and writing CRIWare AFS archives.
@@ -298,7 +298,7 @@
 - [hca](https://github.com/Ishotihadus/hca) - Efficient, high-quality decoder for CRI's HCA (ADX2) audio format used by many CRIWARE-based games.
 - [HCADecoder](https://github.com/Nyagamon/HCADecoder) - Original decoder for CRI's HCA (ADX2) audio format, the canonical reference implementation other HCA tools are based on.
 - [GoldWave_HcaFile](https://github.com/esterTion/GoldWave_HcaFile) - HCA/ACB playback and export plugin for the GoldWave audio editor.
-- [UsmToolkit](https://github.com/Rikux3/UsmToolkit) - Converts CRI USM video files into user-friendly formats, using ffmpeg and vgmstream. See also [UsmToolkitHandler](https://github.com/KojoBailey/UsmToolkitHandler), a companion tool that speeds up the conversion process.
+- [UsmToolkit](https://github.com/Rikux3/UsmToolkit) (archived) - Converts CRI USM video files into user-friendly formats, using ffmpeg and vgmstream. See also [UsmToolkitHandler](https://github.com/KojoBailey/UsmToolkitHandler), a companion tool that speeds up the conversion process.
 - [WannaCRI](https://github.com/donmai-me/WannaCRI) - Python library and CLI for extracting and creating CRI USM video files (VP9/H.264, encrypted and unencrypted) with embedded HCA audio.
 - [ACE](https://github.com/LazyBone152/ACE) - GUI tool (Audio Cue Editor) for editing and previewing CRIWARE ACB/AWB files.
 - [CriTools](https://github.com/kohos/CriTools) - JavaScript tools for extracting audio from CRIWARE game files (ADX/HCA from CPK archives).
@@ -310,7 +310,7 @@
 *SDK-provided formats for the Game Boy Advance sound engine. Used in [Pokémon Gen III](games-g-h.md#gen-iii) and many other GBA titles.*
 
 - [gba-mus-ripper](https://github.com/berg8793/gba-mus-ripper) - GBA music ripper.
-- [SapPy](https://github.com/mayhaps-perchance/SapPy) - Python-based GBA sound tool.
+- [SapPy](https://github.com/mayhaps-perchance/SapPy) (archived) - Python-based GBA sound tool.
 - [agbplay](https://github.com/ipatix/agbplay) - Music player and music ripper for GBA.
 - [sappy](https://github.com/maddievision/sappy) - GBA sound tool.
 - [Sappy (Touched)](https://github.com/Touched/Sappy) - Fork with additional features.
@@ -318,10 +318,10 @@
 - [gsfopt](https://github.com/loveemu/gsfopt) - GSF (GBA Sound Format) optimizer tool. Optimizes GSF sets by removing unused code/data, converts minigsfs/gsflibs to single GSF files, and includes timing functionality for auto-tagging.
 - [saptapper](https://github.com/loveemu/saptapper) - Automated GSF ripper for Game Boy Advance games using the Sappy driver. Extracts music from GBA ROMs automatically.
 - [deadbeef_GSFdecoder](https://github.com/joshbarrass/deadbeef_GSFdecoder) - GSF decoder plugin for DeaDBeeF media player. Enables playback of GSF (GBA Sound Format) files in DeaDBeeF, based on viogsf/VBA-M.
-- [engine-software-gba-tools](https://github.com/lunasorcery/engine-software-gba-tools) - Tools for interacting with music data in GBA games that use the Engine Software (developer) replayer.
+- [engine-software-gba-tools](https://github.com/lunasorcery/engine-software-gba-tools) (archived) - Tools for interacting with music data in GBA games that use the Engine Software (developer) replayer.
 - [gba-audio-tools](https://github.com/mudassarzahid/gba-audio-tools) - Tools for extracting and converting Game Boy Advance Sappy-driven audio.
 - [gba-audio-extractor](https://github.com/DenSinH/gba-audio-extractor) - Tool for extracting audio from GBA ROMs.
-- [m4a2s](https://github.com/ipatix/m4a2s) - Extracts music and sound data from GBA games using the mp2k/m4a sound driver, outputting assembly source for sequences, voicegroups, and samples while preserving pointer links via auto-generated global names.
+- [m4a2s](https://github.com/ipatix/m4a2s) (archived) - Extracts music and sound data from GBA games using the mp2k/m4a sound driver, outputting assembly source for sequences, voicegroups, and samples while preserving pointer links via auto-generated global names.
 - [wav2agb](https://github.com/ipatix/wav2agb) - Converts standard WAV files to GBA-compatible assembly (`.s`) sample data for the m4a sound engine.
   - See also [se2m4a](https://github.com/laqieer/se2m4a), a companion tool converting sound effects to m4a-compatible assembly source.
 - [wav28ad](https://github.com/laqieer/wav28ad) - Converts WAV files to the `.8ad` ADPCM sample format used by GBA homebrew sound engines, per [pineight's 8ad format notes](https://pineight.com/gba/#8ad).
@@ -375,7 +375,7 @@
 
 ##### Switch
 
-- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
+- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) (archived) - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
 - [HACGUI](https://github.com/shadowninja108/HACGUI) - A comprehensive interface for extracting Nintendo Switch contents, deriving keys, and mounting filesystems (NAND, RomFS, Save).
 - [nstool](https://github.com/jakcron/nstool) - General purpose tool to read and extract Nintendo Switch file formats (NSO, NRO, NCA, etc.).
 - [TegraRcmSmash](https://github.com/rajkosto/TegraRcmSmash) - C++ reimplementation of fusee-launcher for Nintendo Switch RCM payloads.
@@ -461,7 +461,6 @@
 - [NDecrypt](https://github.com/SabreTools/NDecrypt) - Encryption/decryption utility for Nintendo cartridge images, supporting Nintendo DS, DSi, 3DS, and New 3DS cartridge formats.
 - [3dsconv](https://github.com/ihaveamac/3dsconv) - Python script converting Nintendo 3DS CCI (.cci/.3ds) cart images to the CIA format, with support for decrypted, NCCH-encrypted, and zerokey-encrypted images.
 - [pyctr](https://github.com/ihaveamac/pyctr) - Python library for reading Nintendo 3DS file formats (NCCH, ExeFS, RomFS, CIA, and more), used by several other 3DS tools.
-- [Lemon](https://github.com/SceneGate/Lemon) - .NET library from the SceneGate framework for unpacking/packing Nintendo 3DS NCSD (CCI/CSU), CIA, NCCH (CXI/CFA), ExeFS, and RomFS containers, plus TMD (de)serialization.
 - [3DS-rom-tools](https://github.com/ihaveamac/3DS-rom-tools) - Tools and guides for working with Nintendo 3DS game/application formats (.3ds, .cci, .app, .cxi, .cfa, .cia).
 - [rofs_dumper](https://github.com/PabloMK7/rofs_dumper) - Dumps very early Nintendo 3DS ROFS containers.
 - [3dsconv-c](https://github.com/soarqin/3dsconv-c) - C port of ihaveamac's 3dsconv, converting Nintendo 3DS CCI cart images to CIA format.
@@ -480,7 +479,7 @@
 - [restore-overwritten-secureinfo](https://github.com/ihaveamac/restore-overwritten-secureinfo) - Restores a Nintendo 3DS console's SecureInfo_A/B file from inspect.log data.
 - [gen-title-info-entry](https://github.com/ihaveamac/gen-title-info-entry) - Experimental script to generate the Title Info Entry structure used in a Nintendo 3DS title.db.
 - [dumptik](https://github.com/ihaveamac/dumptik) - Dumps all ticket (.tik) files from a Nintendo 3DS console.
-- [firmswap](https://github.com/ihaveamac/firmswap) - Python implementation of the hardmod downgrade for Nintendo 3DS, working directly with FIRM partition data.
+- [firmswap](https://github.com/ihaveamac/firmswap) (archived) - Python implementation of the hardmod downgrade for Nintendo 3DS, working directly with FIRM partition data.
 - [save-crypto-finder](https://github.com/ihaveamac/save-crypto-finder) - Determines which titles a collection of encrypted Nintendo 3DS save files belong to, using boot9 and movable.sed.
 - [save3ds](https://github.com/wwylele/save3ds) - Extract/import/FUSE tool for the Nintendo 3DS common save format (DISA/DIFF), covering save data, extdata, and the title database. Upstream of ihaveamac's save3ds fork.
 - [3ds-save-tool](https://github.com/wwylele/3ds-save-tool) - Tools for parsing and extracting files from Nintendo 3DS save (DISA) and extdata (DIFF) containers.
@@ -519,7 +518,7 @@
 
 - [GodMode9](https://github.com/d0k3/GodMode9) - Full access file browser and manager for Nintendo 3DS handling game file formats and system files.
 - [layeredFS](https://github.com/ihaveamac/layeredFS) - LayeredFS mod for OSX/Linux/UNIX, modified to work from a decompressed code.bin instead of exefs.bin.
-- [videoinject](https://github.com/ihaveamac/videoinject) - Tool for injecting/creating Nintendo 3DS moflex video files.
+- [videoinject](https://github.com/ihaveamac/videoinject) (archived) - Tool for injecting/creating Nintendo 3DS moflex video files.
 - [Lasagna](https://github.com/BernardoGiordano/Lasagna) - LayeredFS patch manager for Luma3DS, organizing romfs/exefs mod overlay folder structures.
 - [Checkpoint](https://github.com/BernardoGiordano/Checkpoint) - Fast and simple homebrew save management framework for 3DS and Switch.
 - [crotools](https://github.com/shinyquagsire23/crotools) - Collection of tools for the Nintendo 3DS CRO/CRR shared-library binary format.
@@ -538,7 +537,7 @@
 - [gci-bt](https://github.com/jam1garner/gci-bt) - GameCube GCI file tool with Bluetooth support.
 - [nod](https://github.com/encounter/nod) - Rust library for reading and writing Nintendo Optical Disc images (GameCube and Wii). Includes nodtool CLI for extraction, conversion, and verification.
   - Formats: ISO (GCM), WIA/RVZ, WBFS, CISO, NFS (Wii U VC), GCZ, TGC.
-- [GCReLink](https://github.com/Cuyler36/GCReLink) - Tool for unpacking and repacking GameCube and Wii relocatable modules (REL files).
+- [GCReLink](https://github.com/Cuyler36/GCReLink) (archived) - Tool for unpacking and repacking GameCube and Wii relocatable modules (REL files).
 - [triforce-nand-iso-extract](https://github.com/FIX94/triforce-nand-iso-extract) - Converts Triforce (Namco/Sega/Nintendo GameCube-based arcade board) NAND images to ISO files.
 - [triforce-header-patcher](https://github.com/FIX94/triforce-header-patcher) - Verifies Triforce arcade disc images and patches in the correct headers.
 - [pyisotools](https://github.com/JoshuaMKW/pyisotools) - Python library for working with GameCube ISOs (GCM).
@@ -558,7 +557,7 @@
 - [mapdas](https://github.com/intns/mapdas) - Tools for working with Metrowerks symbol map (.map) and Gekko/Dolphin executable (.dol) files.
 - [Kuribo](https://github.com/DotKuribo/Kuribo) - Embedded Wii Channel mod loader, installing mods from an SD card. Loads its own .kxe executable format (supporting GCC, Clang, and CodeWarrior) as well as legacy Kamek .kmk executables.
 - [geckocode-libs](https://github.com/JoshuaMKW/geckocode-libs) - Python library for parsing and editing Gecko Codes for the Wii/GCN.
-- [GekkoAssembler](https://github.com/CryZe/GekkoAssembler) - Assembles Gekko Assembly to Action Replay or Gecko Cheat Code format. Used for GameCube and Wii game modding.
+- [GekkoAssembler](https://github.com/CryZe/GekkoAssembler) (archived) - Assembles Gekko Assembly to Action Replay or Gecko Cheat Code format. Used for GameCube and Wii game modding.
 
 ###### SDK, System Libraries & Decompilations
 
@@ -587,8 +586,8 @@
 - [Dolphin](https://github.com/dolphin-emu/dolphin) - GameCube and Wii emulator that parses and implements support for GameCube/Wii disc and asset file formats.
 - [noclip.website (Wii Banners)](https://github.com/magcius/noclip.website/tree/main/src/Common/NW4R/lyt) - Renderer for NW4R LYT UI layouts, used to play back animated Wii channel banners from `banner.bin` archives. Parses BRLYT layouts, BRLAN animations, and NW4R bitmap fonts.
 - [FunKii](https://github.com/AuroraWright/FunKii) - Command-line downloader for Wii content from the Nintendo CDN, packaging titles into installable WAD files (including DLC handling).
-- [DTMText](https://github.com/heinermann/DTMText) - Converts Dolphin emulator DTM tool-assisted-speedrun movie files to and from a human-editable text format, to support diffing/version-controlling TAS inputs (GameCube, single controller only).
-- [DTMEditor](https://github.com/lioncash/DTMEditor) - GUI editor for Dolphin emulator DTM tool-assisted-speedrun movie files.
+- [DTMText](https://github.com/heinermann/DTMText) (archived) - Converts Dolphin emulator DTM tool-assisted-speedrun movie files to and from a human-editable text format, to support diffing/version-controlling TAS inputs (GameCube, single controller only).
+- [DTMEditor](https://github.com/lioncash/DTMEditor) (archived) - GUI editor for Dolphin emulator DTM tool-assisted-speedrun movie files.
 - [wii-banner-sound-extractor](https://github.com/DrRetroMod/wii-banner-sound-extractor) - Python tool for extracting the Wii menu/banner sound from Wii game images, saving it as an MP3.
 - [mo2mp4](https://github.com/RiiConnect24/mo2mp4) - Converts Wii Mobiclip `.mo` video files to `.mp4`, combining the Wii Mobiclip SDK with Gericom's MobiclipDecoder. See also [mobiclip-conversion-tool](https://github.com/RiiConnect24/mobiclip-conversion-tool) for the reverse (encoding) direction (binary-only release).
 - [mpls_movie-decomp](https://github.com/RootCubed/mpls_movie-decomp) - Decompilation of the Wii Motion Plus Demo Video Player, the built-in Wii channel demonstrating Wii Motion Plus.
@@ -600,17 +599,17 @@
 
 - [Nitro Files](https://wiki.vg-resource.com/Nitro_Files) - Documentation for Nintendo DS file formats.
 - [narchive](https://github.com/nickworonekin/narchive) - Tool for extracting and creating NARC archives used in DS games.
-- [Tinke](https://github.com/pleonex/tinke) - Viewer, converter, and editor for Nintendo DS file formats (images, text, sounds, fonts, textures), extensible via .NET plugins. Deprecated by its author; see [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) below for an actively maintained continuation with DSi support.
+- [Tinke](https://github.com/pleonex/tinke) (archived) - Viewer, converter, and editor for Nintendo DS file formats (images, text, sounds, fonts, textures), extensible via .NET plugins. Deprecated by its author; see [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) below for an actively maintained continuation with DSi support.
 - [TinkeDSi](https://github.com/R-YaTian/TinkeDSi) - Viewer and extractor for Nintendo DS/DSi file formats.
 - [NitroViewer](https://github.com/turtleisaac/NitroViewer) - In-browser (and Electron desktop) viewer and editor for Nintendo DS ROMs, a web replacement for Tinke powered by Nds4j. Browses the ROM filesystem and NARC archives; views NCGR/NCLR/NSCR/NCER/NANR 2D graphics, NSBMD/NSBTX models with NSBCA/NSBMA/NSBVA/NSBTP animations (glTF export) and SPA particles; browses SDAT and plays SSEQ/SWAV/STRM; replaces files or imports PNGs and downloads the modified .nds.
-- [Hatenatools](https://github.com/pbsds/Hatenatools) - Python tools for Flipnote Studio (Nintendo DSi) file formats. Supports reading and writing .ppm (Flipnote files), .tmb (thumbnail files), .ugo (user data), and .ntft (image files). Can extract metadata, frames, and audio from Flipnote files.
+- [Hatenatools](https://github.com/pbsds/Hatenatools) (archived) - Python tools for Flipnote Studio (Nintendo DSi) file formats. Supports reading and writing .ppm (Flipnote files), .tmb (thumbnail files), .ugo (user data), and .ntft (image files). Can extract metadata, frames, and audio from Flipnote files.
 - [apicula](https://github.com/scurest/apicula) - Converter for Nintendo DS .nsbmd 3D model format.
 - [apicula/wiki/FILETYPES](https://github.com/scurest/apicula/wiki/FILETYPES) - Documentation for Nintendo DS file types.
 - [nitro-fs](https://github.com/DanielPXL/nitro-fs) - Nintendo DS filesystem tools.
 - [nitro-g3d-tools](https://github.com/Ermelber/nitro-g3d-tools) - Tools for Nintendo DS 3D graphics.
 - [nitroefx](https://github.com/Fexty12573/nitroefx) - Nintendo DS effect tools.
 - [NitroEffectMaker](https://github.com/HaroohiePals/NitroEffectMaker) - Effect editor for Nintendo DS.
-- [narc](https://github.com/lhearachel/narc) - NARC archive tool for Nintendo DS.
+- [narc](https://github.com/lhearachel/narc) (archived) - NARC archive tool for Nintendo DS.
 - [NitroSDK](https://github.com/ntrtwl/NitroSDK) - Official Nintendo DS SDK.
 - [NitroSystem](https://github.com/ntrtwl/NitroSystem) - Nintendo DS system library.
 - [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) - Ghidra plugin for Nintendo DS.
@@ -620,7 +619,6 @@
 - [nitrogfx](https://github.com/red031000/nitrogfx) - Nintendo DS graphics tools.
 - [TWLFontTools](https://github.com/chyyran/TWLFontTools) - Extracts NFTR fonts from a Nintendo DSi TWLFontTable.dat file and prepares them for reuse, with companion dumper/generator tools for the font's texture map, UV coordinates, and codepoint lookup table.
 - [TWLFontTransferTool](https://github.com/R-YaTian/TWLFontTransferTool) - GodMode9 script/firm that transfers a Nintendo DSi TWLFont between console regions (iQue, Nintendo, KOR), fixing the white-screen font mismatch when booting DSiWare titles from another region.
-- [Ekona](https://github.com/SceneGate/Ekona) - Nintendo DS file format library.
 - [Nds4j](https://github.com/turtleisaac/Nds4j) - Java library for Nintendo DS formats.
 - [REGames Editor](https://www.reddit.com/r/REGames/comments/12o004k/a_friend_and_i_made_a_full_editor_for_a_nintendo/) - Full-featured editor for Nintendo DS games.
 - [NitroModel ConverterGUI](https://github.com/TheGameratorT/NitroModel_ConverterGUI) - Converts between Nintendo DS Nitro model formats (NSBMD/NSBTX from ASS/IMD).
@@ -639,7 +637,7 @@
 - [flipnote-studio-docs](https://github.com/Flipnote-Collective/flipnote-studio-docs) / [flipnote-studio-3d-docs](https://github.com/Flipnote-Collective/flipnote-studio-3d-docs) - Reverse-engineering documentation wikis for Flipnote Studio (DSiWare) and Flipnote Studio 3D (3DS eShop) respectively.
 - [flipnote.py](https://github.com/meemo/flipnote.py) - Python library for Flipnote Studio and Flipnote Studio 3D files. See also [flippy](https://github.com/meemo/flippy), a Flipnote Studio 3D multitool by the same author.
 - [flipnote-id](https://github.com/pummelator/flipnote-id) - Extracts names, Flipnote Studio IDs, and other metadata embedded in Flipnote files.
-- [flipnote-audio-tool](https://github.com/jaames/flipnote-audio-tool) - Debugging tool for the audio data embedded in Flipnote Studio 3D's DSi Library notes.
+- [flipnote-audio-tool](https://github.com/jaames/flipnote-audio-tool) (archived) - Debugging tool for the audio data embedded in Flipnote Studio 3D's DSi Library notes.
 - [Flipnote.NET](https://github.com/NotImplementedLife/Flipnote.NET) - Fan-made PC application for Flipnote Studio (formerly known as FlipnoteDesktop), for viewing, creating, and editing .ppm Flipnotes.
 - [dsiflipencode](https://github.com/khang06/dsiflipencode) - Flipnote Studio (.ppm) encoder/decoder written in C++.
 - [PPMLib](https://github.com/miso-xyz/PPMLib) - .NET library to read and write Flipnote Studio (.ppm) files. See also [RinLovesYou's cross-platform rewrite](https://github.com/RinLovesYou/PPMLib).
@@ -653,7 +651,6 @@
 - [NFS (Nintendo File System Utils)](https://github.com/nfsu/NFS) - ROM hacking library and tools for reading/writing Nintendo DS file formats including NARC, NCLR, NCGR, and more.
 - [editwl](https://github.com/XorTroll/editwl) - C++ libraries and desktop tool for reading, writing, and editing Nintendo DS(i) ROM formats: BMG message archives, DS(i) ROM headers/overlays/code/NitroFS filesystem, NARC/CARC archives, and DWC utility.bin archives, usable as a GUI or CLI.
 - [TomoForge](https://github.com/CarlosA49/tomoforge) - Windows-first desktop toolkit for inspecting, validating, extracting, rebuilding, and patching Nintendo DS-family ROMs; works at the ROM-container level across retail games and homebrew. Reads NTR/TWL headers, verifies header/logo CRC values, exports/replaces files in the NitroFS filesystem, rebuilds standard NTR ROMs with structural verification, and applies xdelta/IPS/UPS/BPS patches with format auto-detection.
-- [PlayMobic](https://github.com/pleonex/PlayMobic) - Documentation, .NET library, and command-line/GUI tools for the MODS video format used in Nintendo DS games (Mobiclip video, IMA-AD PCM and FastAudio v2 audio codecs). Converts to MP4, AVI, or raw streams.
 - [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor) - GUI editor for creating and previewing animated Nintendo DS icon/title banners, with an in-app animation player.
 - [NDS BMG Editor](https://github.com/TheGameratorT/NDS_BMG_Editor) - PyQt5/ndspy GUI editor for Nintendo BMG (Binary Message) files from Nintendo DS games such as Mario Kart DS and New Super Mario Bros., with escape-sequence handling, character analysis, and text export/import.
 - [NDS BNCL Editor](https://github.com/TheGameratorT/NDS_BNCL_Editor) - Windows (.NET) GUI with a 2D viewer for editing Nintendo DS BNCL files.
@@ -685,7 +682,7 @@
 - [n64os-info](https://github.com/akopetsch/n64os-info) - Reverse-engineered and documented version history of the official Nintendo 64 OS (libultra, microcode, headers, release notes), based on SDK discs and leaks, complementing ultralib above.
 - [ultra64](https://github.com/marijnvdwerf/ultra64) - Detects libultra (N64 SDK) library function signatures embedded in N64 ROM binaries.
 - [n64-mr-backup-z64-python](https://github.com/gufranco/n64-mr-backup-z64-python) - Builds verified Mr. Backup Z64 Zip100 disk images from an N64 ROM collection: 8.3 naming, FAT16 layout, provably minimal disk count, and byte-reproducible output; ships no ROMs, only hashes to identify them.
-- [N64SoundTools](https://github.com/derselbst/N64SoundTools) - Preservation mirror of old versions of Subdrag's original N64SoundTools, the official N64 SDK audio sequence/bank editor that n64soundtools above reimplements.
+- [N64SoundTools](https://github.com/derselbst/N64SoundTools) (archived) - Preservation mirror of old versions of Subdrag's original N64SoundTools, the official N64 SDK audio sequence/bank editor that n64soundtools above reimplements.
 
 ##### SNES / NES
 
@@ -709,7 +706,6 @@
 - [NES-Sprite-Editor](https://github.com/eonarheim/NES-Sprite-Editor) - Simple sprite editor for NES games.
 - [NesBlockFinder](https://github.com/spiiin/NesBlockFinder) - Locates tile/block and screen-layout data within NES ROMs by matching an FCEUX PPU memory dump against the ROM's CHR/pattern data, to find offsets for graphics extraction/editing. Includes NesScreenFinder for locating screen-composition data built from those blocks.
 - [snes-sdd1-python](https://github.com/gufranco/snes-sdd1-python) - Python reimplementation of the SNES S-DD1 compression coprocessor (used by Star Ocean and Street Fighter Alpha 2), checked against the snes9x reference decoder across 4,000 golden test vectors.
-  - Same author also publishes patchers that rebuild [Street Fighter Alpha 2/Zero 2](https://github.com/gufranco/snes-street-fighter-alpha-2-nochip) and [two Star Ocean rebuilds](https://github.com/gufranco/snes-star-ocean-nochip-fix) as plain ROMs with the S-DD1 requirement designed out of the header, built from your own cartridge dump.
 - [snes-driver-python](https://github.com/gufranco/snes-driver-python) - Recovers the command protocol a SNES cartridge uses to talk to its coprocessor, read directly out of the cartridge's own driver code; checked against 42 real cartridges.
 - [snes-st-python](https://github.com/gufranco/snes-st-python) - Emulator for the Seta ST010/ST011 navigation coprocessors used in SNES racing cartridges, settled against their own reference implementation.
 - [snes-rtc-python](https://github.com/gufranco/snes-rtc-python) - Emulator for the two real-time-clock coprocessors used in SNES cartridges (S-RTC), held to the chips' own reference implementations.
@@ -800,7 +796,7 @@
 
 ###### Game Boy Camera & Printer
 
-- [gbcam-rev-engineer](https://github.com/AntonioND/gbcam-rev-engineer) - Tools used to reverse engineer the Game Boy Camera's sensor and communication protocol using an Arduino UNO.
+- [gbcam-rev-engineer](https://github.com/AntonioND/gbcam-rev-engineer) (archived) - Tools used to reverse engineer the Game Boy Camera's sensor and communication protocol using an Arduino UNO.
 - [gbp-decode](https://github.com/HerrZatacke/gbp-decode) - Set of functions to decode Game Boy Printer print job data.
 - [gbcamextract](https://github.com/jkbenaim/gbcamextract) - Extracts photos from Game Boy Camera / Pocket Camera save files, including the Hello Kitty camera variant.
 - [gb-photo](https://github.com/untoxa/gb-photo) - Toolkit and library for reading, writing, and converting Game Boy Camera save data, including frame/border resources. Credits [cristofercruz](https://github.com/cristofercruz) as a contributor.
@@ -909,7 +905,7 @@
 - [NintenTools.Bfres (smb123w64gb)](https://github.com/smb123w64gb/NintenTools.Bfres) - .NET library for reading, writing, and modifying the Nintendo BFRES graphics archive format (Wii U); the original work later extended by KillzXGaming's BFRES-Model-Importer above. See also the author's [BFRES_Injector_CMD](https://github.com/smb123w64gb/BFRES_Injector_CMD), a command-line tool built on the library that injects OBJ/SMD meshes into a BFRES model, and [BFRES_IO](https://github.com/smb123w64gb/BFRES_IO), early Python scripts and classes for parsing BFRES vertex data, string tables, models, and textures.
 - [hermite-editor](https://github.com/tetraxile/hermite-editor) - GUI editor for the Hermite animation curves found in Nintendo BFLAN layout animation files, exporting keyframe data in the XML format used by KillzXGaming's LayoutLibrary.
 - [bfres_importer](https://github.com/RenaKunisaki/bfres_importer) - Blender importer for Nintendo BFRES/SBFRES models (Switch format), including skeletons and textures; used with Breath of the Wild and other Switch titles.
-- [BfresPlatformConverter](https://github.com/KillzXGaming/BfresPlatformConverter) - Automatic converter between Wii U and Switch Nintendo BFRES binaries, handling the significant material and shader differences between the two platforms.
+- [BfresPlatformConverter](https://github.com/KillzXGaming/BfresPlatformConverter) (archived) - Automatic converter between Wii U and Switch Nintendo BFRES binaries, handling the significant material and shader differences between the two platforms.
 - [ImageLibrary](https://github.com/KillzXGaming/ImageLibrary) - Image processing library for decoding and encoding the texture pixel formats shared across KillzXGaming's BNTX, BFRES, and other Nintendo texture tooling.
 - [LayoutLibrary](https://github.com/KillzXGaming/LayoutLibrary) - UI library for reading and writing Nintendo BFLYT layout and BFLAN layout-animation file binaries; its animation-curve export format is consumed by hermite-editor above.
 - [bflyt-rs](https://github.com/ultimate-research/bflyt-rs) - Rust library and `bflyt-tool` command-line utility that converts Nintendo BFLYT layout files to and from JSON.
@@ -959,7 +955,7 @@
 ###### amiibo (NFC Tag Data)
 
 - [amiitool](https://github.com/socram8888/amiitool) - Reverse-engineered amiibo NFC tag cryptography; decrypts/encrypts and copies Nintendo amiibo dumps. See also [amiitool.net](https://github.com/ca1e/amiitool.net), a C# port.
-- [AmiiboAPI](https://github.com/N3evin/AmiiboAPI) - RESTful API and database of amiibo NFC tag data.
+- [AmiiboAPI](https://github.com/N3evin/AmiiboAPI) (archived) - RESTful API and database of amiibo NFC tag data.
 - [Amiibo](https://github.com/AmiiboDB/Amiibo) - Database of amiibo `.bin`/`.nfc` NFC tag dumps.
 - [emuiibo](https://github.com/XorTroll/emuiibo) - Virtual amiibo (amiibo emulation) system for Nintendo Switch, evolved from ogniK5377's switch-nfp-mitm.
 - [GameCubeToolkit](https://github.com/Vertridge/GameCubeToolkit) - Toolkit for reading and editing GameCube-related files.
@@ -1028,7 +1024,7 @@
   - Formats: sgd/sgh/sgb (output), WAV/AC3 (input).
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - PSARC library in C# for working with PlayStation PSARC archive format.
 - [SCEllSharp](https://github.com/InvoxiPlayGames/SCEllSharp) - Work-in-progress .NET 8.0 library for reading and writing file formats used on the PS3, PSP, and PS Vita consoles (and PS4, for PARAM.SFO).
-- [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced PlayStation 1 memory card editor for managing save files with support for multiple formats.
+- [memcardrex](https://github.com/ShendoXT/memcardrex) (archived) - Advanced PlayStation 1 memory card editor for managing save files with support for multiple formats.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images (PCSX2 format). Supports importing/exporting save games in MAX Drive (.max) and EMS (.psu) formats, viewing memory card contents, creating new memory card images, and adding/extracting individual files. Includes GUI and command-line interfaces.
 - [EightMB](https://github.com/sevonj/eightmb) - Work-in-progress tool for examining PlayStation 2 memory card images: parses Sony's PS2 memory card file system, and displays `icon.sys` backgrounds and 3D save-icon meshes/textures alongside a dump of the card's contents.
 - [ps2mc-browser](https://github.com/caol64/ps2mc-browser) - PS2 save viewer that parses the vertex and texture data of 3D save icons and renders them with OpenGL.
@@ -1045,7 +1041,7 @@
 - [pkgrename](https://github.com/hippie68/pkgrename) - Renames PS4 PKG files based on param.sfo information, online search, and predefined patterns.
 - [ps4-pkg-manager](https://github.com/hippie68/ps4-pkg-manager) - Light-weight, cross-platform desktop application to manage large collections of PS4 PKG files.
 - [ps4-pkg-compatibility-checker](https://github.com/hippie68/ps4-pkg-compatibility-checker) - GUI tool with drag-and-drop that checks PKG checksums to determine whether PS4 game and update PKG files are compatible ("married").
-- [psxavenc](https://github.com/WonderfulToolchain/psxavenc) - PS1 audio/video encoding tool; converts standard audio/video into the PlayStation 1's native STR/SPU/XA formats.
+- [psxavenc](https://github.com/WonderfulToolchain/psxavenc) (archived) - PS1 audio/video encoding tool; converts standard audio/video into the PlayStation 1's native STR/SPU/XA formats.
 - [ps4-pup_unpack](https://github.com/idc/ps4-pup_unpack) - PS4 PUP (firmware/system update package) unpacking tool.
 - [PlayStation 1 VST Instruments](https://github.com/BodbDearg/PlayStation1Vsts) - VST instruments replicating the PS1 SPU sound chip for music production: an ADPCM sampler that plays back original PS1 .VAG samples with authentic ADSR/interpolation behavior, plus a matching SPU reverb module. Built from the SPU emulation code in the same author's PsyDoom.
 - [PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK) - Open source SDK for PS1 homebrew development, defining the toolchain and native formats used by the author's TIMedit, img2tim, and smxtool below.
@@ -1107,7 +1103,7 @@
 - [ps4_remote_pkg_installer](https://github.com/flatz/ps4_remote_pkg_installer) - Remote PKG installer for jailbroken PS4 consoles, pushing package files over the network for installation.
 - [ps4_payload_ldr](https://github.com/flatz/ps4_payload_ldr) - Loads fake SELF (fPKG) applications on a jailbroken PS4 via a server, for running homebrew ELFs signed as fake SELF binaries.
 - [ps4_stub_lib_maker_v2](https://github.com/flatz/ps4_stub_lib_maker_v2) - Generates stub libraries for linking PS4 homebrew against system PRX/SPRX modules. Second version of the author's original [ps4_stub_lib_maker](https://github.com/flatz/ps4_stub_lib_maker). See also [StubMaker](https://github.com/OSM-Made/StubMaker), an independent alternative for creating custom library stubs for PS4 Official SDK projects.
-- [LibProsperoPKG](https://github.com/SvenGDK/LibProsperoPKG) - .NET library for creating, inspecting, and modifying PS5 PKG, GP5, and PFS package/filesystem files. PS5 counterpart to LibOrbisPkg.
+- [LibProsperoPKG](https://github.com/SvenGDK/LibProsperoPKG) (archived) - .NET library for creating, inspecting, and modifying PS5 PKG, GP5, and PFS package/filesystem files. PS5 counterpart to LibOrbisPkg.
 - [ps4-wee-tools](https://github.com/andy-man/ps4-wee-tools) - GUI app for working with PS4 SPI/NOR flash and Syscon firmware dumps.
 - [ps5-wee-tools](https://github.com/andy-man/ps5-wee-tools) - Tools for working with PS5 SPI/NOR flash dumps.
 - [PlayStation-5-NOR-ErrorLog](https://github.com/apewalkers/PlayStation-5-NOR-ErrorLog) - Decodes the Error DBI crash log embedded in PS5 NOR flash dumps.
@@ -1118,7 +1114,7 @@
   - Tools: [PS5-NOR_Fw_Snoop](https://github.com/apewalkers/PS5-NOR_Fw_Snoop) (extracts EMC/Southbridge firmware details from NOR `.BIN` dumps), [Ps5_Nor_Validator](https://github.com/apewalkers/Ps5_Nor_Validator) (validates dumps via header checks and entropy analysis), [Play-Station-5-Southbridge-Swap-Script](https://github.com/apewalkers/Play-Station-5-Southbridge-Swap-Script) (patches NOR dumps to swap EMC/Southbridge firmware for an exploitable auth state), [Playstation-5-UART-Reader](https://github.com/apewalkers/Playstation-5-UART-Reader) (UART terminal/decoder for PS5 error logs), [PS5-Software-ErrorLookup](https://github.com/apewalkers/PS5-Software-ErrorLookup) (GUI lookup for PS5 software error codes).
 - [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) - Automated background auto-mounter payload for jailbroken PS5 consoles that detects, mounts, and installs game backups from internal or external storage, supporting UFS, exFAT, PFS, and nested compressed PFS containers. Actively maintained, substantially expanded fork of RDX-Sci01's ShadowMount1.3GBT.
 - [PS4pkg_to_ffpfsc](https://github.com/SadykovIV/PS4pkg_to_ffpfsc) - Converts a PS4 PKG (or an already-unpacked PS4 game) into `.ffpfsc` (compressed) or `.exfat` (raw) disk images for ShadowMountPlus above, merging base game and update PKGs without modifying the source files.
-- [UFS2Tool](https://github.com/SvenGDK/UFS2Tool) - Cross-platform (Windows/macOS/Linux) manager for FreeBSD UFS1/UFS2 filesystem images, the filesystem used by PS4/PS5 game dumps.
+- [UFS2Tool](https://github.com/SvenGDK/UFS2Tool) (archived) - Cross-platform (Windows/macOS/Linux) manager for FreeBSD UFS1/UFS2 filesystem images, the filesystem used by PS4/PS5 game dumps.
 - [ps5-bar-tool](https://github.com/c0w-ar/ps5-bar-tool) - PS5 payload that parses PS5 Backup and Restore (BAR) `archive.dat` files and dumps the embedded filesystem, using the console itself as an oracle.
 - [ps5-uart](https://github.com/symbrkrs/ps5-uart) - Toolkit for interfacing with a PS5 mainboard's service processors over UART and decoding NAND dumps from its Titania storage controller.
   - Components: `uart`/`tool.py` (Raspberry Pi Pico bridge for live EMC/EFC/EAP access), `titania` (standalone Python library/CLI decoding a NAND capture through the scrambler, LDPC, FTL, and namespace layers to plaintext, no hardware needed).
@@ -1129,7 +1125,7 @@
 - [ps4-eboot-dlc-patcher](https://github.com/idlesauce/ps4-eboot-dlc-patcher) - Patches a PS4/PS5 eboot (or other executable) to replace calls into `libSceAppContent`/`libSceNpEntitlementAccess` with a custom PRX, so DLC loads from the base F-PKG when the DLC F-PKGs themselves don't work.
 - [PS5PKGReader](https://github.com/SvenGDK/PS5PKGReader) - Reads PS5 PKG files and extracts (some) content. Archived/no longer maintained.
 - [PS Multi Tools](https://github.com/SvenGDK/PS-Multi-Tools) - Cross-platform desktop toolkit for PlayStation modders covering PS1-PS5: BIN/CUE to ISO conversion, PS2 STAR and PAK extraction, PS3 ISO tools, PKG extraction/info, PUP unpacking, RCO dumping and SELF reading, PARAM.SFO and PS5 param.json editors, and AT9/WAV conversion.
-  - Companions: [PS Mac Tools](https://github.com/SvenGDK/PS-Mac-Tools) (the macOS version, adding ISO to CSO conversion, PS3 ISO make/extract/split/patch and PKG merging), [PSX XMB Manager](https://github.com/SvenGDK/PSX-XMB-Manager) (PSX DVR installer and manager that also edits XMB `.xml`/`.dic` files, converts CUE to POPS VCD, extracts STAR/PAK files, decrypts KELF/REL files and unpacks PS2/PSX BIOS files), [PS Classics fPKG Builder](https://github.com/SvenGDK/PS-Classics-fPKG-Builder) (builds PS1/PS2/PSP fake packages for PS4/PS5 from `.BIN`/`.ISO` files, with automatic TOC generation for PS1 games using CDDA music).
+  - Companions: [PSX XMB Manager](https://github.com/SvenGDK/PSX-XMB-Manager) (PSX DVR installer and manager that also edits XMB `.xml`/`.dic` files, converts CUE to POPS VCD, extracts STAR/PAK files, decrypts KELF/REL files and unpacks PS2/PSX BIOS files), [PS Classics fPKG Builder](https://github.com/SvenGDK/PS-Classics-fPKG-Builder) (builds PS1/PS2/PSP fake packages for PS4/PS5 from `.BIN`/`.ISO` files, with automatic TOC generation for PS1 games using CDDA music).
 - [garlic-savemgr](https://github.com/earthonion/garlic-savemgr) - PS5 payload that decrypts, encrypts, and browses PS5 save data through an embedded web UI.
 - [pkgdec5](https://github.com/zecoxao/pkgdec5) - Decrypts and extracts the "meta" files inside a PS5 PKG that are encrypted with entry-3 keys; port of RedEyeX32's original pkgdec for the PS5.
 - [PSPModBase](https://github.com/xan1242/PSPModBase) - Plugin base and collection of basic libraries for PSP game modding and code injection.
@@ -1171,7 +1167,7 @@
 - [UnXiP](https://github.com/JayFoxRox/UnXiP) - Extracts XIP archive files from the original Xbox dashboard, based on Voltaic's PIXIT research.
 - [WinDurango](https://github.com/WinDurango/WinDurango) - Xbox One compatibility layer for Windows, allowing Xbox One executables to run natively on PC.
 - [iso2god-rs](https://github.com/iliazeus/iso2god-rs) - Actively maintained, cross-platform (Windows/Linux/macOS) Rust CLI that converts Xbox and Xbox 360 ISOs into the Xbox 360 "Games on Demand" (GoD) container format. See also [r4dius/Iso2God](https://github.com/r4dius/Iso2God), a decompiled C# rewrite of the original tool with quality-of-life improvements.
-- [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) - Non-persistent, software-only hypervisor exploit for Xbox 360 working on the latest (17559) dashboard/kernel version. See also [bibarub's fork](https://github.com/bibarub/Xbox360BadUpdate).
+- [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) (archived) - Non-persistent, software-only hypervisor exploit for Xbox 360 working on the latest (17559) dashboard/kernel version. See also [bibarub's fork](https://github.com/bibarub/Xbox360BadUpdate).
 - [PiPROM](https://github.com/grimdoomer/PiPROM) - Reads, writes, and erases original Xbox EEPROM chips using a Raspberry Pi.
 - [XboxImageGrabber](https://github.com/grimdoomer/XboxImageGrabber) - Research tool that generates images visualizing the memory profile/layout of an Xbox console, originally built to aid development of the Halo 2 Vista/HD patch.
 - [GoD2NXE](https://github.com/InvoxiPlayGames/GoD2NXE) - Converts GoD-format downloaded Xbox 360 games into NXE installed-game format, useful for building NXE "installed games" out of ISO files.
@@ -1214,7 +1210,7 @@
 
 *Middleware provider (Bink video, Granny 3D, Miles Sound System) used in hundreds of games across all platforms.*
 
-- [Knit](https://github.com/neptuwunium/Knit) - Fully managed C# reader for Granny 2 files used in many games.
+- [Knit](https://github.com/neptuwunium/Knit) (archived) - Fully managed C# reader for Granny 2 files used in many games.
 - [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
 - [Granny Converter Library](https://github.com/Anohros/GrannyConverterLibrary) - C++ library for converting Granny2 (.gr2) models and animations to FBX format.
 - [opengr2](https://github.com/arves100/opengr2) - Open source Granny2 (.gr2) input/output library and tools, with accompanying file format documentation.
