@@ -48,6 +48,7 @@
   - Companion library: [AuroraLib.Pixel.Formats](https://github.com/Venomalia/AuroraLib.Pixel.Formats) (read/write PNG, BMP and DDS, plus GameCube/Wii BTI, TPL and Pikmin TXE textures with Dolphin texture-hash generation).
 - [RAW pixels viewer](https://www.kernellabs.com/rawpixels/) - Web-based tool for analyzing raw image data. Displays memory dumps of frame buffers, video buffers, and uncompressed video files. Allows interactive exploration of color formats and image parameters (width, height, offset, flip, invert, zoom) to help identify unknown pixel formats.
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Simple DDS and PNG tool set that converts DDS images to PNG images and vice versa on a large scale. Has options for duplicate detection and sorting.
+- [DDS Tools (browser)](https://ddstools.com/) - Free DDS viewer for mipmaps, channels, cubemap faces and array layers, with local texture converters. Conversion is free for up to 10 files at a time; passes add larger batches and ZIP downloads.
 - [detex](https://github.com/hglm/detex) - Low-level library for decompression and manipulation of texture blocks.
   - Formats: BC1/DXT1/S3TC, BC2-BC3, BC4/RGTC1, BC5/RGTC2, BC6 (BPTC_FLOAT), BC7 (BPTC), ETC1, ETC2 family, KTX, DDS.
   - Features: Texture decompression, pixel format conversion.
