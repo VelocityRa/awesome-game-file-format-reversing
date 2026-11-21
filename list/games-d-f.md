@@ -4,13 +4,13 @@
 ##### Earth Defense Force
 
 - [EDFModLoader](https://github.com/BlueAmulet/EDFModLoader) - Mod loader and format tool for Earth Defense Force games, handling .cpk archive extraction and modification.
-- [blender-mdb-addon](https://github.com/BlueAmulet/blender-mdb-addon) - Blender importer for Earth Defense Force 4.1 and 5 .mdb model files.
+- [blender-mdb-addon](https://github.com/BlueAmulet/blender-mdb-addon) (archived) - Blender importer for Earth Defense Force 4.1 and 5 .mdb model files.
 - [edf-tools](https://github.com/AUK233/edf-tools) - Tools for modding Sandlot's Earth Defense Force games.
 - [sgott](https://github.com/zeddidragon/sgott) - SGO archive transformation tool for Earth Defense Force games.
 
 #### Bushiroad / Craft Egg (D4DJ)
 
-- [D4DJ-Tools](https://github.com/GEEKiDoS/D4DJ-Tools) - Toolset for D4DJ Groovy Mix, developed by Craft Egg for Bushiroad.
+- [D4DJ-Tools](https://github.com/GEEKiDoS/D4DJ-Tools) (archived) - Toolset for D4DJ Groovy Mix, developed by Craft Egg for Bushiroad.
   - Features: AssetTool (decrypts `.enc` files and dumps `Master.msgpack.enc`/`ResourceList.msgpack` to JSON), MusicRenamer (renames dumped MP3s using MusicMaster/UnitMaster metadata), and a web-based Chart Previewer/Editor for the game's rhythm-chart data.
 
 #### CIRCUS (Da Capo)
@@ -25,7 +25,7 @@
 
 #### Mythic Entertainment (Dark Age of Camelot)
 
-- [craft_extract](https://github.com/atom0s/craft_extract) - Dark Age of Camelot craft information parser and extractor.
+- [craft_extract](https://github.com/atom0s/craft_extract) (archived) - Dark Age of Camelot craft information parser and extractor.
 
 #### Red Hook Studios (Darkest Dungeon)
 
@@ -50,9 +50,6 @@
   - Can also import songs end-to-end (transcode, loudness-normalize, beat-sync) into the format the game expects.
 - [dead-as-disco-auto-importer](https://github.com/Leonardo745/dead-as-disco-auto-importer) - Automated asset importer for Dead as Disco's original game data.
 
-#### Behaviour Interactive (Dead by Daylight)
-
-- [DBDAudioRenamer](https://github.com/Neinndall/DBDAudioRenamer) - Extracts Dead by Daylight's Wwise audio files from its UE4 assets and renames them based on the game's XML sound bank definitions. See also the same author's [DBDTools](https://github.com/Neinndall/DBDTools), a more general asset extraction/renaming rewrite.
 
 #### Dead or Alive 2
 
@@ -64,7 +61,6 @@
 - [Noesis-Plugins (Durik256)](https://github.com/Durik256/Noesis-Plugins) - Community Noesis plugins collection including Visceral Games support.
 - [MeltyTool (Visceral)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Libraries/VisceralGames) - Format viewer/exporter for Visceral Games titles.
 - [ZenHAX Thread](https://zenhax.com/viewtopic.php?t=15376) - Forum discussion and research on Visceral Games file formats. *(Link archived/dead)*
-- [VisceralToolkit](https://github.com/Greavesy1899/VisceralToolkit) - Set of tools for editing Visceral Games after "The Godfather (2006)" including Dead Space and Dante's Inferno.
 - [deadspace-vita](https://github.com/v-atamanenko/deadspace-vita) - Loader/port for the Dead Space mobile spinoff (2011, Iron Monkey Studios, not Visceral's mainline series) that runs it natively on PS Vita, reading the original mobile game's assets.
 
 ##### The Simpsons Game
@@ -101,25 +97,25 @@
 
 - [Another World Bytecode Interpreter](https://github.com/fabiensanglard/Another-World-Bytecode-Interpreter) - Cleaned-up, well-documented interpreter ("Fabother World") for Another World / Out of This World's custom polygon-based bytecode VM, reading the original game's .bank resource files.
 - [aw64](https://github.com/jnmartin84/aw64) - Nintendo 64 port of the Another World Bytecode Interpreter, reading the original game's .bank resource files.
-- [rawgl](https://github.com/cyxx/rawgl) - Reimplementation of the engine used in Another World / Out of This World, reading the original DOS/Amiga/Atari ST/3DO release's data files; renders with SDL/OpenGL.
-  - See also [another_js](https://github.com/cyxx/another_js), an HTML5 port of the same reimplementation, and [infernal_js](https://github.com/cyxx/infernal_js), an HTML5 port of Eric Chahi's earlier Amstrad CPC game Infernal Runner.
+- [rawgl](https://github.com/cyxx/rawgl) (archived) - Reimplementation of the engine used in Another World / Out of This World, reading the original DOS/Amiga/Atari ST/3DO release's data files; renders with SDL/OpenGL.
+  - See also [another_js](https://github.com/cyxx/another_js) (archived), an HTML5 port of the same reimplementation, and [infernal_js](https://github.com/cyxx/infernal_js), an HTML5 port of Eric Chahi's earlier Amstrad CPC game Infernal Runner.
 
 ##### Fade to Black
 
-- [f2bgl](https://github.com/cyxx/f2bgl) - Re-implementation of the engine used in Fade to Black (1995), reading the original PC release's data files. See also [usineur's fork](https://github.com/usineur/f2bgl) with PlayStation Vita and Nintendo Switch ports.
+- [f2bgl](https://github.com/cyxx/f2bgl) (archived) - Re-implementation of the engine used in Fade to Black (1995), reading the original PC release's data files. See also [usineur's fork](https://github.com/usineur/f2bgl) with PlayStation Vita and Nintendo Switch ports.
 
 ##### Flashback
 
-- [REminiscence](https://github.com/cyxx/REminiscence) - Reimplementation of the engine used in Flashback: The Quest for Identity, reading the original DOS/Amiga/3DO/CD32 release's data files.
-- [extract_fb_genesis](https://github.com/cyxx/extract_fb_genesis) - Extracts and converts data files from the Flashback Sega Genesis ROM (Europe, Japan, USA, and September 1992 prototype versions).
+- [REminiscence](https://github.com/cyxx/REminiscence) (archived) - Reimplementation of the engine used in Flashback: The Quest for Identity, reading the original DOS/Amiga/3DO/CD32 release's data files.
+- [extract_fb_genesis](https://github.com/cyxx/extract_fb_genesis) (archived) - Extracts and converts data files from the Flashback Sega Genesis ROM (Europe, Japan, USA, and September 1992 prototype versions).
 
 ##### Igor
 
-- [igor](https://github.com/cyxx/igor) - Reimplementation of the interpreter for Igor: Objetivo Uikokahonia, reading the original game's data files.
+- [igor](https://github.com/cyxx/igor) (archived) - Reimplementation of the interpreter for Igor: Objetivo Uikokahonia, reading the original game's data files.
 
 #### Demiurge Studios
 
-- [DS.SAR.Tool](https://github.com/Ekey/DS.SAR.Tool) - Tool for extracting SAR archives from Demiurge Studios titles.
+- [DS.SAR.Tool](https://github.com/Ekey/DS.SAR.Tool) (archived) - Tool for extracting SAR archives from Demiurge Studios titles.
   - Games: Puzzle & Glory, Marvel Puzzle Quest, SEGA Heroes: Match-3 RPG Quest.
 
 #### DemonStar
@@ -138,7 +134,7 @@
 
 #### 강림2:제천대성 (Descent 2: Jecheondaeseong)
 
-- [ZLL2.PAK.Tool](https://github.com/Ekey/ZLL2.PAK.Tool) - Tool for extracting PAK archives from the Korean mobile game 강림2:제천대성.
+- [ZLL2.PAK.Tool](https://github.com/Ekey/ZLL2.PAK.Tool) (archived) - Tool for extracting PAK archives from the Korean mobile game 강림2:제천대성.
 
 #### Destiny Child
 
@@ -162,7 +158,7 @@
 
 #### GlassesCatGames (Devil Slayer - Raksasi)
 
-- [DSR.ALP.Tool](https://github.com/Ekey/DSR.ALP.Tool) - Tool for extracting and repacking Lua ALP archives from Devil Slayer - Raksasi.
+- [DSR.ALP.Tool](https://github.com/Ekey/DSR.ALP.Tool) (archived) - Tool for extracting and repacking Lua ALP archives from Devil Slayer - Raksasi.
 
 #### Di Gi Charat
 
@@ -187,8 +183,8 @@
 
 ##### Warframe
 
-- [WFPackageParser](https://github.com/cheahjs/WFPackageParser) - Library to parse Warframe's Packages.bin and language strings from Languages.bin.
-- [Warframe_RewardTables](https://github.com/cheahjs/Warframe_RewardTables) - Extracts reward/drop tables from Warframe memory dumps or unpacked resource files.
+- [WFPackageParser](https://github.com/cheahjs/WFPackageParser) (archived) - Library to parse Warframe's Packages.bin and language strings from Languages.bin.
+- [Warframe_RewardTables](https://github.com/cheahjs/Warframe_RewardTables) (archived) - Extracts reward/drop tables from Warframe memory dumps or unpacked resource files.
 - [Warframe-Exporter](https://github.com/Puxtril/Warframe-Exporter) - Converts Warframe's custom asset formats (textures, models, audio, and more) into standard file formats.
 - [LotusLib](https://github.com/Puxtril/LotusLib) - C++17 library for reading Warframe's Evolution Engine cache files (`Cache.Windows`), providing the file-reading interface used by Warframe-Exporter above.
 - [wfcache-api](https://github.com/ymelois/wfcache-api) - Rust application for reading and extracting data from Warframe's cache files programmatically. (Archived)
@@ -232,7 +228,7 @@
 
 #### Dogbyte Games
 
-- [DB.XPAK.Tool](https://github.com/Ekey/DB.XPAK.Tool) - Tool for extracting XPAK archives from Dogbyte Games racing titles.
+- [DB.XPAK.Tool](https://github.com/Ekey/DB.XPAK.Tool) (archived) - Tool for extracting XPAK archives from Dogbyte Games racing titles.
   - Games: Offroad Legends, Offroad Legends 2.
 
 #### DOKA Studios
@@ -298,7 +294,7 @@
 
 #### NetDevil (Dungeon Runners)
 
-- [dravex](https://github.com/atom0s/dravex) - Dungeon Runners Asset Viewer and Extractor.
+- [dravex](https://github.com/atom0s/dravex) (archived) - Dungeon Runners Asset Viewer and Extractor.
 
 #### Hitbox Team (Dustforce)
 
@@ -316,8 +312,8 @@
 
 ##### Earthsiege
 
-- [herc-works-mdk](https://github.com/Subject9x/herc-works-mdk) - Reverse-engineering and data-editing toolkit for Earthsiege 1 and 2 (Dynamix), organized into modules for studying and modding the games' data formats.
-- [es2-toolkit](https://github.com/Subject9x/es2-toolkit) - Java tools for Earthsiege 2 game files: unpack `.DBA` bitmap arrays to `.DBM` images (optionally `.png`), compile `.DBM` files back into a `.DBA` from a script, convert indexed `.png` files to `.DBM` using a `.DPL` palette, and export `.DPL` palettes to other formats. By the author of herc-works-mdk above.
+- [herc-works-mdk](https://github.com/Subject9x/herc-works-mdk) (archived) - Reverse-engineering and data-editing toolkit for Earthsiege 1 and 2 (Dynamix), organized into modules for studying and modding the games' data formats.
+- [es2-toolkit](https://github.com/Subject9x/es2-toolkit) (archived) - Java tools for Earthsiege 2 game files: unpack `.DBA` bitmap arrays to `.DBM` images (optionally `.png`), compile `.DBM` files back into a `.DBA` from a script, convert indexed `.png` files to `.DBM` using a `.DPL` palette, and export `.DPL` palettes to other formats. By the author of herc-works-mdk above.
 
 ### E
 #### Pixpil (Eastward)
@@ -502,7 +498,7 @@ See also: [RenderWare](middleware.md#renderware).
 ###### Command & Conquer Series
 
 - [Command & Conquer: Renegade (source release)](https://github.com/electronicarts/CnC_Renegade) - Official source code release for C&C Renegade and tools (archived; GPLv3 with additional terms).
-- [CnC_Generals_Zero_Hour](https://github.com/electronicarts/CnC_Generals_Zero_Hour) - Official source code release for Command & Conquer: Generals and Zero Hour.
+- [CnC_Generals_Zero_Hour](https://github.com/electronicarts/CnC_Generals_Zero_Hour) (archived) - Official source code release for Command & Conquer: Generals and Zero Hour.
 
   - Tools: Level Edit (public editor), Free Dedicated Server (FDS) build.
   - Dependencies: DirectX (8+), RAD Bink, RAD Miles Sound System, NvDXTLib, Umbra, GameSpy, SafeDisk API, Microsoft Cab, RTPatch, Lightscape.
@@ -515,14 +511,14 @@ See also: [RenderWare](middleware.md#renderware).
 - [Gmax+RenX+Renegade Public Tools (C&C: Generals Zero Hour)](https://www.moddb.com/games/cc-generals-zero-hour/downloads/gmaxrenxrenegade-public-tools) - This contains 3 modelling tools for editing C&C Generals and Renegade.
 - [CNC_TS_and_RA2_Mission_Editor](https://github.com/electronicarts/CNC_TS_and_RA2_Mission_Editor) - FinalSun & FinalAlert2 level editors for Command & Conquer: Tiberian Sun and Red Alert 2.
 - [RA3Bar-RA3Launcher](https://github.com/lanyizi/RA3Bar-RA3Launcher) - Reimplementation of RA3.exe, the Command & Conquer: Red Alert 3 game launcher.
-- [CnC_Red_Alert](https://github.com/electronicarts/CnC_Red_Alert) - Official source code release for Command & Conquer: Red Alert.
+- [CnC_Red_Alert](https://github.com/electronicarts/CnC_Red_Alert) (archived) - Official source code release for Command & Conquer: Red Alert.
 - [ra3pathmusic](https://github.com/utunnels/ra3pathmusic) - Tools for editing Red Alert 3's PathMusic adaptive music files (track.mus/track-mem.mus). See also [pathmusic-editor](https://github.com/lanyizi/pathmusic-editor) (web-based rewrite built on this tool) and [RA3MusEditor](https://github.com/lanyizi/RA3MusEditor) (Windows GUI editor for the same .mus files).
 - [ra3aptxmleditor](https://github.com/utunnels/ra3aptxmleditor) - JavaScript/HTML front-end for jonwil's apt2xml and xml2apt tools, for opening and editing Red Alert 3 `.apt` UI files (AptUI from the RA3 mod UI source pack).
 - [ra3-skybox-patch-builder](https://github.com/lanyizi/ra3-skybox-patch-builder) - Builds skybox mod patches for Red Alert 3.
 - [ra3xsd-to-cpp](https://github.com/lanyizi/ra3xsd-to-cpp) - Converts Red Alert 3's XSD schema declarations into C++ struct definitions for parsing the game's data files.
 - [AptEditor](https://github.com/lanyizi/AptEditor) - Editor for SAGE engine APT (Flash-like UI) files, based on feliwir's AptEditor and OpenSAGE's APT implementation.
-- [CnC_Tiberian_Dawn](https://github.com/electronicarts/CnC_Tiberian_Dawn) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn game logic and engine source code.
-- [Thyme](https://github.com/TheAssemblyArmada/Thyme) - Open-source reimplementation of Command & Conquer: Generals and Zero Hour in C++, reading the original games' data files.
+- [CnC_Tiberian_Dawn](https://github.com/electronicarts/CnC_Tiberian_Dawn) (archived) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn game logic and engine source code.
+- [Thyme](https://github.com/TheAssemblyArmada/Thyme) (archived) - Open-source reimplementation of Command & Conquer: Generals and Zero Hour in C++, reading the original games' data files.
   - See also [liblzhl](https://github.com/TheAssemblyArmada/liblzhl) from the same organization, a CMake-buildable copy of the LZHL compression code that the README says SAGE engine games support and that comes from an EA compression library.
 - [GeneralsGameCode](https://github.com/TheSuperHackers/GeneralsGameCode) - Actively maintained community continuation of the official Command & Conquer: Generals - Zero Hour source release, with cross-platform build fixes, bug fixes, and modernization work on top of the original game's data handling.
 - [GeneralsModBuilder](https://github.com/TheSuperHackers/GeneralsModBuilder) - Mod builder for Command & Conquer: Generals - Zero Hour that builds mod or addon release files from flat game data source files, packing BIG archives (also ZIP/TAR) and converting CSF/STR strings, PSD/TGA/TIFF/DDS textures to BMP/DDS/TGA, and BLEND to W3D.
@@ -544,7 +540,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [SSX Collection Multitool](https://github.com/GlitcherOG/SSX-Collection-Multitool) - Collection of tools for the SSX franchise.
 - [SSX-Terrain-Editor](https://github.com/Linkz64/SSX-Terrain-Editor) - Godot-based editor for modding SSX terrain bezier surfaces, companion to the SSX Collection Multitool (currently SSX Tricky only).
 - [SSX-Library](https://github.com/GlitcherOG/SSX-Library) - C#/.NET library for extracting, creating, and modifying SSX game files, serving as a framework for GUI/CLI modding tools.
-- [Icesaw-SSX-Level-Editor-Plugin](https://github.com/IceSawTeam/Icesaw-SSX-Level-Editor-Plugin) - Unity plugin for editing SSX levels exported by the SSX Collection Multitool (instances, triggers, effects).
+- [Icesaw-SSX-Level-Editor-Plugin](https://github.com/IceSawTeam/Icesaw-SSX-Level-Editor-Plugin) (archived) - Unity plugin for editing SSX levels exported by the SSX Collection Multitool (instances, triggers, effects).
 - [SSX-Level-Viewer](https://github.com/GlitcherOG/SSX-Level-Viewer) - Unity-based viewer for SSX levels.
 - [bxtools](https://github.com/Linkz64/bxtools) - Blender plugin for modding SSX games, currently focused on SSX Tricky level editing for the SSX Collection Multitool's JSON project format.
 - [SSX-Research](https://github.com/Linkz64/SSX-Research) - Documentation of SSX data structures (models, textures, audio, and more).
@@ -607,7 +603,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 #### Keen Games (Enshrouded, Portal Knights)
 
-- [KG.Data.Tool](https://github.com/Ekey/KG.Data.Tool) - Tool for extracting and repacking kfc_data archives from Keen Games titles (Enshrouded, Portal Knights).
+- [KG.Data.Tool](https://github.com/Ekey/KG.Data.Tool) (archived) - Tool for extracting and repacking kfc_data archives from Keen Games titles (Enshrouded, Portal Knights).
 - [Portal-Knights-Save-Editor](https://github.com/CookiestMonster/Portal-Knights-Save-Editor) - Python/tkinter save editor for Portal Knights characters (gear, bags, stats) and worlds (chests, mannequins, map, signs, NPCs); depends on zstandard and optionally python-snappy.
 
 #### Epic Games
@@ -664,7 +660,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [fortnite-aes-archive](https://github.com/dippyshere/fortnite-aes-archive) - Archive of AES decryption keys for Fortnite's PAK files, covering almost every dynamic and main PAK key.
 - [FortniteReplayDecompressor](https://github.com/Shiqan/FortniteReplayDecompressor) - C# library for parsing Fortnite .replay files, decompressing and decoding chunks/frames into structured replay data.
 - [fortnite-replay](https://github.com/linustg/fortnite-replay) - Modern C++23 library for parsing Fortnite .replay files, extracting metadata, network frames, checkpoints, and game events (e.g. eliminations), with optional Oodle decompression support.
-- [Fortnite-ManifestsArchive](https://github.com/Kyiro/Fortnite-ManifestsArchive) - Archive of known Fortnite build manifests.
+- [Fortnite-ManifestsArchive](https://github.com/Kyiro/Fortnite-ManifestsArchive) (archived) - Archive of known Fortnite build manifests.
 
 ##### Unreal
 
@@ -720,7 +716,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [binary-templates](https://github.com/eurotools/binary-templates) - 010 Editor binary templates for visually opening Sphinx and EngineX file formats.
 - [hashcodes](https://github.com/eurotools/hashcodes) - Public hashcodes list for various Eurocom games, useful for cross-checking.
 - [blender-addon](https://github.com/eurotools/blender-addon) - Import and export Eurocom Scene Export (.ESE) files in Blender. Supports 3D models, skins + animations, cameras, maps and scripts.
-- [euroland_exporters](https://github.com/eurotools/euroland_exporters) - Import and export Eurocom Scene Export (.ESE) files in Blender; 3D models, skins + animations, cameras, maps and scripts.
+- [euroland_exporters](https://github.com/eurotools/euroland_exporters) (archived) - Import and export Eurocom Scene Export (.ESE) files in Blender; 3D models, skins + animations, cameras, maps and scripts.
 - [euroland-elf-texture-extractor](https://github.com/eurotools/euroland-elf-texture-extractor) - Tool to extract textures from random EuroLand data files (*.elf) that may not be inspectable otherwise (e.g. different versions that don't work with the EuroLand .exe).
 - [sphinx-savegame-editor](https://github.com/eurotools/sphinx-savegame-editor) - C# tool to edit and view savegame files for The Sphinx and the Cursed Mummy game.
 - [sphinxtools](https://github.com/Swyter/sphinxtools) - Unpackers and modding tools for the GameCube version of Sphinx and the Cursed Mummy. Extracts files from Filelist.000 containers, includes 010 Editor binary templates for EDB and SFX formats, and provides demuxing tools for GameCube IMA ADPCM audio.
@@ -733,7 +729,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 #### CCP Games (EVE Online)
 
-- [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) - Research project for Carbon Engine file formats used in EVE Online.
+- [yretenai/Jackdaw](https://github.com/neptuwunium/Jackdaw) (archived) - Research project for Carbon Engine file formats used in EVE Online.
 
 #### Evoland
 
@@ -766,7 +762,7 @@ See also: [RenderWare](middleware.md#renderware).
 #### Mediatonic (Fall Guys)
 
 - [img2FGC_v2 (Loamfy fork)](https://github.com/Loamfy/img2FGC_v2) - Converts an image into a Fall Guys Creative level, with added HEX color support. See also [repinek/ImgToFGC](https://github.com/repinek/ImgToFGC), the original (now unmaintained) tool.
-- [srepene_patcher](https://github.com/repinek/srepene_patcher) - PyQt5 GUI for decoding and editing Fall Guys' `content_v2` localization strings and saving the changes as reusable `.ptch` patch files; compatible with patches from the earlier Pancake Patcher tool.
+- [srepene_patcher](https://github.com/repinek/srepene_patcher) (archived) - PyQt5 GUI for decoding and editing Fall Guys' `content_v2` localization strings and saving the changes as reusable `.ptch` patch files; compatible with patches from the earlier Pancake Patcher tool.
 
 #### Fallen Princess Knight
 
@@ -791,7 +787,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [PotK-Threnody](https://github.com/Glasislundr/PotK-Threnody) - Recreates the story portions of Phantom of the Kill (a mobile game whose service has ended) using tools to download and extract the original game assets; no game assets are redistributed.
 - [PotK-story-scripts](https://github.com/laqieer/PotK-story-scripts) - Extracted story scripts of Phantom of the Kill, written in a Lisp-based format (documented alongside the scripts).
 - [potk-unit-database](https://github.com/laqieer/potk-unit-database) - Python scripts to download unit data from the Phantom of the Kill live service, parse it into unit stats, and render a static site.
-- [PotK-Assembly-CSharp](https://github.com/laqieer/PotK-Assembly-CSharp) - Decompiled C# source of Phantom of the Kill's `Assembly-CSharp.dll`.
+- [PotK-Assembly-CSharp](https://github.com/laqieer/PotK-Assembly-CSharp) (archived) - Decompiled C# source of Phantom of the Kill's `Assembly-CSharp.dll`.
 
 ##### The Alchemist Code
 
@@ -928,14 +924,14 @@ See also: [RenderWare](middleware.md#renderware).
 
 #### Digital Anvil (Freelancer)
 
-- [Librelancer](https://github.com/Librelancer/Librelancer) - Open-source reimplementation of the Freelancer engine in C# and OpenGL, requiring a Freelancer installation for original game data.
+- [Librelancer](https://github.com/Librelancer/Librelancer) (archived) - Open-source reimplementation of the Freelancer engine in C# and OpenGL, requiring a Freelancer installation for original game data.
 - [Starlancer-mod-tools](https://github.com/LordBlacksun/Starlancer-mod-tools) - Collection of modding tools gathered for Starlancer (2000), Digital Anvil's space combat game preceding Freelancer.
 - [FLNotepad.2.0.Net](https://github.com/ArchKaine/FLNotepad.2.0.Net) - Text/RTF editor for Freelancer save games and shiparch.ini entries, with FLMM 1.4 integration.
 - [FLAtlas Savegame Editor](https://github.com/flathack/FLAtlas---Save-Game-Editor) - Windows editor for Freelancer singleplayer `.fl` save games (credits, rank, ship loadout, cargo, reputation, visited systems), reading data from the selected vanilla or modded install; preserves encrypted `FLS1` saves and unknown rows when saving.
 
 #### Incentive Software (Freescape)
 
-- [Phantasma](https://github.com/TomHarte/Phantasma) - Remake of Incentive Software's Freescape engine, allowing games created with the 3D Construction Set (Driller, Dark Side, Total Eclipse, and others) to run on modern computers using the original game data.
+- [Phantasma](https://github.com/TomHarte/Phantasma) (archived) - Remake of Incentive Software's Freescape engine, allowing games created with the 3D Construction Set (Driller, Dark Side, Total Eclipse, and others) to run on modern computers using the original game data.
 - [driller](https://github.com/hitchhikr/driller) - Complete disassembly of the Amiga version of Driller, re-assemblable into a fully working game.
 
 #### Hasbro Interactive (Frogger)
@@ -976,24 +972,24 @@ See also: [RenderWare](middleware.md#renderware).
 - [Coremats](https://github.com/JKAnderson/Coremats) - .NET library for FromSoftware formats.
 - [soulsformats-rs](https://github.com/garyttierney/soulsformats-rs) - Rust library that can read/write file formats from FromSoftware's recent games.
 - [soulstruct](https://github.com/Grimrukh/soulstruct) - Python library for Dark Souls file formats and modding.
-- [SoulsTemplates](https://github.com/JKAnderson/SoulsTemplates) - 010 Editor templates for Souls formats.
+- [SoulsTemplates](https://github.com/JKAnderson/SoulsTemplates) (archived) - 010 Editor templates for Souls formats.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
 - [fstools-rs](https://github.com/soulsmods/fstools-rs) - Dark Souls file format tools and viewer components for format research and asset manipulation. Actively maintained canonical repo (garyttierney/fstools-rs is a stale, unmaintained mirror).
 - [DarkSoulsII.FileFormats](https://github.com/Atvaark/DarkSoulsII.FileFormats) - Archive file format reference and dumped game assets (.anibnd, .hqbnd, .hqobjbnd).
 - [soulstruct-gui](https://github.com/Grimrukh/soulstruct-gui) - GUI editor for Dark Souls binary data structures and game parameters.
 - [DS2AnimToolset](https://github.com/LordRadai/DS2AnimToolset) - Set of tools to parse and compile Dark Souls 2 morpheme animation binaries.
-- [SoulsFormats](https://github.com/JKAnderson/SoulsFormats) - .NET library for reading and writing FromSoftware file formats (Dark Souls, Demon's Souls, Bloodborne, Sekiro, and others), the foundational library used by SoulsAssetPipeline, DSMapStudio, and most other Souls modding tools.
+- [SoulsFormats](https://github.com/JKAnderson/SoulsFormats) (archived) - .NET library for reading and writing FromSoftware file formats (Dark Souls, Demon's Souls, Bloodborne, Sekiro, and others), the foundational library used by SoulsAssetPipeline, DSMapStudio, and most other Souls modding tools.
 - [SoulsFormatsNEXT](https://github.com/soulsmods/SoulsFormatsNEXT) - Community-driven continuation of the SoulsFormats .NET library (.NET Framework 4.8 / .NET Standard 2.1) for reading and writing FromSoftware formats, supporting Dark Souls, Demon's Souls, Dark Souls II and III, Bloodborne, Sekiro, Elden Ring, and Armored Core VI, with a per-format description in its FORMATS.md. Includes automatic DCX decompression and recompression.
 - [souls-formats-c](https://github.com/soarqin/souls-formats-c) - Pre-alpha pure C port of SoulsFormatsNEXT for reading and writing FromSoftware formats (including DCX_KRAK compression via the game's own Oodle DLLs, Windows x86_64 only), targeting Sekiro, Elden Ring, Elden Ring Nightreign, and Armored Core VI.
 
 ##### Archives, Unpackers & Encryption
 
-- [UXM](https://github.com/JKAnderson/UXM) - Unpacker for Dark Souls III and Sekiro archives.
+- [UXM](https://github.com/JKAnderson/UXM) (archived) - Unpacker for Dark Souls III and Sekiro archives.
 - [ParamCrypt](https://github.com/Grimrukh/ParamCrypt) - Encryption tool for Dark Souls param files.
 - [BinderTool](https://github.com/Atvaark/BinderTool) - Tool for extracting and repacking BND/BHD archives.
 - [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for extracting data archives from mobile game Earth Revival (Project Arrival).
 - [ER.BDT.Tool](https://github.com/Ekey/ER.BDT.Tool) - Extractor for BDT archive files (main data container format).
-- [Yabber](https://github.com/JKAnderson/Yabber) - Unpacker/repacker for FromSoftware container formats (BND, BHD/BDT, DCX, and more), one of the most fundamental FromSoftware modding tools.
+- [Yabber](https://github.com/JKAnderson/Yabber) (archived) - Unpacker/repacker for FromSoftware container formats (BND, BHD/BDT, DCX, and more), one of the most fundamental FromSoftware modding tools.
 - [YabberExtended](https://github.com/WarpZephyr/YabberExtended) - Fork of Yabber adding MQB support and various Armored Core container formats; unpacks and repacks .bnd, .bhd/.bdt, .dcx, .fltparam, .fmg, .gparam, .luagnl, .luainfo and .tpf for Demon's Souls, Dark Souls 1-3, Bloodborne and Sekiro.
 - [MassExtractBinder](https://github.com/WarpZephyr/MassExtractBinder) - Console tool that mass extracts BND3 and BND4 archives from files or folders into a single mass-extract folder.
 - [FSDATAUnpacker](https://github.com/WarpZephyr/FSDATAUnpacker) - Unpacks and repacks the DATA.BIN archives of early FromSoftware PS2 games: AC2DATA.BIN (Armored Core 2), AC25DATA.BIN (Armored Core 2: Another Age), AC3DATA.BIN (Armored Core 3) and ERDATA.BIN (Eternal Ring). Supersedes the same author's AC3DataUnpacker.
@@ -1005,7 +1001,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [TextureToTpf](https://github.com/GompDS/TextureToTpf) - Converts DDS files into FromSoftware TPF texture containers for PC.
 - [YarrTools](https://github.com/GompDS/YarrTools) - YarrToMap moves loose DDS files into Dark Souls 3 texture binders (removing unused textures and balancing binder sizes), for use with the YARR hot-reload workflow.
 - [unpoka](https://github.com/JKAnderson/unpoka) - Unpacking tool for gamedata from FromSoftware's PSP game Monster Hunter Diary: Poka Poka Airou Village (Monhan Nikki).
-- [SaveMerge](https://github.com/JKAnderson/SaveMerge) - Editor for merging and transferring Dark Souls 3 save files.
+- [SaveMerge](https://github.com/JKAnderson/SaveMerge) (archived) - Editor for merging and transferring Dark Souls 3 save files.
 - [DS3SaveUnpacker](https://github.com/tremwil/DS3SaveUnpacker) - C# console tool that packs and unpacks encrypted Dark Souls III save (SL2) files and unencrypted BND4 archives, and patches a save's linked Steam account for transfer between accounts.
 - [EldenSave](https://github.com/WhoamiRAGE/EldenSave) - Elden Ring save editor for PC ER0000.sl2 files, usable from the CLI or as a Python library. Edits stats, runes, and inventory without requiring Cheat Engine.
 - [EldenRing-Save-Manager](https://github.com/Ariescyn/EldenRing-Save-Manager) - GUI save editor for Elden Ring PC ER0000.sl2 files with a built-in hex-edit mode, item/stat editing, and checksum recalculation.
@@ -1035,8 +1031,8 @@ See also: [RenderWare](middleware.md#renderware).
 - [FbxImporter](https://github.com/The12thAvenger/FbxImporter) - Tool for importing FBX meshes into FLVER model files, supporting vertex-deformed cloth meshes, for Dark Souls 3, Sekiro, and Elden Ring.
 - [FlverFixer](https://github.com/GompDS/FlverFixer) - Fixes GX lists and buffer layouts in FLVER model files to match the materials used by the mesh, for Dark Souls 3, Sekiro and Elden Ring.
 - [FlverFixup](https://github.com/The12thAvenger/FlverFixup) - Command-line tool for fixing common issues with FLVER model files, processing loose files or BND archives (Oodle DLL from the game directory required for BNDs).
-- [MTD-Editor](https://github.com/JKAnderson/MTD-Editor) - Material definition (MTD) editor for FromSoftware games.
-- [DSR-TPUP](https://github.com/JKAnderson/DSR-TPUP) - Utility to extract and replace textures in Dark Souls: Remastered.
+- [MTD-Editor](https://github.com/JKAnderson/MTD-Editor) (archived) - Material definition (MTD) editor for FromSoftware games.
+- [DSR-TPUP](https://github.com/JKAnderson/DSR-TPUP) (archived) - Utility to extract and replace textures in Dark Souls: Remastered.
 - [MassConvertFromModel](https://github.com/WarpZephyr/MassConvertFromModel) - Mass converts FLVER0, FLVER2, MDL4 and SMD4 FromSoftware models to formats such as FBX through AssimpNet (known normal and UV issues; SMD4 not fully explored).
   - [FromAssimp](https://github.com/WarpZephyr/FromAssimp) - Imports FLVER0, FLVER2, MDL4 and SMD4 models into Assimp for export to common formats such as FBX, with the same normal and UV caveats.
   - [FlverInfoDump](https://github.com/WarpZephyr/FlverInfoDump) - Dumps basic information (without indices or vertices) from MDL4, SMD4, FLVER0 and FLVER2 models to a text file beside the model.
@@ -1061,10 +1057,10 @@ See also: [RenderWare](middleware.md#renderware).
   - [SoulsIds](https://github.com/thefifthmatt/SoulsIds) - Companion C# helper library for writing FromSoftware game mods, with utilities for reading/writing via SoulsFormats.
   - [FogMod](https://github.com/thefifthmatt/FogMod) - Dark Souls (Remastered) fog gate randomizer by the same author, writing its changes into the game installation's data.
 - [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for FromSoftware's ESD (Event Script Data) files used in Souls games.
-- [ModEngine2](https://github.com/soulsmods/ModEngine2) - Rewrite of Mod Engine, a runtime code patching and injection library for FromSoftware games. Supports Dark Souls 3 and Elden Ring.
+- [ModEngine2](https://github.com/soulsmods/ModEngine2) (archived) - Rewrite of Mod Engine, a runtime code patching and injection library for FromSoftware games. Supports Dark Souls 3 and Elden Ring.
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DemonsSoulsDebug](https://github.com/gibbed/DemonsSoulsDebug) - Patches for Demon's Souls to enable debug menus and other developer functionality.
-- [Dark-Souls-II-Mod-Loader](https://github.com/Atvaark/Dark-Souls-II-Mod-Loader) - File system hook for modding and runtime file replacement.
+- [Dark-Souls-II-Mod-Loader](https://github.com/Atvaark/Dark-Souls-II-Mod-Loader) (archived) - File system hook for modding and runtime file replacement.
 - [DarkScript3](https://github.com/AinTunez/DarkScript3) - IDE for editing FromSoftware's EMEVD event script files with a high-level JavaScript-like language (MattScript).
 - [ESDStudio](https://github.com/GompDS/ESDStudio) - Desktop app for editing FromSoftware Talk ESD (dialogue/behavior state machine) files.
 - [py_esd_for_des](https://github.com/moitt22/py_esd_for_des) - Python decompiler/compiler for Demon's Souls' Talk ESD event script files.
@@ -1091,7 +1087,7 @@ See also: [RenderWare](middleware.md#renderware).
   - [AcSaveFormats](https://github.com/WarpZephyr/AcSaveFormats) - Companion C# library for reading and writing Armored Core saves.
 - [ac6sl2tool](https://github.com/WarpZephyr/ac6sl2tool) - Decrypts and encrypts the files inside Armored Core 6 SL2 saves and recalculates their trailing checksum (the SL2 itself is a BND4 to unpack first with Yabber or WitchyBND).
 - [souls_givifier](https://github.com/jtesta/souls_givifier) - Save game editor for Dark Souls Remastered, Dark Souls II: Scholar of the First Sin, Dark Souls III, and Elden Ring, reading and writing the shared save data format across titles.
-- [DarkSoulsII.DebugView](https://github.com/Atvaark/DarkSoulsII.DebugView) - Debug view/inspector for Dark Souls II's in-memory and save data structures.
+- [DarkSoulsII.DebugView](https://github.com/Atvaark/DarkSoulsII.DebugView) (archived) - Debug view/inspector for Dark Souls II's in-memory and save data structures.
 
 ##### King's Field
 
@@ -1111,7 +1107,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 #### FSZHS Zhengshi (封神召唤师)
 
-- [FS.MP3.Tool](https://github.com/Ekey/FS.MP3.Tool) - Tool for extracting MP3 archives from the mobile game FSZHS Zhengshi (封神召唤师).
+- [FS.MP3.Tool](https://github.com/Ekey/FS.MP3.Tool) (archived) - Tool for extracting MP3 archives from the mobile game FSZHS Zhengshi (封神召唤师).
 
 #### Subset Games (FTL: Faster Than Light)
 
@@ -1123,7 +1119,7 @@ See also: [RenderWare](middleware.md#renderware).
 
 *ZanZarah: The Hidden Portal, using a RenderWare-based engine.*
 
-- [zanzarah-tools](https://github.com/kabbi/zanzarah-tools) - Set of ZanZarah browsing and editing tools.
+- [zanzarah-tools](https://github.com/kabbi/zanzarah-tools) (archived) - Set of ZanZarah browsing and editing tools.
 - [zzio](https://github.com/Helco/zzio) - Work-in-progress engine remake and modding tools for ZanZarah: The Hidden Portal.
 
 #### Funcom

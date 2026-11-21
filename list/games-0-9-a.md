@@ -41,7 +41,7 @@
 - [MafiaXbinTool](https://github.com/rm-NoobInCoding/MafiaXbinTool) - Localization tool for exporting and importing text from Mafia III's XBin files.
 - [Gibbed.Illusion](https://github.com/gibbed/Gibbed.Illusion) - Tools for parsing and editing Illusion engine-based games, including Mafia II.
 - [RmorfBinEditor](https://github.com/legion2809/RmorfBinEditor) - Editor for rmorf.bin files used in Mafia: The City of Lost Heaven, a WPF (C#) rewrite of the author's earlier tool.
-- [HD2unpacker](https://github.com/M3tox/HD2unpacker) - Extracts .dta archives used by Hidden & Dangerous 2 and its demos, handling the game's encrypted and compressed containers to pull out textures, models, and scripts.
+- [LS3D-unpacker](https://github.com/M3tox/LS3D-unpacker) - Extracts .dta archives used by Hidden & Dangerous 2 and its demos, handling the game's encrypted and compressed containers to pull out textures, models, and scripts.
 - [mEdit](https://github.com/Sevenisko/mEdit) - All-in-one editor suite for modding Mafia: The City of Lost Heaven.
 - [vietcong-unpacker](https://github.com/Romop5/vietcong-unpacker) - Collection of tools for unpacking .CBF archive files used in Vietcong (2003), co-developed by Pterodon and Illusion Softworks.
 - [Mafia-2-Font-Generator](https://github.com/kh0shn4w/Mafia-2-Font-Generator) - Python script that generates custom font textures and XML definitions for Mafia II, simplifying the font modding process.
@@ -209,7 +209,7 @@
 - [ShibaInu](https://github.com/Scobalula/ShibaInu) - Weapon file converter for Call of Duty Mod Tools.
 - [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender add-on for Call of Duty modding.
 - [PyCoD](https://github.com/SE2Dev/PyCoD) - Python library for reading/writing Call of Duty's `*_EXPORT`/`*_bin` model and animation files; used by blender-cod and Autodesk Maya's CODTools plugin.
-- [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) - Legendary Call of Duty asset extraction tool.
+- [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) (archived) - Legendary Call of Duty asset extraction tool.
 - [Cordycep](https://github.com/Scobalula/Cordycep) - Tool that utilizes modified game executables to load fast files for Call of Duty.
 - [IWI DDS Fast Converter V1.40 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-dds-fast-converter-v140)
 - [x to xmodel_export converter 1.6 cod5 Version (Call of Duty: World at War)](https://www.moddb.com/games/call-of-duty-world-at-war/downloads/x-to-xmodel-exporter-converter-16-cod5-version) - Converter for DirectX (*.x) and Wavefront Object (*.obj) files to Call of Duty: World at War xmodel_export format. Converted files can then be converted to xmodel using the Asset Manager. Place xconv.exe in CoD5 directory and run (v1.6).
@@ -225,12 +225,12 @@
 - [DDS/IWI Converter 1.5 (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/dds-iwi-converter-1-5)
 - [cod1-xmodel-gallery (xmodelview)](https://github.com/riicchhaarrd/cod1-xmodel-gallery) - Standalone XModel viewer and gallery generator for Call of Duty 1 (v1.1-v1.5).
 - [xmodelconverter](https://github.com/riicchhaarrd/xmodelconverter) - Converts compiled Call of Duty 2 `xmodel`/`xanim` binaries back into text-readable `xmodel_export`/`xanim_export` files, for use with a companion Blender import add-on.
-- [ifs-tool](https://github.com/FreeTheTech101/ifs-tool) - Extraction tool for Call of Duty: Online's IFS archive system (Activision/Tencent), used from client version 1.2.1.12 onward.
+- [ifs-tool](https://github.com/FreeTheTech101/ifs-tool) (archived) - Extraction tool for Call of Duty: Online's IFS archive system (Activision/Tencent), used from client version 1.2.1.12 onward.
 - [Texture Smith](https://github.com/echo000/texture_smith) - GPU-accelerated texture processing tool for packed/compressed textures, with channel splitting, normal map reconstruction (BC5, DXT5, hemi-octahedron), and format conversion; includes dedicated support for separating Call of Duty's fused texture formats.
 - [ManyPacker](https://github.com/ManyAsset/ManyPacker) - Asset packer for Call of Duty 4 that automatically resolves and packages every file connected to a specific asset from a raw folder.
-- [PAKExtractor](https://github.com/FreeTheTech101/PAKExtractor) - Decompresses and converts PAK/XMA archive files from early Call of Duty titles.
-- [iwd-decryptor](https://github.com/FreeTheTech101/iwd-decryptor) - Decrypts Activision's encrypted IWD archives.
-- [t5exp](https://github.com/FreeTheTech101/t5exp) - Black Ops (T5) model exporter, for use with T6-ZoneTool-based fastfile pipelines.
+- [PAKExtractor](https://github.com/FreeTheTech101/PAKExtractor) (archived) - Decompresses and converts PAK/XMA archive files from early Call of Duty titles.
+- [iwd-decryptor](https://github.com/FreeTheTech101/iwd-decryptor) (archived) - Decrypts Activision's encrypted IWD archives.
+- [t5exp](https://github.com/FreeTheTech101/t5exp) (archived) - Black Ops (T5) model exporter, for use with T6-ZoneTool-based fastfile pipelines.
 - [SEFormatConvertor](https://github.com/GEEKiDoS/SEFormatConvertor) - Converter between Call of Duty's SEModel/SEAnim formats and other 3D interchange formats (SMD, DTX/PNG textures).
 - [CoDMayaTools](https://github.com/TheEnbyWitch/CoDMayaTools) - Maya plugin for exporting Call of Duty models, animations, and camera animations (xcams) to the engine's `.xmodel_export`/`.xanim_export`/`.xcam_export` formats, with SEAnim/Wraith/tanim notetrack support and Black Ops 3 Export2Bin/ExportX compatibility. Archived; see [ManyAsset/CODMayaTools](https://github.com/ManyAsset/CODMayaTools) for an actively maintained alternative.
 - [ManyAnims](https://github.com/ManyAsset/ManyAnims) - Batch animation exporter for Maya, exporting `anim_export`/`anim_bin` and importing `.cast`/SEAnim files.
@@ -255,7 +255,7 @@
 
 ###### Map & Level Editing Tools
 
-- [Mappie](https://github.com/timing1337/Mappie) - Call of Duty map extraction tool for modern titles (MW19, BOCW, VG, MWII).
+- [Mappie](https://github.com/timing1337/Mappie) (archived) - Call of Duty map extraction tool for modern titles (MW19, BOCW, VG, MWII).
 - [BSP Decompiler (Call of Duty)](https://www.moddb.com/games/call-of-duty/downloads/bsp-decompiler) - Hereby we release our decompiler and the sources. May it prove to be useful for you or your team.
 - [KV Map Converter v2 Beta2 (Call of Duty 4: Modern Warfare)](https://www.moddb.com/games/call-of-duty-4-modern-warfare/downloads/kv-map-converter-v2-beta2) - Utility by KillerVirus for converting Source Engine maps to Call of Duty 4: Modern Warfare format (v2 Beta2).
 - [iw3xo-radiant](https://github.com/xoxor4d/iw3xo-radiant) - Enhanced Radiant level editor modification for Call of Duty 4 (IW3 Engine).
@@ -267,7 +267,7 @@
 - [iw4x-client](https://github.com/iw4x/iw4x-client) - Client reimplementation/mod for Call of Duty: Modern Warfare 2 (IW4 engine) multiplayer, including the built-in ZoneBuilder asset/fastfile pipeline tool used by the IW3x/IW5x porting utilities.
 - [cod2map](https://github.com/7894752/cod2map) - Fully reconstructed, bit-identical C source for `cod2map.exe`, Call of Duty 2's BSP map compiler, reverse-engineered from the original 2005 binary; covers BSP tree construction, portal visibility, lightmap allocation, collision mesh generation, and shadow computation.
 - [C2M](https://github.com/sheilan102/C2M) - Tool to export maps from Call of Duty games. See also [C2Mv3](https://github.com/o-Astral-o/C2Mv3), an actively maintained continuation covering many more titles (up through Black Ops 6/7) with OBJ and Radiant .MAP export.
-- [C2MConverter](https://github.com/timing1337/C2MConverter) - Converts `.c2m` map files to the Cast model format by drag and drop. See also [Mappie](https://github.com/timing1337/Mappie) above.
+- [C2MConverter](https://github.com/timing1337/C2MConverter) - Converts `.c2m` map files to the Cast model format by drag and drop. See also [Mappie](https://github.com/timing1337/Mappie) (archived) above.
 - [bsp.c](https://github.com/riicchhaarrd/bsp.c) - BSP parser and decompiler for Call of Duty 2 (IW2 engine); reads compiled `.d3dbsp` files and can decompile them back to editable `.map` format for CoD Radiant.
 - [d3dbsp](https://github.com/riicchhaarrd/d3dbsp) - Earlier D3DBSP reader for Call of Duty 2, focused on extracting rendering data (including lightmaps) for use in a custom renderer.
 - [map2obj](https://github.com/riicchhaarrd/map2obj) - Converts Call of Duty 2/4 `.MAP` file brushes into `.OBJ` meshes.
@@ -296,7 +296,6 @@
 
 ###### Modding Kits & Client Tools
 
-- [KisakCOD](https://github.com/SwagSoftware/KisakCOD/) - Open-source, fully buildable reimplementation of Call of Duty 4 multiplayer; aimed at mod developers.
 - [KisakBlack](https://github.com/SwagSoftware/KisakBlack) - Open-source, fully buildable reimplementation of Call of Duty: Black Ops multiplayer, targeting Windows, Linux, WASM, and WebGL2.
 - [CoD2rev_Server](https://github.com/voron00/CoD2rev_Server) - Reverse-engineered reimplementation of the Call of Duty 2 dedicated server executable.
 - [Call of Duty 1 Milkshape plugins](https://www.moddb.com/games/call-of-duty/downloads/call-of-duty-1-milkshape-plugins) - Series of Milkshape plugins for Call of Duty 1. Created by scorpiomidget.
@@ -443,7 +442,7 @@
 
 *Sea Dogs, Pirates of the Caribbean, Age of Pirates.*
 
-- [storm-engine](https://github.com/storm-devs/storm-engine) - Open-source reimplementation of the Storm Engine, the game engine behind Sea Dogs, Pirates of the Caribbean, and Age of Pirates, reading original game assets.
+- [storm-engine](https://github.com/storm-devs/storm-engine) (archived) - Open-source reimplementation of the Storm Engine, the game engine behind Sea Dogs, Pirates of the Caribbean, and Age of Pirates, reading original game assets.
 - [seadogs-file-formats](https://github.com/AlexKimov/seadogs-file-formats) - File format documentation for Storm engine games: Sea Dogs, Sea Dogs 2 (Age of Sail 2 / Privateer's Bounty), Sea Dogs 2: Pirates of the Caribbean, and Sea Dogs 3.
   - Formats: TX, TF, PAK, IDF, CFF, CLF, SC, CMP, DLT, DLM, DEF, ANI, AN, SLS, ZAP, SHP, GM.
   - Documentation hosted on the repo's wiki.
@@ -539,7 +538,7 @@
 - [Coords2YMAP](https://github.com/indirivacua/Coords2YMAP) - Converts GTA San Andreas/Vice City .IDE/.OPL map coordinate files into GTA V's RAGE .YTYP/.YMAP formats, for porting classic-era map mods.
 - [blender_io_GTA5Ped](https://github.com/lucasvinbr/blender_io_GTA5Ped) - Blender import/export add-on for GTA V pedestrian (ped) meshes via OpenIV's openFormats (.odd/.odr/.mesh/.skel).
 - [GTA5VehicleFlagTool](https://github.com/adam10603/GTA5VehicleFlagTool) - Web-based tool for inspecting and modifying strModelFlags, strHandlingFlags, strDamageFlags, and strAdvancedFlags values in GTA V's handling files, using a flag lookup table.
-- [unarpack](https://github.com/HalanoSiblee/unarpack) - Linux-ported unpacker for .AR archives from the Midtown Madness CTPAX-X Team release.
+- [unarpack](https://github.com/HalanoSiblee/unarpack) (archived) - Linux-ported unpacker for .AR archives from the Midtown Madness CTPAX-X Team release.
 - [GTAVHandlingParserJs](https://github.com/adam10603/GTAVHandlingParserJs) - Node.js library for reading and parsing `.meta` vehicle handling files from Grand Theft Auto V.
 - [rdr2-unpack](https://github.com/QUITFIL3/rdr2-unpack) - Reads a local Red Dead Redemption 2 install into open formats: world index, GLB models, PNG textures, and parsed `.ymap` placements. No game data or keys included.
 - [mc3-save-editor](https://github.com/izwave/mc3-save-editor) - Save game editor for Midnight Club 3: DUB Edition Remix.
@@ -578,7 +577,7 @@
 - [EBME](https://github.com/Supremekirb/EBME) - GUI editor for EarthBound's overworld areas.
 - [ebbinex](https://github.com/Herringway/ebbinex) - Simple utility for extracting data from Earthbound ROM files.
 - [ebsrc](https://github.com/Herringway/ebsrc) - Source recreation of EarthBound (SNES), disassembled and reorganized into buildable C/asm source.
-- [nspcplay](https://github.com/Herringway/nspcplay) - Player and parser for NSPC, the SNES music sequence format used by EarthBound and other SNES games.
+- [nspcplay](https://github.com/Herringway/nspcplay) (archived) - Player and parser for NSPC, the SNES music sequence format used by EarthBound and other SNES games.
 - [mother3 (decomp)](https://github.com/Kurausukun/mother3) - Decompilation of Mother 3 (GBA).
 - [m12 (decomp)](https://github.com/Normmatt/m12) - Disassembly of Mother 1+2 (Japan) for the GBA.
 - [MOTHER-3-Battle-Sprite-Graphics](https://github.com/Lorenzooone/MOTHER-3-Battle-Sprite-Graphics) - Inserts custom enemy sprites into Mother 3 (GBA). See also the author's [EnemySpritesFreeSpace-MOTHER3](https://github.com/Lorenzooone/EnemySpritesFreeSpace-MOTHER3), which frees up ROM space for such insertions.
@@ -640,13 +639,13 @@
 #### HuneX (Arcana Famiglia)
 
 - [arcana-famiglia-psp-tools](https://github.com/Anonym271/arcana-famiglia-psp-tools) - Experimental explorer and archive extractor for the PSP version of Arcana Famiglia -La storia della Arcana Famiglia-.
-- [psp-ayakashibito_tools](https://github.com/mchubby/psp-ayakashibito_tools) - Unmaintained collection of programs/documentation for processing `.mrg`/`.nam`/`.hed` script archives from the PSP HuneX game engine. The author recommends [Hintay's PS-HuneX_Tools](https://github.com/Hintay/PS-HuneX_Tools) as an actively working alternative.
+- [psp-ayakashibito_tools](https://github.com/mchubby/psp-ayakashibito_tools) (archived) - Unmaintained collection of programs/documentation for processing `.mrg`/`.nam`/`.hed` script archives from the PSP HuneX game engine. The author recommends [Hintay's PS-HuneX_Tools](https://github.com/Hintay/PS-HuneX_Tools) as an actively working alternative.
 - [VitaScenariosTool](https://github.com/Hintay/VitaScenariosTool) - Scenario/script converter for the PS Vita HuneX engine, tested with Fate/hollow ataraxia and Fate/stay night.
 - [HunexRev](https://github.com/shiikwi/HunexRev) - Unpacker for the Nintendo Switch HuneX engine (tested with Hoshizora Tetsudou to Shiro no Tabi), extracting `.hpb`/`.hph` archives and unpacking/exporting `.heslnk`/`.hdlg` script files.
 
 #### Webzen (Archlord 2)
 
-- [A2.APK.Tool](https://github.com/Ekey/A2.APK.Tool) - Tool for extracting APK archives from Archlord 2.
+- [A2.APK.Tool](https://github.com/Ekey/A2.APK.Tool) (archived) - Tool for extracting APK archives from Archlord 2.
 - [mu-file-viewer](https://github.com/beater-studios/mu-file-viewer) - Web-based viewer for MU Online game assets; browse and preview textures, 3D models, images, audio, and fonts directly in the browser.
 
 #### Argentum Online
@@ -751,7 +750,7 @@
   - [p5spc.saveutil](https://github.com/zarroboogs/p5spc.saveutil) - Save decryption, encryption and conversion utility for Persona 5 Strikers PC (`SAVEDATA.BIN`, keyed by Steam account ID).
   - [sh2.fileutil](https://github.com/zarroboogs/sh2.fileutil) - Command-line utility for Soul Hackers 2 that (de)compresses saves (gzipped JSON) and (en/de)crypts game assets.
 - [io_plg](https://github.com/zarroboogs/io_plg) - Blender import/export addon for the PLG mesh-collection format found in some Atlus games.
-- [Aogami](https://github.com/supremetakoyaki/Aogami) - Shin Megami Tensei V save editor (C#); edits name, play time, difficulty, Macca, Nahobino level and stats and items, with export/import of the save data in decrypted form.
+- [Aogami](https://github.com/supremetakoyaki/Aogami) (archived) - Shin Megami Tensei V save editor (C#); edits name, play time, difficulty, Macca, Nahobino level and stats and items, with export/import of the save data in decrypted form.
 - [p5-rte](https://github.com/TheHiddenHour/p5-rte) - Real-time editing tool for Persona 5 on jailbroken PS3. Allows editing of persona slots, stats, and skills using PS3Lib.
 - [GMDTool](https://github.com/lemoncove/GMDTool) - Command-line utility to convert Persona .GMD model files to Collada .DAE format. Uses GFDLibrary for GMD loading.
 - [PersonaEditor](https://github.com/Meloman19/PersonaEditor) - File editor for Persona series (3, 4, 5) supporting multiple container formats (BIN, PAK, PAC, CPK, P00, ARC, PM1, BF, BVP, TBL, FTD) with asset extraction and modification.
@@ -765,10 +764,10 @@
 - [P2-FR-IS-PSP](https://github.com/Grimoire-du-Coeur/P2-IS-FR-PSP) - French fan translation project for Persona 2: Innocent Sin (PSP), with romhacking tools and reverse-engineering documentation for extracting and reinjecting dialogue scripts, the `eboot.bin`, audio files, and images, plus a web-based xdelta patcher. Community QA tooling for the project includes [JsonVerify](https://github.com/Garloulou/JsonVerify) (validates translated dialogue JSON against the game's binary text-size limits) and [p2is-relecture](https://github.com/CodeByHaamza/p2is-relecture) (renders the translated scripts as an in-browser visual novel for proofreading, with one-click GitHub issue generation for corrections).
 - [P4GModelConverter](https://github.com/ShrineFox/P4GMOdelConverter) - Tool for creating custom models that work in Persona 4 Golden.
 - [gmo2amd](https://github.com/Timo654/gmo2amd) - Converts Persona 3 Portable/Persona 4 Golden .gmo model files to Persona 4 Golden .amd by adding the amd header.
-- [EVTEditor](https://github.com/ShrineFox/EVTEditor) - Persona 5 Event Editor GUI. See also [CaptainSwag101's fork](https://github.com/CaptainSwag101/EVTEditor).
+- [EVTEditor](https://github.com/ShrineFox/EVTEditor) (archived) - Persona 5 Event Editor GUI. See also [CaptainSwag101's fork](https://github.com/CaptainSwag101/EVTEditor).
 - [AtlusScriptGUI](https://github.com/ShrineFox/AtlusScriptGUI) - GUI that automatically passes command-line arguments to AtlusScriptCompiler.
 - [Starfield](https://github.com/tge-was-taken/Starfield) - WIP Persona 5 field editor.
-- [PersonaText](https://github.com/Meloman19/PersonaText) - Older Persona 3/4 text editor. See also [CaptainSwag101's fork](https://github.com/CaptainSwag101/PersonaText).
+- [PersonaText](https://github.com/Meloman19/PersonaText) (archived) - Older Persona 3/4 text editor. See also [CaptainSwag101's fork](https://github.com/CaptainSwag101/PersonaText).
 - [SMT-text-editing](https://github.com/AFriendlyIrin/SMT-text-editing) - Text hacks for various Shin Megami Tensei games, mainly for relocalizing demon races.
 - [P4G_PC_Music_Converter](https://github.com/CaptainSwag101/P4G_PC_Music_Converter) - Prepares WAV files for use with the Persona 4 Golden PC mod loader, enabling custom music. See also the author's [P3TableExporter](https://github.com/CaptainSwag101/P3TableExporter) (WIP tool for exporting Persona 3 TBL files as CSV).
 - [preappfile](https://github.com/tge-was-taken/preappfile) - Archive (un)packer for games developed by Preapp Partners, including the PC ports of Persona 4 Golden and the Compile Heart Neptunia games.

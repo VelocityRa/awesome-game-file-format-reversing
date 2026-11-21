@@ -38,7 +38,7 @@
 
 #### LKA (Martha Is Dead)
 
-- [MarthaIsDead-TextTool](https://github.com/rm-NoobInCoding/MarthaIsDead-TextTool) - Extracts and imports text from `.uexp` files for Martha Is Dead.
+- [MarthaIsDead-TextTool](https://github.com/rm-NoobInCoding/MarthaIsDead-TextTool) (archived) - Extracts and imports text from `.uexp` files for Martha Is Dead.
 
 #### CR-Space (Martial Heroes)
 
@@ -177,7 +177,7 @@
 ##### Metroid Dread
 
 - [MercuryEngine.Data](https://github.com/ArcanoxDragon/MercuryEngine.Data) - .NET library for parsing and working with data formats used in MercurySteam's game engine (Metroid Dread, Metroid: Samus Returns).
-- [MD.PKG.Tool](https://github.com/Ekey/MD.PKG.Tool) - Tool for extracting PKG archives from Metroid Dread.
+- [MD.PKG.Tool](https://github.com/Ekey/MD.PKG.Tool) (archived) - Tool for extracting PKG archives from Metroid Dread.
 - [mercury-engine-data-structures](https://github.com/randovania/mercury-engine-data-structures) - Construct-based type definitions for MercurySteam's Mercury Engine file formats.
 - [open-dread-rando](https://github.com/randovania/open-dread-rando) - Randomizer patcher for Metroid Dread, directly modifying the game's original assets for Randovania.
 - [open-samus-returns-rando](https://github.com/randovania/open-samus-returns-rando) - Randomizer patcher for Metroid: Samus Returns, directly modifying the game's original assets for Randovania.
@@ -310,14 +310,14 @@
 - [IndexV2](https://github.com/Wildenhaus/IndexV2) - Tool for Halo: Combat Evolved Anniversary and Halo 2 Anniversary that extracts textures, models, and more.
 - [h5_dumper](https://github.com/Surasia/h5_dumper) - Simple tag dumper for Halo 5 and Halo 5 Forge written in Rust. Recursively goes through each .module file in directory and writes tags to specified path.
 - [FiveTool](https://github.com/ElDewrito/FiveTool) - Unofficial Halo 5 modding toolkit; its ModuleExtractor unpacks the `.module` files used by the Windows Store version of the game (the README notes there is no way to rebuild modules after editing).
-- [libpyinfinite](https://github.com/Surasia/libpyinfinite) - Typed Python library for parsing Halo Infinite binary files, with module and tag readers (Oodle decompression through the game's oo2core DLL) usable separately or together.
+- [libpyinfinite](https://github.com/Surasia/libpyinfinite) (archived) - Typed Python library for parsing Halo Infinite binary files, with module and tag readers (Oodle decompression through the game's oo2core DLL) usable separately or together.
 - [infinite-rs](https://github.com/TheHaloArchive/infinite-rs) - Rust deserialization library for Halo Infinite, loading the game's .module archives and reading tags from them, with a derive macro for defining tag structures.
 - [libInfinite](https://github.com/Coreforge/libInfinite) - C++ library for working with Halo Infinite files, based on MontagueM's HIMU, with module and tag readers, bitmap batch extraction and material JSON export; tag headers can be generated from IRTV/HIRT XML definitions.
   - [infiniteExplorer](https://github.com/Coreforge/infiniteExplorer) - GUI frontend for libInfinite with bitmap, BSP and 3D model viewers, texture export, and optional mounting of module contents through FUSE3 or WinFsp.
   - [blender-halo-infinite](https://github.com/Coreforge/blender-halo-infinite) - Blender add-on based on HIME that imports Halo Infinite `.render_model` files with their chunk files and textures.
 - [infinitebnk](https://github.com/xyx0826/infinitebnk) - Extracts Wwise SoundBanks from Halo Infinite modules, built on [libInfinite](https://github.com/Coreforge/libInfinite) and optionally mapping tag IDs to paths using a tagnames.txt list.
 - [inf_vectorart](https://github.com/TheHaloArchive/inf_vectorart) - Rust command-line tool that extracts vector art tags from a Halo Infinite deploy folder and writes them as SVG, built on infinite-rs above.
-- [Olympus](https://github.com/Surasia/Olympus) - Blender add-on for importing Halo Infinite render models, material styles (coatings) and bitmaps from the game's modules; a fork of Coreforge's Blender Halo Infinite importer.
+- [Olympus](https://github.com/Surasia/Olympus) (archived) - Blender add-on for importing Halo Infinite render models, material styles (coatings) and bitmaps from the game's modules; a fork of Coreforge's Blender Halo Infinite importer.
 - [XTraction - Halo 3/ODST texture extractor](https://www.moddb.com/games/halo-3/downloads/xtraction-halo-3-odst-texture-extractor-tool) - Versatile texture extractor for Halo 3 and ODST. Extracts textures from MAP files as TIFF images, enabling editing and replacement of Halo 3 era textures. Originally created for WMClan members.
 - [Stream Ripping Tools - Halo 3/4/ODST/CEA/HR Game Asset Extractors Converters Kit](https://www.moddb.com/games/halo-2/downloads/stream-ripping-tools-game-asset-extractors-converters-kit) - Large collection of tools for extracting, modding, and converting game assets from up to 2100 games. Includes Halo 3/2/4/ODST/Reach tools. Contains help instructions, documentation, and links to sources.
 - [Halo2 Gravemind Tool Extractor v1.6B](https://www.moddb.com/games/halo-2/downloads/halo2-gravemind-tool-extractor) - Extractor tool for Halo 2 assets including models, sounds, textures, and maps (v1.6B).
@@ -373,7 +373,6 @@
 
 - [alkahest](https://github.com/cohaereo/alkahest) - Multi-tool for viewing Destiny 2 assets, with a focus on an accurate recreation of the renderer. Supports Tiger engine formats.
 - [tiger-pkg](https://github.com/v4nguard/tiger-pkg) - Destiny 1/2 package library and tools (unpacker, verification). Supports Destiny 1 (Internal Alpha, The Taken King, Rise of Iron), Destiny 2 (Beta through Edge of Fate), and Marathon. Handles PKG files across PS3, PS4, X360, XONE, and Windows platforms.
-- [tiger](https://github.com/Blam-Network/tiger) - TypeScript libraries for Destiny's Tiger engine: reading `.pkg` packages and decoding tags with per-build definitions, a VM and decompiler for compiled activity scripts, package block decompression, and an RSAT bitstream encoder/decoder.
 - [quicktag](https://github.com/v4nguard/quicktag) - Destiny 1/2 package file data structure explorer. Scans and analyzes Tiger engine structure files (8080 files) to discover structures, patterns, strings, and more. Features tag viewer, localized/raw strings browser, and asset preview for textures and Wwise audio streams.
 - [Charm](https://github.com/cohaereo/Charm) - Destiny 2 reverse engineering tool for extracting assets from game files. Supports multiple Tiger engine versions and Destiny 2 game versions (Shadowkeep through Lightfall). Focuses on providing access to information in game files for artists and content preservation.
 - [d2-map-importer-addon](https://github.com/DeltaDesigns/tiger-importer-blender-addon) - Blender 4.0+ addon for importing Destiny 2 rips from Charm. Assembles maps (statics, dynamics, lights, terrain), auto-assigns gear shaders and textures to player gear, compatible with DARE/DCG skeletons and IK Player Skeleton.
@@ -383,7 +382,7 @@
 - [destinydocs](https://github.com/cohaereo/destinydocs) - Documentation for Destiny 1/2 internals.
 - [DestinyDocs](https://github.com/MontagueM/DestinyDocs) - Documentation on Destiny game files, particularly for recent versions of Destiny 2. Includes Charm wiki, engine overview, and tag format explanations.
 - [D2StaticDocs](https://github.com/nblockbuster/D2StaticDocs) - Documentation on the Destiny 2 Beyond Light static model format. Covers main model files, subfiles, material tables, and loadzone structures.
-- [destinypkgtool](https://github.com/v4nguard/destinypkgtool) - Rust library and tools for working with Destiny 1 pkg files (unpacker, verification).
+- [destinypkgtool](https://github.com/v4nguard/destinypkgtool) (archived) - Rust library and tools for working with Destiny 1 pkg files (unpacker, verification).
 - [DestinyUnpackerCPP](https://github.com/nblockbuster/DestinyUnpackerCPP) - C++ unpacker for Destiny 1 (PS4/PS3/X360) and Destiny 2 PC packages. Supports WEM conversion, TXTP generation, hex ID naming, and music-only extraction. See also [MontagueM/DestinyUnpackerCPP](https://github.com/MontagueM/DestinyUnpackerCPP) for the original version.
 - [DestinyPKGTool](https://github.com/cra0kalo/DestinyPKGTool) - Package extractor for Destiny (Xbox 360/PS3) packages.
 - [destiny-unpacker-rs](https://github.com/nblockbuster/destiny-unpacker-rs) - Rust implementation of Destiny unpacker (archived).
@@ -399,7 +398,7 @@
 ##### Marathon (1994)
 
 - [alephone](https://github.com/Aleph-One-Marathon/alephone) - Open source continuation of Bungie's Marathon, Marathon 2: Durandal, and Marathon Infinity game engines; loads and plays the original commercial scenario/map, Shapes, and Sounds data files.
-- [m2-infinity-source-code](https://github.com/Aleph-One-Marathon/m2-infinity-source-code) - Original Bungie-released source code for Marathon 2: Durandal and Marathon Infinity, the authoritative reference for the original engine's native map/shapes/sounds format handling.
+- [m2-infinity-source-code](https://github.com/Aleph-One-Marathon/m2-infinity-source-code) (archived) - Original Bungie-released source code for Marathon 2: Durandal and Marathon Infinity, the authoritative reference for the original engine's native map/shapes/sounds format handling.
 
 ##### Myth
 
@@ -420,7 +419,6 @@
 ##### Forza
 
 - [ForzaTech-extraction-tools](https://github.com/Doliman100/ForzaTech-extraction-tools) - Documentation and tools for ForzaTech .carbin and .modelbin file structures.
-- [forzatech-localization-toolkit](https://github.com/7akeem0/forzatech-localization-toolkit) - Reverse engineering documentation and tools for ForzaTech engine's text/localization system (string tables, font formats, UI archives), covering Forza Horizon 4/5/6 and Forza Motorsport.
 - [Forza-X360-IO](https://github.com/austinbaccus/Forza-X360-IO) - Blender addon for importing Xbox 360-era Forza racetracks, 3D models, and materials.
   - Games: Forza Motorsport 3/4, Forza Horizon 1/2 (not FM2).
   - Formats: PVS (track model instances/textures), STX.BIN/BIN (CAFF textures), FXOBJ (Effects Lite shaders), RMB.BIN (3D geometry), BIX (textures).
@@ -449,7 +447,7 @@
 
 ##### 3D Movie Maker
 
-- [Microsoft-3D-Movie-Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker) - Official Microsoft-released original 1995 source code for 3D Movie Maker, the upstream basis for the preservation/reverse-engineering projects below.
+- [Microsoft-3D-Movie-Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker) (archived) - Official Microsoft-released original 1995 source code for 3D Movie Maker, the upstream basis for the preservation/reverse-engineering projects below.
 - [3DMMForever](https://github.com/foone/3DMMForever) - Preservation and modernization project for Microsoft 3D Movie Maker, reading and importing the original program's archive, model, and asset formats.
 - [3dmm-source-notes](https://github.com/benstone/3dmm-source-notes) - Research notes on Microsoft 3D Movie Maker's leaked source code, documenting its internal data structures and file formats.
 - [3dmmInternals](https://github.com/foone/3dmmInternals) - Reverse engineering notes and tools for Microsoft 3D Movie Maker's internal formats.
@@ -477,7 +475,7 @@
 - [engine-51](https://github.com/bigianb/engine-51) - Experimental tools for Area 51 (2005) engine.
 - [dfs-tool](https://github.com/ProjectDreamland/dfs-tool) - CLI utility for working with Area 51's DFS (Data File System) archive format, based on Inevitable Entertainment's original C++ implementation.
 - [json-playsurface-processer](https://github.com/Source2Spy/json-playsurface-processer) - Blender script that rebuilds Area 51 playsurface maps by placing glTF models at the transforms from a playsurface `.json` exported by engine-51's DFS Viewer.
-- [Inevitable-MATX-Toolkit](https://github.com/Source2Spy/Inevitable-MATX-Toolkit) - Blender add-on for importing and exporting `.matx` mesh files (File > Import/Export > MATX), including skinned/armature data and a rigid-body visualizer, made for the GeomCompiler and Art2Code tools from the Area 51 source release.
+- [Inevitable-MATX-Toolkit](https://github.com/Source2Spy/Inevitable-MATX-Toolkit) (archived) - Blender add-on for importing and exporting `.matx` mesh files (File > Import/Export > MATX), including skinned/armature data and a rigid-body visualizer, made for the GeomCompiler and Art2Code tools from the Area 51 source release.
 - [audiopkgextractor](https://github.com/ProjectDreamland/audiopkgextractor) - QuickBMS-based extractor for Area 51's audiopkg audio package files.
 - [xbmp-converter](https://github.com/ProjectDreamland/xbmp-converter) - Converts Area 51's XBMP texture files to and from standard image formats.
 - [000extractor](https://github.com/ProjectDreamland/000extractor) - QuickBMS script for extracting Area 51's 000 archive files.
@@ -541,11 +539,6 @@
 
 - [wizardofwor](https://github.com/dabadab/wizardofwor) - Reverse-engineered disassembly of the Commodore 64 version of Wizard of Wor (1983), reconstructed into re-assemblable 6502 source code.
 
-#### Millennium Kitchen
-
-##### Attack of the Friday Monsters! A Tokyo Tale
-
-- [AttackFridayMonsters](https://github.com/pleonex/AttackFridayMonsters) - Tools and format documentation for translating the 3DS game Attack of the Friday Monsters! A Tokyo Tale. *(Archived on GitHub; development continues at the author's self-hosted [Forgejo instance](https://code.pleonex.dev/pleonex/AttackFridayMonsters).)*
 
 #### Milon's Secret Castle
 
@@ -566,7 +559,7 @@
 
 #### Virtys (Mist Legacy)
 
-- [ML.DAT.Parsed](https://github.com/Ekey/ML.DAT.Parsed) - Parsed database tables extracted from Mist Legacy.
+- [ML.DAT.Parsed](https://github.com/Ekey/ML.DAT.Parsed) (archived) - Parsed database tables extracted from Mist Legacy.
 
 #### Mithis Entertainment
 
@@ -618,7 +611,7 @@
 - [nbtpp](https://github.com/JaanDev/nbtpp) - Modern C++ library for reading and writing Minecraft's NBT (Named Binary Tag) file format.
 - [mc-anvil](https://github.com/hpratt/mc-anvil) - TypeScript library for reading Minecraft's Anvil region-file format and NBT data in the browser.
 - [libanvil](https://github.com/majestic53/libanvil) - C++ library for reading and writing Minecraft's Anvil region-file format. (Archived.)
-- [rpw (Resource Pack Workbench)](https://github.com/mcRPW/rpw) - Standalone application for editing and managing Minecraft resource packs.
+- [rpw (Resource Pack Workbench)](https://github.com/mcRPW/rpw) (archived) - Standalone application for editing and managing Minecraft resource packs.
 - [MCEdit-Unified](https://github.com/Podshot/MCEdit-Unified) - Combined MCEdit and Pymclevel world editor for Minecraft Java Edition; reads and edits chunk/region world save data for large-scale terrain and structure editing.
 - [Amulet Editor](https://github.com/Amulet-Team/Amulet-Map-Editor) - Actively maintained Minecraft world editor/converter supporting all versions since Java 1.12 and Bedrock 1.7, the spiritual successor to MCEdit. Reads and writes world/chunk save data through its own library stack: [Amulet-Core](https://github.com/Amulet-Team/Amulet-Core) (Java/Bedrock save format I/O), [PyMCTranslate](https://github.com/Amulet-Team/PyMCTranslate) (cross-version block/entity/biome translation), [Amulet-NBT](https://github.com/Amulet-Team/Amulet-NBT) (binary/stringified NBT library), and [Minecraft-Model-Reader](https://github.com/Amulet-Team/Minecraft-Model-Reader) (block model/resource pack reader).
   - In-development rewrite: [Amulet-Editor](https://github.com/Amulet-Team/Amulet-Editor) reimplements the same editor on a new modular library stack — [Amulet-Level](https://github.com/Amulet-Team/Amulet-Level) (world/structure API), [Amulet-Anvil](https://github.com/Amulet-Team/Amulet-Anvil) (Java Anvil region format), [Amulet-LevelDB](https://github.com/Amulet-Team/Amulet-LevelDB) (Mojang's modified LevelDB for Bedrock worlds), [Amulet-Game](https://github.com/Amulet-Team/Amulet-Game) (per-version data translation), and [Amulet-Resource-Pack](https://github.com/Amulet-Team/Amulet-Resource-Pack) (resource pack parsing) — and documents a new cross-version [Construction schematic format](https://github.com/Amulet-Team/construction-specification) for exchanging world sections between editors.
@@ -636,7 +629,7 @@
 
 ##### Minecraft Legends
 
-- [LegendsToolbox](https://github.com/LukeFZ/LegendsToolbox) - Work-in-progress tool for parsing Minecraft: Legends save files and its custom serialization format, including Xbox/Store save files, `level.dat` + LevelDB world storage, and serialized "badger" ECS world-database components, with (de)serialization code generation for C# component representations.
+- [LegendsToolbox](https://github.com/LukeFZ/LegendsToolbox) (archived) - Work-in-progress tool for parsing Minecraft: Legends save files and its custom serialization format, including Xbox/Store save files, `level.dat` + LevelDB world storage, and serialized "badger" ECS world-database components, with (de)serialization code generation for C# component representations.
 
 #### Monolith Productions
 
@@ -719,7 +712,7 @@
 - [Xenoblade-Switch-Model-Importer-Noesis](https://github.com/Turk645/Xenoblade-Switch-Model-Importer-Noesis) - Noesis plugin for importing 3D models from all 3 Xenoblade Chronicles Switch titles (Definitive Edition, X, 3), with mesh/material/texture export, morph support, and LOD toggles.
 - [XenoLib](https://github.com/PredatorCZ/XenoLib) - Independent serialization library and CLI toolset for Xenoblade Engine formats.
   - Formats: MXMD models (camdo/wimdo), DRSM/MXMD streams (casmt/wismt), MTXT/LBIM textures (witex/catex), XBC1 compression, SAR archives, BDAT data, MTHS shaders, BC (SKEL/ANIM/ASM), ARH/ARD archives, MSMD streamed maps (casm/wism).
-- [XenoMax](https://github.com/PredatorCZ/XenoMax) - 3ds Max plugin built on XenoLib for importing Xenoblade Engine models, built on the same format support.
+- [XenoMax](https://github.com/PredatorCZ/XenoMax) (archived) - 3ds Max plugin built on XenoLib for importing Xenoblade Engine models, built on the same format support.
 - [xc3_lib](https://github.com/ScanMountGoat/xc3_lib) - Rust libraries and tools for Xenoblade Engine rendering file formats across Xenoblade Chronicles X, 1 (Definitive Edition), 2, 3, and X Definitive Edition (Switch/PC/Wii U). Covers MXMD models (wimdo/pcmdo/camdo), MSRD/MSMD streaming data (wismt/pcsmt/casmt), BC skeletal animations, and more; complements XenoLib above with broader multi-title/platform coverage. See also [xc3_model_py](https://github.com/ScanMountGoat/xc3_model_py) for Python bindings.
 - [xenoblade_blender](https://github.com/ScanMountGoat/xenoblade_blender) - Blender addon built on xc3_lib for importing Xenoblade Engine models, maps, and animations.
 - [recordkeeper](https://github.com/roccodev/recordkeeper) - Save file editor for Xenoblade Chronicles 3 and Future Redeemed.

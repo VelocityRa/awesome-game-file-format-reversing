@@ -75,7 +75,7 @@
 - [PMGB_SE](https://github.com/MottZilla/PMGB_SE) - Save data editor for the original Game Boy Pokémon (Red/Blue/Yellow), supporting item bag editing (add, delete, change type, change quantity).
 - [pokered-save-editor](https://github.com/1fairyfox/pokered-save-editor) - Save data editor for Pokémon Red and Blue.
 - [pokered-save-editor-2](https://github.com/1fairyfox/pokered-save-editor-2) - Second version of the Pokémon Red and Blue (Gen 1) save editor, editing every part of the save file with an in-game-style keyboard for names; tested for byte-for-byte save fidelity.
-- [Rhydon](https://github.com/SciresM/Rhydon) - Save file editor for Pokémon Red/Blue/Yellow.
+- [Rhydon](https://github.com/SciresM/Rhydon) (archived) - Save file editor for Pokémon Red/Blue/Yellow.
 - [PKX-Extraction](https://github.com/PokeJL/PKX-Extraction) - Extracts Pokémon data from a Generation I/II RAM dump and converts it to the PKX format, including support for the Pokémon Gold/Silver Space World 1997 demo's beta data structures.
 - [crystal-tracker](https://github.com/dannye/crystal-tracker) - Song and sound editor for pokecrystal-based Game Boy sound engines, editing the game's native music data format.
 - [pokemid](https://github.com/mtolly/pokemid) - Imports and exports Pokémon Red/Blue's native music data as standard MIDI files.
@@ -84,7 +84,7 @@
 - [metatiled](https://github.com/j4n7/metatiled) - Converts a PNG image into a map compatible with the pokecrystal/Polished Crystal map format.
 - [crowdmap](https://github.com/yenatch/crowdmap) - Map editor for the pokecrystal decompilation, predecessor to polished-map above.
 - [G15Map](https://github.com/xdanieldzd/G15Map) - Map viewer for the Pokémon Gold/Silver Spaceworld 1997 demo/prototype ROM. See also [Elfs2World](https://github.com/2Tie/Elfs2World), a sibling map viewer for the same prototype dumps.
-- [suiCune](https://github.com/froggestspirit/suiCune) - Work-in-progress PC recompilation of Pokémon Crystal, incrementally converting the pokecrystal decompilation's assembly into C against a base ROM.
+- [suiCune](https://github.com/froggestspirit/suiCune) (archived) - Work-in-progress PC recompilation of Pokémon Crystal, incrementally converting the pokecrystal decompilation's assembly into C against a base ROM.
 
 ##### Gen III
 
@@ -98,7 +98,7 @@
 - [blue-spider](https://github.com/cosarara/blue-spider) - Map editor for Pokémon Ruby/Sapphire/Emerald.
 - [porymap](https://github.com/huderlem/porymap) - Modern map editor for Gen III Pokémon games.
 - [pyagb](https://github.com/dfuchsgruber/pyagb) - Python-based map editor for 3rd generation Pokémon GBA games.
-- [MEH](https://github.com/shinyquagsire23/MEH) - Map editor for Gen III. Ported to the D language as [BEH](https://github.com/shinyquagsire23/BEH), covering Fire Red, Ruby, and Emerald.
+- [MEH](https://github.com/shinyquagsire23/MEH) (archived) - Map editor for Gen III. Ported to the D language as [BEH](https://github.com/shinyquagsire23/BEH), covering Fire Red, Ruby, and Emerald.
 - [pokeemerald-jp (decomp)](https://github.com/pret/pokeemerald-jp) - Matching decompilation of Pokémon Emerald (JP) (100%).
 - [pokeemerald (decomp)](https://github.com/pret/pokeemerald) - Matching decompilation of Pokémon Emerald (100%).
 - [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion) - Actively maintained fork of the pokeemerald decompilation adding modern battle mechanics and Gen IV-IX content/data support; targeted by MIDI2ROM above for custom music authoring.
@@ -122,8 +122,8 @@
 - [porydaw](https://github.com/huderlem/porydaw) - Music editor for the Pokémon Generation 3 decompilation projects that edits the game's native music data format.
 - [poryaaaa](https://github.com/huderlem/poryaaaa) - Audio synthesizer emulating the GBA's native m4a (Sappy) sound engine, used to author music compatible with the Gen III decompilation projects.
 - [gba2pmd](https://github.com/Xhyzi/gba2pmd) - Converts GBA audio into PRET Music Data (PMD) format, used by the Gen III Pokémon decompilation projects.
-- [Cry-Editor](https://github.com/erandis-vol/Cry-Editor) - Cry (Pokémon sound effect) editor for 3rd generation Pokémon games.
-- [Pokemon-Editor](https://github.com/erandis-vol/Pokemon-Editor) - Editor for 3rd generation Pokémon game data (e.g. sprites).
+- [Cry-Editor](https://github.com/erandis-vol/Cry-Editor) (archived) - Cry (Pokémon sound effect) editor for 3rd generation Pokémon games.
+- [Pokemon-Editor](https://github.com/erandis-vol/Pokemon-Editor) (archived) - Editor for 3rd generation Pokémon game data (e.g. sprites).
 - [psfrag](https://github.com/jkbenaim/psfrag) - Utility for scanning, extracting, and building a database of code fragments in the Pokémon Stadium games.
 - [rgen3](https://github.com/crumblingstatue/rgen3) - Suite of Rust libraries and utilities to manipulate Generation 3 Pokémon games (Ruby, Sapphire, Emerald, FireRed, LeafGreen), covering ROM and save data.
 - [PSSE](https://github.com/SciresM/PSSE) - Pokémon Shuffle save file editor, allowing editing of owned Pokémon, high scores, and stage completion in exported savedata.bin files.
@@ -133,7 +133,7 @@
 - [pokemon-gen3-mysterygift-tool](https://github.com/comradesean/pokemon-gen3-mysterygift-tool) - Mystery Gift Wonder Card injector for Pokémon Gen III save files (FireRed, LeafGreen, Emerald).
 - [Gen3-WCTool](https://github.com/projectpokemon/Gen3-WCTool) - Suloku's Wondercard editor for Generation III Pokémon event files.
 - [MIDI2ROM](https://github.com/vlzq/MIDI2ROM) - Desktop tool for designing, inspecting, publishing, and testing music for the GBA m4a (Sappy) sound engine, targeting pokeemerald-expansion; connects MIDI exported from a DAW to voicegroups, keysplits, drumkits, DirectSound samples, poryaaaa, ROM compilation, and mGBA.
-- [PokemonGameEditor](https://github.com/Gamer2020/PokemonGameEditor) - Early all-in-one ROM editor for Generation III Game Boy Advance Pokémon games, now superseded by decompilation-based hacking.
+- [PokemonGameEditor](https://github.com/Gamer2020/PokemonGameEditor) (archived) - Early all-in-one ROM editor for Generation III Game Boy Advance Pokémon games, now superseded by decompilation-based hacking.
 
 ##### Gen VI
 
@@ -202,7 +202,7 @@
 - [PKHeX-Plugins](https://github.com/architdate/PKHeX-Plugins) - Collection of plugins for PKHeX.
 - [PKHeX_Raid_Plugin](https://github.com/Leanny/PKHeX_Raid_Plugin) - PKHeX plugin to display raid data and additional Pokémon info.
 - [SeedSearcher](https://github.com/Leanny/SeedSearcher) - Seed finder for Pokémon Sword and Shield RNG manipulation.
-- [PKHeX-Auto-Legality-Mod](https://github.com/architdate/PKHeX-Auto-Legality-Mod) - Modded Showdown import function for PKHeX enabling automatic Pokémon legality fixing.
+- [PKHeX-Auto-Legality-Mod](https://github.com/architdate/PKHeX-Auto-Legality-Mod) (archived) - Modded Showdown import function for PKHeX enabling automatic Pokémon legality fixing.
 - [PokeFilename](https://github.com/architdate/PokeFilename) - PKHeX plugin to customize PKM output filenames.
 - [HOME-Live-Plugin](https://github.com/Manu098vm/HOME-Live-Plugin) - PKHeX plugin to view and dump Pokémon from the Pokémon HOME application.
 - [RaidCrawler](https://github.com/LegoFigure11/RaidCrawler) - Raid viewer for Pokémon Scarlet and Violet.
@@ -235,8 +235,8 @@
 
 ##### Pokémon Ranger
 
-- [AlmiaE](https://github.com/SunakazeKun/AlmiaE) - Editing suite for Pokémon Ranger: Shadows of Almia, editing Pokémon base stats/parameters and map data (Pokémon, NPCs, targets). Includes LZ10/LZ11 decompression and compression for the game's NDS filesystem.
-- [rangercrypt](https://github.com/Bl4ckSh4rk/rangercrypt) - Decrypts/encrypts Pokémon Ranger save files, fixing checksums on encryption.
+- [AlmiaE](https://github.com/SunakazeKun/AlmiaE) (archived) - Editing suite for Pokémon Ranger: Shadows of Almia, editing Pokémon base stats/parameters and map data (Pokémon, NPCs, targets). Includes LZ10/LZ11 decompression and compression for the game's NDS filesystem.
+- [rangercrypt](https://github.com/Bl4ckSh4rk/rangercrypt) (archived) - Decrypts/encrypts Pokémon Ranger save files, fixing checksums on encryption.
 - [Pokemon-Ranger-Mission-Inserter](https://github.com/Chris-G-Bowles/Pokemon-Ranger-Mission-Inserter) - Inserts downloadable missions into a Pokémon Ranger 2/3 save file.
 - [TychoGfx](https://github.com/SunakazeKun/TychoGfx) - Graphics viewer/exporter for Pokémon Ranger, by the same author as AlmiaE above. (Archived.)
 - [PokemonRangerNetMissionDistributionTool](https://github.com/Wokann/PokemonRangerNetMissionDistributionTool) - Encodes/injects Wi-Fi mission data and generates/edits save files for Pokémon Ranger 1/2/3 (JP and overseas), including Manaphy egg-mission reset.
@@ -263,10 +263,10 @@
 #### Gameloft
 
 - [GameloftEngineLoader](https://github.com/REDxEYE/GameloftEngineLoader) - UniLoader addon for importing Gameloft engine PIG files. Supports meshes, textures, transforms, nodes, and compression (LZ4, ZSTD).
-- [DRVM](https://github.com/VuqarAhadli/DRVM) - Custom Java Virtual Machine implementation for reverse engineering the J2ME game Diamond Rush, including asset extraction.
+- [DRVM](https://github.com/atwodots/DRVM) - Custom Java Virtual Machine implementation for reverse engineering the J2ME game Diamond Rush, including asset extraction.
 - [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
-- [dia_data](https://github.com/SmithGoll/dia_data) - Research repository for the Nokia/J2ME game Diamond Rush: Gameloft BSprite (.bsprite, v1/v2/v3/v5) format notes, C parsers and tools for sprite and demo data, and extracted images, sprites, sounds, and maps. See also [DRVM](https://github.com/VuqarAhadli/DRVM) above.
-- [SF.GLA.Tool](https://github.com/Ekey/SF.GLA.Tool) - Tool for extracting GLA archives from Sniper Fury.
+- [dia_data](https://github.com/SmithGoll/dia_data) - Research repository for the Nokia/J2ME game Diamond Rush: Gameloft BSprite (.bsprite, v1/v2/v3/v5) format notes, C parsers and tools for sprite and demo data, and extracted images, sprites, sounds, and maps. See also [DRVM](https://github.com/atwodots/DRVM) above.
+- [SF.GLA.Tool](https://github.com/Ekey/SF.GLA.Tool) (archived) - Tool for extracting GLA archives from Sniper Fury.
 - [Minion-Rush-Modding-Tools](https://github.com/marethyu/Minion-Rush-Modding-Tools) - Scripts for modding Minion Rush. Contains an editor for BLIBCLARA files.
 - [Game-Engines-Filetypes-Reverse-Engineering](https://github.com/lOlbas/Game-Engines-Filetypes-Reverse-Engineering) - Work-in-progress collection of 010 Editor templates, reading scripts, and file examples for various filetypes used across Gameloft games.
 - [Gameloft-Games-Tools](https://github.com/Dhamp1r/Gameloft-Games-Tools) - Tools for unpacking and packing game resources from older Gameloft titles.
@@ -317,8 +317,8 @@
 
 - [ApexPredator](https://github.com/REDxEYE/ApexPredator) - Tool/library for reading Apex Engine assets. Currently supports Generation Zero. Written in C++.
 - [Gibbed.JustCause4](https://github.com/gibbed/Gibbed.JustCause4) - File unpacking and asset extraction tool for Just Cause 4.
-- [AE.ARC.Tool](https://github.com/Ekey/AE.ARC.Tool) - Tool for extracting ARC archives from games built on Avalanche Studios' Apex Engine.
-- [JC.ARC.Tool](https://github.com/Ekey/JC.ARC.Tool) - Tool for extracting ARC archives from the Just Cause series.
+- [AE.ARC.Tool](https://github.com/Ekey/AE.ARC.Tool) (archived) - Tool for extracting ARC archives from games built on Avalanche Studios' Apex Engine.
+- [JC.ARC.Tool](https://github.com/Ekey/JC.ARC.Tool) (archived) - Tool for extracting ARC archives from the Just Cause series.
 - [GenZ-Save-File-Editor](https://github.com/GrimChan/GenZ-Save-File-Editor) - Save file editor for Generation Zero, reading and writing the game's original save data format.
 
 ##### Mad Max
@@ -355,7 +355,7 @@
 ##### Girls' Frontline 2: Exilium
 
 - [GF2AssetBundleDecryption](https://github.com/nijinekoyo/GF2AssetBundleDecryption) - Decryption/unpacking tool for Girls' Frontline 2: Exilium's Unity asset bundles.
-- [GF2Decrypter](https://github.com/66hh/GF2Decrypter) - Asset decryption toolkit for Girls' Frontline 2: Exilium.
+- [GF2Decrypter](https://github.com/66hh/GF2Decrypter) (archived) - Asset decryption toolkit for Girls' Frontline 2: Exilium.
   - Tools: C# and Python Unity asset-bundle decryptors, a Lua script decryptor, a text extractor, and an audio decryptor. (Archived)
 - [exilium-tools](https://github.com/0x795E69D8/exilium-tools) - Tool collection for Girls' Frontline 2: Exilium: asset bundle decryption, splitting and renaming (C++), audio track and loop-metadata extraction from ACB/AWB files, subtitle extraction from USM videos, and a game update tracker that generates HTML reports.
 
@@ -421,7 +421,7 @@
 - [UmamusumeResponseAnalyzer](https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer) - Terminal.Gui-based TUI host that receives Uma Musume Pretty Derby's request/response MessagePack payloads (via a companion sender such as CarrotJuicer) and routes them to installed plugins by Gallop endpoint.
 - [CarrotJuicer](https://github.com/CNA-Bld/CarrotJuicer) - Hooks the decryption function in Uma Musume Pretty Derby's `libnative.dll` (Windows DMM client) to inspect the game's MessagePack network packets.
   - See also [Riru-CarrotJuicer](https://github.com/CNA-Bld/Riru-CarrotJuicer), the same author's Android (Riru module) port hooking `libnative.so`, and [cjedb](https://github.com/CNA-Bld/cjedb), a companion data generator that reads the game's `master.mdb` database to supply additional per-event data for CarrotJuicer captures.
-- [UmaEnhance](https://github.com/middlered/UmaEnhance) - `version.dll` proxy plugin for Uma Musume Pretty Derby adding gameplay customization options, built on code from CarrotJuicer and umamusume-localify above.
+- [UmaEnhance](https://github.com/middlered/UmaEnhance) (archived) - `version.dll` proxy plugin for Uma Musume Pretty Derby adding gameplay customization options, built on code from CarrotJuicer and umamusume-localify above.
 - [UmaViewer](https://github.com/katboi01/UmaViewer) - Unity application for viewing assets from Uma Musume: Pretty Derby.
 - [UmamusumeExplorer](https://github.com/MarshmallowAndroid/UmamusumeExplorer) - GUI utility for viewing assets from Uma Musume: Pretty Derby (DMM Games or Steam install), with a file browser with search and export, an audio player with export and a live music player with export.
 
@@ -445,7 +445,7 @@
 
 ##### Hogs of War
 
-- [OpenHoW](https://github.com/hogsy/OpenHoW) - Open-source reimplementation of Gremlin Interactive's Hogs of War (PC/PSX) that reads and renders the original game's data files.
+- [OpenHoW](https://github.com/hogsy/OpenHoW) (archived) - Open-source reimplementation of Gremlin Interactive's Hogs of War (PC/PSX) that reads and renders the original game's data files.
 - [Pigs of Worldwar](https://github.com/senyaak/pigs-of-worldwar) - Fan-made remake engine for Hogs of War, built with Electron, TypeScript, and Three.js; reads the original game's assets (does not distribute them).
 
 ##### Realms of the Haunting
@@ -543,7 +543,7 @@
 - [Gw2Browser](https://github.com/rhoot/Gw2Browser) - Browser and extractor for Guild Wars 2's `.dat` file, viewing and exporting the proprietary formats it contains.
 - [gw2_reverse](https://github.com/ahom/gw2_reverse) - Collection of tools for reverse engineering and extracting Guild Wars 2 `.dat` files.
 - [gw2formats](https://github.com/rhoot/gw2formats) - Type-safe C++ library for reading Guild Wars 2's internal file formats.
-- [gw2re](https://github.com/daegalus/gw2re) - Community collection of tools and research reverse engineering the Guild Wars 2 DAT file and the custom formats contained within.
+- [gw2re](https://github.com/daegalus/gw2re) (archived) - Community collection of tools and research reverse engineering the Guild Wars 2 DAT file and the custom formats contained within.
 - [gixxcel](https://github.com/thatshaman/gixxcel) - Decodes and archives Guild Wars 2 STRS (string table) files extracted from DAT archives.
 - [gw2dattools](https://github.com/kytulendu/gw2dattools) - Collection of tools for building programs that work with the Guild Wars 2 dat file.
 
@@ -665,7 +665,7 @@
 - [melee (decomp)](https://github.com/doldecomp/melee) - Matching decompilation of Super Smash Bros. Melee.
 - [melee-pc](https://github.com/999sian/melee-pc) - Native PC/Linux/macOS/Android/iOS port of Super Smash Bros. Melee (NTSC-U 1.02), built on doldecomp/melee's decompilation and the aurora GX/OS/PAD/DVD/CARD/THP compatibility layer; requires the user's own disc image.
 - [brawl (decomp)](https://github.com/doldecomp/brawl) - Matching decompilation of Super Smash Bros. Brawl.
-- [Smash 4 CSS Database Editor](https://github.com/Cuyler36/Smash-4-CSS-Database-Editor) - Editor for Super Smash Bros. 4 character database file (ui_character_db.bin).
+- [Smash 4 CSS Database Editor](https://github.com/Cuyler36/Smash-4-CSS-Database-Editor) (archived) - Editor for Super Smash Bros. 4 character database file (ui_character_db.bin).
 - [SSB4-File-Format-Documentation](https://github.com/jam1garner/SSB4-File-Format-Documentation) - Documentation of Super Smash Bros. 4 (Wii U) file formats, including GTX image files.
 - [brawllib_rs](https://github.com/rukai/brawllib_rs) - Rust library and reimplementation of BrawlLib for reading Super Smash Bros. Brawl file formats.
 - [brawl_to_pf_sandbox](https://github.com/rukai/brawl_to_pf_sandbox) - Uses brawllib_rs to export Super Smash Bros. Brawl fighter data (extracted from a disc dump) into a package for the PF Sandbox platform fighter.
@@ -682,7 +682,7 @@
 - [slippi-js](https://github.com/project-slippi/slippi-js) - JavaScript/TypeScript library for parsing Slippi `.slp` replay files and computing game stats from Super Smash Bros. Melee.
 - [Smush-Research](https://github.com/KillzXGaming/Smush-Research) - Format documentation for Super Smash Bros. Ultimate's Nutexb texture format (smush container).
 - [EffectLibrary](https://github.com/KillzXGaming/EffectLibrary) - Library for loading and saving Super Smash Bros. Ultimate's `.eff` particle-effect files, based on research from ultimate-research's eff_lib.
-- [Ultimate-Smasher](https://github.com/Ret-HZ/Ultimate-Smasher) - Save editor for Super Smash Bros. Ultimate, written in Python.
+- [Ultimate-Smasher](https://github.com/Ret-HZ/Ultimate-Smasher) (archived) - Save editor for Super Smash Bros. Ultimate, written in Python.
 - [tlst-conv](https://github.com/Sammi-Husky/tlst-conv) - Converts Super Smash Bros. Brawl Track List (`.tlst`) files to and from JSON.
 
 ##### BoxBoy!
@@ -716,10 +716,10 @@
 - [re-gh2](https://github.com/ihatecompvir/re-gh2) - Proof-of-concept static recompilation of Guitar Hero II (Xbox 360) using the ReXGlue SDK.
 - [LibForge](https://github.com/maxton/LibForge) - Library for reading, writing, and converting Forge engine formats (Rock Band 4, Rock Band VR, FUSER). See also [PikminGuts92's fork](https://github.com/PikminGuts92/LibForge) with v2 RB MIDI support, MAGMA v1 milos support, and AMP/RBVR .mid_* file support.
   - Formats: MIDI, PNG/BMP (textures), FBX/OBJ (models), DTA/DTB, RBmid, RBsong, lipsync, CON/GP4/PKG (packages).
-- [io_scene_forge](https://github.com/TheDodylectableX/io_scene_forge) - Barebones Blender 3.x/4.x+ add-on for importing Harmonix Forge Engine models (`.forgemesh`) from Rock Band VR (PC) and Rock Band 4 (PS4); the model format is not fully reversed.
+- [io_scene_forge](https://github.com/TheDodylectableX/io_scene_forge) (archived) - Barebones Blender 3.x/4.x+ add-on for importing Harmonix Forge Engine models (`.forgemesh`) from Rock Band VR (PC) and Rock Band 4 (PS4); the model format is not fully reversed.
 - [davesave](https://github.com/InvoxiPlayGames/davesave) - Save file information viewer, decryptor, and encryptor for Harmonix's "Forge" engine games (Rock Band 4, Amplitude 2016, FUSER, Rock Band VR, Dance Central Spotlight).
 - [forgecsv](https://github.com/InvoxiPlayGames/forgecsv) - Converts between regular CSV files and the binary CSV format used in Harmonix Forge engine games (Rock Band 4, Rock Band VR, etc).
-- [Mackiloha](https://github.com/PikminGuts92/Mackiloha) - Suite of modding software for Milo engine based Harmonix games; predecessor to pikaxe below.
+- [Mackiloha](https://github.com/PikminGuts92/Mackiloha) (archived) - Suite of modding software for Milo engine based Harmonix games; predecessor to pikaxe below.
 - [pikaxe](https://github.com/PikminGuts92/pikaxe) - Milo engine modding tool for Harmonix games. Supports Guitar Hero 1-2, Guitar Hero Encore: Rocks the 80s, Rock Band series, Dance Central, and other Milo engine titles. Handles DTA, GLTF, and ARK formats across Xbox, Wii, and PS3. Evolution of Mackiloha above.
 - [MiloEditor](https://github.com/ihatecompvir/MiloEditor) - Cross-platform editor for Milo engine scenes, with varying support levels across Milo games (Rock Band 3 and Dance Central 1 most complete). Includes MiloLib, the .NET Standard library powering the editor, and MiloUtil, a cross-platform CLI utility built on it. See also [rjkiv's fork](https://github.com/rjkiv/MiloEditor).
 - [glTFMilo](https://github.com/ihatecompvir/glTFMilo) - Converts glTF/glB scenes to Milo scene format, primarily targeting Rock Band 3.
@@ -816,7 +816,7 @@
 - [noclip.website (SpongeBob Battle for Bikini Bottom)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob BFBB viewer.
 - [noclip.website (SpongeBob The Movie)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob The Movie viewer.
 - [noclip.website (SpongeBob Revenge of the Flying Dutchman)](https://github.com/magcius/noclip.website/tree/main/src/SpongebobRevengeOfTheFlyingDutchman) - In-browser SpongeBob ROTFD viewer.
-- [bfbbpc](https://github.com/seilc/bfbbpc) - PC port and decompilation of SpongeBob SquarePants: Battle for Bikini Bottom, based on the GameCube version with features from the Xbox version.
+- [bfbbpc](https://github.com/seilc/bfbbpc) (archived) - PC port and decompilation of SpongeBob SquarePants: Battle for Bikini Bottom, based on the GameCube version with features from the Xbox version.
 - [tssm (decomp)](https://github.com/bfbbdecomp/tssm) - Matching decompilation of The SpongeBob SquarePants Movie Game.
 - [TOS-Decomp](https://github.com/LivewireCB/TOS-Decomp) - Matching decompilation of SpongeBob's Truth or Square.
 - [bfbb-ps2](https://github.com/LivewireCB/bfbb-ps2) - Matching decompilation of the PlayStation 2 version of SpongeBob SquarePants: Battle for Bikini Bottom.
@@ -873,7 +873,7 @@
 - [enter_extractor](https://github.com/07th-mod/enter_extractor) - Extractor/converter for Entergram engine assets, decoding `.pic`/`.bup`/`.txa` images to PNG and unpacking `.rom` archives; used across Higurashi Sui (PS3), Higurashi Hou/Umineko Saku (Switch), and other Entergram titles.
 - [higu-switch-patches](https://github.com/DCNick3/higu-switch-patches) - Debug patches for the Nintendo Switch release of Higurashi no Naku Koro ni.
 - [HigurashiENX](https://github.com/masagrator/HigurashiENX) - English translation mod for the Nintendo Switch release of Higurashi no Naku Koro ni, built on top of ShinDataUtil.
-- [umineko-catbox-english](https://github.com/andOlga/umineko-catbox-english) - English translation patch for the console release of Umineko: When They Cry, using shin/SNR-format extraction tools.
+- [umineko-catbox-english](https://github.com/andOlga/umineko-catbox-english) (archived) - English translation patch for the console release of Umineko: When They Cry, using shin/SNR-format extraction tools.
 - [umineko-question](https://github.com/07th-mod/umineko-question) - PS3-content restoration patch for the PC release (Steam/MangaGamer) of Umineko no Naku Koro ni's Question Arcs, replacing the PC release's voice/sprite/background/CG assets with their PS3 equivalents; edits the game's `.utf` script format directly and includes a file-access hook to play back the PS3 version's `.at3` audio, which the PC engine can't natively read. See also [umineko-answer](https://github.com/07th-mod/umineko-answer), the equivalent restoration patch for the Answer Arcs.
 - [saku-voicedump](https://github.com/07th-mod/saku-voicedump) - Scripts for dumping voiced lines from Umineko Saku's `main.snr` script format and generating a matching voice patch from a ponscripter `.utf` script.
 - [ScenarioParser](https://github.com/NeilPalmere/ScenarioParser) - Parser for the .snr scenario script files inside the Nintendo Switch release of Kono Subarashii Sekai ni Shukufuku wo! Kibou no Meikyuu to Tsudoishi Boukenshatachi (Konosuba Labyrinth Plus).
@@ -886,7 +886,7 @@
 #### Avalanche Software (Hogwarts Legacy)
 
 - [Hogwarts-Legacy-Save-Editor](https://github.com/ekaomk/Hogwarts-Legacy-Save-Editor) - Web-based (Next.js) save editor for Hogwarts Legacy, with a drag-and-drop interface for uploading and exporting save files.
-- [HogwartsLegacyLocalizationTool](https://github.com/rm-NoobInCoding/HogwartsLegacyLocalizationTool) - Localization tool for exporting and importing text from Hogwarts Legacy's `*.bin` files (found under `Phoenix\Content\Localization\WIN64`).
+- [HogwartsLegacyLocalizationTool](https://github.com/rm-NoobInCoding/HogwartsLegacyLocalizationTool) (archived) - Localization tool for exporting and importing text from Hogwarts Legacy's `*.bin` files (found under `Phoenix\Content\Localization\WIN64`).
 
 #### Anvil Game Studios (Holdfast: Nations At War)
 
@@ -960,8 +960,8 @@
 - [HSR-Scanner](https://github.com/kel-z/HSR-Scanner) - Scanner for exporting light cone, relic, and character data from Honkai: Star Rail to JSON format.
 - [SRMI (Star Rail Model Importer)](https://github.com/SilentNightSound/SR-Model-Importer) - 3DMigoto-based toolkit for importing and hot-loading custom 3D character models into Honkai: Star Rail, used with the XXMI Launcher. See also [SR-Model-Importer-Assets](https://github.com/SilentNightSound/SR-Model-Importer-Assets), companion asset/template files for use with SRMI.
 - [HoyoToon](https://github.com/Hoyotoon/HoyoToon) - Unity (Built-in Rendering Pipeline) shader suite replicating the in-game shading of datamined miHoYo/HoYoverse character assets (Genshin Impact, Honkai: Star Rail, and other titles); not intended for custom-made or MMD-converted models.
-- [Hoyo2VRC](https://github.com/Hoyotoon/Hoyo2VRC) - Blender addon to convert datamined HoYoverse character models (Genshin Impact, Honkai: Star Rail, and other titles) into VRChat-ready avatars, a companion tool to HoyoToon above.
-- [Blender-StellarToon](https://github.com/festivities/Blender-StellarToon) - Shader replicating Honkai: Star Rail's in-game character shading, for datamined assets rather than custom-made or MMD-converted models; built for [Goo Engine](https://github.com/dillongoostudios/goo-engine), a Blender fork with extra NPR (non-photorealistic rendering) features.
+- [Hoyo2VRC](https://github.com/Hoyotoon/Hoyo2VRC) (archived) - Blender addon to convert datamined HoYoverse character models (Genshin Impact, Honkai: Star Rail, and other titles) into VRChat-ready avatars, a companion tool to HoyoToon above.
+- [Blender-StellarToon](https://github.com/festivities/Blender-StellarToon) (archived) - Shader replicating Honkai: Star Rail's in-game character shading, for datamined assets rather than custom-made or MMD-converted models; built for [Goo Engine](https://github.com/dillongoostudios/goo-engine), a Blender fork with extra NPR (non-photorealistic rendering) features.
 - [honkai-dumper](https://github.com/lanylow/honkai-dumper) - Dumps classes, fields, and methods from Honkai: Star Rail.
 - [PyCriUsm](https://github.com/BUnipendix/PyCriUsm) - Python script to decrypt and demux Honkai: Star Rail's CRI USM cutscene videos. See also [H-SR-cutscene-extractor](https://github.com/moux23333/H-SR-cutscene-extractor), a companion CLI/GUI tool built on PyCriUsm for extracting USM cutscenes and CG images.
 - [HSRGlobalMetadata](https://github.com/im-remi/HSRGlobalMetadata) - Static metadata extractor for Honkai: Star Rail.
@@ -1032,7 +1032,7 @@
 
 #### Hulabee Entertainment
 
-- [hulabee](https://github.com/cyxx/hulabee) - Tools and a VM for Hulabee Entertainment's proprietary engine, used across its adventure games for kids (Moop and Dreadly in the Treasure on Bing Bong Island, Ollo in the Sunny Valley Fair, Mike's Monstrous Adventure).
+- [hulabee](https://github.com/cyxx/hulabee) (archived) - Tools and a VM for Hulabee Entertainment's proprietary engine, used across its adventure games for kids (Moop and Dreadly in the Treasure on Bing Bong Island, Ollo in the Sunny Valley Fair, Mike's Monstrous Adventure).
 
 #### Human Entertainment
 
@@ -1085,7 +1085,7 @@
 - [MegaNepEditor](https://github.com/marcussacana/MegaNepEditor) - Unpacks and repacks .cat files from MegaTagmension Blanc + Neptune VS Zombies.
 - [CoroHeartToolkit](https://github.com/SeleDreams/CoroHeartToolkit) - Modding tool for games built on Compile Heart's Orochi 4 Engine.
 - [brapack](https://github.com/RikuKH3/brapack) - Unpacker/repacker for the `*.bra` archive format used in Compile Heart games.
-- [neptools](https://github.com/u3shit/neptools) - Modding toolkit for Hyperdimension Neptunia Re;Birth 1-3 and Megadimension Neptunia VII, with rudimentary support for Hyperdevotion Noire: Goddess Black Heart. Includes a `.cl3`/`.gstr`/`.gbin`/`.bin` text/data extractor and importer, plus a runtime loader that applies edited files without repacking the game's `.pac` archives.
+- [neptools](https://github.com/u3shit/neptools) (archived) - Modding toolkit for Hyperdimension Neptunia Re;Birth 1-3 and Megadimension Neptunia VII, with rudimentary support for Hyperdevotion Noire: Goddess Black Heart. Includes a `.cl3`/`.gstr`/`.gbin`/`.bin` text/data extractor and importer, plus a runtime loader that applies edited files without repacking the game's `.pac` archives.
 - [fff-adf-datamining](https://github.com/wareya/fff-adf-datamining) - Incomplete datamining tools for Fairy Fencer F Advent Dark Force (partially compatible with other Compile Heart games): `ism2.cpp` converts `col_ground.ism2` map collision, entities and treasure locations to a Wavefront `.obj`, and `gbin.cpp` dumps `dbDungeon`/`dbTreasure`/`dbItems` `.gbin` tables to TSV.
 
 #### Hypergryph

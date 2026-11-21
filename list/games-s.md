@@ -18,7 +18,7 @@
 
 #### Southend Interactive (Sacred Citadel)
 
-- [SC.VFS.Tool](https://github.com/Ekey/SC.VFS.Tool) - Tool for extracting and repacking VFS archives from Sacred Citadel.
+- [SC.VFS.Tool](https://github.com/Ekey/SC.VFS.Tool) (archived) - Tool for extracting and repacking VFS archives from Sacred Citadel.
 
 #### Safari Software
 
@@ -142,11 +142,11 @@
 - [gmt_lib](https://github.com/Fronkln/gmt_lib) - Library for reading/writing Yakuza series GMT animation files; maintained continuation of mosamadeeb's archived original.
 - [yakuza-gmt-blender](https://github.com/Fronkln/yakuza-gmt-blender) - Blender import/export script for Yakuza series GMT animation files, built on gmt_lib above; maintained continuation of mosamadeeb's archived original.
 - [Yakuza-010-Editor-Templates](https://github.com/Fronkln/Yakuza-010-Editor-Templates) - 010 Editor templates for file formats used in the Yakuza games; extends [Ret-HZ's original template set](https://github.com/Ret-HZ/Yakuza-010-Editor-Templates).
-- [reARMP](https://github.com/Ret-HZ/reARMP) - ARMP `.bin` file exporter/importer for Dragon Engine games, built on LibARMP above.
+- [reARMP](https://github.com/Ret-HZ/reARMP) (archived) - ARMP `.bin` file exporter/importer for Dragon Engine games, built on LibARMP above.
 - [Lib20070319](https://github.com/Ret-HZ/Lib20070319) - Library to read/write Ryu Ga Gotoku Studio's proprietary "20070319" data-table format used across Yakuza games.
 - [DungeonMaster](https://github.com/Ret-HZ/DungeonMaster) - Dungeon layout editor for Like a Dragon: Infinite Wealth's DGRF format, covering grid and room-type mechanics.
-- [rELPKckr](https://github.com/Ret-HZ/rELPKckr) - ELPK archive extractor/packer for Kurohyou: Ryu Ga Gotoku Shinsho and Kurohyou 2: Ryu Ga Gotoku Ashura Hen, RGG Studio's syn Sophia-developed PSP spin-offs.
-- [yagami-decryption-agency](https://github.com/mosamadeeb/yagami-decryption-agency) - Decrypts/encrypts Judgment and Lost Judgment's PC `chara.par` archives. See also [PARCrypt](https://github.com/Ret-HZ/PARCrypt), a companion PXD Archive (PARC) decryptor/encryptor built on this library.
+- [rELPKckr](https://github.com/Ret-HZ/rELPKckr) (archived) - ELPK archive extractor/packer for Kurohyou: Ryu Ga Gotoku Shinsho and Kurohyou 2: Ryu Ga Gotoku Ashura Hen, RGG Studio's syn Sophia-developed PSP spin-offs.
+- [yagami-decryption-agency](https://github.com/mosamadeeb/yagami-decryption-agency) (archived) - Decrypts/encrypts Judgment and Lost Judgment's PC `chara.par` archives. See also [PARCrypt](https://github.com/Ret-HZ/PARCrypt), a companion PXD Archive (PARC) decryptor/encryptor built on this library.
 - [kuma](https://github.com/Timo654/kuma) - Python GUI karaoke editor for Dragon Engine games (Like a Dragon/Yakuza series). Imports maps from Lost Judgment dancing, Persona Dancing, old-engine karaoke, Yakuza 5 Princess League, Ishin dancing, Zero disco, Project DIVA MegaMix+ beatmaps and Project Heartbeat JSON; exports JSON and experimental Lost Judgment dbd.
 - [karaConv](https://github.com/Timo654/karaConv) - Converts karaoke song bin files between Yakuza 4/Dead Souls and Yakuza 5/Ishin/Zero/Kiwami.
 
@@ -188,7 +188,7 @@
 - [gasetools](https://github.com/essen/gasetools) - Original set of command-line tools to manipulate SEGA game file formats, including Phantasy Star Universe.
 - [gasetoolsWin](https://github.com/Shadowth117/gasetoolsWin) - Windows port of essen/gasetools, rebuilt with Visual Studio for easy Windows builds.
 - [tenora-works](https://github.com/Agrathejagged/tenora-works) - PSULib and PSU Generic Parser for Phantasy Star Universe.
-- [PSO2 CLI Tools](https://github.com/dummycount/Pso2Cli) - Command-line tools for parsing and editing Phantasy Star Online 2 game data files (character making index, color channels, game formats).
+- [PSO2 CLI Tools](https://github.com/dummycount/Pso2Cli) (archived) - Command-line tools for parsing and editing Phantasy Star Online 2 game data files (character making index, color channels, game formats).
 - [newserv](https://github.com/fuzziqersoftware/newserv) - Game server, proxy, and reverse-engineering tool for Phantasy Star Online (PC, GameCube, Blue Burst, Episode 3). Handles quest files, client patch files, item tables, and GameCube DOL binaries.
 - [rust-ages-prs](https://github.com/HybridEidolon/rust-ages-prs) - PRS compression/decompression library for Rust, used across SEGA game formats including Phantasy Star Online.
 - [yaqp](https://github.com/jtuu/yaqp) - Phantasy Star Online Blue Burst (PSOBB) quest file (.qst) parser with a disassembler; dumps binary quest data and outputs enemy counts as JSON.
@@ -210,7 +210,7 @@
 
 - [Sonic-1-2-2013-Decompilation (decomp)](https://github.com/RSDKModding/RSDKv4-Decompilation) - Matching decompilation of Sonic 1 & 2 (2013 mobile) and Retro Engine v4.
 - [Sonic-CD-11-Decompilation (decomp)](https://github.com/RSDKModding/RSDKv3-Decompilation) - Matching decompilation of Sonic CD (2011 mobile) and Retro Engine v3.
-- [sa1 (decomp)](https://github.com/SAT-R/sa1) - Matching decompilation of Sonic Advance (GBA, Europe).
+- [sa1 (decomp)](https://github.com/SAT-R/sa1) (archived) - Matching decompilation of Sonic Advance (GBA, Europe).
 - [sa2 (decomp)](https://github.com/SAT-R/sa2) - Matching decompilation of Sonic Advance 2 (GBA).
 - [sa3 (decomp)](https://github.com/SAT-R/sa3) - Matching decompilation of Sonic Advance 3 (GBA).
 - [SA-Trilogy-Animation-Exporter](https://github.com/JaceCear/SA-Trilogy-Animation-Exporter) - Extracts animation data from Sonic Advance 1-3 ROMs.
@@ -231,7 +231,7 @@
 - [RSDKv2-Decompilation](https://github.com/RSDKModding/RSDKv2-Decompilation) - Decompilation of the 2008 Retro Engine v2 demo of Sonic Nexus.
 - [RSDKv3-Script-Decompilation](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) - Decompilation of Retro Engine v3 (Sonic CD) scripts.
 - [RSDKv4-Script-Decompilation](https://github.com/RSDKModding/RSDKv4-Script-Decompilation) - Decompilation of Retro Engine v4 scripts, covering Sonic 1 & 2 (2013 mobile) and Sonic CD (Sega Classics release).
-- [CD-Proto-Diffs](https://github.com/RSDKModding/CD-Proto-Diffs) - Ghidra-diff analysis documenting binary changes across a sequence of leaked Sonic CD (2011 mobile) prototype builds.
+- [CD-Proto-Diffs](https://github.com/RSDKModding/CD-Proto-Diffs) (archived) - Ghidra-diff analysis documenting binary changes across a sequence of leaked Sonic CD (2011 mobile) prototype builds.
 - [RSonic3D-Decompilation](https://github.com/RSDKModding/RSonic3D-Decompilation) - Decompilation of *Retro-Sonic 3D: Sky Worlds* (2005), an early Retro Engine tech demo fan game; requires original assets and adds a mod loader plus an OpenGL/SDL renderer replacing the original DirectX 7 code.
 - [SoniCPort](https://github.com/cuckydev/SoniCPort) - C port of Sonic the Hedgehog (1991, Sega Genesis/Mega Drive), built on the s1disasm disassembly.
 - [stfdisasm](https://github.com/biggestsonicfan/stfdisasm) - Disassembly of Sonic the Fighters (arcade), the basis for the stfdecomp decompilation attempt above.
@@ -283,7 +283,7 @@
 ###### Sonic Adventure
 
 - [SCHG:Sonic_Adventure](https://info.sonicretro.org/SCHG:Sonic_Adventure) - Sonic Community Hacking Guide documentation for Sonic Adventure.
-- [sadtools](https://github.com/FraGag/sadtools) - Command-line tools for Sonic Adventure file formats.
+- [sadtools](https://github.com/FraGag/sadtools) (archived) - Command-line tools for Sonic Adventure file formats.
 - [sa_tools](https://github.com/X-Hax/sa_tools) - Modding toolkit for Sonic Adventure series. Supports Sonic Adventure DX (SADX) and Sonic Adventure 2 PC (SA2PC).
   - Companion repo [sa_tools_research](https://github.com/X-Hax/sa_tools_research): command-line tools moved out of SA Tools for advanced users, including MLTExtract, RecreatePVM, GBIXScan, njConvert and SoundBankEditor.
   - [SACompGC](https://github.com/X-Hax/SACompGC): Decompressor library/CLI for the `SaCompGC`-headed `.rel` files of the GameCube version of Sonic Adventure DX.
@@ -387,7 +387,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [Sonic-06-Character-Swapper](https://github.com/hyperbx/Sonic-06-Character-Swapper) - Character swapping tool for Sonic the Hedgehog (2006), built on the Marathon toolkit's file format APIs.
 - [RFL2HMM](https://github.com/hyperbx/RFL2HMM) - Converts Hedgehog Engine 2 reflection (RFL) data into Hedge Mod Manager code definitions.
 - [PXDAnimationTools](https://github.com/WistfulHopes/PXDAnimationTools) - Blender addon for importing and exporting compressed Hedgehog Engine 2 `.anm.pxd` animations and `.skl.pxd` skeletons (batch import/export as actions, root motion support), with a C++ ACL-based decompression helper for Sonic Frontiers animations (not archived).
-- [Unleashed-Mod-Manager](https://github.com/hyperbx/Unleashed-Mod-Manager) - Tool to handle mod copying and organisation for Sonic Unleashed.
+- [Unleashed-Mod-Manager](https://github.com/hyperbx/Unleashed-Mod-Manager) (archived) - Tool to handle mod copying and organisation for Sonic Unleashed.
 - [HavokAnimationExporter](https://github.com/blueskythlikesclouds/HavokAnimationExporter) - Tool for generating animation and skeleton data for Sonic games that use Havok.
 - [SonicUnleashed_ModToolbox](https://github.com/PTKay/SonicUnleashed_ModToolbox) - Batch-script toolbox automating common Sonic Unleashed modding tasks.
 - [ForcesModInstaller](https://github.com/PTKay/ForcesModInstaller) - Installs mods into Sonic Forces using PackCPK.exe.
@@ -409,7 +409,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [Alien Isolation BML Converter](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-bml-converter) - BML file converter for Alien Isolation enabling modding of behaviors, weapons, and more.
 - [Alien Isolation UI Mod Tool](https://www.moddb.com/mods/alien-isolation-extractors/downloads/alien-isolation-ui-mod-tool)
 - [Alien Isolation Audio Extractor](https://github.com/MattFiler/Alien-Isolation-Audio-Extractor) - Extracts and names sound files from Alien: Isolation's Wwise BNK/WEM audio banks, outputting files with human-readable names derived from the game's sound event data.
-- [AssetEditor](https://github.com/OpenCAGE/AssetEditor) - Browse and modify Alien: Isolation's asset PAK archives.
+- [AssetEditor](https://github.com/OpenCAGE/AssetEditor) (archived) - Browse and modify Alien: Isolation's asset PAK archives.
   - Formats: PAK2 (UI.PAK, ANIMATIONS.PAK), Texture PAK (LEVEL_TEXTURES.ALL.PAK, GLOBAL_TEXTURES.ALL.PAK), Models PAK (LEVEL_MODELS.PAK, GLOBAL_MODELS.PAK), Shaders PAK (*_SHADERS_DX11.PAK), Material Mappings PAK (MATERIAL_MAPPINGS.PAK).
 - [AlienBML](https://github.com/x1nixmzeng/AlienBML) - Command-line C# tool converting Alien: Isolation's XML to and from its binary BML format.
 - [LevelViewer](https://github.com/OpenCAGE/LevelViewer) - Views Alien: Isolation levels in Unity, companion to the OpenCAGE modding toolkit and AssetEditor above.
@@ -604,7 +604,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
   - Formats: `.SPK` game archives, `.MDL` meshes (Hakenberg format + BMP textures), panorama backgrounds.
   - Features: Batch extraction, asset modification, cross-platform unified GUI.
 - [qfg5model](https://github.com/bairesearch/qfg5model) - Command-line tool to export and import textures and meshes from Quest for Glory V, with support for importing high-resolution replacement textures and meshes.
-- [qfg5-reenigne](https://github.com/zhmu/qfg5-reenigne) - Reverse engineering notes and tools for Quest for Glory V: Dragonfire.
+- [qfg5-reenigne](https://github.com/zhmu/qfg5-reenigne) (archived) - Reverse engineering notes and tools for Quest for Glory V: Dragonfire.
 
 ##### Leisure Suit Larry
 
@@ -679,7 +679,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 #### Super Creative (Smilegate)
 
-- [Chaos Zero Nightmare ASSet Ripper](https://github.com/cznrip/Chaos-Zero-Nightmare-ASSet-Ripper) - Extracts encrypted assets from Chaos Zero Nightmare's data.pack (including the Chinese client, 卡厄思梦境), previewing and exporting SCT images as PNG, encrypted databases as JSON, and Spine (SCSP) animation data as JSON via a built-in Spine viewer.
+- [Chaos Zero Nightmare ASSet Ripper](https://github.com/cznrip/ChaosZeroNightmare-AssetRipper) - Extracts encrypted assets from Chaos Zero Nightmare's data.pack (including the Chinese client, 卡厄思梦境), previewing and exporting SCT images as PNG, encrypted databases as JSON, and Spine (SCSP) animation data as JSON via a built-in Spine viewer.
 - [SCTParser](https://github.com/formagGinoo/SCTParser) - Parses the SCT custom image format shared by Chaos Zero Nightmare and Epic Seven into PNGs; superseded for Chaos Zero Nightmare by the ASSet Ripper above but still useful standalone, including for Epic Seven assets.
 
 #### SNK
@@ -710,7 +710,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### SNK Heroines
 
-- [SNK.WAD.Tool](https://github.com/Ekey/SNK.WAD.Tool) - Tool for extracting WAD archives from SNK Heroines: Tag Team Frenzy.
+- [SNK.WAD.Tool](https://github.com/Ekey/SNK.WAD.Tool) (archived) - Tool for extracting WAD archives from SNK Heroines: Tag Team Frenzy.
 
 #### Snowblind Studios
 
@@ -724,11 +724,11 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Treasure Island (2005)
 
-- [TI.DAT.Tool](https://github.com/Ekey/TI.DAT.Tool) - Extractor for RC4-encrypted DAT/PACK archives from Treasure Island (2005), a Russian PC adventure game published by SoftClub.
+- [TI.DAT.Tool](https://github.com/Ekey/TI.DAT.Tool) (archived) - Extractor for RC4-encrypted DAT/PACK archives from Treasure Island (2005), a Russian PC adventure game published by SoftClub.
 
 #### SoftLab-NN
 
-- [HardTruck-RignRoll-file-formats](https://github.com/AlexKimov/HardTruck-RignRoll-file-formats) - File formats, specs, and script tools for Hard Truck 1/2 and Rig'n'Roll.
+- [HardTruck-RignRoll-file-formats](https://github.com/AlexKimov/HardTruck-RignRoll-file-formats) (archived) - File formats, specs, and script tools for Hard Truck 1/2 and Rig'n'Roll.
 - [SeelTools](https://github.com/Zvetkov/SeelTools) - Work-in-progress Python/Qt GUI toolkit for Ex Machina / Hard Truck Apocalypse that loads the game's XML prototypes, resources, affixes and faction relationships and displays them as a tree for inspecting prototype properties. Read-only viewer in practice (data can be written back, but not edited from the GUI); the author describes it as mostly abandoned.
 
 #### SoftStar Entertainment
@@ -764,7 +764,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Guerrilla Games (Decima Engine)
 
-- [ProjectZeroDawn](https://github.com/neptuwunium/ProjectZeroDawn) - File format research and tools for Horizon Zero Dawn.
+- [ProjectZeroDawn](https://github.com/neptuwunium/ProjectZeroDawn) (archived) - File format research and tools for Horizon Zero Dawn.
 - [decima-workshop](https://github.com/ShadelessFox/decima-workshop) - GUI application for viewing and editing resources found in games powered by Decima Engine. Supports browsing and editing core objects, previewing models/textures/shaders, exporting assets, and repacking archives. Works with Horizon Zero Dawn, Death Stranding, and other Decima Engine games.
 - [decima-native](https://github.com/ShadelessFox/decima-native) - Native library components for Decima Engine tools.
 - [Decima Explorer](https://github.com/Jayveer/Decima-Explorer) - Unpacker and packer for games using the Decima engine (Horizon Zero Dawn, Death Stranding).
@@ -788,8 +788,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ALERT](https://github.com/Tkachov/ALERT) - Amazing Luna Engine Research Tools. Python toolkit for researching and modifying Insomniac Games assets with dat1lib library and web-based Assets Browser.
   - Games: Sunset Overdrive, Marvel's Spider-Man (Remastered, Miles Morales, 2), Marvel's Wolverine, Ratchet & Clank: Rift Apart.
   - Features: Model conversions (.model/.ascii/.gltf), animation application, soundbank audio injection, DSAR archive compression, asset extraction.
-- [rivet](https://github.com/neptuwunium/rivet) - File format research project for Ratchet & Clank: Rift Apart.
-- [ripped_apart](https://github.com/chaoticgd/ripped_apart) - Modding toolkit for Ratchet & Clank: Rift Apart.
+- [rivet](https://github.com/neptuwunium/rivet) (archived) - File format research project for Ratchet & Clank: Rift Apart.
+- [ripped_apart](https://github.com/chaoticgd/ripped_apart) (archived) - Modding toolkit for Ratchet & Clank: Rift Apart.
 - [insomniac-model](https://github.com/sleepyzay/insomniac-model) - Research and tools for Insomniac Games model formats.
 - [DDLParser](https://github.com/macton/DDLParser) - Parser for Insomniac's Data Definition Language (DDL) format.
 - [replanetizer](https://github.com/RatchetModding/replanetizer) - Full-featured level editor for PS3 Ratchet & Clank games.
@@ -797,7 +797,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [RaCSaveEditor](https://github.com/zyzalfors/RaCSaveEditor) - GUI save editor for the PlayStation 2 Ratchet & Clank 1, 2, 3 and Deadlocked/Gladiator `.bin` saves (all versions/regions): bolts, nanotech, weapons/items, ammo, skill points, crystals and raritanium.
 - [RaCTrilogy-PS3-Tools](https://github.com/thtrandomlurker/RaCTrilogy-PS3-Tools) - Python scripts for extracting armor and model meshes from Ratchet & Clank PS3 Trilogy.
   - [io_mesh_rctrilogy](https://github.com/thtrandomlurker/io_mesh_rctrilogy) - WIP Blender importer for the Ratchet & Clank Trilogy `armor*.ps3` model files (PS3 and Vita).
-- [wrench](https://github.com/chaoticgd/wrench) - Set of modding tools for the Ratchet & Clank PS2 games.
+- [wrench](https://github.com/chaoticgd/wrench) (archived) - Set of modding tools for the Ratchet & Clank PS2 games.
 - [noclip.website (Ratchet & Clank)](https://github.com/magcius/noclip.website/tree/main/src/RatchetAndClank) - In-browser level viewer for Ratchet & Clank and Ratchet & Clank: Going Commando (PS2). Parses the level `.bin` TOC/core/gameplay containers and renders tfrag terrain, tie and shrub instances, moby actors, collision meshes, and skies, including a VIF/VU microcode unpacker for the PS2 display lists.
 - [horizon-forge](https://github.com/Horizon-Private-Server/horizon-forge) - Map editor for Ratchet: Deadlocked Multiplayer (PS2).
 - [Overstrike](https://github.com/Tkachov/Overstrike) - Open-source mod manager for PC ports of Insomniac Games' games.
@@ -857,7 +857,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [io_ctr_tools](https://github.com/CTR-tools/io_ctr_tools) - Blender plugin for importing CTR: Crash Team Racing (PS1) levels with vertex colors, parsing LEV format via Kaitai Struct.
 - [Crash-NST-Level-Editor](https://github.com/kishimisu/Crash-NST-Level-Editor) - Level editor, archive editor, and mod manager for Crash Bandicoot N. Sane Trilogy.
 - [CrashBashEx](https://github.com/xan1242/CrashBashEx) - Extractor for Crash Bash archive/music files.
-- [OpenSanityNeo](https://github.com/NeoKesha/OpenSanityNeo) - Crash Twinsanity (Xbox, PAL) decompilation/disassembly project using Ghidra and code generation, aiming for an accurate rebuildable disassembly.
+- [OpenSanityNeo](https://github.com/NeoKesha/OpenSanityNeo) (archived) - Crash Twinsanity (Xbox, PAL) decompilation/disassembly project using Ghidra and code generation, aiming for an accurate rebuildable disassembly.
 - [crash-ps2 (decomp)](https://github.com/calmsacibis995/crash-ps2) - Matching decompilation of Crash Bandicoot: The Wrath of Cortex (PS2).
 - [LibTWOC](https://github.com/Open-Travelers/LibTWOC) - C# library for reading and writing the file formats used by Crash Bandicoot: The Wrath of Cortex. See also [twoc-tools](https://github.com/NoahStolk/twoc-tools), a cross-platform tool built on this library.
 - [travelers-toolkit](https://github.com/Open-Travelers/travelers-toolkit) - C++/ImGui level viewer for Crash Bandicoot: The Wrath of Cortex, parsing compressed `.gsc` (or raw `.nus` on GameCube) scene files extracted from the disc; aims to grow into a full level editor.
@@ -902,7 +902,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [dc](https://github.com/icemesh/dc) - Format specification (work in progress) for the script files used in the Naughty Dog Engine.
 - [sidbase-dumper](https://github.com/icemesh/sidbase-dumper) - Extracts data from sidbase.bin files used in the Naughty Dog engine.
 - [TLOU_PSARC_Tool](https://github.com/5l41dev/TLOU_PSARC_Tool) - Extraction/repacking tool for The Last of Us PSARC archives.
-- [NaughtyDogLocalizationTool](https://github.com/rm-NoobInCoding/NaughtyDogLocalizationTool) - Exports and imports localization files (`.subtitles`, `.common`, `.subtitles-systemic`, `.web`) across all Naughty Dog games (Uncharted and The Last of Us series) on PS3, PS4, PS5, and PC.
+- [NaughtyDogLocalizationTool](https://github.com/rm-NoobInCoding/NaughtyDogLocalizationTool) (archived) - Exports and imports localization files (`.subtitles`, `.common`, `.subtitles-systemic`, `.web`) across all Naughty Dog games (Uncharted and The Last of Us series) on PS3, PS4, PS5, and PC.
 
 ##### Polyphony Digital
 
@@ -912,7 +912,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [GranTurismoENGNEditor](https://github.com/TheAdmiester/GranTurismoENGNEditor) - Editor for creating and editing ENGN (.es) files, containers of Sony HEVAG engine and exhaust sound loops, for PS1 and PS2 Gran Turismo games.
   - Newer games: [GTESGXEditor](https://github.com/TheAdmiester/GTESGXEditor) extracts, edits and builds the .esgx vehicle sound files of Gran Turismo 5/6 (the format PSP, 5 and 6 use), and [GTESDExtractor](https://github.com/TheAdmiester/GTESDExtractor) extracts audio banks (.sxd) and RPM data from Gran Turismo Sport's GTESD files.
 - [GT4SaveEditor](https://github.com/Nenkai/GT4SaveEditor) - Save editor for Gran Turismo 4.
-- [AdhocScriptEngine](https://github.com/Nenkai/AdhocScriptEngine) - Reverse engineering the adhoc script/assembly language & system of the Gran Turismo series.
 - [esprima-dotnet](https://github.com/Nenkai/esprima-dotnet) - Fork of Esprima .NET to target the scripting language for Gran Turismo series, Adhoc.
 - [GT-File-Specifications-Documentation](https://github.com/Nenkai/GT-File-Specifications-Documentation) - File specifications and documentation for various Gran Turismo file types.
 - [gtseq2midi](https://github.com/xan1242/gtseq2midi) - Converts Gran Turismo sequence files to MIDI.
@@ -920,7 +919,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [GT2SaveEditor](https://github.com/zyzalfors/GT2SaveEditor) - Save file editor for Gran Turismo 2.
 - [GT3SaveEditor](https://github.com/zyzalfors/GT3SaveEditor) - Save file editor for Gran Turismo 3.
 - [GT5SaveEditor](https://github.com/zyzalfors/GT5SaveEditor) - Save file editor for Gran Turismo 5.
-- [gt7tool](https://github.com/flatz/gt7tool) - Decrypts and unpacks files from Gran Turismo 7 archives.
+- [gt7tool](https://github.com/flatz/gt7tool) (archived) - Decrypts and unpacks files from Gran Turismo 7 archives.
 - [gttool](https://github.com/flatz/gttool) - Earlier unpacking/decryption tool for Gran Turismo volume archives, predating gt7tool.
 - [Blender-GT-Tonemapper](https://github.com/festivities/Blender-GT-Tonemapper) - Blender implementation of the Gran Turismo series' in-game tone mapping, for previewing datamined assets under the game's actual color grading.
 
@@ -935,7 +934,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [sly1 (decomp)](https://github.com/TheOnlyZac/sly1) - Matching decompilation of Sly Cooper and the Thievius Raccoonus (PS2).
 - [SlyTools](https://github.com/VelocityRa/SlyTools) - Sly Cooper (PS2/PS3 games) modding tools & research
-- [Sly2ModelRE](https://github.com/froggestspirit/Sly2ModelRE) - Researching the model format in Sly 2: Band of Thieves.
+- [Sly2ModelRE](https://github.com/froggestspirit/Sly2ModelRE) (archived) - Researching the model format in Sly 2: Band of Thieves.
 - [sly_dec.py](https://github.com/yukinogatari/Reverse-Engineering/blob/573fc1c20796fb40a982f11dfda4039eb480a34e/Sly%20Cooper/sly_dec.py) - Python script for decrypting Sly Cooper files.
 - [fmt_GoT_SPS-Noesis-Plugin](https://github.com/SilverEzredes/fmt_GoT_SPS-Noesis-Plugin) - Noesis plugin for Ghost of Tsushima assets.
 - [PS23DFormat (Sly 2)](https://web.archive.org/web/20160205080914/http://ps23dformat.wikispaces.com/Sly+2+Band+of+Thieves) - Archived documentation for Sly 2 3D format.
@@ -1066,7 +1065,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [kamaitachi-sfc-english](https://github.com/ButThouMust/kamaitachi-sfc-english) - Fan translation project for Kamaitachi no Yoru (Chunsoft, SNES), working with the game's original script and ROM data formats.
 - [otogirisou-english](https://github.com/ButThouMust/otogirisou-english) - Fan translation patch project for Otogirisou (Chunsoft, Super Famicom, 1992), reverse-engineering the original sound novel's script and font data.
 - [otogirisou-tools](https://github.com/ButThouMust/otogirisou-tools) - Translation tooling (script and font extraction/repacking utilities) supporting the Otogirisou (Super Famicom) fan translation project.
-- [DRV3-Tools](https://github.com/CaptainSwag101/DRV3-Tools) - Toolset for Danganronpa V3's original archive and script formats.
+- [DRV3-Tools](https://github.com/CaptainSwag101/DRV3-Tools) (archived) - Toolset for Danganronpa V3's original archive and script formats.
 
 ##### Fushigi no Dungeon: Fuurai no Shiren Gaiden
 
@@ -1116,13 +1115,13 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [FFXIV Explorer](https://github.com/goaaats/ffxiv-explorer-fork) - Modern fork of FFXIV-Explorer with updated support for recent game patches.
 - [sharlayan](https://github.com/FFXIVAPP/sharlayan) - Memory reading and scanning library for Final Fantasy XIV.
 - [machina](https://github.com/ravahn/machina) - Network capture library for realtime TCP/IP decoding and FFXIV data capture.
-- [aetherometer](https://github.com/ff14wed/aetherometer) - Framework for processing network-level information from Final Fantasy XIV via a GraphQL API.
+- [aetherometer](https://github.com/ff14wed/aetherometer) (archived) - Framework for processing network-level information from Final Fantasy XIV via a GraphQL API.
 - [xiv-datamining](https://github.com/xivapi/ffxiv-datamining) - Repository for sharing Final Fantasy XIV datamining information, including CSV exports and documentation on various systems.
   - See also [ffxiv-datamining-ko](https://github.com/Ra-Workspace/ffxiv-datamining-ko) for Korean version specific data.
 - [FFNx](https://github.com/julianxhokaxhiu/FFNx) - Next-generation modding platform and graphics enhancement framework for Final Fantasy VII (Steam, 2026 Rerelease, GOG, Windows Store) and Final Fantasy VIII (Steam), supporting DirectX 11/12, OpenGL, and Vulkan.
-- [ffvii (decomp)](https://github.com/Drahsid/ffvii) - In-progress matching decompilation of Final Fantasy VII (PSX).
+- [ffvii (decomp)](https://github.com/Drahsid/ffvii) (archived) - In-progress matching decompilation of Final Fantasy VII (PSX).
 - [FF16FontMaker](https://github.com/eprilx/FF16FontMaker) - GUI tool for modding fonts in Final Fantasy XVI / 16 Engine games, built on FF16Tools.
-- [FFPRSaveEditor](https://github.com/Anub1sR0cks/FFPRSaveEditor) - Save game editor for the Final Fantasy Pixel Remaster series (FF I-VI).
+- [FFPRSaveEditor](https://github.com/Anub1sR0cks/FFPRSaveEditor) (archived) - Save game editor for the Final Fantasy Pixel Remaster series (FF I-VI).
 - [FFPixelRemaster](https://github.com/turtle-insect/FFPixelRemaster) - Save data editor for Final Fantasy Pixel Remaster (Switch).
 - [FF1](https://github.com/turtle-insect/FF1) - Save data editor for Final Fantasy (3DS).
 - [FF12](https://github.com/turtle-insect/FF12) - Save data editor for Final Fantasy XII (Switch).
@@ -1206,7 +1205,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [DoCTextTool](https://github.com/Surihix/DoCTextTool) - Extracts and re-converts text files for Dirge of Cerberus: Final Fantasy VII.
 - [DoCCryptTool](https://github.com/Surihix/DoCCryptTool) - Decrypts and encrypts the text bin, class (script), kelstr.bin and .at3 bgm files from Dirge of Cerberus: Final Fantasy VII.
 - [DoCMovieTool](https://github.com/Surihix/DoCMovieTool) - Unpacks and repacks the movie archive files of Dirge of Cerberus: Final Fantasy VII (can only replace existing files within an archive).
-- [DoCPathsGenerator](https://github.com/Surihix/DoCPathsGenerator) - Companion tool that generates paths for Dirge of Cerberus: Final Fantasy VII files that have no path defined in the game's filelist.
+- [DoCPathsGenerator](https://github.com/Surihix/DoCPathsGenerator) (archived) - Companion tool that generates paths for Dirge of Cerberus: Final Fantasy VII files that have no path defined in the game's filelist.
 - [ff7-decomp (decomp)](https://github.com/xeeynamo/ff7-decomp) - Matching decomp of Final Fantasy VII for PlayStation 1
 - [Gaia](https://github.com/LaZar00/Gaia) - Command-line tool for exporting/importing Final Fantasy VII world map .MAP files to/from .OBJ format.
 - [ff7-worldmap](https://github.com/ergonomy-joe/ff7-worldmap) - Decompiled Final Fantasy VII world map engine.
@@ -1231,9 +1230,9 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Final Fantasy VIII
 
-- [FF8-Rinoa-s-Toolset](https://github.com/MaKiPL/FF8-Rinoa-s-Toolset) - All-in-one modding toolkit for Final Fantasy VIII. Supports ripping/viewing battle stages, world map segments, models, and texture mixing.
+- [FF8-Rinoa-s-Toolset](https://github.com/MaKiPL/FF8-Rinoa-s-Toolset) (archived) - All-in-one modding toolkit for Final Fantasy VIII. Supports ripping/viewing battle stages, world map segments, models, and texture mixing.
 - [Esthar](https://github.com/Albeoris/Esthar) - Resource editor for Final Fantasy VIII.
-- [ff8-garden](https://github.com/Keyaku/ff8-garden) - Final Fantasy VIII editor based on Qhimm's source. Supports decompiling data files, editing game text, and recompiling.
+- [ff8-garden](https://github.com/Keyaku/ff8-garden) (archived) - Final Fantasy VIII editor based on Qhimm's source. Supports decompiling data files, editing game text, and recompiling.
 - [maelstrom](https://github.com/sleepeybunney/maelstrom) - Seed randomizer for Final Fantasy VIII PC (Remastered and 2013 Steam release).
 - [FF8](https://github.com/marfsama/FF8) - Python tools for reading various Final Fantasy VIII file formats including TIM textures, MCH character models, and battle models.
 - [deling](https://github.com/myst6re/deling) - Final Fantasy VIII field/worldmap archive editor.
@@ -1245,16 +1244,16 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [zzzDeArchive](https://github.com/Sebanisu/zzzDeArchive) - Tool to create, extract, and merge `.zzz` archives for Final Fantasy VIII Remastered.
 - [ff8_mch](https://github.com/julianxhokaxhiu/ff8_mch) - Blender plugin for importing/exporting Final Fantasy VIII field MCH character models.
 - [Moomba](https://github.com/julianxhokaxhiu/Moomba) - Final Fantasy VIII CAM editor.
-- [PuPuSharp](https://github.com/julianxhokaxhiu/PuPuSharp) - C# port of the original PuPu Project, a Final Fantasy VIII field importer/exporter. *(Deprecated, superseded by Field-Map-Editor)*
+- [PuPuSharp](https://github.com/julianxhokaxhiu/PuPuSharp) (archived) - C# port of the original PuPu Project, a Final Fantasy VIII field importer/exporter. *(Deprecated, superseded by Field-Map-Editor)*
 - [FF8SND](https://github.com/julianxhokaxhiu/FF8SND) - Final Fantasy VIII audio extraction app, originally made by Qhimm.com.
 - [ff8-decomp](https://github.com/roengstrom/ff8-decomp) - Decompilation of Final Fantasy VIII.
 - [FF8ModdingWiki](https://hobbitdur.github.io/FF8ModdingWiki/) - Wiki documenting Final Fantasy VIII file formats and modding techniques. ([source](https://github.com/HobbitDur/FF8ModdingWiki))
 - [FF8UltimateEditor](https://github.com/HobbitDur/FF8UltimateEditor) - All-in-one editor for modding Final Fantasy VIII game data.
-- [ShumiTranslator](https://github.com/HobbitDur/ShumiTranslator) - Universal translator tool for Final Fantasy VIII text files.
-- [FF8GameData](https://github.com/HobbitDur/FF8GameData) - Python library exposing Final Fantasy VIII game data structures, used by several other HobbitDur FF8 tools.
-- [IfritAI](https://github.com/HobbitDur/IfritAI) - Editor for Final Fantasy VIII monster AI data.
+- [ShumiTranslator](https://github.com/HobbitDur/ShumiTranslator) (archived) - Universal translator tool for Final Fantasy VIII text files.
+- [FF8GameData](https://github.com/HobbitDur/FF8GameData) (archived) - Python library exposing Final Fantasy VIII game data structures, used by several other HobbitDur FF8 tools.
+- [IfritAI](https://github.com/HobbitDur/IfritAI) (archived) - Editor for Final Fantasy VIII monster AI data.
 - [pandemona](https://github.com/HobbitDur/pandemona) - Editor for Final Fantasy VIII Guardian Force (GF) capability data.
-- [CC-Group](https://github.com/HobbitDur/CC-Group) - Editor for Final Fantasy VIII's Triple Triad card game data.
+- [CC-Group](https://github.com/HobbitDur/CC-Group) (archived) - Editor for Final Fantasy VIII's Triple Triad card game data.
 - [charone_extractor](https://github.com/klavierworks/charone_extractor) - Blender plugin for importing the chara.one model format (meshes and animations) used in Final Fantasy VIII.
 - [ff8-sound-remixed](https://github.com/myst6re/ff8-sound-remixed) - Reader for Final Fantasy VIII audio.dat and audio.fmt sound archive files.
 - [JumboCactuar](https://github.com/Nihil-1/JumboCactuar) - Easy-to-use editor for Final Fantasy VIII .out data files.
@@ -1281,7 +1280,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Xenogears
 
-- [xenogears-decomp (decomp)](https://github.com/ladysilverberg/xenogears-decomp) - Matching decompilation of Xenogears.
+- [xenogears-decomp (decomp)](https://github.com/ladysilverberg/xenogears-decomp) (archived) - Matching decompilation of Xenogears.
 - [Noah (decomp)](https://github.com/yaz0r/Noah) - Non-matching decompilation of Xenogears.
 - [xenogears-recomp](https://github.com/OpokXeno/xenogears-recomp) - Static recompilation of Xenogears (PS1) into a native executable.
 
@@ -1309,7 +1308,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Sleeping Dogs
 
-- [TheoryEngine](https://github.com/SDmodding/TheoryEngine) - WIP reverse-engineered reimplementation of the Sleeping Dogs: Definitive Edition engine using shipped debug symbols (PDB); header-focused for embedding in tools and mods.
+- [TheoryEngine](https://github.com/SDmodding/TheoryEngine) (archived) - WIP reverse-engineered reimplementation of the Sleeping Dogs: Definitive Edition engine using shipped debug symbols (PDB); header-focused for embedding in tools and mods.
 - [Gibbed.SleepingDogs](https://github.com/gibbed/Gibbed.SleepingDogs) - Archive unpacking and packing tools for Sleeping Dogs game files.
 - [MXS_Sleeping_Dogs_Definitive_Edition_PC](https://github.com/coreynguyen/MXS_Sleeping_Dogs_Definitive_Edition_PC) - MaxScript for importing and exporting 3D character models from Sleeping Dogs: Definitive Edition (PC), building on format research from the SDmodding project.
 - [CPP_Sleeping_Dogs_Definitive_Edition_PC](https://github.com/coreynguyen/CPP_Sleeping_Dogs_Definitive_Edition_PC) - Archive manager for Sleeping Dogs: Definitive Edition's `.big`/`.bix` data buffer and index files, supporting file export/import with CRC32-based file identification.
@@ -1331,11 +1330,11 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Hitman
 
-- [re47 (decomp)](https://github.com/0danny/re47) - Matching decompilation of Hitman: Codename 47 (2000).
+- [re47 (decomp)](https://github.com/0danny/re47) (archived) - Matching decompilation of Hitman: Codename 47 (2000).
 - [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Use this tool to install HiTMAN mods or extract the *.rpkg archives in which HiTMAN files are stored.
 - [ZHM5PatchBuilder](https://github.com/pawREP/ZHM5PatchBuilder) - Patch builder for Hitman 2 (2018) Rpkg archives.
 - [HMC47](https://github.com/americusmaximus/HMC47) - Open source implementation of Hitman: Codename 47, parsing and rendering original game data, resource files, models, and textures.
-- [hitman-file-formats](https://github.com/AlexKimov/hitman-file-formats) - Documentation and research on IO Interactive (Hitman) game file formats.
+- [hitman-file-formats](https://github.com/AlexKimov/hitman-file-formats) (archived) - Documentation and research on IO Interactive (Hitman) game file formats.
 - [Hitman2Loc](https://github.com/x1nixmzeng/Hitman2Loc) - Command-line C# tool converting Hitman 2: Silent Assassin locale (.loc) files to and from XML language exports.
 - [Glacier Modding Resources](https://github.com/glacier-modding/Modding-Resources) - Community-maintained collection of file format templates, structure definitions, and research tools for IO Interactive's Glacier 2 engine, by the Glacier 2 Modding organization.
   - Formats: 010 Editor templates and C-style structure definitions for RPKG resources across Hitman: Absolution, Hitman (2016), Hitman 2, and Hitman 3/World of Assassination.
@@ -1351,11 +1350,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
 - [AudioMog](https://github.com/Yoraiz0r/AudioMog) - Free all-in-one audio modding tool that allows users to unpack and repack supported game's audio binary files. Created for Kingdom Hearts III modding and works on other games such as Melody of Memory, Final Fantasy XV, and more.
-- [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Opens from Kingdom Hearts 2 00Worldpoint.bin and is able to edit the values there.
-- [KH1_KH2_Sklt_Editor](https://github.com/Kite2810/KH1_KH2_Sklt_Editor) - Editor for Kingdom Hearts 1 (MDLS) and Kingdom Hearts 2 (MDLX) skeleton files.
-- [KHRecom_ANN_Editor](https://github.com/Kite2810/KHRecom_ANN_Editor) - Editor for .ANN files from Kingdom Hearts Re:Chain of Memories, with import/export support.
-- [KH3D-FSM-Editor](https://github.com/Kite2810/KH3D-FSM-Editor) - Experimental editor for Kingdom Hearts 3D [Dream Drop Distance] FSM (Finite State Machine) files.
-- [KH2-Libretto-Editor](https://github.com/Kite2810/KH2-Libretto-Editor) - Editor for Libretto files from Kingdom Hearts 2.
 - [KH2Suite](https://github.com/Truthkey/KH2Suite) - Suite of programs made to assist the user in Kingdom Hearts 2 or 2 Final Mix modding.
 - [KHBBS_EXA_Editor](https://github.com/Truthkey/KHBBS_EXA_Editor) - Editor for EXA events in Kingdom Hearts: Birth by Sleep.
 - [KH1FM_Toolkit](https://github.com/GovanifY/KH1FM_Toolkit) - Tool used for modding the game Kingdom Hearts: 1 Final Mix.
@@ -1371,7 +1365,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [noclip.website (Kingdom Hearts II Final Mix)](https://github.com/magcius/noclip.website/tree/main/src/KingdomHearts2FinalMix) - In-browser Kingdom Hearts II Final Mix viewer.
 - [kh2mdlx](https://github.com/GovanifY/kh2mdlx) - Tool for importing and exporting Kingdom Hearts 2 3D models.
 - [kh2vif](https://github.com/GovanifY/kh2vif) - Model importer for Kingdom Hearts 2 (OBJ to VIF format converter).
-- [KH2-Anm-Generator](https://github.com/Kite2810/KH2-Anm-Generator) - Automated animation cutscene generator for Kingdom Hearts 2 custom character models.
 - [Hypercrown](https://github.com/Some1fromthedark/Hypercrown) - Tool for converting models from Kingdom Hearts 1 into more common model formats. Also converts back to the native format so that edited models can be patched into the game.
 - [KH1FM_Re_Toolkit](https://github.com/Some1fromthedark/KH1FM_Re_Toolkit) - Python scripts that patch a Kingdom Hearts 1 Final Mix (PS2) ISO from JSON configs, inserting, replacing, or modifying files in the ISO; includes an optional cutscene-skipping ELF patch. Compression is not yet supported.
 - [KH1_BD_Parser](https://github.com/Some1fromthedark/KH1_BD_Parser) - Python script for parsing Kingdom Hearts 1 `.bd` files using supplied syscall tables, with an interactive mode.
@@ -1409,7 +1402,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [noclip.website (Final Fantasy X)](https://github.com/magcius/noclip.website/tree/main/src/FinalFantasyX) - In-browser Final Fantasy X viewer.
 - [Final Fantasy X HD translation tools](https://www.moddb.com/games/final-fantasy-x/downloads/final-fantasy-x-hd-translation-tools) - Tools for Final Fantasy X HD (PC) to extract and import game data for translation (texts and graphics).
 - [FFX-Phyre-Tool](https://github.com/NfgOdin/FFX-Phyre-Tool) - GUI and CLI utility for extracting and repacking 3D models and textures from Final Fantasy X/X-2 HD Remaster `.phyre` files, converting to glTF 2.0 for Blender import; auto-detects DXT1/DXT3/DXT5 texture compression.
-- [FFX_Text_Tool](https://github.com/NfgOdin/FFX_Text_Tool) - Editor for Final Fantasy X text/dialogue binary tables (`item_txt.bin`, `arms_txt.bin`, `status_txt.bin`, etc.); decodes the game's proprietary character encoding and control codes, with safe repacking.
+- [Spira_Text_Tool](https://github.com/NfgOdin/Spira_Text_Tool) - Editor for Final Fantasy X text/dialogue binary tables (`item_txt.bin`, `arms_txt.bin`, `status_txt.bin`, etc.); decodes the game's proprietary character encoding and control codes, with safe repacking.
 - [FFX_Shop_Tool](https://github.com/NfgOdin/FFX_Shop_Tool) - Editor for Final Fantasy X shop inventory, rate, and equipment data files (`item_shop.bin`, `arms_shop.bin`, `item_rate.bin`, etc.).
 - [FFX_Sphere_Grid_Tool](https://github.com/NfgOdin/FFX_Sphere_Grid_Tool) - Visual editor for Final Fantasy X's Sphere Grid data, supporting both the HD Remaster and classic PS2 file formats.
 - [FFX_AI_Tool](https://github.com/NfgOdin/FFX_AI_Tool) - Editor for Final Fantasy X monster stats and battle AI scripts (Atel), with disassembly/decompilation and repacking into the original game chunk structure.
@@ -1465,7 +1458,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [file-formats (xivdev)](https://github.com/xivdev/file-formats) - 010 Editor templates, ImHex patterns, and FlatBuffer schemas documenting FFXIV file formats.
 - [Meddle](https://github.com/PassiveModding/Meddle) - Dalamud plugin providing a GUI for exporting full FFXIV character models (multiple meshes at once) for use in external 3D tools; see also its companion [MeddleTools](https://github.com/PassiveModding/MeddleTools) Blender add-on.
 - [Icarus](https://github.com/redstrate/Icarus) - Auto-generated high-level Rust API for FFXIV Excel data, built on EXDSchema and Physis.
-- [Kawari](https://github.com/redstrate/Kawari) - Modern unofficial FFXIV server emulator (patch 7.x+), from the author of Physis and Novus.
+- [Kawari](https://github.com/redstrate/Kawari) (archived) - Modern unofficial FFXIV server emulator (patch 7.x+), from the author of Physis and Novus.
 - [Auracite](https://github.com/redstrate/Auracite) - Dalamud plugin that archives an FFXIV character into a portable, machine-readable JSON format, importable by other tools such as Kawari.
 - [ZiPatchLib](https://github.com/pmgr/ZiPatchLib) - C# library for parsing and applying Final Fantasy XIV: A Realm Reborn `.patch` update files (the ZiPatch format).
 - [Ouroboros](https://github.com/PassiveModding/Ouroboros) - Extraction/rebuilding tool and HLSL decompiler pipeline for Final Fantasy XIV's ShPk shader package format, covering character, hair, and iris shaders.
@@ -1485,12 +1478,12 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 ##### Bravely Default
 
-- [BDFE.ARC.Tool](https://github.com/Ekey/BDFE.ARC.Tool) - Tool for extracting archives from the mobile game Bravely Default: Fairy's Effect.
+- [BDFE.ARC.Tool](https://github.com/Ekey/BDFE.ARC.Tool) (archived) - Tool for extracting archives from the mobile game Bravely Default: Fairy's Effect.
 - [BravelyDefault2](https://github.com/turtle-insect/BravelyDefault2) - Save data editor for Bravely Default 2 (Switch); recommends the same author's GvasViewer.
 
 ##### Romancing SaGa
 
-- [RS.BIN.Tool](https://github.com/Ekey/RS.BIN.Tool) - Tool for extracting and repacking BIN archives from the Romancing SaGa series.
+- [RS.BIN.Tool](https://github.com/Ekey/RS.BIN.Tool) (archived) - Tool for extracting and repacking BIN archives from the Romancing SaGa series.
 - [RS2_snes](https://github.com/turtle-insect/RS2_snes) - Save data editor for Romancing SaGa 2 (SNES).
   - Same author's Switch editors: [RS2_NS](https://github.com/turtle-insect/RS2_NS) (Romancing SaGa 2) and [RS3](https://github.com/turtle-insect/RS3) (Romancing SaGa 3).
 
@@ -1559,7 +1552,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [SCExporter](https://github.com/Kjasi/SCExporter) - Blender tools for exporting Star Citizen models.
 - [StarBreaker](https://github.com/diogotr7/StarBreaker) - Reverse engineering and analyzing Star Citizen's game files (P4k, DataCore, chf, etc.).
-- [DataCapture](https://github.com/starcitizendotguide/DataCapture) - Captures meta-data packets from Star Citizen for statistics.
+- [DataCapture](https://github.com/starcitizendotguide/DataCapture) (archived) - Captures meta-data packets from Star Citizen for statistics.
 
 #### Trese Brothers (Star Traders: Frontiers)
 
@@ -1595,7 +1588,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 #### Starbreeze Studios
 
 - [sbengine](https://github.com/hogsy/sbengine) - Source code for Starbreeze Studios' in-house engine (1996–2012), November 2006 snapshot. Used in The Chronicles of Riddick: Escape from Butcher Bay, The Darkness, and other Starbreeze titles.
-- [DieselBundleViewer](https://github.com/Luffyyy/DieselBundleViewer) - Viewer for the Diesel Engine bundle format shared across PAYDAY: The Heist, PAYDAY 2, and RAID: World War II, with search/sort, grid view, and on-the-fly WEM-to-WAV playback/conversion. No longer maintained.
+- [DieselBundleViewer](https://github.com/Luffyyy/DieselBundleViewer) (archived) - Viewer for the Diesel Engine bundle format shared across PAYDAY: The Heist, PAYDAY 2, and RAID: World War II, with search/sort, grid view, and on-the-fly WEM-to-WAV playback/conversion. No longer maintained.
 - [Diesel-Bundle-Modder](https://github.com/Luffyyy/Diesel-Bundle-Modder) - Modding tool for Diesel Engine bundle files, complementing DieselBundleViewer above.
 - [DieselEngineFormats](https://github.com/Luffyyy/DieselEngineFormats) - Library for reading and writing Diesel Engine file formats. Actively maintained fork of [simon-wh/DieselEngineFormats](https://github.com/simon-wh/DieselEngineFormats).
 - [DieselToolbox](https://github.com/Luffyyy/DieselToolbox) - Diesel Engine asset browser. Actively maintained fork of [simon-wh/DieselToolbox](https://github.com/simon-wh/DieselToolbox).
@@ -1625,6 +1618,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [StardewValley](https://github.com/veywrn/StardewValley) - Decompiled Stardew Valley source, based on the Steam release.
 - [stardew-mp-save-editor](https://github.com/tfitz237/stardew-mp-save-editor) - Standalone save editor that adds and manages more than four players (up to 8) in a vanilla Stardew Valley multiplayer save without mods; its README warns it is likely no longer stable since Stardew Valley 1.5.
+- [xnbcli](https://github.com/LeonBlade/xnbcli) - Node.js command-line tool that unpacks LZX-compressed Stardew Valley `.xnb` content files and packs them back, with groundwork for XACT.
 
 #### 5pb. / Nitroplus (Steins;Gate)
 
@@ -1643,7 +1637,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 #### MIST Games (Stella Maiden: Girls of the Stars)
 
-- [SM.PKG.Tool](https://github.com/Ekey/SM.PKG.Tool) - Tool for extracting PKG archives from the mobile game Stella Maiden: Girls of the Stars (스텔라 메이든).
+- [SM.PKG.Tool](https://github.com/Ekey/SM.PKG.Tool) (archived) - Tool for extracting PKG archives from the mobile game Stella Maiden: Girls of the Stars (스텔라 메이든).
 
 #### Stern Pinball
 
@@ -1717,7 +1711,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 #### Distinctive Software (Stunts)
 
-- [restunts2](https://github.com/dstien/restunts2) - Reverse engineering and modernization effort for Stunts (1990, DOS), using Ghidra analysis and Open Watcom to port the original executable to portable C while preserving behavior; supports building fully-ported or hybrid original/ported executables.
+- [restunts2](https://github.com/dstien/restunts2) (archived) - Reverse engineering and modernization effort for Stunts (1990, DOS), using Ghidra analysis and Open Watcom to port the original executable to portable C while preserving behavior; supports building fully-ported or hybrid original/ported executables.
 
 #### Sudden Attack
 
@@ -1726,7 +1720,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 #### Suikoden
 
 - [Suikoden-5-Editor](https://github.com/TheSparda/Suikoden-5-Editor) - Browser-based save and ISO editor for Suikoden V (PS2). Edits saves from `.ps2`/`.mc2`/`.mcd`/`.bin` memory cards, `.psu`, `.xps`/`.sps` and `.cbs` exports (NTSC-U, PAL, NTSC-J) and edits game data on NTSC-U (`SLUS-21291`) and PAL (`SLES-54087`) disc images, with a field reference in `docs/editing-guide.md`.
-- [Suikoden-4-Save-Editor](https://github.com/TheSparda/Suikoden-4-Save-Editor) - Browser-based save and ISO editor for Suikoden IV (PS2). Edits recruitment, levels, stats, runes, equipment and unite attacks in NTSC-U and PAL saves, re-checksumming and re-ECCing them, and scales the random-encounter rate on the NTSC-U disc.
+- [Suikoden-4-Editor](https://github.com/TheSparda/Suikoden-4-Editor) - Browser-based save and ISO editor for Suikoden IV (PS2). Edits recruitment, levels, stats, runes, equipment and unite attacks in NTSC-U and PAL saves, re-checksumming and re-ECCing them, and scales the random-encounter rate on the NTSC-U disc.
 - [Suikoden-3-Editor](https://github.com/TheSparda/Suikoden-3-Editor) - Browser-based ISO and save editor for Suikoden III (PS2, USA `SLUS-20387`). Rebalances spells, runes, unite attacks, gear, weapons, foods, shops, enemies, war units and characters in the disc image, and edits playthroughs from PS2 memory cards or standalone save exports.
 - [Suikoden-Tactics-Editor](https://github.com/TheSparda/Suikoden-Tactics-Editor) - Browser-based save and ISO editor for Suikoden Tactics (USA `SLUS-21245`, PAL `SLES-53769`). Edits `.sps`/`.xps`/`.cbs`/`.max`/`.psu` exports and raw `.ps2` memory cards, and edits character growth, weapons, runes, items, shop and enemy tables on the disc in place, exporting a `.stmod` recipe or an `.xdelta` patch.
 
@@ -1761,7 +1755,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [gltf-Supercell-IO](https://github.com/Daniil-SV/gltf-Supercell-IO) - glTF Blender IO plugin for import/export Supercell Odin (.glb) files. Supports Blender 5.0+ and Android/iOS games.
 - [SupercellFlash](https://github.com/sc-workshop/SupercellFlash) - C++ library for loading and processing Supercell 2D (.sc) assets.
 - [SupercellTexture](https://github.com/sc-workshop/SupercellTexture) - C++ library for reading, writing, and compressing Supercell games' packed texture formats.
-- [X-coder](https://github.com/lilmuff2/X-coder) - Tool to decode and encode SC files from Supercell games. Decodes SC to PNG and encodes PNG to SC. Supports Clash Royale, Brawl Stars, and other Supercell games. Supports Zstandard and LZMA compression, ZKTX format, and batch processing.
+- [X-coder](https://github.com/lilmuff2/X-coder) (archived) - Tool to decode and encode SC files from Supercell games. Decodes SC to PNG and encodes PNG to SC. Supports Clash Royale, Brawl Stars, and other Supercell games. Supports Zstandard and LZMA compression, ZKTX format, and batch processing.
 - [scw-tool](https://github.com/danila-schelkov/scw-tool) - CLI tool for converting Supercell 3D model formats (*.scw) to COLLADA and other formats.
 - [SC Editor](https://github.com/danila-schelkov/sc-editor) - Viewer and editor for Supercell SC proprietary graphics file format.
 - [SC Tools](https://github.com/jeanbmar/sc-tools) - Unpacker, editor, and player for 2D animations and objects in Supercell games' SC file format.

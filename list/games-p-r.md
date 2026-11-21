@@ -1,7 +1,7 @@
 ### P
 #### 画皮世界 (Painted Skin World)
 
-- [HP.EPK.Tool](https://github.com/Ekey/HP.EPK.Tool) - Tool for extracting EPK archives from the mobile game 画皮世界 (Painted Skin World).
+- [HP.EPK.Tool](https://github.com/Ekey/HP.EPK.Tool) (archived) - Tool for extracting EPK archives from the mobile game 画皮世界 (Painted Skin World).
 
 #### Pocket Pair (Palworld)
 
@@ -149,7 +149,7 @@
 
 #### Pivotal Games
 
-- [CE.DAT.Tool](https://github.com/Ekey/CE.DAT.Tool) - Tool for extracting DAT archives from Pivotal Games titles.
+- [CE.DAT.Tool](https://github.com/Ekey/CE.DAT.Tool) (archived) - Tool for extracting DAT archives from Pivotal Games titles.
   - Games: Conflict: Desert Storm, Conflict: Desert Storm II, Conflict: Vietnam, Conflict: Global Terror, Conflict: Denied Ops, The Great Escape.
 
 #### PlatinumGames
@@ -168,11 +168,11 @@
 
 ##### Nier: Automata / Replicant
 
-- [kaine](https://github.com/neptuwunium/kaine) - C# library for working with Nier Replicant 1.22 file formats.
+- [kaine](https://github.com/neptuwunium/kaine) (archived) - C# library for working with Nier Replicant 1.22 file formats.
 - [replicant_templates](https://github.com/WoefulWolf/replicant_templates) - 010 Editor binary templates for NieR Replicant ver.1.22474487139 file formats including ARC archives, PACK containers, BXON files, and various model/material/texture formats.
 - [replicant_toolkit](https://github.com/WoefulWolf/replicant_toolkit) - Toolkit for working with NieR Replicant file formats.
 - [Blender2NieR](https://github.com/WoefulWolf/NieR2Blender2NieR) - Blender addon for exporting WMB/WTP/WTA/DAT/DTT formats to NieR games.
-- [NieR2Blender](https://github.com/WoefulWolf/NieR2Blender_2_8) - Blender addon for importing NieR Automata and Replicant models.
+- [NieR2Blender](https://github.com/WoefulWolf/NieR2Blender_2_8) (archived) - Blender addon for importing NieR Automata and Replicant models.
 - [Replicant2Blender](https://github.com/WoefulWolf/Replicant2Blender) - Blender addon for importing NieR Replicant ver.1.22 mesh packs and textures into Blender (alpha).
 - [Automata_MCD_Patcher](https://github.com/WoefulWolf/Automata_MCD_Patcher) - Python script that unpacks NieR: Automata .mcd (text/font) files to JSON and repacks edited JSON back into an MCD, using a base MCD for fonts and glyphs.
 - [Nier-Automata-editor](https://github.com/CensoredUsername/Nier-Automata-editor) - Save file editor for NieR: Automata.
@@ -209,7 +209,7 @@
 - [Ed1th's PvZ Toolkit](https://github.com/LambdaEd1th/ed1ths-pvz-toolkit) - Cross-platform Rust/Dioxus app for inspecting, editing, converting, and archiving Plants vs. Zombies resources.
   - Formats: RTON, PAM (PopAnim) animations, Compiled Text, WEM (Wwise audio), BNK (Wwise SoundBank), NEWTON manifests, PAK archives, RSB/RSG bundles, RSBPatch, DZip archives, SMF containers, CryptData, particle/trail effects, REANIM.
   - Backed by standalone Rust libraries published separately: [serde-rton](https://github.com/LambdaEd1th/serde-rton), [pam-codec](https://github.com/LambdaEd1th/pam-codec), [wem-audio](https://github.com/LambdaEd1th/wem-audio), [bnk-archive](https://github.com/LambdaEd1th/bnk-archive), [rsb-archive](https://github.com/LambdaEd1th/rsb-archive), [rsb-patch](https://github.com/LambdaEd1th/rsb-patch), [pak-archive](https://github.com/LambdaEd1th/pak-archive), [dzip-archive](https://github.com/LambdaEd1th/dzip-archive), [newton-manifest](https://github.com/LambdaEd1th/newton-manifest), [smf-container](https://github.com/LambdaEd1th/smf-container), [compiled-text](https://github.com/LambdaEd1th/compiled-text), [crypt-data](https://github.com/LambdaEd1th/crypt-data), [particle-codec](https://github.com/LambdaEd1th/particle-codec), [reanim-codec](https://github.com/LambdaEd1th/reanim-codec).
-  - Standalone GUI/CLI tools by the same author: [RTON Editor](https://github.com/LambdaEd1th/rton-editor), [PAM Viewer](https://github.com/LambdaEd1th/pam-viewer), [dzip-tools](https://github.com/LambdaEd1th/dzip-tools).
+  - Standalone GUI/CLI tools by the same author: [RTON Editor](https://github.com/LambdaEd1th/rton-editor) (archived), [PAM Viewer](https://github.com/LambdaEd1th/pam-viewer), [dzip-tools](https://github.com/LambdaEd1th/dzip-tools).
 - [TwinStar ToolKit](https://github.com/LambdaEd1th/TwinKleS.ToolKit) - Cross-platform CLI/GUI toolkit (`twins`) for modding PopCap Plants vs. Zombies 1 & 2 resources, with Windows/macOS/Android/iPhone right-click and share-sheet forwarders.
 - [CircleShootApp](https://github.com/alula/CircleShootApp) - Decompilation of Zuma Deluxe (1.0.0).
 - [XPR2](https://github.com/simontime/XPR2) - Extracts and repacks Xbox 360 XPR2 archives, as used in Zuma and a few other games.
@@ -300,7 +300,7 @@
 
 #### Evil Dog Games (Punk-O-Matic 2)
 
-- [punkomatic-js](https://github.com/iliazeus/punkomatic-js) - Punk-O-Matic 2 song data parser and player, running in-browser or Node.js; converts the game's proprietary song format to playable/exportable audio.
+- [punkomatic-js](https://github.com/iliazeus/punkomatic-js) (archived) - Punk-O-Matic 2 song data parser and player, running in-browser or Node.js; converts the game's proprietary song format to playable/exportable audio.
 
 #### Purple Software
 
@@ -316,7 +316,7 @@
 
 #### Quantic Dream
 
-- [QD.BIG.Tool](https://github.com/Ekey/QD.BIG.Tool) - Extractor for BigFile archives from Quantic Dream games.
+- [QD.BIG.Tool](https://github.com/Ekey/QD.BIG.Tool) (archived) - Extractor for BigFile archives from Quantic Dream games.
   - Games: Beyond: Two Souls, Heavy Rain, Detroit: Become Human.
 - [OMK](https://github.com/sosso33/omikron-tns-omk-engine) - From-scratch, dependency-free C++20 reimplementation of the engine behind Omikron: The Nomad Soul (1999), built from original research into the game's data formats.
 
@@ -369,7 +369,7 @@
   - Formats: RSW (world), GND (ground/terrain), RSM (models), GAT (altitude/collision), SPR/ACT (sprites and sprite animation), STR (effects), Granny (`.gr2` models and animation).
   - Features: Water, weather and particle effects, dynamic lights, shadows, warp portals, name tags, pathfinding, era selection, and BGM playback.
 - [GrfUnpack](https://github.com/exectails/GrfUnpack) - PAK and GRF archive unpacker for Ragnarok Online (Arcturus/RO).
-- [midgarts](https://github.com/drgomesp/midgarts) - Multi-platform Ragnarok Online MMORPG client reimplementation using an ECS architecture, reading original sprites and configuration from `.grf` client files.
+- [midgarts](https://github.com/drgomesp/midgarts) (archived) - Multi-platform Ragnarok Online MMORPG client reimplementation using an ECS architecture, reading original sprites and configuration from `.grf` client files.
 - [RagnarokRebuildTcp](https://github.com/Doddler/RagnarokRebuildTcp) - Unity-based Ragnarok Online-like server/client that imports maps, sprites, and music extracted from an original `data.grf` client. Active successor to the archived Doddler/RagnarokRebuild.
 - [korangar](https://github.com/vE5li/korangar) - Next-gen Ragnarok Online client written in Rust, reading original client GRF data; adds real-time lighting, a customizable UI, and removes the fixed-aspect-ratio limitation of the official client.
 - [unityro](https://github.com/guilhermelhr/unityro) - Unity-based Ragnarok Online client with runtime-threaded loading of original client `.grf` files, connecting to rAthena/Hercules-based servers.
@@ -483,7 +483,7 @@
 
 ##### Conker's Bad Fur Day
 
-- [conker (decomp)](https://github.com/mkst/conker) - Matching decompilation of Conker's Bad Fur Day (N64).
+- [conker (decomp)](https://github.com/mkst/conker) (archived) - Matching decompilation of Conker's Bad Fur Day (N64).
 - [clr_unpack](https://github.com/birdytsc/clr_unpack) - Tool for unpacking the .RBM CAFF files of Conker: Live & Reloaded (retail and demo builds), with file listing and individual file dumping.
 
 ##### Dinosaur Planet
@@ -555,7 +555,7 @@
 - [Blender-Jedi-Academy-Tools](https://github.com/mrwonko/Blender-Jedi-Academy-Tools) - Blender importer and exporter for Raven Software's Ghoul2 model/animation format (.gla/.glm).
 ##### Marvel: Ultimate Alliance
 
-- [MUA.BIN.Tool](https://github.com/Ekey/MUA.BIN.Tool) - Tool for extracting BIN archives from Marvel: Ultimate Alliance 1/2 (2016 Zoe Mode re-release; originals developed by Raven Software).
+- [MUA.BIN.Tool](https://github.com/Ekey/MUA.BIN.Tool) (archived) - Tool for extracting BIN archives from Marvel: Ultimate Alliance 1/2 (2016 Zoe Mode re-release; originals developed by Raven Software).
 
 #### DreamForge Intertainment (Ravenloft)
 
@@ -565,7 +565,7 @@
 
 #### Experience Inc. (Ray Gigant)
 
-- [RG.BIN.Tool](https://github.com/Ekey/RG.BIN.Tool) - Tool for extracting BIN archives from Ray Gigant.
+- [RG.BIN.Tool](https://github.com/Ekey/RG.BIN.Tool) (archived) - Tool for extracting BIN archives from Ray Gigant.
 - [bra_tool](https://github.com/Chenx221/bra_tool) - Unpacker for Spirit Hunter: NG's `.bra` resource archives.
 
 #### Rebel Act
@@ -630,7 +630,7 @@
 - [Zartex2](https://github.com/BuilderDemo7/Zartex2) - Modified version of the Zartex mission editor, allowing more precise Lua-based editing of Driv3r and Driver: Parallel Lines missions.
 - [REDRIVER2](https://github.com/OpenDriver2/REDRIVER2) - Driver 2 Playstation game reverse engineering effort.
 - [OpenDriver2Tools](https://github.com/OpenDriver2/OpenDriver2Tools) - Driver 1 and Driver 2 (PS1) tools, sibling project to REDRIVER2 above.
-- [OpenDriverEngine](https://github.com/OpenDriver2/OpenDriverEngine) - Research project aiming to run Driver 1 and Driver 2 (PS1) on the same reverse-engineered codebase.
+- [OpenDriverEngine](https://github.com/OpenDriver2/OpenDriverEngine) (archived) - Research project aiming to run Driver 1 and Driver 2 (PS1) on the same reverse-engineered codebase.
 - [Driver model tools](https://www.moddb.com/games/driver-you-are-the-wheelman/downloads/driver-model-tools) - Package contains the model extractor/replacement tool, import and export plugins for Milkshape 3D
 - [driver-sfx-extractor](https://github.com/TecFox/driver-sfx-extractor) - Tool for extracting SFX and audio from Driver 1 and Driver 2 (PSX) BLK audio files.
   - Companion: [driver-music-extractor](https://github.com/TecFox/driver-music-extractor), which extracts and converts the music modules from the headerless MUSIC.BIN archive of Driver 1 and Driver 2 (PSX).
@@ -714,7 +714,7 @@
 - [LeagueToolkit](https://github.com/LeagueToolkit/LeagueToolkit) - Foundational C# library for parsing and editing League of Legends assets (WAD archives, SKN/SKL meshes, ANM animations, MAPGEO maps, property .bin files, textures). Many community tools build on it.
 - [CDTB](https://github.com/CommunityDragon/CDTB) - CommunityDragon Toolbox: Python library to extract files from the client, parse manifests (rman), and resolve WAD hashes. See also [cdragon-rs](https://github.com/CommunityDragon/cdragon-rs) with the Rust reimplementation.
 - [ritobin](https://github.com/moonshadow565/ritobin) - Converter for Riot property `.bin` files between binary and human-readable text. See also [ritobin-lsp](https://github.com/alanpq/ritobin-lsp) providing a language server for editing them.
-- [yordle](https://github.com/neptuwunium/yordle) - League of Legends research project for file formats.
+- [yordle](https://github.com/neptuwunium/yordle) (archived) - League of Legends research project for file formats.
 - [poropack](https://github.com/alanpq/poropack) - Monorepo of League of Legends-specific compression/encoding schemes, including brex (encodes/decodes the repetitive file-name strings used in LoL archives).
 - [CommunityDragon/Docs](https://github.com/CommunityDragon/Docs) - Documentation of League of Legends client file formats (bin files, WAD hash schemes) and CommunityDragon's data services, complementing CDTB/LeagueToolkit with written format specs.
 - [CommunityDragon/Data](https://github.com/CommunityDragon/Data) - Hash tables (WAD paths, bin entries/fields) for reversing hashed strings inside League of Legends game/client archives.
@@ -772,7 +772,7 @@
 
 ##### Legends of Runeterra
 
-- [lor-vo-extractor](https://github.com/AMNatty/lor-vo-extractor) - GUI utility to extract voiceover audio files from Legends of Runeterra, reading the game's Unity assets via AssetStudio.
+- [lor-vo-extractor](https://github.com/AMNatty/lor-vo-extractor) (archived) - GUI utility to extract voiceover audio files from Legends of Runeterra, reading the game's Unity assets via AssetStudio.
 
 #### Ritual Entertainment
 
@@ -805,8 +805,8 @@
 - [Roblox-File-Format](https://github.com/MaximumADHD/Roblox-File-Format) - C# library for creating and manipulating files in Roblox's serialized DOM format (RBXL/RBXM, binary and XML).
 - [rbx-dom](https://github.com/rojo-rbx/rbx-dom) - Roblox DOM and (de)serialization implementation in Rust, covering the binary and XML RBXL/RBXM formats plus the reflection database describing Instance properties.
 - [Roblox-Client-Tracker](https://github.com/MaximumADHD/Roblox-Client-Tracker) - Automated repository tracking each Roblox client release, publishing API dumps, reflection metadata, and version hashes used to keep Roblox format-parsing tools in sync with client changes.
-- [Source2Roblox](https://github.com/MaximumADHD/Source2Roblox) - Toolset that automatically ports Source engine levels (VMF/BSP/MDL) into Roblox assets and models.
-- [Rbx2Source](https://github.com/MaximumADHD/Rbx2Source) - Utility that assembles Roblox assets into geometry data compiled into the Source engine's MDL format, the inverse of Source2Roblox.
+- [Source2Roblox](https://github.com/MaximumADHD/Source2Roblox) (archived) - Toolset that automatically ports Source engine levels (VMF/BSP/MDL) into Roblox assets and models.
+- [Rbx2Source](https://github.com/MaximumADHD/Rbx2Source) (archived) - Utility that assembles Roblox assets into geometry data compiled into the Source engine's MDL format, the inverse of Source2Roblox.
 - [rbx_mesh](https://github.com/krakow10/rbx_mesh) - Rust library of deserializers for Roblox's `.mesh` geometry format (versions 1-5), plus the separate MeshData (Union Graphics CSG) and PhysicsData (Union Physics convex hull) binary formats stored on UnionOperation instances. Decodes into structures reflecting each version's on-disk layout rather than a unified representation.
 
 #### RobTop Games
@@ -853,7 +853,7 @@
 - [gd3ds](https://github.com/AleFunky/gd3ds) - Demake of Geometry Dash for the Nintendo 3DS, supporting custom level importing (via SD card) using GD's level data format.
 - [GDWeb](https://github.com/FigmentBoy/GDWeb) - Web-based Geometry Dash level viewer using Emscripten and WebGL.
 - [SPWN](https://github.com/Spu7Nix/SPWN-language) - Programming language that compiles to Geometry Dash triggers, generating the game's native level object/trigger format.
-- [GD-Editor-Leak](https://github.com/KiFilterFiberContext/GD-Editor-Leak) - Reverse-engineered structures and editor code needed to reimplement the level editor from the 2019 Geometry Dash 2.2 leak.
+- [GD-Editor-Leak](https://github.com/KiFilterFiberContext/GD-Editor-Leak) (archived) - Reverse-engineered structures and editor code needed to reimplement the level editor from the 2019 Geometry Dash 2.2 leak.
 - [GDLiveEditor](https://github.com/adafcaefc/GDLiveEditor) - Loads a Geometry Dash level string directly into the live in-game editor for real-time preview.
 - [GDRenderW](https://github.com/iliasHDZ/GDRenderW) - Rendering engine for Geometry Dash online levels, parsing the game's level object/trigger format to render levels outside the game.
 - [Geometry-Dash-Structure-Search](https://github.com/Wyliemaster/Geometry-Dash-Structure-Search) - Searches Geometry Dash level files for a given object structure.
@@ -889,13 +889,13 @@
 
 #### Climax Studios (Rocket Knight)
 
-- [RK.ARC.Tool](https://github.com/Ekey/RK.ARC.Tool) - Tool for extracting ARC archives from Rocket Knight (2010).
+- [RK.ARC.Tool](https://github.com/Ekey/RK.ARC.Tool) (archived) - Tool for extracting ARC archives from Rocket Knight (2010).
 ##### Sudeki
 
 - [Sudeki_Extractor](https://github.com/Helco/Sudeki_Extractor) - Experimental extractor and 010 Editor templates for Sudeki's BAF archive format, resolving filenames via the game's checksum scheme, plus SOL data file parsing.
 ##### SpongeBob SquarePants: SuperSponge
 
-- [SBSPSS](https://github.com/hellfire3d/SBSPSS) - Recovered source code repository (converted from VSS history) for SpongeBob SquarePants: SuperSponge (PS1, 2001), developed by Climax Studios.
+- [SBSPSS](https://github.com/hellfire3d/SBSPSS) (archived) - Recovered source code repository (converted from VSS history) for SpongeBob SquarePants: SuperSponge (PS1, 2001), developed by Climax Studios.
 
 #### Psyonix (Rocket League)
 
@@ -943,7 +943,6 @@
 - [Allens-MH2-Scripts](https://github.com/spicybung/Allens-MH2-Scripts) - 3ds Max import/export scripts for Manhunt 2 and Manhunt: MDL (PC) and DFF (PSP/PS2/Wii) models, IFP and BIN animations, and COL collision, with a helper that extracts Manhunt TXD/TEX textures.
 - [WDR-Analyzer](https://github.com/spicybung/WDR-Analyzer) - Java analyzer for GTA IV WDR (drawable model) files, based on decompiled source of an older tool by Shadow-Link; reads the RAGE resource header and LZX/Deflate-compressed data, then parses geometry, shader, and skeleton data.
 - [mtasa-blue](https://github.com/multitheftauto/mtasa-blue) - Multi Theft Auto: San Andreas, a large-scale multiplayer modification platform for GTA: San Andreas, reading and extending the original game's IMG/DFF/TXD/COL/IPL/IDE formats.
-- [wazz-android-editor-gxt](https://github.com/shawawah12-alt/wazz-android-editor-gxt) - Editor for GXT text format files used in the Android ports of the GTA series.
 - [GTAModTools](https://github.com/ParadoxEpoch/GTAModTools) - Collection of tools for building mods and extracting game data from GTA Trilogy: Definitive Edition.
 - [gta3sc](https://github.com/thelink2012/gta3sc) - Native compiler/decompiler for GTA3script, the language used for the mission scripts of the 3D Universe GTA games, also usable as a framework for working with SCM data.
 - [gta-map-converters](https://github.com/bssth/gta-map-converters) - Converts SAMP, MTA, and GTA:SA IPL and CSV map formats between each other.
@@ -964,7 +963,7 @@
 
 #### Yeti (Root Double: Before Crime * After Days)
 
-- [yetireg_tools](https://github.com/mchubby/yetireg_tools) - Scripts to decompress `sn.bin` script archives and extract `.opcodescript` text resources from the PSP and Xbox 360 versions of Root Double: Before Crime * After Days, co-developed by Yeti and Regista.
+- [yetireg_tools](https://github.com/mchubby/yetireg_tools) (archived) - Scripts to decompress `sn.bin` script archives and extract `.opcodescript` text resources from the PSP and Xbox 360 versions of Root Double: Before Crime * After Days, co-developed by Yeti and Regista.
 
 #### Rovio Entertainment
 

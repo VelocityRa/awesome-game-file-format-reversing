@@ -97,7 +97,7 @@
   - See also [ptexconv](https://github.com/Garhoogin/ptexconv) for a command-line-only version of its texture and background converter.
 - [nds_texcompress](https://github.com/kusma/nds_texcompress) - Texture compression tool for Nintendo DS texture formats.
 - [Nintendo_DS_Compressors](https://github.com/PeterLemon/Nintendo_DS_Compressors) - Collection of compressors for formats used on Nintendo GBA/DS.
-- [BMP2BNR](https://github.com/Cuyler36/BMP2BNR) - Converts BMP images to GameCube banner format (BNR).
+- [BMP2BNR](https://github.com/Cuyler36/BMP2BNR) (archived) - Converts BMP images to GameCube banner format (BNR).
 - [gimp-rom-bin](https://github.com/bbbbbr/gimp-rom-bin) - GIMP plug-in to read/write/convert ROM image, tile, and sprite files.
   - Platforms: SNES, NES, Game Boy/GBC, GBA, Neo Geo Pocket, Mega Drive/Genesis, and more.
 - [gimp-tilemap-gb](https://github.com/bbbbbr/gimp-tilemap-gb) - Console app and GIMP plug-in for importing/exporting Game Boy game tilemaps and tilesets as bitmap images or .GBM/.GBR files. Related to GBTD, GBMB, GBDK, and ZGB.
@@ -234,7 +234,7 @@
 - [uwpdumper-rs](https://github.com/coconutbird/uwpdumper-rs) - Rust reimplementation of UWPDumper for extracting files from sandboxed UWP applications (including Xbox Game Pass games) via DLL injection into the running process.
 - [AssetRipper CLI](https://github.com/MeikoMei16/AssetRipper-CLI) - Command-line front-end built on AssetRipper for batch-exporting CG, character portraits, backgrounds, and audio from Unity visual-novel/gacha games via reusable extraction profiles.
 - [StreamZip](https://github.com/v-lenn/StreamZip) - Archive extraction tool for very large (150GB+) game archives with on-the-fly decompression; demonstrated on Cyberpunk 2077.
-- [dat-creator](https://github.com/f-pisani/dat-creator) - Qt/C++ file archiver with GUI for bundling files into a single DAT container, with an API for loading/extracting; useful for game asset packaging.
+- [dat-creator](https://github.com/f-pisani/dat-creator) (archived) - Qt/C++ file archiver with GUI for bundling files into a single DAT container, with an API for loading/extracting; useful for game asset packaging.
 - [gogextract](https://github.com/e-m-h/gogextract) - Shell script for extracting game files from GOG/innoextract archives.
 - [genesis-rom-workshop](https://github.com/wesellis/genesis-rom-workshop) - Workshop tool for inspecting and modifying Sega Genesis/Mega Drive ROMs.
 - [NDSFactory](https://github.com/Luca1991/NDSFactory) - Generic Nintendo DS ROM extraction/repacking tool.
@@ -424,7 +424,7 @@
 - [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) - Next-gen version of Kuriimu.
 - [jstrings](https://github.com/drojaazu/jstrings) - Tool for finding JIS-based Japanese text strings in binary data, useful for locating text in Japanese game files.
 - [TF3 (Translation Framework 3)](https://github.com/Kaplas80/TF3) - General-purpose game translation framework with per-game plugins, including [Yakuza](https://github.com/Kaplas80/TF3.YakuzaPlugins) and [Zwei](https://github.com/Kaplas80/TF3.ZweiPlugins) series plugins.
-- [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) - VNTextPatch, a text extraction/translation/patching framework for Japanese visual novels, plus VNTextProxy, a companion DLL for injecting non-Japanese text rendering into VN engines that only support Shift-JIS.
+- [VNTranslationTools](https://github.com/arcusmaximus/VNTranslationTools) (archived) - VNTextPatch, a text extraction/translation/patching framework for Japanese visual novels, plus VNTextProxy, a companion DLL for injecting non-Japanese text rendering into VN engines that only support Shift-JIS.
   - Engines: AdvHD, ArcGameEngine, Artemis, BGI/Ethornell, CatSystem2, Cyberworks C,system, KaGuYa, Kirikiri, Majiro, Musica, Mware, Propeller/Stuff Script Engine, RealLive, Ren'Py, ShSystem, Silky's/AI6WIN, Qlie, Softpal, SystemNNN, TmrHiroAdvSystem, Whale, YU-RIS.
   - Features: Script text extraction/repacking, SJIS-tunneling text rendering proxy, Locale Emulator relaunching.
 - [VWF_Calculator](https://github.com/Bunkai9448/VWF_Calculator) - Variable Width Font (text size) calculator to help fit translated strings within a ROM hack's original space constraints.
@@ -464,7 +464,7 @@
 #### Binary Templates & Format Descriptions
 
 - [Kaitai Struct](https://kaitai.io/) - Declarative language for describing binary data structures with code generation for multiple programming languages.
-- [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) - Templates for binary analysis.
+- [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) (archived) - Templates for binary analysis.
 - [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
 - [010-Editor-Templates](https://github.com/tge-was-taken/010-Editor-Templates) - Collection of 010 Editor binary templates for game file format analysis.
 - [GameRes010Templates](https://github.com/miccTronic/GameRes010Templates) - 010 Editor templates for reading resource files from various games.
@@ -543,7 +543,7 @@
 - [FakePDB](https://github.com/Mixaill/FakePDB) - Tool for PDB generation from IDA Pro database. Supports IDA >= 7.0. Can generate PDB files, export IDA database to JSON, find binary signatures, and import function names from JSON.
 - [HexRaysCodeXplorer](https://github.com/REhints/HexRaysCodeXplorer) - Hex-Rays Decompiler plugin for better code navigation in reverse engineering. Automates code reconstruction of C++ applications and modern malware. Features include automatic type reconstruction, virtual function table detection, and RTTI analysis.
 - [microavx](https://github.com/gaasedelen/microavx) - AVX lifter for the Hex-Rays Decompiler. Extends IDA Pro decompiler with partial support for Intel Advanced Vector Extensions (AVX) instructions. Demonstrates how Hex-Rays microcode can be used to lift and decompile new or previously unsupported instructions.
-- [IDArling](https://github.com/IDArlingTeam/IDArling) - Collaborative reverse engineering plugin for IDA Pro and Hex-Rays. Enables multiple users to work on the same IDA database simultaneously.
+- [IDArling](https://github.com/IDArlingTeam/IDArling) (archived) - Collaborative reverse engineering plugin for IDA Pro and Hex-Rays. Enables multiple users to work on the same IDA database simultaneously.
 - [ida-images](https://github.com/rr-/ida-images) - Image preview plugin for the IDA disassembler, previewing embedded raster images directly in the binary view.
 - [idapro-map-loader](https://github.com/RetroReversing/idapro-map-loader) - IDA Pro plugin that opens linker `.map` files and sets function names in the database from the symbols listed in the map.
 - [IDAProSignatureGenerator](https://github.com/RetroReversing/IDAProSignatureGenerator) - Generates IDA Pro FLIRT function signatures from a binary, for identifying statically-linked library functions across retro game executables.
@@ -579,7 +579,7 @@
 - [ds-decomp](https://github.com/AetiasHax/ds-decomp) - Toolkit for decompiling Nintendo DS games, with ROM extraction, building, symbol analysis, and asset handling tools.
 - [ccc](https://github.com/chaoticgd/ccc) - Library and command-line tools for parsing debugging symbols from PS2 games, focused on STABS symbols embedded in .mdebug ELF sections; aids recovery of function/struct names for decompilation projects.
 - [mwccps2-debugger](https://github.com/Raikaru/mwccps2-debugger) - Dynamic-analysis and behavioral-reduction toolkit for the Metrowerks CodeWarrior PlayStation 2 (MWCCPS2) C/C++ compiler, exposing internal compiler stages (fingerprinting, PCode snapshots, register-allocation capture, semantic replayers) so matching-decompilation projects can determine why equivalent C source produces different MIPS object code; developed against Persona 3 FES but not project-specific. Companion [MWCCPS2-Matching-Techniques](https://github.com/Raikaru/MWCCPS2-Matching-Techniques) documents the underlying matching recipes and evidence limits.
-- [dwarf2cpp](https://github.com/seilc/dwarf2cpp) - Converts DWARF v1 debug data from ELF files into C/C++ definitions including structs, enums, unions, and function definitions. Useful for reverse engineering games with DWARF debug information.
+- [dwarf2cpp](https://github.com/seilc/dwarf2cpp) (archived) - Converts DWARF v1 debug data from ELF files into C/C++ definitions including structs, enums, unions, and function definitions. Useful for reverse engineering games with DWARF debug information.
 - [research](https://github.com/ProjectDreamland/research) - Research on game engine and decompiled game code.
 - [gfxd-rs](https://github.com/Decompollaborate/gfxd-rs) - Safe Rust wrapper for glankk's libgfxd, the de facto N64 F3D/F3DEX display list disassembler, built on the gfxd-sys FFI bindings crate. Used in N64 decompilation projects to disassemble Fast3D graphics microcode.
 - [gnuv2_demangle](https://github.com/Decompollaborate/gnuv2_demangle) - Demangler for GNU v2 (GCC 2.x) C++ mangled symbol names, used when recovering readable symbol names in decompilation projects for games built with old GCC toolchains (e.g. N64/PS1-era titles).
@@ -619,9 +619,9 @@
 - [skate3recomp](https://github.com/mchughalex/skate3recomp) - Native recompilation of the Xbox 360 version of Skate 3 for Windows, Linux, and macOS, with a native Direct3D 12/Vulkan renderer replacing GPU emulation.
 - [PS2Recomp](https://github.com/ran-j/PS2Recomp) - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
 - [SR (Static Recompiler)](https://github.com/M-HT/SR) - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
-- [NWiiRecomp](https://github.com/BlackLineInteractive/NWiiRecomp) - Static recompilation and runtime toolkit for Nintendo GameCube and Wii binaries, for building native PC ports.
+- [NWiiRecomp](https://github.com/BlackLineInteractive/NWiiRecomp) (archived) - Static recompilation and runtime toolkit for Nintendo GameCube and Wii binaries, for building native PC ports.
 - [nWiiURecomp](https://github.com/BlackLineInteractive/nWiiURecomp) - Static recompilation and runtime toolkit for Nintendo Wii U binaries (based on NWiiRecomp), for building native PC ports.
-- [SHO-GTA-VCS-PS2Recomp](https://github.com/BlackLineInteractive/SHO-GTA-VCS-PS2Recomp) - Application of PS2Recomp specifically tailored with function maps/configs to statically recompile Silent Hill Origins and GTA: Vice City Stories.
+- [SHO-GTA-VCS-PS2Recomp](https://github.com/BlackLineInteractive/SHO-GTA-VCS-PS2Recomp) (archived) - Application of PS2Recomp specifically tailored with function maps/configs to statically recompile Silent Hill Origins and GTA: Vice City Stories.
 - [VCSNative](https://github.com/senyarom/vcs-native) - Native recompilation of the US PSP release of Grand Theft Auto: Vice City Stories (`ULUS10160` v1.03), translating the original Allegrex executable to native code.
 - [rexglue-sdk](https://github.com/rexglue/rexglue-sdk) - Xbox 360 recompilation runtime and toolkit, used by static recompilation PC ports of Xbox 360 games.
 - [360tools](https://github.com/sp00nznet/360tools) - Toolkit and playbook for statically recompiling Xbox 360 games to native PC executables, built around the rexglue-sdk above. No emulator, interpreter, or JIT involved.
@@ -668,7 +668,7 @@
 - [GhidraSPU](https://github.com/aerosoul94/GhidraSPU) - SPU processor implementation for Ghidra (PlayStation 3 Cell).
 - [VitaLoaderRedux](https://github.com/CreepNT/VitaLoaderRedux) - PlayStation Vita ELF-PRX loader for Ghidra. Successor to the deprecated [VitaLoader](https://github.com/CreepNT/VitaLoader).
 - [ghidra-allegrex](https://github.com/kotcrab/ghidra-allegrex) - Ghidra processor module adding support for the Allegrex CPU (PSP).
-- [ghidra_mdebug](https://github.com/astrelsky/ghidra_mdebug) - Ghidra analyzer adding support for the .mdebug debugging symbol format (PS2/MIPS).
+- [ghidra_mdebug](https://github.com/astrelsky/ghidra_mdebug) (archived) - Ghidra analyzer adding support for the .mdebug debugging symbol format (PS2/MIPS).
 - [libNidResolver](https://github.com/astrelsky/libNidResolver) - Library for resolving PlayStation 5 (Prospero) NIDs in another process, aiding GhidraProspero-based analysis.
 - [ghidra_sega_ldr](https://github.com/lab313ru/ghidra_sega_ldr) - Sega Mega Drive/Genesis ROM loader for Ghidra.
 - [ghidra_sdc_ldr](https://github.com/lab313ru/ghidra_sdc_ldr) - Sega Dreamcast binary loader for Ghidra.
@@ -678,7 +678,7 @@
 - [ghidra-spc700](https://github.com/Raikaru/ghidra-spc700) - SPC700 (SNES audio coprocessor) processor module for Ghidra, decoding all 256 opcodes; the Ghidra equivalent of gocha's ida-spc700-module above.
 - [amiga_hunk_loader](https://github.com/lab313ru/amiga_hunk_loader) - Amiga Hunk executable loader for IDA Pro. See also [ghidra_amiga_ldr](https://github.com/lab313ru/ghidra_amiga_ldr), the equivalent loader for Ghidra, and [amigadbg](https://github.com/lab313ru/amigadbg), an AmigaOS debugger plugin for IDA Pro built to work with the Amitools emulator suite.
 - [psx_loader](https://github.com/lab313ru/psx_loader) - PlayStation 1 executable loader for IDA (Python), companion to ghidra_psx_ldr above. See also [psxida](https://github.com/lab313ru/psxida), an IDA debugger plugin for PSX emulators (PCSX-R).
-- [ghidranite](https://github.com/jac3km4/ghidranite) - Ammonite (Scala) scripting support for Ghidra.
+- [ghidranite](https://github.com/jac3km4/ghidranite) (archived) - Ammonite (Scala) scripting support for Ghidra.
 - [ghidra-65816](https://github.com/mstan/ghidra-65816) - WDC 65816 (SNES CPU) processor module for Ghidra.
 - [ghidra-snes](https://github.com/joshleaves/ghidra-snes) - Ghidra extension for loading SNES ROMs, mapping LoROM/HiROM/ExHiROM/SA-1/GSU/CX-4/DSP/OBC1/S-DD1/SPC7110 cartridges into the SNES CPU address space, paired with a SNES-oriented 65816 processor language; extends ghidra-65816.
 - [GhidraNes](https://github.com/kylewlacy/GhidraNes) - Ghidra extension for loading and disassembling iNES 1.0 NES ROMs, with support for numerous common mappers (NROM, MMC1/SxROM, UxROM, CNROM, CPROM, MMC4/FxROM, AxROM, BNROM, Bandai FCG boards, Sunsoft 3/4, Konami VRC3, and others).
@@ -699,7 +699,7 @@
 - [biodiff](https://github.com/8051Enthusiast/biodiff) - Hex diff viewer that uses alignment algorithms to show differences between binary files.
 - [bdiff](https://github.com/ethteck/bdiff) - Binary diff tool for decompilation and modding projects with hex viewing and symbol map integration.
 - [Monkey-Moore](https://github.com/rjricken/monkey-moore) - High-performance pattern matching utility for ROM hacking and reverse engineering. Multi-threaded Boyer-Moore algorithm with wildcard support and endianness control for discovering non-standard text encodings.
-- [Bin2Obj](https://github.com/hogsy/Bin2Obj) - Converts arbitrary binary data into a Wavefront OBJ point cloud, useful for spotting vertex/mesh data when reverse-engineering unknown formats.
+- [Bin2Obj](https://github.com/hogsy/Bin2Obj) (archived) - Converts arbitrary binary data into a Wavefront OBJ point cloud, useful for spotting vertex/mesh data when reverse-engineering unknown formats.
 - [saved-game-analyzer](https://github.com/RedDragonWebDesign/saved-game-analyzer) - Web tool for reverse engineering simple, unencrypted binary save game formats via diffing and field labeling; a second tool lets you construct new save files from a labeled structure definition.
 
 #### Hooking, Memory & Runtime Tools
@@ -737,7 +737,7 @@
 - [stfstool](https://github.com/carrot-c4k3/stfstool) - Command-line tool for Xbox 360 STFS packages, based on Velocity.
 - [stfs-webjs](https://github.com/InvoxiPlayGames/stfs-webjs) - Reads Xbox 360 STFS container files in the web browser.
 - [STFS-Forge](https://github.com/OAleex/STFS-Forge) - Command-line tool for manipulating Xbox 360 STFS packages (CON, LIVE, PIRS).
-- [Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) - Ghidra C++ Class and Run Time Type Information (RTTI) analyzer, useful for recovering class hierarchies in game binaries compiled from C++.
+- [Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) (archived) - Ghidra C++ Class and Run Time Type Information (RTTI) analyzer, useful for recovering class hierarchies in game binaries compiled from C++.
 - [XDBF-Manager](https://github.com/hetelek/XDBF-Manager) - Browser/editor for Xbox 360 XDBF (dashboard/game-data) files.
 - [spaday](https://github.com/widberg/spaday) - Parser for Games for Windows - LIVE/Xbox 360 SPAFILE (title/achievement metadata) data, readable directly from a Windows or Xbox 360 executable. Ships an ImHex pattern `spafile.hexpat` that also works with GPD and other XDBF-based files.
 - [pcsx-redux](https://github.com/pcsx-redux/pcsx-redux) - Collection of tools, research, hardware design, and libraries for PlayStation 1 development and reverse engineering, built around a fork of the PCSX emulator with an integrated debugger, assembler, and GPU/memory analysis tooling.
@@ -782,7 +782,7 @@
   - Formats: 100+ pixel formats including DXT, PVRTC, ETC, ASTC, BC formats, with swizzling support for multiple platforms.
 - [arbitrary-int](https://github.com/widberg/arbitrary-int) - Lightweight Rust implementation of arbitrary-sized integers (e.g., `u1`, `u9`, `u120`) using const generics. Useful for parsing bit-packed binary formats.
 - [binrw](https://github.com/jam1garner/binrw) - Rust library for reading and writing binary file formats with derive macros. Successor to `binread`.
-- [DragonLib](https://github.com/neptuwunium/DragonLib) - Common library for file format research.
+- [DragonLib](https://github.com/neptuwunium/DragonLib) (archived) - Common library for file format research.
 - [GL Editor Framework](https://github.com/jupahe64/GL_EditorFramework) - OpenGL-based framework for creating 3D game editors with hardware-accelerated graphics.
 - [DrSwizzler](https://github.com/Shadowth117/DrSwizzler) - Library for deswizzling and detiling texture data.
 - [NvTriStrip.Net](https://github.com/Shadowth117/NvTriStrip.Net) - .NET port of Nvidia's NvTriStrip triangle stripifier library.
@@ -810,7 +810,7 @@
   - Formats: BC1-DXT1, BC2-DXT3, BC3-DXT5, BC4-ATI1, BC5-ATI2, BC6H, BC7.
 - [Console-Swizzler](https://github.com/matyamod/Console-Swizzler) - C library to swizzle DDS textures for console games. Supports PS4 and Switch texture swizzling/unswizzling with configurable GOB block heights. Includes CLI tool for batch processing.
 - [prs.net](https://github.com/FraGag/prs.net) - PRS compression/decompression library and GUI front-end for the .NET Framework. PRS is based on LZ77 with run-length encoding and is used in numerous games since the SEGA Saturn, including Phantasy Star Universe.
-- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) - C# library for parsing NKZIP archive files used in MMO games from the early 2000s. Simple format with no compression - files stored sequentially with header containing magic, version, raw data bytes, and file count.
+- [NKZIPLib](https://github.com/pixeldesu/NKZIPLib) (archived) - C# library for parsing NKZIP archive files used in MMO games from the early 2000s. Simple format with no compression - files stored sequentially with header containing magic, version, raw data bytes, and file count.
 - [XenosRecomp](https://github.com/hedge-dev/XenosRecomp) - Tool for converting Xbox 360 shaders to HLSL.
 - [ASH](https://github.com/Bigchillghost/ASH) - Skeleton and skeletal animation format analyzer. Binary format reverse-engineering framework for parsing and visualizing skeletal animation data used across many games.
 - [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) - Declarative language and code generator for binary data parsers in C++, C#, Go, Java, JavaScript, Python, Rust, and more; widely used for documenting and parsing game file formats.
@@ -1002,7 +1002,7 @@
 
 - [Noesis Plugins](https://richwhitehouse.com/index.php?content=inc_projects.php&showproject=91) - Community plugin collections extending Noesis support to hundreds more games.
   - See [6 major plugin collections](https://richwhitehouse.com/index.php?content=inc_projects.php#prjmp91) including Tales series, Midnight Club 2, Visceral Games titles, and many more formats.
-- [dragon_noesis](https://github.com/neptuwunium/dragon_noesis) - Collection of Noesis plugins for various game formats including Dragon engine.
+- [dragon_noesis](https://github.com/neptuwunium/dragon_noesis) (archived) - Collection of Noesis plugins for various game formats including Dragon engine.
 - [GameFileFormatsRE](https://github.com/LolHacksRule/GameFileFormatsRE) - Collection of Noesis scripts, binary templates, and BMS scripts for reverse-engineered game file formats across 30+ studios.
   - Studios/Games: AlphaDream (Mario & Luigi: Bowser's Inside Story, Dream Team, Paper Jam), Nintendo EAD/EPD (Zelda: Breath of the Wild, Xenoblade, Mario Kart), NDCube (Animal Crossing: Pocket Camp), RetroStudios (Donkey Kong Country Returns 3D), IntelligentSystems, Housemarque, Ubisoft (UbiArt, LyN, SnowDrop, Just Dance engines), EA Redwood Shores, Gameloft, PopCap, Rovio, ZenStudios, VicariousVisions, BightGames, ChimeraEntertainment, DisneyMobile, Exient, Funlabs, Hasbro, PlayFirst, PlayMechanix, TinyCo/JamCity, Transmension, VetaSoft, Xeen, and more.
 - [RTB-3DSMax-Scripts](https://github.com/RandomTBush/RTB-3DSMax-Scripts) - Comprehensive collection of 3ds Max scripts for importing models from dozens of games and engines.
@@ -1078,7 +1078,7 @@
 - [dice-libretro](https://github.com/mittonk/dice-libretro) - Libretro/RetroArch port of DICE (Discrete Integrated Circuit Emulator), emulating early arcade systems built from discrete logic components with no CPU.
 - [ld-decode](https://github.com/happycube/ld-decode) - Software-defined LaserDisc RF decoder, used to digitize and preserve laserdisc arcade games for emulators such as hypseus-singe/DICE.
 - [EggmansLaserForge](https://github.com/Eggmansworld/EggmansLaserForge) - Authoring tool for building playable laserdisc games for Hypseus Singe, without hand-editing LUA scripts or frame numbers.
-- [actionmax-pi](https://github.com/DirtBagXon/actionmax-pi) - Singe implementation of the ActionMax VHS-based arcade system for 32-bit Raspberry Pi and other SBCs.
+- [actionmax-pi](https://github.com/DirtBagXon/actionmax-pi) (archived) - Singe implementation of the ActionMax VHS-based arcade system for 32-bit Raspberry Pi and other SBCs.
 - [Hypdroid](https://github.com/rhakka303/Hypdroid) - Standalone Android port of Hypseus Singe with a native gamepad-first game launcher.
 
 #### Franchise & Studio Toolkits
@@ -1095,7 +1095,7 @@
 - [WitchyBND](https://github.com/ividyon/WitchyBND) - Unpacker/repacker for FromSoftware game formats.
   - Games: Dark Souls 1-3, Bloodborne, Sekiro, Elden Ring, Armored Core VI
   - Formats: BND3, BND4, FFXBND, DCX, BXF3, BXF4, FMG, GPARAM, LUAGNL, LUAINFO, TPF, FXR1, FXR3, MATBIN
-- [Supercell-Flat-Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) - Converts Supercell game assets between optimized Flatbuffer format and standard glTF. Supports Brawl Stars, Clash of Clans, Clash Royale, Clash Mini, and Squad Busters.
+- [Supercell-Flat-Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) (archived) - Converts Supercell game assets between optimized Flatbuffer format and standard glTF. Supports Brawl Stars, Clash of Clans, Clash Royale, Clash Mini, and Squad Busters.
 - [SC2FLA-FOSS-Edition](https://github.com/GenericName1911/SC2FLA-FOSS-Edition) - Converts Supercell .sc asset format (2D sprites/animations) to Adobe Animate .fla files. Supports Brawl Stars, Clash of Clans, Clash Royale, Squad Busters with SCTX texture support and spritesheet generation.
 - [SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) - Converts Supercell Texture (.sctx) files to PNG with metadata extraction in JSON format. Supports texture streaming and mip-mapping data.
 - [FC.LPKG.Tool](https://github.com/Ekey/FC.LPKG.Tool) - Extracts LPKG archive format from FURYU Corporation games including Cardfight Vanguard, MONARK, and Mushoku Tensei.
@@ -1111,7 +1111,7 @@
   - Games: Mystic Midway: Rest in Pieces, Voyeur, 3-D TableSports, The Game of Life, Bassmasters 2000, Namco Museum, Ms. Pac-Man: Maze Madness, Power Rangers: Lightspeed Rescue, Starcraft 64, Pac-Man Collection, Shrek Super Party, Blackthorne, Rock n' Roll Racing, The Lost Vikings.
 - [EditorCore](https://github.com/exelix11/EditorCore) - Archived, proof-of-concept extensible 3D level editor for Nintendo Switch games with a plugin architecture.
   - Games: Super Mario Odyssey, Mario Kart 8 Deluxe, Captain Toad: Treasure Tracker.
-  - Features: 3D level editing with search, drag, raycast, and undo; path rendering; per-game plugin extensions (see [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) and [EditorCore-Examples](https://github.com/exelix11/EditorCore-Examples)).
+  - Features: 3D level editing with search, drag, raycast, and undo; path rendering; per-game plugin extensions (see [OdysseyEditor](https://github.com/exelix11/OdysseyEditor) (archived) and [EditorCore-Examples](https://github.com/exelix11/EditorCore-Examples)).
 - [libultraship](https://github.com/Kenix3/libultraship) - Shared reimplementation of libultra (the Nintendo 64 SDK) and the O2R asset packaging system powering the Ship of Harkinian family of N64 decompilation PC ports.
   - Games: The Legend of Zelda: Ocarina of Time (Shipwright), The Legend of Zelda: Majora's Mask (2ship2harkinian), Star Fox 64 (Starship), Mario Kart 64 (SpaghettiKart).
 - [SWERY-Localization-Tool](https://github.com/LittleBitUA/SWERY-Localization-Tool) - Ukrainian-localization editor for five Hidetaka Suehiro (SWERY)/White Owls games, handling each game's archive/text formats.

@@ -1,7 +1,7 @@
 ### T
 #### Primula (TAISHO x ALICE)
 
-- [TXA.DAT.Tool](https://github.com/Ekey/TXA.DAT.Tool) - Tool for extracting and repacking DAT archives from the TAISHO x ALICE otome game series.
+- [TXA.DAT.Tool](https://github.com/Ekey/TXA.DAT.Tool) (archived) - Tool for extracting and repacking DAT archives from the TAISHO x ALICE otome game series.
 
 #### Taito
 
@@ -57,7 +57,7 @@
 - [CTRONC-Audio-Manager](https://github.com/remi1771/CTRONC-Audio-Manager) - Batch-script toolkit for extracting and repacking AWB/HCA audio files from Captain Tsubasa: Rise of New Champions to/from WAV, wrapping QuickBMS (awb_hca.bms), clHCA, and VGAudioCli.
 - [asuka-rs](https://github.com/minirop/asuka-rs) - Tool to analyse, extract, and repack .cat files from the Senran Kagura series.
 - [SenranKaguraToolkit](https://github.com/berndt-simon/SenranKaguraToolkit) - Middleware/library for working with PC-version Senran Kagura: Shinovi Versus/Estival Versus files, documented via an accompanying wiki.
-- [EstivalMesher](https://github.com/bluesnowball18/EstivalMesher) - Blender 2.9 addon for importing CAT model files from Senran Kagura: Estival Versus.
+- [skev-blender-toolkit](https://github.com/bluesnowball18/skev-blender-toolkit) - Blender 4.2+ addon for importing CAT model files from Senran Kagura: Estival Versus.
 - [GXTExtractor](https://github.com/Renari/GXTExtractor) - Extracts textures from GXT files in Senran Kagura: Shinovi Versus.
 - [Senran-Kagura-File-Manager](https://github.com/Renari/Senran-Kagura-File-Manager) - Tool to manage resource files from Senran Kagura: Shinovi Versus.
 
@@ -225,7 +225,7 @@
 
 ##### VVVVVV
 
-- [extract.vvv](https://github.com/Swyter/extract.vvv) - Simple program to extract original music from VVVVVV game. Extracts all 15 tracks from `vvvvvvmusic.vvv` files and outputs them as OGG Vorbis format.
+- [extract.vvv](https://github.com/Swyter/extract.vvv) (archived) - Simple program to extract original music from VVVVVV game. Extracts all 15 tracks from `vvvvvvmusic.vvv` files and outputs them as OGG Vorbis format.
 - [VVVVVV](https://github.com/TerryCavanagh/VVVVVV) - Terry Cavanagh's official open-source release of VVVVVV (2010), including the desktop engine's original level/tileset-reading and rendering code.
 - [VVVVVVSaveEditor](https://github.com/SuperYosh23/VVVVVVSaveEditor) - Save file editor for VVVVVV.
 
@@ -235,7 +235,7 @@
 
 #### Eden Games (Test Drive Unlimited 2)
 
-- [TDU2.BIG.Tool](https://github.com/Ekey/TDU2.BIG.Tool) - Tool for extracting BIG archives from Test Drive Unlimited 2.
+- [TDU2.BIG.Tool](https://github.com/Ekey/TDU2.BIG.Tool) (archived) - Tool for extracting BIG archives from Test Drive Unlimited 2.
 - [tdups2checksum](https://github.com/itsmattkc/tdups2checksum) - Reverse-engineered and reimplemented checksum algorithm for Test Drive Unlimited (PS2) save game files.
 
 #### Thalion Software
@@ -250,17 +250,13 @@
 
 #### PONOS (The Battle Cats)
 
-- [Nyanko](https://github.com/omochikaeri15/nyanko) - Rust library for handling data, animations, and game quirks from The Battle Cats.
-- [Battle Cats Complete](https://github.com/omochikaeri15/battle-cats-complete) - All-in-one desktop toolkit for The Battle Cats.
-  - Loads raw and modded game data and accurately renders in-game animations.
-  - Exports animations to MP4, AVIF, WebP, and GIF.
 - [SaveEditorTBC](https://github.com/ZhaLuc/SaveEditorTBC) - Save file editor for The Battle Cats.
 - [The-Battle-Cats-Unite-Editor](https://github.com/xirba13/The-Battle-Cats-Unite-Editor) - Save editor for the Nintendo Switch title The Battle Cats Unite!.
 - [battle-cats-unite-asset-tools](https://github.com/xirba13/battle-cats-unite-asset-tools) - Python scripts for The Battle Cats Unite! (Nintendo Switch) RomFS data, same author as the save editor above.
   - Extracts `FCRA` `.arc` archives and applies original paths from a bundled hash-to-path table, identifies unnamed files by binary signature, decodes `CSB` compiled tables into CSV-style text (data tables, `.imgcut`, `.mamodel`, `.maanim`), and converts `BNTX` textures to PNG via a vendored 3DSkit.
-- [Neko-Ware](https://github.com/omochikaeri15/neko-ware) - Collection of standalone Rust CLI tools for The Battle Cats.
+- [kogatana](https://github.com/omochikaeri15/kogatana) - Collection of standalone Rust CLI tools for The Battle Cats.
   - Tools: neko-arc (unpacks `FCRA`/`.arc` archives from the Nintendo Switch version and resolves hashed file names back to their mobile originals), neko-pack (decrypts `.pack`/`.list` archives, validating regional keys), neko-apk (injects modded/loose files and assets into the game APK), neko-cloud (pulls game assets directly from the cloud update service).
-- [Burglecats Cryptor](https://github.com/piggecutlet/burglecats-cryptor) - Decrypts The Battle Cats' `.fnt` font files; documents reverse-engineered `CryptoManager` decryption routines from the game's native `libMyGame.so`.
+- [Burglecats Cryptor](https://github.com/piggecutlet/burglecats-cryptor) (archived) - Decrypts The Battle Cats' `.fnt` font files; documents reverse-engineered `CryptoManager` decryption routines from the game's native `libMyGame.so`.
 - [BCU-java-PC](https://github.com/battlecatsultimate/BCU-java-PC) - Battle Cats Ultimate, a fan-made Java program for viewing and editing The Battle Cats' data and animations, supporting custom content creation.
 - [battlecats-cryptor](https://github.com/piggecutlet/battlecats-cryptor) - Java CLI tool to decrypt and encrypt The Battle Cats' data pack files extracted from the game's APK/XAPK, including the older `datalocal1.list`/`datalocal2.pack` format; complements Burglecats Cryptor above, which covers only `.fnt` font files.
 - [BCSFE-Python](https://codeberg.org/fieryhenry/BCSFE-Python) - Command-line save file editor for The Battle Cats; downloads/uploads saves via transfer codes or adb and edits cats, upgrades, resources, and tickets across EN/KR/JA/TW regional versions.
@@ -318,7 +314,7 @@
 
 ##### Super Solvers: Gizmos & Gadgets!
 
-- [reverssg](https://github.com/delan/reverssg) - Reverse engineering notes and documentation for Super Solvers: Gizmos & Gadgets! (1987), covering its file formats.
+- [reverssg](https://github.com/delan/reverssg) (archived) - Reverse engineering notes and documentation for Super Solvers: Gizmos & Gadgets! (1987), covering its file formats.
 - [widgets_and_doodads](https://github.com/ArcaneNibble/widgets_and_doodads) - Game modding tools for Super Solvers: Gizmos & Gadgets! (Win32 version), packing and unpacking the game's `.DAT` resource files.
   - Formats: `.DAT` (barebones Win16 New-Executable-derived resource containers), `NFNT` fonts (endian-swapped Classic Mac OS font resources), `RRGB` 256-color indexed palettes, Microsoft Waveform audio, separately-stored MIDI background music.
   - Features: `dattool.py` resource packer/unpacker keyed by FourCC type + index with a JSON repack manifest, plus documentation of the game's custom text control-byte encoding.
@@ -342,7 +338,7 @@
 #### Supermassive Games (The Quarry)
 
 - [QuarrySaveManager](https://github.com/coreynguyen/QuarrySaveManager) - Catalog-based save manager and editor for The Quarry (PC), replacing the game's single live-slot `SaveGame0.sav` with a browsable library of named save states. Includes a format spec and a standalone payload decoder CLI.
-- [TheDarkPictures-TextTool](https://github.com/rm-NoobInCoding/TheDarkPictures-TextTool) - Extracts and imports text from `.uexp` files for The Dark Pictures Anthology (Little Hope, House of Ashes).
+- [TheDarkPictures-TextTool](https://github.com/rm-NoobInCoding/TheDarkPictures-TextTool) (archived) - Extracts and imports text from `.uexp` files for The Dark Pictures Anthology (Little Hope, House of Ashes).
 
 #### Blue Byte (The Settlers)
 
@@ -408,7 +404,7 @@
 - [libTwisted](https://github.com/jacobleeharris/libTwisted) - Rust library for reading and writing Twisted Metal game file formats.
 ##### Motocross Madness
 
-- [motocross-madness-file-formats](https://github.com/AlexKimov/motocross-madness-file-formats) - File format research for the Motocross Madness series.
+- [motocross-madness-file-formats](https://github.com/AlexKimov/motocross-madness-file-formats) (archived) - File format research for the Motocross Madness series.
 
 #### Drool (Thumper)
 
@@ -429,7 +425,7 @@
 
 ##### Blues Brothers
 
-- [blues](https://github.com/cyxx/blues) - Reimplementation of the engine used in Blues Brothers, Blues Brothers: Jukebox Adventure, and Prehistorik 2, reading the original games' data files; ports to PSP and SDL2.
+- [blues](https://github.com/cyxx/blues) (archived) - Reimplementation of the engine used in Blues Brothers, Blues Brothers: Jukebox Adventure, and Prehistorik 2, reading the original games' data files; ports to PSP and SDL2.
 
 ##### Titus the Fox & Moktar
 
@@ -501,7 +497,7 @@
 - [truth](https://github.com/ExpHP/truth) - Multipass compiler/decompiler for Touhou binary script files (STD, ANM, MSG formats).
 - [eclmap](https://github.com/Priw8/eclmap) - Mnemonic mapping files for thtk's thecl/thanm compilers/decompilers, giving human-readable instruction names when compiling/decompiling ECL and ANM binary script files across Touhou versions from TH08 through TH17/alcostg.
 - [parakit](https://github.com/Guy-L/parakit) - Python scripting framework that extracts and analyzes gameplay-relevant data (RNG state, hitboxes, spawns, and more) directly from running Touhou games, for score players and researchers.
-- [TH.PAK.Tool](https://github.com/Ekey/TH.PAK.Tool) - Tool for extracting DAT archives from the Touhou Project games series.
+- [TH.PAK.Tool](https://github.com/Ekey/TH.PAK.Tool) (archived) - Tool for extracting DAT archives from the Touhou Project games series.
 - [thcrap](https://github.com/devinacker/thcrap) - Touhou Community Reliant Automatic Patcher; runtime patching engine that reads and rewrites Touhou games' proprietary archive/DAT formats to apply fan translations and mods.
 - [th-re-data](https://github.com/exphp-share/th-re-data) - Exported Binary Ninja reverse-engineering data (addresses, structures) for various Touhou games, including notes on DAT file layout/renaming across game versions.
 - [EoSDecomp](https://github.com/wearrrrr/EoSDecomp) - In-progress byte-accurate decompilation of Touhou 6: Embodiment of Scarlet Devil (Windows), distinct from the PC-98-era ReC98 decompilation project.
@@ -585,7 +581,7 @@
 
 #### Acclaim Entertainment (Turok)
 
-- [turok3 (decomp)](https://github.com/Drahsid/turok3) - Matching decompilation of Turok 3: Shadow of Oblivion (N64).
+- [turok3 (decomp)](https://github.com/Drahsid/turok3) (archived) - Matching decompilation of Turok 3: Shadow of Oblivion (N64).
 - [ReVoltTrackEditor](https://github.com/Dummiesman/ReVoltTrackEditor) - Track editor for Re-Volt that reads original editor project files (.rtu, WAV, BMP) and exports tracks compatible with Re-Volt/RVGL.
 ##### Vexx
 
@@ -637,7 +633,7 @@
 ### U
 #### Radica Games (U.B. Funkeys)
 
-- [OpenFK](https://github.com/GittyMac/OpenFK) - Open-source replacement for the U.B. Funkeys executable.
+- [OpenFK](https://github.com/GittyMac/OpenFK) (archived) - Open-source replacement for the U.B. Funkeys executable.
 - [open-fk-rdf](https://github.com/bluisblu/open-fk-rdf) - Rust encoding/decoding library for RDFv2 files, ported from OpenFK.
 - [XmlMessageDoc](https://github.com/bluisblu/XmlMessageDoc) - Documentation of the packet messages used to communicate with U.B. Funkeys' online servers.
 
@@ -669,7 +665,7 @@ See also: [OpenSpace](engines.md#openspace).
 
 ##### Anvil / Scimitar
 
-- [Jormungandr](https://github.com/neptuwunium/Jormungandr) - Anvil Engine research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
+- [Jormungandr](https://github.com/neptuwunium/Jormungandr) (archived) - Anvil Engine research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [.forge extractor/replacer by Turfster (Assassin's Creed)](https://www.moddb.com/mods/aci-texmod-clothes-mod/downloads/forge-extractorreplacer-by-turfster) - Data/files extractor for Assassin's Creed and Assassin's Creed II and some other games using Scimitar engine. It's also capable of replacing archived files, including textures. Its additional plugins are already installed. The program is made by Turfster and it belongs to him (and the full credit...
 - [Blacksmith](https://github.com/theawesomecoder61/Blacksmith) - Tool for viewing, extracting, and converting textures, 3D models, and sounds from AC: Odyssey, AC: Origins, AC: Valhalla (AnvilNext engine), and Steep.
 - [R6-Extractor](https://github.com/TrueShadow01/R6-Extractor) - Python toolkit for extracting Rainbow Six Siege's Scimitar-engine `.forge` archives, with Oodle Kraken decompression, BC1/3/4 texture conversion, Wwise WEM audio extraction, and glTF model/material export for Blender.
@@ -797,7 +793,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 ##### Anno 1800
 
-- [Anno 1800 Mod Loader](https://github.com/magicalcookie/anno1800-mod-loader) - The one and only mod loader for Anno 1800. Supports loading of unpacked RDA files, XML merging, and Python mods.
+- [Anno 1800 Mod Loader](https://github.com/magicalcookie/anno1800-mod-loader) (archived) - The one and only mod loader for Anno 1800. Supports loading of unpacked RDA files, XML merging, and Python mods.
 - [Modding Tools for Anno](https://marketplace.visualstudio.com/items?itemName=JakobHarder.anno-modding-tools) - Visual Studio Code extension with utilities to build Anno 1800 mods.
 - [RDAExplorer](https://github.com/lysanntranvouez/RDAExplorer) - Windows application to read, extract, and save the RDA archive format used by Anno 1404, 2070, and 2205.
 - [rda](https://github.com/metacrito/rda) - Linux command-line extractor for the RDA resource archive format used across the Anno series (versions 2.0 and 2.2, covering Anno 1404/2070/117/1800/2205), documenting the header/block/file-header binary layout.
@@ -870,7 +866,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 ##### Skylanders
 
-- [igArchiveExtractor](https://github.com/NefariousTechSupport/igArchiveExtractor) - Utility for extracting and repacking .arc/.bld/.pak archives from Skylanders games built with Vicarious Visions Alchemy engine.
+- [igArchiveExtractor](https://github.com/NefariousTechSupport/igArchiveExtractor) (archived) - Utility for extracting and repacking .arc/.bld/.pak archives from Skylanders games built with Vicarious Visions Alchemy engine.
 
 #### Pterodon (Vietcong)
 
@@ -944,7 +940,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 ##### Command & Conquer
 
 - [OpenRA](https://github.com/OpenRA/OpenRA) - Open-source real-time strategy engine reimagining early Westwood classics (Command & Conquer: Tiberian Dawn, Command & Conquer: Red Alert, Dune 2000), reading the original games' MIX archives and SHP/VQA/AUD asset formats.
-- [CnC_Remastered_Collection](https://github.com/electronicarts/CnC_Remastered_Collection) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn and Red Alert game logic, alongside the Remastered Collection.
+- [CnC_Remastered_Collection](https://github.com/electronicarts/CnC_Remastered_Collection) (archived) - Official Electronic Arts open-source release of the original Command & Conquer: Tiberian Dawn and Red Alert game logic, alongside the Remastered Collection.
 - [Chronoshift](https://github.com/TheAssemblyArmada/Chronoshift) - Open-source reimplementation of Command & Conquer: Red Alert in C++, reading the original game's MIX archives and SHP/VQA/AUD asset formats (archived).
 - [Vanilla-Conquer](https://github.com/TheAssemblyArmada/Vanilla-Conquer) - Cross-platform build of the first-generation C&C engine running Tiberian Dawn and Red Alert as a drop-in replacement for the original executables, also usable for Remastered Collection mod development; source includes MIX archive (`mixfile`) and VQA video loader code.
 - [NevadaToolset](https://github.com/TheAssemblyArmada/NevadaToolset) - Tools for early Command & Conquer game data: `makemix`/`unmakemix` pack and extract `.mix` archives, and `strgen`/`wxstrgen` (CLI and GUI) convert the binary in-game string tables to and from a UTF-8 INI file for translation.
@@ -1009,7 +1005,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 #### Wargaming (World of Warships)
 
 - [wowsdeob](https://github.com/landaire/wowsdeob) - Deobfuscator for World of Warships game scripts.
-- [yretenai/Akizuki](https://github.com/neptuwunium/Akizuki/tree/csharp-legacy) - World of Warships file format research project.
+- [yretenai/Akizuki](https://github.com/neptuwunium/Akizuki/tree/csharp-legacy) (archived) - World of Warships file format research project.
 - [lesta-file-formats](https://github.com/AlexKimov/lesta-file-formats) - File format templates and tools for games made by Lesta Studio.
 - [wows-toolkit](https://github.com/landaire/wows-toolkit) - Swiss army knife for World of Warships, unpacking and inspecting the game's asset and replay formats alongside the existing wowsdeob script deobfuscator.
 - [DAVA Resource Studio](https://github.com/vorlie/DAVA-Resource-Studio) - Windows desktop toolkit (Rust/Tauri/React) for inspecting and modifying World of Tanks Blitz resources; understands the outer DVPL container, presents the game Data directory as a virtual filesystem, and supports BNK (Wwise audio).
@@ -1034,7 +1030,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 #### JiangHu Studio (Wushu Chronicles 2)
 
-- [WC2.PACKAGE.Tool](https://github.com/Ekey/WC2.PACKAGE.Tool) - Tool for extracting PACKAGE archives from Wushu Chronicles 2 (武林志2).
+- [WC2.PACKAGE.Tool](https://github.com/Ekey/WC2.PACKAGE.Tool) (archived) - Tool for extracting PACKAGE archives from Wushu Chronicles 2 (武林志2).
 
 #### WWE Raw 2
 
@@ -1083,7 +1079,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 ##### Stella Sora
 
-- [StellaSoraParser](https://github.com/Hiro420/StellaSoraParser) - Parses Stella Sora's BinData asset bundles.
+- [StellaSoraParser](https://github.com/Hiro420/StellaSoraParser) (archived) - Parses Stella Sora's BinData asset bundles.
   - Formats: `data/bin`, `data/language`, `data/bubble`, `data/dirty_words`, `lua`.
 - [Stella-Sora-Metadata](https://github.com/Failzuma/Stella-Sora-Metadata) - Decrypts Stella Sora's encrypted `global-metadata.dat` (magic `0x1357FEDA`), combining byte rotation, key-table XOR, and bytecode-driven transforms per 64-byte chunk.
 - [Nebula](https://github.com/Melledy/Nebula) - Server emulator for Stella Sora, reverse engineered from the game's client-server protocol.
@@ -1126,7 +1122,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [FalcomToolsCollection](https://github.com/akatatsu27/FalcomToolsCollection) - Collection of Kaitai Struct definitions, to/from-JSON converters, and compression algorithms for various Falcom data formats.
 - [Xanadu-BRA-Decompress](https://github.com/Sewer56/Xanadu-BRA-Decompress) - Unarchiver for the PC version of Tokyo Xanadu eX+, reverse-engineered day-one of release for modding purposes.
 - [SenPatcher](https://github.com/AdmiralCurtiss/SenPatcher) - Fixes and customizations for the PC versions of Falcom's games in the Phyre engine (Trails of Cold Steel, Trails into Reverie, Tokyo Xanadu eX+).
-- [toxana-tkit](https://github.com/mchubby-3rdparty/toxana-tkit) - Mirror of weaknespase's archive/asset toolkit for Tokyo Xanadu (PKG archives, spreadsheet converter) and Utawarerumono: Mask of Deception (PCK/SDAT archives, TEX/FNT converter); original upstream repo has been deleted. See also [Utawarerumono-SDAT-Unpacker](https://github.com/hokejyo/Utawarerumono-SDAT-Unpacker), a standalone unpacker for the PC remaster's `.sdat` files.
+- [toxana-tkit](https://github.com/mchubby-3rdparty/toxana-tkit) (archived) - Mirror of weaknespase's archive/asset toolkit for Tokyo Xanadu (PKG archives, spreadsheet converter) and Utawarerumono: Mask of Deception (PCK/SDAT archives, TEX/FNT converter); original upstream repo has been deleted. See also [Utawarerumono-SDAT-Unpacker](https://github.com/hokejyo/Utawarerumono-SDAT-Unpacker), a standalone unpacker for the PC remaster's `.sdat` files.
 - [BZH_AO_NO_KISEKI_Savedata_Editor](https://github.com/424778940z/BZH_AO_NO_KISEKI_Savedata_Editor) - Save data editor for The Legend of Heroes VII: Ao no Kiseki (Trails to Azure).
 - [YS8](https://github.com/turtle-insect/YS8) - Save data editor for Ys VIII (Switch).
 - [TrailsintheSky1stChapter](https://github.com/turtle-insect/TrailsintheSky1stChapter) - Save data editor for Trails in the Sky 1st Chapter (Switch and Steam).
