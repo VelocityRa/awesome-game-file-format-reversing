@@ -272,6 +272,7 @@
 - [BLPT](https://github.com/gdkchan/BLPT) - Package extractor/inserter for Brutal Legend's *.~h and *.~p archive files.
 - [PsyShrink](https://github.com/Zvetkov/PsyShrink) - Prototype tool to extract and repack Psychonauts' original archive files.
 - [PsychonautsStudio](https://github.com/RayCarrot/PsychonautsStudio) - Collection of file tools for the original Psychonauts.
+- [psypkg](https://github.com/panzi/psypkg) - Python script to list, unpack, and mount (read-only, via FUSE) Psychonauts `.pkg` archives; uncompressed version only.
 - [Open-Li-Po](https://github.com/Fancy2209/Open-Li-Po) - Reverse-engineering effort for Li-Po, the engine used by Psychonauts.
 
 #### Psygnosis
@@ -434,6 +435,7 @@
   - See also [io_scene_obj_rgba](https://github.com/RareExports/io_scene_obj_rgba), a Blender addon adding vertex color support to the OBJ importer for files exported by RareExports's tools above.
 - [Bottles_Glasses](https://github.com/RareExports/Bottles_Glasses) - Model and map renderer for Banjo-Kazooie and Banjo-Tooie.
 - [banjo-kazooie (decomp)](https://github.com/n64decomp/banjo-kazooie) - Matching decompilation of Banjo-Kazooie (N64).
+- [BanjoRecomp](https://github.com/BanjoRecomp/BanjoRecomp) - Banjo: Recompiled, a native PC port of Banjo-Kazooie (N64) made by statically recompiling the ROM with N64Recomp and rendering with RT64, with mod support.
 - [BinjoKazooie](https://github.com/ThatCowGuy/BinjoKazooie) - Parses, exports, and replaces data within Banjo-Kazooie model BIN files.
 - [bk_level](https://github.com/minirop/bk_level) - Converts binary level blobs from Banjo-Kazooie to/from `.obj` and `.yaml`.
 - [stop-n-swop-toolkit](https://github.com/AdamRVierra/stop-n-swop-toolkit) - Toolkit for swapping Stop 'n' Swop data between Banjo-Kazooie and N64 homebrew carts.
@@ -609,6 +611,7 @@
 #### Recettear: An Item Shop's Tale
 
 - [recettear-repacker](https://github.com/UnrealPowerz/recettear-repacker) - Python scripts to unpack Recettear's `dataxxx.bin` (via `lnkdatas.bin`) and `bmpdata.bin` archives and repack `bmpdata.bin`.
+- [OpenRecet](https://github.com/Francesco149/openrecet) - Work-in-progress C reimplementation of the Recettear engine that loads the original game data; `docs/formats` documents `data.bin`, `bmpdata`, SE pack, X model, text data and `recet.ini` formats.
 
 #### Red Storm Entertainment
 
@@ -704,6 +707,12 @@
 
 - [RF Online Addon](https://github.com/Cardboard-box-a/cbb-rf-online-addon) - Blender 4.3 importer/exporter for RF Online `.msh`, `.bn`, `.ani`, and `.bsp` formats.
 - [RFMapToolSharp](https://github.com/xuevertalex-web/RFMapToolMain) - C# (.NET 8) tool for extracting RF Online map geometry and exporting it to glTF Binary (.glb) format.
+
+#### Rhythm Heaven
+
+- [rhf (decomp)](https://github.com/conhlee/rhf) - Work-in-progress decompilation of Rhythm Heaven Fever (Wii, USA), built with decomp-toolkit and objdiff against `main.dol`, with optional BRSAR sound archive and `cellanim` data.
+- [textool](https://github.com/conhlee/textool) - Encodes and decodes the ZSTD-compressed `.tex` Tegra X1 texture files (BPTC/BC7; RGBA8 and RGBA4 pending) of Rhythm Heaven Groove (Switch).
+- [cwvtool](https://github.com/conhlee/cwvtool) - Encodes and decodes the `.cwv` sound files (custom ADPCM or PCM16 with loop, volume, pitch and pan data) of Rhythm Heaven Groove.
 
 #### Riot Games
 
@@ -918,6 +927,7 @@
 - [pyrpfiv](https://github.com/gmroder/pyrpfiv) - Python library for parsing and manipulating GTA IV's RPF (Resource Package Format) archives. Supports file extraction, modification, and encrypted TOC handling.
 - [noclip.website (Grand Theft Auto III)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto III viewer.
 - [openrw](https://github.com/rwengine/openrw) - Open source recreation of the classic Grand Theft Auto III game executable (Open ReWrite).
+- [OpenLiberty](https://github.com/openfw-game/OpenLiberty) - GTA III reimplementation in Godot that converts the original RenderWare map, collision, model and texture files at runtime and streams them in; ships no game files.
 - [noclip.website (Grand Theft Auto: Vice City)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: Vice City viewer.
 - [noclip.website (Grand Theft Auto: San Andreas)](https://github.com/magcius/noclip.website/tree/main/src/GrandTheftAuto3) - In-browser Grand Theft Auto: San Andreas viewer.
 - [RGLExtractor](https://github.com/Disquse/RGLExtractor) - Tool for extracting content from Rockstar Games Launcher RAGE packfiles (currently just Launcher.rpf). Uses RPF7 format with different AES encryption key.
@@ -931,6 +941,7 @@
 - [IMG Tool v1.3 (Grand Theft Auto III)](https://www.moddb.com/games/grand-theft-auto-3/downloads/iii-img-tool-v13)
 - [IMG Tool 2.0 (Grand Theft Auto: San Andreas)](https://www.moddb.com/games/grand-theft-auto-san-andreas/downloads/img-tool-20) - Tool for working with GTA3.img archive files from Grand Theft Auto 3, Vice City, and San Andreas. Required for installing modifications such as cars, skins, weapons, and other game assets (v2.0).
 - [carnage3d](https://github.com/codenamecpp/carnage3d) - Reimplementation of the original Grand Theft Auto (GTA1) engine, loading the original game data.
+- [OpenGTA](https://github.com/madebr/OpenGTA) - C++ viewer and tools for Grand Theft Auto 1 data (`.CMP`, `.GMP`, `.STY`/`.GRY` styles, `.FXT` text, `.FON` fonts) with sprite and format notes in `doc/`.
 - [g3GXT](https://github.com/guard3/g3GXT) - GXT (text table) compiler for GTA III and GTA Vice City, also usable for GTA: Liberty City Stories and Vice City Stories.
 - [gta-reversed](https://github.com/gta-reversed/gta-reversed) - Community reimplementation/reverse-engineering project for GTA: San Andreas (1.0 US), rewriting and documenting the game's functions.
 - [GTAViewer](https://github.com/GitExl/GTAViewer) - Engine/viewer for the top-down (2D) Grand Theft Auto games, reading original level and asset data.
@@ -942,6 +953,7 @@
 - [MDL_importer](https://github.com/spicybung/MDL_importer) - 3ds Max MaxScript importer for GTA Stories MDL models (originally by Alex/AK73 per the repo description); includes a Blender branch.
 - [Allens-MH2-Scripts](https://github.com/spicybung/Allens-MH2-Scripts) - 3ds Max import/export scripts for Manhunt 2 and Manhunt: MDL (PC) and DFF (PSP/PS2/Wii) models, IFP and BIN animations, and COL collision, with a helper that extracts Manhunt TXD/TEX textures.
 - [WDR-Analyzer](https://github.com/spicybung/WDR-Analyzer) - Java analyzer for GTA IV WDR (drawable model) files, based on decompiled source of an older tool by Shadow-Link; reads the RAGE resource header and LZX/Deflate-compressed data, then parses geometry, shader, and skeleton data.
+- [GTA4Unity](https://github.com/Infinity-Loops/GTA4Unity) - Unity 6 ECS loader that reads GTA IV's original files directly (IMG archives, WDR/WFT models, WTD textures, WPL/IPL placements, IDE definitions) via RageLib and renders the world.
 - [mtasa-blue](https://github.com/multitheftauto/mtasa-blue) - Multi Theft Auto: San Andreas, a large-scale multiplayer modification platform for GTA: San Andreas, reading and extending the original game's IMG/DFF/TXD/COL/IPL/IDE formats.
 - [GTAModTools](https://github.com/ParadoxEpoch/GTAModTools) - Collection of tools for building mods and extracting game data from GTA Trilogy: Definitive Edition.
 - [gta3sc](https://github.com/thelink2012/gta3sc) - Native compiler/decompiler for GTA3script, the language used for the mission scripts of the 3D Universe GTA games, also usable as a framework for working with SCM data.

@@ -51,6 +51,7 @@
 
 
 - [PokemonCreatorBlazor](https://github.com/berichan/PokemonCreatorBlazor) - Pokemon file and species editor built with .NET Blazor, using PKHeX and PKHeX-Plugins as a base for a generic file/entity editor.
+- [PKMDS-Blazor](https://github.com/codemonkey85/PKMDS-Blazor) - Offline-capable Pokémon save editor for the web built with Blazor WebAssembly on PKHeX.Core, editing party, boxes, and trainer data across the save formats PKHeX supports (saves only, no ROM hacks).
 - [spindafy](https://github.com/Ovidios/spindafy) - Genetic-algorithm search tool that finds a Pokémon personality value (PID) whose derived Spinda spot pattern matches a target image, built on the documented PID-to-spot-pattern generation algorithm.
 
 ##### Gen I & II
@@ -263,9 +264,9 @@
 #### Gameloft
 
 - [GameloftEngineLoader](https://github.com/REDxEYE/GameloftEngineLoader) - UniLoader addon for importing Gameloft engine PIG files. Supports meshes, textures, transforms, nodes, and compression (LZ4, ZSTD).
-- [DRVM](https://github.com/atwodots/DRVM) - Custom Java Virtual Machine implementation for reverse engineering the J2ME game Diamond Rush, including asset extraction.
+- [DRVM](https://github.com/VuqarAhadli/DRVM) - Custom Java Virtual Machine implementation for reverse engineering the J2ME game Diamond Rush, including asset extraction.
 - [Greenier-Farm-3-Decomp (decomp)](https://github.com/SmithGoll/Greenier-Farm-3-Decomp) - Matching decompilation of Green Farm 3.
-- [dia_data](https://github.com/SmithGoll/dia_data) - Research repository for the Nokia/J2ME game Diamond Rush: Gameloft BSprite (.bsprite, v1/v2/v3/v5) format notes, C parsers and tools for sprite and demo data, and extracted images, sprites, sounds, and maps. See also [DRVM](https://github.com/atwodots/DRVM) above.
+- [dia_data](https://github.com/SmithGoll/dia_data) - Research repository for the Nokia/J2ME game Diamond Rush: Gameloft BSprite (.bsprite, v1/v2/v3/v5) format notes, C parsers and tools for sprite and demo data, and extracted images, sprites, sounds, and maps. See also [DRVM](https://github.com/VuqarAhadli/DRVM) above.
 - [SF.GLA.Tool](https://github.com/Ekey/SF.GLA.Tool) (archived) - Tool for extracting GLA archives from Sniper Fury.
 - [Minion-Rush-Modding-Tools](https://github.com/marethyu/Minion-Rush-Modding-Tools) - Scripts for modding Minion Rush. Contains an editor for BLIBCLARA files.
 - [Game-Engines-Filetypes-Reverse-Engineering](https://github.com/lOlbas/Game-Engines-Filetypes-Reverse-Engineering) - Work-in-progress collection of 010 Editor templates, reading scripts, and file examples for various filetypes used across Gameloft games.
@@ -569,6 +570,10 @@
 #### Hacknet
 
 - [Hacknet_Save_Editor](https://github.com/TesterNaN/Hacknet_Save_Editor) - Python/Tkinter save editor for Hacknet XML saves: edit node IPs, names, passwords, ports and trace/proxy times, browse and edit each node's file system, create custom nodes with daemons, and encrypt/decrypt `.dec` files.
+
+#### Supergiant Games (Hades, Pyre, Transistor)
+
+- [deppth](https://github.com/quaerus/deppth) - Python CLI and library to decompress, extract, and pack the package files of Transistor, Pyre, and Hades, including sprite sheets (LZF for Transistor/Pyre, LZ4 for Hades).
 
 #### Haggard Games
 
@@ -918,7 +923,7 @@
 
 - [AnimeWwise](https://github.com/Escartem/AnimeWwise) - Extracts audio from HoYoverse games with original filenames and paths restored, built on Wwise's `.pck`/`.wem` audio bank formats.
 - [MeiBrowser](https://github.com/Escartem/MeiBrowser) - All-in-one tool for browsing and downloading HoYoverse game data packages. See also [MeiBrowser-rs](https://github.com/Yoshk4e/MeiBrowser-rs), a Rust rewrite.
-- [SophonDownloader](https://github.com/Escartem/SophonDownloader) - Downloads HoYoverse game assets using their Sophon chunked-download protocol. See also [Sophon-Downloader](https://github.com/GesthosNetwork/Sophon-Downloader), an independent, actively maintained C# reimplementation, and [Hi3Helper.Sophon](https://github.com/CollapseLauncher/Hi3Helper.Sophon), a reusable .NET library (also on NuGet) for parsing Sophon manifest and chunk streams.
+- [SophonDownloader](https://github.com/Escartem/SophonDownloader) - Downloads HoYoverse game assets using their Sophon chunked-download protocol. See also [Kitsune-Sophon-Downloader](https://github.com/GesthosNetwork/Kitsune-Sophon-Downloader), an independent, actively maintained C# reimplementation, and [Hi3Helper.Sophon](https://github.com/CollapseLauncher/Hi3Helper.Sophon), a reusable .NET library (also on NuGet) for parsing Sophon manifest and chunk streams.
 - [HoyoDL](https://github.com/Escartem/HoyoDL) - Python library to fetch game files at any version for any HoYoverse title.
 - [Kitsune-HDiff-Patcher](https://github.com/GesthosNetwork/Kitsune-HDiff-Patcher) - Applies official HDiff-based update patches across HoYoverse titles (Honkai: Star Rail, Zenless Zone Zero), detecting the installed game and running the matching patcher/game executable.
 - [pbzig-to-proto-restorer](https://github.com/GesthosNetwork/pbzig-to-proto-restorer) - Restores Protocol Buffers (`.proto`) definitions from the Zig-generated `.pb.zig` files found in newer HoYoverse clients, parsing Zig `struct`/`enum` definitions (including `cmd_id` network command constants) back into `.proto` format.
@@ -1042,7 +1047,7 @@
 
 ##### Clock Tower
 
-- [ctpsx](https://github.com/Gemini-Loboto3/ctpsx) - Decompilation project for Clock Tower: The First Fear, reverse engineering the PC version's virtual machine, map/entity data, and sprite handling while using PlayStation assets for higher fidelity.
+- [ctpsx](https://github.com/Gemini-REbirth/ctpsx) - Decompilation project for Clock Tower: The First Fear, reverse engineering the PC version's virtual machine, map/entity data, and sprite handling while using PlayStation assets for higher fidelity.
 
 #### Human Head Studios
 

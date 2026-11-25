@@ -411,7 +411,7 @@
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [blackandwhite_ci](https://github.com/Daniels118/blackandwhite_ci) - Modding toolkit for Black & White: Creature Isle, with parsers and decompilers for CHL binary game script files (bidirectional CHL ↔ source code conversion).
 - [Fable2AssetBrowser](https://github.com/adarec1994/Fable2AssetBrowser) - Browser for Fable 2's BNK archive files, with search and filtering of internal files.
-- [Fable2Recomp](https://github.com/Fable2Recomp/Fable2Remake) - Static recompilation of Fable 2 (Xbox 360) into native code.
+- [Fable2Recomp](https://github.com/Fable2Recomp/Fable-Return-to-Albion) - Static recompilation of Fable 2 (Xbox 360) into native code.
 
 #### The Game Kitchen (Blasphemous)
 
@@ -429,6 +429,7 @@
 - [JCASC](https://github.com/DrSuperGood/JCASC) - Pure Java, read-only CASC interface for Blizzard games like Warcraft III.
 - [StormLib](https://github.com/ladislav-zezula/StormLib) - Official library for reading and writing MPQ (MoPaQ) archives, the format used by Warcraft III, StarCraft, Diablo, and World of Warcraft (pre-Cataclysm). See also [wcx_mpq](https://github.com/ladislav-zezula/wcx_mpq), a Total Commander plugin built on StormLib for browsing MPQ archives as if they were folders.
 - [MPQExtractor](https://github.com/Kanma/MPQExtractor) - Command-line tool to extract files from Blizzard MPQ (MoPaQ) archives.
+- [Nmpq](https://github.com/Thenarden/nmpq) - Fully managed C# MPQ parser that reads archives from disk or directly from in-memory `byte[]`/`Stream` data without StormLib; read-only, available on NuGet.
 - [CASCExtractor](https://github.com/Kanma/CASCExtractor) - Command-line tool to extract files from Blizzard CASC storages.
 - [node-blizzard-casc](https://github.com/Kruithne/node-blizzard-casc) - Utility for interacting with the CASC CDN servers used to distribute Blizzard Entertainment game content. See also the same author's [node-blte](https://github.com/Kruithne/node-blte), a Node.js reader for the BLTE format found within CASC storage, and [node-jenkins96](https://github.com/Kruithne/node-jenkins96), an implementation of the Jenkins96 hashing algorithm used for CASC file lookups.
 
@@ -446,6 +447,7 @@
 - [WoWExportTools](https://github.com/Marlamin/WoWExportTools) (archived) - Export World of Warcraft assets to portable formats.
 - [WMVx](https://github.com/Frostshake/WMVx) - Fork and rewrite of Wow Model Viewer for browsing World of Warcraft models, supporting multiple client versions including Vanilla 1.12.1, TBC 2.4.3 and WotLK 3.3.5.
 - [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - Client database definitions for World of Warcraft (DBD files for extracting game data).
+- [BananaMpq](https://github.com/sgraf812/BananaMpq) - C# library that reads World of Warcraft MPQ archives and converts ADT terrain, WMO and doodad geometry into a scene for NavMesh generation, with a dumper example and an ADT geometry viewer.
 - [wowlib](https://github.com/skarndev/wowlib) - Modern C++26 library for reading and writing World of Warcraft client files across every expansion (Vanilla through The War Within): WMO, M2 (+ `.skin`/`.anim`/`.skel`/`.bone`), ADT, WDT, WDL, BLP, and DBC/DB2 (WDBC through WDC5, with typed record structs for 1221 tables generated from WoWDBDefs); provides a unified MPQ (via StormLib)/CASC (via CascLib) filesystem gateway plus Python bindings via the companion [welder](https://github.com/skarndev/welder) reflection-based binding generator.
 - [OWLib](https://github.com/overtools/OWLib) - DataTool program that lets you extract models, maps, and files from Overwatch.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
@@ -924,7 +926,7 @@
 
 ##### Dino Crisis
 
-- [Dino-Clasher](https://github.com/Gemini-Loboto3/Dino-Clasher) - Generic file extractor for Dino Crisis 1 & 2, currently supporting the PlayStation versions of both games.
+- [Dino-Clasher](https://github.com/Gemini-REbirth/Dino-Clasher) - Generic file extractor for Dino Crisis 1 & 2, currently supporting the PlayStation versions of both games.
 
 ##### Monster Hunter
 
@@ -995,6 +997,7 @@
 - [MMDK](https://github.com/alphazolam/MMDK) - Moveset editing toolkit for Street Fighter 6. Includes motion and collision data editors.
 - [3sx](https://github.com/crowded-street/3sx) - Native source port of Street Fighter III: 3rd Strike to modern platforms, requiring only the legally-obtained arcade ROM as a data dependency (neither a recompilation nor emulation).
 - [MoveTool](https://github.com/DoctorBearPhD/MoveTool) - Outputs JSON from Street Fighter V's BCM, BAC, and BCH (uasset) files and rebuilds those files from JSON, for editing move/hitbox data.
+- [USF4-Character-Extractor](https://github.com/Barnacle/USF4-Character-Extractor) - Character model viewer and exporter for Super/Ultra Street Fighter IV: previews models and textures, exports rigged models and animations to SMD and textures to DDS, and swaps EMA animations.
 - [sf6_rsz_parser](https://github.com/WistfulHopes/sf6_rsz_parser) - Rust parser for Street Fighter 6 RSZ data; currently parses only `.fchar` files extracted with RETool, with rebuilding and more file types planned (not archived).
 
 ##### CP System (Arcade)

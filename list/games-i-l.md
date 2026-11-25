@@ -657,6 +657,7 @@
 - [leaflitter (decomp)](https://github.com/darxoon/leaflitter) (archived) - Work-in-progress decompilation of Paper Mario: Sticker Star.
 - [noclip.website (PM64)](https://github.com/magcius/noclip.website/tree/main/src/PaperMario64) - In-browser Paper Mario 64 map viewer.
 - [star-rod](https://github.com/z64a/star-rod) - Modding tool for Paper Mario 64 including map editor and script tools.
+  - Legacy version: [Star Rod Classic](https://github.com/z64a/star-rod-classic) - Pre-decomp suite for editing assets of the US Paper Mario ROM.
 - [Hack64 Paper Mario](https://hack64.net/wiki/doku.php?id=paper_mario) - Documentation for Paper Mario 64 file formats and data structures.
 - [Mamar](https://github.com/bates64/mamar) - Paper Mario (N64) music editor; parses and extracts BGM and SBN audio file formats.
 - [Merlon](https://github.com/bates64/merlon) - Mod manager for the Paper Mario (N64) decompilation that packages and applies mods built on the decomp source.
@@ -677,6 +678,7 @@
 - [MeltyTool (TTYD)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/PaperMarioTheThousandYearDoor) - Model viewer/exporter.
 - [PistonMiner/ttyd-tools](https://github.com/PistonMiner/ttyd-tools) - Development tools including Blender exporter, disassembler, and REL linker.
 - [PaperMarioModelViewer](https://github.com/uyjulian/PaperMarioModelViewer) - Model viewer for Paper Mario games.
+- [Blender-TTYD-SPM-AGB](https://github.com/Minyatan/Blender-TTYD-SPM-AGB) - Partly functional Blender importer/exporter for Paper Mario: TTYD and Super Paper Mario AGB models and animations (texture and UV animations not yet implemented).
 - [lzarc](https://github.com/jam1garner/lzarc) - Rust library and CLI for extracting and packing LZARC compressed archives used in Paper Mario Color Splash.
 - [CollisionSceneBinary](https://github.com/KillzXGaming/CollisionSceneBinary) - A library and tool for handling csb and ctb collision files found in paper mario games.
 - [spm-docs](https://github.com/SeekyCt/spm-docs) - Documentation of various parts of Super Paper Mario's internal formats and data structures.
@@ -685,6 +687,7 @@
 - [TTYD Infinite Pit](https://github.com/jdaster64/ttyd-infinite-pit) - Roguelike mod of Paper Mario: TTYD's Pit of 100 Trials with seeded random enemy encounters, item drops, and chest rewards, built on PistonMiner's REL framework and patched onto a retail ISO via GCI loader.
 - [Tower of Trials](https://github.com/jdaster64/ttyd-tot) - Rogue-like mod of Paper Mario: TTYD reworking Hooktail Castle into a seeded roguelike tower with unlockable characters, moves, and badges; ships as a standalone ISO patcher built on PistonMiner's REL framework.
 - [evt-disassembler](https://github.com/SeekyCt/evt-disassembler) - Disassembler for the binary `evt` script format found in Super Paper Mario RAM dumps.
+  - Related: [evt-rs](https://github.com/SeekyCt/evt-rs) - Rust `evt` script disassembler with command-line and server modes.
 - [GhidraEvt](https://github.com/SeekyCt/GhidraEvt) - Ghidra extension integrating disassembly of the `evt` script format used by Paper Mario: The Thousand-Year Door and Super Paper Mario directly into the disassembly view.
 - [evt-assembler](https://github.com/SeekyCt/evt-assembler) (archived) - Assembler for Super Paper Mario's text-format `evt` scripts, with minor edits also supporting TTYD.
 - [Flipside-Mod-Manager](https://github.com/L5050/Flipside-Mod-Manager) - Command-line mod manager for Super Paper Mario; installs/uninstalls mods, patches the ROM to support loading REL mods, and backs up files replaced by mods.
@@ -693,6 +696,9 @@
 - [Paper-Mario-Tools](https://github.com/KillzXGaming/Paper-Mario-Tools) - Tools for Paper Mario games, including a LightConverter utility for converting light-probe binaries from Zstd-compressed assets, as used in the Paper Mario: The Thousand-Year Door Switch remake.
 - [Unsimplifier](https://github.com/Darxoon/Unsimplifier) - Browser-based data editor for the Paper Mario: The Thousand Year Door remake. Opens files from the game's romfs and edits object properties.
 - [samptool](https://github.com/ShrineFox/samptool) - Repacker for Paper Mario: The Thousand Year Door (GameCube) MusyX `.samp` sound archives, originally created by tge-was-taken in 2016. GUI and command-line.
+- [pyelf2rel](https://github.com/SeekyCt/pyelf2rel) - Python tool and library that builds GameCube/Wii REL modules from ELF files for Paper Mario: TTYD and Super Paper Mario mods. Links against other RELs and configurable to behave like ttyd-tools' elf2rel.
+- [Super-Paper-Mario-Level-Editor-Randomizer](https://github.com/skawo/Super-Paper-Mario-Level-Editor-Randomizer) - Level editor for Super Paper Mario's `setup` data that lists and edits each level's enemies, with enemy randomization presets. Extracts and repacks Wii ISOs through WIT.
+- [spm-save-editor](https://github.com/SeekyCt/spm-save-editor) (archived) - Command-line editor for Super Paper Mario `wiimario0X` save files that reads and edits a few values.
 
 ##### Paper Mario: The Origami King
 
@@ -741,6 +747,11 @@
 - [fallout2-save-editor](https://github.com/efossvold/fallout2-save-editor) - Save game editor for Fallout 2.
 - [fallout-2-editor](https://github.com/freesalu/fallout-2-editor) - Python command-line save game editor for Fallout 2 (written against the GOG version on macOS); edits stats, skills and perks directly in the save file.
 - [DarkFO](https://github.com/darkf/darkfo) (archived) - Browser-based (TypeScript/Python) reimplementation of the Fallout 2 engine, reading the original game's data files, with accompanying file format documentation.
+
+##### Fallout: Van Buren
+
+- [Van-Buren-Explorer](https://github.com/bsimser/Van-Buren-Explorer) - Windows file-explorer style tool for viewing and exporting contents of .GRP archives from the cancelled Fallout 3 "Van Buren" tech demo; exports TXT, INI, WAV, TGA and BMP, with a hex view for the unsupported formats (G3D, SMA, TRE, SKEL, ANIM, MAP, etc.).
+- [vbdecomp](https://github.com/kran27/vbdecomp) - Work-in-progress decompilation of the Fallout: Van Buren tech demo executable, with a catalog of its functions and an implementation status document.
 
 ##### Dragon Wars
 
@@ -869,6 +880,10 @@
 - [rsc-client](https://github.com/2003scape/rsc-client) - JavaScript/browser port of the leaked mudclient204 Java client, designed to run against rsc-server.
 - [rsc-server](https://github.com/2003scape/rsc-server) - Private server/MMORPG emulator for RuneScape Classic, compatible with rsc-client and the java-based mudclient204; uses the JSON data formats from rsc-data.
 - [rsc-world-map](https://github.com/2003scape/rsc-world-map) - Standalone JS interactive world map viewer for RuneScape Classic, rendering the landscape/dungeon data extracted by rsc-landscape.
+
+#### Jeff Wayne's The War of the Worlds
+
+- [WoW-Asset-Museum](https://github.com/danthemighty316-jpg/WoW-Asset-Museum) - Offline Windows browser-based viewer for the original 1998 PC game's resources (bring your own game data): fighting machines, buildings, terrain and battlefields, animations, artwork, cinematics, sounds and the original resource archives.
 
 #### Jellyvision
 
@@ -1034,10 +1049,12 @@
 - [fdata_dump](https://github.com/DeathChaos25/fdata_dump) - Extractor for Koei Tecmo's FData archive format.
   - Games: Fate/Samurai Remnant, Fairy Tail 2, Dynasty Warriors: Origin, Rise of the Ronin, Atelier Yumia, Fatal Frame II: Crimson Butterfly Remake, Fire Emblem Warriors: Three Hopes, Nioh 3.
 - [kvs-tools](https://github.com/Hairo/kvs-tools) (archived) - Tools for extracting and archiving Koei Tecmo's .ktsl2stbin archive format.
+- [game-save-dw3cer](https://github.com/VdustR/game-save-dw3cer) - Browser-local save patcher for Dynasty Warriors 3: Complete Edition Remastered (Steam): reads and rewrites the Unreal Engine GVAS `GameStatusData.sav` (officers, stages, weapons, items, bodyguards) with byte-identical native/browser output and input validation.
 
 ##### Fatal Frame
 
 - [himuro (decomp)](https://github.com/mikompilation/himuro) - Matching decompilation of Fatal Frame (PS2).
+- [Mikompilation (decomp)](https://github.com/Mikompilation/Mikompilation) - Decompilation and reimplementation project for Fatal Frame II: Crimson Butterfly (PS2), with documentation of the engine's SGD 3D model format and reversing headers.
 ##### Nioh
 
 - [RDBExplorer](https://github.com/MrIkso/RDBExplorer) - GUI archive browser, extractor, and injector for Nioh 3's .fdata/archive_xx.bin/.rdx files, with locale CSV pack/unpack tools.
@@ -1088,6 +1105,9 @@
 - [mempatcher](https://github.com/aixxe/mempatcher) - Drop-in replacement for bemanitools' mempatch-hook with extra features: auto-loading `.mph` patch files, file-based and host-executable offsets, and load-order guarantees so patches apply before the game's entrypoint runs.
 - [scharfrichter](https://github.com/SaxxonPike/scharfrichter) - Class library and CLI toolset for converting Konami arcade rhythm-game media: djmain and Twinkle (beatmania IIDX) hard drive images, bemanipc files, DDR SSQ charts, and Xbox/XAudio-based XWB/XSB audio banks used in later DDR games; also includes an experimental beatmania IIDX IFS extractor.
   - See also [RhythmCodex](https://github.com/SaxxonPike/RhythmCodex), the author's successor project, a C# rhythm game data tool.
+- [elpis](https://github.com/bnklaiman/elpis) - Python library that converts beatmania IIDX `.1` chart files and `.2dx`/`.s3p` audio containers into open `.bmson` charts and `.ogg` audio, merging the background-audio notes into a single track.
+- [BeMediaRipper](https://github.com/SaxxonPike/BeMediaRipper) (archived) - Original VB6 source of the author's 2008-era BEMANI ripping tools, with decoders for 2DX audio, PlayStation (PSX) audio, GCZ, TCB and TIM files plus a rip-list/job front end. Its successor is [scharfrichter](https://github.com/SaxxonPike/scharfrichter).
+- [ppptools](https://github.com/chrispable/ppptools) - Java tools for Para Para Paradise: parses the game's PPP chart files (endian-aware measures, lines and events) and converts them to StepMania SSC charts with a small GUI (PPP2SSC).
 - [afptools](https://github.com/camprevail/afptools) - Tools and an ImHex pattern for working with Konami's AFP graphics/animation format, used across BEMANI arcade titles. See also [AfpViewerEx](https://github.com/aixxe/AfpViewerEx), a hook for dumping rendered frames as transparent PNGs from the beatmania IIDX AFP viewer at runtime.
 - [SD9Tool](https://github.com/TheFooestBar/SD9Tool) - Extracts and imports audio (with loop-point and volume parameters) in Konami's SD9 format and SSP containers, used by Dance Dance Revolution and other BEMANI titles.
 - [ddr_arc_extract](https://github.com/mon/ddr_arc_extract) - Extracts files from DDRA (Dance Dance Revolution Arcade) archives.
@@ -1173,6 +1193,7 @@
 - [Shagohod](https://github.com/Jayveer/Shagohod) - Extracts Slot and Stage archive files from Metal Gear Solid 3, including the Subsistence version, with a filename dictionary to resolve hashes.
 - [Solideye](https://github.com/Jayveer/Solideye) - Extracts and repacks Slot, Stage, DAR, and QAR archive files from Metal Gear Solid 4, with decryption/encryption support for MGS4 Database disc, Metal Gear Online 2, and MGS4 Demo Package stage files.
 - [MGSDATool](https://github.com/gdkchan/MGSDATool) - Metal Gear Solid 3/4 translation toolkit.
+- [Codec](https://github.com/otac0n/Codec) - Asset browser and modding tool for the Metal Gear series (MGS1-MGS4, Peace Walker, Master Collection). Reads .dar, .dir, .qar, .slot, .pak, STAGE.DAT, FACE.DAT, RADIO.DAT and VOX.DAT archives and the Master Collection .psb.m packages, and previews CTXR, RPK, TXN, TXP textures, KMD, KMS, KMY and MDN models, and SDT, SDX and WVX sound packs (some formats read and write).
 
 ###### Models, Textures, Animation & Stage Tools
 

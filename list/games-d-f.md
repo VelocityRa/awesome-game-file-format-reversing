@@ -90,6 +90,7 @@
 ##### Total Overdose
 
 - [fmt_kapow](https://github.com/ExIfDev/fmt_kapow) - Total Overdose viewer/unpacker plugin for Noesis.
+- [TOD_tools](https://github.com/Michael0ne/TOD_tools) - Reverse-engineered Kapow engine and game code for Total Overdose (PC), buildable as a `dinput8.dll` plugin or replacement EXE. Includes `restools`, a viewer/extractor for `.main` asset block files, and bundles `naztozip` for converting the game's NAZ archives to ZIP.
 
 #### Delphine Software
 
@@ -379,6 +380,7 @@
 - [StarWars Battlefront unpacker / decoder](https://www.moddb.com/games/star-wars-battlefront/downloads/starwars-battlefront-unpacker-decoder) - Custom toolset for unpacking and extracting Star Wars: Battlefront archives.
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Official modding tools for creating levels in Star Wars: Battlefront. Originally from Game Front. Download subject to End User License Agreement terms.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - Polygon-based 3D object file format converter supporting 440 file formats.
+- [Unity-SWBF2-Import](https://github.com/Ben1138/Unity-SWBF2-Import) - Unity 2019.3 importer for Star Wars Battlefront II (2005) Mod Tools content: worlds (`.wld`), layers (`.lyr`), meshes with materials (`.msh`), and terrain height data (`.ter`).
 - [FrostyToolsuite](https://github.com/CadeEvs/FrostyToolsuite) - Comprehensive modding platform for games running on DICE's Frostbite engine. Provides an editor and plugin SDK for browsing, editing, and exporting Frostbite game assets.
 - [Bad-Company-2-Map-Editor](https://github.com/Powback/Bad-Company-2-Map-Editor) - Frostbite engine map editor for Battlefield: Bad Company 2; supports loading, editing, and saving terrain, models, and textures.
 - [Frostbite 3ds Max Scripts](https://github.com/Highflex/frostbite_3dsmax_scripts) - 3ds Max scripts for importing Frostbite engine assets, enabling mesh and skeleton extraction from Battlefield and other Frostbite games.
@@ -401,6 +403,7 @@
   - See also [brt-tools](https://github.com/WiiExpertise/brt-tools), Node.js tool converting Frostbite BundleRefTable (BRT) .res resources to and from JSON, with merging and duplicated-asset entry helpers; supports Madden NFL 24-27, College Football 27, EA SPORTS FC 24-26 and Dragon Age: The Veilguard.
   - See also [h2-visuals-tools](https://github.com/WiiExpertise/h2-visuals-tools), Node.js tool that extracts and rewrites records in Madden's EA Sports H2 (CharacterVisuals) archives and converts them to and from legacy CharacterVisuals JSON.
   - See also [madden-draft-class-tools](https://github.com/WiiExpertise/madden-draft-class-tools), npm library reading and writing Madden NFL 25 and 26 draft class files as JSON.
+- [madden-file-tools](https://github.com/bep713/madden-file-tools) - Node.js API for reading and extracting EA Madden files: TDB (legacy Madden, NCAA, Head Coach) and TDB2 (Madden 21+ rosters) read/write, and read-only AST archives.
 - [DbPatcher](https://github.com/CosmicDreamsOfCode/DbPatcher) - Patches bytecode inside Frostbite ShaderDb files.
 - [FrostBlend](https://github.com/nasa03/FrostBlend) - Blender nodegroup collection for setting up Frostbite game materials, for use alongside extracted Frostbite model/texture assets.
 
@@ -559,7 +562,7 @@ See also: [RenderWare](middleware.md#renderware).
   - Tools: MOHLevelViewer, MOHModelViewer, GFXModelViewer, SSTViewer, RSC Extractor, TIM Viewer, Sound Explorer.
   - Formats: TSB, TSP (level geometry/collision), BSD (scene/entity data), RSC archives, TIM textures.
 - [medal_of_honor_psx](https://github.com/SoapyMan/medal_of_honor_psx) - Reverse engineering of Medal of Honor (PSX) file formats.
-- [mohaa-model-viewer](https://github.com/searingwolfe/mohaa-model-viewer) - Browser-based viewer for Medal of Honor: Allied Assault that loads `.pk3` archives and displays `.skd`/`.skb` skeletal models with `.shader`-resolved textures, `.skc`/`.tik` animation playback and `.tik`/FX particle effects, with Wavefront `.obj` export.
+- [mohaa-model-map-viewer](https://github.com/searingwolfe/mohaa-model-map-viewer) - Browser-based viewer for Medal of Honor: Allied Assault that loads `.pk3` archives and displays `.skd`/`.skb` skeletal models with `.shader`-resolved textures, `.skc`/`.tik` animation playback and `.tik`/FX particle effects, with Wavefront `.obj` export.
 
 ##### Seven Cities of Gold
 
@@ -615,6 +618,9 @@ See also: [RenderWare](middleware.md#renderware).
 - [Museum of ZZT](https://github.com/DrDos0016/museum-of-zzt) - Archive and web application for preserving and cataloging ZZT worlds (.zzt/.szt) and their file formats.
 - [KevEdit](https://github.com/cknave/kevedit) - Editor for ZZT and Super ZZT worlds, reading and writing the games' native board/world file formats.
 - [ZztFormat](https://github.com/SaxxonPike/ZztFormat) - C# .NET library for reading and manipulating ZZT and Super ZZT world files.
+- [Roton](https://github.com/SaxxonPike/roton) - C# emulation of the ZZT and Super ZZT engines that loads original `.ZZT`/`.SZT` worlds, with an SDL front end (Lyon) and unit tests; informed by Reconstruction of ZZT.
+- [zztasm](https://github.com/cknave/zztasm) - ZZT Disassembly Project: annotated disassembly of `ZZT.EXE`, an IDA database and pseudocode documenting how ZZT creatures and board structures behave.
+- [Zap](https://github.com/SaxxonPike/Zap) (archived) - Old VB6 editor for ZZT worlds, with classes for ZZT worlds, boards, libraries, sound and help files plus an object-code editor.
 - [zookeeper](https://github.com/DrDos0016/zookeeper) - Python library for parsing and modifying ZZT worlds.
 - [zzt-toolbox](https://github.com/asiekierka/zzt-toolbox) - Scripts for ZZT and Super ZZT, including `boardwalk` (detects irregularities in `.ZZT` worlds to recover corrupt ones), `ezzt_cer_unpack` (unpacks ZZT Enhancer `.CER` files, with format notes), `mml2zzt`, `world_join` and a world graph generator.
 - [Solid HUD](https://github.com/DrDos0016/solid-hud) - ZZT v3.2 compatible engine with an advanced HUD, reading the original ZZT world/board file format.
@@ -670,6 +676,10 @@ See also: [RenderWare](middleware.md#renderware).
 
 - [unreal-archive](https://github.com/unreal-archive/unreal-archive) - Unreal series mod community content indexer for Unreal, UT, UT2003/2004, and UT3; scans and categorizes mod file formats.
 - [umod_tools](https://github.com/pummelator/umod_tools) - Command-line Python script for viewing and extracting the contents of UMOD archive files (Unreal Tournament mod/patch package format).
+
+#### Junction Point Studios (Epic Mickey)
+
+- [EpicMickeyLib](https://github.com/Fancy2209/EpicMickeyLib) - Python library for Epic Mickey (Wii) file formats: decompiles and recompiles scene/palette `.bin`, Havok `.hkx` animation, skeleton and collision, `.lua` scripts, `.pak` packfiles, `.clb` collectible databases and `.dct` dialog dictionaries, with texture `_tex.nif` conversion and partial `.nif` model support.
 
 #### Epyx
 
@@ -908,6 +918,7 @@ See also: [RenderWare](middleware.md#renderware).
 #### Fortune Summoners
 
 - [fortune_summoners_unpacker](https://github.com/vn-tools/fortune_summoners_unpacker) - Extracts sprites from Fortune Summoners: Secret of the Elemental Stone (Steam version) from the resources of `sotesd.dll`; notes on the other files; archived, merged into [arc_unpacker](https://github.com/vn-tools/arc_unpacker).
+- [OpenSummoners](https://github.com/Francesco149/OpenSummoners) - C reimplementation of the Fortune Summoners engine that runs from the original game's data (maps, Lizsoft sprites, sounds, strings); `docs/formats` and `docs/proofs` document the sprite, map, config.dat and save (`.sdt`) formats.
 
 #### Frame Gride
 
@@ -1114,6 +1125,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [ftl-save-editor](https://github.com/SamWylde/ftl-save-editor) - Desktop save editor and live memory trainer for FTL: Faster Than Light, with support for the Hyperspace and Multiverse mods.
 - [iOS-FTL-Save-Game-Editor](https://github.com/Tsubashi/iOS-FTL-Save-Game-Editor) - Python scripts for decoding and re-encoding the `continue.sav` save file of the iOS version of FTL; the README says it may also work on the desktop version.
 - [ftl-profile-editor (Vhati)](https://github.com/Vhati/ftl-profile-editor) - Desktop editor for FTL profiles (`prof.sav`, `ae_prof.sav`) and saved games, to unlock ships and achievements or tweak crew, fires, breaches and stores; reads resources from the game directory without modifying it. Fork of ComaToes/ftl-profile-editor with many later commits.
+- [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager) - Java mod manager for FTL: Faster Than Light (1.01-1.6.3) that patches the game's `.dat` resource archives to install several mods at once and revert to vanilla, applying XML-patch mods through a sloppy XML parser. Bundles the `ftldat` library (`FTLPack`/`PkgPack`/`FolderPack`) for reading, unpacking and repacking FTL `.dat` archives. Successor to Grognak's Mod Manager.
 
 #### Funatics Software
 

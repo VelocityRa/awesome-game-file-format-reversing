@@ -106,6 +106,7 @@
 ##### The Sims 1
 
 - [Simitone](https://github.com/riperiperi/Simitone) - Re-implementation of The Sims 1 based on FreeSO, parsing original Sims game data files (IFF/FAR proprietary formats).
+- [SimObliterator Suite](https://github.com/DnfJeff/SimObliterator_Suite) - Python IFF editor and analyzer for The Sims 1 (Windows desktop app plus browser viewers): parses IFF, FAR1, FAR3 and DBPF archives with 38 chunk parsers, disassembles BHAV behaviors, edits object SLOT/TTAB data and saves, exports sprites (PNG) and meshes (glTF/GLB), and audits STR# localization.
 
 ##### The Sims Bustin' Out
 
@@ -597,6 +598,7 @@
 - [WorldPruner](https://github.com/Querz/WorldPruner) - GUI and command-line app to prune chunks from a Minecraft Java Edition world (Anvil region/MCA format), by the same author as mcaselector above.
 - [MCMapViewer](https://github.com/Querz/MCMapViewer) - Tool to view and edit Minecraft maps.
 - [Minecraft-Overviewer](https://github.com/overviewer/Minecraft-Overviewer) - Renders high-resolution, zoomable Leaflet maps of a Minecraft world directly from its Anvil region/chunk save data.
+  - See also [The-Minecraft-Overviewer](https://github.com/GregoryAM-SP/The-Minecraft-Overviewer), a community-maintained continuation covering Java Edition 1.2.1 and later.
 - [mcmap](https://github.com/spoutn1k/mcmap) - Pixel-art isometric map visualizer for Minecraft, rendering images directly from world save data.
 - [MinedMap](https://github.com/neocturne/MinedMap) - Incremental Minecraft world map renderer/viewer written in Rust, parsing Anvil region/chunk data directly to generate tiled web maps for large multiplayer worlds.
 - [Minutor](https://github.com/mrkite/minutor) - Cross-platform Minecraft world map viewer, rendering biome, height, spawn, and other overlays directly from Anvil region/chunk save data.

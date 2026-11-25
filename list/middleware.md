@@ -33,6 +33,7 @@
 - [HavokPreviewToolsBatch2018](https://github.com/asasasasasbc/HavokPreviewToolsBatch2018) - Batch conversion script for Havok Preview Tool 2018 that can automatically convert Havok HKX/HKT files' format.
 - [hkxlib](https://github.com/aerisarn/hkxlib) - JAXB parser for editing TAGXML formatted Havok files.
 - [hkxEdit](https://github.com/aerisarn/hkxEdit) - Visual editor for Havok 2010.2 files based on hkxlib, written in Java.
+- [hkxpack](https://github.com/Dexesttp/hkxpack) - Java CLI to pack and unpack Havok `.hkx` files (hk_2014.1.0-r1, as used in Fallout 4) to and from TagXML.
 - [TagTools](https://github.com/blueskythlikesclouds/TagTools) - Tools for editing Havok 2015/2016 binary tag files. Includes TagTools converter and CollisionConverter for converting rigid bodies to static compound shapes with type and flag tags.
 - [HKCLTool](https://github.com/VelouriasMoon/HKCLTool) - Editing tool for Havok `.hkcl` cloth files built on the HKX2 library. Merges, lists, removes cloth entries and converts platforms.
 - [FF16-Model-Importer](https://github.com/KillzXGaming/FF16-Model-Importer) - Tool to export and import Final Fantasy XVI .mdl file binaries as .gltf or .dae.
@@ -121,6 +122,10 @@
 #### NW4R (Nintendo Wii Revolution SDK)
 
 *Nintendo's Wii-era NW4R middleware, covering models, UI layouts, textures, and sound archives used across first-party and licensed Wii titles (and its NW4R/BRRES format family reused in later NintendoWare SDKs).*
+
+- [Pysar](https://github.com/Developers-Collective/Pysar) - Desktop editor for Nintendo Wii BRSAR sound archives. Browses and previews streams, wave sounds, sequences, banks and wave archives, imports, replaces and exports resources, and converts BRSTM, BRSEQ, BRBNK, BRWAR and BRWAV to and from WAV, MIDI and SoundFont 2.
+- [wuj5](https://github.com/stblr/wuj5) - Converts Wii UI formats to JSON5 and back: BRCTR and BRLAN fully, BRLYT and Mario Kart Wii BMG partially, plus SZS (U8 + Yaz0) archives.
+- [Actually-Working-BREFF-Converter](https://github.com/NSMBW-Community/Actually-Working-BREFF-Converter) - Python tool that converts NW4R BREFF particle effect files to per-effect JSON and back. Supports versions 9 to 11 (Mario Kart Wii, New Super Mario Bros. Wii, Wii Sports 1.1+).
 
 
 #### SEAD (Nintendo EAD/EPD Engine)
@@ -461,6 +466,7 @@
 - [NDecrypt](https://github.com/SabreTools/NDecrypt) - Encryption/decryption utility for Nintendo cartridge images, supporting Nintendo DS, DSi, 3DS, and New 3DS cartridge formats.
 - [3dsconv](https://github.com/ihaveamac/3dsconv) - Python script converting Nintendo 3DS CCI (.cci/.3ds) cart images to the CIA format, with support for decrypted, NCCH-encrypted, and zerokey-encrypted images.
 - [pyctr](https://github.com/ihaveamac/pyctr) - Python library for reading Nintendo 3DS file formats (NCCH, ExeFS, RomFS, CIA, and more), used by several other 3DS tools.
+- [DotNet3dsToolkit](https://github.com/evandixon/DotNet3dsToolkit) - .NET library for extracting decrypted CCI, CIA, CXI, RomFS and ExeFS files and rebuilding CXI, RomFS and ExeFS.
 - [3DS-rom-tools](https://github.com/ihaveamac/3DS-rom-tools) - Tools and guides for working with Nintendo 3DS game/application formats (.3ds, .cci, .app, .cxi, .cfa, .cia).
 - [rofs_dumper](https://github.com/PabloMK7/rofs_dumper) - Dumps very early Nintendo 3DS ROFS containers.
 - [3dsconv-c](https://github.com/soarqin/3dsconv-c) - C port of ihaveamac's 3dsconv, converting Nintendo 3DS CCI cart images to CIA format.
@@ -538,6 +544,7 @@
 - [nod](https://github.com/encounter/nod) - Rust library for reading and writing Nintendo Optical Disc images (GameCube and Wii). Includes nodtool CLI for extraction, conversion, and verification.
   - Formats: ISO (GCM), WIA/RVZ, WBFS, CISO, NFS (Wii U VC), GCZ, TGC.
 - [GCReLink](https://github.com/Cuyler36/GCReLink) (archived) - Tool for unpacking and repacking GameCube and Wii relocatable modules (REL files).
+- [elf2rso](https://github.com/InusualZ/elf2rso) - Converts ELF shared objects to Nintendo's relocatable shared object (RSO) module format, with control over exported symbols.
 - [triforce-nand-iso-extract](https://github.com/FIX94/triforce-nand-iso-extract) - Converts Triforce (Namco/Sega/Nintendo GameCube-based arcade board) NAND images to ISO files.
 - [triforce-header-patcher](https://github.com/FIX94/triforce-header-patcher) - Verifies Triforce arcade disc images and patches in the correct headers.
 - [pyisotools](https://github.com/JoshuaMKW/pyisotools) - Python library for working with GameCube ISOs (GCM).
@@ -590,6 +597,7 @@
 - [DTMEditor](https://github.com/lioncash/DTMEditor) (archived) - GUI editor for Dolphin emulator DTM tool-assisted-speedrun movie files.
 - [wii-banner-sound-extractor](https://github.com/DrRetroMod/wii-banner-sound-extractor) - Python tool for extracting the Wii menu/banner sound from Wii game images, saving it as an MP3.
 - [mo2mp4](https://github.com/RiiConnect24/mo2mp4) - Converts Wii Mobiclip `.mo` video files to `.mp4`, combining the Wii Mobiclip SDK with Gericom's MobiclipDecoder. See also [mobiclip-conversion-tool](https://github.com/RiiConnect24/mobiclip-conversion-tool) for the reverse (encoding) direction (binary-only release).
+- [avthp](https://github.com/jackoalan/avthp) - FFmpeg-based encoder that produces Nintendo GameCube THP video files.
 - [mpls_movie-decomp](https://github.com/RootCubed/mpls_movie-decomp) - Decompilation of the Wii Motion Plus Demo Video Player, the built-in Wii channel demonstrating Wii Motion Plus.
 - [NUSGet](https://github.com/NinjaCheetah/NUSGet) - Modern Qt6 GUI NUS content downloader for Wii, vWii, and DSi built on libWiiPy/libTWLPy; decrypts contents and packs installable WAD/TAD archives, with vWii Common Key re-encryption support.
 - [wii-menu-visual-patcher](https://github.com/NinjaCheetah/wii-menu-visual-patcher) - Shell script that unpacks the Wii System Menu's `diskBann.ash` banner, patches the Disc Channel to show its normally-hidden DVD icon, and repacks the banner and System Menu WAD with the modified files; includes a variant for Korean/Wii Mini consoles.
@@ -622,6 +630,7 @@
 - [Nds4j](https://github.com/turtleisaac/Nds4j) - Java library for Nintendo DS formats.
 - [REGames Editor](https://www.reddit.com/r/REGames/comments/12o004k/a_friend_and_i_made_a_full_editor_for_a_nintendo/) - Full-featured editor for Nintendo DS games.
 - [NitroModel ConverterGUI](https://github.com/TheGameratorT/NitroModel_ConverterGUI) - Converts between Nintendo DS Nitro model formats (NSBMD/NSBTX from ASS/IMD).
+- [nlzss](https://github.com/magical/nlzss) - Python tools to compress and decompress Nintendo's LZ10 and LZ11 LZSS formats and decompress overlays, as used in DS games such as Pokemon.
 - [NCPatcher](https://github.com/TheGameratorT/NCPatcher) - Universal Nintendo DS code maker/patcher that modifies a ROM's ARM7/ARM9 executable binaries for code injection, working on an already-extracted ROM filesystem.
 - [Pacha](https://github.com/turtleisaac/Pacha) - Python region-agnostic Nintendo DS ROM patcher that creates patches replacing individual NARC files or NARC subfiles without touching the rest of the ROM; arm9/arm7/overlay patches use xdelta3 and are locked to the region of the ROM they were made from.
 - [sdatxtract](https://github.com/oreo639/sdatxtract) - Command-line Nintendo DS Sound DATa (SDAT) extraction utility.
@@ -1050,6 +1059,7 @@
 - [smxtool](https://github.com/Lameguy64/smxtool) - Editing tool for PlayStation RSD and SMX model data formats. See also [Blender-RSD-Plugin](https://github.com/Lameguy64/Blender-RSD-Plugin), a Blender plugin for exporting models in the PlayStation SDK RSD format.
 - [psx_psyq_signatures](https://github.com/lab313ru/psx_psyq_signatures) - Signatures for PlayStation 1 PsyQ SDK LIB/OBJ files in JSON form, for identifying statically-linked SDK code in PS1 binaries. See also [psx_psyq_flair](https://github.com/lab313ru/psx_psyq_flair), the same signatures in IDA FLAIR format.
 - [ps2-tim2-tool](https://github.com/PS2HomeDeveloper/ps2-tim2-tool) - Tool for working with the PS2 TIM2 texture format, used across many PS2 titles.
+- [tim2](https://github.com/GirianSeed/tim2) - Archive of the official PlayStation 2 TIM2 and CLUT2 texture format specification (ver. 4), sample sources and sample images released by web technology Corp. in 1999, plus the SCEI-modified TIM2 sources from the EE runtime library samples.
 - [ps1-tim-tool](https://github.com/PS2HomeDeveloper/ps1-tim-tool) - Command-line converter between PNG/JPG/BMP/TGA/WebP and Sony's official TIM texture format for the original PlayStation. Supports all 4 real TIM pixel formats (4/8/16/24-bit), VRAM/TPAGE/CLUT ID placement, multi-palette recoloring, dithering, batch conversion, and TIM verification/diffing.
 - [mipsasm (cakehonolulu fork)](https://github.com/cakehonolulu/mipsasm) - MIPS assembler targeting the PS2 Emotion Engine and IOP; fork of [imaandrew/mipsasm](https://github.com/imaandrew/mipsasm) (originally targeting the N64) retargeted for PS2.
 - [psvimgtools](https://github.com/yifanlu/psvimgtools) - Decrypts PlayStation Vita CMA backup images.
@@ -1125,7 +1135,7 @@
 - [ps4-eboot-dlc-patcher](https://github.com/idlesauce/ps4-eboot-dlc-patcher) - Patches a PS4/PS5 eboot (or other executable) to replace calls into `libSceAppContent`/`libSceNpEntitlementAccess` with a custom PRX, so DLC loads from the base F-PKG when the DLC F-PKGs themselves don't work.
 - [PS5PKGReader](https://github.com/SvenGDK/PS5PKGReader) - Reads PS5 PKG files and extracts (some) content. Archived/no longer maintained.
 - [PS Multi Tools](https://github.com/SvenGDK/PS-Multi-Tools) - Cross-platform desktop toolkit for PlayStation modders covering PS1-PS5: BIN/CUE to ISO conversion, PS2 STAR and PAK extraction, PS3 ISO tools, PKG extraction/info, PUP unpacking, RCO dumping and SELF reading, PARAM.SFO and PS5 param.json editors, and AT9/WAV conversion.
-  - Companions: [PSX XMB Manager](https://github.com/SvenGDK/PSX-XMB-Manager) (PSX DVR installer and manager that also edits XMB `.xml`/`.dic` files, converts CUE to POPS VCD, extracts STAR/PAK files, decrypts KELF/REL files and unpacks PS2/PSX BIOS files), [PS Classics fPKG Builder](https://github.com/SvenGDK/PS-Classics-fPKG-Builder) (builds PS1/PS2/PSP fake packages for PS4/PS5 from `.BIN`/`.ISO` files, with automatic TOC generation for PS1 games using CDDA music).
+  - Companions: [PSX XMB Manager](https://github.com/SvenGDK/PSX-XMB-Manager) (archived) (PSX DVR installer and manager that also edits XMB `.xml`/`.dic` files, converts CUE to POPS VCD, extracts STAR/PAK files, decrypts KELF/REL files and unpacks PS2/PSX BIOS files), [PS Classics fPKG Builder](https://github.com/SvenGDK/PS-Classics-fPKG-Builder) (builds PS1/PS2/PSP fake packages for PS4/PS5 from `.BIN`/`.ISO` files, with automatic TOC generation for PS1 games using CDDA music).
 - [garlic-savemgr](https://github.com/earthonion/garlic-savemgr) - PS5 payload that decrypts, encrypts, and browses PS5 save data through an embedded web UI.
 - [pkgdec5](https://github.com/zecoxao/pkgdec5) - Decrypts and extracts the "meta" files inside a PS5 PKG that are encrypted with entry-3 keys; port of RedEyeX32's original pkgdec for the PS5.
 - [PSPModBase](https://github.com/xan1242/PSPModBase) - Plugin base and collection of basic libraries for PSP game modding and code injection.

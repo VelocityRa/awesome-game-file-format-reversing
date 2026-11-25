@@ -56,6 +56,7 @@
 - [lfgfx](https://github.com/ethteck/lfgfx) - Python tool for reverse-engineering and analyzing N64 graphics data blobs (display lists, vertex data, textures, palettes).
 - [Motex](https://github.com/jpburnett/motex) - N64 texture viewer for analyzing and inspecting N64 binary texture data; useful for reverse-engineering game texture formats.
 - [GTX-Extractor](https://github.com/aboood40091/GTX-Extractor) - Extractor for GTX (GX2 Texture) format in Wii U games with bidirectional conversion.
+- [ninTexUtils](https://github.com/aboood40091/ninTexUtils) - Python library for reading, converting and writing Nintendo platform textures, currently Wii U GX2/GTX (with addrlib swizzling, BCn and DDS support); Switch XTX/BNTX support is planned.
 - [BNTX-Extractor](https://github.com/aboood40091/BNTX-Extractor) - Extractor for BNTX (Binary NX Texture) format in Nintendo Switch games.
   - Formats: BC1-BC7, RGBA variants, ASTC variants
 - [BNTX-Injector](https://github.com/aboood40091/BNTX-Injector) - Injects textures into Binary Resources Texture (BNTX) files without changing the BNTX size.
@@ -137,6 +138,7 @@
 ### 📦 Archive Extractors
 
 - [QuickBMS](https://aluigi.altervista.org/quickbms.htm) - Universal archive extractor and reimporter with extensive script database covering thousands of games. Uses BMS scripting language to describe archive formats.
+- [Deark](https://github.com/jsummers/deark) - Command-line utility that decodes and extracts retro and legacy file formats (Doom WAD, Amiga ILBM/IFF, PC BSAVE and MegaPaint BLD images, AMOS sprite banks, Amiga icons and many more), converting them to modern formats or ZIP.
 - [RTB-QuickBMS-Scripts](https://github.com/RandomTBush/RTB-QuickBMS-Scripts) - Collection of QuickBMS scripts for various games.
 - [isodump](https://github.com/Lameguy64/isodump) - PlayStation ISO content extraction tool. Extracts files from PSX ISO/BIN images, supports ISO9660 filesystem, XA and STR files. Generates MKPSXISO-compatible XML project files for rebuilding ISOs.
 - [PKGTool](https://github.com/thesupersonic16/PKGTool) - Tool for extracting and repacking PKG files from The Legend of Heroes: Trails of Cold Steel.
@@ -393,10 +395,11 @@
 - [Ipu-Codec](https://github.com/OAleex/Ipu-Codec) - Converter for PlayStation 2 IPU (MPEG2-based) video files.
 - [PAMFtool](https://github.com/ravenDS/PAMFtool) - Muxer/demuxer for Sony's PAMF (PlayStation Advanced Movie Format) container, found in PS3 games.
 - [IPUenc](https://github.com/ravenDS/IPUenc) - Encoder/decoder for PlayStation 2 IPU (MPEG2-based) video files, distinct from Ipu-Codec above.
+- [IPUDecoder](https://github.com/samehb/IPUDecoder) - Command-line decoder that converts PlayStation 2 IPU videos to M2V (MPEG-2), based on Holger Kuhn's decoder with fixes and support for all IPU variants.
 - [LightAT3](https://github.com/unknowall/LightAT3) - Pure C#/.NET ATRAC3/AT3plus/MP3/AAC decoder with no FFmpeg dependency, used by the ScePSP emulator.
 - [ATRACTool-Reloaded](https://github.com/XyLe-GBP/ATRACTool-Reloaded) - GUI converter for Sony ATRAC3/ATRAC3+/ATRAC9 and NUS3BANK audio formats used across PSP/PS3/arcade games.
 - [atrac3p-decoder2](https://github.com/chyyran/atrac3p-decoder) - Rust library decoding ATRAC3+ audio from `.at3`/RIFF WAV containers, the Sony codec used for PSP/PS2/PS3 game audio (e.g. Persona, Final Fantasy titles). Maintained fork of tarkah's original atrac3p-decoder, republished as its own crate with modernized dependencies and static Huffman tables.
-- [ff_libs](https://github.com/Gemini-Loboto3/ff_libs) - Single-file, dependency-free C decoding libraries (dr_libs-style API) for Opus, Vorbis, WMA, and Sony's ATRAC3/ATRAC3+ codecs, adapted from FFmpeg for easy embedding in game-audio tooling.
+- [ff_libs](https://github.com/Gemini-REbirth/ff_libs) - Single-file, dependency-free C decoding libraries (dr_libs-style API) for Opus, Vorbis, WMA, and Sony's ATRAC3/ATRAC3+ codecs, adapted from FFmpeg for easy embedding in game-audio tooling.
 - [musyxboy](https://github.com/byvar/musyxboy) - Scanner and converter for MusyX audio data used in Game Boy Advance games.
 - [musyx](https://github.com/GauChoob/musyx) - Guide to the structure of MusyX data files used in Game Boy and Game Boy Color games, with a Python script that converts the data back into project files.
 - [gaxm](https://github.com/byvar/gaxm) - Experimental converter from GAX (Shin'en's Game Boy Advance audio engine) to XM tracker format.
@@ -620,7 +623,7 @@
 - [PS2Recomp](https://github.com/ran-j/PS2Recomp) - Static recompiler and runtime that converts PlayStation 2 ELF binaries into C++ to produce native PC ports.
 - [SR (Static Recompiler)](https://github.com/M-HT/SR) - Static recompilation project that converts several classic DOS games into native Windows/Linux (x86/ARM) ports (Albion, Septerra Core, X-COM, Warcraft: Orcs & Humans, and others).
 - [NWiiRecomp](https://github.com/BlackLineInteractive/NWiiRecomp) (archived) - Static recompilation and runtime toolkit for Nintendo GameCube and Wii binaries, for building native PC ports.
-- [nWiiURecomp](https://github.com/BlackLineInteractive/nWiiURecomp) - Static recompilation and runtime toolkit for Nintendo Wii U binaries (based on NWiiRecomp), for building native PC ports.
+- [nWiiURecomp](https://github.com/BlackLineInteractive/nWiiURecomp) (archived) - Static recompilation and runtime toolkit for Nintendo Wii U binaries (based on NWiiRecomp), for building native PC ports.
 - [SHO-GTA-VCS-PS2Recomp](https://github.com/BlackLineInteractive/SHO-GTA-VCS-PS2Recomp) (archived) - Application of PS2Recomp specifically tailored with function maps/configs to statically recompile Silent Hill Origins and GTA: Vice City Stories.
 - [VCSNative](https://github.com/senyarom/vcs-native) - Native recompilation of the US PSP release of Grand Theft Auto: Vice City Stories (`ULUS10160` v1.03), translating the original Allegrex executable to native code.
 - [rexglue-sdk](https://github.com/rexglue/rexglue-sdk) - Xbox 360 recompilation runtime and toolkit, used by static recompilation PC ports of Xbox 360 games.

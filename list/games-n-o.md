@@ -119,11 +119,13 @@
 - [wzpp](https://github.com/koolkdev/wzpp) - C++ library for reading MapleStory's WZ archive format.
 - [wzmapeditor](https://github.com/koolkdev/wzmapeditor) - Map editor for MapleStory.
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) - MapleStory WZ archive extractor and viewer, with support for browsing and exporting game assets.
+- [HaSuite / Harepacker resurrected](https://github.com/lastbattle/Harepacker-resurrected) - MapleStory tool collection with HaRepacker, a `.wz` file editor, and HaCreator, a map/field editor, built on MapleLib; handles WZ archives across client versions, with unit tests for WZ files.
 - [reWZ](https://github.com/angelsl/reWZ) (archived) - C# library for reading MapleStory's WZ archive format.
 - [reNX](https://github.com/angelsl/reNX) (archived) - C# library for reading MapleStory's NX (PKG4) archive format, the successor to WZ.
 - [wz2nx](https://github.com/angelsl/wz2nx) (archived) - Tool to convert MapleStory WZ archives to the NX (PKG4) format.
 - [MapleStory-Porting (Pharaoh)](https://github.com/flwmxd/MapleStory-Porting) - Collection of MapleStory tools including a client-editor, file-browser, and client, supporting the game's WZ files.
 - [WzTools](https://github.com/flwmxd/WzTools) - C++ reader library for MapleStory's WZ client resource files, exposing a node-based (`WzFile`/`WzNode`) API for browsing archive contents.
+- [wz](https://github.com/xsoameix/wz) - Small C99 library (zlib only) for reading MapleStory `.wz` files, with path-based node lookup and bindings-friendly API.
 - [Limbs_XML_Parser](https://github.com/sirLimbs/Limbs_XML_Parser) - GUI tool for parsing and diffing XML exports of MapleStory's Map.wz data, extracting and comparing object, NPC, monster, reactor, and background placements across map versions.
 - [WzVisualizer](https://github.com/izarooni/WzVisualizer) - C# desktop viewer for MapleStory `.wz` and `.img` files with searchable tables of properties and images, CSV export, and cached binary data to skip repeated WZ decryption.
 - [nxfs](https://github.com/Francesco149/nxfs) - Read-only FUSE filesystem for MapleStory's NX file format, based on tinynx; exposes nodes as directories with integer, string, real and vector values printed as valid JSON.
@@ -133,7 +135,9 @@
 - [Maple2-Client](https://github.com/kOchirasu/Maple2-Client) - Research and tools for the MapleStory 2 client.
 - [MapleServer2](https://github.com/AlanMorel/MapleServer2) - MapleStory 2 server emulator with protocol research.
 - [MS2Lib](https://github.com/Miyuyami/MS2Lib) - Library for reading and manipulating MapleStory 2 game archives (M2D/M2H).
+- [Orion2-Repacker](https://github.com/EricSoftTM/Orion2-Repacker) - HaRepacker-style editor for MapleStory 2 archives (MS2F, NS2F, OS2F, PS2F); browses, renders (`.ini`, `.nt`, `.lua`, `.xml`, `.flat`, `.xblock`, `.png`, `.dds`), modifies, exports and saves back.
 - [Maple2.File](https://github.com/kOchirasu/Maple2.File) - MapleStory 2 M2D file parsing library. See also [MS2Community's fork](https://github.com/MS2Community/Maple2.File) with additional community maintenance.
+- [Maple2Tools](https://github.com/Wunkolo/Maple2Tools) (archived) - C++ research tools for MapleStory 2's M2H/M2D virtual filesystem: Expand unpacks every `.m2h`/`.m2d` pair in a game directory into folders (multi-threaded, memory-mapped), and Pack builds new pairs for the MS2F/NS2F/OS2F/PS2F stream versions.
 ##### Dave the Diver
 
 - [DiveSaveEd](https://github.com/hypery11/DaveTheDiverSaveEditor) - Native macOS save editor for Dave the Diver (Mintrocket/Nexon), decoding the game's GameSave_XX_GD.sav format, including its character-level XOR codec, to edit currencies, inventory, and items via a read-only JSON save inspector.
@@ -410,6 +414,7 @@
 - [RedPepper-ClassDataBase](https://github.com/fruityloops1/RedPepper-ClassDataBase) - Class database supporting the Redpepper decompilation of Super Mario 3D Land.
 - [mizuna-utils](https://github.com/tetraxile/mizuna-utils) - Scripts for games built on Nintendo's ActionLibrary (AL) engine, including an object search tool across a game's romfs stages and readers/writers for Yaz0, SARC/SZS, BYML, and MSBP files.
   - Games: Super Mario Odyssey, Super Mario 3D World.
+- [Autumn](https://github.com/Jenrikku/Autumn) - Work-in-progress C# stage editor for Super Mario 3D Land (Nintendo 3DS) with a 3D renderer and a class database for the game's objects, cameras, fog and lights.
 
 ###### Mario Kart
 
@@ -465,7 +470,9 @@
 
 - [red-pro2 (decomp)](https://github.com/aboood40091/red-pro2) - Matching decompilation of New Super Mario Bros. U v1.3.0 (US).
 - [Miyamoto](https://github.com/aboood40091/Miyamoto) - Level editor for New Super Mario Bros. U on Wii U. Works with game level files (SZS format), Yaz0 compression, tileset and sprite data.
+- [Pyamoto](https://github.com/Zenith-Team/Pyamoto) - Actively maintained Python/Qt fork of the Miyamoto level editor for New Super Mario Bros. U with added functionality and usability improvements.
 - [Puzzle-HD](https://github.com/RoadrunnerWMC/Puzzle-HD) - Graphical tileset editor for New Super Mario Bros. U.
+- [RPRH-Converter](https://github.com/techmuse8/RPRH-Converter) - Python script that converts New Super Mario Bros. U (Wii U) challenge replay files (`rp_challenge_replayXX.dat`) into title-screen replay files (`title000.dat` to `title008.dat`) and reports the level a replay is for (does not support the Deluxe version).
 - [CoinKiller](https://github.com/ExplosBlue/CoinKiller) - Level editor for New Super Mario Bros. 2.
 - [nsmb2-headers](https://github.com/SMBNext/nsmb2-headers) - Partial documentation of New Super Mario Bros. 2 header structures, stripped from the SMBNext decompilation project (no longer updated).
 - [codedx](https://github.com/RicBent/codedx) - Build system and code-injection framework for New Super Mario Bros. U Deluxe (Switch), compiling and hooking custom C code into the game with header definitions for its actors, collision, and effects systems.
@@ -534,6 +541,8 @@
 - [camelotgcdatatool](https://github.com/gamemasterplc/camelotgcdatatool) - Camelot GameCube games (Mario Golf: Toadstool Tour and Mario Power Tennis) data decoder/encoder.
 - [MarioTennisAces0x50Decompressor](https://github.com/simontime/MarioTennisAces0x50Decompressor) - Decompressor implementation for Mario Tennis Aces' type-0x50 compression, made by reverse engineering the game's code.
 - [M-LTool](https://github.com/efimandreev0/M-LTool) - Tool to extract archives from Mario & Luigi: Partner's in Time and Mario & Luigi: Bowser's Inside Story (NDS).
+- [mnlscript.py](https://github.com/MnL-Modding/mnlscript.py) - Compiler and decompiler between the Mario & Luigi scripting language and Python, for Bowser's Inside Story (NDS) and Dream Team (3DS) cutscene scripts.
+  - Related: [mnllib.py](https://github.com/MnL-Modding/mnllib.py) (Python library for the games' formats, including Bowser's Inside Story and Dream Team), [mnllib.rs](https://github.com/MnL-Modding/mnllib.rs) (Rust library with compression and map handling), [QtMnL](https://github.com/MnL-Modding/QtMnL) (outdated node-graph script editor for Bowser's Inside Story, superseded by mnlscript.py) and [BIS-docs](https://github.com/MnL-Modding/BIS-docs) (scripts and YAML cutscene command documentation for Bowser's Inside Story generated from in-game code).
 - [PartnersInTime-Decomp](https://github.com/Rainchus/PartnersInTime-Decomp) - Matching decompilation of Mario & Luigi: Partners in Time (NDS).
 - [MLSS_SE](https://github.com/Cefo14/MLSS_SE) - Save editor for Mario & Luigi: Superstar Saga (3DS remake). See also [MLSSE](https://github.com/GoobyCorp/MLSSE), another save editor for the same 3DS release. (Archived)
 - [MLDT_SE](https://github.com/Cefo14/MLDT_SE) - Save editor for Mario & Luigi: Dream Team (3DS).
@@ -574,6 +583,7 @@
 - [Reggie! Next M3](https://github.com/aboood40091/Reggie-Next-M3) - Advanced level editor for New Super Mario Bros. Wii with enhancements from multiple community forks.
 - [Reggie! Level Editor (Updated)](https://github.com/NSMBW-Community/Reggie-Updated) - Reggie! Level Editor for New Super Mario Bros. Wii with Python 3/PyQt5 support and level format research updates.
 - [Reggie! Level Editor Next](https://github.com/NSMBW-Community/Reggie-Next) - Advanced level editor for New Super Mario Bros. Wii; parses and edits game level file formats with modern features.
+- [mkwcat 7-zip plugin](https://github.com/mkwcat/7-zip-plugin) - Work-in-progress 7-Zip File Manager plugin that opens DARCH `.arc` archives (New Super Mario Bros. Wii) and GFArch `.gfa` archives (Good-Feel games such as Kirby's Epic Yarn).
 - [Puzzle Tileset Editor (Updated)](https://github.com/NSMBW-Community/Puzzle-Updated) - Advanced tileset editor for New Super Mario Bros. Wii, originally created by Tempus; this fork focuses on stability, bugfixes, and continued tileset-format research.
 - [Cobra](https://github.com/RoadrunnerWMC/Cobra) - Editor for world map scripts in the New Super Mario Bros. series.
 - [Koopatlas-Updated](https://github.com/RoadrunnerWMC/Koopatlas-Updated) - 2D New Super Mario Bros. Wii world map editor, updated for Python 3/PyQt5 compatibility with additional fixes and improvements.
@@ -583,6 +593,8 @@
 - [Papyrus](https://github.com/RoadrunnerWMC/Papyrus) - Text-based level editor for the New Super Mario Bros. series, powered by the nsmbpy library.
 - [BRFNTify-Next](https://github.com/RoadrunnerWMC/BRFNTify-Next) - Editor for Nintendo's BRFNT bitmap font format, used across many Wii/DS-era games including New Super Mario Bros. Wii.
 - [NSMBW-Bahp-Editor](https://github.com/RoadrunnerWMC/NSMBW-Bahp-Editor) - Edits New Super Mario Bros. Wii "bahp" song metadata.
+- [nsmbw-compress](https://github.com/mkwcat/nsmbw-compress) - C tool for encoding and decoding the compression formats used by New Super Mario Bros. Wii and other games (LZ, Huffman, RL, LH, LRC, differential filter, SZS/Yaz0, ASH0, ASR0).
+- [nsmbw-routeinfo-editor](https://github.com/B1Here/nsmbw-routeinfo-editor) - Blender add-on for editing New Super Mario Bros. Wii RouteInfo data on `CS_Wxy` armatures and generating the game's RouteInfo CSV files, with validation.
 - [Penguin](https://github.com/Swiftshine/Penguin) - Rust save editor for New Super Mario Bros. Wii that parses and edits the save header and save slots.
 - [Moviedata-Editor](https://github.com/Swiftshine/Moviedata-Editor) - C++/wxWidgets tool for editing the moviedata and moviesound files of New Super Mario Bros. Wii cutscenes.
 - [Terrain-Lighting-Eliminator](https://github.com/RoadrunnerWMC/Terrain-Lighting-Eliminator) - Batch-removes terrain lighting from New Super Mario Bros. Wii levels.
@@ -746,8 +758,10 @@
 - [alttprandomizer](https://github.com/Dessyreqt/alttprandomizer) - The original Legend of Zelda: A Link to the Past Randomizer, created by Dessyreqt, Karkat, ChristosOwen, and Smallhacker; patches item/enemy placement directly into the SNES ROM. Predecessor to the VT Randomizer below.
 - [alttp_vt_randomizer](https://github.com/sporchia/alttp_vt_randomizer) - The widely-used "VT Randomizer" and API for The Legend of Zelda: A Link to the Past, patching item and enemy placement directly into the SNES ROM.
 - [ALTTPSRAMEditor](https://github.com/mysterypaint/ALTTPSRAMEditor) - Editor for the SRAM save data of The Legend of Zelda: A Link to the Past (SNES).
+- [yaze](https://github.com/scawful/yaze) - ROM editor for The Legend of Zelda: A Link to the Past (SNES) with overworld, dungeon room, graphics sheet, palette, sprite and in-game text editors, an experimental SPC700 music editor, a built-in emulator, the Asar assembler and the z3ed command-line tool.
 - [zelda1-disassembly](https://github.com/aldonunez/zelda1-disassembly) - Complete disassembly of The Legend of Zelda (NES).
 - [Loz](https://github.com/aldonunez/Loz) - Remake of The Legend of Zelda (NES) in C++/Allegro, with tools that extract resources from the original game into a format usable by the remake's code. See also [Loz_enhanced](https://github.com/aldonunez/Loz_enhanced) with additional enhancements.
+- [Zeldomizer](https://github.com/SaxxonPike/Zeldomizer) - C# library for modifying The Legend of Zelda (NES) ROMs: edits dialogue, ending text, dungeons and the overworld map and renders sprites and tiles, bundled with 6502 emulation, assembler/disassembler and MMC1 mapper libraries.
 - [vibespriter](https://github.com/tewtal/vibespriter) - Browser-based sprite editor for The Legend of Zelda and Metroid (NES) that imports/exports the RDC (Retro Data Container) sprite format and PNGs with embedded palettes, with an NES palette editor and direct ROM patching.
 - [minishmaker](https://github.com/minishmaker/minishmaker) - Level editing suite for The Legend of Zelda: The Minish Cap.
 - [LADX-Disassembly](https://github.com/zladx/LADX-Disassembly) - Disassembly of The Legend of Zelda: Link's Awakening DX (Game Boy Color).
@@ -869,6 +883,7 @@
 - [noclip.website (New Super Mario Bros DS)](https://github.com/magcius/noclip.website/tree/main/src/nns_g3d) - In-browser New Super Mario Bros DS viewer.
 - [Goombatlas](https://github.com/RicBent/Goombatlas) - Editor for New Super Mario Bros DS's retail world map system; supersedes the same author's earlier NSMB-Worldmap-Editor.
 - [EnpgCreator](https://github.com/RicBent/EnpgCreator) - Batch encoder for New Super Mario Bros DS's ENPG format.
+- [Newt-GUI](https://github.com/Newer-Team/Newt-GUI) - Python tileset creator for 3D tilesets in the unreleased Newer Super Mario Land DS, a New Super Mario Bros. DS mod, built on ndspy. Cannot save format 5 NSBTX files.
 
 ##### Metroid (Classic)
 
@@ -988,6 +1003,8 @@
 - [effective-spoon (splatsave)](https://github.com/3096/effective-spoon) - C++ implementation of Splatoon 2 save data decryption/encryption, supporting up to save version 8 (update 5.1.0).
 - [Gambit-Headers](https://github.com/techmuse8/Gambit-Headers) - Reverse-engineered headers documenting internal code/data structures of Splatoon (Wii U), for building custom code.
 - [Woomiibo](https://github.com/shadowninja108/Woomiibo) - Decrypts, decodes, encodes, and encrypts Splatoon 3 amiibo app-area data.
+- [Spoon-Save-Editor](https://github.com/tvyrval/Spoon-Save-Editor) - Qt/C++ save editor for Splatoon (Wii U) `save.dat` files covering player stats and appearance, weapons, gear, Hero Mode progress and flags, plaza inklings, amiibo challenges, minigame scores, Spyke orders and raw bit flags.
+- [HoianViewer](https://github.com/nvnprogram/HoianViewer) - C# viewer for Splatoon 3 player parts and other models that reproduces the game's rendering, with a material and shader-variation editor (built on Cafe Shader Studio's BFRES handling) and a Phive cloth collision editor.
 - [NintendoSwitchRESTAPI](https://github.com/ZekeSnider/NintendoSwitchRESTAPI) - Reverse-engineered REST API used by the Nintendo Switch companion app for iOS, including documentation of Splatoon 2's API.
 
 #### Nippon Ichi Software
@@ -1105,6 +1122,7 @@
 - [O2MusicBox](https://github.com/SirusDoma/O2MusicBox) - OpenAL-based audio playback library for O2Jam's OJM audio format.
 - [o2jam-workshop-center](https://github.com/SirusDoma/o2jam-workshop-center) - Browser-based toolkit for inspecting, editing, and building O2Jam assets, scene data, avatar tables, music lists, and client launch arguments.
 - [render-ojn](https://github.com/djzmo/render-ojn) - Renders O2Jam OJN/OJM chart and audio files to MP3, WAV, or OGG music files.
+- [OJN2BMS](https://github.com/SaxxonPike/OJN2BMS) (archived) - Old VB6 converter from O2Jam OJN notation files to BMS charts, built on its own OJN file parser class.
 
 #### Obsidian Entertainment
 
@@ -1176,6 +1194,7 @@
 
 - [UltimaVSaveGameEditor](https://github.com/bradhannah/UltimaVSaveGameEditor) - Editor and summarizer for Ultima V save games, reading and writing the original proprietary save file format; built to speed up scenario recreation for the Ultima V Redux fan remake project.
 - [u5d](https://github.com/wonst719/u5d) - Ongoing decompilation project for Ultima V: Warriors of Destiny.
+- [UltimaVRedux](https://github.com/bradhannah/UltimaVRedux) - Go recreation of Ultima V that runs from the original MS-DOS game files; includes a legacy save converter and docs on the original file formats (eg. BRIT.CBT combat maps).
 
 ##### Ultima VI
 
@@ -1202,6 +1221,10 @@
 
 - [og-file-formats](https://github.com/AlexKimov/og-file-formats) - File formats and hex-editor templates for Orion Games titles.
 
+#### Hirahira (Osaka Simulator)
+
+- [TsuHanTools](https://github.com/Wunkolo/TsuHanTools) - C++ tools for Osaka Simulator's "TsuHan" game files from hirahira.net: dumps the packed archives and walks `.hgm` model files chunk by chunk (geometry, materials, meshes, textures, transforms, bones), with an ImHex `.hexpat` pattern for the format.
+
 #### ppy (osu!)
 
 - [CollectionManager](https://github.com/Piotrekol/CollectionManager) - Extensive tool for creating, editing, and exporting osu! collections.
@@ -1215,6 +1238,8 @@
 - [Mapping Tools](https://github.com/OliBomby/Mapping_Tools) - Suite of tools for creating and editing osu! beatmaps (.osu format).
   - Tools: Map Cleaner, Slider Merger/Completionator/Picturator, Hitsound Studio/Copier/Preview Helper, Property Transformer, Timing Helper/Copier, Metadata Manager, Rhythm Guide, Geometry Dashboard, Combo Colour Studio, Sliderator, Pattern Gallery, Mapset Merger, Tumour Generator 2.
 - [osu-realm-combiner](https://github.com/yorunoken/osu-realm-combiner) - CLI tool to merge multiple osu!lazer `client.realm` database files into one.
+- [osu-map-analyzer](https://github.com/yorunoken/osu-map-analyzer-lib) - Rust library that parses `.osu` beatmaps (via rosu-map) and classifies them as stream, jump, tech or slider maps; also available as the [map-analyzer](https://github.com/yorunoken/map-analyzer) web app.
+- [osu-native](https://github.com/minisbett/osu-native) - C# NativeAOT library exposing osu!(lazer) beatmap parsing, mods and difficulty/performance calculation over a C FFI, with Rust, Python, Java and Node wrappers.
 - [gh2osu](https://github.com/Emosewaj/gh2osu) - Converts Guitar Hero/Clone Hero .chart files to osu!mania .osu beatmaps.
 - [osu2sm](https://github.com/kovaxis/osu2sm) - Flexible batch converter from osu! beatmaps to StepMania simfiles, with support for various map transformations.
 - [slider](https://github.com/llllllllll/slider) - Python library for working with osu! files and data, including beatmaps, replays, and the game's database formats.

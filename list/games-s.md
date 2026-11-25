@@ -220,6 +220,7 @@
 - [SonicRushAdventure-Decomp (decomp)](https://github.com/RushRE/SonicRushAdventure-Decomp) - Matching decompilation of Sonic Rush Adventure.
 - [UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) - Unofficial PC port of the Xbox 360 version of Sonic Unleashed created through static recompilation.
 - [OpenLW](https://github.com/Radfordhound/OpenLW) - Open-source recreation of Sonic Lost World for Wii U/PC, built from Ghidra decompilations of both versions and reading the original CRIWARE/Havok-formatted game assets; also hosts the LWAPI DLL-modding library.
+- [re-Sonic06Demo](https://github.com/PranchaD/re-Sonic06Demo) - Static recompilation of the Sonic the Hedgehog (2006) demo (Xbox 360) built on the ReXGlue SDK, running from the demo's extracted package files.
 - [MarathonRecomp](https://github.com/sonicnext-dev/MarathonRecomp) - Unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through static recompilation (via the companion XenonRecomp/XenosRecomp tools); requires original game files (`.xex`, `.ar.00`, `.arl`, and others) to install.
 - [Sonic 3 A.I.R.](https://github.com/Eukaryot/sonic3air) - Reconstruction of Sonic 3 & Knuckles from the original Genesis ROM, extracting sprites, audio, and level data via decompilation-adjacent ROM analysis.
 - [RSDKv5-Decompilation](https://github.com/RSDKModding/RSDKv5-Decompilation) - Complete decompilation of Retro Engine v5/v5Ultimate (used by Sonic Mania and other games). See also [SaturnSH2x2's fork](https://github.com/SaturnSH2x2/RSDKv5-Decompilation) with a built-in mod loader/API (save file redirection, XML asset loading), shader compiler, and extra backends.
@@ -829,6 +830,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 ##### Gravity Rush 2
 
 - [EVD Editor](https://github.com/LyokoUnite/EVD-Editor) - PyQt5 GUI tool for browsing, editing, and exporting Japan Studio's Gravity Rush 2 `.evd` files.
+- [GR2-gfx-extractor](https://github.com/Team-Alua/GR2-gfx-extractor) - Noesis plugin for Gravity Rush 2 GFX model files: meshes, bones, weights, normals, vertex colors, texture names, and object locators; needs the GravityRush-Common plugin.
 
 ##### Flipnic
 
@@ -999,6 +1001,11 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [LanternExtractor](https://github.com/LanternEQ/LanternExtractor) - EverQuest Trilogy client S3D asset extractor, converting encoded game data into formats usable in modern game engines.
 - [quail](https://github.com/xackery/quail) - Command-line EverQuest asset manager (archived, early-preview status): zip/unzip PFS archives (EQG, S3D, PAK, PFS), converts between PFS archives and the .quail/WCE (WorldCom Emu) folder format, and inspects binary WLD/MOD/MDS files.
 - [LanternUnityTools](https://github.com/LanternEQ/LanternUnityTools) - EverQuest zone/object/character/equipment importer and visualization toolset for the Unity engine, built on intermediate format exports from LanternExtractor above.
+- [EQZip](https://github.com/Shendare/EQZip) - Windows EverQuest archive manager that creates, loads, and saves .S3D, .EQG, .PFS, and .PAK packages, with texture thumbnails (RGB16/24/32, DXT1-5, V8U8) and automatic conversion between .dds and PNG/GIF/BMP/JPG on import and export.
+- [eqgzi](https://github.com/xackery/eqgzi) (archived) - Command-line EverQuest .eqg zone importer for EQEmu zone making, converting Blender-exported .obj zones to EQG (water, lava, PvP, and zoneline regions, material shader properties); based on Zaela's EQG zone importer and requires Blender 3 or older.
+- [EQGWeaponModelImporter](https://github.com/Zaela/EQGWeaponModelImporter) - Windows GUI viewer and importer for EQEmu that builds EverQuest .eqg weapon and shield models (.mod) with particle effects (.prt/.pts) from .obj and .ply meshes.
+- [ascii-blender](https://github.com/xackery/ascii-blender) - Blender scripts that parse EverQuest ASCII WLD data (WCE, WorldCom Emu format) into Blender assets, handling material and sprite definitions, hierarchical skeletons, tracks, and polyhedra.
+- [OpenEQ (Rust)](https://github.com/daeken/OpenEQ) - Rust and Bevy EverQuest client that reads the original game assets, including classic WLD zones, EQG zones (EQGZ v1/v2), EQTZP heightmap terrain, EQG models and water materials, and original UI and audio.
 
 ##### Evolution Studios
 
@@ -1293,6 +1300,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [rood-reverse (decomp)](https://github.com/ser-pounce/rood-reverse) - Matching decompilation of Vagrant Story.
 - [Vagrant-Story-Noesis-Python-Plugin](https://github.com/korobetski/Vagrant-Story-Noesis-Python-Plugin) - Noesis plugin for Vagrant Story models and animations.
+- [blender-vagrant-story](https://github.com/korobetski/blender-vagrant-story) - Blender add-on for Vagrant Story: imports and exports `.WEP` weapon models, with work-in-progress import of `.SHP`, `.SEQ`, `.ZUD`, and `.MPD` files.
 - [Vagrant-Story-Unity-Parser](https://github.com/korobetski/Vagrant-Story-Unity-Parser) - Unity editor script that reads data from the original Vagrant Story game files to build prefabs and databases. See also the author's earlier [Vagrant-Story-Scripted-Importer](https://github.com/korobetski/Vagrant-Story-Scripted-Importer), an initial pass at the same file format support in Unity.
 - [Vagrant-Story-Patcher](https://github.com/redd2213/Vagrant-Story-Patcher) - Open-source, universal patch utility for Vagrant Story.
 - [VSViewer](https://github.com/MercurialForge/VSViewer) - Model viewer and exporter for Vagrant Story, rendering the game's original character, weapon, and level models beyond their native 256x224 in-game resolution.
@@ -1492,6 +1500,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [Drakengard1and2Extractor](https://github.com/Surihix/Drakengard1and2Extractor) - C# WinForms GUI for extracting and repacking several PS2 file types from Drakengard 1 and 2, with 010 Editor templates documenting the formats and a bundled minilzo decompressor.
 - [Drakengard3xxxToMp3](https://github.com/Surihix/Drakengard3xxxToMp3) - Extracts the audio from Drakengard 3's .XXX sound files to mp3 without transcoding, since the audio inside is already mp3 (mono or stereo only).
 - [Drakengard3MusicMaker](https://github.com/Surihix/Drakengard3MusicMaker) - C# WinForms app for replacing the in-game music tracks of Drakengard 3 with custom audio, tested on RPCS3 with the US and EU PSN versions.
+- [Drakengard-3-.xxx-Importer](https://github.com/SlowpokeVG/Drakengard-3-.xxx-Importer) - Re-imports edited files into Drakengard 3 UE3 `.xxx` archives (after decompressing and extracting them with Gildor's Unreal Package tools); may work with other UE3 UPK archives.
 
 ##### Star Ocean
 
@@ -1625,6 +1634,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [pksgnpa](https://github.com/lennylxx/pksgnpa) - Tool for creating NPA archives used by the visual novel Steins;Gate, built for a Chinese fan translation. Bundles asmodean's exsgnpa NPA archive extractor/creator for the same format.
 - [sg-unpack](https://github.com/rdavisau/sg-unpack) - Unpacker for the Mages Engine `.mpk` content files used by STEINS;GATE (Steam edition) and STEINS;GATE 0.
 - [MagesPack](https://github.com/DanOl98/MagesPack) - Unpacker/repacker for Mages Engine `.mpk` archives, covering Steins;Gate (Steam), Steins;Gate 0, Steins;Gate Elite, Chaos;Child, and other titles.
+- [mpk-tools](https://github.com/spaceskynet/mpk-tools) - Python CLI to pack and unpack Mages Engine `.mpk` archives (v1 and v2) for Steins;Gate, Chaos;Child, and similar games, with CSV file lists and optional compression.
 - [SGLBPhenogramConverter](https://github.com/DanOl98/SGLBPhenogramConverter) - Converter for the raw 8-bit indexed "Linear Bounded Phenogram" image format used inside Steins;Gate's Mages Engine archives, reversed and documented by the author (header, 256-color map, then raw pixel data).
 
 ##### Re:Zero: -Starting Life in Another World- Death or Kiss

@@ -255,7 +255,7 @@
   - Built on [LibBSP](https://github.com/wfowler1/LibBSP), the same author's C# library for parsing BSP structures across Quake-engine forks (Quake 3, Source, and others), also used by [Unity3D-BSP-Importer](https://github.com/wfowler1/Unity3D-BSP-Importer), which imports BSP maps into Unity as meshes.
 - [BspLib](https://github.com/AbitTheGray/BspLib) (archived) - Reads GoldSrc BSP v30 map files and WAD3 texture archives (Half-Life, Counter-Strike), with OBJ export. See also [BspLib_Unity3D](https://github.com/AbitTheGray/BspLib_Unity3D), a version adapted for importing into Unity3D.
 - [Decay-Library](https://github.com/AbitTheGray/Decay-Library) - Work-in-progress library for parsing GoldSrc BSP map files and WAD texture archives.
-- [WadParser-dotnet](https://github.com/elephantflea/WadParser-dotnet) - .NET library for parsing and extracting lumps from Doom/Heretic/Hexen/Strife IWAD/PWAD, Quake WAD2, and Half-Life/Opposing Force/Blue Shift WAD3 files.
+- [WadParser-dotnet](https://github.com/elephantflea/WadParser-dotnet) (archived) - .NET library for parsing and extracting lumps from Doom/Heretic/Hexen/Strife IWAD/PWAD, Quake WAD2, and Half-Life/Opposing Force/Blue Shift WAD3 files.
 - [defullbright](https://github.com/ericwa/defullbright) - Quake texture tool that removes fullbright pixels from WAD files, with a TGA preview mode for inspecting affected textures.
 - [QMap2Unity](https://github.com/Gemi-Games/QMap2Unity) - Converts Quake-style `.map` files into Unity meshes, colliders, and entity objects. Unmaintained.
 - [bspsrc](https://github.com/ata4/bspsrc) - Java-based map decompiler for Source engine .bsp files, reconstructing editable .vmf sources for Hammer.
@@ -1179,7 +1179,6 @@
 - [KrkrExtractForCxdecV2](https://github.com/YeLikesss/KrkrExtractForCxdecV2) - Dynamic extractor for Wamsoft's KrkrZ engine builds using the Cxdec/Hxv4 encryption scheme (2021.11+ runtime), also dumping the string hashes needed to recover original file/directory names.
 - [KrkrPbdStandViewer](https://github.com/YeLikesss/KrkrPbdStandViewer) - Viewer for Wamsoft's Kirikiri Z PBD standing-image format.
 - [cxdec-hxv4-static-analysis](https://github.com/hktkqj/cxdec-hxv4-static-analysis) - Research toolkit/documentation for Cxdec/Hxv4-encrypted Kirikiri game assets, covering offline encryption-parameter recovery and verification, extraction, and TJS2 bytecode analysis.
-- [Cxdec_Tools](https://github.com/1F1E33-float32/Cxdec_Tools) - Fully static recovery of Cxdec-encrypted resource filenames and data (no running game process required), recovering XP3 archive contents and dumping resources.
 - [Fuck_Cxdec_Check](https://github.com/1F1E33-float32/Fuck_Cxdec_Check) - Patch bypassing the executable integrity check and disabling ASLR on recent Cxdec-protected KirikiriZ engine builds, to allow further analysis/extraction.
 - [serde_tjs](https://github.com/lifegpc/serde_tjs) - Rust Serde serialization/deserialization library for TJS2 data structures.
 - [KrkrDump-Hasher](https://github.com/MLChinoo/KrkrDump-Hasher) - Companion hashing utility for KrkrDump, computing the hashes needed to identify Kirikiri engine script functions.
@@ -1728,7 +1727,9 @@
 - [Ruffle](https://github.com/ruffle-rs/ruffle) - Flash Player emulator written in Rust that parses and executes SWF files and ActionScript bytecode, used to preserve and play thousands of Flash-based web games.
 - [rust-flash-lso](https://github.com/ruffle-rs/rust-flash-lso) - Rust parser/encoder for Adobe Flash Local Shared Object (.sol) save files and the underlying AMF0/AMF3 serialization formats used by Flash games.
 - [Swivel](https://github.com/Herschel/Swivel) - Converts Adobe Flash SWF files to video, for archiving or sharing Flash-based games and animations.
+- [pyswf](https://github.com/timknip/pyswf) - Python library for reading and writing SWF files (a port of as3swf), with an exporter that renders SWF shapes and movies to SVG.
 - [Flazzy](https://github.com/ArachisH/Flazzy) - .NET library for reading, writing, and analyzing SWF files, disassembling tags, parsing embedded ABC/AVM2 bytecode, deobfuscating control flow, and rebuilding patched SWFs; used across Flash-game reverse-engineering and deobfuscation workflows (originally developed for Habbo Hotel client modding).
+- [python-avm2](https://github.com/eigenein/python-avm2) (archived) - Pure-Python parser for Adobe Flash SWF files and an AVM2 (ActionScript 3) virtual machine that executes DoABC tags and calls compiled methods.
 
 #### Adventure Game Studio (AGS)
 

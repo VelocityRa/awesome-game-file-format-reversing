@@ -182,9 +182,17 @@
 - [AbioticSavePlatformConverter](https://github.com/CrystalFerrai/AbioticSavePlatformConverter) - Converts Abiotic Factor save games between the Xbox/Microsoft Store and Steam/dedicated server versions.
 - [AbioticEditor](https://github.com/ChristopherVR/AbioticEditor) - Save editor for Abiotic Factor with browser, desktop, and CLI front-ends plus a plugin host, for both single-player and dedicated-server saves.
 
+#### Guard Crush Games (Absolum)
+
+- [game-data-absolum](https://github.com/VdustR/game-data-absolum) - Save research for Absolum on Windows Steam and Android: `SAVE_FORMAT.md` notes plus a protobuf wire reader/writer (`proto_wire.py`) that round-trips `Save.bin` byte-for-byte, and scripts to edit progress and battle-history records.
+
 #### Acceleration of Suguri X-Edition
 
 - [AoSX-Texture-Extraction](https://github.com/Silvris/AoSX-Texture-Extraction) - QuickBMS script and Noesis plugin for extracting and converting textures from Acceleration of Suguri X-Edition.
+
+#### Access Software
+
+- [WinTex](https://github.com/ElakaSnarne/WinTex) - Windows-native C++/Direct3D 11 engine reimplementation for Tex Murphy: Under a Killing Moon (and eventually The Pandora Directive), loading the original game files, which must be supplied.
 
 #### Acornsoft
 
@@ -207,6 +215,7 @@
 - [Tyrant](https://github.com/Scobalula/Tyrant) - RE Engine asset extractor for Call of Duty file formats.
 - [Greyhound](https://github.com/Scobalula/Greyhound) - Asset extractor for several Call of Duty titles (Black Ops 3/4, WWII, Infinite Warfare, Modern Warfare 2019/II). See also [Saluki](https://github.com/echo000/saluki-releases), an actively maintained Rust rewrite covering all CoD titles from CoD1 through Black Ops 7.
 - [ShibaInu](https://github.com/Scobalula/ShibaInu) - Weapon file converter for Call of Duty Mod Tools.
+- [HydraX](https://github.com/Scobalula/HydraX) - Asset decompiler for Call of Duty: Black Ops 3 mod tools data, exporting specialized assets such as localize strings, AI files, sound and FX tables, and weapon variants.
 - [blender-cod](https://github.com/CoDEmanX/blender-cod) - Blender add-on for Call of Duty modding.
 - [PyCoD](https://github.com/SE2Dev/PyCoD) - Python library for reading/writing Call of Duty's `*_EXPORT`/`*_bin` model and animation files; used by blender-cod and Autodesk Maya's CODTools plugin.
 - [WraithXArchon](https://github.com/dtzxporter/WraithXArchon/) (archived) - Legendary Call of Duty asset extraction tool.
@@ -245,7 +254,7 @@
 - [iw4-open-formats](https://github.com/iw4x/iw4-open-formats/blob/main/src/iw4-of/assets/assets.cpp) - Asset conversion system for MW2 formats.
 - [iw4-zone-asset-finder](https://github.com/XLabsProject/iw4-zone-asset-finder) - Zone asset finder and source builder for IW4 (Modern Warfare 2).
   - [snd-alias-converter](https://github.com/XLabsProject/snd-alias-converter) - C# tool to convert sound aliases between ZoneTool and Zonebuilder formats (JSON, and binary `.xss` used by newer ZoneTool releases).
-- [x64 ZoneTool](https://github.com/Joelrau/x64-zt) - Fastfile unlinker and linker for x64 Call of Duty titles.
+- [x64 ZoneTool](https://github.com/auroramod/x64-zt) - Fastfile unlinker and linker for x64 Call of Duty titles.
 - [zonetool](https://github.com/ZoneTool/zonetool) - Fastfile linker for Call of Duty titles (CoD4, MW, MW2, MW3), parsing and reconstructing IW3/IW4/IW5 fastfile archives.
 - [OpenAssetTools](https://github.com/Laupetin/OpenAssetTools) - Actively maintained, open-source modding tool suite (Unlinker/Linker) for loading and building fastfiles (.ff), aiming for original-format compatibility rather than reimplementing existing tools.
   - Games: CoD4 (IW3), Modern Warfare 2 2009 (IW4), Modern Warfare 3 2011 (IW5), 007: Quantum of Solace (QOS), World at War (T4), Black Ops (T5), Black Ops II (T6).

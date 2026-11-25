@@ -155,14 +155,17 @@
 
 - [Poddy](https://github.com/dummiesman/Poddy) - POD Manipulation tool for all Terminal Reality Inc. games/software formats
 - [termpod](https://github.com/lndpj/termpod) - Terminal Reality POD{1,2,3,4,5,6}/EPD file format archive C++ library 
+- [OpenPhotex](https://github.com/juanputrerasm/OpenPhotex) - Library and CLI reading Terminal Reality game formats (POD1/POD2/EPD archives, `.RAW`/`.ACT`/`.OPA`/`.TIF` textures and palettes, models) for Monster Truck Madness 1 and 2, CART Precision Racing, Terminal Velocity, Fury3, Hellbender, 4x4 Evolution 1 and 2, Fly! and Nocturne.
 - [JPod](https://github.com/juanputrerasm/JPod) - Terminal Reality POD archive utility 
 - [JSPod](https://github.com/juanputrerasm/JSPod) - Online Terminal Reality POD archive viewer
 - [JPodman](https://github.com/juanputrerasm/JPodman) - Terminal Reality games POD mounting utility
+- [KPod](https://github.com/juanputrerasm/KPod) - Terminal Reality POD archive utility for Windows (.NET), a C# counterpart to JPod.
 - [TermPod](https://github.com/KeyofBlueS/TermPod) - Terminal Reality POD (archive) managment tool.
 - [podextract](https://github.com/foone/podextract) - Python extractor for POD archives from Terminal Reality games.
 - [JSPod (JSTrackViewer)](https://github.com/juanputrerasm/JSTrackViewer) - Online browser-based 3D viewer for Terminal Reality game track/level archives (POD files); decodes terrain, textures, and object placement client-side. Covers Monster Truck Madness, Monster Truck Madness 2, Terminal Velocity, Fury3/F-Zone, Hellbender, and CART Precision Racing.
 - [JSTruckViewer](https://github.com/juanputrerasm/JSTruckViewer) - Online browser-based 3D viewer for Monster Truck Madness 2 (MTM2) truck files, decoding truck mesh, textures, and wheel placement client-side from POD/ZIP archives.
 - [KPodman](https://github.com/juanputrerasm/KPodman) - Windows-focused Terminal Reality games POD mounting utility, complementing JPodman above with a native GUI.
+- [OpenMTM2](https://github.com/juanputrerasm/OpenMTM2) - Clean-room, browser-based (Three.js) implementation of Monster Truck Madness 2 that loads game data from the original installation or the free trial.
 
 ##### Documentation
 
@@ -174,10 +177,13 @@
 ###### Terminal Velocity / Fury3
 
 - [terminal-recall](https://github.com/jtrfp/terminal-recall) - Open-source engine remake for Terminal Velocity and Fury3 that reads and renders original game data files. Built on jtrfp.
+- [fury3 (decomp)](https://github.com/sp00nznet/fury3) - Static recompilation of Fury3 (1995) into native C.
+- [hellbender (decomp)](https://github.com/sp00nznet/hellbender) - Static recompilation of Hellbender (1996), Fury3's sequel on the same voxel engine, into native C.
 
 ###### Nocturne
 
 - [NocturneDecomp (decomp)](https://github.com/NearlyTRex/NocturneDecomp) - Matching decompilation of Nocturne.
+- [nocturne (decomp)](https://github.com/sp00nznet/nocturne) - Static recompilation of Nocturne (1999) to native Windows, lifting `nocturne.exe` back to C.
 
 ##### POD3 Style (POD3,POD4,POD5)
 
@@ -362,7 +368,7 @@
 
 #### Red Entertainment (The Twisted Tales of Spike McFang)
 
-- [mcfang-dec](https://github.com/Gemini-Loboto3/mcfang-dec) - Decompressor/compressor for The Twisted Tales of Spike McFang's proprietary archive format.
+- [mcfang-dec](https://github.com/Gemini-REbirth/mcfang-dec) - Decompressor/compressor for The Twisted Tales of Spike McFang's proprietary archive format.
 
 #### Thekla Inc (The Witness)
 
@@ -402,6 +408,7 @@
 - [tmb_decomp (decomp)](https://github.com/OpenTrac/tmb_Re-Arc) - Matching decompilation of Twisted Metal: Black (PS2).
 - [tmhc (decomp)](https://github.com/jacobleeharris/tmhc) - Matching decompilation of Twisted Metal: Harbor City (PS2).
 - [libTwisted](https://github.com/jacobleeharris/libTwisted) - Rust library for reading and writing Twisted Metal game file formats.
+- [TwistedMetal4Parser](https://github.com/charlieamer/TwistedMetal4Parser) - Twisted Metal 4 `.MR` file tools: `mr-unzip` extracts the contents (including sounds), `mr-to-obj` converts maps to Wavefront OBJ, plus a Blender add-on importing weapon locations.
 ##### Motocross Madness
 
 - [motocross-madness-file-formats](https://github.com/AlexKimov/motocross-madness-file-formats) (archived) - File format research for the Motocross Madness series.
@@ -668,7 +675,9 @@ See also: [OpenSpace](engines.md#openspace).
 - [Jormungandr](https://github.com/neptuwunium/Jormungandr) (archived) - Anvil Engine research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
 - [.forge extractor/replacer by Turfster (Assassin's Creed)](https://www.moddb.com/mods/aci-texmod-clothes-mod/downloads/forge-extractorreplacer-by-turfster) - Data/files extractor for Assassin's Creed and Assassin's Creed II and some other games using Scimitar engine. It's also capable of replacing archived files, including textures. Its additional plugins are already installed. The program is made by Turfster and it belongs to him (and the full credit...
 - [Blacksmith](https://github.com/theawesomecoder61/Blacksmith) - Tool for viewing, extracting, and converting textures, 3D models, and sounds from AC: Odyssey, AC: Origins, AC: Valhalla (AnvilNext engine), and Steep.
+- [ACExplorer](https://github.com/gentlegiantJGC/ACExplorer) (archived) - Python file explorer and exporter for Assassin's Creed Unity `.forge` archives, extracting meshes, textures, and assembled world models; extensible with readers for other forge games.
 - [R6-Extractor](https://github.com/TrueShadow01/R6-Extractor) - Python toolkit for extracting Rainbow Six Siege's Scimitar-engine `.forge` archives, with Oodle Kraken decompression, BC1/3/4 texture conversion, Wwise WEM audio extraction, and glTF model/material export for Blender.
+- [RainbowForge](https://github.com/parzivail/RainbowForge) (archived) - .NET libraries and DumpTool CLI for Rainbow Six: Siege's `.forge` asset containers: list, find by UID, inspect, and dump assets.
 - [GhostReconWildlands-AnvilNext2.0-Documentation](https://github.com/Firejumper93/GhostReconWildlands-AnvilNext2.0-Documentation) - Reverse-engineering documentation for Ubisoft's AnvilNext 2.0 engine, derived from Ghost Recon Wildlands, covering archive formats, skeletons, camera, and rendering.
 - [ACBrotherhoodEditor](https://github.com/comradesean/ACBrotherhoodEditor) - Reverse-engineered editor for Assassin's Creed Brotherhood's OPTIONS and SAV save files, with a from-scratch LZSS implementation achieving byte-for-byte accurate repacking, uPlay/Facebook-cape unlockers, and PS3 PARAM.PFD encryption handling.
 - [AC2Editor](https://github.com/comradesean/AC2Editor) - uPlay/DLC unlocker for Assassin's Creed II OPTIONS save files, documenting the PC (headerless) vs. PS3 (8-byte header + CRC32) format differences.
@@ -1002,6 +1011,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 
 - [easytech-btl-editor](https://github.com/Pyogenics/easytech-btl-editor) - Documents the BTL scenario file format used by easytech's mobile war games (World Conqueror 3/4, Glory of Generals 1-3, European War 4), including header layout and per-title format versions; ships with a work-in-progress web-based editor.
 
+#### World of Goo
+
+- [wog-wiiware (decomp)](https://github.com/Fancy2209/wog-wiiware) - Work-in-progress decompilation of World of Goo (WiiWare, Europe, `WGOP`), built with decomp-toolkit; requires a copy of the game.
+
 #### Wargaming (World of Warships)
 
 - [wowsdeob](https://github.com/landaire/wowsdeob) - Deobfuscator for World of Warships game scripts.
@@ -1013,6 +1026,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [WOTBSCPGFormat](https://github.com/Pyogenics/WOTBSCPGFormat) - Reverse-engineered documentation (plus an in-progress Blender import plugin) for World of Tanks Blitz's SCPG model format, the paired `.scg`/`.sc2` files based on the DAVA engine's SceneFileV2/PolygonGroup structures.
 - [WOTBDVPFormat](https://github.com/Pyogenics/WOTBDVPFormat) - Format documentation for World of Tanks Blitz's `.dvpm`/`.dvpd` pack container files (meta section, file table, LZ4/RFC1951-compressed entries), layered on top of the outer `.dvpl` container.
 - [wotbreplay-parser](https://github.com/eigenein/wotbreplay-parser) - Rust library and crate for parsing World of Tanks Blitz `.wotbreplay` replay files, extracting battle results and player data.
+- [wotbreplay-inspector](https://github.com/eigenein/wotbreplay-inspector) - Rust command-line inspector for World of Tanks Blitz `.wotbreplay` files, built on wotbreplay-parser; dumps battle results and decoded replay packets as JSON.
 
 ##### World of Tanks
 
@@ -1020,6 +1034,8 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [wot-model-converter](https://github.com/SkaceKamen/wot-model-converter) - Converts World of Tanks `.primitives`/`.visual` BigWorld model files (including the HD `_processed` variants from patch 0.9.12+) to Wavefront OBJ, extracting geometry, UVs, normals, and skinning weights.
 - [wot-python-lib](https://github.com/SkaceKamen/wot-python-lib) - Python library for working with World of Tanks game resources: extracts files from the game's package archives (with index caching), unpacks packed XML config files, and reads `.primitives`/`.visual` BigWorld model files into geometry/render-set data.
 - [wot-replay-lib-js](https://github.com/SkaceKamen/wot-replay-lib-js) - JavaScript library for parsing World of Tanks `.wotreplay` battle replay files in the browser.
+- [wg-toolkit-rs](https://github.com/theorzr/wg-toolkit-rs) - Rust crate for Wargaming's Core/BigWorld engine formats used by World of Tanks: packed XML, tank models (visual tree, vertices/indices), compiled space sections (BWTB, BWST, BWT2, BWSG, BSMO), package-indexed resource filesystem and entity script definitions.
+- [wotreplay-parser](https://github.com/evido/wotreplay-parser) - C++ parser for World of Tanks `.wotreplay` files that decodes the packet stream (positions, health, shots, kills, chat) and exports JSON, PNG, GIF and heatmaps.
 
 #### Bugbear Entertainment (Wreckfest)
 
@@ -1105,6 +1121,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [YsVIII-tools](https://github.com/yosh778/YsVIII-tools) - Unpacking/packing tools for Ys VIII assets, covering XAST/DAT archives, PLT strings, TBB-to-CSV conversion, and a script bytecode disassembler/assembler.
 - [ys-rendering](https://github.com/Francesco149/ys-rendering) - 3D map viewer and extraction pipeline for Falcom's Napishtim Engine titles (Ys: The Oath in Felghana, Ys Origin, Ys VI: The Ark of Napishtim); reads the encrypted `data.ni`/`data.na` archives, exports maps to glTF/GLB and Wavefront OBJ, and documents the formats.
 - [Trails-Research-Group/Doc](https://github.com/Trails-Research-Group/Doc) - Documentation for modding Trails/Kiseki series games with tools and techniques for modifying game assets (textures, models, scripts, animations)
+- [OpenSora](https://github.com/rds1983/OpenSora) - C#/MonoGame resource viewer and engine in progress for the Trails in the Sky trilogy (FC, SC, the 3rd); reads `.dir`/`.dat` archives, DDS and CH/CP images and X2/X3 models, with format notes for Falcom compression, audio, movies, SCP scenario scripts and saves in `docs/formats`.
 - [Legacy of the Wizard Tool](https://github.com/bbbradsmith/lotwtool) - Editor for Legacy of the Wizard (NES) / Dragon Slayer IV (Famicom, MSX1, MSX2), directly editing the original ROM's map, item, and other game data.
 - [Ouroboros/Falcom](https://github.com/Ouroboros/Falcom) - Tools for many Trails/Kiseki games and other Falcom titles.
   - Games: Trails in the Sky FC/SC/the 3rd, Trails of Zero, Trails of Azure, Trails of Cold Steel III/IV, Trails into Reverie, Trails through Daybreak, Zwei II.
