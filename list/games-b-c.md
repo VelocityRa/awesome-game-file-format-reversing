@@ -1335,6 +1335,7 @@
 - [pycrimson](https://github.com/LukeFZ/pycrimson) - Python library and CLI for Crimson Desert game and save files: extracts assets from PAZ/PAMT packs, decompresses partially-compressed DDS assets, and decrypts/re-encrypts save files, including what the author states is the first public implementation of the proper key derivation for both asset and save files.
 - [Greymane](https://github.com/echo000/Greymane) - Asset extractor for Crimson Desert.
 - [CrimsonDesert-AutoFontModder](https://github.com/kh0shn4w/CrimsonDesert-AutoFontModder) - Automatically repacks custom TTF fonts into Crimson Desert's game archives, with exact size matching and LZ4 compression.
+- [paz-extractor](https://github.com/bdo-caphras/paz-extractor) - Clean-room Rust CLI for Black Desert Online `.PAZ` archives: parses `pad00000.meta`, decrypts the ICE-encrypted filename tables and payloads, decompresses the custom LZ77, and optionally converts DDS to PNG.
 
 #### Flying Shine (Cross†Channel)
 

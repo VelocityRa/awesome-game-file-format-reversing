@@ -602,6 +602,7 @@
 - [NUSGet](https://github.com/NinjaCheetah/NUSGet) - Modern Qt6 GUI NUS content downloader for Wii, vWii, and DSi built on libWiiPy/libTWLPy; decrypts contents and packs installable WAD/TAD archives, with vWii Common Key re-encryption support.
 - [wii-menu-visual-patcher](https://github.com/NinjaCheetah/wii-menu-visual-patcher) - Shell script that unpacks the Wii System Menu's `diskBann.ash` banner, patches the Disc Channel to show its normally-hidden DVD icon, and repacks the banner and System Menu WAD with the modified files; includes a variant for Korean/Wii Mini consoles.
 - [vcromclaim](https://github.com/Plombo/vcromclaim) - Extracts game ROMs, manuals and save files from an extracted Wii NAND filesystem containing Virtual Console games, automatically decompressing compressed ROMs; covers NES, SNES, TurboGrafx-16, Genesis, Master System and N64 titles.
+- [Wii-Kaitai](https://github.com/quatric/Wii-Kaitai) - 95 Kaitai Struct definitions for Wii formats: WiiConnect24 channels, NAND, WC24 mail, tickets/TMD, Mii, WAD, U8, Wii U WUX images, DOL headers, Mobiclip and several game files (Mario Kart Wii, Wii Fit Plus).
 
 ##### Nintendo DS / DSi
 

@@ -83,6 +83,7 @@
 - [TileViewer](https://github.com/YuriSizuku/TileViewer) - Cross-platform tile viewer for analyzing raw console game textures and fonts, with Lua-script and C plugin decoders (e.g. for swizzling), command-line decoding, and wiki FontDB/TexDB listings of known layouts; inspired by Crystal Tile 2.
 - [genesisPal2Act](https://github.com/romhack/genesisPal2Act) - Converts a generic 9bpp Sega Genesis/Mega Drive palette dump (ripped from an emulator savestate or debug tool) to 24bpp ACT format for use in Photoshop, GraphicsGale, or romhacking tools.
 - [BGR555](https://github.com/orangeglo/BGR555) - Converts between RGB hex codes and the 15-bit BGR555 color palette format used by the SNES, GBC, and GBA.
+- [texscan](https://github.com/xRopers/texscan) - Rust CLI and GUI that finds DDS and KTX2 textures inside any binary file or archive, extracts them (also as PNG) and packs edited textures back.
 
 #### Sprites, Tiles & Tilemaps
 
@@ -256,6 +257,7 @@
 - [ObserverModules](https://github.com/refaim/unpackrat) - Extension modules for the Observer plugin of FAR Manager that open game archives as folders: Ren'Py `.rpa` (RPA-2.0/3.0), RPG Maker VX Ace `.rgss3a`, and ZanZarah: The Hidden Portal `.pak` (original and Steam versions).
 - [mkpsarc](https://github.com/shimamura-sakura/mkpsarc) - Python extractor and creator for the PlayStation archive (PSARC) format, with an experimental multithreaded version.
   - See also [rpsarc](https://github.com/shimamura-sakura/rpsarc), a simple Rust PSARC utility that lists, extracts (writing a manifest for recreating the archive) and creates archives.
+- [zscan](https://github.com/xRopers/zscan) - Rust replacement for offzip and packzip: finds gzip, zlib, raw deflate, zstd, xz, bzip2 and lz4 streams (brotli, LZO, Oodle optional) inside any file, extracts, edits and repacks them via a JSON manifest, with a GUI.
 
 ### 🔊 Audio Tools
 
@@ -417,6 +419,8 @@
 - [agbplay-gui](https://github.com/ahigerd/agbplay-gui) - Qt-based GUI for ipatix's agbplay, a player/exporter for the M4A/MusyX sound engine music used in many Game Boy Advance games.
 - [cpkaudiomixer](https://github.com/SuiKaze/cpkaudiomixer) - Extracts and replaces audio inside CRIWARE CPK Cinepak (`.cpk`) FMV videos, used by Tomb Raider and Rayman games.
 - [vspcplay](https://github.com/raphnet/vspcplay) - Visual SPC (SNES sound format) player and optimization tool, built on snes9x's APU emulation code. See also the same author's [apu_linux](https://github.com/raphnet/apu_linux), a command-line SPC player that streams playback to a real SNES APU over a PC parallel port, with partial id666 tag support.
+- [audscan](https://github.com/xRopers/audscan) - Rust CLI and GUI that finds audio inside any binary file by header, extracts it and puts edited sounds back.
+  - Formats: WAV, Wwise WEM/BNK/PCK (WEM to Ogg/WAV), FMOD FSB4/FSB5, Ogg.
 
 ### 🌐 Translation & Localization
 
@@ -1000,6 +1004,9 @@
 - [RandomStuff](https://github.com/Treeki/RandomStuff) - Small standalone decompression and extraction tools by Treeki.
   - Formats: Wii U GTX/Gfx2 texture extractor (RGBA8 and DXT5), `LH` decompressor (Mario Sports Mix, Wii), Sega `LZS2` decompressor (a Sega Tetris game), and `Hmr` "hammer" decompressor (Acorn Archimedes game OddBall).
 - [KwasTools](https://github.com/ThisKwasior/KwasTools) - C library and tools for video game modding. Converts Hedgehog Engine `*-anim` files (uv, cam, vis, morph, pt, mat, lit), packs/unpacks CRIWARE AFS and AWB and converts ACB/ACF/AAX UTF tables to XML, converts Wii NW4R SCN0/SRT0 animations, and unpacks/packs Platinum Games DAT/DTT/EFF and WTB/WTA+WTP files.
+- [VNTools](https://github.com/Yamato6/VNTools) - GUI and CLI tools to extract, edit and repack visual novel assets for fan translation across nine engines.
+  - Engines: FS Engine (CROSS†CHANNEL), FVP, Yeti, AdvHD/WillPlus, NeXAS, CatSystem2, BGI, KiriKiri 2, SiglusEngine.
+  - Formats: `.pd`, `.bin`, `.cpk`, `.arc`, `.pac`, `.int`, `.xp3`, `Scene.pck` archives, HG-3/TLG/G00 images, scripts, audio.
 
 #### Noesis / 3ds Max / Format Script Packs
 

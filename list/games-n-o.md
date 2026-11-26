@@ -26,6 +26,7 @@
 - [CarSkin2DAE](https://github.com/Mystixor/CarSkin2DAE) - Exports GBX vehicle skins from Trackmania 2 to COLLADA (.dae) model files.
 - [blender_export_tmf](https://github.com/raandoom/blender_export_tmf) - Blender add-on for exporting 3DS models suitable for TrackMania Forever and Trackmania 2.
 - [Frames-Manager-TM-2020](https://github.com/heaven-hm/Frames-Manager-TM-2020) - Plugin to manage in-game camera frames for Trackmania (2020).
+- [gbx-formats](https://github.com/Kalmarv/gbx-formats) - Rust reader for Nadeo GameBox (`.Gbx`) files and TrackMania Nations Forever `.pak` packs: maps, MediaTracker clips, ghosts, Plug solids/meshes/materials, and TMUnlimiter chunks.
 
 #### NanaOn-Sha
 
@@ -59,6 +60,7 @@
 - [AION-Encdec](https://github.com/Iswenzz/AION-Encdec) - Dual-interface (GUI and CLI) tool for encoding/decoding Aion game files.
 - [aion-geobuilder](https://github.com/beyond-aion/aion-geobuilder) - Parses collision data from Aion game clients.
 - [Aion_blender_level_importer](https://github.com/234523413432634/Aion_blender_level_importer) - Blender add-on for importing Aion level geometry.
+- [Aion Pak](https://github.com/beyond-aion/aion-pak) - Desktop app and CLI to browse, extract, edit and repack Aion client `.pak` archives, decoding the client's encrypted XML/HTML to plain text; replaces pak2zip and AION Encdec.
 
 ##### Blade & Soul
 

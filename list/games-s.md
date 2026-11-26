@@ -15,6 +15,8 @@
 - [sacred-sdk](https://github.com/bssth/sacred-sdk) - Lua scripting framework and bytecode toolchain for Sacred Gold (2004), enabling mods without patching the game's EXE.
   - Format: FunkCode.bin bytecode baking, achieving byte-perfect roundtrip against all 132 vanilla game .bin files.
 - [sacred-minimap-viewer](https://github.com/Qronikarz/sacred-minimap-viewer) - Tool to view the whole minimap of Sacred.
+- [grn2glb](https://github.com/ancaria-dev/grn2glb) - C++ library (64-bit DLL with a C ABI) that converts Sacred Gold Granny 1.2 `.grn` models to binary glTF in memory.
+  - Features: meshes, skeleton, skin weights, materials and embedded raw/compressed VTex textures as PNG.
 
 #### Southend Interactive (Sacred Citadel)
 
@@ -89,7 +91,7 @@
   - See also the author's [simai.js](https://github.com/reflektone-games/simai.js) (JavaScript) and [simai-rs](https://github.com/reflektone-games/simai-rs) (Rust) ports of the same parser.
 - [maidata-rs](https://github.com/xen0n/maidata-rs) - Rust library for working with `maidata.txt` files from the simai chart-authoring community.
 - [ultimai-score](https://github.com/djzmo/ultimai-score) - Score format converter between simai (3simai specification) and ma2 maimai chart formats.
-- [AstroDX_ChartCat](https://github.com/Momoko-Ayase/AstroDX_ChartCat) - Converts charts for AstroDX (a maimai-compatible rhythm game using the `maidata.txt` community chart format) from its legacy storage structure into the newer one. See also the [Rust rewrite](https://github.com/Momoko-Ayase/AstroDX_ChartCat_rs).
+- [AstroDX_ChartCat](https://github.com/launchcore/AstroDX_ChartCat) - Converts charts for AstroDX (a maimai-compatible rhythm game using the `maidata.txt` community chart format) from its legacy storage structure into the newer one. See also the [Rust rewrite](https://github.com/Momoko-Ayase/AstroDX_ChartCat_rs).
 
 ##### Project DIVA
 
@@ -103,6 +105,8 @@
 ##### Project Sekai
 
 - [SekaiToon](https://github.com/festivities/SekaiToon) - Unity (Built-in Render Pipeline) shader replicating Project Sekai: Colorful Stage!'s in-game character shading, for datamined assets. (Archived)
+- [sekai-exporter](https://github.com/StarMoe-org/sekai-exporter) - Rust exporter that converts Project SEKAI Unity asset bundles and game data tables into open formats.
+  - Outputs: images, audio, video, story scenes, Live2D models, 3D costumes, virtual lives, MySekai furniture.
 
 ##### Crazy Taxi
 
@@ -149,6 +153,8 @@
 - [yagami-decryption-agency](https://github.com/mosamadeeb/yagami-decryption-agency) (archived) - Decrypts/encrypts Judgment and Lost Judgment's PC `chara.par` archives. See also [PARCrypt](https://github.com/Ret-HZ/PARCrypt), a companion PXD Archive (PARC) decryptor/encryptor built on this library.
 - [kuma](https://github.com/Timo654/kuma) - Python GUI karaoke editor for Dragon Engine games (Like a Dragon/Yakuza series). Imports maps from Lost Judgment dancing, Persona Dancing, old-engine karaoke, Yakuza 5 Princess League, Ishin dancing, Zero disco, Project DIVA MegaMix+ beatmaps and Project Heartbeat JSON; exports JSON and experimental Lost Judgment dbd.
 - [karaConv](https://github.com/Timo654/karaConv) - Converts karaoke song bin files between Yakuza 4/Dead Souls and Yakuza 5/Ishin/Zero/Kiwami.
+- [YakuzaPythonExtractor](https://github.com/LinuxJessi/YakuzaPythonExtractor) - Pure-Python unpacker, converter and repacker for the Yakuza (PS2, SLUS-21348) disc.
+  - Formats: CVM/OGREDIR volumes, AVLZ compression, textures to PNG, models to OBJ/Blender, audio to WAV, movies to MP4; writes back into a bootable ISO.
 
 ##### Shenmue
 
@@ -631,6 +637,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [JMXVDDJConverter](https://github.com/JellyBitz/JMXVDDJConverter) - Converts between Silkroad Online's DDJ and DDS texture file formats.
 - [NVMTerrainExtractor](https://github.com/JellyBitz/NVMTerrainExtractor) - Extracts terrain data from Silkroad Online's navmesh (.nvm) files.
 - [SR_Db2Media](https://github.com/JellyBitz/SRO.Db2Media) - Extracts, encrypts, and imports Silkroad Online's database files directly into the client's media (PK2) archive.
+- [SroPk2Studio](https://github.com/aloneanqel1453/SroPk2Studio) - Editor and viewer for Silkroad Online client archives with live 3D model, effect and UI previews.
+  - Formats: JMXPACK `.pk2`/`.pk3`/`.lib`, SailSafe PK2, PK2v2 (read-only), VSROPLUS `.vp`, `.2dt` interface files, textdata tables.
 
 #### Spiral House (Silver)
 
@@ -1295,6 +1303,9 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [xenosaga (decomp)](https://github.com/squareman/xenosaga) - Matching decompilation of Xenosaga Episode 1 (PS2, USA).
 - [Xenosaga-2-Editor](https://github.com/TheSparda/Xenosaga-2-Editor) - ISO and save editor for Xenosaga Episode II (PS2, USA SLUS-20892/SLUS-21133); local web app built with stdlib Python only.
+- [Xenosaga1PythonExtractor](https://github.com/LinuxJessi/Xenosaga1PythonExtractor) - Pure-Python disc extractor and mod kit for Xenosaga Episode I (PS2, SLUS-20469) that writes changes back to a bootable ISO.
+  - Formats: textures to PNG, models to glTF, audio to WAV, movies to MP4, game text, cutscene scripts, fonts.
+  - See also: [Xenosaga2PythonExtractor](https://github.com/LinuxJessi/Xenosaga2PythonExtractor), [Xenosaga3PythonExtractor](https://github.com/LinuxJessi/Xenosaga3PythonExtractor).
 
 ##### Vagrant Story
 

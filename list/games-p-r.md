@@ -744,6 +744,7 @@
 - [RiotManifestCore](https://github.com/Neinndall/RiotManifestCore) - CLI engine for parsing Riot's `.rman` manifest format and performing differential asset downloads (Blake3-hashed chunk diffing) for League of Legends and Valorant.
 - [cd-dd](https://github.com/Hi-Ray/cd-dd) - CLI tool to recursively download directories of League of Legends assets from CommunityDragon's CDN mirror.
 - [RAFTools](https://github.com/vs49688/RAFTools) - Java viewer/extraction toolkit (GUI and CLI) for League of Legends `.raf` archives, with DDS texture viewing/export and preliminary Wwise soundbank extraction [archived]; superseded for current clients by the WAD tools above, see [Obsidian](https://github.com/Crauzer/Obsidian).
+- [DawnResourceExtractionTool](https://github.com/liveldy/DawnResourceExtractionTool) - .NET GUI and CLI that scans, previews and exports League of Legends WAD resources (models, textures to PNG, audio to MP3), built on LeagueToolkit.
 
 ###### Model, Texture, Map & Animation Tools
 
@@ -968,6 +969,9 @@
 - [RASM](https://github.com/NativeFunction/RASM) - Assembler and disassembler for RAGE engine scripting formats: SCO (GTA IV, RDR), XSC/CSC (RDR, GTA V, RDR2), and YSC (GTA V, RDR2).
 - [gtaivtools](https://github.com/RoadTrain/gtaivtools) - Classic GTA IV/Episodes from Liberty City modding toolkit bundle (originally by Aru/Arushan, mirrored from its Google Code export), built around a shared RageLib for RAGE engine resource formats.
   - Tools: SparkIV (GUI browser/exporter for RPF archives, models, and textures), Resoursaur (RAGE resource file decompressor), Scruff (RAGE SCO script decompiler/disassembler with multiple output formats).
+- [RageForge](https://github.com/zsy-miao/RageForge) - GUI and CLI toolkit for Grand Theft Auto VI RAGE engine files (RPF9 archives, TTPF textures).
+  - Features: archive browser, 3D viewer with glTF export, texture decoding (RDNA2 detiling, BC1-BC7), AWC/Opus audio, Bink 2 video, RDNA2 shader disassembly.
+- [UniversalIMG](https://github.com/ndenissov/UniversalIMG) - Python library and Kivy GUI for opening, extracting and editing `.img` archives of GTA III, Vice City and San Andreas.
 
 #### Cellar Door Games (Rogue Legacy)
 

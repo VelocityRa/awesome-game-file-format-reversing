@@ -357,6 +357,7 @@
 ##### Frostbite
 
 - [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
+- [frostbite-formats](https://github.com/Kalmarv/frostbite-formats) - Rust library that reads and writes skate. (2025) Frostbite files: superbundle and Patch TOCs, bundles, CAS archives (raw, zlib, LZ4, Oodle), EBX documents, MeshSets, the shader database and ReSkate Studio `.fbmod` mods.
 
 ###### Battlefield Series
 
@@ -489,6 +490,8 @@ See also: [RenderWare](middleware.md#renderware).
 - [ABK_Insert](https://github.com/CrabJournal/ABK_Insert) - Inserts replacement sound samples into Need for Speed's ABK/BNK sound bank format (Underground through Carbon), supporting EA-XA and EA-XAS codecs.
 - [NFSTMXEditor](https://github.com/TheAdmiester/NFSTMXEditor) - Editor for TMX audio container files used in some EA Black Box Need for Speed games, replacing the GIN/SNR files inside (editing existing files only, not creating new ones).
 - [nfsps-testtrack-modelfixer](https://github.com/xan1242/nfsps-testtrack-modelfixer) - Patching utility that attempts to convert the material chunks in Need for Speed: ProStreet's prototype test-track models (streaming `.BUN` bundles) to the final format; unfinished, with broken materials still visible in game.
+- [TailsLab](https://github.com/AndyGura/tailslab) - Editor, converter and byte-level format specs for Need for Speed 1-9 (The Need for Speed 1994 to Most Wanted 2005); formerly NFS Resources Converter.
+  - Formats: EA Canada formats shared across other EA titles of that era (FSH images, FFN fonts, QFS compression).
 
 ###### 688 Attack Sub
 
@@ -992,6 +995,8 @@ See also: [RenderWare](middleware.md#renderware).
 - [SoulsFormats](https://github.com/JKAnderson/SoulsFormats) (archived) - .NET library for reading and writing FromSoftware file formats (Dark Souls, Demon's Souls, Bloodborne, Sekiro, and others), the foundational library used by SoulsAssetPipeline, DSMapStudio, and most other Souls modding tools.
 - [SoulsFormatsNEXT](https://github.com/soulsmods/SoulsFormatsNEXT) - Community-driven continuation of the SoulsFormats .NET library (.NET Framework 4.8 / .NET Standard 2.1) for reading and writing FromSoftware formats, supporting Dark Souls, Demon's Souls, Dark Souls II and III, Bloodborne, Sekiro, Elden Ring, and Armored Core VI, with a per-format description in its FORMATS.md. Includes automatic DCX decompression and recompression.
 - [souls-formats-c](https://github.com/soarqin/souls-formats-c) - Pre-alpha pure C port of SoulsFormatsNEXT for reading and writing FromSoftware formats (including DCX_KRAK compression via the game's own Oodle DLLs, Windows x86_64 only), targeting Sekiro, Elden Ring, Elden Ring Nightreign, and Armored Core VI.
+- [fromsoft-formats](https://github.com/Kalmarv/fromsoft-formats) - Rust library that reads and writes Sekiro and Elden Ring data files.
+  - Formats: BHD5/BDT, DCX, BND4, FLVER, TPF, MTD/MATBIN, MSB, GPARAM, EMEVD, FXR, PARAM (including `regulation.bin`), FMG, TAE, Elden Ring PC saves.
 
 ##### Archives, Unpackers & Encryption
 

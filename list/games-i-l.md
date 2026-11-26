@@ -1050,6 +1050,7 @@
   - Games: Fate/Samurai Remnant, Fairy Tail 2, Dynasty Warriors: Origin, Rise of the Ronin, Atelier Yumia, Fatal Frame II: Crimson Butterfly Remake, Fire Emblem Warriors: Three Hopes, Nioh 3.
 - [kvs-tools](https://github.com/Hairo/kvs-tools) (archived) - Tools for extracting and archiving Koei Tecmo's .ktsl2stbin archive format.
 - [game-save-dw3cer](https://github.com/VdustR/game-save-dw3cer) - Browser-local save patcher for Dynasty Warriors 3: Complete Edition Remastered (Steam): reads and rewrites the Unreal Engine GVAS `GameStatusData.sav` (officers, stages, weapons, items, bodyguards) with byte-identical native/browser output and input validation.
+- [G1T](https://github.com/hearhellacopters/G1T) - 010 Editor templates and research on the G1T texture format, covering 138 texture formats across PS3, X360, Wii/Wii U, 3DS, Vita, PS4/PS5, Switch, Android, iOS, Mac and Windows.
 
 ##### Fatal Frame
 

@@ -492,6 +492,11 @@
 - [HNK-Studio](https://github.com/zbirow/HNK-Studio) - Node.js desktop tool (still in development) for Torus Games `.hnk` files, using per-game providers. Views and exports textures (with texture replacement), plays and exports audio, views and exports 3D models and skeletons, and views and edits sprites and fonts; supports Wii BGRA8888 textures and Wii 3D models.
   - [TorusModLoader](https://github.com/zbirow/TorusModLoader) - Mod manager for Torus Games titles that use HNK archives or `Packfile.dat`; compiles PNG/DDS replacements into texture payloads and applies them as an overlay without modifying the original archives. Texture mods only so far, and the interface is currently Polish-only.
 
+#### Total Annihilation
+
+- [KBot](https://github.com/coreprime/kbot) - Go toolkit and browser-based studio (asset explorer, map editor, unit viewer) for Total Annihilation and TA: Kingdoms assets, with a published format reference.
+  - Formats: HPI, 3DO, COB/BOS scripts, GAF, TNT.
+
 #### Clipper Software (Touché: The Adventures of the Fifth Musketeer)
 
 - [touche-tools](https://github.com/RedMike/touche-tools) - .NET toolset for reading, editing, and repacking Touché: The Adventures of the Fifth Musketeer's TOUCHE.DAT archive.
@@ -682,6 +687,8 @@ See also: [OpenSpace](engines.md#openspace).
 - [ACBrotherhoodEditor](https://github.com/comradesean/ACBrotherhoodEditor) - Reverse-engineered editor for Assassin's Creed Brotherhood's OPTIONS and SAV save files, with a from-scratch LZSS implementation achieving byte-for-byte accurate repacking, uPlay/Facebook-cape unlockers, and PS3 PARAM.PFD encryption handling.
 - [AC2Editor](https://github.com/comradesean/AC2Editor) - uPlay/DLC unlocker for Assassin's Creed II OPTIONS save files, documenting the PC (headerless) vs. PS3 (8-byte header + CRC32) format differences.
 - [acb-rdv](https://github.com/michal-kapala/acb-rdv) - Reimplementation of Assassin's Creed Brotherhood's Quazal Rendez-Vous (RDV) online backend (matchmaking, authentication, secure service), building on zeroKilo's GRO backend research.
+- [acs-anvil-research](https://github.com/grm2ngo/acs-anvil-research) - Python format tooling, specs and notes for Assassin's Creed Syndicate (AnvilNext, 2015).
+  - Tools: `.forge` archive reader, mesh extraction to OBJ, texture decoding.
 
 ##### Prince of Persia (2008)
 
@@ -1056,6 +1063,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 #### EgoSoft (X4)
 
 - [X4Tools](https://github.com/REDxEYE/X4Tools) - Standalone plugin for importing and exporting assets from X4 game.
+
+#### Deep Shadows (Xenus)
+
+- [Xenus DT1 Decompiler](https://github.com/CodeNoob53/xenus-dt1-decompiler) - .NET tool that batch-decodes `.DT1`/`.DT2` texture caches of Xenus 2: White Gold and Boiling Point: Road to Hell (The Precursors untested) to DDS/TGA/PNG, using a managed reimplementation of the engine's VELoader decoder.
 
 ### Y
 #### Yacht Club Games

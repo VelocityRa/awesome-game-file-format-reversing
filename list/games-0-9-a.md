@@ -246,6 +246,7 @@
 - [ManyWeapons](https://github.com/ManyAsset/ManyWeapons) - Weapon file editor for Call of Duty 4.
 - [CallOfFile](https://github.com/Scobalula/CallOfFile) - .NET library (with a `callfile` CLI) for reading and writing Call of Duty's XMODEL_EXPORT/XMODEL_BIN and XANIM_EXPORT/XANIM_BIN model/animation files (Call of Duty 4 and later).
 - [GameImageUtil](https://github.com/Scobalula/GameImageUtil) - Tool for splitting and converting Call of Duty's packed/fused texture channels (normal/gloss/occlusion, specular/gloss, S/G/O) across Modern Warfare, Modern Warfare 2 Remastered, Infinite Warfare, and other titles, plus renaming Cast/Legion material images.
+- [cod3-tools](https://github.com/Tokaroy/cod3-tools) - Work-in-progress Python tools and format notes for Call of Duty 3 (Xbox 360): `.cod` archives (KAPF, LZO1X), APKF asset packs, models, textures, sounds, skeletons.
 
 ###### Fastfile & Zone Tools
 
@@ -360,6 +361,8 @@
 - [WAD-Tool](https://github.com/DCxDemo/WAD-Tool) - Packer/unpacker for Neversoft's "Big Guns" engine WAD files.
 - [LegacyThps](https://github.com/DCxDemo/LegacyTHPS) - Collection of Neversoft THPS tools accumulated over the years, including ThpsQScriptEd (qScript compiler/decompiler), ThpsFontEd (bitmap font editor), and ThpsTrigEd (TRG trigger-file parser for the "Big Guns" engine).
 - [KAT2WAV](https://github.com/DCxDemo/KAT2WAV) - Converts the KAT and XSB soundbank container formats used by Treyarch's Dreamcast and Xbox ports of Tony Hawk's Pro Skater and THPS2X to WAV.
+- [rme-formats](https://github.com/Kalmarv/rme-formats) - Rust library that reads Tony Hawk: Shred (PS3, 2010) game files from Robomodo's RME engine.
+  - Formats: PAK v4, level meshes (`.scp`, `.mlp`, `.mmp`, `.mgp`), skin meshes, material banks, texture headers (`.thp`, `.txp`), `MAIN.DB`.
 
 ##### Ghostbusters
 
@@ -483,6 +486,11 @@
 #### Alice: Madness Returns
 
 - [hysteria](https://github.com/CatAnnaDev/hysteria) - Modding stack for Alice: Madness Returns (Unreal Engine 3), including Hysteria Studio, a Rust/egui desktop app that opens, inspects, edits, previews and exports the game's `.upk` assets (textures, sounds, properties); the rest is a `dinput8.dll` proxy mod framework with runtime object and function access.
+
+#### Allods Online
+
+- [Allods Resource Exporter](https://github.com/enoly/allods-resource-exporter) - Python library and CLI that inspects and exports Allods Online resources: PAK/LocPack archives, meshes to OBJ, textures to PNG/DDS, models, terrain and animations to GLB, UI definitions, atlases and texts.
+- [Allods Data Viewer](https://github.com/DarkyAndSparky/allods-data-viewer) - Rust viewer, extractor and converter for Allods Online archives, localization, textures, audio, video and models; CLI plus Tauri desktop app (early development).
 
 #### Alone in the Dark
 

@@ -1109,6 +1109,8 @@
 - [EFMI-Tools](https://github.com/SpectrumQT/EFMI-Tools) - Alpha-stage Blender addon for the Endfield Model Importer (EFMI): extracts objects and LOD meshes from Arknights: Endfield frame dumps, imports them as editable meshes with merged skeletons and shapekeys, and exports EFMI-compatible mods. See also [XXMI Launcher](https://github.com/SpectrumQT/XXMI-Launcher).
 - [IL2CPP-Dumper (DeftSolutions-dev)](https://github.com/DeftSolutions-dev/IL2CPP-Dumper) - Static and live runtime metadata extractor for Unity IL2CPP games, dumping classes/fields/methods to C# and LLM-friendly text; created for Arknights: Endfield but works on any modern IL2CPP build.
 - [Endfield-MetadataDumper](https://github.com/Failzuma/Endfield-MetadataDumper) - Runtime metadata dumper for Arknights: Endfield, which reconstructs IL2CPP metadata via a custom runtime-reconstruction pipeline rather than loading it from a standard `global-metadata.dat`.
+- [EndfieldUnpacker](https://github.com/RainStar7981/EndfieldUnpacker) - Python scripts to decrypt and extract Arknights: Endfield assets.
+  - Formats: VFS (ChaCha20), BLC index, XXTEA Lua, SparkBuffer binary JSON, AKPK/Wwise audio (WEM to WAV via vgmstream), AssetBundles.
 
 #### Hypixel Studios (Hytale)
 

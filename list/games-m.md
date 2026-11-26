@@ -126,6 +126,7 @@
 - [FastDec-TS4](https://github.com/KitsuneDev/FastDec-TS4) - Fast Python decompiler for The Sims 4's compiled .pyc script files, used to decompile the game's own scripts and TS4Script mods back to readable Python source.
 - [Sims-4-Modding-Docs](https://github.com/zmilla93/Sims-4-Modding-Docs) - Archive of official Maxis/EA Sims 4 modding documentation (the original Custom Content Guide, forum discussions, and binary templates for .package resource formats), preserved from now-defunct forum pages via the Internet Archive.
 - [Sims4Tools](https://github.com/s4ptacle/Sims4Tools) - The Sims 4 modding library and tool suite (S4PE package editor and related tools) for reading/writing DBPF .package resource files; actively maintained continuation of the now-deprecated [Kuree/Sims4Tools](https://github.com/Kuree/Sims4Tools).
+- [Binary-Templates](https://github.com/Llama-Logic/Binary-Templates) - 010 Editor binary templates for Sims 4 resources (CAS parts, object definitions, tuning, geometry, clips, string tables), with notes on game file geography and locale codes.
 
 ##### The Sims Online
 
@@ -168,6 +169,10 @@
 - [CSGeom](https://github.com/xdanieldzd/CSGeom) - Experimental model viewer and exporter for `.geom` model files from Digimon Story: Cyber Sleuth, using separately converted `.pvr` texture files.
 - [pyValkLib](https://github.com/Pherakki/pyValkLib) - Python library for reading and writing files in the Valkyria Chronicles game series.
 - [MXEEditor](https://github.com/Pherakki/MXEEditor) - Program for unpacking and re-packing Valkyria Chronicles MXE files to and from CSV, built on pyValkLib above; complements Ginnungagap above, which targets Valkyria Chronicles 4 specifically.
+
+#### MediaStation
+
+- [MediaStation.Unpack](https://github.com/Athari/Alba.MediaStation.Unpack) - .NET tool and library that extracts images, sprites, movies and IMA ADPCM audio from MediaStation adventure game `.STM`/`.CXT` archives to PNG/WebP/GIF/APNG/WAV, following ScummVM's MediaStation engine.
 
 #### Megapede
 
@@ -262,6 +267,7 @@
 - [libsawyer](https://github.com/OpenRCT2/libsawyer) - C++ library and CLI utilities (`fsaw`, `gxc`) shared by OpenRCT2 and OpenLoco: inspects, compresses, and decompresses Sawyer-encoded RollerCoaster Tycoon 2/Locomotion save files, and builds/extracts the two engines' graphics data files.
 - [G1Extract](https://github.com/Gericom/G1Extract) - Extractor for the `g1.dat` graphics data file from RollerCoaster Tycoon 2.
 - [OpenRCT2 Title Sequence Editor](https://github.com/OpenRCT2/title-sequence-editor) - Plugin for creating, editing, and previewing custom `.parkseq` title sequence files played on OpenRCT2's title screen; split out from the base game into an optional plugin.
+- [rct3ovl](https://github.com/K33rn/rct3-ovl-studio) - RollerCoaster Tycoon 3 (base, Soaked!, Wild!) `.ovl` extractor with a browser viewer; exports models and animated characters to glTF, textures to PNG, sounds to WAV, text and records to JSON.
 
 ##### Star Trek: The Next Generation - Klingon Honor Guard
 
@@ -424,6 +430,7 @@
   - Games: Forza Motorsport 3/4, Forza Horizon 1/2 (not FM2).
   - Formats: PVS (track model instances/textures), STX.BIN/BIN (CAFF textures), FXOBJ (Effects Lite shaders), RMB.BIN (3D geometry), BIX (textures).
   - Features: Model/instance placement, vertex buffer layout support, DDS texture repacking without re-encoding.
+- [forzatech-formats](https://github.com/Kalmarv/forzatech-formats) - Rust library that reads Forza Horizon 6 (ForzaTech) game files: encrypted containers, GeoChunk track archives, Grub bundles (`.modelbin`, `.swatchbin`, `.materialbin`, `.shaderbin`) and track placements (`.pgeo`, `.plib`, `.pvs`).
 
 ##### Age of Empires
 
@@ -649,6 +656,7 @@
 - [FEAR Tweaking Tool and Guide](https://www.moddb.com/games/fear/downloads/fear-tweaking-tool-and-guide) - Designed to squeeze more FPS from the game without doing any drastic changes.
 - [ltar](https://github.com/cmbasnett/ltar) - Python CLI for I/O on LTAR archive files found in games using the Lithtech Jupiter engine.
 - [Lithtech Jupiter Ex FX Decompiler (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/lithtech-jupiter-ex-fx-decompiler)
+- [FEAR3_DSPack_Toolkit](https://github.com/foursecondfivefour/FEAR3_DSPack_Toolkit) - Read-only C++20 CLI/GUI extractor for F.E.A.R. 3 (Despair Engine) `.dsPack` archives, decoding LZD and zlib resources.
 
 ##### Condemned 2: Bloodshot
 

@@ -95,7 +95,7 @@
 - [gm_data_win](https://github.com/jam1garner/gm_data_win) - GameMaker Studio 2 data.win editor/library written in Rust, developed for Rivals of Aether modding.
 - [gm-modding-gui](https://github.com/jam1garner/gm-modding-gui) - Simple UI for modding GameMaker 2 games.
 - [Butterscotch](https://github.com/efimandreev0/Butterscotch) - GameMaker runtime reimplementation that loads original compiled GameMaker game data, in the tradition of phosphorvm and OpenGMK.
-- [cinnamon](https://github.com/Project-Sunshine-Native/cinnamon) - GameMaker runtime reimplementation ('Cinnamon') that loads original compiled GameMaker game data, in the tradition of phosphorvm and OpenGMK.
+- [older-cinnamon](https://github.com/Project-Sunshine-Native/older-cinnamon) - GameMaker runtime reimplementation ('Cinnamon') that loads original compiled GameMaker game data, in the tradition of phosphorvm and OpenGMK.
 - [OpenGM](https://github.com/misternebula/OpenGM) - GameMaker runtime reimplementation that parses and executes the original game's compiled assembly code in a stack-based VM, in the tradition of phosphorvm and OpenGMK. See also [InvoxiPlayGames's fork](https://github.com/InvoxiPlayGames/OpenGM).
 - [DELTARUNITY](https://github.com/misternebula/DELTARUNITY) - Archived predecessor to OpenGM by the same author; implements GameMaker script execution and graphical rendering inside Unity, importing sprites/audio and running the original compiled `.asm` scripts from DELTARUNE Chapter 1's `data.win`.
 - [gmspack](https://github.com/ryohey/gmspack) - C reimplementation for extracting the `data.win` file produced by GameMaker Studio, ported from UndertaleTools.
@@ -496,6 +496,7 @@
 - [unity-asset](https://github.com/Latias94/unity-asset) - Rust toolkit for inspecting, indexing, extracting, and making guarded, revision-bound edits to Unity YAML (scene/prefab) and binary serialized assets.
 - [PapayaModdingTool](https://github.com/PapayaModding/PapayaModdingTool) - Unity Editor-based modding toolkit from the same author as UABS above, combining AssetsTools.NET, UABEA, AddressablesTools, and AssetRipper.TextureDecoder/PVRTexLib for texture editing and mod project management.
 - [Unity-Bundle-CAB-ID-Changer](https://github.com/RaiRaiTheRaichu/Unity-Bundle-CAB-ID-Changer) - Batch tool for changing the CAB-ID (an MD5 hash stored in the bundle header) of Unity asset bundles, needed to avoid crashes after replacing bundle contents with a tool like UABE; supports drag-and-drop and batch processing.
+- [unity-formats](https://github.com/Kalmarv/unity-formats) - Rust library that reads SerializedFiles (v17-22), UnityFS bundles (stored, LZMA, LZ4/LZ4HC), streamed `.resS` data and TPK type trees, and decodes scenes, meshes, textures, materials, shaders, terrain and Mecanim animation.
 
 ##### IL2CPP & Managed-Code Reverse Engineering
 
@@ -828,6 +829,8 @@
 #### Shiva3D Engine
 
 - [stk_unpacker](https://github.com/salactic/stk_unpacker) - Command-line tool for unpacking `.stk` game archives used by the Shiva3D engine.
+- [converters (ShiVa3D)](https://github.com/ByYefimenko/converters) - Python decoders for ShiVa3D assets reconstructed from the engine loader, with format docs.
+  - Formats: encrypted `.smf`/`.stk` archives, `.msh` to OBJ, `.dds`/`.etc`/`.pvr`/`.atc` textures to PNG, `.mat`, `.ske`, `.ani`, `.anb` to JSON, GLB export.
 
 #### Soft3D Engine
 
@@ -1258,6 +1261,7 @@
 - [Malie-exe-patcher_python-code](https://github.com/sechsKatze/Malie-exe-patcher_python-code) - Universal patcher for Malie engine executables that safely injects `EXEC.bin` by creating a new section instead of overwriting the resource section; compatible with Karin Entertainment games.
 - [Malie-EXEC-Binary-Text-Tool](https://github.com/sechsKatze/Malie-EXEC-Binary-Text-Tool) - Extracts UTF-16LE strings from Malie engine `EXEC`/`exec.dat` text resource files to JSON for translation/editing, then reinserts them in place while preserving original slot sizes.
 - [LigthStringEditor_MALIE-LABLE-Read-Only](https://github.com/sechsKatze/LigthStringEditor_MALIE-LABLE-Read-Only) - Fork of marcussacana's LigthStringEditor for Malie engine `.dat`/`.bin` string tables, adding read-only viewing and filtering of the MALIE LABEL section (chapter titles, character names, choice text) and extending support to Karin Entertainment titles.
+- [malie-tool](https://github.com/raavqs/malie-tool) - Rust CLI to inspect, extract, pack and repack Malie Engine LIB/LIBP/LIBU archives (plaintext, Camellia and CFI profiles) and export/import EXEC script text as UTF-8 JSON.
 
 #### Marble Engine
 
@@ -1352,6 +1356,7 @@
 - [RPAExtractorCSharp](https://github.com/SolicenTEAM/RPAExtractorCSharp) - Pure C# extractor for Ren'Py RPA archives, usable as a library (two source files) or through the `rpaext` command-line tool with drag-and-drop support.
 - [renpy-asset-viewer](https://github.com/Potat05/renpy-asset-viewer) - Browser-based viewer for Ren'Py projects: drop in a game folder to browse and download assets and decompile code files.
 - [renpy_save_editor](https://github.com/ricardol96/renpy_save_editor) - GUI editor for Ren'Py `.save` files (ZIP archives holding a pickled `log`), patching variable values (int, float, bool, string) directly in the pickle bytecode to keep the file intact and regenerating the signatures when `ecdsa` is installed.
+- [RenZip](https://github.com/lambda-vn/renzip) - Rust and Tauri desktop archive manager for Ren'Py `.rpa` files: browse, preview, extract and create archives.
 
 #### RioShiina
 
@@ -1796,7 +1801,7 @@
 
 - [flxanimate](https://github.com/Dot-Stuff/flxanimate) - Plays back Adobe Animate texture atlas exports (used widely by Friday Night Funkin' and its mods) in HaxeFlixel.
 - [BetterTextureAtlas](https://github.com/Dot-Stuff/BetterTextureAtlas) - Adobe Animate extension that enhances Texture Atlas exports, extending the animation file format with extra data (blend modes, baked filters) for use by players like flxanimate.
-- [FNF-Modding-Engine-Differences](https://github.com/MeguminBOT/FNF-Modding-Engine-Differences) - Documents the modding APIs and data formats across the three major Friday Night Funkin' engines (Official Funkin, Psych Engine, Codename Engine).
+- [FNF-Modding-Engine-Differences](https://github.com/MeguminBOT/FNF-Modding-Engine-Differences) (archived) - Documents the modding APIs and data formats across the three major Friday Night Funkin' engines (Official Funkin, Psych Engine, Codename Engine).
   - Covers: mod folder structures/metadata, chart/song data formats, character/stage/week data formats, scripting systems (HScript, Lua), and cross-engine conversion guidance.
 
 #### LithTech Engine
