@@ -92,6 +92,10 @@
   - Formats: .dcm (models), .dct (textures, exports as DDS).
   - Features: Extract vehicles, characters, and objects to OBJ format; preserve material data (excludes environment maps).
 
+#### Tuxedo Labs (Teardown)
+
+- [Teardown-Converter](https://github.com/TTFH/Teardown-Converter) - C++ application parsing Teardown's binary `.tdbin` maps and converting them to editable `.xml` and `.vox` formats.
+
 #### Techland
 
 - [Call of Juarez: Bound In Blood - Map Pak Tool](https://www.moddb.com/mods/cojbib-map-pak-tool/downloads/call-of-juarez-bound-in-blood-map-pak-tool) - Convert CoJBiB custom maps into Pak file with required folder structure by the game. Portable (no installation) just start and create, Enjoy!
@@ -109,6 +113,10 @@
 ##### N.U.D.E.@
 
 - [Xbox-NUDE](https://github.com/master801/Xbox-NUDE) - Unpacker/packer for `.tfs` archive files from N.U.D.E.@: Natural Ultimate Digital Experiment (Xbox).
+
+#### Teeworlds
+
+- [libtw2](https://github.com/heinrich5991/libtw2) - Rust libraries and tools for Teeworlds/DDNet, with documentation and Kaitai Struct definitions for the map datafile, high-level map and demo (replay) formats, Huffman compression and network protocol.
 
 #### Telltale Games
 
@@ -318,6 +326,9 @@
 
 #### The Learning Company
 
+- [OpenGizmos](https://github.com/sp00nznet/OpenGizmos) - C++ engine and asset extractor for The Learning Company and MECC 90s educational games (Gizmos & Gadgets, Operation Neptune, Treasure MathStorm!, Treasure Cove!, Spellbound!, OutNumbered!, Treasure Mountain!, Spellbound Wizards, Storybook Weaver Deluxe) with a built-in asset viewer.
+  - Formats: NE DLL resource files (`.DAT`, `.RSC`: bitmaps, fonts, palettes, speech), RGrp `.GRP` sprite archives (RLE/LZ), Smacker `.SMK` video, MIDI; documented in `docs/FILE_FORMATS.md`.
+
 ##### Super Solvers: Gizmos & Gadgets!
 
 - [reverssg](https://github.com/delan/reverssg) (archived) - Reverse engineering notes and documentation for Super Solvers: Gizmos & Gadgets! (1987), covering its file formats.
@@ -332,6 +343,7 @@
 #### Neverhood, Inc. (The Neverhood)
 
 - [pyBLB](https://github.com/michal4132/pyBLB) - Python library for extracting resources from The Neverhood's BLB archive files.
+- [neverhood-image-tools](https://github.com/YAL-Game-Tools/neverhood-image-tools) - Haxe tool that converts The Neverhood's NHI images (format 26 best supported) and NHP palettes to PNG, and PNG/BMP back to format-26 NHI. Works on images extracted from BLB archives.
 
 #### FarSight Studios (The Pinball Arcade)
 
@@ -350,6 +362,8 @@
 
 - [freeserf](https://github.com/freeserf/freeserf) - Open-source re-implementation of The Settlers I / Serf City (1993, Blue Byte), reading the original DOS or Amiga game data files.
 - [Settlers.ts](https://github.com/tomsoftware/Settlers.ts) - TypeScript/WebGL browser remake of The Settlers IV that reads the original game data directly; includes in-browser viewers for the game's `.gfx`, `.gl`/`.gh`, `.lib` and map files, with decoders for its compressed/encrypted resource formats.
+- [Return To The Roots](https://github.com/Return-To-The-Roots/s25client) - Actively maintained open-source remake of The Settlers II (Gold Edition) that loads the original game's data files (LST/BBM/LBM resources, palettes, maps, sounds) from an installed copy; uses the `libsiedler2` library (submodule) to read these formats.
+- [JSettlers](https://github.com/jsettlers/settlers-remake) (archived) - Java remake of The Settlers III (PC/Android) that reads the original game's GFX/DAT image and sound files and map data. See also [paulwedeck/settlers-remake](https://github.com/paulwedeck/settlers-remake) (archived), the later active fork.
 - [sied3](https://github.com/tomsoftware/sied3) - Early C++ viewer for The Settlers III (Siedler 3) that reads the original map files and GFX image/animation files and renders the maps (map view only).
 
 ##### Albion
@@ -361,6 +375,9 @@
 - [Anno 1602 Sprite Extractor](https://github.com/Danjb1/anno-1602-reader) - Extracts graphics from Anno 1602's BSH sprite files (GFX/MGFX/SGFX/TOOLGFX folders), saving building, unit, and interface sprites as images.
 - [Anno2018](https://github.com/cmfcmf/Anno2018) - Browser-based rewrite of Anno 1602 using modern web techniques, importing graphics and configuration extracted from an installed copy of the original game, including savegame loading/rendering.
 - [mdcii-engine](https://github.com/siredmar/mdcii-engine) - Platform-independent remake of Anno 1602/1602 A.D., built on decoded original file formats. See also [roybaer/mdcii-engine](https://github.com/roybaer/mdcii-engine), the earlier project (by the same original author) this was continued from, focused on remaking the game's graphics engine and decoding further Anno 1602 file formats.
+- [MDCII](https://github.com/stwe/MDCII) - C++ editable isometric Anno 1602 world project reading the original game's BSH sprite files, palettes, COD scripts and savegames from an installed copy.
+- [Benno4j](https://github.com/stwe/Benno4j) - Java remake of Anno 1602 (NINA and History Edition) that parses the original BSH graphics and GAM savegames.
+- [anno1602-script-parser](https://github.com/mbugert/anno1602-script-parser) - Python grammar (lark) and interpreter for Anno 1602 KE's COD and GAD/INC script files, turning `HAEUSER.COD` and `FIGUREN.COD` into plain Python objects.
 - [anno16_docs](https://github.com/Green-Sky/anno16_docs) - Knowledge database documenting Anno 1602's file formats and internals.
 - [anno-tool](https://github.com/Danjb1/anno-tool) - Tool for parsing and editing the files of Anno 1602.
 - [1602-Island-Editor](https://github.com/wzurborg/1602-Island-Editor) - Source code of the original Anno 1602 / 1602 A.D. Island Editor, written in 2000 by Sir Henry. See also the same author's [grafx1602](https://github.com/wzurborg/grafx1602) (Anno 1602 Grafx graphics tool), [scenexplorer](https://github.com/wzurborg/scenexplorer) (Anno 1602 Szenario/scenario explorer), [GoalEdit](https://github.com/wzurborg/GoalEdit) (Anno 1602 Scenario Goal Editor), and [CmpInstall](https://github.com/wzurborg/CmpInstall) (Anno 1602 Campaign Installer, used to build/install additional multi-scenario campaigns).
@@ -385,6 +402,7 @@
 - [OpenToshi (decomp)](https://github.com/AdventureT/OpenToshi) - Matching decompilation of de Blob and Toshi engine (Blue Tongue Entertainment).
 - [OpenJPOG (decomp)](https://github.com/AdventureT/OpenJPOG) - Matching decompilation of Jurassic Park: Operation Genesis and Toshi Engine v1.0 (Blue Tongue Entertainment).
 - [Toshi-TML-Tool](https://github.com/RooMan-GBM/Toshi-TML-Tool) - Extractor for TML (Toshi Material Library) files used by Blue Tongue Entertainment's Toshi engine.
+- [Rainbow-Studios-PAK-Tool](https://github.com/The-Meth0d/Rainbow-Studios-PAK-Tool) - C# tool unpacking and repacking the PAK files of Rainbow Studios games Cars: The Video Game and MX vs. ATV: Unleashed.
 
 ##### Barnyard
 
@@ -400,6 +418,8 @@
 
 - [3ds Export script (MX vs ATV Reflex)](https://www.moddb.com/games/mx-vs-atv-reflex/downloads/3ds-export-script) - 3DS Max export plugin for MX vs ATV Reflex.
 - [reflex-package-tool](https://github.com/daniilkorochansky/reflex-package-tool) - Python GUI tool for viewing, extracting and replacing resources in MX vs ATV Reflex `.package` archives, with a built-in texture converter, localization editor and sound bank manager.
+- [reflex-font-package-viewer](https://github.com/daniilkorochansky/reflex-font-package-viewer) - Viewer and editor for the character resources in MX vs ATV: Reflex's `data.fpack`, with rebuild and export/import of character resources.
+- [reflex-bxml-editor](https://github.com/daniilkorochansky/reflex-bxml-editor) - Editor for MX vs ATV: Reflex `.bxml`, `.database`, `.level` and `savegame.bxml` files, with a property editor, raw XML editing and rebuild.
 
 
 ##### Twisted Metal
@@ -906,6 +926,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [V Utils](https://github.com/sevonj/v_utils) - Miscellaneous Saints Row 2 tools: a model viewer with limited smesh/cmesh format support and a CLI packfile (un)packer.
 
 ### W
+
+#### Beavis Soft (Wacky Wheels)
+
+- [pc-wackywheels-doc](https://github.com/vs-sr-dev/pc-wackywheels-doc) - Byte-level documentation of the 1994 MS-DOS game Wacky Wheels: the `WACKY.DAT` archive, tiled world, track and sprite formats, fixed-point look-up tables and save/config files, with scripts that reproduce the findings from your own copy.
 #### Walt Disney World Quest
 
 - [WDWRacing-tools](https://github.com/ravenDS/WDWRacing-tools) - Blender plugins for Walt Disney World Quest: Magical Racing Tour (PC/PS1) 3D model formats.

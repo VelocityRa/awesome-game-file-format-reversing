@@ -65,9 +65,14 @@
 
 - [parasite_in_city_inspector](https://github.com/coreynguyen/parasite_in_city_inspector) - Viewer for assets embedded in the `data.win` (GameMaker) file of Parasite In City.
 
+#### Related Designs (ParaWorld)
+
+- [Paraworld_gsf_viewer](https://github.com/arceusVen1/Paraworld_gsf_viewer) - Flutter viewer (also hosted on GitHub Pages) for the `.gsf` 3D model files of ParaWorld (2006), based on community-deciphered format research.
+
 #### Grinding Gear Games (Path of Exile)
 
 - [libggpk](https://github.com/nohbdy/libggpk) - Original C++ library and command-line tool for extracting information from the GGPK archive format used by Path of Exile. See also [LibGGPK3](https://github.com/aianlinb/LibGGPK3), an actively maintained rewrite supporting both Path of Exile 1 and 2, and [VisualGGPK2](https://github.com/aianlinb/VisualGGPK2), a GUI application for viewing and editing Path of Exile's Content.ggpk built on that library.
+- [ggpk-tools](https://github.com/Inndy/ggpk-tools) - 010 Editor binary template for the GGPK archive format plus a C program (`ggls`) listing its files.
 
 #### Evening Star (Penny's Big Breakaway)
 
@@ -102,6 +107,11 @@
 - [Star Wars Empire At War FOC DDS Viewer & Thumbplug _tga1.10](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/star-wars-empire-at-war-foc-dds-viewer-thumbplug-tga110) - DDS viewer and TGA thumbnail plugin for Star Wars: Empire at War modding (v1.10). Part of Dr. Chelli Lona Aphra's modding resource collection. Provides general assistance for modding.
 - [Star Wars Empire At War FOC Alamo Object Importer 1.2](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/alamo-object-importer-12) - Alamo object importer for 3DS Max for Star Wars: Empire at War modding (v1.2). Part of Dr. Chelli Lona Aphra's modding resource collection. Provides general assistance for modding.
 - [Star Wars Empire At War FOC Alamo Viewer 1.2](https://www.moddb.com/games/star-wars-empire-at-war-forces-of-corruption/downloads/alamo-viewer-12) - Alamo viewer for Star Wars: Empire at War modding (v1.2). Part of Dr. Chelli Lona Aphra's modding resource collection. Provides general modding assistance.
+
+#### PF Magic
+
+- [catzng](https://github.com/sp00nznet/catzng) - C++17 reimplementation of PF Magic's Catz, Dogz and Oddballz (1995-1996) pet engine that reads the original game data files and renders the ball-and-stick creatures.
+  - Formats: LNZ breed definitions, BHD/BDT animation index and frame data, SCP behavior scripts (research), CAT save files, NE resource DLLs, WAV/WVV audio, playscene backgrounds; documented in `docs/TECHNICAL.md`.
 
 #### Phenomic
 
@@ -155,6 +165,8 @@
 #### PlatinumGames
 
 - [platinumgames_stuff](https://github.com/Timo654/platinumgames_stuff) - Collection of Python scripts for PlatinumGames titles including Bayonetta 3 and Metal Gear Rising: Revengeance.
+- [Ortus](https://github.com/tge-was-taken/Ortus) - Modding tools and .NET library for Metal Gear Rising: Revengeance (PC).
+  - Formats: DAT archives (pack/unpack), WMB4 models (convert via Assimp), WTB textures, BXM binary XML (convert).
 
 ##### Bayonetta
 
@@ -180,6 +192,8 @@
 - [att](https://github.com/micktu/att) - NieR: Automata Text Tools for disassembling scripts and replacing files already extracted from the game's .cpk archives.
 - [NierBlenderato](https://github.com/REDxEYE/NierBlenderato) - Blender addon for importing NieR: Automata assets.
 - [NierPDK](https://github.com/REDxEYE/NierPDK) - Python development kit for working with NieR: Automata file formats.
+- [rein-kuro](https://github.com/190nm/rein-kuro) - Python tools for NieR Reincarnation that decrypt the game's `octocacheevai` asset cache and encrypted resource files (JP/EN and closed-beta builds) and export cache differences to JSON.
+- [NierDocs](https://github.com/ArthurHeitmann/NierDocs) - Collection of tools and documentation for modding Nier: Automata, including CPK and DAT/DTT file contents, map data and links to related tools.
 
 #### Panic (Playdate)
 
@@ -288,6 +302,10 @@
 
 - [wipeout-rewrite](https://github.com/phoboslab/wipeout-rewrite) - Re-implementation of the 1995 PSX game wipEout, reading the original game's data files. See also [jnmartin84's Dreamcast port](https://github.com/jnmartin84/wipeout-dc).
 - [WipeOut Phantom Edition](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition) - Enhanced PC source port of the original PlayStation WipeOut with improved graphics, physics, and audio; automatically extracts game data and music from the original PS1 bin/cue disc images.
+
+##### G-Police
+
+- [owl](https://github.com/DASA-KAMOV/owl) - Rust viewer, extractor and editor for Psygnosis game data: G-Police saved games (`.SAV`) and resource data tables (`.RDT`) on PC and PSX, with partial support for G-Police: Weapons of Justice, Tellurian Defense, Overboard!/Shipwreckers and Assault Rigs.
 
 #### Pump It Up
 
@@ -834,6 +852,9 @@
 - [OpenGD](https://github.com/Open-GD/OpenGD) - Open-source reimplementation of Geometry Dash aiming for 1:1 gameplay, built on axmol (a cocos2d-x 4.0 fork). Unmaintained; superseded by gdrender and gdclone.
 - [gddemo](https://github.com/sogful/gddemo) - Deobfuscated, moddable version of the geometrydash.com browser demo.
 - [gd.docs](https://github.com/gd-programming/gd.docs) - Community documentation for Geometry Dash internals.
+- [gd-docs](https://github.com/gd-docs/gd-docs) - Actively-updated successor to Wylie's Geometry Dash docs (published at boomlings.dev), documenting the game's server endpoints and data formats.
+- [Geometry-Dash-1.0](https://github.com/Wyliemaster/Geometry-Dash-1.0) - Reference-only (non-compilable, approximate) decompilation of Geometry Dash 1.0.
+- [gd-web-decomp](https://github.com/undefined06855/gd-web-decomp) - Generator that produces decompiled Geometry Dash source from game binaries using IDA Pro and Geode bindings (via BromaIDA); web interface in the companion gd-web-decomp-web repo.
 - [CPP-AST](https://github.com/GD-RE/CPP-AST) - Modified C++ AST tool for repairing broken Ghidra-decompiled code and converting it back to valid C++, used to clean up Geometry Dash decompilation output.
 - [Geometry-Dash-Miscellaneous-Decomp-Tools](https://github.com/CallocGD/Geometry-Dash-Miscellaneous-Decomp-Tools) - Collection of miscellaneous tools for decompiling Geometry Dash, focused on version 2.2 and later.
 - [GD-Decomp-Deploy](https://github.com/CallocGD/GD-Decomp-Deploy) - Portable tool for bootstrapping a Geometry Dash decompilation environment, using Geode SDK bindings and PyBroma.
@@ -878,6 +899,8 @@
 - [GMD-API](https://github.com/HJfod/GMD-API) - Geode API mod for reading and writing Geometry Dash's GMD level file format.
 - [lvlshare](https://github.com/Spu7Nix/lvlshare) - Standalone Rust utility (no Geode dependency) that exports/imports Geometry Dash levels as portable .lvl files, reading the game's save file directly to list available levels.
 - [gdlevelconverter](https://github.com/qimiko/gdlevelconverter) - Converts Geometry Dash levels between the 2.0+ and 1.9 level-string formats. See also [gdlevelconverter-web](https://github.com/qimiko/gdlevelconverter-web), a browser-based wrapper for the same converter.
+- [Legacy-Level-Converter](https://github.com/Wayveyx/Legacy-Level-Converter) - Node.js converter that downloads Geometry Dash 2.1 levels and rewrites them to the legacy level format for game versions 1.0 to 1.8, with dry-run and file-export options.
+- [GDParse](https://github.com/HectLM/GDParse) - JavaScript library for parsing, decoding and encoding Geometry Dash levels and game save files.
 
 ###### Save Data, Encryption & Asset Tools
 
@@ -962,6 +985,7 @@
 - [re3](https://github.com/hottabxp/re3) - Reverse-engineered source code for GTA III and GTA Vice City, documenting the original game's engine and file formats.
 - [IMGEditor](https://github.com/user-grinch/IMGEditor) - IMG archive editor for GTA III, Vice City, San Andreas, and Bully: Scholarship Edition.
 - [saamt-rs](https://github.com/YouKnow-sys/saamt-rs) - Rust command-line toolkit for GTA: San Andreas audio archives on PC and PS2: export and create SFX archives, edit bank slot, lookup table and PAK name configs, and convert VAG and WAV audio. Early-stage; stream management is not yet implemented.
+- [gta-radio](https://github.com/Timic3/gta-radio) - Parser and exporter for GTA: San Andreas radio station audio streams (`audio/streams`, Ogg), with station track metadata annotations.
 - [SilentPatch](https://github.com/CookiePLMonster/SilentPatch) - Reverse-engineered compatibility and bug-fix patch for the PC releases of GTA III, Vice City, and San Andreas, correcting original engine issues without altering game logic.
 - [GTA2-SaveEdit (Grand Theft Auto 2)](https://github.com/JulianOzelRose/GTA2-SaveEdit) - Savegame editor for Grand Theft Auto 2: edit weapons, ammo, cash, health, armor, lives, and enable power-ups.
 - [VC-Save-Toolkit](https://github.com/Dteyn/VC-Save-Toolkit) - Desktop save editor for Grand Theft Auto: Vice City covering retail PC, Steam, reVC and Vice City VR (Windows 64-bit and Quest ARM64) save layouts: edits player, world, weapons, pickups, vehicles, gangs and stats, converts between supported formats, and repairs persistent effects of two pedestrian cheats; unrecognized layouts open read-only.

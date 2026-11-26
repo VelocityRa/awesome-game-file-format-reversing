@@ -522,6 +522,7 @@
 - [MarioUnmaker](https://github.com/Treeki/MarioUnmaker) - Qt viewer for Super Mario Maker (Wii U) `.cdt` level files, with reverse-engineered format notes (`FormatNotes.md`).
 - [smb1_src](https://github.com/RetrolariumLab/smb1_src) - Byte-identical ca65 source reconstruction of seven official Super Mario Bros. releases across NES, Vs. System, and FDS, with reverse-engineering documentation and authoring tools.
 - [SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C) - Translation of the original Super Mario Bros. (NES) disassembly into readable, buildable C/C++.
+- [toost](https://github.com/TheGreatRambler/toost) - Level viewer for Super Mario Maker 2 that renders local course files or courses fetched by ID, based on JiXiaomai's SMM2LevelViewer.
 
 ###### Other Games & Decompilations
 
@@ -1187,6 +1188,10 @@
 - [ultima1_reveng](https://github.com/XekriRedmane/ultima1_reveng) - Byte-perfect literate reverse engineering of Ultima I (Origin Systems' 1986 Apple II remake, from the 4am crack ProDOS disk image), covering the engine, play-mode overlays, town/castle maps, hi-res images, fonts and tiles, with a searchable HTML site.
 - [ultima1_save_editor](https://github.com/caleb/ultima1_save_editor) - Go saved-game editor for Ultima 1.
 - [ultima-party-editor](https://github.com/erikyuzwa/ultima-party-editor) - Windows save game editor with a tab per game for Ultima I, II, III, IV and V; backs up the original save before writing changes.
+
+##### Ultima III
+
+- [ultima-data-parser](https://github.com/DocCaliban/ultima-data-parser) - TypeScript libraries and tools decoding Ultima III maps (`.ULT`), tile sets (`.IMG`) and palettes into PNG renders, with format documentation and a path to the other Ultima games.
 
 ##### Ultima IV
 

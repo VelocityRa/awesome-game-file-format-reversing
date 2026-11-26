@@ -141,6 +141,7 @@
 - [FreeHeroes](https://github.com/mapron/FreeHeroes) - Open-source Heroes of Might and Magic III battle engine, similar in spirit to vcmi; includes a LegacyConverter that reads original SoD/HotA/HD Mod game resources (converting audio/video via FFmpeg) into its own format for one-time use, after which the original files are no longer needed.
 - [homm3-asset-tool](https://github.com/Starmordar/homm3-asset-tool) - CLI parser and sprite extractor for Heroes of Might and Magic III LOD archives and DEF sprite files.
 - [h3explorer](https://github.com/minexew/h3explorer) - Browser-based content explorer for Heroes of Might and Magic III, navigating the game's directory tree into its LOD archives and DEF sprite files to view individual frames.
+- [homm3-unpacker](https://github.com/neunato/homm3-unpacker) - Node.js/browser library parsing Heroes of Might and Magic III file formats such as `LOD` archives and `DEF` sprites.
 
 ##### Heroes of Might and Magic IV
 
@@ -567,6 +568,7 @@
 - [SollumzRDR](https://github.com/Foxxyyy/SollumzRDR) - Work-in-progress fork of Sollumz (Blender RAGE-format plugin) adapted for Red Dead Redemption 1. See also [RDR2SollumzNavmesh](https://github.com/Foxxyyy/RDR2SollumzNavmesh), the same fork extended with YNV navmesh support.
 - [RDR1AudioTool](https://github.com/Foxxyyy/RDR1AudioTool) - Editor for Red Dead Redemption 1 PC's AWC audio container files.
 - [MCLA-Decompiled-Scripts](https://github.com/Foxxyyy/MCLA-Decompiled-Scripts) - Midnight Club: Los Angeles SCO scripts decompiled to C.
+- [MC3-Garage-Vehicles-Importer](https://github.com/WiltonZQA/MC3-Garage-Vehicles-Importer) - Blender add-on and Python tools importing the garages and 42 traffic vehicles of Midnight Club 3: DUB Edition Remix (original Xbox) with textures, lightmaps and baked lighting, from the Xbox ISO or extracted `assets_x.dat*` files; can also convert to glTF.
 
 #### Aniimo
 
@@ -773,6 +775,8 @@
 - [PersonaEditor](https://github.com/Meloman19/PersonaEditor) - File editor for Persona series (3, 4, 5) supporting multiple container formats (BIN, PAK, PAC, CPK, P00, ARC, PM1, BF, BVP, TBL, FTD) with asset extraction and modification.
 - [noclip.website (Tokyo Mirage Sessions ♯FE)](https://github.com/magcius/noclip.website/tree/main/src/TokyoMirageSessionsSharpFE) - In-browser Tokyo Mirage Sessions ♯FE (Wii U) map viewer. Parses APAK archives plus BFRES models and BNTX textures, with lightmap, gimmick, and map-layout support.
 - [P4U2TrialEditor](https://github.com/kiwi515/P4U2TrialEditor) - Trial/Lesson editor for Persona 4 Arena Ultimax (2.0 and later), complementing p4u2modtools.
+- [nineTools](https://github.com/tge-was-taken/nineTools) - Tools for Shin Megami Tensei: NINE.
+  - Formats: .BIN and .tex archive splitters, 3ds Max MAXScript model importer.
 - [Universal-Meccha-Mod-Builder](https://github.com/sirLimbs/Universal-Meccha-Mod-Builder) - Universal mod builder for the Meccha Persona modding toolchain, packaging mods for Persona games.
 - [P5G-Save-Tool](https://github.com/fendevel/P4G-Save-Tool) - Save file editor for Persona 4 Golden.
 - [my-assets-studio](https://github.com/WhiteLeer/my-assets-studio) - Asset extraction/editing studio for Atlus games' archive and texture formats.
@@ -844,6 +848,7 @@
 - [plgtool](https://github.com/rirurin/plgtool) - Converts JSON exports of Persona 3 Reload PLG files (exported from Blender) to the `.uasset` format.
 - [smtv.saveutil](https://github.com/zarroboogs/smtv.saveutil) - Save decryption and encryption utility for Shin Megami Tensei V (`SysSave`, `GameSaveXX`, `AutoSaveXX`).
   - [smt3hdpc.saveutil](https://github.com/zarroboogs/smt3hdpc.saveutil) - Save decryption and encryption utility for the PC version of Shin Megami Tensei III HD Remaster (`SMT3HDDATA.sav`).
+- [Anm-Color-Editor](https://github.com/teolicht505/Anm-Color-Editor) - GUI editor for the colors stored in Persona 3 FES `.anm` files, with drag and drop.
 
 #### ATOM Team (Atom RPG)
 

@@ -154,6 +154,8 @@
 - [MGF Explorer](https://github.com/LarvalExtract/MGF-Explorer) - C++/Qt GUI tool for opening and viewing assets contained in Meyer/Glass Interactive archive files used by MechAssault and MechAssault 2: Lone Wolf; supports BMP, DXT-compressed textures, FBX models, animation, and audio. Inspired by Adjutant, the Halo map viewer.
 - [MATif](https://github.com/LarvalExtract/MATif) - CLI tool to convert common image formats into MechAssault's proprietary TIF texture format for both games (DXT5 for MechAssault 1, ARGB8888 for MechAssault 2); pairs with a companion MGF-Packer tool to repack textures into the game.
 - [MGF-Editor](https://github.com/LarvalExtract/MGF-Editor) - Fork of Sony's Authoring Tools Framework LevelEditor adapted into an experimental level editor for MechAssault 1 and 2.
+- [mcgoldng](https://github.com/sp00nznet/mcgoldng) - C++ reimplementation of MechCommander Gold (1998) with a documented file-format reader and CLI extraction tools (`mcg_extract`, `pak_inspect`, `mech_analyze`).
+  - Formats: FST archives, packet-based PAK archives (RAW, LZ, Huffman and ZLIB packets, nested PAK), FIT config files, VFX shape tables and palettes, TGA, SMK video.
 
 #### Media.Vision
 
@@ -229,6 +231,7 @@
 - [OpenXcom](https://github.com/OpenXcom/OpenXcom) - Open-source engine recreation of the original X-COM (UFO: Enemy Unknown / Terror from the Deep), reading the original game's proprietary data files (GEODATA, UFOGRAPH, map blocks, and more).
 - [openxcom-save-editor](https://github.com/aaronjacobs-chelt/openxcom-save-editor) - Python save game editor for OpenXCom Extended aimed at the X-Com Files mod; edits funds, research progress, soldier stats, base facilities, production queues and inventory.
 - [xcom2edi](https://github.com/bovine/xcom2edi) - MS-DOS saved-game editor (C++) for X-COM: Terror from the Deep; edits soldiers (names, armour), tactical battle state and other saved game data, and can carry soldiers over from the first X-COM.
+- [xcom-editor](https://github.com/redtoad/xcom-editor) - Go library loading the custom image formats (eg. `.PCK` sprite sets) of UFO: Enemy Unknown, with an example exporting animated GIFs.
 
 ##### XCOM Apocalypse
 
@@ -741,6 +744,10 @@
 #### Mucky Foot Productions
 
 - [MuckyFoot-UrbanChaos](https://github.com/dizzy2003/MuckyFoot-UrbanChaos) - Recovered source code snapshot for Urban Chaos (1999, PC/PSX/Dreamcast), including the game's map/animation editor and the shared MFlib1/MFStdLib libraries also used by Startopia.
+
+#### MediaHouse (Multi-Pulti)
+
+- [Multi-Pulti-Tools](https://github.com/pr701/Multi-Pulti-Tools) - Python tools (`libex`) packing and unpacking the `.lib` resource archives (animations, backgrounds, static objects, sound effects, music) of the late-1990s cartoon builder Multi-Pulti, converting the modified BMP/WAV headers to standard ones.
 
 #### MumboJumbo
 

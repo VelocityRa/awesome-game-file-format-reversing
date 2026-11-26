@@ -22,11 +22,15 @@
 #### Fishlabs (Galaxy on Fire)
 
 - [AEMesh](https://github.com/BaalNetbek/AEMesh) - Noesis plugin and format documentation for Fishlabs' Abyss Engine mesh (.aem) format, covering the multiple versioned mesh layouts (V2-V5) used across the Galaxy on Fire series.
+- [AemConvertor](https://github.com/Pb-207/AemConvertor) - Python script that converts Abyss Engine `.aem` meshes to Wavefront `.obj` (vertices, UVs, normals, faces) and back, splitting large OBJs into fragments to get past the 65535-vertex limit.
 - [DeepOpen](https://github.com/BaalNetbek/DeepOpen) - Decompiled, deobfuscated recreation of the J2ME Galaxy on Fire 2 (v1.0.4) client and the common Abyss Engine it's built on.
 - [gof2-vita](https://github.com/v-atamanenko/gof2-vita) - Native PS Vita loader/port of Galaxy on Fire 2 that runs against an installed copy's original game data.
 - [gof2hd-decomp](https://github.com/fionera/gof2hd-decomp) - Work-in-progress byte-matching decompilation of the Abyss Engine + Galaxy on Fire 2 (Fishlabs, ~2012), recovered from the Android `libgof2hdaa.so` and validated function-by-function against it.
 - [gof2edit](https://github.com/Ravernstal/gof2edit) - CLI tool to unpack/repack Galaxy on Fire 2's BIN files and save files, and to patch binaries.
-- [AEPi](https://github.com/Trimatix/AEPi) - Python library for reading and writing Abyss Engine Image (.aei) files, for Galaxy on Fire 2.
+- [gof2-bin-info](https://github.com/Ravernstal/gof2-bin-info) - Documentation of Galaxy on Fire 2's data file structures: agents.bin, items.bin, ships.bin, stations.bin, systems.bin, wanted.bin, ticker.bin, names_*.bin, weapons*.bin, `.lang` strings and save game previews.
+- [GOF2-Item-Editor](https://github.com/Trimatix/GOF2-Item-Editor) - Tkinter wrapper around SkaterFromHell's items.bin parser/editor for Galaxy on Fire 2, for editing item configuration without Python installed.
+- [Gof2-Inventory-Editor](https://github.com/Manni1000/Gof2-Inventory-Editor) - Python GUI save editor for Galaxy on Fire 2 inventories (item IDs, counts, costs, money), with item icons read from an installed copy; PC layout, adaptable to mobile.
+- [AEPi](https://github.com/Trimatix/AEPi) - Python library for reading and writing Abyss Engine Image (.aei) files, for Galaxy on Fire 2. See also [AEI-Viewer](https://github.com/BaalNetbek/AEI-Viewer), a Qt-based AEI file browser built on AEPi.
 - [Abyss-Engine-Tools](https://github.com/BaalNetbek/Abyss-Engine-Tools) - Collection of Abyss Engine modding tools: AEZtractor (unpacks/repacks the .aez archives found in GoF's Symbian version) and an AEM Blender import/export plugin.
 - [FMOD-GOF2-Recreated](https://github.com/KroeteTroete/FMOD-GOF2-Recreated) - Recreated replica of Galaxy on Fire 2's FMOD Designer project file, enabling more complex sound and event modding.
 - [Ae4Extractor](https://github.com/xyx0826/Ae4Extractor) - Asset extractor for Galaxy on Fire 3: Manticore.
@@ -413,6 +417,8 @@
 
 - [priconner-bgm](https://github.com/micktu/priconner-bgm) - Extracts music/BGM from the PC version of Princess Connect Re:Dive.
 - [priconne-asset-extractor](https://github.com/lskyset/priconne-asset-extractor) - Downloads, extracts, and converts assets from Princess Connect Re:Dive.
+- [redive_master_db_diff](https://github.com/esterTion/redive_master_db_diff) - Tracks and diffs Princess Connect Re:Dive's master database and asset manifests between TruthVersion updates.
+- [pcr-hash-table-rename](https://github.com/peterli110/pcr-hash-table-rename) - Go tool that renames Princess Connect Re:Dive's hashed master database table names back to their original readable names, using an older human-readable database as reference.
 
 ##### Uma Musume Pretty Derby
 
@@ -850,6 +856,10 @@
 #### Hellpoint
 
 - [Hellpoint-Save-Editor](https://github.com/Synthlight/Hellpoint-Save-Editor) - Save editor for Hellpoint covering inventory (items, proficiencies, quantities), player stats, world stats and equipment.
+
+#### Hellsinker
+
+- [Hellsinker.Unpacker](https://github.com/vihithr/Hellsinker.Unpacker) - .NET 8 Windows GUI (HsUnpack) that unpacks and repacks the game's `.pak` resources and decrypts/encrypts `.ctx` text files such as `messages.ctx`.
 
 #### Unfrozen (Heroes of Might and Magic: Olden Era)
 

@@ -29,6 +29,7 @@
 
 - [Dagor Engine](https://github.com/GaijinEntertainment/DagorEngine) - Open-source release of the Dagor Engine (War Thunder, Enlisted) including parts of the toolchain.
 - [dagor-file-formats](https://github.com/AlexKimov/dagor-file-formats) - Community reverse-engineering research and format templates for the Dagor Engine.
+- [wt-unpack](https://github.com/patodois/wt-unpack) - Rust tools for reading War Thunder game data from your own install: vromfs archives, BLK, DXP textures and GRP models, with glTF export of models, level scenes and sounds.
 
 #### Fox Engine
 
@@ -489,6 +490,7 @@
 - [TypeTreeDumper](https://github.com/DaZombieKiller/TypeTreeDumper) - IL2CPP-based Unity TypeTree/serialization layout dumper, generating `.tpk` TypeTree databases for use with AssetsTools.NET and other Unity asset libraries.
 - [TypeTreeRipper](https://github.com/DaZombieKiller/TypeTreeRipper) - Experimental C++ Unity TypeTree/serialization dumper that does not require symbols, an alternative to TypeTreeDumper. See also [LukeFZ's fork](https://github.com/LukeFZ/TypeTreeRipper).
 - [UTTDumper](https://github.com/Razmoth/UTTDumper) - Tool to help dump Unity type trees.
+- [TypeTreeGeneratorAPI](https://github.com/UnityPy-Org/TypeTreeGeneratorAPI) - Native (.NET AoT) API for extracting Unity TypeTrees from game assemblies, with AssetsTools.NET, AssetRipper and AssetStudio backends; built for UnityPy.
 - [UnityWebTools.NET](https://github.com/kiraio-moe/UnityWebTools.NET) - C# library for unpacking and repacking Unity WebGL `UnityWebData` (`.data`) files, complementing AssetsTools.NET for Unity WebGL builds.
 - [unityweb](https://github.com/jozsefsallai/unityweb) - Go command-line utility and library for parsing, unpacking, and repacking Unity WebGL `UnityWebData` (`.data`) files; a Go-based alternative to UnityWebTools.NET above.
 - [UnityAssetLib](https://github.com/akintos/UnityAssetLib) - C# library for reading and writing Unity serialized asset files (AssetBundle, `.assets`, scenes) across engine versions, independent of AssetsTools.NET.
@@ -808,6 +810,10 @@
 - [cobra-tools](https://github.com/OpenNaja/cobra-tools) - Suite of GUI tools for extracting and modifying OVL and OVS archives, as well as editing associated file formats and models for the Cobra Engine (Frontier Developments).
 - [OVL_IO](https://github.com/REDxEYE/OVL_IO) - Work-in-progress reader/extractor for Jurassic World Evolution's OVL archive format, built on the Cobra Engine.
 
+
+#### Corona (Solar2D)
+
+- [corona-archiver](https://github.com/0BuRner/corona-archiver) - Python script and Windows binary for packing and unpacking Corona/Solar2D `.car` resource archives, with the archive header, index and data entry layout documented in the README.
 
 #### Cube 2 (Sauerbraten)
 
@@ -1187,6 +1193,7 @@
 - [KrkrDump-Hasher](https://github.com/MLChinoo/KrkrDump-Hasher) - Companion hashing utility for KrkrDump, computing the hashes needed to identify Kirikiri engine script functions.
 - [KrkrDataLoader](https://github.com/pjh456/KrkrDataLoader) - Loader/dumper for Kirikiri engine `.xp3` archive data and TJS2 script bytecode.
 - [scntranslate](https://github.com/respectZ/scntranslate) - Batch translator for KirikiriZ `.scn`/`.scm` (PSB/MDF) script files, extracting strings, machine-translating them via a local/OpenAI-compatible LLM, and serializing the result back into the original binary format.
+- [krkr-save-tools](https://github.com/Luv-Ray/krkr-save-tools) - Rust command-line tool that dumps Kirikiri `.ksd` save files (all three scramble modes, including zlib) to editable text and packs them back.
 
 #### Kurumi Engine
 
@@ -1745,6 +1752,7 @@
 - [ags2_decomp](https://github.com/adm244/ags2_decomp) - Matching decompilation of Adventure Game Studio 2.x runtime engine for reverse engineering and software preservation.
 - [Ghidra-ReAGS Quick Start](https://github.com/selloa/ghidra-reags-quickstart) - Beginner-friendly guide for extracting Adventure Game Studio scripts with AGSUnpacker and decompiling them in Ghidra using the ReAGS extension, with a live walkthrough site.
 - [ags-sprite-extractor](https://github.com/selloa/ags-sprite-extractor) - Sprite extraction tool for Adventure Game Studio games.
+- [agsutils](https://github.com/rofl0r/agsutils) - Command-line utilities for AGS games: extract and repack the game pack (`agstract`), disassemble and reassemble scripts, and a driver (`agsex`) that builds a Makefile for repacking modified assets.
 
 #### BioWare Aurora Engine
 
@@ -1759,6 +1767,8 @@
 - [nwscript-wasm](https://github.com/KobaltBlu/nwscript-wasm) - WebAssembly port of the NWScript compiler (from niv/neverwinter.nim), compiling .nss scripts to .ncs bytecode entirely in-browser, with a bundled NCS disassembler.
   - Ecosystem: [nwscript-workbench-vscode-ext](https://github.com/KobaltBlu/nwscript-workbench-vscode-ext) (VS Code extension for desktop and web with engine-aware IntelliSense and an NCS Inspector for disassembly/hex/asm views), [nwscript-language-definitions](https://github.com/KobaltBlu/nwscript-language-definitions) (canonical nwscript.nss definitions per game: Jade Empire, KotOR, KotOR II, Neverwinter Nights + expansions/Enhanced Edition, Neverwinter Nights 2, The Witcher).
 - [bioware-kaitai-formats](https://github.com/OpenKotOR/bioware-kaitai-formats) - Kaitai Struct (`.ksy`) format definitions for BioWare Aurora/Odyssey engine files across Neverwinter Nights, Knights of the Old Republic, KotOR II, Dragon Age, and Mass Effect: GFF, ERF, BIF/KEY, RIM, TPC, MDL/MDX, 2DA, TLK, NCS/NSS, BWM, and more.
+- [Radoub](https://github.com/LordOfMyatar/Radoub) - Cross-platform toolset of editors for Neverwinter Nights module files: Parley (DLG dialogs), Manifest (JRL journals with TLK resolution), Quartermaster (UTC/BIC creatures), Fence (UTM merchants), Relique (UTI items) and Reliquary (UTP placeables), plus a Trebuchet launcher that manages `.mod` modules.
+- [nwnsc](https://github.com/nwneetools/nwnsc) - Open-source NWScript compiler for Neverwinter Nights: Enhanced Edition that compiles `.nss` scripts to `.ncs` bytecode. Its source also bundles NWN/NWN2 data libraries for MDB models, TRX terrain and Granny2 `.gr2` files.
 
 #### Clickteam Fusion
 

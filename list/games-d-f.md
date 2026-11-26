@@ -77,6 +77,10 @@
 
 - [DPRecomp](https://github.com/LittleBitUA/DPRecomp) - Deadly Premonition native PC port via static recompilation of the Xbox 360 binary.
 
+#### Deep Black
+
+- [Deep_Black_Unpacker](https://github.com/DenGameRU/Deep_Black_Unpacker) - Delphi tool unpacking the `GameGuiSceneSet.pack` resource archives (`UWFPVF01` header) of the PC game Deep Black (2011).
+
 #### Deep Red
 
 - [deep-red-level-viewer](https://github.com/sonneveld/deep-red-level-viewer) - Python/pygame level viewer for Deep Red, with scripts that dump the `mapas/*.dat` map properties (CP220 text) and `mapas/fase*.pc1` map data, plus notes on the map, property, and `GRAF` tileset formats.
@@ -131,6 +135,7 @@
   - Formats: HOG archives, RDL/RL2 levels, PIG texture/sprite libraries, HAM (Descent II data), `.256` palettes.
   - Features: Textured mine geometry with overlay and supertransparency layers, animated and sliding textures, static and dynamic lighting, and rendering of robots, powerups, hostages, reactors, red mines, and player spawns.
   - Parsing code derived in part from [LibDescent](https://github.com/InsanityBringer/LibDescent/).
+- [DXX-Rebirth](https://github.com/dxx-rebirth/dxx-rebirth) - Actively maintained source port of Descent 1 and 2 (D1X/D2X lineage) that loads the original game data (HOG/PIG/HAM data files) and supports add-on content packs replacing or expanding the original game content.
 - [Descent2Workshop](https://github.com/InsanityBringer/Descent2Workshop) - Editor for Descent 2 data files using LibDescent, with support for editing HAM/HXM/V-HAM game data and PIG/POG/S11/S22 sound data, plus an experimental level editor.
 
 #### 강림2:제천대성 (Descent 2: Jecheondaeseong)
@@ -190,6 +195,7 @@
 - [LotusLib](https://github.com/Puxtril/LotusLib) - C++17 library for reading Warframe's Evolution Engine cache files (`Cache.Windows`), providing the file-reading interface used by Warframe-Exporter above.
 - [wfcache-api](https://github.com/ymelois/wfcache-api) - Rust application for reading and extracting data from Warframe's cache files programmatically. (Archived)
 - [shawziner](https://github.com/gucio321/shawziner) - Converts MuseScore (`.mscz`) sheet music into Warframe's in-game Shawzin instrument code format.
+- [wf-unpack](https://github.com/patodois/wf-unpack) - Rust reader and extractor for Warframe's Evolution Engine `Cache.Windows` `.toc`/`.cache` packages, exporting textures, static and skinned models, animations, levels and movement values.
 
 #### Disco Elysium
 
@@ -315,6 +321,10 @@
 
 - [herc-works-mdk](https://github.com/Subject9x/herc-works-mdk) (archived) - Reverse-engineering and data-editing toolkit for Earthsiege 1 and 2 (Dynamix), organized into modules for studying and modding the games' data formats.
 - [es2-toolkit](https://github.com/Subject9x/es2-toolkit) (archived) - Java tools for Earthsiege 2 game files: unpack `.DBA` bitmap arrays to `.DBM` images (optionally `.png`), compile `.DBM` files back into a `.DBA` from a script, convert indexed `.png` files to `.DBM` using a `.DPL` palette, and export `.DPL` palettes to other formats. By the author of herc-works-mdk above.
+
+##### Betrayal at Krondor
+
+- [bakagain](https://github.com/stellargames/bakagain) - Unity remake of Betrayal at Krondor (1993) that reads the original `KRONDOR.001` data files from an installed copy through a .NET resource-extraction library, runs on Windows, Linux and Android and supports mods.
 
 ### E
 #### Pixpil (Eastward)
@@ -566,6 +576,7 @@ See also: [RenderWare](middleware.md#renderware).
   - Formats: TSB, TSP (level geometry/collision), BSD (scene/entity data), RSC archives, TIM textures.
 - [medal_of_honor_psx](https://github.com/SoapyMan/medal_of_honor_psx) - Reverse engineering of Medal of Honor (PSX) file formats.
 - [mohaa-model-map-viewer](https://github.com/searingwolfe/mohaa-model-map-viewer) - Browser-based viewer for Medal of Honor: Allied Assault that loads `.pk3` archives and displays `.skd`/`.skb` skeletal models with `.shader`-resolved textures, `.skc`/`.tik` animation playback and `.tik`/FX particle effects, with Wavefront `.obj` export.
+- [Medal-of-Honor-Frontline---VIV-Archiv](https://github.com/StenApp/Medal-of-Honor-Frontline---VIV-Archiv) - Reversed file formats and Python tools for Medal of Honor: Frontline (PS2 and Xbox): VIV archive viewer/extractor and a batch audio extractor converting sounds and music to WAV.
 
 ##### Seven Cities of Gold
 
@@ -597,6 +608,14 @@ See also: [RenderWare](middleware.md#renderware).
 ##### ReBoot: Countdown to Chaos
 
 - [keytool](https://github.com/spicybung/keytool) - Work-in-progress Blender I/O script for ReBoot: Countdown to Chaos (PlayStation), currently importing .TOM (Texel Object Map) models; the repo description also lists .NAN files.
+
+##### NBA Live
+
+- [bigtool](https://github.com/thewulf7/bigtool) - Rust reader and extractor for the EA "EB" `.big` archives of NBA LIVE 19 (Ignite engine, directory trie plus name table), with PS4 GNF to DDS texture conversion.
+
+##### EA SPORTS FC & FIFA Career Mode
+
+- [eafc-db-kit](https://github.com/ViniMacacari/eafc-db-kit) - TypeScript library reading and writing FIFA databases with external XML descriptors, plus EA SPORTS FC squad files, Career Mode saves and databases as JSON-compatible objects.
 
 #### Elona
 
@@ -764,6 +783,7 @@ See also: [RenderWare](middleware.md#renderware).
 #### Wube Software (Factorio)
 
 - [factorio-blueprint](https://github.com/demipixel/factorio-blueprint) - Node.js library for creating, modifying, and exporting Factorio's zlib-compressed, base64-encoded blueprint string format.
+- [factorio-file-parser](https://github.com/circlesabound/factorio-file-parser) - Rust library parsing Factorio's `mod-settings.dat` and the save header in `level-init.dat`.
 
 #### Failbetter Games
 

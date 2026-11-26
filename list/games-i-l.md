@@ -59,6 +59,7 @@
 
 ###### Doom Source Ports & Engine Forks
 
+- [GZDoom](https://github.com/ZDoom/gzdoom) - Feature-centric Doom source port for all Doom-engine games (Doom, Heretic, Hexen, Strife, etc.), reading original WAD data with an OpenGL/Vulkan renderer, ZScript and ACS scripting, and UDMF map support; the base of UZDoom and Raze.
 - [Eternity Engine](https://github.com/team-eternity/eternity) - Advanced Doom source port that originated the UDMF map format and introduces its own EDF (Eternity Definition File) format for game data.
 - [UZDoom](https://github.com/UZDoom/UZDoom) - Feature-centric Doom source port based on GZDoom, adding an advanced renderer and powerful scripting capabilities, reading original WAD data.
 - [DOOM-ASCII](https://github.com/wojciech-graj/doom-ascii) - Text-based Doom source port that renders the game as ASCII art in a terminal, reading original WAD data.
@@ -439,6 +440,7 @@
 ##### Rise of the Triad
 
 - [taradino](https://github.com/fabiangreffrath/taradino) - Source port of Rise of the Triad that duplicates the original 1994 game's functionality using its original registered/shareware data files.
+- [rottexpr](https://github.com/LTCHIPS/rottexpr) - Rise of the Triad source port based on icculus's ROTT port, reading the original game's WAD/RTL data files, with additional gameplay options.
 - [drott](https://github.com/darkhaven3/drott) - Rise of the Triad source port (based on rottexpr/icculus's ROTT port) reading the original game's WAD/RTL data, adding expanded texture and sky-definition limits for user maps.
 - [rott (2002 official source)](https://github.com/videogamepreservation/rott) (archived) - Preserved copy of the official 2002 Rise of the Triad source code release.
 - [USDC](https://github.com/Blzut3/USDC) - Compiler for the Universal Strife Dialog Format (USDF), targeting vanilla Strife's proprietary binary dialog-script format (id Tech 1).
@@ -489,6 +491,7 @@
 ##### Black Rock Shooter (PSP)
 
 - [BRS-Tools](https://github.com/priverop/BRS-Tools) - Unpacks non-compressed BIN/GZ archives and extracts/inserts text for Black★Rock Shooter (PSP).
+- [Original-Quickbms-Scripts](https://github.com/BRS-PSP-Research-Initiative/Original-Quickbms-Scripts) - QuickBMS scripts extracting a large majority of the game data files of Black Rock Shooter: The Game.
 
 ##### Luminous Arc
 
@@ -763,6 +766,7 @@
 
 ##### Baldur's Gate
 
+- [GemRB](https://github.com/gemrb/gemrb) - Portable open-source implementation of BioWare's Infinity Engine (Baldur's Gate, Icewind Dale, Planescape: Torment) that reads the original games' data files.
 - [py-eekeeper](https://github.com/grm/py-eekeeper) - Save game editor for Baldur's Gate: Enhanced Edition and other Infinity Engine games; a Python/PySide6 rewrite of eekeeper-qt, itself based on Shadow Keeper.
 - [wand_of_saves](https://github.com/hugo-bluecorn/wand_of_saves) - Flutter desktop saved-game editor for Baldur's Gate: Enhanced Edition (a successor to EE Keeper) that edits characters in savegames and `.chr` files, using pure-Dart Infinity Engine format codecs (`infinity_formats`).
 
@@ -921,6 +925,10 @@
 - [Picross Level Data](https://www.zophar.net/fileuploads/3/21546xutra/picrossleveldata.txt) - Technical documentation for Mario's Picross level data format.
 
 ### K
+
+#### K-ON! Ho-kago Live!!
+
+- [teatimetools](https://github.com/Frain-Breeze/teatimetools) - C# library and CLI for managing file types of K-ON! Ho-kago Live!! (PSP) and other games, with ISO and archive unpacking and a batch command-list format, built for translating the game.
 #### Tate Interactive (Kao the Kangaroo)
 
 - [KAO_PAK](https://github.com/Flower35/KAO_PAK) - Extracts files from "Kao the Kangaroo 1" PAK archives.
@@ -1246,6 +1254,7 @@
 - [silent-hill-decomp (decomp)](https://github.com/shdecompilations/silent-hill-decomp) - Matching decompilation of Silent Hill (PS1, US 1.1).
 - [sh2SaveTools](https://github.com/TheMachineAmbassador/sh2SaveTools) - Save file tools for Silent Hill 2.
 - [SH2Unpack](https://github.com/SamusAranX/SH2Unpack) - Unpacker for Silent Hill 2 archive files.
+- [mgfiler](https://github.com/tge-was-taken/mgfiler) - Unpacks and repacks the MGF archive of Silent Hill 2 (PS2), using the file table in the game ELF and patching the ELF when repacking.
 - [SilentHillOrigins_PS2_AudioExtractor](https://github.com/iluny1/SilentHillOrigins_PS2_AudioExtractor) - Audio extractor for Silent Hill Origins (PS2).
 - [sh3redux](https://github.com/Palm-Studios/sh3redux) - Silent Hill 3 archive extraction and modification tools.
 - [Sparagas/Silent-Hill](https://github.com/Sparagas/Silent-Hill) - Reverse engineering research and documentation for Silent Hill file formats.
@@ -1400,6 +1409,7 @@
 #### Team Bondi (L.A. Noire)
 
 - [LANoireNX](https://github.com/masagrator/LANoireNX) - Python scripts for repacking modified files back into L.A. Noire's Nintendo Switch port archives (BIG/WAD/DDS formats).
+- [LANoireTools](https://github.com/Baromir19/LANoireTools) - Python 3 `.big.pc` unpacker/packer for L.A. Noire (chunked deflate), plus collected 010 Editor templates, `.big` unpackers and notes on FSB4 audio, Havok data and BMFont fonts.
 
 #### Invictus Games (L.A. Street Racing)
 
@@ -1509,6 +1519,7 @@
 - [TravellersTalesPSXCollisionViewer](https://github.com/juanmv94/TravellersTalesPSXCollisionViewer) - Collision and GFX model viewer for Traveller's Tales' shared PSX-era 3D engine, reading data from PSX emulator savestates.
   - Games: Rascal, A Bug's Life, Toy Story 2, Toy Story Racer, Muppet Race Mania, The Weakest Link, Buzz Lightyear of Star Command.
 - [LIME](https://github.com/mathom/LIME) - Python script that extracts wave audio files from LEGO Island `.SI` package files (eg. `JUKEBOX.SI`).
+- [lego-island-asset-ripper](https://github.com/floriandotorg/lego-island-asset-ripper) - Python tool extracting and converting LEGO Island (1997) assets from the SI files: music, dialogue, cutscenes, 3D models and textures into modern formats.
 
 ##### Toy Story 2
 
@@ -1806,6 +1817,7 @@
 - [Star-Wars-Racer-Revenge-Extraction-Tools](https://github.com/louriccia/Star-Wars-Racer-Revenge-Extraction-Tools) - Tools for extracting assets from Star Wars Racer Revenge (PS2), from the same author as the Episode I: Racer tools above.
 - [DesktopAdventuresToolkit](https://github.com/IceReaper/DesktopAdventuresToolkit) - Unpacker/repacker for Desktop Adventure Games engine archives (Indiana Jones and Yoda Stories), also usable as a Java library. Unpacks zones to Tiled-compatible .tmx files, sounds to .wav/.mid, images to .png, and characters/weapons/puzzles to .xml; can repack either game's archive from an unpacked folder, including converting between the two games' formats.
 - [DesktopAdventures](https://github.com/shinyquagsire23/DesktopAdventures) - Reimplementation of the Desktop Adventures engine (Indiana Jones and his Desktop Adventures, Star Wars: Yoda Stories), parsing the original .DAT game data (VERS, STUP, SNDS, TILE, ZONE, CHAR, and other sections) to run on Linux, 3DS, and Wii U; complements DesktopAdventuresToolkit above.
+- [YodaStoriesNG](https://github.com/sp00nznet/YodaStoriesNG) - C#/SDL2 reimplementation of Star Wars: Yoda Stories and Indiana Jones and His Desktop Adventures that parses the original `YODESK.DTA`/`DESKTOP.DAW` data files (VERS, STUP, SNDS, TILE, ZONE, PUZ2, CHAR, CHWP, CAUX, TNAM sections), with documentation of the container format, the 36 condition and 38 instruction script opcodes, and the world generator.
 - [Yodecomp](https://github.com/shinyquagsire23/Yodecomp) - AI-assisted decompilation of Star Wars: Yoda Stories' engine binary (`Yodesk.exe`) into buildable C++ source, including its original asset-loading code.
 - [dftools](https://github.com/njankowski/dftools) - Python tools for Star Wars: Dark Forces and Outlaws assets, covering GOB/LFD/LAB archives and BM/CMP/FME/FNT/PAL/WAX/GMD formats.
 - [DarkForces](https://github.com/The-MAZZTer/DarkForces) - .NET file format library (MZZT.DarkForces) for reading and generating Dark Forces PC file formats, with Unity scripts and a showcase app of asset tools. Works with the DOS and Steam remaster versions, but not the remaster's enhanced formats.

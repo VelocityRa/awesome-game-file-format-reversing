@@ -62,6 +62,7 @@
 ##### THE iDOLM@STER Cinderella Girls Starlight Stage
 
 - [libcgss](https://github.com/hozuki/libcgss) - Helper library for THE iDOLM@STER Cinderella Girls Starlight Stage (CGSS/DereSute), supporting HCA audio decoding and ACB archive exploring; also applies to THE iDOLM@STER Million Live! Theater Days (MLTD).
+- [MLTDTools](https://github.com/OpenMLTD/MLTDTools) - .NET toolbox for THE iDOLM@STER Million Live! Theater Days (MLTD): ACB packer, MLTD-variant HCA decoder, ACB extractor from `song3_*.acb.unity3d` bundles, card/costume database viewer, resource manifest tools, and MillionDance for exporting models, dance animations, morphs and camera motions to MMD formats.
 - [DereTore](https://github.com/OpenCGSS/DereTore) - Music and beatmap authoring toolkit for THE iDOLM@STER Cinderella Girls Starlight Stage.
 - [StarlightDirector](https://github.com/hozuki/StarlightDirector) - Beatmap editor for THE iDOLM@STER Cinderella Girls Starlight Stage.
 - [MilliSim](https://github.com/hozuki/MilliSim) - Extensible simulator for THE iDOLM@STER Million Live! Theater Days (MLTD), reading the game's original beatmap data.
@@ -75,7 +76,9 @@
 
 - [gkmasToolkit](https://github.com/kishidanatsumi/gkmasToolkit) - Asset downloader and decryptor for Gakuen iDOLM@STER (学園アイドルマスター), pulling and decrypting Unity AssetBundle and audio/text resources from the game's CDN manifest; a modified fork of [HoshimiToolkit](https://github.com/vilebbit/HoshimiToolkit).
 - [Gakuen-idolmaster-ab-decrypt](https://github.com/nijinekoyo/Gakuen-idolmaster-ab-decrypt) - Standalone AssetBundle decryption and export tool for Gakuen iDOLM@STER, for use on rooted-device game dumps.
+- [Gakumas-PMX-Export](https://github.com/mr-quinn33/Gakumas-PMX-Export) - Unity project that exports Gakuen iDOLM@STER character models (face, hair, body) from decrypted AssetBundles to MMD `.pmx` files, building on the IDOL project's humanoid export work.
 - [gkms-meta-dec](https://github.com/chinosk6/gkms-meta-dec) - Decryption script for Gakuen iDOLM@STER's IL2CPP `global-metadata.dat`.
+- [campus-meta](https://github.com/vilebbit/campus-meta) - Rust tool that detects the mask bytes in Gakuen iDOLM@STER's `libil2cpp.so` and deobfuscates its IL2CPP `global-metadata.dat`, working across game versions v1.0.0 to v1.8.0.
 - [gakuen-imas-localify](https://github.com/chinosk6/gakuen-imas-localify) - Localization plugin for Gakuen iDOLM@STER.
 
 ##### THE iDOLM@STER: SHINY COLORS Song for Prism
@@ -284,6 +287,7 @@
 - [HBT2Skyrim](https://github.com/aerisarn/HBT2Skyrim) - Converts Havok animation format (HBT 6.6) to Skyrim-compatible format using hkxcmd and AssetCC2.
 - [SkyrimSETest](https://github.com/Nukem9/skyrimse-test) - Reverse-engineering collection for Skyrim Special Edition with analysis of game formats and resources.
 - [daggerfall-unity](https://github.com/Interkarma/daggerfall-unity) - Open-source recreation of The Elder Scrolls II: Daggerfall in the Unity engine, reverse-engineering and loading the original Daggerfall (DOS) game data and formats.
+- [uesp-esoapps](https://github.com/uesp/uesp-esoapps) - UESP Windows tools for The Elder Scrolls Online; its EsoExtractData command-line program extracts game data from ESO's MNF, DAT, ZOSFT and LANG files.
 - [Altar](https://github.com/Kein/Altar) - Unreal Engine 5.3 SDK project for Oblivion Remastered, generated from a UE4SS class dump, letting modders write native C++/Blueprint code against the game's classes.
 - [UProjOblivionRemastered](https://github.com/nathtest/UProjOblivionRemastered) - Similar UE 5.3.2 SDK project for Oblivion Remastered built from a UE4SS dump; used alongside FModel-extracted assets for Blueprint modding.
 - [OpenTESArena](https://github.com/afritz1/OpenTESArena) - Open-source reimplementation of The Elder Scrolls: Arena's engine that reads the original game's data files (CFA, IMG, SET, and other Arena-specific formats).
@@ -408,6 +412,7 @@
 
 #### Lionhead Studios (Black & White)
 
+- [openblack](https://github.com/openblack/openblack) - Open-source engine reimplementation of Black & White (2001) that loads the original game's assets, which it requires extracted from the installed game.
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 - [blackandwhite_ci](https://github.com/Daniels118/blackandwhite_ci) - Modding toolkit for Black & White: Creature Isle, with parsers and decompilers for CHL binary game script files (bidirectional CHL ↔ source code conversion).
 - [Fable2AssetBrowser](https://github.com/adarec1994/Fable2AssetBrowser) - Browser for Fable 2's BNK archive files, with search and filtering of internal files.
@@ -432,6 +437,7 @@
 - [Nmpq](https://github.com/Thenarden/nmpq) - Fully managed C# MPQ parser that reads archives from disk or directly from in-memory `byte[]`/`Stream` data without StormLib; read-only, available on NuGet.
 - [CASCExtractor](https://github.com/Kanma/CASCExtractor) - Command-line tool to extract files from Blizzard CASC storages.
 - [node-blizzard-casc](https://github.com/Kruithne/node-blizzard-casc) - Utility for interacting with the CASC CDN servers used to distribute Blizzard Entertainment game content. See also the same author's [node-blte](https://github.com/Kruithne/node-blte), a Node.js reader for the BLTE format found within CASC storage, and [node-jenkins96](https://github.com/Kruithne/node-jenkins96), an implementation of the Jenkins96 hashing algorithm used for CASC file lookups.
+- [Wargus](https://github.com/Wargus/wargus) - Warcraft II mod for the Stratagus engine (see [Stratagus](https://github.com/Wargus/stratagus)) with an importer and scripts that extract and convert the game data of Warcraft II: Tides of Darkness, Beyond the Dark Portal and Aleonas Tales.
 
 ##### Rock n' Roll Racing
 
@@ -488,6 +494,8 @@
 - [factorio-starcraft-assettool](https://github.com/heinermann/factorio-starcraft-assettool) - Extracts and converts StarCraft: Remastered assets (sprites, animations, tilesets, palettes) from the game's CASC storage for use in the factorio-starcraft mod.
   - Formats: CASC storage, GRP sprites, animation files, tile sets, LIT palettes.
 - [pcxtopng](https://github.com/mechpaul/pcxtopng) - Windows drag-and-drop converter from StarCraft: Brood War PCX images to PNG.
+- [stargus](https://github.com/Wargus/stargus) - Importer and scripts for the Stratagus-based StarCraft port that extracts graphics, sounds and data from a StarCraft installation using StormLib, with tools for GRP, iscript and `dat` files.
+- [startsconverter](https://github.com/andreas-volz/startsconverter) - Converts proprietary StarCraft graphics, videos, sounds and data files from the original CD into open formats, for the StarTS engine reimplementation.
 
 ##### StarCraft II & Heroes of the Storm
 
@@ -502,6 +510,7 @@
 - [Blizzard DATA unpacker (Warcraft: Orcs & Humans)](https://www.moddb.com/games/warcraft-orcs-humans/downloads/blizzard-data-unpacker) - Unpacker DATA archives from Blizzard games: - Warcraft: Orcs and Humans [1994] - Blackthorne [1994] - Lost Vikings [1993] (partially, there may be broken files) With source codes in C.
 - [wc-refurbished](https://github.com/joelek/wc-refurbished) - Unofficial patch for the MS-DOS version of WarCraft: Orcs & Humans, built on reverse-engineered knowledge of the game's original data files.
 - [sc2reader](https://github.com/ggtracker/sc2reader) - Python library for extracting data from StarCraft II replays, maps, and game summaries.
+- [Heroes.XmlData](https://github.com/HeroesToolChest/Heroes.XmlData) - .NET library parsing Heroes of the Storm CASC storage data through CascLib and exposing the game's XML data through an API.
 
 ##### StarCraft: Ghost
 
@@ -521,12 +530,14 @@
 - [war3-objectdata](https://github.com/flowtsohg/war3-objectdata) - Helper library for reading and working with Warcraft III object data files (unit/item/ability data).
 - [ReterasModelStudio](https://github.com/Retera/ReterasModelStudio) - Java-based MDX model editor/studio for Warcraft III, distributed via Hive Workshop, with libraries for reading/writing WC3 model formats.
 - [WarsmashModEngine](https://github.com/Retera/WarsmashModEngine) - Java/LibGDX reimplementation of the Warcraft III engine for modding, requiring a legitimate copy of the game and reading its original MPQ/MDX/terrain data via the same asset-loading utilities as ReterasModelStudio.
+- [open-realm](https://github.com/corepunch/open-realm) - C reimplementation of the Warcraft III engine (also targeting World of Warcraft and StarCraft II content) that loads and renders original game assets directly from MPQ files on Linux and macOS.
 - [HiveWE](https://github.com/stijnherfst/HiveWE) - Warcraft III World Editor alternative for creating/editing maps, reading and writing the game's map/terrain/object-data formats directly.
 - [PHP-BLP](https://github.com/cipherxof/PHP-BLP) - Blizzard BLP image file parser for PHP, using GD/ImageMagick for decoding.
 - [blp-iio-plugin](https://github.com/DrSuperGood/blp-iio-plugin) - Java ImageIO plugin for reading/writing Blizzard BLP texture images (BLP0/BLP1, the Warcraft III variants), based on independent research correcting long-standing inaccuracies in earlier fan specifications.
 - [PHP-MPQ](https://github.com/cipherxof/PHP-MPQ) - Native PHP library for reading the MPQ (MoPaQ) archive format, with support for Warcraft III & StarCraft II maps.
 - [BLPConverter](https://github.com/Kanma/BLPConverter) - Command-line tool to convert Blizzard BLP image files to PNG or TGA.
 - [W3ModelViewer](https://github.com/Darithos/W3ModelViewer) - Windows desktop viewer and exporter for Warcraft III models, covering both classic (SD) and Reforged (HD) formats.
+- [wc3studio](https://github.com/zxclushkin/wc3studio) - Python CLI and Qt/OpenGL GUI for browsing, extracting, converting and animating Warcraft III assets: MPQ archives, MDX models, BLP textures, SLK/TXT data tables and FDF interface files, with OBJ and glTF export including skins and animation.
 
 ##### Diablo
 
@@ -572,6 +583,7 @@
   - Features: canvas-rendered virtual grid built for large tables, cell/range/row/column selection, copy/cut/paste with fill operations, row/column insert/clone/hide/delete.
   - Built as a Tauri v2 desktop app.
   - See also [d2r-mergetxt](https://github.com/yinyin333333/d2r-mergetxt), a Windows app for merging two sets of Diablo II: Resurrected TXT files that shows only the differences needing a decision, and [TXT-to-JS-Generator-for-D2RMM](https://github.com/yinyin333333/TXT-to-JS-Generator-for-D2RMM), which diffs original and edited D2R `.txt` folders to generate D2RMM `mod.js` code.
+- [D2RMM](https://github.com/olegbl/d2rmm) - Mod manager for Diablo II: Resurrected that extracts game data from the CASC archives (via CascLib) and applies mods by patching the tab-separated `.txt` tables and JSON files, with a scripting API for reading and writing TSV/JSON data.
 - [D2ExcelPlus](https://github.com/Cjreek/D2ExcelPlus) - Editor for Diablo II (LoD and Resurrected) `.txt` data files with a workspace folder view, tabbed editing, undo/redo, multi-row editing, search and row insert/copy/delete.
 - [D2MOO](https://github.com/ThePhrozenKeep/D2MOO) - Reimplementation of Diablo II with patching facilities for modders.
 - [Worldstone](https://github.com/Lectem/Worldstone) - C++ Diablo II tools and engine reimplementation; its viewer app browses MPQ archives and displays DC6 and DCC sprites, DAT and PL2 palettes and palette shifts, and COF animation information, and it can generate PL2 palette-shift files.
@@ -725,6 +737,7 @@
 - [Nanosaur](https://github.com/jorio/Nanosaur) - Source port of the 1998 Mac game Nanosaur to modern systems (macOS, Windows, Linux), based on Pangea's public source release and updated/re-released with Pangea's permission.
 - [OttoMatic](https://github.com/jorio/OttoMatic) - Source port of Pangea Software's Otto Matic to modern desktop platforms.
 - [MightyMike](https://github.com/jorio/MightyMike) - Source port of Pangea Software's Mighty Mike (a.k.a. Power Pete) to modern systems.
+- [CroMagRally](https://github.com/jorio/CroMagRally) - Source port of Pangea's 2000 Mac racing game Cro-Mag Rally (OS 9 version) to macOS, Windows and Linux, running on the original game data.
   - These ports (and Bugdom above) are built on [Pomme](https://github.com/jorio/Pomme), the same author's cross-platform reimplementation of the classic Macintosh Toolbox C API, plus [rsrcdump](https://github.com/jorio/rsrcdump) (extracts and converts Classic Mac OS resource forks to JSON/modern formats) and [OldMacArchiver](https://github.com/jorio/OldMacArchiver) (extracts vintage Mac CompactPro/StuffIt 1.5 archives).
 
 #### Bugs Bunny: Lost in Time
@@ -1214,6 +1227,7 @@
 - [AltEditor II (Fixed Edition)](https://github.com/Tibbee/AltEditor-II-Improved) - Fixed and improved version of the AltEditor II map editor for Carnivores 2, with Ghidra-based binary patches and DxWnd integration for modern compatibility.
 - [Carn2-Menu](https://github.com/carnivores-cpe/Carn2-Menu) - Reimplementation of the Carnivores 2/Ice Age main menu using leftover Interface.cpp code and reference to the Carnivores 1 menu code. See also [CCEMapPainter](https://github.com/carnivores-cpe/CCEMapPainter) (in-progress Carnivores map viewer) and [Carnivores_Mod_Manager](https://github.com/carnivores-cpe/Carnivores_Mod_Manager) (mod manager for the Carnivores Modders Edition).
 - [cmm](https://github.com/Game3DEE/cmm) - Tool for Carnivores modders that exports the Carnivores-specific formats (3DF, CAR, VTL and others) with animation support, and imports content from Primal Prey, Vivisector, Cryostasis and Carnivores Cityscape as well as Carnivores 1/2/Ice Age and the mobile Carnivores games; supported formats are listed on its wiki.
+- [webcarnivores](https://github.com/Game3DEE/webcarnivores) - TypeScript/WebGL reimplementation of Carnivores 1 (with planned Carnivores 2 and Ice Age support) that loads the original game data folders, started as a study of the data files.
 
 #### Gatekeeper Technology Group (Chernobyl: The Legacy Continues)
 
@@ -1232,6 +1246,10 @@
 #### Chobits: Atashi Dake no Hito
 
 - [Chobits-Atashi-Dake-no-Hito-Tool](https://github.com/gopicolo/Chobits-Atashi-Dake-no-Hito-Tool) - Python scripts (`dump.py`, `repack.py`) that extract Shift-JIS dialogue from the Game Boy Advance ROM of Chobits: Atashi Dake no Hito (Japan) into a text file and reinsert translated text with an updated pointer table.
+
+#### Macross (Chou Jikuu Yousai Macross)
+
+- [Macross-SDF-Blender](https://github.com/Tzeentchnet/Macross-SDF-Blender) - Blender 5.2 add-on importing models, TIM2 textures, materials, skeletal animations, Valkyrie transformations and stages from Chou Jikuu Yousai Macross (PS2), reading from a disc image or extracted files.
 
 #### A&F Software (Chuckie Egg)
 
@@ -1325,6 +1343,7 @@
   - See also [creatures-sprite-viewer](https://github.com/zenzoa/creatures-sprite-viewer) for a browser-based viewer of Creatures 1 SPR files.
 - [c3ds-projects](https://github.com/20kdc/c3ds-projects) - Collection of compatibility fixes and tools for Creatures 3/Docking Station.
   - Includes: caosproxy (specification/tools for an OS-independent interconnect between tooling and the game), ral (experimental language compiling to CAOS), tob/natsue (reverse-engineered documentation and server for the Babel multiplayer protocol), colour-depth-fix (renderer patching for Linux/Mac compatibility).
+- [creaturesstructs](https://github.com/mnemoli/creaturesstructs) - Kaitai Struct definitions for the Creatures game files (genome, brain, biochemistry and related Creatures 1 EXP structures), with sample files.
 
 #### Pearl Abyss (Crimson Desert)
 
@@ -1472,6 +1491,11 @@
 #### Studio MDHR (Cuphead)
 
 - [cuphead-decomp (decomp)](https://github.com/jmxamongusmodder/cuphead-decomp) - Matching decompilation of Cuphead.
+
+#### KISS (Custom Maid 3D 2 / COM3D2 / KCES)
+
+- [MeidoSerialization](https://github.com/MeidoPromotionAssociation/MeidoSerialization) - Go library, CLI, gRPC API and MCP server converting KISS games' proprietary formats (CM3D2, COM3D2, KCES/KCES2) to and from editable JSON, packing/unpacking COM3D2 ARC and KCES CT/ABA containers and exporting Texture2D, Sprite, AudioClip, Mesh and AnimationClip data.
+- [ABA_EXPLORER](https://github.com/MeidoPromotionAssociation/ABA_EXPLORER) - Browser for KCES/KCES2 `.aba` containers that inspects their structure, unpacks and repacks them and converts extracted assets to common formats.
 
 #### Custom Order Maid 3D2
 

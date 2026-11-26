@@ -242,6 +242,8 @@
 - [RWview](https://github.com/misternebula/RWview) - Console viewer for RenderWare binary stream file hierarchies.
 - [install-renderware](https://github.com/Smooth-E/install-renderware) - Guide for installing the original RenderWare Graphics SDK and RenderWare Studio authoring tools.
 - [rw-parser](https://github.com/Timic3/rw-parser) - TypeScript/npm library for parsing RenderWare binary streams (DFF models, TXD textures), used to render Grand Theft Auto: San Andreas models in the browser.
+- [rw-viewer](https://github.com/Timic3/rw-viewer) - Browser-based (Svelte/Three.js) RenderWare viewer for GTA: San Andreas DFF models with TXD textures, loading drag-and-dropped files or models from IMG archives.
+- [DFFinity](https://github.com/zuperzonic1/dffinity-sa-char-viewer) - Web-based 3D viewer for GTA: San Andreas DFF models and TXD texture dictionaries, built with React Three Fiber and Three.js.
 
 #### PSB (Persistent Serialized Binary)
 
@@ -380,6 +382,7 @@
 
 ##### Switch
 
+- [OunceCake](https://github.com/misshexa66/OunceCake) - Dumps unencrypted RomFS and ExeFS of Nintendo Switch 2 games, updates and DLC (digital or game card) from a console running the ns2jb exploit, served over FTP as raw folders or `.tar`.
 - [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) (archived) - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
 - [HACGUI](https://github.com/shadowninja108/HACGUI) - A comprehensive interface for extracting Nintendo Switch contents, deriving keys, and mounting filesystems (NAND, RomFS, Save).
 - [nstool](https://github.com/jakcron/nstool) - General purpose tool to read and extract Nintendo Switch file formats (NSO, NRO, NCA, etc.).

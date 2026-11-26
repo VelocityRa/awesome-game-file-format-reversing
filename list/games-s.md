@@ -39,6 +39,10 @@
 
 - [SanMapEditor](https://github.com/mzhinf/SanMapEditor) - Map/scenario editor for the Chinese strategy game San Guo Ba Ye (三国霸业), with Kaitai Struct (.ksy) format descriptors and binary read/write support for the game's .m/.dor/.stg map and scenario files.
 
+#### Coffee Stain Studios (Satisfactory)
+
+- [satisfactory-data](https://github.com/dax-dot-gay/satisfactory-data) - Rust crate and binary tool that extracts and parses Satisfactory game files.
+
 #### SCEE London Studio
 
 - [scee-london](https://github.com/EdnessP/scee-london) - Extracts and decrypts SCEE London Studio's PS3 package formats (.PKF/.PKD/.PKG/.PAK/.THEMES) used in SingStar, EyePet, DanceStar Party, and TV Superstars.
@@ -569,6 +573,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [ShadowbaneCacheViewer](https://github.com/shoff/ShadowbaneCacheViewer) - Work-in-progress viewer application for parsing and displaying the contents of Shadowbane's .cache client data files.
 
+#### Shadowverse: Worlds Beyond
+
+- [Wizard2AssetsUnpacker](https://github.com/SVGWBTools/Wizard2AssetsUnpacker) - Cross-platform .NET CLI that downloads and decrypts Shadowverse: Worlds Beyond asset bundles and the asset manifest, and decrypts the game's meta database.
+
 #### L2 Games (She Will Punish Them)
 
 - [SwptEditor](https://github.com/CrystalFerrai/SwptEditor) - Unofficial save game editor for She Will Punish Them.
@@ -658,6 +666,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [Wizardry8Editor](https://github.com/anonidiot/Wizardry8Editor) - Qt-based save game editor for Wizardry 8.
 
+#### Copysoft (Skunny: Back to the Forest)
+
+- [pc-skunnybacktotheforest-doc](https://github.com/vs-sr-dev/pc-skunnybacktotheforest-doc) - Format documentation for Skunny: Back to the Forest (MS-DOS, 1993): the `.LID` archives, `S*` sprite banks and index tables, PCX assets and symbol tables, with scripts to reproduce the analysis from your own copy.
+
 #### thatgamecompany (Sky)
 
 - [sky-browser](https://github.com/mablay/sky-browser) - Web-based asset explorer for Sky: Children of the Light, decoding the game's ETC2-compressed KTX textures and mesh data directly in the browser.
@@ -685,6 +697,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 #### Slitherine / Proxy Studios
 
 - [Blender Gladius Addon v1.1 (Warhammer 40,000: Gladius - Relics of War)](https://www.moddb.com/mods/blender-gladius-addon/downloads/blender-gladius-addon-v11) - The first release. It should mostly work but may still have some bugs.
+- [blender_gladius](https://github.com/amorgun/blender_gladius) - Blender addon importing Warhammer 40,000: Gladius - Relics of War units from their `.xml`, with meshes (`.msh`), animations (`.anm`) and textures.
 
 #### Super Creative (Smilegate)
 
@@ -816,6 +829,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [RCHooker](https://github.com/CreepNT/RCHooker) - Plugin for reverse engineering and modding Ratchet & Clank (PS Vita).
 - [RCFiosOverlay](https://github.com/CreepNT/RCFiosOverlay) - SceFios2 filesystem overlay for loading modded assets in Ratchet & Clank HD (PS Vita).
 - [ReChimera](https://github.com/Mrroboto9819/ReChimera) - Offline level inspector and asset extractor for Insomniac's PS3 titles (Resistance: Fall of Man, Resistance 2, Resistance 3, Ratchet & Clank: Tools of Destruction, A Crack in Time, All 4 One); decodes level meshes, textures, skeletons, animations and sound banks for preview and export from extracted `.psarc` contents.
+- [Insomniac_Blender](https://github.com/Tzeentchnet/Insomniac_Blender) - Blender 5.2+ extension importing models, materials, animations and levels from Resistance: Fall of Man, Resistance 2/3 and Ratchet & Clank Future: Tools of Destruction (PS3), plus experimental Resistance: Burning Skies (PS Vita) support; reads from a decrypted disc image or extracted PSARC archives.
 
 ###### Spyro the Dragon
 
@@ -1026,6 +1040,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [HG2PatchCreator](https://github.com/icemesh/HG2PatchCreator) - Tool for creating a valid patch.bin for Uncharted: Golden Abyss (PS Vita).
 - [SFTOS-TDX-Converter](https://github.com/RaiRaiTheRaichu/SFTOS-TDX-Converter) - Converts `.txd` texture files (4bpp, 8bpp, and swizzled) from Syphon Filter: The Omega Strain (PS2) to PNG.
 - [hogger](https://github.com/rajkosto/hogger) - Packer/unpacker for the HOG archive format used by Syphon Filter: The Omega Strain (PS2).
+- [SF3UNP](https://github.com/DenGameRU/SF3UNP) - Delphi extractor for the sector-based `.HOG` and `.FOG` resource containers of the PS1 game Syphon Filter 3.
 
 ##### SuperBot Entertainment
 
@@ -1568,6 +1583,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [Birthright-RE](https://github.com/minexew/Birthright-RE) - Extractor for Birthright: The Gorgon's Alliance (1996)'s RES resource archives, decompressing LZSS-compressed entries and converting the game's NOVA-format bitmaps to PNG using its palette file.
 
+#### Exbo (Stalcraft)
+
+- [sc-file](https://github.com/onejeuu/sc-file) - Python library, CLI and GUI converting Stalcraft assets to standard formats: `.mcsb`/`.efkmodel` models to OBJ/GLB/FBX, `.mcvd`/`.mcal` animations to GLB, `.ol` textures to DDS, `.mic` images to PNG, `.mdat` regions to Minecraft `.mca` and data files to JSON.
+
 #### Cloud Imperium Games (Star Citizen)
 
 - [SCExporter](https://github.com/Kjasi/SCExporter) - Blender tools for exporting Star Citizen models.
@@ -1668,6 +1687,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ske-dumper](https://github.com/JayFoxRox/ske-dumper) - Backs up Stern Spike 1/2 pinball machine EEPROMs and hardware fuses over a debug connection.
 - [ghidra_whitestar_loader](https://github.com/c0rner/ghidra_whitestar_loader) - Ghidra extension that loads Sega/Stern Whitestar pinball game ROMs, building a complete navigable memory map including banked ROM overlays and I/O registers.
 
+#### Shooting Game Builder (STGB)
+
+- [Old-Shooting-Game-Builder-Game-Unpack-Tool-STGB](https://github.com/vihithr/Old-Shooting-Game-Builder-Game-Unpack-Tool-STGB) - Unpacks pre-Steam Shooting Game Builder (STGBuilder) `.gamedat` archives and restores the project structure, reading the packed index and the `.sbd` string table to recover original Shift_JIS file names.
+
 #### Sting
 
 ##### Baroque
@@ -1729,6 +1752,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [sentland](https://github.com/simonowen/sentland) - Python script reverse-engineering The Sentinel's (aka The Sentry) landscape generation algorithm, reproducing the exact tile-height/shape map data and object placement for any of the game's landscapes.
 - [sentcode](https://github.com/simonowen/sentcode) - Python script reverse-engineering the secret landscape-access codes for every version of The Sentinel (BBC, C64, CPC, Spectrum, ST, PC, Amiga), replicating each version's RNG and digit-encoding differences.
 - [Augmentinel](https://github.com/simonowen/augmentinel) - Enhanced remake of The Sentinel that emulates the original Spectrum Z80 game code for authentic logic and landscape data, while adding accelerated 3D rendering, VR support, and assets/music from other original ports.
+
+#### Stunt GP
+
+- [stunt_gp_tools](https://github.com/stuntkit/stunt_gp_tools) - Go tools for Stunt GP file formats, packing and unpacking the PC and Dreamcast texture files, with links to a wiki documenting the game's formats.
 
 #### Distinctive Software (Stunts)
 

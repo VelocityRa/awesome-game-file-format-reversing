@@ -170,6 +170,7 @@
 - [xdvdfs](https://github.com/antangelo/xdvdfs) - Rust library and command-line tool collection for XDVDFS/XISO (original Xbox) images: list, unpack, pack, checksum, and inspect image metadata.
 - [iPoPS](https://github.com/julianxhokaxhiu/iPoPS) - Converts PSX discs and ISOs into PBP format for playback on PSP.
 - [PSXPackager](https://github.com/RupertAvery/PSXPackager) - Utility to convert PlayStation disc images between various formats and PBP.
+- [pop-fe](https://github.com/sahlberg/pop-fe) - Python tool that converts PS1 disc images (CUE/BIN, CCD, IMG, CHD, ZIP) and memory card images and installs them on other targets: PSP/Vita POPS (EBOOT.PBP), PS3 PKG, PS2/PSIO, RetroArch and PS Classic, fetching box art and metadata.
 - [dexvert](https://github.com/Sembiance/dexvert) - Identifies and converts over 3,700 file formats to modern equivalents, including many game-specific archive, texture, and model formats.
 - [Universal Extractor 2](https://github.com/Bioruebe/UniExtract2) - Generic tool to extract files from any type of archive or installer, commonly used to unpack game installers (NSIS, InstallShield, Wise, and many more) before further asset processing.
 - [cicdec](https://github.com/Bioruebe/cicdec) - Unpacker for installers made with Clickteam Install Creator, used to extract game data bundled by that installer format.
@@ -1007,6 +1008,10 @@
 - [VNTools](https://github.com/Yamato6/VNTools) - GUI and CLI tools to extract, edit and repack visual novel assets for fan translation across nine engines.
   - Engines: FS Engine (CROSS†CHANNEL), FVP, Yeti, AdvHD/WillPlus, NeXAS, CatSystem2, BGI, KiriKiri 2, SiglusEngine.
   - Formats: `.pd`, `.bin`, `.cpk`, `.arc`, `.pac`, `.int`, `.xp3`, `Scene.pck` archives, HG-3/TLG/G00 images, scripts, audio.
+- [reimpl-notes](https://github.com/nugamus/reimpl-notes) - Research notes, Kaitai Struct specs, validating parsers and Ghidra scripts behind ScummVM engines for late-90s adventure games.
+  - Games: Monet: The Mystery of the Orangerie Museum, Mission Sunlight, Ring: The Legend of the Nibelungen, Gilbert og den kemystiske o, Grumpa.
+- [RetroGameLocalization](https://github.com/Ailyth99/RetroGameLocalization) - Collection of translation-project tools for PS1/PS2 games: archive unpackers/repackers, TIM/TIM2 and font texture converters and text extractors.
+  - Games: King's Field, King's Field 4, Ace Combat, Zutto Issho, Chou Aniki, Detective Conan, Dragon Ball Z: Budokai Tenkaichi 3, G-Saviour, Gundam: Lost War Chronicles, Hunter X Hunter and others.
 
 #### Noesis / 3ds Max / Format Script Packs
 
