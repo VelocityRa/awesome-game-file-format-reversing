@@ -157,12 +157,13 @@
   - Companion tool: [TMM](https://github.com/VenoMKO/TMM) (Tera Mod Manager) installs and manages 64-bit composite GPK mods made with Real Editor without manual `CompositePackageMapper.dat` patching.
 - [Tera_blender_level_importer](https://github.com/234523413432634/Tera_blender_level_importer) - Blender add-on for importing TERA level geometry.
 
-#### Terminal Reality
+#### Terminal Reality (POD format based Photex,Evo,Kage,Infernal engines with games from High Voltage Software, A.C.R.O.N.Y.M. and others)
 
 ##### Tools / Libraries
 
+- [vs-sr-dev/pod.y](https://github.com/vs-sr-dev/pc-victorious/blob/main/tools/pod.py) - Terminal Reality POD5 archive reader (Infernal Engine) with compression support
 - [Poddy](https://github.com/dummiesman/Poddy) - POD Manipulation tool for all Terminal Reality Inc. games/software formats
-- [termpod](https://github.com/lndpj/termpod) - Terminal Reality POD{1,2,3,4,5,6}/EPD file format archive C++ library 
+- [termpod/podorgana](https://sr.ht/~joneqdaniel/termpod) - POD archive library/viewer/extractor for CLI in C++
 - [OpenPhotex](https://github.com/juanputrerasm/OpenPhotex) - Library and CLI reading Terminal Reality game formats (POD1/POD2/EPD archives, `.RAW`/`.ACT`/`.OPA`/`.TIF` textures and palettes, models) for Monster Truck Madness 1 and 2, CART Precision Racing, Terminal Velocity, Fury3, Hellbender, 4x4 Evolution 1 and 2, Fly! and Nocturne.
 - [JPod](https://github.com/juanputrerasm/JPod) - Terminal Reality POD archive utility 
 - [JSPod](https://github.com/juanputrerasm/JSPod) - Online Terminal Reality POD archive viewer
@@ -177,7 +178,7 @@
 
 ##### Documentation
 
-- [termpod](https://github.com/lndpj/termpod/wiki) - Terminal Reality POD file format Documentation and related resources.
+- [termpod](https://man.sr.ht/~joneqdaniel/termpod) - Terminal Reality POD file format Documentation and related resources.
 - [jtrfp](https://github.com/jtrfp/jtrfp/wiki) - Java library providing file parsers for Terminal Reality game formats, intended as a dependency for game re-implementation projects.
 
 ##### POD1 Style (POD1,EPD,POD2,POD6)
@@ -194,6 +195,10 @@
 - [nocturne (decomp)](https://github.com/sp00nznet/nocturne) - Static recompilation of Nocturne (1999) to native Windows, lifting `nocturne.exe` back to C.
 
 ##### POD3 Style (POD3,POD4,POD5)
+
+###### Victorious: Taking the Lead
+
+- [pc-victorious](https://github.com/vs-sr-dev/pc-victorious) - Toward a native PC port of Victorious: Taking the Lead (Wii, D3 Publisher / High Voltage Software, 2012), the point-and-click adventure tie-in to the Nickelodeon series.
 
 ###### BloodRayne
 
