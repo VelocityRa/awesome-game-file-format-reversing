@@ -159,6 +159,7 @@
 - [karaConv](https://github.com/Timo654/karaConv) - Converts karaoke song bin files between Yakuza 4/Dead Souls and Yakuza 5/Ishin/Zero/Kiwami.
 - [YakuzaPythonExtractor](https://github.com/LinuxJessi/YakuzaPythonExtractor) - Pure-Python unpacker, converter and repacker for the Yakuza (PS2, SLUS-21348) disc.
   - Formats: CVM/OGREDIR volumes, AVLZ compression, textures to PNG, models to OBJ/Blender, audio to WAV, movies to MP4; writes back into a bootable ISO.
+- [yakuza_ps2xr](https://github.com/Sylwahan/yakuza_ps2xr) - Python tool for extracting and rebuilding the data of the PlayStation 2 games Yakuza and Yakuza 2.
 
 ##### Shenmue
 
@@ -213,6 +214,7 @@
 - [pso-character-editor](https://github.com/decswxaqz/pso-character-editor) - Online JavaScript character editor for Phantasy Star Online.
 - [PStarSaveEditor](https://github.com/Fuindin/PStarSaveEditor) - Windows Forms save state editor for Phantasy Star, Phantasy Star 2, Phantasy Star 3, and Phantasy Star 4 (Sega Master System/Genesis).
 - [Zipper](https://github.com/Shadowth117/Zipper) - Decryptor/decompressor for Phantasy Star Zero's (Nintendo DS) ZPR format, with .narc/.zarc extraction support.
+- [PhotonBlue](https://github.com/karashiiro/PhotonBlue) - Hardware-accelerated .NET library (GPU-assisted decryption) for fast index and lookup operations on PSO2's game data.
 
 ##### Sonic Team (Hedgehog Engine)
 
@@ -564,10 +566,15 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [lain-bootleg-bootleg](https://github.com/ad044/lain-bootleg-bootleg) - Reverse engineering and remake of Lain Bootleg, a minigame from the Serial Experiments Lain PSX game.
 - [SEL-SaveFile-Editor](https://github.com/justKherty/SEL-SaveFile-Editor) - Python command-line editor for Serial Experiments Lain save files: converts the raw save file, marks viewed chapters, and writes the final JSON.
 
+#### Nautilus (Shadow Hearts)
+
+- [shadow-hearts-extractor](https://github.com/JimmyMcThiccus/shadow-hearts-extractor) - Asset extractors for Shadow Hearts: Covenant and From the New World (PS2): PKFINFO.TBL/PKB archives, SSH models and LSD cutscene streams, with a Blender add-on that imports cutscenes with animation, face morphs, camera and voice.
+
 #### Shadow of Mordor & Shadow of War
 
 - [MordorUnpacker](https://github.com/WarpZephyr/MordorUnpacker) - Drag-and-drop unpacker for Shadow of Mordor and Shadow of War files; Shadow of War needs the game's Oodle library (oo2core_5_win64.dll) copied next to the tool.
   - [MordorFormats](https://github.com/WarpZephyr/MordorFormats) - C# library for the LTAR archives (.arch05, .arch06) used by both games.
+- [sow-weapon-modding-guide](https://github.com/LordMonstey/sow-weapon-modding-guide) - Dependency-free Python tools for Shadow of War: archive reader (needs the game's Oodle DLL), `game.gamedb` reader that traces weapon model references and loot tables, and documentation of the binary formats.
 
 #### Wolfpack Studios (Shadowbane)
 
@@ -666,10 +673,6 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [Wizardry8Editor](https://github.com/anonidiot/Wizardry8Editor) - Qt-based save game editor for Wizardry 8.
 
-#### Copysoft (Skunny: Back to the Forest)
-
-- [pc-skunnybacktotheforest-doc](https://github.com/vs-sr-dev/pc-skunnybacktotheforest-doc) - Format documentation for Skunny: Back to the Forest (MS-DOS, 1993): the `.LID` archives, `S*` sprite banks and index tables, PCX assets and symbol tables, with scripts to reproduce the analysis from your own copy.
-
 #### thatgamecompany (Sky)
 
 - [sky-browser](https://github.com/mablay/sky-browser) - Web-based asset explorer for Sky: Children of the Light, decoding the game's ETC2-compressed KTX textures and mesh data directly in the browser.
@@ -680,6 +683,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [skyhigh_releases](https://github.com/kaimitai/skyhigh_releases) - Releases for the Sky High SkyRoads editor, covering the 1993 DOS game's level and graphics data.
 - [SkyRoads-Codex](https://github.com/ammaarreshi/SkyRoads-Codex) - Reverse engineering of SkyRoads (1993, DOS) with no original source code available, recovering the game's level and asset data formats.
+- [skyroads-port](https://github.com/ammaarreshi/skyroads-port) - Portable C11/SDL2 port of SkyRoads (1993, DOS) reverse engineered from `SKYROADS.EXE`, reading the unmodified retail `*.LZS`, `*.DAT`, `*.SND` and `DEMO.REC` files, with `docs/FORMATS.md` specifying the LZS compression and level, graphics and sound formats and Python `lzs.py`/`extract.py` tools.
 - [OpenRoads](https://github.com/anprogrammer/OpenRoads) - Modern TypeScript/HTML5 reimplementation of SkyRoads (1993, DOS), reading all of the original game's data files (art, music, levels) rather than remaking them from scratch; also runs under Node.js with Oculus Rift support.
 
 ##### Pinball Fantasies
@@ -848,6 +852,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [ApeEscapeRecomp](https://github.com/mstan/ApeEscapeRecomp) - Static recompilation of Ape Escape (PS1) into native code.
 - [salvatoreExtract](https://github.com/hypermegacrash/salvatoreExtract) - Extractor for the PackInfo archive files (DATA0/DATA2/DSKIMG.BIN) used by Ape Escape: Pumped & Primed and Ape Escape: Million Monkeys (PS2).
 - [MMTextGadget](https://github.com/hypermegacrash/MMTextGadget) - English fan translation patch for Ape Escape: Million Monkeys (PS2, Japan-only), building a patched ISO from extracted DATA0/DATA1 game files.
+- [ae3-sdk](https://github.com/pxdl/ae3-sdk) - Ape Escape 3 (PS2) toolkit with a C11 audio library that reproduces the music and sound effects, browser packages and a Python CLI to extract files and inspect/convert the data formats, plus format notes.
 
 ##### Gravity Rush 2
 
@@ -953,6 +958,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [GOWTool](https://github.com/kainotoa/GOWTool) - Asset browser and extractor for God of War (2018). Supports viewing and extracting meshes, textures, and other resources.
 - [God of War 2018 PS4 Tools](https://forum.xentax.com/viewtopic.php?f=16&t=22897) - XeNTaX forum discussion and extraction tools for God of War (2018) on PlayStation 4. *(Link archived/dead)*
 - [GowUnreal](https://github.com/Inori/GowUnreal) - Exports God of War (2018) scene resources with correct positioning and imports them into Unreal Engine 5, with an accompanying UE5 plugin to save resources as uasset files.
+- [gow3-rs](https://github.com/xmoezzz/gow3-rs) - Rust behavioral engine reimplementation for God of War III (PS3) that reads the game's PSARC, WAD and resource catalog data and decodes BC1-BC3 textures and model geometry; `gow3-tool` exports DDS for research.
 
 ##### Sucker Punch
 
@@ -965,6 +971,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [PS23DFormat Wiki Archive](https://archive.org/details/wiki-ps23dformat.wikispaces.com) - Complete archive of PS23DFormat wiki covering PS2 3D formats.
 - [cane](https://github.com/detolly/cane) - Work-in-progress level editor for Sly Cooper series with reverse-engineered level format parsing for modding.
 - [SlyCineTrainer](https://github.com/slynders/SlyCineTrainer) - Trainer for creating camera animations in Sly Cooper games.
+- [infamous-xpp-textures](https://github.com/deucebucket/infamous-xpp-textures) - inFAMOUS 1 (PS3) XPP/PSARC toolkit: extracts textures to PNG and encodes them back to XPP, rebuilds install PSARCs and full profiles, validates descriptors and exports static meshes to GLB.
 
 ##### Other First Party / Japan Studio
 
@@ -1028,12 +1035,14 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [EQGWeaponModelImporter](https://github.com/Zaela/EQGWeaponModelImporter) - Windows GUI viewer and importer for EQEmu that builds EverQuest .eqg weapon and shield models (.mod) with particle effects (.prt/.pts) from .obj and .ply meshes.
 - [ascii-blender](https://github.com/xackery/ascii-blender) - Blender scripts that parse EverQuest ASCII WLD data (WCE, WorldCom Emu format) into Blender assets, handling material and sprite definitions, hierarchical skeletons, tracks, and polyhedra.
 - [OpenEQ (Rust)](https://github.com/daeken/OpenEQ) - Rust and Bevy EverQuest client that reads the original game assets, including classic WLD zones, EQG zones (EQGZ v1/v2), EQTZP heightmap terrain, EQG models and water materials, and original UI and audio.
+- [libeq](https://github.com/cjab/libeq) - Rust libraries and tools for EverQuest game data: `libeq_wld` loads `.wld` files and `libeq_pfs` creates and extracts `.s3d` archives.
 
 ##### Evolution Studios
 
 - [motorstorm-modding-resources](https://github.com/regallll/motorstorm-modding-resources) - WIP modding resources and filetype notes for MotorStorm games (PS3, PS Vita).
 - [mspr-save-uncorrupter](https://github.com/regallll/mspr-save-uncorrupter) - Fixes corrupted MotorStorm: Pacific Rift save files, including the common freeze-on-load issue for the Wreckreation event.
 - [WRCEvoTools](https://github.com/igorciz777/WRCEvoTools) - Tools for files found in WRC games developed by Evolution Studios (PS2).
+- [motorstorm-archive-tools](https://github.com/LumoZitrix/motorstorm-archive-tools) - Python unpack/repack tools with byte-level format specs for the archives of the MotorStorm series (PS3 RA container, PSARC, `msrc.idx`/`.dat`, PS2 Arctic Edge PAK) and DriveClub (PS4 DATX).
 
 ##### Bend Studio
 
@@ -1089,6 +1098,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [Danganronpa-Modding](https://github.com/BitesizeBird/Danganronpa-Modding) - Documentation of Danganronpa 2's DAT/LIN opcode formats, GMO model format, and other file structures, with Nonstop Debate DAT converters and voice-line extraction utilities.
 - [danganronpa-tools](https://github.com/vn-tools/danganronpa-tools) - LIN script compiler/decompiler (Danganronpa 1 and 2) plus WAD and PAK archive packers/unpackers for the Danganronpa PC releases (archived).
 - [Ultra-Despair-Extractor](https://github.com/ContinualDissapointment/Ultra-Despair-Extractor) - Open native extractor for Danganronpa Another Episode: Ultra Despair Girls (PC), converting .cpk/.bnc/.btx files to posed, UV-mapped, textured .obj models.
+- [danganronpa-v3-tools](https://github.com/wdominik/danganronpa-v3-tools) - Rust CLI toolkit and library crates for Danganronpa V3: Killing Harmony data: CPK and SPC archives (list/extract/pack), STX, DAT, WRD, SRD and SpFt round-trip parsing, and a JSON translation patching pipeline.
 
 ##### Kamaitachi no Yoru
 
@@ -1100,6 +1110,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 ##### Fushigi no Dungeon: Fuurai no Shiren Gaiden
 
 - [Shiren_DataBG_ext](https://github.com/VincentNLOBJ/Shiren_DataBG_ext) - Extracts and converts all images from the Dreamcast game's `DATABG.bin` and rebuilds it with LZ40 compression, preserving the palettes of indexed map-name images.
+
+#### Black Rock Studio (Split/Second)
+
+- [TEXembed](https://github.com/theUssa1n/TEXembed) - Rust texture viewer, extractor and replacer for the PC version of Split/Second: Velocity; opens `.textures` and `.streamtex` containers, previews and exports DDS, replaces textures, with ImHex format patterns.
 
 #### 1047 Games (Splitgate)
 
@@ -1171,6 +1185,7 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 - [FF6Tools](https://github.com/everything8215/ff6tools) - Browser-based editor covering NES/Famicom, SNES/Super Famicom, and GBA Final Fantasy ROMs (FF I-VI and their Advance ports), editing maps, battles, monsters, characters, items, attacks, and event/AI scripts, with graphics import/export.
 - [ff5reader](https://github.com/Birdulon/ff5reader) - Python/Qt ROM reader for Final Fantasy V (SNES), with string-block, struct, and glyph definitions for the SNES and RPGe translation ROMs, plus FF4/FF6 helper modules and an SPC700 analyser.
 - [mystic-editor](https://github.com/arathron123/mystic-editor) - Python editor for Mystic Quest (Final Fantasy Adventure, Game Boy) that decodes the ROM into editable maps, scripts, sprites, and audio files, re-encodes them, and can build an expanded ROM.
+- [ffxii-tza-tools](https://github.com/StyuDEV/ffxii-tza-tools) - File format specifications and Python tools for Final Fantasy XII: The Zodiac Age (PC): `.cm` character models and `.ca` animations (@FRP containers) plus the `.phyre` HD models, textures and shader effects.
 
 
 ##### Final Fantasy XI
@@ -1430,6 +1445,8 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
   - Same author's Switch save data editors: [DQB1](https://github.com/turtle-insect/DQB1) (Dragon Quest Builders), [DQ11_NS](https://github.com/turtle-insect/DQ11_NS) (Dragon Quest XI S) and [DQTreasure](https://github.com/turtle-insect/DQTreasure) (Dragon Quest Treasures).
 - [DQMJoker3Pro](https://github.com/turtle-insect/DQMJoker3Pro) - Save data editor for Dragon Quest Monsters: Joker 3 Professional (3DS).
   - Same author's Dragon Quest Monsters save data editors: [DQM2IruRuka](https://github.com/turtle-insect/DQM2IruRuka) (Dragon Quest Monsters 2: Iru & Ruka, 3DS), [DQMTerry3D](https://github.com/turtle-insect/DQMTerry3D) (Terry's Wonderland 3D, 3DS) and [DQMCH](https://github.com/turtle-insect/DQMCH) (Caravan Heart, GBA).
+- [dqmj2_save_files](https://github.com/ExcaliburZero/dqmj2_save_files) - Documentation of the Dragon Quest Monsters: Joker 2 (DS) save file format with a Python parser.
+- [DQIV_PSX_TOOLS](https://github.com/RadMageIRL/DQIV_PSX_TOOLS) - Read-only stdlib Python library for Dragon Quest IV (PlayStation, SLPM-86916): archive container, Huffman-compressed text, phrase dictionaries, sector table and glyph atlas, with checks that verify its claims against a real disc.
 
 ##### Final Fantasy X
 
@@ -1697,6 +1714,10 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [BaroqueArchiveTool](https://github.com/HunterStanton/BaroqueArchiveTool) - Extractor for DATA.DIR/DATA.BIN archives from the PS2 game Baroque.
 
+##### DOKAPON! Sword of Fury
+
+- [dokaponsof](https://github.com/DiNaSoR/dokaponsof) - C# modding toolkit for DOKAPON! Sword of Fury (2025 PC remaster): extracts images from `.tex`, `.spranm`, `.mpd` and `.fnt`, decodes and reimports game text, edits PCK voice/BGM archives with Opus playback, and views `.spranm` animations.
+
 #### Marvelous (Story of Seasons)
 
 - [sosawl-font-data-edit](https://github.com/Giza/sosawl-font-data-edit) - Tool for extracting and repacking the font parameter `.bin` files in Story of Seasons: A Wonderful Life.
@@ -1824,11 +1845,16 @@ See also: [Hedgehog Engine](engines.md#hedgehog-engine) under Engines, including
 
 - [supcom2-map-toolkit](https://github.com/plutonics72/supcom2-map-toolkit) - Reverse-engineered toolkit for creating Supreme Commander 2 custom maps, including navmesh editing so units path correctly.
   - Formats: hfield.win.bdf (heightfield), terrain.win.bdf, costs.win.bdf, collision2.win.bdf, waterDepth.dds — reverse engineered as a mutually-consistent five-file stack.
+- [SiegeFX](https://github.com/codingncaffeine/SiegeFX) - Clean-room C#/.NET reimplementation of Dungeon Siege that loads the original `.dsres` tank archives, parses the GAS template language, runs the original Skrit scripts and renders ASP meshes with PRS skeletal animation.
 
 #### Surreal Software
 
 - [Drakan Editing Tools v1.2](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/drakan-editing-tools-v12) - Surreal Softwares, Level and model Editor for "Drakan Edition"
 - [reo converter to obj (Drakan: Order of the Flame)](https://www.moddb.com/games/drakan-order-of-the-flame/downloads/reo-converter-to-obj) - by Roosen5 – useful for level editors and game mods. For developers only! - See more at: arokhslair
+
+#### Surviving Mars
+
+- [remis-fpk](https://github.com/Drlinglong/remis-fpk) - Read-only Python reader and safe extractor for Surviving Mars FLPK (version 1) archives with bounded structure and payload validation and a CLI; never executes Lua or repacks.
 
 #### Kerberos Productions (Sword of the Stars)
 

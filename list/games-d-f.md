@@ -18,6 +18,8 @@
 - [DCGF-Tool](https://github.com/gdkchan/DCGF-Tool) - Extractor/compressor for Da Capo: Girl's Symphony *.PAK archives, with text and arts editing.
 - [CIRCUS_CRX_Tool](https://github.com/crskycode/CIRCUS_CRX_Tool) - Editor for CRX (`CRXG`-header) image files used by CIRCUS's engine games.
 - [CIRCUS_Script_Tool](https://github.com/crskycode/CIRCUS_Script_Tool) - Export/import tool for CIRCUS's engine script text (tested on D.C.4 Plus Harmony). See also the author's earlier [CIRCUS_MES_FA](https://github.com/crskycode/CIRCUS_MES_FA) and [CIRCUS_MES_FD](https://github.com/crskycode/CIRCUS_MES_FD) tools for the older script format used by fortissimo FA // Akkord:nächsten Phase.
+- [Circus-Engine](https://github.com/kesmeey/Circus-Engine) - Java compatibility layer for the D.C. 1/2/3 series (and D.C.4 Plus Harmony) that extracts resources and runs the original scripts and assets on a script VM, with PC and Android runtimes.
+- [GalTextKit](https://github.com/kesmeey/GalTextKit) - Scenario text extractor for D.C.4 and D.C.5 (HXV4/PSB) that exports dialogue to CSV.
 
 #### Realmforge Studios (DARK)
 
@@ -77,6 +79,10 @@
 
 - [DPRecomp](https://github.com/LittleBitUA/DPRecomp) - Deadly Premonition native PC port via static recompilation of the Xbox 360 binary.
 
+#### Death Stranding
+
+- [DeathStrandingSaveDataResigner](https://github.com/mi5hmash/DeathStrandingSaveDataResigner) - Console tool that decrypts, encrypts and re-signs Death Stranding (PC) SaveData files with your own UserID.
+
 #### Deep Black
 
 - [Deep_Black_Unpacker](https://github.com/DenGameRU/Deep_Black_Unpacker) - Delphi tool unpacking the `GameGuiSceneSet.pack` resource archives (`UWFPVF01` header) of the PC game Deep Black (2011).
@@ -95,6 +101,7 @@
 
 - [fmt_kapow](https://github.com/ExIfDev/fmt_kapow) - Total Overdose viewer/unpacker plugin for Noesis.
 - [TOD_tools](https://github.com/Michael0ne/TOD_tools) - Reverse-engineered Kapow engine and game code for Total Overdose (PC), buildable as a `dinput8.dll` plugin or replacement EXE. Includes `restools`, a viewer/extractor for `.main` asset block files, and bundles `naztozip` for converting the game's NAZ archives to ZIP.
+- [tod-asset-explorer](https://github.com/MikeTheSavage/tod-asset-explorer) - Python extractor for Total Overdose's `blocks.naz` archive that writes models, character animations and textures to GLB and DDS, with a web 3D viewer.
 
 #### Delphine Software
 
@@ -229,6 +236,14 @@
 - [dogs-life-docs](https://github.com/Dogmander/dogs-life-docs) - Research on Dog's Life (PS2) internal engine (FGDK3) and its file formats.
 - [Gibbed.FGDK3](https://github.com/gibbed/Gibbed.FGDK3) - Gibbed's file format library and tools for FGDK3, the Frontier Developments engine used by Dog's Life.
 
+##### Infestation
+
+- [OpenInfestation](https://github.com/xndbogdan/OpenInfestation) - Open-source Rust reimplementation of Infestation (Frontier Developments, 2000) built from reverse engineering the executable and data formats; reads the original game files, with a software/OpenGL renderer and a Vulkan remaster.
+
+##### Jurassic World Evolution
+
+- [JWE-Animation-Converter](https://github.com/Ziggertron/JWE-Animation-Converter) - Windows tool that extracts animations from OVL archives and exports them as GLB, skeleton-only or with a skinned mesh (needs Blender).
+
 ##### Thrillville
 
 - [Thrillview](https://github.com/Novarleeir/Thrillview) - GUI for viewing and extracting assets from the Thrillville and Thrillville: Off the Rails OVL and ZAP game archives.
@@ -249,6 +264,10 @@
 #### Dokuro-chan
 
 - [dokuro-translation-toolkit](https://github.com/Francesco149/dokuro-translation-toolkit) - Fan translation toolkit for Dokuro-chan (PS2): script editor for the STCM2 script format, UNI2 container split/join tools, and ISO patch/rebuild, with format documentation.
+
+#### Illwinter Game Design (Dominions)
+
+- [Dom6-Mod-Editor](https://github.com/kcopley/Dom6-Mod-Editor) - Editor for Dominions 6 mod (`.dm`) files that shows each monster, weapon, armor, spell, item, nation and event as the game's own parser resolves it (copies and clears included), with every command editable.
 
 #### Smoking Gun Interactive (Doodle Jump Journey)
 
@@ -327,6 +346,10 @@
 - [bakagain](https://github.com/stellargames/bakagain) - Unity remake of Betrayal at Krondor (1993) that reads the original `KRONDOR.001` data files from an installed copy through a .NET resource-extraction library, runs on Windows, Linux and Android and supports mods.
 
 ### E
+#### Earth 2150
+
+- [EarthTool](https://github.com/Arkezar/EarthTool) - Modding suite for Earth 2150: extracts, creates and modifies WD archives, converts TEX textures to PNG and reads, validates and writes MSH models with glTF/Blender interchange.
+
 #### Pixpil (Eastward)
 
 - [EastwardPacker](https://github.com/VriskaSerket51/EastwardPacker) - Extracts and repacks Eastward's `.g` GArchive asset containers.
@@ -349,6 +372,10 @@
 - [SakunaTools](https://github.com/Kaplas80/SakunaTools) - Tools for translating Sakuna: Of Rice and Ruin.
 - [Sakuna-of-rice-and-ruin-PC](https://github.com/Turk645/Sakuna-of-rice-and-ruin-PC) - Blender 3.0 mesh import script plus a Noesis texture script for the PC version of Sakuna: Of Rice and Ruin; the Blender plugin imports rigging and tries to auto-apply the main diffuse texture when it sits next to the model.
 
+#### Eden: World Builder
+
+- [EdenToMC](https://github.com/hagg3/EdenToMC) - In-browser converter from Eden: World Builder `.eden` worlds to Minecraft Java 1.12+ worlds (experimental).
+
 #### Edge of Reality
 
 - [Pitfall](https://github.com/Helco/Pitfall) - Asset conversion tools for Pitfall: The Lost Expedition (2004, Edge of Reality), including a texture extractor/converter (TexConvert) for the game's archives.
@@ -368,6 +395,7 @@
 
 - [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
 - [frostbite-formats](https://github.com/Kalmarv/frostbite-formats) - Rust library that reads and writes skate. (2025) Frostbite files: superbundle and Patch TOCs, bundles, CAS archives (raw, zlib, LZ4, Oodle), EBX documents, MeshSets, the shader database and ReSkate Studio `.fbmod` mods.
+- [FrostyBlender](https://github.com/4FingerStudios/FrostyBlender) - Blender add-on and desktop browser that import maps, characters, customizations, props and animations from Plants vs. Zombies: Garden Warfare 1 and 2 and Battle for Neighborville.
 
 ###### Battlefield Series
 
@@ -441,6 +469,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [burnout3](https://github.com/sp00nznet/burnout3) - Static recompilation of the original Xbox version of Burnout 3: Takedown (2004) into a native Windows 11 x86-64 executable, translating the game's original x86 machine code function-by-function into compilable C.
 - [Criterion Modding Helpers](https://github.com/DGIorio/criterion_modding_helpers) - Blender helper scripts for modding Criterion games (Burnout Paradise, Need for Speed: Hot Pursuit, Need for Speed: Most Wanted 2012).
   - Features: default shader property presets, skeleton/effect/driver-position loading, resource ID generation, PC/console endianness swapping for resource IDs, texture type identification (diffuse/normal/specular), and blend-data transfer between objects.
+- [fudge-chameleon-tools](https://github.com/fudgepop01/fudge-chameleon-tools) - Kaitai Struct-based tools for Criterion's Chameleon engine (mainly Need for Speed: Most Wanted 2012; also Burnout Paradise and Hot Pursuit): a "universal" `GenesysObject` parser, type extractor, event file rebuilder and a 3D web event/traffic visualizer.
 
 ##### EAGL / Black Box / Other
 
@@ -502,6 +531,11 @@ See also: [RenderWare](middleware.md#renderware).
 - [nfsps-testtrack-modelfixer](https://github.com/xan1242/nfsps-testtrack-modelfixer) - Patching utility that attempts to convert the material chunks in Need for Speed: ProStreet's prototype test-track models (streaming `.BUN` bundles) to the final format; unfinished, with broken materials still visible in game.
 - [TailsLab](https://github.com/AndyGura/tailslab) - Editor, converter and byte-level format specs for Need for Speed 1-9 (The Need for Speed 1994 to Most Wanted 2005); formerly NFS Resources Converter.
   - Formats: EA Canada formats shared across other EA titles of that era (FSH images, FFN fonts, QFS compression).
+- [BNDLExplorer](https://github.com/FrankHUN88453/BNDLExplorer) - Windows Explorer-style viewer and editor for Need for Speed: Most Wanted (2012) `.BNDL` bundles (retail PC and the PS3 prototype), with resource import/export and PS3 to PC bundle conversion.
+- [NFSHP2-ModSuite](https://github.com/TechX1320/NFSHP2-ModSuite) - Python desktop suite for the PS2 version of Need for Speed: Hot Pursuit 2 (NTSC-U): extracts a retail ISO, edits supported data and builds a separate modified ISO.
+- [nfshpr_exporter](https://github.com/DGIorio/nfshpr_exporter) - Blender add-on to export vehicles, tracks, collisions and characters as Need for Speed Hot Pursuit Remastered (PC) files.
+- [MWEncyclopedia](https://github.com/TsyVM/MWEncyclopedia) - Byte-level technical encyclopedia of Need for Speed: Most Wanted (2005, PC v1.3) covering its file formats, data structures and EAGL engine subsystems.
+- [speedtools](https://github.com/e-rk/speedtools) - Data parsing utilities for Need for Speed: High Stakes (PC) track and car asset files, with a Blender import add-on.
 
 ###### 688 Attack Sub
 
@@ -735,6 +769,7 @@ See also: [RenderWare](middleware.md#renderware).
   - Packages: [TruckLib.Sii](https://github.com/sk-zk/TruckLib.Sii) (`.sii`/`.mat` de/serializer, including encrypted and 3nK-encoded files), [TruckLib.Models](https://github.com/sk-zk/TruckLib.Models) (binary `.pm*` model files, `.ppd` prefab descriptors, and binary `.tobj` textures), and [TruckLib.HashFs](https://github.com/sk-zk/TruckLib.HashFs) (reader for HashFS, the game's `.scs` asset archive format).
 - [Save-Edit-Tool](https://github.com/xLieferant/Save-Edit-Tool) - Savegame editor for Euro Truck Simulator 2, distributed with an MSI installer and auto-updater.
 - [TruckSim Maps](https://github.com/truckermudgeon/maps) - CLI toolchain that parses Euro Truck Simulator 2/American Truck Simulator map data files (including GDeflate-compressed `.scs` archives) into JSON/PNG, then generates GeoJSON, PMTiles, and MapLibre-based web maps; includes a demo React map viewer.
+- [scs_tools](https://github.com/Wilps93/scs_tools) - Rust reader, extractor and packer for SCS `.scs` archives (HashFS v2/v1 and ZIP, including GDeflate/DEFLATE64 entries) with CityHash name recovery, `.tobj` to DDS conversion and decoding of all four SII encodings (plain, `3nK`, `ScsC`, binary `BSII`); the format is written up in FORMAT.md.
 
 #### Eurocom
 
@@ -766,6 +801,10 @@ See also: [RenderWare](middleware.md#renderware).
 #### Evoland
 
 - [EvolandSaveEditor](https://github.com/wabuilderman/EvolandSaveEditor) - C++ tool that translates Evoland `.sav` files into editable `.json` and converts compatible `.json` files back to `.sav`.
+
+#### Eye of the Beholder III
+
+- [thirdeye](https://github.com/psi29a/thirdeye) - C++ reimplementation of the AESOP/16 and AESOP/32 bytecode engine that runs Eye of the Beholder III (`EYE.RES`) and Dungeon Hack (`HACK.RES`, `OPEN.RES`) from the original game data.
 
 ### F
 #### Image Space Incorporated (F1 2000)
@@ -962,6 +1001,7 @@ See also: [RenderWare](middleware.md#renderware).
 - [Starlancer-mod-tools](https://github.com/LordBlacksun/Starlancer-mod-tools) - Collection of modding tools gathered for Starlancer (2000), Digital Anvil's space combat game preceding Freelancer.
 - [FLNotepad.2.0.Net](https://github.com/ArchKaine/FLNotepad.2.0.Net) - Text/RTF editor for Freelancer save games and shiparch.ini entries, with FLMM 1.4 integration.
 - [FLAtlas Savegame Editor](https://github.com/flathack/FLAtlas---Save-Game-Editor) - Windows editor for Freelancer singleplayer `.fl` save games (credits, rank, ship loadout, cargo, reputation, visited systems), reading data from the selected vanilla or modded install; preserves encrypted `FLS1` saves and unknown rows when saving.
+- [Starlancer-OSS](https://github.com/LordBlacksun/Starlancer-OSS) - Open-source reverse-engineering tools and documentation for Starlancer (2000), including the Starlancer Studio desktop app (Python); ships no game assets.
 
 #### Incentive Software (Freescape)
 
@@ -989,6 +1029,10 @@ See also: [RenderWare](middleware.md#renderware).
 #### FromSoftware
 
 *Demon's Souls, Dark Souls, Bloodborne, Sekiro, Elden Ring.*
+- [save-format-tools](https://github.com/joollyen/save-format-tools) - Standard-library Python tools: inspector and editor for Elden Ring's BND4 `.sl2` save container with per-slot MD5 checksum repair, and a UTF-16-safe graphics config editor.
+- [er-save-manager](https://github.com/Hapfel1/er-save-manager) - Save editor, backup manager and corruption fixer for Elden Ring, also supporting Dark Souls Remastered, Dark Souls II: Scholar of the First Sin, Dark Souls III and Nightreign saves.
+- [yonder](https://github.com/ndahn/yonder) - Editor for Wwise soundbanks of Elden Ring and Nightreign, built on rewwise for unpacking/repacking and vgmstream for `.wem` conversion.
+- [DarkSoulsTextureStudio](https://github.com/dash512/DarkSoulsTextureStudio) - GUI to preview, export, replace and add icon and UI textures in FromSoftware games (Demon's Souls, Dark Souls 1-3, Bloodborne, Sekiro, Armored Core VI, Elden Ring and Nightreign).
 
 ##### Documentation & Wikis
 

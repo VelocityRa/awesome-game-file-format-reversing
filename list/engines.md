@@ -108,6 +108,7 @@
 - [GRET](https://github.com/vaiserYT/GRET) - Terminal-based reverse engineering toolkit for GameMaker games; analyzes `data.win` files, explores game resources, and builds dependency graphs to discover hidden or unused content.
 - [GmxDataSync](https://github.com/YAL-GameMaker-Tools/GmxDataSync) - Extracts the matching asset files from a `data.win` file into an existing GameMaker: Studio project, keeping a decompiled project's resources in sync with the compiled game.
 - [dsmap-serial-format](https://github.com/kikones34/dsmap-serial-format) - Low-level description of the format GameMaker Studio uses to serialize `ds_map` objects.
+- [gm2tiled](https://github.com/Bli-AIk/gm2tiled) - Rust CLI that extracts room/tilemap data from GameMaker 1.x/2.x `data.win` files and converts it to Tiled `.tmx` projects.
 
 #### Hedgehog Engine
 
@@ -234,6 +235,7 @@
 - [demoinfo](https://github.com/StatsHelix/demoinfo) - C# library for parsing and analyzing Counter-Strike: Global Offensive .dem demo files. (Archived, but the historical basis for several derivative CS:GO demo parsers.)
 - [csgo-demoinfo](https://github.com/ValveSoftware/csgo-demoinfo) - Valve's official `demoinfogo` C++ tool that parses Counter-Strike: Global Offensive `.dem` demo files (protobuf-based) and dumps every message in them, with the `.proto` definitions for the demo and network messages.
 - [csgo-demo-voice-capture-example](https://github.com/saiko-tech/csgo-demo-voice-capture-example) - Example showing how to locate and decode the embedded voice-chat audio packets stored inside Counter-Strike: Global Offensive .dem demo files.
+- [Tf2DemoSalvage](https://github.com/PinKushin/Tf2DemoSalvage) - Standalone parser, text decompiler/compiler and 3D viewer for Team Fortress 2 `.dem` demos from any era, including demos broken by later client updates.
 
 ##### Maps & BSP
 
@@ -499,6 +501,13 @@
 - [PapayaModdingTool](https://github.com/PapayaModding/PapayaModdingTool) - Unity Editor-based modding toolkit from the same author as UABS above, combining AssetsTools.NET, UABEA, AddressablesTools, and AssetRipper.TextureDecoder/PVRTexLib for texture editing and mod project management.
 - [Unity-Bundle-CAB-ID-Changer](https://github.com/RaiRaiTheRaichu/Unity-Bundle-CAB-ID-Changer) - Batch tool for changing the CAB-ID (an MD5 hash stored in the bundle header) of Unity asset bundles, needed to avoid crashes after replacing bundle contents with a tool like UABE; supports drag-and-drop and batch processing.
 - [unity-formats](https://github.com/Kalmarv/unity-formats) - Rust library that reads SerializedFiles (v17-22), UnityFS bundles (stored, LZMA, LZ4/LZ4HC), streamed `.resS` data and TPK type trees, and decodes scenes, meshes, textures, materials, shaders, terrain and Mecanim animation.
+- [unity-asset-reader](https://github.com/fatal10110/unity-asset-reader) - TypeScript library and CLI for reading Unity AssetBundles in the browser or Node.js: lists, inspects, extracts and compares bundles, reads text and script data, and decodes textures and sprites with WebAssembly, with companion packages for meshes, audio, Spine, shaders and animation.
+- [unity-bundle](https://github.com/patodois/unity-bundle) - Rust reader for Unity 2018.4/2019.4 UnityFS bundles (LZ4/LZ4HC) and serialized files (versions 17 and 21), with a serde deserializer over type trees and ranged reads of large `.resS` data.
+- [unity2spine](https://github.com/firejune/unity2spine) - Converts Unity 2D rigged AssetBundles to Spine 3.8 skeleton data (`skeleton.json`, `skeleton.atlas` and cut PNGs), extracting bones, weighted meshes, sprites and animation clips, with a GUI, web viewer and GIF exporter.
+- [unitypy-mesh-exporter](https://github.com/Bilibili-Hysz/unitypy-mesh-exporter) - Windows tool built on UnityPy that scans Unity AssetBundles and exports Mesh assets to GLB with normals, UVs, bone weights, blend shapes and materials, plus a viewer for GLB, glTF and OBJ.
+- [hira-cg-extractor](https://github.com/varae24/hira-cg-extractor) - Python extractor for Unity games that decodes `Texture2D` CGs and backgrounds to PNG and carves `VideoClip` MP4s out of `resources.resource`, with an offline gallery.
+- [ab-decompressor-ark](https://github.com/std-microblock/ab-decompressor-ark) - C++ tool that decompresses UnityFS bundles (LZMA, LZ4, LZ4HC, LZHAM) and handles Arknights' `LZ4AK` variant, optionally converting it to standard LZ4 so stock Unity can load the bundles.
+- [IKA9nt.Decryptor](https://github.com/Kihara777/IKA9nt.Decryptor) - Static decryptor for Unity AssetBundles protected with IKA9nt.Encrypter; derives the keys from the game's files without injection or running the game.
 
 ##### IL2CPP & Managed-Code Reverse Engineering
 
@@ -570,6 +579,7 @@
 - [unity-es3-cracker](https://github.com/Chaobs/unity-es3-cracker) - Recovers the encryption password of Unity Easy Save 3 (.es3) save files by harvesting password candidates from the game's DLLs/.assets files and brute-forcing the AES key; includes a bilingual (EN/ZH) Tkinter GUI.
 - [ES3-save-editor](https://github.com/Eduwilll/ES3-save-editor) - Desktop editor for Unity Easy Save 3 (ES3) save files; handles AES-128-CBC encryption (PBKDF2 key from the game password) and GZip, with type-aware field editing, raw JSON view/export and automatic backups.
 - [LethalCompanySaveEditor](https://github.com/BEMZ01/LethalCompanySaveEditor) - Python CLI (GUI on a separate branch) save editor for Lethal Company; the README says it should work for any ES3-encrypted Unity save given the save location and decryption password.
+- [Es3Offline](https://github.com/cppbear/Es3Offline) - Offline Easy Save 3 password recovery that brute-forces ES3 passwords from the game binaries (AES-128-CBC + PBKDF2), then decrypts, edits and re-encrypts `.es3` saves without BepInEx or launching the game.
 ##### VideoClip Transcoding
 
 - [UVCT](https://github.com/bungaku-moe/UVCT) - Unity VideoClip Transcoder; re-encodes a Unity game's VideoClip assets to reduce their resource size.
@@ -758,6 +768,7 @@
 - [Wm3Util](https://github.com/firoball/Wm3Util) - Unity importer for the .wm3 mesh format exported by A3Tools above.
 - [uWED](https://github.com/firoball/uWED) - Acknex World Editor reimplemented in Unity.
 - [WRSExtractor](https://github.com/firoball/WRSExtractor) - Command-line extractor for Acknex3 WRS resource archives, based on rickomax's work.
+- [gamestudio-audio-extractor](https://github.com/00DogeCubeGamer00/gamestudio-audio-extractor) - Audio extractor and music ripper for 3D Gamestudio (A5 and A6) games; reverses the bitwise-NOT obfuscation of the stored audio to produce playable OGG tracks.
 
 #### AtiSushi Engine
 
@@ -1053,6 +1064,7 @@
 - [elf-tools](https://github.com/nunuhara/elf-tools) - Tools for viewing and editing file formats used in elf and Silky's games.
 - [AI5WINArcTool](https://github.com/TesterTesterov/AI5WINArcTool) - GUI tool for packing and unpacking AI5WIN engine `.arc` archives (a different variant from the Silky Engine/AI6WIN `.arc`), with Russian and English UI. Writes a `.key` file with the detected keys and name size on unpack for repacking; release 2.2 handles nonstandard archives such as Dokyuusei 2's. See also [AI5WINScriptTool](https://github.com/TesterTesterov/AI5WINScriptTool) for `.mes` scripts.
 - [ai5-sdl2](https://github.com/nunuhara/ai5-sdl2) - Cross-platform reimplementation of elf's AI5WIN engine, running original game data for YU-NO, Doukyuusei/Doukyuusei 2, Kakyuusei, Isaku, Shuusaku, and Aishimai; adds window scaling and text-hooking support not present in the original AI5WIN engine.
+- [engine_ai5v](https://github.com/mnakamura1337/engine_ai5v) - Tools for the AI5V / SILV / Elf Messaging System visual novel engine used by Silky's and Elf: file format descriptions, disassemblers/decompilers and a converter to the `.story` format.
 
 #### EntisGLS
 
@@ -1194,6 +1206,7 @@
 - [KrkrDataLoader](https://github.com/pjh456/KrkrDataLoader) - Loader/dumper for Kirikiri engine `.xp3` archive data and TJS2 script bytecode.
 - [scntranslate](https://github.com/respectZ/scntranslate) - Batch translator for KirikiriZ `.scn`/`.scm` (PSB/MDF) script files, extracting strings, machine-translating them via a local/OpenAI-compatible LLM, and serializing the result back into the original binary format.
 - [krkr-save-tools](https://github.com/Luv-Ray/krkr-save-tools) - Rust command-line tool that dumps Kirikiri `.ksd` save files (all three scramble modes, including zlib) to editable text and packs them back.
+- [Hxv4-FromScratch](https://github.com/Echo-cute/Hxv4-FromScratch) - Restores real file names in Cxdec/Hxv4-protected KiriKiri XP3 archives: derives the key from the game EXE, recovers names by hashing candidates against the Hxv4 table and serves them through a GARbro plugin; verified on four games.
 
 #### Kurumi Engine
 
@@ -1320,6 +1333,7 @@
 - [NtDec](https://github.com/UlyssesWu/NtDec) - Decryptor for ONScripter script files (`nscript.dat`, `nscr_sec.dat`, `nscript.___`, `onscript.nt`/`.nt2`/`.nt3`); only `onscript.nt` is tested.
 - [nstools](https://github.com/skydark/nstools) - Python scripts for NScripter/ONScripter games, including a converter from GBK-encoded `nscript.dat`/`00`-`99`.txt scripts to Japanese encoding and `onssaver.py`, which repairs `save*.dat` files after a script update.
 - [ponscripter-fork](https://github.com/07th-mod/ponscripter-fork) - Fork of the Ponscripter (NScripter-compatible) visual novel engine adding Steam-oriented features such as release-specific scaling modes; used to run 07th Expansion's Higurashi/Umineko Steam releases from their original script/archive data.
+- [CONscripter-convert](https://github.com/blankiekun/conscripter-convert) - Rust converter that reads a Japanese visual novel's archives, images, audio and compiled scripts and writes a `0.txt` script plus `.nsa` archives for the CONscripter (ONScripter-Yuri) engine.
 
 #### Pixel Game Maker MV
 
@@ -1364,6 +1378,10 @@
 - [renpy-asset-viewer](https://github.com/Potat05/renpy-asset-viewer) - Browser-based viewer for Ren'Py projects: drop in a game folder to browse and download assets and decompile code files.
 - [renpy_save_editor](https://github.com/ricardol96/renpy_save_editor) - GUI editor for Ren'Py `.save` files (ZIP archives holding a pickled `log`), patching variable values (int, float, bool, string) directly in the pickle bytecode to keep the file intact and regenerating the signatures when `ecdsa` is installed.
 - [RenZip](https://github.com/lambda-vn/renzip) - Rust and Tauri desktop archive manager for Ren'Py `.rpa` files: browse, preview, extract and create archives.
+- [7zip-rpa-plugin](https://github.com/TomieAi/7zip-rpa-plugin) - Rust 7-Zip plugin that opens, extracts, creates and updates Ren'Py `.rpa`/`.rpi` archives (RPA-1.0 to 3.2, including the XOR key obfuscation).
+- [RenPy-UnAPK](https://github.com/drdrr/RenPy-UnAPK) - Restores a Ren'Py Android `.apk` to a project folder the Ren'Py SDK can open: extracts game files, icons and splash images and decompiles `.rpyc`/`.rpymc` scripts with unrpyc.
+- [RenPy-RPA-Unpacker](https://github.com/TesterNaN/RenPy-RPA-Unpacker) - Ren'Py `.rpa` unpacker with an interactive wizard (Chinese-language) that reuses the game's own `renpy/loader.py` to handle custom encryption instead of reimplementing the format.
+- [renpy-toolkit](https://github.com/mortael/renpy-toolkit) - Browser-based toolkit for Ren'Py games: asset browser for folders and `.rpa` archives, story browser for `.rpy` scripts, pickled `.save` editor and save comparison.
 
 #### RioShiina
 
@@ -1419,6 +1437,7 @@
 - [TES-Patcher](https://github.com/Sinflower/TES-Patcher) - Patcher for TES-encoded RPG Maker VX Ace game files, applied after extracting the game's data (e.g. with RPG Maker Decrypter above).
 - [SL_Decoder](https://github.com/Sinflower/SL_Decoder) - Decodes RPG Maker `.sl` files to `.txt` and encodes them back.
 - [RM2k2XP](https://github.com/uuksu/RM2k2XP) (archived) - .NET GUI and CLI tool converting RPG Maker 2000/2003 charset and chipset images to RPG Maker XP format. Development has ended.
+- [RPGMakerDecrypter (LynxShu)](https://github.com/LynxShu/RPGMakerDecrypter) - TypeScript tool that decrypts and re-encrypts RPG Maker MV/MZ resources (`.rpgmvp`/`.rpgmvo`/`.rpgmvm`, `.png_`/`.ogg_`/`.m4a_`), recovers keys from `System.json`, `rpg_core.js` or image headers, restores images without a key, and edits MV/MZ saves.
 
 #### rUGP (AGES Player)
 
@@ -1573,6 +1592,7 @@
 - [Wolf Trans](https://github.com/elizagamedev/wolftrans) - Ruby-based translation tool for Wolf RPG Editor games; extracts a game's text into plaintext patch files that a translator can edit, then reapplies them to produce a translated build.
   - See also [rewolf-trans](https://github.com/KCFindstr/rewolf-trans), a TypeScript tool inspired by Wolf Trans, usable as a CLI or Node.js dependency, and [WolfTL](https://github.com/Sinflower/WolfTL), a similar tool (also based on Wolf Trans' parsing code) that extracts translation-relevant data from WolfRPG `.dat`/`.mps` files to JSON.
   - See also [wolftrans_py](https://github.com/UserUnknownFactor/wolftrans_py), a Python port of Wolf Trans that unpacks internal Wolf RPG game files into filetranslate-format `.csv` translation scripts and repacks them; the `.wolf` archives themselves need a separate unpacker.
+- [wolf-rpg-formats](https://github.com/djytw/wolf-rpg-formats) - Kaitai Struct descriptions of Wolf RPG Editor data files, covering v2.2x, v3.0x and v3.3x games.
 
 #### XPAT Engine
 
@@ -1609,6 +1629,7 @@
 
 - [yukatool2](https://github.com/AtomCrafty/yukatool2) - Toolset (CLI and GUI) for the Yuka System engine, rewritten from the ground up over the original yukatool to be faster and more maintainable.
 - [yukatool](https://github.com/AtomCrafty/yukatool) - Original all-in-one command-line toolset for the Yuka System visual novel engine (archive, script, and graphics extraction/repacking), superseded by yukatool2.
+- [YUka-Rs](https://github.com/kesmeey/YUka-Rs) - Rust reimplementation of the Yuka System engine with a library crate for the formats and VM; runs original YKS scripts and reads backgrounds, sprites and Ogg audio from YKC archives (Windows and Android hosts).
 
 ### Interactive Fiction & Dialogue Systems
 #### ADRIFT VM (Interactive Fiction)
@@ -1769,6 +1790,8 @@
 - [bioware-kaitai-formats](https://github.com/OpenKotOR/bioware-kaitai-formats) - Kaitai Struct (`.ksy`) format definitions for BioWare Aurora/Odyssey engine files across Neverwinter Nights, Knights of the Old Republic, KotOR II, Dragon Age, and Mass Effect: GFF, ERF, BIF/KEY, RIM, TPC, MDL/MDX, 2DA, TLK, NCS/NSS, BWM, and more.
 - [Radoub](https://github.com/LordOfMyatar/Radoub) - Cross-platform toolset of editors for Neverwinter Nights module files: Parley (DLG dialogs), Manifest (JRL journals with TLK resolution), Quartermaster (UTC/BIC creatures), Fence (UTM merchants), Relique (UTI items) and Reliquary (UTP placeables), plus a Trebuchet launcher that manages `.mod` modules.
 - [nwnsc](https://github.com/nwneetools/nwnsc) - Open-source NWScript compiler for Neverwinter Nights: Enhanced Edition that compiles `.nss` scripts to `.ncs` bytecode. Its source also bundles NWN/NWN2 data libraries for MDB models, TRX terrain and Granny2 `.gr2` files.
+- [nwn-mdl-spec](https://github.com/plenarius/nwn-mdl-spec) - Evidence-based specification and conformance suite for the Neverwinter Nights: Enhanced Edition `.mdl` model format, with Kaitai Struct definitions and probes checked against engine output.
+- [KMSE](https://github.com/RayesDiyab/KMSE-KOTOR-Modern-Gamesave-Editor) - KOTOR Modern Gamesave Editor for Knights of the Old Republic 1 and 2 (Windows, Linux, macOS) with story timeline, quests, inventory, party and map views and automatic backups; works without the game installed.
 
 #### Clickteam Fusion
 

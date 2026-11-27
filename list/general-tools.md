@@ -114,6 +114,7 @@
 - [iff2gif](https://github.com/rheit/iff2gif) - Converts Amiga IFF ILBM/ANIM files to GIF images/animations.
 - [DPaint-js](https://github.com/steffest/DPaint-js) - Web-based image editor modeled on Deluxe Paint that reads and writes Amiga IFF ILBM images (including HAM6, HAM8 and SHAM), IFF ANIM animations and Amiga icon files, plus Deluxe Paint PC PBM files and Atari ST compression modes, with direct ADF read/write.
 - [png2hicolorgb](https://github.com/bbbbbr/png2hicolorgb) - Updated cross-platform console version of Glen Cook's "hicolour.exe", converting PNG images into the Game Boy Color's "Hi-Color" scanline-palette-swap technique; now also bundled in GBDK-2020.
+- [celpix](https://github.com/YoriKv/celpix) - Cross-platform (Python/Qt) graphics viewer and editor for ROM hacking and research: many pixel formats and compression schemes, tilemaps, and a plugin system for rarer formats.
 
 #### Fonts
 
@@ -259,6 +260,7 @@
 - [mkpsarc](https://github.com/shimamura-sakura/mkpsarc) - Python extractor and creator for the PlayStation archive (PSARC) format, with an experimental multithreaded version.
   - See also [rpsarc](https://github.com/shimamura-sakura/rpsarc), a simple Rust PSARC utility that lists, extracts (writing a manifest for recreating the archive) and creates archives.
 - [zscan](https://github.com/xRopers/zscan) - Rust replacement for offzip and packzip: finds gzip, zlib, raw deflate, zstd, xz, bzip2 and lz4 streams (brotli, LZO, Oodle optional) inside any file, extracts, edits and repacks them via a JSON manifest, with a GUI.
+- [UniPyX](https://github.com/smiRaphi/UniPyX) - Python universal extractor for many game and console container formats, bundling tools such as hac2l (Switch NCA) and psvpfsparser (Vita PFS).
 
 ### 🔊 Audio Tools
 
@@ -422,6 +424,7 @@
 - [vspcplay](https://github.com/raphnet/vspcplay) - Visual SPC (SNES sound format) player and optimization tool, built on snes9x's APU emulation code. See also the same author's [apu_linux](https://github.com/raphnet/apu_linux), a command-line SPC player that streams playback to a real SNES APU over a PC parallel port, with partial id666 tag support.
 - [audscan](https://github.com/xRopers/audscan) - Rust CLI and GUI that finds audio inside any binary file by header, extracts it and puts edited sounds back.
   - Formats: WAV, Wwise WEM/BNK/PCK (WEM to Ogg/WAV), FMOD FSB4/FSB5, Ogg.
+- [gbs2midi](https://github.com/Thysbelon/gbs2midi) - Converts GBS (Game Boy music) files to MIDI using gbsplay, for editing Game Boy game music and playing it back through an emulated APU.
 
 ### 🌐 Translation & Localization
 
@@ -637,7 +640,7 @@
 - [segagenesisrecomp](https://github.com/mstan/segagenesisrecomp) - Static recompiler for Sega Genesis/Mega Drive games.
 - [smsggrecomp](https://github.com/mstan/smsggrecomp) - Static recompiler translating Sega Master System and Game Gear Z80 code into native code.
 - [gbarecomp](https://github.com/mstan/gbarecomp) - General-purpose static recompiler for the Game Boy Advance.
-- [gbrecompiled](https://github.com/mstan/gbrecompiled) - Static recompiler for original Game Boy ROMs.
+- [gbrecompiled](https://github.com/mstan/gbrecompiled) (archived) - Static recompiler for original Game Boy ROMs.
 - [vbrecomp](https://github.com/mstan/vbrecomp) - Static V810-to-C recompiler for Virtual Boy games.
 - [ndsrecomp](https://github.com/RetroPortingToolKit/ndsrecomp) - Early-stage static recompiler for Nintendo DS games.
 - [gcnlle](https://github.com/mstan/gcnlle) - Experimental, LLE-first static recompiler for the Nintendo GameCube IPL (boot ROM).
@@ -745,6 +748,13 @@
 - [stfstool](https://github.com/carrot-c4k3/stfstool) - Command-line tool for Xbox 360 STFS packages, based on Velocity.
 - [stfs-webjs](https://github.com/InvoxiPlayGames/stfs-webjs) - Reads Xbox 360 STFS container files in the web browser.
 - [STFS-Forge](https://github.com/OAleex/STFS-Forge) - Command-line tool for manipulating Xbox 360 STFS packages (CON, LIVE, PIRS).
+- [x360-rs](https://github.com/D221/x360-rs) - Rust streaming parser and extractor for Xbox 360 containers (STFS title updates, DLC, XBLA and GoD; XISO/GDF images; XEX and XBE headers), reporting title/media IDs, regions and file listings.
+- [xstract](https://github.com/ottavm/xstract) - C CLI to extract embedded files from Xbox 360 STFS packages.
+- [XISOSharp](https://github.com/purelogiccode/XISOSharp) - Pure C# library for reading, creating and managing Xbox XISO/XDVDFS disc images.
+- [ParseXboxMetadata](https://github.com/Deterous/ParseXboxMetadata) - Python scripts that read, validate and parse metadata from Xbox/Xbox 360 XBE and XEX executables and DMI (disc manufacturing information) files.
+- [XbRecUnpack](https://github.com/emoose/XbRecUnpack) - C# tool for listing and extracting Xbox/Xbox 360 SDK and recovery disc archives.
+- [libmsxca](https://github.com/ThePlayer14/libmsxca) - C library that decompresses Xbox 360 XMemCompress/xbcompress LZXNATIVE blobs (libmspack wrapper), as found inside LNK4 containers.
+- [LNK4tool_aio](https://github.com/ThePlayer14/LNK4tool_aio) - Python tool to extract and repack LNK4 game containers from Xbox 360 titles (eg. 11eyes CrossOver), handling the Xbox compression and raw image to PNG conversion.
 - [Ghidra-Cpp-Class-Analyzer](https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer) (archived) - Ghidra C++ Class and Run Time Type Information (RTTI) analyzer, useful for recovering class hierarchies in game binaries compiled from C++.
 - [XDBF-Manager](https://github.com/hetelek/XDBF-Manager) - Browser/editor for Xbox 360 XDBF (dashboard/game-data) files.
 - [spaday](https://github.com/widberg/spaday) - Parser for Games for Windows - LIVE/Xbox 360 SPAFILE (title/achievement metadata) data, readable directly from a Windows or Xbox 360 executable. Ships an ImHex pattern `spafile.hexpat` that also works with GPD and other XDBF-based files.
@@ -875,6 +885,8 @@
 - [EveryFileExplorer (KillzXGaming fork)](https://github.com/KillzXGaming/EveryFileExplorer) - Plugin-based multi-game file browser and editor; bundled plugins cover 3DS, NDS, Lego Pirates of the Caribbean, and Mario Kart formats (including KCL collision), plus common archive/compression containers. Actively maintained continuation of Gericom/EveryFileExplorer, inactive since 2021.
 - [Omega Studio](https://github.com/Team-BrewSearch/OmegaStudio) - Cross-platform (Avalonia, Windows/Linux) desktop browser/editor for game asset archives whose formats arrive as plugins, with viewport, texture, audio and animation panes plus extract/replace/export (PNG, glTF).
   - Bundled plugins: Suzumiya Haruhi no Chourantou/Gekitou (PC `data/*.bin` models, textures, skeletons, animation), the Kartz GDA/GDF/GDT archives (Hot Wheels: Battle Force 5, Pimp My Ride, Monster Jam: Path of Destruction, Madagascar Kartz, DreamWorks Super Star Kartz; also inside DS ROMs), and Nintendo DS ROM file systems, headers and banners.
+- [DTS_Skinner](https://github.com/shadoh420/DTS_Skinner) - Browser-based viewer and reskinner for models and maps of Tribes, Quake, Unreal, Wolfenstein and other classic shooters, importing from your own installs and exporting GLB or OBJ.
+- [3DHeat GameFiles](https://github.com/Holdi601/3DHeat-GameFiles) - Builds 3D race tracks and levels as glTF from installed game files, with Unreal pak/IoStore, Unity and Source 2 VPK readers plus Forza Horizon, BeamNG.drive, Assetto Corsa Rally, Battlefield 6 and Arma Reforger map readers; also exports cars and terrain.
 
 #### Cross-Game Libraries & Extractors
 
@@ -1012,6 +1024,9 @@
   - Games: Monet: The Mystery of the Orangerie Museum, Mission Sunlight, Ring: The Legend of the Nibelungen, Gilbert og den kemystiske o, Grumpa.
 - [RetroGameLocalization](https://github.com/Ailyth99/RetroGameLocalization) - Collection of translation-project tools for PS1/PS2 games: archive unpackers/repackers, TIM/TIM2 and font texture converters and text extractors.
   - Games: King's Field, King's Field 4, Ace Combat, Zutto Issho, Chou Aniki, Detective Conan, Dragon Ball Z: Budokai Tenkaichi 3, G-Saviour, Gundam: Lost War Chronicles, Hunter X Hunter and others.
+- [Visual-Novel-Resource-Tool](https://github.com/sqcyx123-cmyk/Visual-Novel-Resource-Tool) - Windows tool that browses, previews and extracts images from visual novel resources: Ren'Py RPA 2.0/3.0/3.2, KiriKiri XP3, RPG Maker MV/MZ encrypted assets and `data.pak`, Hunks Workshop DPMX containers and Enigma Virtual Box RPG Maker executables.
+- [dade](https://github.com/Tatsh/dade) - Python CLI that extracts and converts assets from many PC and console games, with a subcommand per title: Amplitude and FreQuency (PS2), Interstate '76/'82, Incoming (PC/Dreamcast), Max Payne 1-2, Extreme-G 1-2 (N64/PC), Tony Hawk's Pro Skater 2 (PC), The Sopranos: Road to Respect, Tone Sphere, jubeat plus, REFLEC BEAT plus, pop'n rhythmin and Marmalade SDK titles.
+- [Niche-Studio-Weirdo](https://github.com/Jannabie/Niche-Studio-Weirdo) - Toolset for extracting, translating and rebuilding Japanese visual novel resources across many engines (Alicesoft, Buriko, Diesel, EntisGLS, FVP, Leaf, Luca System, Malie, Minato, Minori, N2System, YU-RIS, rUGP, HuneX Tsukihime/Mahoyo, Lithium 3DS and more).
 
 #### Noesis / 3ds Max / Format Script Packs
 
@@ -1081,6 +1096,11 @@
   - Games: Chip & Dale 1-2, Darkwing Duck, Duck Tales 1-2, MegaMan 3-5, Tale Spin, Little Mermaid, Jungle Book, Flintstones, Contra Hard Corps, Earth Worm Jim 1-2, Pitfall, and many more.
   - See also [JupyterCadEditor](https://github.com/spiiin/JupyterCadEditor), Jupyter Python notebooks that drive the CadEditor assemblies for per-game experiments (decompression, block rendering, level configs).
 - [TNES2INES](https://github.com/Longestboi/TNES2INES) - Python script that converts the proprietary TNES NES ROM format (used by the 3DS Virtual Console NES releases) to iNES 1.0, and extracts the PRG and CHR sections from TNES ROMs and the FDS BIOS and `.qd` disks from `.tds` files.
+- [saturn-save-tools](https://github.com/bucanero/saturn-save-tools) - Command-line tools for SEGA Saturn single save files: converts between BUP (Pseudo Saturn Kai), SAROO single-save, Save Game Manager and PC Comms Link formats, plus an SGM unpacker.
+- [rom-decrypt-tools](https://github.com/grigory321/rom-decrypt-tools) - Browser-based TypeScript suite (ROM Studio) for inspecting, decrypting, converting and extracting console ROM images, discs and archives (eg. 3DS/CIA), with in-browser playback of game sound files.
+- [NKit](https://github.com/Nanook/NKit) - Disc image processor library with CLI and GUI for GameCube, Wii, Wii U, PS3 and more: converts between ISO/CISO/WBFS/RVZ/WUD/WUX/ZSO/JSO and unscrubs and repairs images.
+- [XgpSaveTools](https://github.com/brodrigz/XgpSaveTools) - .NET library and CLI for extracting and replacing Xbox Game Pass for PC save files: generic WGS container extraction, PGS snapshot handling and game-specific export/import with automatic backups.
+- [PSXMC](https://github.com/Uncle-Uee/PSXMC) - .NET desktop memory card tool for PS1 (DuckStation) and PS2 (PCSX2) cards: dual-pane editor to copy and move saves, plus creation of new cards (raw/GME/VGS/PSX; PS2 8-64 MB or folder).
 
 #### Emulators & TAS Tools
 

@@ -27,6 +27,7 @@
 - [blender_export_tmf](https://github.com/raandoom/blender_export_tmf) - Blender add-on for exporting 3DS models suitable for TrackMania Forever and Trackmania 2.
 - [Frames-Manager-TM-2020](https://github.com/heaven-hm/Frames-Manager-TM-2020) - Plugin to manage in-game camera frames for Trackmania (2020).
 - [gbx-formats](https://github.com/Kalmarv/gbx-formats) - Rust reader for Nadeo GameBox (`.Gbx`) files and TrackMania Nations Forever `.pak` packs: maps, MediaTracker clips, ghosts, Plug solids/meshes/materials, and TMUnlimiter chunks.
+- [nadeo-exporter-ce](https://github.com/StupsKiesel/nadeo-exporter-ce) - Blender add-on that imports Trackmania (2020) maps and GBX assets for renders and cinematics (import and preview only, no GBX writing).
 
 #### NanaOn-Sha
 
@@ -89,6 +90,11 @@
 ##### LifeAfter
 
 - [LA.NPK.Tool](https://github.com/Ekey/LA.NPK.Tool) (archived) - Tool for extracting NPK archives from LifeAfter, NetEase's post-apocalyptic survival game.
+
+##### Marvel Rivals
+
+- [MarvelRivals-Forge](https://github.com/SenjuWoo/MarvelRivals-Forge) - Command-line forge for Marvel Rivals skin mods: extracts and edits textures, materials, body-shape meshes, jiggle physics and sounds, then builds, validates and packages the mod.
+
 ##### NeoX Engine
 
 - [neox_tools](https://github.com/zhouhang95/neox_tools) - Extracts NetEase NeoX Engine EXPK/NXPK archives and converts the resulting `.mesh` models to OBJ/IQE; includes a dedicated extractor variant for Onmyoji.
@@ -163,6 +169,9 @@
 - [blue-archive-viewer](https://github.com/respectZ/blue-archive-viewer) - Blue Archive resource viewer and asset-catalog fetcher, covering both EN and JP servers, with a CG gallery and Live2D/Spine skeleton viewer.
 - [SteamBARecord](https://github.com/shiikwi/SteamBARecord) - Toolset for the Steam release of Blue Archive: decrypts table zip/byte data (MersenneTwister-based cipher) and converts the game's FlatBuffer table data to JSON via generated schema classes for hundreds of game data tables.
 - [assets-dumper](https://github.com/arisu-archive/assets-dumper) - Go CLI that checks the game version, then downloads and decrypts Blue Archive assets from the Global and Japan servers, with glob filtering and parallel downloads.
+- [BA-BR](https://github.com/Deathemonic/BA-BR) - Bundle repacker that transfers modded assets into a newer patch AssetBundle (matched by name and type) so Blue Archive mods survive game updates.
+- [BA-Modding-Toolkit](https://github.com/Agent-0808/BA-Modding-Toolkit) - UnityPy-based toolkit for updating, porting and extracting Blue Archive mods and assets across the Steam, Android and iOS builds of the Global and JP versions.
+- [Kozeki](https://github.com/Ascellayn/TSN_Kozeki) - Cross-platform tool for extracting the Steam release's obfuscated `.molru` and MXMC `.bytes` files (repacking planned).
 
 #### GameHouse (Nickelodeon Jigsaw)
 
@@ -455,6 +464,7 @@
 - [mariokart64](https://github.com/RenaKunisaki/mariokart64) - Hacking notes, disassembly, and partial decompilation for Mario Kart 64, mostly documented in the repo's wiki.
 - [mk64-practice-rom](https://github.com/RenaKunisaki/mk64-practice-rom) - ROM patch framework and speedrun practice tools for Mario Kart 64, adding a title-screen quick-start menu, improved debug/input display, and a crash handler.
 - [MK8-Baking-Tool](https://github.com/KillzXGaming/MK8-Baking-Tool) - Bake tool for replicating GSYS bake maps used by Mario Kart 8 and similar Nintendo EAD/EPD titles.
+- [Wiimms SZS Tools](https://github.com/Wiimm/wiimms-szs-tools) - Command-line tools to extract, modify and create files of Mario Kart Wii and other Nintendo games (copy of Wiimm's SVN repository).
 
 ###### Mario Party
 
@@ -748,6 +758,7 @@
 - [TotkRSTB](https://github.com/VelouriasMoon/TotkRSTB) - Command-line tool for editing, merging and patching Tears of the Kingdom RSTB/RESTBL resource size tables, with YAML conversion.
   - [RSTBPatcher](https://github.com/ShrineFox/RSTBPatcher) - ResourceSizeTable (RSTB) parser and patcher for Nintendo Switch games.
 - [TOTKActorRepacker](https://github.com/ShrineFox/TOTKActorRepacker) - Batch editor for values in Tears of the Kingdom actorpack BYML files.
+- [PhysicsTool](https://github.com/KB0MB/PhysicsTool) - Avalonia editor and previewer for cloth, helper-bone, ragdoll and collision data of Breath of the Wild (HKCL) and Tears of the Kingdom (BPHCL), with BotW to TotK conversion and experimental Ocarina of Time cloth support.
 
 ###### Classic & Handheld Zelda
 
@@ -983,6 +994,9 @@
 - [town-map-editor](https://github.com/ravenDS/town-map-editor) - Custom Town Map creator for Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver, editing town positions, fly locations, and descriptions.
 - [pw](https://github.com/lumirth/pw) - Human-readable matching decompilation of the Pokéwalker's firmware.
 - [siren](https://github.com/mauvesea/siren) - Converts WAV recordings into Game Boy pulse/wave/noise-channel audio and generates the matching assembly, for building Pokémon cries for the pokecrystal disassembly.
+- [Lumiose-Toolkit](https://github.com/nibinemui/Lumiose-Toolkit) - Windows toolkit for Pokemon Legends: Z-A dumps: browses and extracts files to PNG, glTF, JSON and WAV, views models, edits textures, text, data tables, items, trainers and map placements, and packages mods.
+- [DSPRE](https://github.com/DS-Pokemon-Rom-Editor/DSPRE) - Reloaded ROM editor for Nintendo DS Pokemon Generation IV games (Diamond, Pearl, Platinum, HeartGold, SoulSilver): edits maps and map models, scripts, events, Pokemon data, trainers and more.
+- [contentreform](https://github.com/BananaSoviet/contentreform) - Toolkit for Pokemon Pokopia data mods: reader, writer and byte-exact repacker for the `LD_C0_R.BIN` + `LI_C0_R.IDX` data container (game version 2.0.1a), with a declarative mod manifest and a save reader/writer for save version 2.0.1.
 
 ##### Punch-Out!!
 
@@ -990,6 +1004,7 @@
 - [Punch-Out-Wii-.dsp-to-.wem-for-.bnk-Files-Converter](https://github.com/HiddenBoiRightHere/Punch-Out-Wii-.dsp-to-.wem-for-.bnk-Files-Converter) - Converts two-channel DSP files to two-channel WEM files for repacking into Punch-Out!! Wii's BNK sound banks with BNKEditor or similar tools.
 - [punch-out-wii-audio-file-notes-sorter](https://github.com/HiddenBoiRightHere/punch-out-wii-audio-file-notes-sorter) - Uses leftover developer notes containing audio file names and locations to help sort Punch-Out!! Wii's extracted audio files.
 - [Punch-Out-Wii-Vertex-Coordinate-Converter](https://github.com/HiddenBoiRightHere/Punch-Out-Wii-Vertex-Coordinate-Converter) - Converts pasted-in vertex position array numbers from Punch-Out!! Wii model data into usable coordinates.
+- [powtools](https://github.com/bpijr/powtools) - Python tools and Blender add-on for Punch-Out!! Wii: unpack and repack `.dict`/`.data` archives, decode textures, geometry, materials, skeletons, morphs and animations.
 
 ##### 1080° Snowboarding
 
@@ -1058,6 +1073,7 @@
 - [EIDBEditor](https://github.com/chemmalion/EIDBEditor) - Evil Islands database editor.
 - [ei_figer](https://github.com/konstvest/ei_figer) - Blender addon to import/export Evil Islands' 3D models.
 - [ei_maper](https://github.com/konstvest/ei_maper) - Editor for Evil Islands' `.MOB` map files.
+- [CursedLands](https://github.com/TheWWWorm/CursedLands) - Godot-based engine for Evil Islands: Curse of the Lost Soul and Lost in Astral that reads the original game files, with online co-op for the campaigns.
 
 #### Hello Games (No Man's Sky)
 
@@ -1093,6 +1109,10 @@
 #### Nosferatu: The Wrath of Malachi
 
 - [ntwm-file-formats](https://github.com/AlexKimov/ntwm-file-formats) - File formats for Nosferatu: The Wrath of Malachi.
+
+#### NovaLogic
+
+- [NovaResearch](https://github.com/Novahq-net/NovaResearch) - File format research and documentation for NovaLogic games (Armored Fist, Comanche, Delta Force series, Tachyon, F-16 Multirole Fighter, F-22 Lightning 3, M29 Fulcrum, Joint Operations).
 
 #### Novotrade
 
@@ -1136,6 +1156,7 @@
 
 - [Eternity-Keeper](https://github.com/CaileanMParker/Eternity-Keeper) - Save editor and character importer/exporter for Pillars of Eternity.
 - [eternity-ssge](https://github.com/groboclown/eternity-ssge) - Command-line save game editor for Pillars of Eternity, for simple inspection/editing of character data without a GUI.
+- [PillarsDialogEditor](https://github.com/kjmikkel/PillarsDialogEditor) - Windows dialogue editor for Pillars of Eternity 1 and 2: Deadfire that stores edits as semantic diff files (`.dialogproject`) and applies them with a patcher instead of overwriting the original game files.
 
 #### Ocean Software
 ##### Chase H.Q.
@@ -1181,6 +1202,10 @@
 
 - [OmoriSource](https://github.com/Escartem/OmoriSource) - Source code of OMORI, recovered in the form of its original RPG Maker project.
 
+#### Diversions Entertainment (One Must Fall 2097)
+
+- [OpenOMF](https://github.com/omf2097/openomf) - Open-source remake of One Must Fall 2097 (DOS, 1994) that loads the original data files through its own readers for the `.BK`/`.AF` animation, `.PIC`, `.PCX`, `.CHR`, `.REC`, palette, font and language formats, with command-line tools (`bktool`, `aftool`, `pictool`, `pcxtool`, `soundtool`, `languagetool` and others) to inspect and edit them.
+
 #### Origin Systems
 
 ##### Ultima I
@@ -1202,6 +1227,7 @@
 - [UltimaVSaveGameEditor](https://github.com/bradhannah/UltimaVSaveGameEditor) - Editor and summarizer for Ultima V save games, reading and writing the original proprietary save file format; built to speed up scenario recreation for the Ultima V Redux fan remake project.
 - [u5d](https://github.com/wonst719/u5d) - Ongoing decompilation project for Ultima V: Warriors of Destiny.
 - [UltimaVRedux](https://github.com/bradhannah/UltimaVRedux) - Go recreation of Ultima V that runs from the original MS-DOS game files; includes a legacy save converter and docs on the original file formats (eg. BRIT.CBT combat maps).
+- [ultima-v-notes](https://github.com/smejworth/ultima-v-notes) - Notes from reading the original disks of Ultima V and its ports: program structure, data formats, hidden features and bugs (facts only, no code).
 
 ##### Ultima VI
 
@@ -1212,6 +1238,7 @@
 - [exult](https://github.com/exult/exult) - Long-running project to recreate Ultima VII: The Black Gate and Serpent Isle for modern operating systems, reading original game data and graphics files.
 - [U7Revisited](https://github.com/ViridianGames/U7Revisited) - Replacement engine for Ultima VII: The Black Gate (and Serpent Isle) presenting a new camera angle, reading original game data files.
 - [UltimaHacks](https://github.com/JohnGlassmyer/UltimaHacks) - Assembly patches and a companion Java "UltimaPatcher" tool for Ultima VII: The Black Gate and Serpent Isle (keyboard control and other usability fixes); UltimaPatcher analyzes the segment layout of DOS executables that use FBOV overlays, expands overlay segments to make room for new code, and compiles/applies patches via a custom "hack proto" format. See also Looking Glass Studios → Ultima Underworld above, which the same patches and tool also support.
+- [tgwUltima](https://github.com/theGreyWanderer-uc/tgwUltima) - Titan Ultima toolkit for Ultima VII (Black Gate, Serpent Isle, Exult) and Ultima VIII (Pagan) data: Flex archives, shapes, maps, palettes, audio, saves, dialogue and world objects, with extraction, conversion and rebuild commands.
 
 ##### Ultima IX: Ascension
 

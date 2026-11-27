@@ -1,4 +1,8 @@
 ### 0–9
+#### 007: Nightfire
+
+- [nightfire-re](https://github.com/NightfireResearch/nightfire-re) - Python tools and notes to extract and decompress the packed data files of the console versions of 007: Nightfire and document their data structures and loaders.
+
 #### Orange_Juice (100% Orange Juice)
 
 - [500strawberries](https://github.com/Escartem/500strawberries) - Decrypts and edits 100% Orange Juice save files, allowing currency, items, and stats to be changed.
@@ -46,6 +50,7 @@
 - [vietcong-unpacker](https://github.com/Romop5/vietcong-unpacker) - Collection of tools for unpacking .CBF archive files used in Vietcong (2003), co-developed by Pterodon and Illusion Softworks.
 - [Mafia-2-Font-Generator](https://github.com/kh0shn4w/Mafia-2-Font-Generator) - Python script that generates custom font textures and XML definitions for Mafia II, simplifying the font modding process.
 - [MafiaReversing](https://github.com/Romop5/MafiaReversing) - Parsers for Mafia: The City of Lost Heaven's `.rep` (cutscene replay) and `.tck` (camera track) file formats, with sample data files.
+- [illusion-toolkit](https://github.com/mafia2online/illusion-toolkit) - Map editor and modding toolkit for Mafia II and Mafia II: Definitive Edition that reads the game's native archives, edits them in a 3D viewport or Blender and packs the result back with backups.
 
 #### 2K Games / Firaxis Games
 
@@ -148,6 +153,7 @@
 - [engine4heroes](https://github.com/ihhub/engine4heroes) - Recreation of the Heroes of Might and Magic IV game engine; like fheroes2 above, requires and reads the original commercial game's data files.
 - [mmarch](https://github.com/might-and-magic/mmarch) - Cross-platform CLI tool to extract, replace, and compare resources in Might and Magic 6/7/8 and Heroes of Might and Magic III archive files (e.g. LOD).
   - Platforms: Windows, Linux, macOS.
+- [h4r](https://github.com/demen1n/h4r) - Rust engine reimplementation of Heroes of Might and Magic IV and its expansions that reads the original game data, with research notes on the formats.
 
 #### 4A Games
 
@@ -226,7 +232,7 @@
 - [Kobra](https://github.com/VenomModding/Kobra) - Fork of Greyhound with added support for XEffect, GDT, and more. Used for Call of Duty asset extraction.
 - [Iwi Converter (Call of Duty 2)](https://www.moddb.com/games/call-of-duty-2/downloads/iwi-converter) - IWI converter with multi-file selection support for Call of Duty 2. Created to address lack of multi-select support in other IWI converters.
 - [Unreal-SeTools](https://github.com/djhaled/Unreal-SeTools) - Unreal Engine editor plugin to batch-import Call of Duty SEModel (.semodel) files, including meshes, animations, and materials.
-- [img-format-helper](https://github.com/iw4x/img-format-helper) - Tool to visualize, export, and convert IWI image formats used across Call of Duty (IW engine) asset dumps.
+- [img-format-helper](https://github.com/iw4x-community/img-format-helper) - Tool to visualize, export, and convert IWI image formats used across Call of Duty (IW engine) asset dumps.
 - [iwi2dds](https://github.com/riicchhaarrd/iwi2dds) - Python command-line converter from Call of Duty's IWI texture format to DDS, supporting multiple IWI format versions.
 - [cod-asset-importer](https://github.com/mauserzjeh/cod-asset-importer) - Blender add-on for importing Call of Duty assets.
 - [material_util](https://github.com/riicchhaarrd/material_util) - Utility for reading and writing Call of Duty 2 material files, documenting the format's shader/texture-stage fields.
@@ -273,7 +279,7 @@
 - [Q3COD4BSP](https://github.com/Iswenzz/Q3COD4BSP) - Converts Quake 3 .BSP level files to Call of Duty 4's .MAP format, to speed up porting Quake 3 levels to CoD4.
 - [iw3x-port](https://github.com/iw4x-community/iw3x-port) - Community-driven map/asset converter for porting Call of Duty 4 (2007, IW3) content to IW4 (Modern Warfare 2), used with IW4x's ZoneBuilder.
 - [iw5x-port](https://github.com/iw4x-community/iw5x-port) - Asset/map export and conversion port utility for IW5 (Call of Duty: Modern Warfare 2 2009), analogous to iw3x-port for IW4.
-- [iw4x-map-porting-utility](https://github.com/iw4x/iw4x-map-porting-utility) - Middleware to simplify porting maps from Call of Duty 4 (IW3) to Modern Warfare 2 (IW4), unifying export from iw3x-port to ZoneBuilder.
+- [iw4x-map-porting-utility](https://github.com/iw4x-community/iw4x-map-porting-utility) - Middleware to simplify porting maps from Call of Duty 4 (IW3) to Modern Warfare 2 (IW4), unifying export from iw3x-port to ZoneBuilder.
 - [zonebuilder-wrapper](https://github.com/iw4x/zonebuilder-wrapper) - Wrapper around ZoneBuilder for building IW4x-compatible Call of Duty assets.
 - [iw4x-client](https://github.com/iw4x/iw4x-client) - Client reimplementation/mod for Call of Duty: Modern Warfare 2 (IW4 engine) multiplayer, including the built-in ZoneBuilder asset/fastfile pipeline tool used by the IW3x/IW5x porting utilities.
 - [cod2map](https://github.com/7894752/cod2map) - Fully reconstructed, bit-identical C source for `cod2map.exe`, Call of Duty 2's BSP map compiler, reverse-engineered from the original 2005 binary; covers BSP tree construction, portal visibility, lightmap allocation, collision mesh generation, and shadow computation.
@@ -344,6 +350,7 @@
 
 - [Open76](https://github.com/r1sc/Open76) - Engine reimplementation of Activision's Interstate '76 on Unity, parsing and rendering the game's original ZFS-packaged level, vehicle, and mission stack-machine data; supports both the uncompressed (v1.0) and compressed ZFS variants.
 - [i76render](https://github.com/greg-kennedy/i76render) - Archived Perl script that converts Interstate '76 map definition files (`.MSN`, `.CBT`, `.RAC`, `.CF2`) into POV-Ray scenes with 16-bit grayscale terrain and road heightmaps.
+- [i76-everywhere](https://github.com/therealjkvalentine/i76-everywhere) - Scripts and docs for running Interstate '76 (GOG) on Apple Silicon, Steam Deck and modern Windows, plus a save editor and documentation of the game's reverse-engineered file formats.
 
 ##### Tony Hawk's Pro Skater
 
@@ -368,6 +375,7 @@
 ##### Ghostbusters
 
 - [Gibbed.Ghostbusters](https://github.com/gibbed/Gibbed.Ghostbusters) - Tools and code for use with Ghostbusters: The Video Game (2009).
+- [gbtvgr-py](https://github.com/ghostbusters-modding/gbtvgr-py) - Python package and CLI with codecs for Ghostbusters: The Video Game Remastered: `.POD` archives, `.tex` textures (DDS/PNG), `.smb` meshes (OBJ), `.bst` sets, `.lvl` levels and `.cib` character definitions.
 
 ##### A Series of Unfortunate Events
 
@@ -569,6 +577,7 @@
 - [RDR1AudioTool](https://github.com/Foxxyyy/RDR1AudioTool) - Editor for Red Dead Redemption 1 PC's AWC audio container files.
 - [MCLA-Decompiled-Scripts](https://github.com/Foxxyyy/MCLA-Decompiled-Scripts) - Midnight Club: Los Angeles SCO scripts decompiled to C.
 - [MC3-Garage-Vehicles-Importer](https://github.com/WiltonZQA/MC3-Garage-Vehicles-Importer) - Blender add-on and Python tools importing the garages and 42 traffic vehicles of Midnight Club 3: DUB Edition Remix (original Xbox) with textures, lightmaps and baked lighting, from the Xbox ISO or extracted `assets_x.dat*` files; can also convert to glTF.
+- [mc3-znx-tools](https://github.com/znxee/mc3-znx-tools) - Python toolkit and file format notes for Midnight Club 3: DUB Edition Remix (PS2), with side tools for Midnight Club 2 and Midnight Club: L.A.
 
 #### Aniimo
 
@@ -661,6 +670,7 @@
 - [psp-ayakashibito_tools](https://github.com/mchubby/psp-ayakashibito_tools) (archived) - Unmaintained collection of programs/documentation for processing `.mrg`/`.nam`/`.hed` script archives from the PSP HuneX game engine. The author recommends [Hintay's PS-HuneX_Tools](https://github.com/Hintay/PS-HuneX_Tools) as an actively working alternative.
 - [VitaScenariosTool](https://github.com/Hintay/VitaScenariosTool) - Scenario/script converter for the PS Vita HuneX engine, tested with Fate/hollow ataraxia and Fate/stay night.
 - [HunexRev](https://github.com/shiikwi/HunexRev) - Unpacker for the Nintendo Switch HuneX engine (tested with Hoshizora Tetsudou to Shiro no Tabi), extracting `.hpb`/`.hph` archives and unpacking/exporting `.heslnk`/`.hdlg` script files.
+- [hunex-tools](https://github.com/aaronbamblett/hunex-tools) - Rust CLI and library crates for HuneX engine files (scripts, archives, text, images, audio, fonts) as used in Tsukihime -A piece of blue glass moon- and Witch on the Holy Night; lists, converts, edits and rebuilds files, and documents the HuneX VM script opcodes.
 
 #### Webzen (Archlord 2)
 

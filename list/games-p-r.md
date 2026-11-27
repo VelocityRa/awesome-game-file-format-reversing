@@ -60,6 +60,7 @@
 - [stellaris-dashboard](https://github.com/eliasdoehne/stellaris-dashboard) - Reads Stellaris save files while you play and renders a historical graph dashboard and event ledger of the playthrough; Ironman-compatible via an in-game companion mod. See also [Stellaru](https://github.com/benreid24/Stellaru), a similar autosave-monitoring dashboard with real-time chart updates.
 - [ck3-savetools](https://github.com/amtep/ck3-savetools) - Base savefile-scanning library for extracting data from Crusader Kings III savefiles; does not handle Ironman saves, which require additional undocumented Paradox-specific handling.
 - [Babblewitz](https://github.com/pdx-tools/babblewitz) - Test corpus and benchmark harness qualifying the ecosystem of Clausewitz/Jomini parsers (including `jomini` above) for conformance, performance, and ergonomics; by the same author as the `jomini` Rust parser and pdx-tools site.
+- [Victoria3-Tools](https://github.com/Lexa-B/Victoria3-Tools) - Python tools and notes for reading and surgically editing Victoria 3 `.v3` saves (byte-exact container, compression and checksum round-trip) and for researching mechanics from the shipped scripts; verified against 1.13.11.
 
 #### Parasite In City
 
@@ -194,6 +195,7 @@
 - [NierPDK](https://github.com/REDxEYE/NierPDK) - Python development kit for working with NieR: Automata file formats.
 - [rein-kuro](https://github.com/190nm/rein-kuro) - Python tools for NieR Reincarnation that decrypt the game's `octocacheevai` asset cache and encrypted resource files (JP/EN and closed-beta builds) and export cache differences to JSON.
 - [NierDocs](https://github.com/ArthurHeitmann/NierDocs) - Collection of tools and documentation for modding Nier: Automata, including CPK and DAT/DTT file contents, map data and links to related tools.
+- [Nier-Texture-Manager](https://github.com/Banz99/Nier-Texture-Manager) - C# tool to extract and repack textures of the PS3 and Xbox 360 releases of NieR, rearranging internal pointers.
 
 #### Panic (Playdate)
 
@@ -259,6 +261,10 @@
 #### Pajamas Soft (Prism Ark)
 
 - [PrismArkTools](https://github.com/Doddler/PrismArkTools) - Toolset for Prism Ark covering everything but standard archive extraction (for which the author recommends [Asmodean's tool](https://github.com/hiroshil/asmodean-tools)): packs standard archives, unpacks/repacks the separate battle-archive format, converts EPA images to/from PNG, and (de)compiles the scenario/text/filename script data.
+
+#### Cyanide Studio (Pro Cycling Manager)
+
+- [pcm-zces-parser](https://github.com/Strandfelt/pcm-zces-parser) - Reads and writes Pro Cycling Manager 26 `.zces` stage files (terrain, roads, objects, sprints) and exports elevation profiles, route maps, GeoJSON/GPX and readable JSON; format documented in `docs/FORMAT.md`.
 
 #### Procedural Arts
 
@@ -380,6 +386,10 @@
 - [SHARMipMapGenerator](https://github.com/Hampo/SHARMipMapGenerator) - Generates and inserts MipMap texture chunks into Simpsons: Hit & Run Pure3D files.
 - [LuaSPTLib](https://github.com/Hampo/LuaSPTLib) - Lua library for parsing and modifying Simpsons: Hit & Run SPT sound-parameter files.
 
+#### Rage of Mages
+
+- [againrom-engine](https://github.com/againrom/againrom-engine) - Go (Ebitengine) engine for Rage of Mages and Rage of Mages II: Necromancer that reads maps, graphics, sounds, music and movies from the original game files, with a map editor.
+
 #### Gravity (Ragnarok Online)
 
 - [libgrf](https://github.com/cmbasnett/libgrf) - Library for reading GRF archives found in Ragnarok Online.
@@ -394,6 +404,7 @@
 - [unityro](https://github.com/guilhermelhr/unityro) - Unity-based Ragnarok Online client with runtime-threaded loading of original client `.grf` files, connecting to rAthena/Hercules-based servers.
 - [GRF](https://github.com/arminherling/GRF) - C# library for loading Ragnarok Online GRF archive files.
 - [BrowEdit3](https://github.com/Borf/BrowEdit3) - Editor for Ragnarok Online's RSW (world), GND (ground/terrain), and GAT (altitude/collision) map files. Actively maintained successor to the older [browedit](https://github.com/Borf/browedit).
+- [GRFExtractor](https://github.com/Dizzzlectic/GRFExtractor) - Python CLI to inspect, list, extract, verify and repack Ragnarok Online GRF v2/v3 archives, covering stored/zlib entries, legacy DES and supported protected kRO entries.
 
 #### Atari, Inc. (Raiders of the Lost Ark)
 
@@ -576,6 +587,7 @@
 ##### Marvel: Ultimate Alliance
 
 - [MUA.BIN.Tool](https://github.com/Ekey/MUA.BIN.Tool) (archived) - Tool for extracting BIN archives from Marvel: Ultimate Alliance 1/2 (2016 Zoe Mode re-release; originals developed by Raven Software).
+- [igb-blender](https://github.com/KaikoClanworth1/igb-blender) - Blender 4.4 add-on to import/export Alchemy Engine IGB/IGZ files of X-Men Legends 1-2 and Marvel: Ultimate Alliance, with a map maker, actor/skeleton/animation pipeline, conversation editor and texture editor.
 
 #### DreamForge Intertainment (Ravenloft)
 
@@ -663,6 +675,12 @@
 - [moonstone](https://github.com/remileonard/moonstone) - Independent C port of Moonstone: A Hard Day's Knight (Amiga), documenting the original 68000 binary's RNC ProPack and LZSS decompression, and its .cel (sprite), .stile (bitplane RLE tile), and .PIV (proprietary background) file formats.
 
 #### Relic Entertainment
+- [CorsixsModStudio](https://github.com/jbelford/CorsixsModStudio) - Corsix's Mod Studio rebuilt as a 64-bit C++20 modding IDE for Dawn of War (and expansions) and Company of Heroes, with a SCAR/Lua editor and compatibility with Relic's file formats.
+
+##### Dawn of War
+
+- [blender_dow](https://github.com/amorgun/blender_dow) - Blender add-on for importing and exporting Dawn of War `.whm` models (meshes, textures, bones, markers, animations), `.sgm` Object Editor models and `.rsh` textures.
+- [dow_utils](https://github.com/amorgun/dow_utils) - Scripts and tools for Dawn of War: Definitive Edition: object config converter between `.whe`, `.ebp` and `.json`, `.screen` UI previewer, RTX image container packer/unpacker, and an overview of the game's file extensions.
 
 ##### Homeworld
 
@@ -712,6 +730,10 @@
 
 - [reunion-save-editor](https://github.com/francis-chiew/reunion-save-editor) - Save game editor for Reunion (1994, DOS), documenting the byte-offset layout of the 41,670-byte `SPIDYSAV.N` save file format (credits, minerals, invention research status, unit stockpiles).
 
+#### Revenant
+
+- [Revenant Asset Studio](https://github.com/chrisdev1187/Revenant-Asset-Studio) - Asset browser, viewer and exporter for Revenant (1999): `.i2d` sprites, stitched automaps, character sheets, equipment, spells, WAV/MP3/OGG audio and SMK cinematics.
+
 #### BLUEPOCH (Reverse: 1999)
 
 - [Reverse1999-Anarchist](https://github.com/kiraio-moe/Reverse1999-Anarchist) - Encoder/decoder for Reverse: 1999 game assets, handling the game's bundle, BNK/WEM audio, and WinRX-encrypted files.
@@ -748,6 +770,7 @@
 - [lol-meta-wiki](https://github.com/LeagueToolkit/lol-meta-wiki) - Wiki documenting League of Legends Meta (.bin) classes and properties.
 - [awesome-league](https://github.com/LeagueToolkit/awesome-league) - Curated list of League of Legends modding and reverse-engineering tools and libraries.
 - [trueshot-spec](https://github.com/dacevedo12/trueshot-spec) - Wire protocol specification documenting how a server must communicate with a League of Legends client to connect, load a match, and play, versioned per client build.
+- [ROFL-X](https://github.com/Toastaspiring/ROFL-X) - Rust parser for League of Legends `.rofl` replay files with a written packet catalog, extending Mowokuma/ROFL so patch-to-patch format regressions are detectable.
 
 ###### WAD Archive & Property File Tools
 
@@ -972,6 +995,10 @@
 - [BlenDR](https://github.com/spicybung/BlenDR) - Work-in-progress Blender add-on for working with Rockstar Advanced Game Engine (RAGE) file formats and OpenIV openFormats.
 - [BLeeds](https://github.com/spicybung/BLeeds) - Work-in-progress Blender add-on for Rockstar Leeds Engine formats (GTA: Liberty City Stories/Vice City Stories, Chinatown Wars, Manhunt 2); imports MDL models, CHK/XTX/TEX textures, COL2 collision, WRLD/WBL/BSP maps, and ANIM animations, with experimental export for models, collision, and maps.
 - [Storyland](https://github.com/spicybung/Storyland) - Analyzer, editor, and viewer for GTA Stories (Liberty City Stories/Vice City Stories) file formats, intended to also support Chinatown Wars: MDL/WBL models, CHK/XTX/TEX textures, COL2 collision, WRLD maps, LVZ/DTZ zlib files, IMG archives, and ANIM animations (all but IMG still experimental).
+- [stories_py_conv](https://github.com/gta191977649/stories_py_conv) - Python CLI that extracts GTA Vice City Stories (PS2) static map assets and streamed textures into GTA RenderWare-compatible outputs (Leeds Engine).
+- [gta3-webgl](https://github.com/samwaters/gta3-webgl) - Browser-based GTA III viewer whose Python extractors convert the original RenderWare `.dff`/`.txd`/`.col` files, IPL placements and mission-script bytecode into glTF, PNG and JSON.
+- [IMG Factory 1.6](https://github.com/X-Seti/Img-Factory-1.6) - PyQt6 GTA modding toolkit for IMG archives, DAT browsing and TXD, COL, model, map, terrain and ped workshops.
+  - See also [Txd-Workshop](https://github.com/X-Seti/Txd-Workshop), a standalone TXD texture dictionary editor for GTA III, Vice City, San Andreas and other RenderWare games.
 - [lcs-save-editor](https://github.com/whampson/lcs-save-editor) - Save editor for Grand Theft Auto: Liberty City Stories covering PS2, PSP, Android and iOS saves: player attributes, garage vehicles, stats, global variables and collectible tracking.
 - [unIMG-2](https://github.com/spicybung/unIMG-2) - Reimplementation of unimg for GTA: Liberty City Stories and Vice City Stories; rebuilds WRLD/tex files and recovers exact resource payloads from LVZ files and their companion IMG archives, with automatic or forced LCS/VCS layout detection.
 - [MDL_importer](https://github.com/spicybung/MDL_importer) - 3ds Max MaxScript importer for GTA Stories MDL models (originally by Alex/AK73 per the repo description); includes a Blender branch.
@@ -996,6 +1023,14 @@
 - [RageForge](https://github.com/zsy-miao/RageForge) - GUI and CLI toolkit for Grand Theft Auto VI RAGE engine files (RPF9 archives, TTPF textures).
   - Features: archive browser, 3D viewer with glTF export, texture decoding (RDNA2 detiling, BC1-BC7), AWC/Opus audio, Bink 2 video, RDNA2 shader disassembly.
 - [UniversalIMG](https://github.com/ndenissov/UniversalIMG) - Python library and Kivy GUI for opening, extracting and editing `.img` archives of GTA III, Vice City and San Andreas.
+- [HikariHopper](https://github.com/Hancapo/HikariHopper) - Avalonia modding toolkit that browses game folders and RPF archives for GTA V and Red Dead Redemption 2: 3D viewer for models, vehicles, collisions and navmeshes, texture dictionary extraction to DDS, text editing and world fly-through.
+- [fivefury](https://github.com/Hancapo/fivefury) - Python library for reading, writing and packaging GTA V resources: drawables, collisions, map metadata, animations, navigation data, texture dictionaries, text tables, audio containers, cutscenes, DLC metadata and RPF archives.
+- [INU_Core_GTA](https://github.com/INU-ez/INU_Core_GTA) - Pure-Python library for GTA III, Vice City and San Andreas formats (DFF, COL, TXD, IFP, IMG, IDE, IPL, FXP, CST and `data/` text files), with writers audited against what `gta_sa.exe` reads; the format core of [INU_Tools-GTA-Blender](https://github.com/INU-ez/INU_Tools-GTA-Blender) and [INU_Tools-GTA-3DsMax](https://github.com/INU-ez/INU_Tools-GTA-3DsMax), which cover the modeling-to-IMG pipeline in Blender and 3ds Max.
+- [gta6-explorer](https://github.com/HolyRoses/gta6-explorer) - Read-only dependency-free Python toolkit for GTA VI packages that exports textures (DDS/PNG), audio, video and shaders and builds a searchable asset browser.
+- [OpenSix](https://github.com/cyberpulse2077/OpenSix) - Windows browser for GTA VI RPF9 archives (including nested ones) that previews models, textures, audio and video and exports FBX, GLB or DDS.
+- [TTPF Studio](https://github.com/woreksami/ttpf-studio) - Windows viewer for Grand Theft Auto VI data: browses 3D models and `.ttpf` texture packs (export PNG/DDS, replace textures), recovers files from RPF9 archives such as `levels.rpf`, and exports the map as glTF/OBJ.
+- [rpfpeek](https://github.com/olxver2025/rpfpeek) - Pure-Python CLI for RPF7 archives (GTA V and other RAGE games): list, search, extract, add, replace, delete, rename, create, defragment, decrypt and change encryption mode, with JSON output.
+- [gtav-enhanced-rpf](https://github.com/wjy000/gtav-enhanced-rpf) - Dependency-light Python CLI for reading GTA V Enhanced (Gen9) RPF7 archives on macOS/Linux, parsing headers, encryption and entries.
 
 #### Cellar Door Games (Rogue Legacy)
 
@@ -1028,9 +1063,17 @@
 
 - [RozenMaidenExt](https://github.com/Manicsteiner/RozenMaidenExt) - Extraction tool for the PS3 game Rozen Maiden: Wechseln Sie Welt ab (BLJM61120), unpacking `Graph.dat` character/CG images; view the archive's `.mfs` sound files with vgmstream.
 
+#### 49Games (RTL Ski Alpin Racing 2007)
+
+- [sar2007-android](https://github.com/Matswm86/sar2007-android) - Python extraction toolkit and format notes for RTL Ski Alpin Racing 2007: PACK v2 archive unpacker, chunk walker and texture export, as groundwork for an Android remake.
+
 #### RTL Ski Jumping 2002
 
 - [RTL_Ski_Jumping_2002_Tool](https://github.com/Thief1987/RTL_Ski_Jumping_2002_Tool) - Go tool that extracts the game's archives, reading each table-of-contents entry (offset, compressed and uncompressed size, file name) and writing the files out to a folder named after the archive.
+
+#### Run8 Train Simulator
+
+- [Run8-V3-reverse-engineering](https://github.com/Puyodead1/Run8-V3-reverse-engineering) - Reverse-engineered documentation of Run8 V3 file formats (`.r8` databases and more) with a C# parsing library and Blender 3.x import/export scripts.
 
 #### Neverland (Rune Factory Frontier)
 

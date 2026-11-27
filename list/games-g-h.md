@@ -283,6 +283,7 @@
 ##### Marble Blast
 
 - [Marble Blast Web](https://github.com/Vanilagy/MarbleBlast) - Web port of Marble Blast Gold, Platinum, and Ultra with asset importing from original Torque 3D Engine files (.dif, .dts, .mis).
+- [marbleextractor](https://github.com/command-tab/marbleextractor) - Python script to extract the `marble.bza` archive of Marble Blast Ultra (Xbox Live Arcade).
 
 #### Garfield
 
@@ -325,6 +326,7 @@
 - [AE.ARC.Tool](https://github.com/Ekey/AE.ARC.Tool) (archived) - Tool for extracting ARC archives from games built on Avalanche Studios' Apex Engine.
 - [JC.ARC.Tool](https://github.com/Ekey/JC.ARC.Tool) (archived) - Tool for extracting ARC archives from the Just Cause series.
 - [GenZ-Save-File-Editor](https://github.com/GrimChan/GenZ-Save-File-Editor) - Save file editor for Generation Zero, reading and writing the game's original save data format.
+- [deca](https://github.com/kk49/deca) - Python tool for exploring, extracting and modding Avalanche APEX engine files, mainly Generation Zero and theHunter: Call of the Wild.
 
 ##### Mad Max
 
@@ -352,10 +354,12 @@
 - [GNKSoundTools](https://github.com/igorciz777/GNKSoundTools) - Sound modding tools for PS2 Genki games.
 - [TXR3-Text-Editor](https://github.com/igorciz777/TXR3-Text-Editor) - Text editor for Tokyo Xtreme Racer 3.
 - [jade_cocoon_reversing](https://github.com/mouzedrift/jade_cocoon_reversing) - Decompilation project for Jade Cocoon (PS1).
+- [MMDL-Blender](https://github.com/tofuman0/MMDL-Blender) - Blender add-on to import Shutokou Battle Online `.mmdl` models, `.mia` textures, PRTS object-slot mappings and car-part metadata (export not implemented yet).
 
 #### Sunborn (Girls' Frontline)
 
 - [GFLMotionConverter](https://github.com/SuomiKP31/GFLMotionConverter) - Converts Girls' Frontline Live2D motion/physics data (extracted from Unity asset bundles via UABE) into standard Live2D Cubism motion3/physics3 files.
+- [GFLFC-decryption-toolkit](https://github.com/LeonNagant/GFLFC-decryption-toolkit) - Scripts and format notes for Girls' Frontline: Fire Control: unpacks the split APKs, decrypts XOR-obfuscated UnityFS AssetBundles, parses the `SubpackageBundleInfo.fb` FlatBuffers manifest, downloads CDN subpackages and exports meshes, textures, materials and animations with UnityPy.
 
 ##### Girls' Frontline 2: Exilium
 
@@ -392,6 +396,10 @@
 - [NikkeTools (Hiro420)](https://github.com/Hiro420/NikkeTools) - Unrelated to the asset-bundle tool above; a collection of 5 separate tools for Goddess of Victory: NIKKE.
   - Tools: Catalog (asset catalog parser), MetadataDumper, Protobuf (message dumper), StaticData (data table parser), UnLuac (Lua decompiler).
 - [EpinelPS](https://github.com/EpinelPS/EpinelPS) - Private/local server for Goddess of Victory: NIKKE, reverse engineering the game's client-server protocol; resolves localized names by parsing the game's Unity asset directories.
+
+#### Pipeworks Software (Godzilla)
+
+- [GZ-Model-Editor](https://github.com/Digitzaki/GZ-Model-Editor) - Godzilla Blender Converter: exports Pipeworks Godzilla models (Wii/PS2 `*_Shapes.BDG`, GameCube `.CMG`) to FBX, imports edited FBX back into copied BDG/CMG files and extracts textures.
 
 #### RNGeusEX Games (Goodbye Eternity)
 
@@ -435,6 +443,10 @@
 #### KOG (Grand Chase)
 
 - [P3M-Importer-Exporter](https://github.com/Raitou/P3M-Importer-Exporter) - Blender importer/exporter plugin for Perfect 3D Model (`.P3M`) files used by Grand Chase.
+
+#### Grandia: Digital Museum
+
+- [new-parm-archives-tools](https://github.com/AngelouCurator/new-parm-archives-tools) - Python build pipeline and format research for the Grandia: Digital Museum English fan patch (archive and text/glyph codecs); ships no disc image, script text or translations.
 
 #### Gray Design Associates
 
@@ -553,6 +565,7 @@
 - [gw2re](https://github.com/daegalus/gw2re) (archived) - Community collection of tools and research reverse engineering the Guild Wars 2 DAT file and the custom formats contained within.
 - [gixxcel](https://github.com/thatshaman/gixxcel) - Decodes and archives Guild Wars 2 STRS (string table) files extracted from DAT archives.
 - [gw2dattools](https://github.com/kytulendu/gw2dattools) - Collection of tools for building programs that work with the Guild Wars 2 dat file.
+- [gw2rustbrowser](https://github.com/webfussel/gw2rustbrowser) - Rust reimplementation of Gw2Browser for browsing the contents of `Gw2.dat`.
 
 #### Aurogon (Gujian)
 
@@ -563,6 +576,7 @@
 - [gpm-tool](https://github.com/Davermouse/gpm-tool) - Browser-based tool for Gunparade March (PS1) `.BIN` images: view and edit story event scripts, browse the game's compressed textures, and save a modified `.BIN`.
 
 ### H
+
 #### Sulake (Habbo Hotel)
 
 - [Chroma](https://github.com/Quackster/Chroma) - Furniture renderer for Habbo's SWF client assets; loads a `hof_furni` SWF and renders it through a web front-end. See also [Chroma4j](https://github.com/Quackster/Chroma4j), a Java rewrite with a TeaVM/WebAssembly browser deployment that renders furni SWFs entirely client-side.
@@ -777,6 +791,7 @@
 - [hm3](https://github.com/Sanqui/hm3) - Partial disassembly of Harvest Moon 3 (Game Boy Color).
 - [HDATextTool](https://github.com/gdkchan/HDATextTool) - HDA (un)packer and text editing tool for Harvest Moon: Save the Homeland.
 - [hmfomt](https://github.com/not-alons/hmfomt) - Disassembly/decompilation of Harvest Moon: Friends of Mineral Town (Game Boy Advance). See also [StanHash's fork](https://github.com/StanHash/fomt), a parallel decompilation effort for the same game, and [mary](https://github.com/StanHash/mary), an event script compiler for Harvest Moon: (More) Friends of Mineral Town.
+- [HDA-Archiver](https://github.com/DarthKrayt333/HDA-Archiver) - Windows GUI to open, create, modify and repack `.HDA` archives of Harvest Moon: Save the Homeland (PS2), with the game's Smart LZO compression and file type detection.
 
 ##### Telefang
 
@@ -834,6 +849,7 @@
 - [BFBB Rehydrated Funnel Fix](https://github.com/lorenfa99/bfbb-rehydrated-funnel-fix) - Backup-first CLI tool that repairs the glitched Funnel Machines Golden Spatula bug in SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated, by parsing and patching the game's Unreal Engine GVAS save file structure.
 - [incredibles](https://github.com/seilc/incredibles) - Decompilation project for The Incredibles (GameCube).
 - [sb2tools](https://github.com/seilc/sb2tools) - Converts the XOR-encrypted dialogue/script files (`.sb2`, `.sb3`, `.sbt`) of SpongeBob SquarePants: Employee of the Month, Battle for Bikini Bottom, and The Movie to and from plain text.
+- [HIP2Json](https://github.com/AidenFliss/HIP2Json) - C# library and CLI that extracts `.HIP`/`.HOP` archives to JSON files, lets you edit them and reimports/repacks the changes.
 
 #### Arrowhead Game Studios (Helldivers 2)
 
@@ -848,6 +864,8 @@
 - [hd2-lut-editor](https://github.com/ryanjsims/hd2-lut-editor) - Standalone bare-bones DDS/OpenEXR image editor purpose-built for directly editing Helldivers 2 material look-up table textures, distinct from the Blender addon above.
 - [hd2-mod-crates](https://github.com/eigeen/hd2-mod-crates) - Migrates cosmetic armor/helmet mod patches between equipment pieces without needing the original assets. Reads `.patch_0` mod patches, `bundles.*.nxa` resource archives, `archivehashes.json`, and binary mesh templates to re-key a mod for other equipment slots.
 - [HelldiversWwiseHandler](https://github.com/CosmicDreamsOfCode/HelldiversWwiseHandler) - Tool for extracting and handling Wwise audio streams from Helldivers 2.
+- [hd2-audio-modder](https://github.com/RaidingForPants/hd2-audio-modder) - Audio and text modder for Helldivers 2 that edits Wwise audio and text data in the game's archives, with vgmstream preview.
+- [HD2_PM_ParticleModder](https://github.com/USKUMMEL/HD2_PM_ParticleModder) - Windows editor for Helldivers 2 `.particle` files and Slim archive resources: edits colour, opacity and intensity data, inspects linked textures and writes mod patches.
 
 #### Flagship Studios (Hellgate: London)
 
@@ -924,6 +942,10 @@
 #### Honey Parade / Marvelous Entertainment
 
 - [blenderBUM](https://github.com/Al-Hydra/blenderBUM) - Blender addon for importing models, animations, and textures from Honey Parade/Marvelous games (.bum, .lzs, .lza formats).
+
+#### Hot Wheels: Velocity X
+
+- [HWVX-X-FILE-EDITOR](https://github.com/Alaxend0l/HWVX-X-FILE-EDITOR) - Rust CLI that unpacks and rebuilds the `.xpc` (PC), `.xgc` (GameCube) and `.xps` (PS2, including prototype layouts) data archives of Hot Wheels: Velocity X, with automatic platform detection.
 
 #### Firestarter (Hover Ace)
 
@@ -1067,12 +1089,17 @@
 ##### Prey
 
 - [Prey2006](https://github.com/FriskTheFallenHuman/Prey2006) - Source port/engine project for Prey (2006, Human Head Studios), built on id Tech 4 and reading the original game's data files.
+- [Prey-2017-Level-Extractor](https://github.com/Scurbs/Prey-2017-Level-Extractor) - Python scripts to extract Prey (2017) levels and assets from `.pak` files (via PreyConvert), convert CryEngine `.cgf` models to `.usda` and rebuild the levels in Blender.
 
 #### Hummer Team
 
 ##### Super Mario World (Unlicensed Famicom Port)
 
 - [SMW-NES-Disassembly](https://github.com/palaceswitcher/SMW-NES-Disassembly) - Work-in-progress disassembly of Hummer Team's unlicensed Famicom/NES port of Super Mario World, with a companion Python script that extracts the game's assets from the ROM.
+
+#### Hungry Ghosts
+
+- [hgtools](https://github.com/HungryGhostsFanTranslation/hgtools) - Python command-line utilities for the 2003 PS2 game Hungry Ghosts: extract ISOs, pack and unpack `pack.dat`, decompile and compile hgscript, and dump and patch graphics.
 
 #### Hydravision Entertainment
 

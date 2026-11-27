@@ -48,6 +48,10 @@
 
 - [mgu-speech-exporter](https://github.com/kapdap/mgu-speech-exporter) - Exports speech audio and text files from Martian Gothic: Unification (PC), based on file format notes from the Xentax forum.
 
+#### Supersonic Software (Mashed)
+
+- [MashedFormats](https://github.com/mashed-reverse-engineering/MashedFormats) - Python tools and documentation for Mashed and Mashed: Fully Loaded: previews, extracts and byte-identically repacks `.piz` archives and documents the contents (LED, AI, MTS, GSD, RenderWare DFF/BSP/TXD/RWS) with PNG/model export.
+
 #### Massive Development
 
 ##### Archimedean Dynasty
@@ -88,6 +92,7 @@
 
 - [snescityeditor](https://github.com/usrshare/snescityeditor) - Map creator/editor for the NES and Super NES versions of SimCity, modifying the games' SRAM save files.
 - [SimCity (SNES) Static Recomp](https://github.com/Junior-Jones/SimCity-SNES-Static-Recomp) - Static recompilation of the SNES port of SimCity into a native Windows executable; no ROM included.
+- [SC4Parser](https://github.com/Killeroo/SC4Parser) - .NET Standard library for parsing SimCity 4 savegames (Maxis DBPF): finds and loads entries by type/group/instance, decompresses QFS data and parses several subfiles such as buildings.
 
 ##### SimCity 2000
 
@@ -179,6 +184,10 @@
 #### Megapede
 
 - [cgrr-megapede](https://github.com/sopoforic/cgrr-megapede) - Python module (part of Classic Game Resource Reader) that reads Megapede `MEGAPEDE.SCO` score files and, experimentally, the `MEGAPEDE.RES` resource file.
+
+#### Mercenaries 2: World in Flames
+
+- [mercs2-wad-simulator](https://github.com/Mercenaries-Fan-Build/mercs2-wad-simulator) - Rust workspace for Mercenaries 2 WAD analysis, asset extraction and Xbox-to-PC conversion, including a `wad_simulator` validator for WAD structure and asset hashes and the `qm` linter/builder for Shipment mod packages.
 
 #### MercurySteam
 
@@ -434,6 +443,10 @@
   - Formats: PVS (track model instances/textures), STX.BIN/BIN (CAFF textures), FXOBJ (Effects Lite shaders), RMB.BIN (3D geometry), BIX (textures).
   - Features: Model/instance placement, vertex buffer layout support, DDS texture repacking without re-encoding.
 - [forzatech-formats](https://github.com/Kalmarv/forzatech-formats) - Rust library that reads Forza Horizon 6 (ForzaTech) game files: encrypted containers, GeoChunk track archives, Grub bundles (`.modelbin`, `.swatchbin`, `.materialbin`, `.shaderbin`) and track placements (`.pgeo`, `.plib`, `.pvs`).
+- [ForzaPartTool](https://github.com/ryry2515/ForzaPartTool) - Windows editor for Forza Horizon 1 cars (Xbox 360, Xenia): 3D carbin viewer, part and custom model editing and DLC export, with Python libraries for the game's file formats.
+- [driversf-forza](https://github.com/xob0t/driversf-forza) - Python pipeline that converts cars from Forza Horizon and Forza Motorsport 4 disc images into Driver: San Francisco (PC) cars.
+- [FH1-Map-Manager](https://github.com/CuteTenshii/FH1-Map-Manager) - Qt 6/C++20 viewer for the world of Forza Horizon (Xbox 360) read from an extracted disc: overlays gameplay objects, routes, collision, nav nodes and AI routes parsed from the game's XML, `.nav` and `.owt` files on its satellite map.
+- [carbin-garage](https://github.com/ItsNotPaths/carbin-garage) - Alpha cross-game car-archive editor for Xbox 360 era Forza titles (Forza Motorsport 4, Forza Horizon): imports cars, swaps parts between donors, retextures and deploys as a Forza Horizon DLC package.
 
 ##### Age of Empires
 
@@ -504,6 +517,10 @@
 - [gauntlet-soundrom-ai-reveng](https://github.com/alinsavix/gauntlet-soundrom-ai-reveng) - AI-assisted reverse engineering of the Gauntlet II arcade sound coprocessor ROM.
 - [gauntlet-gamerom-ai-reveng](https://github.com/alinsavix/gauntlet-gamerom-ai-reveng) - AI-assisted reverse engineering of the Gauntlet II arcade main 68010 game ROM.
 
+##### Hydro Thunder
+
+- [HydroThunderTool](https://github.com/pakahenepy/HydroThunderTool) - Single-file stdlib Python tool for Hydro Thunder (PC, Midway/Eurocom 2000): unpacks `Hydro.fsd` (EDL1 Huffman+LZ codec), recovers 536 of 542 original filenames from `HYDRO.EXE` and converts the EGF UI, world and track-surface textures (3dfx Glide formats) to PNG.
+
 ##### Mortal Kombat
 
 - [MortalKombat (leeao)](https://github.com/leeao/MortalKombat) - Noesis plugin for Mortal Kombat: Deadly Alliance, Deception, and Armageddon (PS2), and Mortal Kombat: Unchained (PSP) DFF/MKA models.
@@ -511,6 +528,7 @@
 - [Unpacker-and-Repacker-to-MK-Shaolin-Monks-pack-PS2](https://github.com/RayneDuarte/Unpacker-and-Repacker-to-MK-Shaolin-Monks-pack-PS2-) - Unpacks and repacks the archive format used by Mortal Kombat: Shaolin Monks (PS2).
 - [SSFExplorer](https://github.com/ermaccer/SSFExplorer) - Tool to view and edit Mortal Kombat PS2-era archive files.
 - [rewolf-mortal-kombat](https://github.com/rwfpl/rewolf-mortal-kombat) - Parser for Mortal Kombat's GRA graphics resource files (compressed sprites and palettes). See also the companion [rewolf-mortal-kombat-viewer](https://github.com/rwfpl/rewolf-mortal-kombat-viewer), a viewer for the uncompressed GRA files it produces.
+- [mksf-modding-tools](https://github.com/Drak3Dev/mksf-modding-tools) - Blender add-on and tools for Mortal Kombat: Special Forces (PS1) that import character models (`.skn`), textures, levels, collision, enemies, items and lights from the disc image and write edits back to a copy of it.
 
 ##### NARC
 
@@ -592,6 +610,7 @@
 - [NBTSerializer](https://github.com/gigaherz/NBTSerializer) - Minecraft NBT serialization library.
 - [PCK-Studio](https://github.com/LCERD/PCK-Studio) - Editor for Minecraft Legacy Console Edition .PCK archive format. See also [Quiver](https://github.com/LCERD/Quiver), its IDE-style successor for editing LCE DLC packs (formerly PCK++), and [LegacyPlusPlus](https://github.com/LCERD/LegacyPlusPlus), a Legacy Console Edition file editor built on the same author's libLCE library.
 - [MCLCEArchiver](https://github.com/Pyogenics/MCLCEArchiver) - CLI tool and library for reading Minecraft Legacy Console Edition `.arc` archive files (work-in-progress; archive creation not yet supported).
+- [lce2je](https://github.com/nicodotgit/lce2je) - GUI converter from Minecraft Legacy Console Edition (leaked Windows64 build) `.ms` world saves to Java Edition 1.6.4 saves, translating chunk regions and profile data.
 - [CompareNbt](https://github.com/gigaherz/CompareNbt) - Tool for comparing and analyzing Minecraft NBT binary data format files.
 - [MinecraftLCE](https://github.com/GRAnimated/MinecraftLCE) - Decompilation of Minecraft: Legacy Console Edition with asset parsing. See also [Minecraft-Xbox-360-Decompilation](https://github.com/LCERD/Minecraft-Xbox-360-Decompilation), a separate decompilation/rewrite effort targeting the Xbox 360 version.
 - [DumpModel](https://github.com/gigaherz/DumpModel) - Forge mod to export Minecraft models (items, blocks, entities) to .OBJ format.
@@ -633,6 +652,7 @@
 - [LCE-MultiTool](https://github.com/AITYunivers/LCE-MultiTool) - Work-in-progress suite of tools for previewing Minecraft Legacy Console Edition files (preview-only, no editing yet), based on file formats documented by Team LodeStone and the OMI Filetype Library.
 - [bedrock-viz](https://github.com/bovercash/bedrock-viz) - Minecraft Bedrock Edition world visualization and reporting tool with a web app frontend, reading Bedrock's LevelDB-based world save data. Active fork (206 commits ahead) of the original [paulgrahek/bedrock-viz](https://github.com/paulgrahek/bedrock-viz), which has been stale since 2020.
 - [nbtui](https://github.com/respectZ/nbtui) - Terminal viewer and editor for Minecraft Bedrock Edition `.mcstructure` NBT files, with a 3D block-grid navigator, block-palette editing, validation, and undo/redo.
+- [brarchive-extractor](https://github.com/LPaicen/brarchive-extractor) - TypeScript CLI (`brax`) that extracts Minecraft Bedrock `.brarchive` files and restores MCB binary documents to JSON using schemas exported from BDS or the client.
 
 ##### Minecraft Dungeons
 

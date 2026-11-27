@@ -255,6 +255,7 @@
   - Formats: PSB, PSZ, MDF, PIMG, SCN, MMO, EMTBYTES, MTN, DPAK.
 - [emote-psb-rs](https://github.com/storycraft/emote-psb-rs) - Rust library and CLI for parsing, decoding and encoding M2 Emote PSB files.
 - [FreeMote-SDK](https://github.com/Project-AZUSA/FreeMote-SDK) - SDK for "Special Emote" engines that take pure (unencrypted) PSB files as input, working around M2 Emote's per-version key isolation.
+- [emote-to-cubism](https://github.com/funlin724/emote-to-cubism) - E-mote (PSB) to Live2D Cubism conversion toolchain with format documentation for the MzS container, E-mote PSB and moc3; assembles E-mote layer trees into layered PSDs and moc3 models.
 
 #### Aqualead
 
@@ -351,6 +352,8 @@
   - See also [AssetRipper's fork](https://github.com/AssetRipper/Fmod5Sharp) with additional fixes used by the AssetRipper project.
 - [Fmod5Sharp (AssetRipper fork)](https://github.com/AssetRipper/Fmod5Sharp) - AssetRipper's maintained fork of SamboyCoding/Fmod5Sharp; a C# decoder for FMOD 5 FSB sound banks used internally by the AssetRipper Unity asset extraction pipeline.
 - [FMODSoundBankEditor](https://github.com/TheAdmiester/FMODSoundBankEditor) - GUI editor for FSB4 version FMOD sound bank (.fsb) files. Supports viewing, replacing, and exporting audio samples. Primarily developed for Xbox 360 Forza titles.
+- [fsbex](https://github.com/astral4/fsbex) - Rust library for extracting audio from FMOD FSB5 sound banks.
+- [FSB-BANK-Extractor-Rebuilder](https://github.com/IZH318/FSB-BANK-Extractor-Rebuilder) - C++/C# tools (CLI and GUI) for browsing `.fsb`/`.bank` audio streams and extracting them to WAV; the GUI can replace sounds and rebuild the bank.
 
 #### Wwise
 
@@ -363,6 +366,7 @@
 - [ExportUtilityWwise](https://github.com/djhaled/ExportUtilityWwise) - Console tool that exports Wwise audio events from Unreal Engine-based games (Valorant, Sea of Thieves, and others) to WAV files, automating sound extraction.
 - [wemkit](https://github.com/coconutbird/wemkit) - Toolkit for working with Wwise WEM audio files.
 - [BNK-Tools](https://github.com/JSleim/bnk-tools) - Command-line utility for Wwise `.bnk` soundbanks: lists audio IDs, extracts one or all `.wem` files, replaces single or multiple `.wem` files from a JSON map (optional big-endian), and includes an event parser mapping events and containers to audio file IDs.
+- [BNKTool](https://github.com/JohnnYoru/BNKTool) - Extracts Wwise `.bnk` soundbanks to `.wem` files and repacks modified `.wem` files back into the banks, with double-click and command-line tools.
 ### Platform SDKs & Hardware
 #### XNA
 
@@ -675,6 +679,7 @@
 - [Aseprite-Nitro-Plugins](https://github.com/ravenDS/Aseprite-Nitro-Plugins) - Aseprite scripts for Nintendo DS Nitro-format tile/palette export.
 - [PKMN-DS-Blender-ToolBox](https://github.com/PostMalloy/PKMN-DS-Blender-ToolBox) - Blender scripts for modeling Generation IV/V Pokémon DS game models.
 - [libTWLPy](https://github.com/NinjaCheetah/libTWLPy) - Python library for Nintendo DSi files modeled on NinjaCheetah's libWiiPy for the Wii: TMD/Ticket/TAD parsing, TAD content extraction/decryption/re-encryption/packing, and NUS title downloading. Used by NUSGet above for DSi TAD support.
+- [Nds4j](https://github.com/969981/Nds4j) - Java library for reading, modifying and creating Nintendo DS file types (NDS ROM, NARC, NCGR, NCLR and more), a Java counterpart to ndspy.
 
 ##### Nintendo 64
 
@@ -1023,6 +1028,9 @@
 - [psp-arc-sdk](https://github.com/galaxyhaxz/psp-arc-sdk) - Tools for building and extracting the DES-CBC encrypted .arc format updates found within early PSP SDKs.
 - [PSPLibDoc](https://github.com/Spenon-dev/PSPLibDoc) - Documents symbols (NIDs) of PSP modules across firmware versions, with tools to load PSPLibDoc XML, PSP export (.exp), and PPSSPP HLE source files.
 - [pkgrip](https://github.com/qwikrazor87/pkgrip) - Fast Linux tool for decrypting PS3/PSP PKG files.
+- [PkgLens](https://github.com/primetime43/PkgLens) - Desktop app and CLI to inspect, extract, edit, build, decrypt, convert and verify PS3, PSP and PS Vita packages, with SELF/EBOOT, EDAT/SDAT and PSARC tools.
+- [pkgview](https://github.com/Stolly345/pkgview) - Rust/GTK 4 port of PkgView for browsing, verifying and extracting PS3/PSP `.pkg` packages on Linux (PS4 packages can be inspected, not unpacked).
+- [PyKG](https://github.com/AphelionWasTaken/PyKG) - Python GUI/CLI to extract or build PS3 PKG files (retail and debug/homebrew), with bulk install to RPCS3.
 - [nploader](https://github.com/codestation/nploader) - PSP plugin for directly reading and loading DLC content in decrypted EDAT/PGD/SPRX form.
 - [DTP-T1000-Pre-IPL-dumper](https://github.com/mathieulh/DTP-T1000-Pre-IPL-dumper) - Dumps the PSP's Pre-IPL loader segment from kbooti/bootdispi boot files.
 - [qcma](https://github.com/codestation/qcma) - Cross-platform, open-source alternative to Sony's Content Manager Assistant for transferring content to/from the PS Vita.

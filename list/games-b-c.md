@@ -138,6 +138,7 @@
 - [Tales-of-Destiny-2](https://github.com/lifebottle/Tales-of-Destiny-2) - Reverse engineering notes for Tales of Destiny 2 (PS2/PSP), created for an English fan translation.
   - Formats: PS2 `FILE.FPB` archive with a pointer table embedded in `SLPS_251.72`, PSP `FILE.FPB` inside `EBOOT.BIN`, the `SCED` script format, and the `SLPS_251.72`-embedded `TM2` font format.
   - Same author also publishes similar translation/RE projects for other Tales Of titles, including [Tales-of-Destiny-DC](https://github.com/lifebottle/Tales-of-Destiny-DC), [Tales-of-Innocence-R](https://github.com/lifebottle/Tales-of-Innocence-R), and [Tales-of-Phantasia-X](https://github.com/lifebottle/Tales-of-Phantasia-X). See also [Star-Ocean-2](https://github.com/lifebottle/Star-Ocean-2) above for the same author's work on a Bandai Namco-published Square Enix/tri-Ace title.
+- [berseria_model_tool](https://github.com/eArmada8/berseria_model_tool) - Scripts to export meshes from Tales of Berseria and Zestiria `.TOMDLB_D`/`.TOMDLP_P` files as raw buffers for the 3DMigoto Blender importer (plus glTF) and import them back.
 
 ##### Eternal Sonata
 
@@ -155,6 +156,9 @@
 - [Taiko Web Plugins](https://github.com/KatieFrogs/taiko-web-plugins) - Plugin collection extending the Taiko Web fan simulator with additional features.
 - [Taiko Sound Editor](https://github.com/NotImplementedLife/TaikoSoundEditor) - GUI tool to convert and edit song audio data into Taiko no Tatsujin Nijiiro's .nus3bank format (arcade).
 - [taiko3ds1tl](https://github.com/Yonokid/taiko3ds1tl) - Scripts and GUI for translating Taiko no Tatsujin 3DS1 story scripts: extract exefs/romfs from `.cia`, unpack/rebuild the `packed`/`packedlist` archive, and dump/repack Huffman-compressed `.msb` dialogue files to JSON.
+- [Taiko2x6Wizard](https://github.com/GanYiZhong/Taiko2x6Wizard) - Python/Qt toolkit for arcade Taiko no Tatsujin SYSTEM256/2x6 (PS2-based): browses archives, adds/replaces songs (charts, audio, textures, database), edits per-song `.bin` tables, converts TJA and Gen3 (Nijiiro) fumen charts and reads/writes PS2 HDD images and memory cards.
+- [taikotools](https://github.com/mariodon/taikotools) - Tools from the Taiko no Tatsujin V (PS Vita) translation project, including `psvita-l7ctool` to extract and create Bandai Namco `.l7z` archives (also used by Tales of Hearts R).
+  - See also [taiko-vita-tools](https://github.com/rayriffy/taiko-vita-tools), a port for .NET 9 that builds on non-Windows systems.
 
 ##### Digimon All-Star Rumble
 
@@ -163,6 +167,7 @@
 ##### Digimon Story Time Stranger
 
 - [dstsmodel](https://github.com/wwylele/dstsmodel) - Rust tool that parses Digimon Story Time Stranger model files and converts them to Collada.
+- [Time-Stranger-Mod-Studio](https://github.com/ElderLich/Time-Stranger-Mod-Studio) - Windows editor for Digimon Story: Time Stranger data (MBE/CSV tables, skills, buffs, evolutions, portraits and dot sprites) with Reloaded II mod export.
 
 ##### Digimon World Re:Digitize (Decode)
 
@@ -177,6 +182,18 @@
 - [DigimonNDSRomEditor](https://github.com/joaomlsantos/DigimonNDSRomEditor) - ROM editor for Digimon World: Dawn and Digimon World: Dusk (Nintendo DS, USA releases NTR-A6RE/NTR-A3VE); opens, edits, and saves data directly inside the `.nds` ROM.
 - [Digimon-World-Dawn-Dusk-Research-Notes](https://github.com/joaomlsantos/Digimon-World-Dawn-Dusk-Research-Notes) - Reverse engineering research notes, data files, and scripts documenting the internal formats of Digimon World: Dawn and Digimon World: Dusk (US NDS releases); the format research underlying DigimonNDSRomEditor above and DWDDRandomizer below.
 - [DWDDRandomizer](https://github.com/joaomlsantos/DWDDRandomizer) - Randomizer and quality-of-life patcher for Digimon World: Dawn and Digimon World: Dusk, reading and rewriting the games' `.nds` ROM data directly, built on the same format research as DigimonNDSRomEditor above.
+
+##### Ridge Racer Revolution
+
+- [extraction-racer-revolution](https://github.com/AcidicVoid/extraction-racer-revolution) - Reverse-engineered asset extractor for the PS1 version that exports textures and 3D models.
+
+##### SoulCalibur II (System 246)
+
+- [SoulCalibur2](https://github.com/msaifuddin/SoulCalibur2) - Python reader and editor for the encrypted Conquest memory card of the SoulCalibur II System 246 arcade version: implements the card cipher and bit-packed player database, edits names, passwords and records, and builds CPU opponents.
+
+##### THE iDOLM@STER 2
+
+- [Imas2ToolS](https://github.com/Waldenth/Imas2ToolS) - Tool set from a Chinese translation group for THE iDOLM@STER 2 (PS3): previews, unpacks and repacks `mpc` archives, edits `scb` script text and exports `xmb` text as JSON.
 
 #### Bushiroad / Craft Egg (BanG Dream! Girls Band Party)
 
@@ -276,6 +293,9 @@
 - [Champollion](https://github.com/Orvid/Champollion) - PEX to Papyrus decompiler for Skyrim, Fallout 4, Fallout 76, and Starfield. Decompiles binary .pex scripts to human-readable .psc format.
 - [SSE-Fallout-4-Voice-Dialog-Converter](https://github.com/Backporter/SSE-Fallout-4-Voice-Dialog-Converter) - Voice dialog converter for Fallout 4 and Skyrim; converts .fuz files to PS4 format.
 - [SSE-Fallout-4-Sound-Music-Converter](https://github.com/Backporter/SSE-Fallout-4-Sound-Music-Converter) - Audio converter for Fallout 4 and Skyrim; converts .xwm and .wav files to PS4 format.
+- [BethesdaLibrary](https://github.com/BadDogSkyrim/BethesdaLibrary) - Reference library on Skyrim (LE/SE), Fallout 4 and Starfield file formats, structure and behavior, with Python tools (not all content vetted).
+- [ba2-toolkit](https://github.com/soredake/ba2-toolkit) - TypeScript reader, inspector, extractor and writer for Bethesda BA2 (`BTDX`) archives of Fallout 4 (including Next Gen), Fallout 76 and Starfield, covering `GNRL` and `DX10` archives with DDS reconstruction and version 3 LZ4 payloads.
+- [esp-kaitai](https://github.com/Open-CK/esp-kaitai) - Kaitai Struct definitions for Bethesda `.esp`/`.esm` plugin records (33 of 118 record types done), intended as the parser for OpenCK.
 
 ##### Elder Scrolls
 
@@ -307,6 +327,7 @@
 - [tes3map](https://github.com/rfuzzo/tes3map) - Renders a map from a Morrowind load order's .esp/.esm plugins, with height/region/travel-route overlays, zoom/pan, and image export.
 - [tes3util](https://github.com/rfuzzo/tes3util) - Command-line tool for Morrowind plugins: dumps/packs/serializes records to YAML/TOML/JSON, computes worldspace atlas coverage, and exports to a SQL database. Also underlies [tes3-records](https://github.com/rfuzzo/tes3-records), a searchable YAML record dump/database (~55,000 records) covering Morrowind, Tribunal, Bloodmoon, and major community content packs (Tamriel_Data, TR_Mainland, OAAB_Data).
 - [bsapack](https://github.com/xyzz/bsapack) - Windows command-line packer/unpacker for Morrowind BSA archives (list, unpack, create), with source included.
+- [tes4skyrim](https://github.com/bryantmh/tes4skyrim) - Python pipeline converting Oblivion master and plugin files (records, meshes, textures, collision, animations, sounds, dialogue, scripts) to Skyrim format; pre-alpha.
 
 ##### Fallout (Bethesda)
 
@@ -405,6 +426,7 @@
 #### Bizarre Creations
 
 - [Pursuit-Force-Decomp](https://github.com/itasimo/Pursuit-Force-Decomp) - Decompilation of Pursuit Force (2005, PlayStation 2).
+- [blursave-editor](https://github.com/ZR1Legend/blursave-editor) - Save game editor for Blur (PC, 2010) with notes on how the save file is built.
 
 #### Tower Game (BK-0011M Reverse Engineering)
 
@@ -486,6 +508,8 @@
 - [Blizzard-Updater](https://github.com/stoneharry/Blizzard-Updater) - Generator for Blizzard-style game installer/updater packages.
 - [WoW-Map-Asset-Parser](https://github.com/stoneharry/WoW-Map-Asset-Parser) - Command-line tool that scans a World of Warcraft 3.3.5 map's ADT files (plus optional WMO/M2 object folder) to list the assets the map uses, then copies those files from an unpacked data folder into a destination folder for patch packaging.
 - [DBC-Editing-Workflow](https://github.com/stoneharry/DBC-Editing-Workflow) - Documents a workflow for keeping World of Warcraft DBC client data in SQL tables, converting to and from DBC with the WoW-Spell-Editor's structure bindings and a headless exporter, and automating export and deployment with a Jenkins job.
+- [parp-tools](https://github.com/akspa0/parp-tools) - Preservation and analysis suite for World of Warcraft client data (Alpha 0.5.3 through WotLK, partial later and CASC support): 3D world viewer and a CLI to inspect, dump and convert M2, MDX, BLP, WMO, ADT and WDT files.
+- [AdtToObjParser](https://github.com/Vegoo89/AdtToObjParser) - Python parser that reads WoW Legion (7.3.5) ADT terrain files through CASC and writes OBJ geometry (vertices, faces and water) for navmesh generation.
 
 ##### StarCraft (original) & Brood War
 
@@ -511,6 +535,7 @@
 - [wc-refurbished](https://github.com/joelek/wc-refurbished) - Unofficial patch for the MS-DOS version of WarCraft: Orcs & Humans, built on reverse-engineered knowledge of the game's original data files.
 - [sc2reader](https://github.com/ggtracker/sc2reader) - Python library for extracting data from StarCraft II replays, maps, and game summaries.
 - [Heroes.XmlData](https://github.com/HeroesToolChest/Heroes.XmlData) - .NET library parsing Heroes of the Storm CASC storage data through CascLib and exposing the game's XML data through an API.
+- [sc2-file-format-docs](https://github.com/sc2-arcade-watcher/sc2-file-format-docs) - Format specifications for files inside StarCraft II archives (SC2Map, SC2Mod, SC2Campaign, SC2Replay), plus the archive/VFS layer, network protocols and engine subsystems, derived from reverse engineering the client.
 
 ##### StarCraft: Ghost
 
@@ -538,6 +563,7 @@
 - [BLPConverter](https://github.com/Kanma/BLPConverter) - Command-line tool to convert Blizzard BLP image files to PNG or TGA.
 - [W3ModelViewer](https://github.com/Darithos/W3ModelViewer) - Windows desktop viewer and exporter for Warcraft III models, covering both classic (SD) and Reforged (HD) formats.
 - [wc3studio](https://github.com/zxclushkin/wc3studio) - Python CLI and Qt/OpenGL GUI for browsing, extracting, converting and animating Warcraft III assets: MPQ archives, MDX models, BLP textures, SLK/TXT data tables and FDF interface files, with OBJ and glTF export including skins and animation.
+- [wc3-file-formats](https://github.com/Luashine/wc3-file-formats) - Work-in-progress documentation of Warcraft III's proprietary file formats and their versions, with Kaitai Struct definitions and a JSON converter under development.
 
 ##### Diablo
 
@@ -936,6 +962,8 @@
 - [libthanatos](https://github.com/Fothsid/libthanatos) (archived) - C++ library for reading and writing the `.nbd` 3D model format used by Resident Evil Outbreak and Resident Evil Outbreak File #2.
 - [Biohazard2 (PlayJS)](https://github.com/yanmingsohu/Biohazard2) - Independent JavaScript reimplementation of Resident Evil 2 (1998 PC) that loads the original game's 3D models, animations, and map/occlusion data; requires the original game files.
 - [R3ditor](https://github.com/themitosan/R3ditor) - NW.js editor for Resident Evil 3 (classic) files: `Bu00.sav` saves, `.msg` messages and Room Data Table (`.RDT`) files (rooms WIP). Development moved to R3ditor V2; this repo is on hold.
+- [RE6-ARC-Tool](https://github.com/Dimcirui/RE6-ARC-Tool) - GUI unpacker, previewer and repacker for Resident Evil 6 (PC) `.arc` archives with TEX preview and TEX/DDS write-back.
+- [RE4_BIN_TOOLS_ANDROID](https://github.com/Kenzo271097/RE4_BIN_TOOLS_ANDROID_v1_2) - Android app that extracts Resident Evil 4 (PS2) `.BIN` models to OBJ/MTL/SMD, with vertex and bone weights, and repacks edited OBJ or SMD models.
 
 ##### Dino Crisis
 
@@ -997,6 +1025,7 @@
 - [MH Tri Collision Editor](https://github.com/Paxlord/mhtri_collision_editor) - Blender extension for importing, editing, and exporting Monster Hunter Tri collision files (`.sch` collision meshes and `.bin` collision archives), preserving polygon metadata and grid-cell attributes.
 - [PaxMHFZQuestEditor](https://github.com/Paxlord/PaxMHFZQuestEditor) - Quest editor for Monster Hunter Frontier Z.
 - [Pax-Mhfz-Loader](https://github.com/Paxlord/Pax-Mhfz-Loader) - General-purpose mod loader for Monster Hunter Frontier Z.
+- [ReFrontier](https://github.com/Houmgaor/ReFrontier) - CLI toolset for Monster Hunter Frontier Online that unpacks, decrypts and decompresses game files for editing, then compresses, encrypts and repacks them.
 
 ##### Devil May Cry
 
@@ -1086,6 +1115,7 @@
 
 - [Dragon's Dogma Research](https://github.com/Atvaark/DragonsDogma.Research) - File format research and documentation for Dragon's Dogma.
 - [Arisen Save Game Editor](https://github.com/snowbird00000/DDDA-Arisen-Save-Game-Editor) - Standalone save editor for Dragon's Dogma: Dark Arisen, reading/writing `DDDA.sav` directly via a built-in Python unpacker/repacker (no external DDsavetool.exe needed). See also [DDDA_Save_Game_Affinity_Editor](https://github.com/RamKromberg/DDDA_Save_Game_Affinity_Editor) for editing NPC affinity values in the same save format, and [pyDDDAsavetool](https://github.com/RamKromberg/pyDDDAsavetool), a standalone Python unpacker/repacker for the same `DDDA.sav` format.
+- [Riftstone](https://github.com/Nyrquellts/Riftstone) - Modding toolkit for Dragon's Dogma: Dark Arisen (with a preservation toolkit for Dragon's Dogma Online) that reads and rewrites the game's files byte-for-byte.
 
 ##### Dragon's Dogma 2
 
@@ -1129,6 +1159,10 @@
 
 - [noclip.website (Casper: Spirit Dimensions)](https://github.com/magcius/noclip.website/tree/main/src/CasperSpiritDimensions) - In-browser level viewer for Casper: Spirit Dimensions (GameCube/PS2, TDK Mediactive), covering all 16 levels and parsing the game's custom `.BSP` map format.
 
+#### Castle of the Winds
+
+- [CastleOfTheWinds](https://github.com/hallipr/CastleOfTheWinds) - Save file notes and utilities for Castle of the Winds (Windows 3.1, Epic MegaGames 1993).
+
 #### South East Games (CastleMiner Z)
 
 - [CMZ360ToPCWorldConverter](https://github.com/RussDev7/CMZ360ToPCWorldConverter) - Utility for CastleMiner Z that decrypts Xbox 360 / older-style encrypted world save files (using the game's CMZ778-suffixed save key) and copies them into an unprotected form the PC version can load.
@@ -1147,6 +1181,7 @@
 - [TW3-PS4-Texture-Patcher](https://github.com/Backporter/TW3-PS4-Texture-Patcher) - Tool for patching The Witcher 3 PS4 texture file formats with custom data
 - [Witcher-3-ModKit-UI](https://github.com/rfuzzo/Witcher-3-ModKit-UI) - GUI and workflow automation wrapper around wcc_lite, the official REDkit command-line cook/uncook tool for The Witcher 3.
 - [Witcher-3-Conflicts-Manager](https://github.com/rfuzzo/Witcher-3-Conflicts-Manager) (archived) - Mod conflict manager for The Witcher 3, using WolvenKit's bundle/cache libraries to detect overlapping files across installed mods.
+- [Witcher3-Blender-Tools](https://github.com/dingdio/Witcher3-Blender-Tools) - Blender add-on to import/export Witcher 3 `.w2mesh`, `.w2rig` and `.w2anims`, import maps (`.w2l`, `.w2w`), entities (`.w2ent`) and lipsync, with partial Witcher 2 support.
 
 ##### The Witcher
 
@@ -1247,6 +1282,10 @@
 
 - [Chobits-Atashi-Dake-no-Hito-Tool](https://github.com/gopicolo/Chobits-Atashi-Dake-no-Hito-Tool) - Python scripts (`dump.py`, `repack.py`) that extract Shift-JIS dialogue from the Game Boy Advance ROM of Chobits: Atashi Dake no Hito (Japan) into a text file and reinsert translated text with an updated pointer table.
 
+#### Takara Tomy (Choro Q)
+
+- [roadtrip-choroq-tools](https://github.com/mholeys/roadtrip-choroq-tools) - Python extraction and modding tools for Choro Q PS2 games (HG1-HG4, Choro Q Works, Shin Combat Choro Q), focused on car body and map model/texture formats, with the most support for HG2 (Road Trip Adventure).
+
 #### Macross (Chou Jikuu Yousai Macross)
 
 - [Macross-SDF-Blender](https://github.com/Tzeentchnet/Macross-SDF-Blender) - Blender 5.2 add-on importing models, TIM2 textures, materials, skeletal animations, Valkyrie transformations and stages from Chou Jikuu Yousai Macross (PS2), reading from a disc image or extracted files.
@@ -1284,6 +1323,10 @@
 - [codemastersMarkov](https://github.com/romhack/codemastersMarkov) - Markov graphics compression tool for a variety of Codemasters games on NES.
 - [dizzy](https://github.com/RyanMallon/dizzy) - Extracts and views assets from Fantastic Dizzy (Codemasters, DOS), unpacking the game's DIZZY.NDX/DIZZY.RES chunk archives and rendering the sprite and stage data they contain.
 
+#### Swordfish Studios (Cold Winter)
+
+- [ColdWinterPS2_Model_Viewer](https://github.com/FrankoU28/ColdWinterPS2_Model_Viewer) - Work-in-progress Noesis plugin (`fmt_ColdWinter_DFF.py`) to view and extract character and object meshes from Cold Winter (PS2), without textures yet.
+
 #### Com2uS
 
 
@@ -1291,6 +1334,10 @@
 
 - [noesis-smon](https://github.com/Ilemni/noesis-smon) - Noesis plugin for importing Summoners War: Sky Arena models.
 - [SWProxy](https://github.com/kakaroto/SWProxy) - Parses data captured from the initial Summoners War login traffic to extract information on the user's monsters and runes.
+
+#### Commandos: Strike Force
+
+- [csf-editor](https://github.com/eonflux7/csf-editor) - Mission editor for Commandos: Strike Force (Windows, Linux): Blender map building, objectives, triggers and cutscenes without script text, replacement mission archive deployment, plus a RenderWare `.rws` inspection toolkit.
 
 #### Conic Games
 
@@ -1355,6 +1402,12 @@
 - [Greymane](https://github.com/echo000/Greymane) - Asset extractor for Crimson Desert.
 - [CrimsonDesert-AutoFontModder](https://github.com/kh0shn4w/CrimsonDesert-AutoFontModder) - Automatically repacks custom TTF fonts into Crimson Desert's game archives, with exact size matching and LZ4 compression.
 - [paz-extractor](https://github.com/bdo-caphras/paz-extractor) - Clean-room Rust CLI for Black Desert Online `.PAZ` archives: parses `pad00000.meta`, decrypts the ICE-encrypted filename tables and payloads, decompresses the custom LZ77, and optionally converts DDS to PNG.
+- [CDMW-Full](https://github.com/Ratty123/CDMW-Full) - Crimson Desert Mod Workbench: Windows app to browse game assets, edit meshes and textures, adjust equipment placement and build mod packages.
+- [crimson-desert-unpacker](https://github.com/lazorr410/crimson-desert-unpacker) - C++17 library and GUI that parses PAMT indexes, decrypts (ChaCha20, key derived from the file name), LZ4-decompresses and repacks Crimson Desert `.paz` archives.
+- [bdo-data-extractor](https://github.com/iDevelopThings/bdo-data-extractor) - Go CLI that decodes Black Desert Online client files (PAZ archives, `.bss`/`.dbss` binary tables, recipe XML, `.loc` localization) into JSON plus item icons, covering items, recipes, NPCs, grind spots, nodes, fishing spots and the knowledge tree.
+- [dmm-parser](https://github.com/exodiaprivate-eng/dmm-parser) - Crimson Desert `.pabgb`/`.pabgh` table and `.paz`/`.pamt`/`.papgt` archive parser used by the DMM mod loader (fork of crimson-rs; restricted source-available license).
+- [crimson-rs](https://github.com/potter420/crimson-rs) - Rust/Python library for Crimson Desert data: extracts and parses `.paz` archives and parses, edits and writes back `iteminfo` `.pabgb` tables.
+- [mod-workbench](https://github.com/NattKh/mod-workbench) - Standalone Rust (egui) editor for Crimson Desert data tables: browses and edits every parseable `pabgb` table with type-aware widgets and deploys mods as PAZ overlays.
 
 #### Flying Shine (Cross†Channel)
 
@@ -1371,6 +1424,7 @@
 - [SeriousSkaConverter](https://github.com/DreamyCecil/SeriousSkaConverter) - Converts various ASCII model formats into Serious Engine 1's SKA skeletal model format.
 - [io_sedASCII](https://github.com/purifetchi/io_sedASCII) - Blender addon for importing/exporting Serious Editor ASCII formats.
 - [SeriousFormatIO](https://github.com/REDxEYE/SeriousFormatIO) - Library for reading and writing Serious Sam 4 asset files.
+- [Serious-Engine-Formats](https://github.com/zcaliptium/Serious-Engine-Formats) - Kaitai Struct format specifications for Serious Engine 1 and Serious Engine 2+ files.
 
 #### Crows Crows Crows
 
@@ -1469,6 +1523,7 @@
 - [TRAODLI](https://github.com/Nakamichi680/TRAODLI) - Tomb Raider: The Angel of Darkness Level Importer, companion to TRAODLE above.
 - [TRAODMP](https://github.com/Nakamichi680/TRAODMP) - Tomb Raider: The Angel of Darkness EXE Multi-Patcher.
 - [TRAODTM](https://github.com/Nakamichi680/TRAODTM) - Tomb Raider: The Angel of Darkness Texture Manager.
+- [sottr-explorer](https://github.com/perillaroc/sottr-explorer) - Read-only Rust save analyzer for Shadow of the Tomb Raider (Steam) that lists missing collectibles per area with progress diffs and exportable checklists.
 
 ##### Deus Ex
 

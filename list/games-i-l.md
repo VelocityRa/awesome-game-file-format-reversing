@@ -1,4 +1,5 @@
 ### I
+
 #### RocketWerkz (Icarus)
 
 - [IcarusDataMiner](https://github.com/CrystalFerrai/IcarusDataMiner) - Command-line program to extract data from the Unreal Engine assets of the survival game Icarus.
@@ -14,6 +15,7 @@
 - [pathologic-vfs-unpacker](https://github.com/valsaven/pathologic-vfs-unpacker) - Go command-line unpacker for the `LP1C` VFS archives of the Pathologic series (e.g. Pathologic Classic HD).
 - [pathologic-mesh-viewer](https://github.com/koshkokoshka/pathologic-mesh-viewer) - 3D model viewer for Pathologic Classic HD, supporting the game's .mesh format.
 - [GorkhonScriptEditor](https://github.com/adc-ax/GorkhonScriptEditor) - Alpha-stage viewer/editor for Pathologic and Pathologic Classic HD's .bin script format, letting modders disassemble compiled scripts.
+- [pathologic_re](https://github.com/gr0grig/pathologic_re) - Toolchain for Pathologic's compiled `.bin` scripts: disassembler, source-level decompiler back to the original `.sc` language, editor and recompiler, built from reverse engineering Engine.dll and Game.exe.
 
 #### id Software
 
@@ -375,6 +377,7 @@
 - [VisPatch](https://github.com/sezero/vispatch) - Prepares and applies patch files that add water-vis data to Quake maps for transparent water in GLQuake; a revised version of Andy Bay's 1.2a source.
 - [MVDparser](https://github.com/QW-Group/mvdparser) - Parses QuakeWorld/MVDSV Multi-View Demo (MVD) files and outputs statistics and information about the recorded match in a customizable format.
 - [QWDTOOLS](https://github.com/QW-Group/qwdtools) - Converter for QuakeWorld's `.qwd` single-view demo format.
+- [mvdz](https://github.com/galfthan/mvdz) - Lossless format-aware compressor and file format for QuakeWorld MVD demos (`.mvdz`), with a CLI, Rust and C libraries and a WebAssembly build; the format is specified in FORMAT.md.
 
 ##### Modern DOOM (id Tech 4 / 6 / 7)
 
@@ -539,6 +542,10 @@
 ##### Carnival King
 
 - [CarnivalKingExtraction](https://github.com/Retiu/CarnivalKingExtraction) - Tools for extracting audio from the Incredible Technologies Carnival King arcade game's CHD ROM.
+
+#### IndyCar Racing II
+
+- [icr2tools](https://github.com/skchow03/icr2tools) - Python modding suite for IndyCar Racing II: SG track geometry editor and viewer, track previewer with camera and AI-line tools, texture conversion and palette tools, a 3DO CAD editor for Papyrus models, shared DAT/TRK/MIP code and a live telemetry overlay.
 
 #### iNiS
 
@@ -724,6 +731,7 @@
 - [noclip.website (Glover)](https://github.com/magcius/noclip.website/tree/main/src/Glover) - In-browser Glover level viewer.
 - [libgarib](https://github.com/naclomi/libgarib) - Glover reverse engineering tools and information library.
 - [glover-decomp](https://github.com/djsaunde/glover-decomp-1) - In-progress N64 decompilation of Glover, driven by an AI-assisted decompilation agent.
+- [Glovebox](https://github.com/Eddie-Lack/Glovebox) - Windows level editor for Glover (N64, USA): moves objects, adds enemies, garibs and models from any level, imports custom models and shares levels as patches; reads all data from your own ROM.
 ##### HardWar
 
 - [HardWar-SaveEdit](https://github.com/JulianOzelRose/HardWar-SaveEdit) - Web-based save game editor for the cyberpunk PC game HardWar, written in plain JavaScript and HTML.
@@ -769,6 +777,8 @@
 - [GemRB](https://github.com/gemrb/gemrb) - Portable open-source implementation of BioWare's Infinity Engine (Baldur's Gate, Icewind Dale, Planescape: Torment) that reads the original games' data files.
 - [py-eekeeper](https://github.com/grm/py-eekeeper) - Save game editor for Baldur's Gate: Enhanced Edition and other Infinity Engine games; a Python/PySide6 rewrite of eekeeper-qt, itself based on Shadow Keeper.
 - [wand_of_saves](https://github.com/hugo-bluecorn/wand_of_saves) - Flutter desktop saved-game editor for Baldur's Gate: Enhanced Edition (a successor to EE Keeper) that edits characters in savegames and `.chr` files, using pure-Dart Infinity Engine format codecs (`infinity_formats`).
+- [iesh](https://github.com/gemrb/iesh) - Python library and interactive shell from the GemRB project for exploring, reading and writing Infinity Engine data file formats.
+- [sbt-infinity](https://github.com/sbtlocalization/sbt-infinity) - Ukrainian localization team's command-line tools for Infinity Engine games (Baldur's Gate, Baldur's Gate II, Planescape: Torment, Icewind Dale): lists and extracts `BIF` resources, with Kaitai Struct definitions.
 
 ##### Atomic Bomberman
 
@@ -796,6 +806,7 @@
 - [io_scene_glacier](https://github.com/TheDodylectableX/io_scene_glacier) - Work-in-progress Blender 3.x/4.x+ add-on for importing and exporting models, skeletons, and textures from IO Interactive Glacier 1 and Glacier 2 engine games.
   - Glacier 1 (Hitman 2: Silent Assassin, Freedom Fighters, Hitman: Contracts, Hitman: Blood Money, Mini Ninjas): imports .GMS, .PRM, .TEX.
   - Glacier 2 (Hitman: Absolution, Hitman: World of Assassination, 007 First Light): imports .PRIM, .TEXT/.TEXD, .BORG, .CLOS; export is work in progress.
+- [DoubleO7evenResigner](https://github.com/mi5hmash/DoubleO7evenResigner) - Signs, unsigns, compresses, decompresses and re-signs 007 First Light SaveData files so a save can be used on another Steam account.
 
 ##### Freedom Fighters
 
@@ -892,6 +903,7 @@
 #### Jellyvision
 
 - [ydkjx (Jack Player)](https://github.com/james-wallace-ghub/ydkjx) - Swing-based reader for the SRF resource files used by the You Don't Know Jack (YDKJ) game engine, currently supporting text and audio resources.
+- [ydkjpsx-master](https://github.com/dedz212/ydkjpsx-master) - Python extractor and GLUEX viewer for You Don't Know Jack (PlayStation) `.GLU` files: exports Q&A data to JSON and plays the audio.
 
 #### Ultimate Play the Game (JETPAC)
 
@@ -981,6 +993,7 @@
 - [killingfloor2musictool](https://github.com/overlandandseas/killingfloor2musictool) - GUI tool for Killing Floor 2 that converts custom WAV audio to Wwise WEM format and swaps it into the game's existing soundtrack banks.
 - [killingfloor-map-viewer](https://github.com/TheBestPlan/killingfloor-map-viewer) - Desktop (Electron) and browser viewer for Killing Floor `.rom` maps (Unreal Engine 2.5) that reads the game's `.utx`/`.usx` packages and draws the BSP, static meshes, terrain and skybox with textures; format notes in `docs/RESEARCH.md`.
   - See also [killingfloor-map-importer](https://github.com/TheBestPlan/killingfloor-map-importer), which converts Counter-Strike 1.6/Half-Life (GoldSrc BSP v30), Quake III Arena/Team Arena (IBSP v46), Lineage 2 (Interlude) and Tactical Ops maps into Killing Floor `.rom` levels.
+- [rs2-audio-extractor](https://github.com/tuokri/rs2-audio-extractor) - Extracts Wwise audio from Rising Storm 2: Vietnam and Killing Floor 2 to Ogg, using the games' WwiseAudio metadata text files to keep original names and folder structure.
 
 #### Giant Network (King of Kings 3)
 
@@ -997,6 +1010,7 @@
 #### Kingdom Come: Deliverance
 
 - [Warbox](https://github.com/vawser/Warbox) - Modding tool for Kingdom Come: Deliverance II with a table editor for the game's configuration tables and a text editor for localization, saving full or patch-only files and packaging them into PAK files.
+- [Kingdom-Come](https://github.com/Scrivener07/Kingdom-Come) - Documentation and C# utilities for Kingdom Come: Deliverance table files (header layout, data types and XML table descriptors).
 
 #### Blueside (Kingdom Under Fire II)
 
@@ -1059,6 +1073,7 @@
 - [kvs-tools](https://github.com/Hairo/kvs-tools) (archived) - Tools for extracting and archiving Koei Tecmo's .ktsl2stbin archive format.
 - [game-save-dw3cer](https://github.com/VdustR/game-save-dw3cer) - Browser-local save patcher for Dynasty Warriors 3: Complete Edition Remastered (Steam): reads and rewrites the Unreal Engine GVAS `GameStatusData.sav` (officers, stages, weapons, items, bodyguards) with byte-identical native/browser output and input validation.
 - [G1T](https://github.com/hearhellacopters/G1T) - 010 Editor templates and research on the G1T texture format, covering 138 texture formats across PS3, X360, Wii/Wii U, 3DS, Vita, PS4/PS5, Switch, Android, iOS, Mac and Windows.
+- [kaodata-re](https://github.com/tzengyuxio/kaodata-re) - Research notes and Python tools for the data formats of early KOEI games (Romance of the Three Kingdoms, Nobunaga's Ambition and other pre-2000 strategy titles), starting from the portrait files.
 
 ##### Fatal Frame
 
@@ -1071,6 +1086,7 @@
 ##### Hyrule Warriors
 
 - [HWL-SaveEditor](https://github.com/nedron92/HWL-SaveEditor) - Save editor for Hyrule Warriors Legends (Nintendo 3DS).
+- [NupExplorer](https://github.com/lunixxx37/NupExplorer) - Browses, previews and extracts NUP containers of Nintendo Switch 2 titles (base game and update merged): BNTX textures, audio, 3D models with skeletal animation, video, texts and data, covering Koei Tecmo's Katana engine as in Hyrule Warriors: Age of Imprisonment.
 
 #### Konami
 
@@ -1203,6 +1219,7 @@
 - [Solideye](https://github.com/Jayveer/Solideye) - Extracts and repacks Slot, Stage, DAR, and QAR archive files from Metal Gear Solid 4, with decryption/encryption support for MGS4 Database disc, Metal Gear Online 2, and MGS4 Demo Package stage files.
 - [MGSDATool](https://github.com/gdkchan/MGSDATool) - Metal Gear Solid 3/4 translation toolkit.
 - [Codec](https://github.com/otac0n/Codec) - Asset browser and modding tool for the Metal Gear series (MGS1-MGS4, Peace Walker, Master Collection). Reads .dar, .dir, .qar, .slot, .pak, STAGE.DAT, FACE.DAT, RADIO.DAT and VOX.DAT archives and the Master Collection .psb.m packages, and previews CTXR, RPK, TXN, TXP textures, KMD, KMS, KMY and MDN models, and SDT, SDX and WVX sound packs (some formats read and write).
+- [Fox_Parser](https://github.com/captainzero93/Fox_Parser) - Round-trip unpack/edit/repack toolkit for Metal Gear Solid V's Fox engine formats: archives (`.dat`, `.qar`), textures (`.ftex` to DDS), `.fox2` to XML, shaders (`.fsop`/`.fxc` to HLSL), text, audio, animations and parameter files, with a test suite per format.
 
 ###### Models, Textures, Animation & Stage Tools
 
@@ -1438,6 +1455,7 @@
 - [Norbyte's Baldur's Gate 3 Script Extender](https://github.com/Norbyte/bg3se) - Baldur's Gate 3 Script Extender.
 - [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944) - Native DLL plugin loader for Baldur's Gate 3.
 - [BG3-DialogsBinary-Node-Editor](https://github.com/kitmods/BG3-DialogsBinary-Node-Editor) - Node-based editor for Baldur's Gate 3 dialog binary files.
+- [bg3-savefile-parser](https://github.com/DanFinchUK/bg3-savefile-parser) - Baldur's Gate 3 `.lsv` save reader (TypeScript web app and pure-Python reference) that parses LSPK packages, LSF resources, the LSMF ECS blob, Osiris story state and `.loca` tables without LSLib.
 
 ##### Divinity: Original Sin 2
 
@@ -1566,6 +1584,10 @@
   - [manic-miner-map-renderer](https://github.com/Wal33D/manic-miner-map-renderer) - Related package that reads Manic Miners `.dat` map files and renders full-size PNGs and thumbnails of the tile layout.
 - [lrr-tech-docs](https://github.com/darkf/lrr-tech-docs) - Technical documentation wiki (reStructuredText) covering LEGO Rock Raiders' engine internals and file formats (textures, models), for modding and preservation purposes. Archived/inactive.
 
+#### LEGO Stunt Rally
+
+- [lsr_kaitai](https://github.com/OpenLSR/lsr_kaitai) - Kaitai Struct definitions for LEGO Stunt Rally file formats.
+
 #### LEGO Universe
 
 - [lu-assets](https://github.com/LU-Rebuilt/lu-assets) - C++20 library with cross-platform parsers for LEGO Universe client asset formats, including DDS, FSB, Havok, and TGA.
@@ -1581,6 +1603,10 @@
 - [skill-editor](https://github.com/LU-Rebuilt/skill-editor) - Behavior tree editor for LEGO Universe skills.
 - [psb-editor](https://github.com/LU-Rebuilt/psb-editor) - Editor for LEGO Universe's ForkParticle PSB particle-effect format.
 - [blender-lu-physics](https://github.com/LU-Rebuilt/blender-lu-physics) - Blender add-on for authoring LEGO Universe Havok collision geometry.
+
+#### Let's Make a Soccer Team!
+
+- [LMAST-Reverse](https://github.com/NexxusDrakoMultimedia/LMAST-Reverse) - One spec per file format plus standalone Python tools that parse, check and convert the data of Let's Make a Soccer Team! (PS2, PAL and Japanese releases).
 
 #### Level-5
 
@@ -1821,6 +1847,7 @@
 - [Yodecomp](https://github.com/shinyquagsire23/Yodecomp) - AI-assisted decompilation of Star Wars: Yoda Stories' engine binary (`Yodesk.exe`) into buildable C++ source, including its original asset-loading code.
 - [dftools](https://github.com/njankowski/dftools) - Python tools for Star Wars: Dark Forces and Outlaws assets, covering GOB/LFD/LAB archives and BM/CMP/FME/FNT/PAL/WAX/GMD formats.
 - [DarkForces](https://github.com/The-MAZZTer/DarkForces) - .NET file format library (MZZT.DarkForces) for reading and generating Dark Forces PC file formats, with Unity scripts and a showcase app of asset tools. Works with the DOS and Steam remaster versions, but not the remaster's enhanced formats.
+- [World Between Worlds](https://github.com/CodaLilitari/World-Between-Worlds) - Local conversion workbench that rebuilds reviewed Jedi Knight: Dark Forces II maps and mods for Mysteries of the Sith from your own game installs.
 ##### Star Wars: Galactic Battlegrounds
 
 - [Star-Wars-Galactic-Battlegrounds-Save-Game-Editor](https://github.com/Prekzursil/Star-Wars-Galactic-Battlegrounds-Save-Game-Editor) - Resource editor for Star Wars: Galactic Battlegrounds save games.

@@ -224,6 +224,7 @@
 - [terrariaxnb2png](https://github.com/Silentspy/terrariaxnb2png) - Windows command-line converter that turns Terraria `.xnb` files (a single file or a folder) into PNG images using XNA content loading.
 - [TExtract](https://github.com/antag99/TExtract) - Extractor for Terraria's content files, which are compiled to the XNB format; only implements what Terraria needs, so other games may require modification.
 - [TSGE](https://github.com/gabsoftware/TSGE) - Terraria Save Game Editor (C#) for modifying player save files (profiles) and adjusting characters.
+- [TerraXaleid](https://github.com/Dragrowl/TerraXaleid) - Reads Terraria `.wld` worlds and writes a valid `.map` that reveals the whole map without changing any tile; Python, C# and Kotlin implementations (Android app, Windows CLI).
 
 #### Terrible Toybox
 
@@ -335,6 +336,10 @@
 - [widgets_and_doodads](https://github.com/ArcaneNibble/widgets_and_doodads) - Game modding tools for Super Solvers: Gizmos & Gadgets! (Win32 version), packing and unpacking the game's `.DAT` resource files.
   - Formats: `.DAT` (barebones Win16 New-Executable-derived resource containers), `NFNT` fonts (endian-swapped Classic Mac OS font resources), `RRGB` 256-color indexed palettes, Microsoft Waveform audio, separately-stored MIDI background music.
   - Features: `dattool.py` resource packer/unpacker keyed by FourCC type + index with a JSON repack manifest, plus documentation of the game's custom text control-byte encoding.
+
+#### Falcom (The Legend of Heroes: Trails in the Sky)
+
+- [sora_no_kiseki_pac_editor](https://github.com/WhalerO/sora_no_kiseki_pac_editor) - Windows workbench (TIS_Retext) for the Sora no Kiseki remakes: TBL/DAT text editing, FPAC v1 container workspace, media preview and MDL 3D preview.
 
 #### DreamWorks Interactive (The Lost World: Jurassic Park)
 
@@ -474,6 +479,7 @@
 - [tombatools](https://github.com/hansbonini/tombatools) - Collection of utilities for extracting and modifying Tomba! (PS1) game files, including ROM hacking support.
 - [TombaRecomp](https://github.com/mstan/TombaRecomp) - Static recompilation of Tomba! (PS1) into native code.
 - [Tomba2Recomp](https://github.com/mstan/Tomba2Recomp) - Static recompilation of Tomba! 2: The Evil Swine Return (PS1) into native code.
+- [Tomba2Edit](https://github.com/SiergiejW/Tomba2Edit) - Modding, translation and extraction toolkit for Tomba! 2 (PlayStation): opens a disc image and edits levels, collision, 3D models, animations, sprites, textures, dialogue, music and movies, then repacks a playable disc.
 
 #### Tomodachi Life
 
@@ -511,11 +517,13 @@
 - [ashen-decomp](https://github.com/nenikitov/ashen-decomp) - Reverse engineering of Ashen (2004, N-Gage), extracting archive, animation, and audio resources from the game's data files.
 - [HNK-Studio](https://github.com/zbirow/HNK-Studio) - Node.js desktop tool (still in development) for Torus Games `.hnk` files, using per-game providers. Views and exports textures (with texture replacement), plays and exports audio, views and exports 3D models and skeletons, and views and edits sprites and fonts; supports Wii BGRA8888 textures and Wii 3D models.
   - [TorusModLoader](https://github.com/zbirow/TorusModLoader) - Mod manager for Torus Games titles that use HNK archives or `Packfile.dat`; compiles PNG/DDS replacements into texture payloads and applies them as an overlay without modifying the original archives. Texture mods only so far, and the interface is currently Polish-only.
+- [torus-tools](https://github.com/desuex/torus-tools) - Asset extractor and analyzer for Torus Games titles: browses `.hnk` archives (textures, strings, fonts) and views `.tsefontdescriptor` fonts; supports Monster High: New Ghoul in School (Windows, PS3, Wii, Xbox 360, 3DS) and partly some Barbie and Falling Skies titles.
 
 #### Total Annihilation
 
 - [KBot](https://github.com/coreprime/kbot) - Go toolkit and browser-based studio (asset explorer, map editor, unit viewer) for Total Annihilation and TA: Kingdoms assets, with a published format reference.
   - Formats: HPI, 3DO, COB/BOS scripts, GAF, TNT.
+- [Nanolathe](https://github.com/nanolathe-gg/nanolathe) - Go clean-room reimplementation of Total Annihilation that loads the original HPI archives and publishes research and file-format documentation.
 
 #### Clipper Software (Touché: The Adventures of the Fifth Musketeer)
 
@@ -548,6 +556,8 @@
 - [uth05win](https://github.com/KyoriAsh/uth05win) - Port of Touhou 5: Mystic Square to Windows, reading the original PC-98 game's data files.
 - [Bouhou-Patch](https://github.com/brliron/Bouhou-Patch) - Translation patch engine for Bouhou Koumakyou, Bouhou Youyoumu, and Bouhou Koumakyou 2 (Touhou fan/derivative titles), plus the fangame New Super Marisa Land; designed to be extended to more games.
 - [Bouhou-tool](https://github.com/brliron/Bouhou-tool) - Unpacks and repacks DAT archive files from the Bouhou games targeted by Bouhou-Patch above.
+- [TouhouBGMPlayers](https://github.com/IgNit3R/TouhouBGMPlayers) - .NET BGM player that reads the original data files of the Touhou games (TH06-TH20, fighting games, remake) at runtime, with original track names and loop points.
+- [thrpy-ksy](https://github.com/hoangcaominh/thrpy-ksy) - Kaitai Struct definitions for Touhou Project replay files.
 
 #### AQUA STYLE (Touhou Danmaku Kagura)
 
@@ -587,6 +597,7 @@
 - [PakPakEd](https://github.com/Daniel-McCarthy/PakPakEd) - Level editor for Treasure Adventure World's Pak Pak Mini game.
 
 #### tri-Ace
+
 ##### Radiata Stories
 
 - [RadiataSaveEditor](https://github.com/radiatastories/RadiataSaveEditor) - Windows GUI save editor for Radiata Stories (PS2), reading standalone `BASLUS-*` save files and PCSX2 `.ps2` memory cards and rewriting saves with refreshed checksums.
@@ -626,6 +637,14 @@
 #### Twilight Games
 
 - [TwL-Packer](https://github.com/ravenDS/TwL-Packer) - Unpacks/repacks .DAT archives from Twilight Games titles.
+
+#### TWilight refrAIN
+
+- [TWilight-refrAIN-TOOLS](https://github.com/vihithr/TWilight-refrAIN-TOOLS) - Python tools for TWilight refrAIN: ARC archive list/unpack/pack with a GUI, text encoding conversion and script text processing.
+
+#### Two Worlds
+
+- [TwoWorlds_PAR_Editor](https://github.com/MedievalDev/TwoWorlds_PAR_Editor) - Python/tkinter GUI editor for Two Worlds 1 `.par` parameter files (NPCs, weapons, spells, items) with byte-perfect round trips of the zlib dual-stream format, SDK field labels, JSON export/import and a written format spec.
 
 #### Krome Studios (Ty the Tasmanian Tiger)
 
@@ -826,6 +845,12 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [Ubisoft-Int](https://github.com/OAleex/Ubisoft-Int) - Extractor/rebuilder for Ubisoft `.int` video container files (IPU video + PCM audio).
 - [Rocksmith2014.NET](https://github.com/iminashi/Rocksmith2014.NET) - F#/C# libraries and a cross-platform DLC Builder app for Rocksmith 2014 custom DLC: PSARC archives, SNG/XML arrangement conversion, profile files, wav/ogg/wem audio conversion and DDS conversion.
 - [BGE20Text](https://github.com/TomEvin/BGE20Text) - Command-line .NET tool that unpacks and repacks the text `.pak` files (for example `Text-en_US.pak`) of Beyond Good & Evil - 20th Anniversary Edition; tested on PC, PS4 and Switch, not compatible with the original game.
+- [hypekit](https://github.com/eliasehmann/hypekit) - Pure-Python library, CLI and desktop app for Hype: The Time Quest (1999) that browses and exports sounds, dialogue, textures, 3D characters with animations and saves.
+- [jadeview](https://github.com/karozero/jadeview) - Modding tool for Beyond Good & Evil (PC, 2003): asset viewer, scene editor and builder for `sally_clean.bf` BIG archives.
+
+##### Anno 117: Pax Romana
+
+- [anno117-save-tools](https://github.com/andreacw96/anno117-save-tools) - Single-file, dependency-free Python reader for Anno 117 saves (`.a8s`) and game data (`.rda`): per-province JSON (ships, islands, buildings, trade routes), the GUID-to-name map and province map PNGs.
 
 ##### Anno 1800
 
@@ -834,6 +859,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [RDAExplorer](https://github.com/lysanntranvouez/RDAExplorer) - Windows application to read, extract, and save the RDA archive format used by Anno 1404, 2070, and 2205.
 - [rda](https://github.com/metacrito/rda) - Linux command-line extractor for the RDA resource archive format used across the Anno series (versions 2.0 and 2.2, covering Anno 1404/2070/117/1800/2205), documenting the header/block/file-header binary layout.
 - [anno1800-save-tools](https://github.com/EMRECAN-1907/anno1800-save-tools) - Reverse-engineered tooling for Anno 1800 save games (`.a7s`): convert a save to readable XML, edit it, pack it back, or change values via a small GUI.
+
+##### Just Dance
+
+- [jd360-extract](https://github.com/dowerx/jd360-extract) - Go tool that extracts Just Dance Autodance/replay videos (WebM streams) from Xbox 360 STFS CON save containers copied from the console.
 
 #### Toby Fox (Undertale)
 
@@ -924,15 +953,17 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [SaintsRowRebootTools](https://github.com/rgbpanda/SaintsRowRebootTools) - Unpacker and experimental patch tool for Saints Row (2022 reboot), extracting `vpp_pc`/`str2_pc` archives (recursively) and patching game files with tracked mod data.
 - [SR2 Chonker](https://github.com/sevonj/sr2_chonker) - Saints Row 2 city map (chunk file) editor built in Godot, with a companion SR2 Types Rust library of reverse-engineered SR2 data types and a chunk-file research tool.
 - [V Utils](https://github.com/sevonj/v_utils) - Miscellaneous Saints Row 2 tools: a model viewer with limited smesh/cmesh format support and a CLI packfile (un)packer.
+- [RFGM.Formats](https://github.com/rfg-modding/RFGM.Formats) - C# library for reading and writing Red Faction: Guerrilla file formats (packfiles, PEG textures, cpu/gpu mesh pairs and more), with a per-format read/write support table.
 
 ### W
 
-#### Beavis Soft (Wacky Wheels)
-
-- [pc-wackywheels-doc](https://github.com/vs-sr-dev/pc-wackywheels-doc) - Byte-level documentation of the 1994 MS-DOS game Wacky Wheels: the `WACKY.DAT` archive, tiled world, track and sprite formats, fixed-point look-up tables and save/config files, with scripts that reproduce the findings from your own copy.
 #### Walt Disney World Quest
 
 - [WDWRacing-tools](https://github.com/ravenDS/WDWRacing-tools) - Blender plugins for Walt Disney World Quest: Magical Racing Tour (PC/PS1) 3D model formats.
+
+#### Wargame: Red Dragon
+
+- [wgrd-replay](https://github.com/archpc/wgrd-replay) - Python toolkit and format research for decoding `.wargamerpl2` replays: extracts recorded commands, timelines and entity references, keeping original byte offsets.
 
 #### Wario's Woods
 
@@ -1010,6 +1041,10 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [CorrinoEngine](https://github.com/cookgreen/CorrinoEngine) - Open-source C# game engine recreating Emperor: Battle for Dune (2001, Westwood Studios) from its original data files.
 - [Dune_Emperor_Interceptor](https://github.com/TheNuSan/Dune_Emperor_Interceptor) - DirectX call interceptor (built on elishacloud/DirectX-Wrappers) that dumps in-game mesh vertex positions and normals from modified vertex buffers to text files.
 
+##### Lands of Lore II: Guardians of Destiny
+
+- [lands-of-lore-2-re](https://github.com/KForestland/lands-of-lore-2-re) - Documentation of the game's data file formats and rules, with Python tools that read them from your own copy (level pictures, edition identification, unused content notes).
+
 #### Zed Two (Wetrix)
 
 - [wetrix (decomp)](https://github.com/GithubPrankster/wetrix) - Matching decompilation of Wetrix (1998, N64).
@@ -1058,6 +1093,7 @@ See also: [Unreal Engine](engines.md#unreal-engine).
 - [WOTBDVPFormat](https://github.com/Pyogenics/WOTBDVPFormat) - Format documentation for World of Tanks Blitz's `.dvpm`/`.dvpd` pack container files (meta section, file table, LZ4/RFC1951-compressed entries), layered on top of the outer `.dvpl` container.
 - [wotbreplay-parser](https://github.com/eigenein/wotbreplay-parser) - Rust library and crate for parsing World of Tanks Blitz `.wotbreplay` replay files, extracting battle results and player data.
 - [wotbreplay-inspector](https://github.com/eigenein/wotbreplay-inspector) - Rust command-line inspector for World of Tanks Blitz `.wotbreplay` files, built on wotbreplay-parser; dumps battle results and decoded replay packets as JSON.
+- [WoWS-Toolbox](https://github.com/Ch0m1n/WoWS-Toolbox) - Windows app that selects, extracts and assembles ship models from installed World of Warships clients into editable OBJ/MTL, with an offline 3D and armor viewer.
 
 ##### World of Tanks
 
